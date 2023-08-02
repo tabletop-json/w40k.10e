@@ -4,11 +4,6 @@
 ![Last Commit](https://img.shields.io/github/last-commit/tabletop-json/w40k/master)
 ![Issues](https://img.shields.io/github/issues/tabletop-json/w40k)
 
-[//]: # (![Contributors]&#40;https://img.shields.io/github/contributors/tabletop-json/w40k&#41;)
-
-
----
-
 ## What is this?
 This is a repository of datafiles for w40k, made for the community, by the community. Freely available for any to use how they see fit under the GNU GPL.
 
