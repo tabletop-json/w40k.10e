@@ -1,0 +1,1527 @@
+{
+    "config": {
+        "id": "w40k.10e.gk.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.gk",
+        "name": "Grey Knights",
+        "keyword": "GREY KNIGHTS",
+        "enabled": true,
+        "endpoint": "greyKnights.json"
+    },
+    "detachments": [
+        {
+            "id": "w40k.10e.gk.dt.teleportStrikeForce",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Teleport Strike Force",
+            "rule": ""
+        }
+    ],
+    "units": [
+        {
+            "id": "w40k.10e.gk.unit.kaldorDraigo",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Kaldor Draigo",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Kaldor Draigo",
+                    "points": 155,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.grandmasterVoldus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Grandmaster Voldus",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Grandmaster Voldus",
+                    "points": 115,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.grandMaster",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Grand Master",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Grand Master",
+                    "points": 115,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Storm Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Storm Bolter"
+                                },
+                                {
+                                    "name": "Incinerator"
+                                },
+                                {
+                                    "name": "Psilencer"
+                                },
+                                {
+                                    "name": "Psycannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.teleportStrikeForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "First to the Fray",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Domina Liber Daemonica",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Sigil of Exigence",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Inescapable Wrath",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.grandMasterNemesisDreadknight",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Grand Master in Nemesis Dreadknight",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Grand Master in Nemesis Dreadknight",
+                    "points": 245,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Dreadfists"
+                            },
+                            "options": [
+                                {
+                                    "name": "Dreadfists"
+                                },
+                                {
+                                    "name": "Nemesis Daemon Greathammer"
+                                },
+                                {
+                                    "name": "Nemesis Greatsword"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": "Gatling Psilencer"
+                                },
+                                {
+                                    "name": "Heavy Incinerator"
+                                },
+                                {
+                                    "name": "Heavy Psycannon"
+                                },
+                                {
+                                    "name": "Gatling Psilencer, Heavy Incinerator"
+                                },
+                                {
+                                    "name": "Gatling Psilencer, Heavy Psycannon"
+                                },
+                                {
+                                    "name": "Heavy Incinerator, Heavy Psycannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.teleportStrikeForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "First to the Fray",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Domina Liber Daemonica",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Sigil of Exigence",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Inescapable Wrath",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.castellanCrowe",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Castellan Crowe",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Castellan Crowe",
+                    "points": 95,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.stern",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Brother-captain Stern",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Brother-captain Stern",
+                    "points": 110,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.brotherCaptain",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Brother-captain",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Brother-captain",
+                    "points": 95,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Storm Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Storm Bolter"
+                                },
+                                {
+                                    "name": "Incinerator"
+                                },
+                                {
+                                    "name": "Psilencer"
+                                },
+                                {
+                                    "name": "Psycannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.teleportStrikeForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "First to the Fray",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Domina Liber Daemonica",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Sigil of Exigence",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Inescapable Wrath",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.brotherhoodChampion",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Brotherhood Champion",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Brotherhood Champion",
+                    "points": 85,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.teleportStrikeForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "First to the Fray",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Domina Liber Daemonica",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Sigil of Exigence",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Inescapable Wrath",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.brotherhoodLibrarian",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Brotherhood Librarian",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Brotherhood Librarian",
+                    "points": 110,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Storm Bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.teleportStrikeForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "First to the Fray",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Domina Liber Daemonica",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Sigil of Exigence",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Inescapable Wrath",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.brotherhoodTechmarine",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Brotherhood Techmarine",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Brotherhood Techmarine",
+                    "points": 85,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Boltgun"
+                                },
+                                {
+                                    "name": "Bolt Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.teleportStrikeForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "First to the Fray",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Domina Liber Daemonica",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Sigil of Exigence",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Inescapable Wrath",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.brotherhoodChaplain",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Brotherhood Chaplain",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Brotherhood Chaplain",
+                    "points": 90,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.teleportStrikeForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "First to the Fray",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Domina Liber Daemonica",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Sigil of Exigence",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Inescapable Wrath",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.brotherhoodTerminatorSquad",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Brotherhood Terminator Squad",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Brotherhood Terminator, Terminator Justicar",
+                    "amount": 10,
+                    "cost": 450
+                },
+                {
+                    "name": "Brotherhood Terminator, Terminator Justicar",
+                    "amount": 5,
+                    "cost": 225
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Brotherhood Terminator",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Brotherhood Justicar",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Brotherhood Terminator",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Storm Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Storm Bolter"
+                                },
+                                {
+                                    "name": "Storm Bolter, Ancient's Banner"
+                                },
+                                {
+                                    "name": "Incinerator"
+                                },
+                                {
+                                    "name": "Psilencer"
+                                },
+                                {
+                                    "name": "Psycannon"
+                                },
+                                {
+                                    "name": "Narthecium"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Terminator Justicar"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.strikeSquad",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Strike Squad",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Grey Knight, Justicar",
+                    "amount": 10,
+                    "cost": 270
+                },
+                {
+                    "name": "Grey Knight, Justicar",
+                    "amount": 5,
+                    "cost": 135
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Grey Knight",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Justicar",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Grey Knight",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Storm Bolter, Nemesis Force Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Storm Bolter, Nemesis Force Weapon"
+                                },
+                                {
+                                    "name": "Incinerator, Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Psilencer, Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Psycannon, Close Combat Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Justicar"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.paladinSquad",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Paladin Squad",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Paladin, Paragon",
+                    "amount": 10,
+                    "cost": 510
+                },
+                {
+                    "name": "Paladin, Paragon",
+                    "amount": 5,
+                    "cost": 255
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Paladin",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Paragon",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Paladin",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Storm Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Storm Bolter"
+                                },
+                                {
+                                    "name": "Incinerator"
+                                },
+                                {
+                                    "name": "Psilencer"
+                                },
+                                {
+                                    "name": "Psycannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Ancient's Banner"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Paragon"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.purifierSquad",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Purifier Squad",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Purifier, Knight of the Flame",
+                    "amount": 10,
+                    "cost": 300
+                },
+                {
+                    "name": "Purifier, Knight of the Flame",
+                    "amount": 5,
+                    "cost": 150
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Purifier",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Knight of the Flame",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Purifier",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Storm Bolter, Nemesis Force Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Storm Bolter, Nemesis Force Weapon"
+                                },
+                                {
+                                    "name": "Incinerator, Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Psilencer, Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Psycannon, Close Combat Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Knight of the Flame"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.servitors",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Servitors",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Servitor",
+                    "amount": 4,
+                    "cost": 50
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Servitor",
+                    "min": 4,
+                    "max": 4
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Servitor",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Servitor's Servo-arm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Servitor's Servo-arm"
+                                },
+                                {
+                                    "name": "Heavy Bolter, Servitor's Tools"
+                                },
+                                {
+                                    "name": "Multi-melta, Servitor's Tools"
+                                },
+                                {
+                                    "name": "Plasma Cannon, Servitor's Tools"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.venerableDreadnought",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Venerable Dreadnought",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Venerable Dreadnought",
+                    "points": 155,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Assault Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Assault Cannon"
+                                },
+                                {
+                                    "name": "Heavy Plasma Cannon"
+                                },
+                                {
+                                    "name": "Multi-melta"
+                                },
+                                {
+                                    "name": "Twin Lascannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Dreadnought Combat Weapon, Storm Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Dreadnought Combat Weapon, Storm Bolter"
+                                },
+                                {
+                                    "name": "Dreadnought Combat Weapon, Heavy Flamer"
+                                },
+                                {
+                                    "name": "Missile Launcher, Armoured Feet"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.interceptorSquad",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Interceptor Squad",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Interceptor, Interceptor Justicar",
+                    "amount": 10,
+                    "cost": 320
+                },
+                {
+                    "name": "Interceptor, Interceptor Justicar",
+                    "amount": 5,
+                    "cost": 160
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Interceptor",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Interceptor Justicar",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Interceptor",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Storm Bolter, Nemesis Force Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Storm Bolter, Nemesis Force Weapon"
+                                },
+                                {
+                                    "name": "Incinerator, Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Psilencer, Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Psycannon, Close Combat Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Interceptor Justicar"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.purgationSquad",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Purgation Squad",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Purgator, Purgator Justicar",
+                    "amount": 10,
+                    "cost": 320
+                },
+                {
+                    "name": "Purgator, Purgator Justicar",
+                    "amount": 5,
+                    "cost": 190
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Purgator",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Purgator Justicar",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Purgator",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Storm Bolter, Nemesis Force Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Storm Bolter, Nemesis Force Weapon"
+                                },
+                                {
+                                    "name": "Incinerator, Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Psilencer, Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Psycannon, Close Combat Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Purgator Justicar"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.nemesisDreadknight",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Nemesis Dreadknight",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Nemesis Dreadknight",
+                    "points": 215,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Dreadfists"
+                            },
+                            "options": [
+                                {
+                                    "name": "Dreadfists"
+                                },
+                                {
+                                    "name": "Nemesis Daemon Greathammer"
+                                },
+                                {
+                                    "name": "Nemesis Greatsword"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": "Gatling Psilencer"
+                                },
+                                {
+                                    "name": "Heavy Incinerator"
+                                },
+                                {
+                                    "name": "Heavy Psycannon"
+                                },
+                                {
+                                    "name": "Gatling Psilencer, Heavy Incinerator"
+                                },
+                                {
+                                    "name": "Gatling Psilencer, Heavy Psycannon"
+                                },
+                                {
+                                    "name": "Heavy Incinerator, Heavy Psycannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.landRaider",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Land Raider",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Land Raider",
+                    "points": 270,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Hunter-killer Missile"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Multi-melta"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Storm Bolter"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.landRaiderCrusader",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Land Raider Crusader",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Land Raider Crusader",
+                    "points": 250,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Hunter-killer Missile"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Multi-melta"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Storm Bolter"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.landRaiderRedeemer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Land Raider Redeemer",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Land Raider Redeemer",
+                    "points": 290,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Hunter-killer Missile"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Multi-melta"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Storm Bolter"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.rhino",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Rhino",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Rhino",
+                    "points": 80,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Hunter-killer Missile"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Storm Bolter"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.razorback",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Razorback",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Razorback",
+                    "points": 95,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Heavy Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Heavy Bolter"
+                                },
+                                {
+                                    "name": "Twin Assault Cannon"
+                                },
+                                {
+                                    "name": "Twin Lascannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Hunter-killer Missile"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Storm Bolter"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.stormhawkInterceptor",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Stormhawk Interceptor",
+            "role": "AIRCRAFT",
+            "models": [
+                {
+                    "name": "Stormhawk Interceptor",
+                    "points": 160,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Las-talon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Las-talon"
+                                },
+                                {
+                                    "name": "Icarus Stormcannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Skyhammer Missile Launcher"
+                            },
+                            "options": [
+                                {
+                                    "name": "Skyhammer Missile Launcher"
+                                },
+                                {
+                                    "name": "Twin Heavy Bolter"
+                                },
+                                {
+                                    "name": "Typhoon Missile Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.stormtalonGunship",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Stormtalon Gunship",
+            "role": "AIRCRAFT",
+            "models": [
+                {
+                    "name": "Stormtalon Gunship",
+                    "points": 170,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Skyhammer Missile Launcher"
+                            },
+                            "options": [
+                                {
+                                    "name": "Skyhammer Missile Launcher"
+                                },
+                                {
+                                    "name": "Twin Heavy Bolter"
+                                },
+                                {
+                                    "name": "Typhoon Missile Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.stormravenGunship",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Stormraven Gunship",
+            "role": "AIRCRAFT",
+            "models": [
+                {
+                    "name": "Stormraven Gunship",
+                    "points": 265,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Assault Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Assault Cannon"
+                                },
+                                {
+                                    "name": "Twin Heavy Plasma Cannon"
+                                },
+                                {
+                                    "name": "Twin Lascannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Typhoon Missile Launcher"
+                            },
+                            "options": [
+                                {
+                                    "name": "Typhoon Missile Launcher"
+                                },
+                                {
+                                    "name": "Twin Heavy Bolter"
+                                },
+                                {
+                                    "name": "Twin Multi-melta"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "2x Hurricane Bolter"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.landRaiderBanisher",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Land Raider Banisher",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Land Raider Banisher",
+                    "points": 255,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Hunter-killer Missile"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Multi-melta"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Storm Bolter"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gk.unit.thunderhawkGunship",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Thunderhawk Gunship",
+            "role": "AIRCRAFT",
+            "models": [
+                {
+                    "name": "Thunderhawk Gunship",
+                    "points": 805,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Thunderhawk Heavy Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Thunderhawk Heavy Cannon"
+                                },
+                                {
+                                    "name": "Turbo-laser Destructor"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Thunderhawk Cluster Bombs"
+                            },
+                            "options": [
+                                {
+                                    "name": "Thunderhawk Cluster Bombs"
+                                },
+                                {
+                                    "name": "Hellstrike Missile Battery"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

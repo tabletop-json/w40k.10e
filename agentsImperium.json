@@ -1,0 +1,786 @@
+{
+    "config": {
+        "id": "w40k.10e.agt.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.agt",
+        "name": "Agents of the Imperium",
+        "enabled": false,
+        "endpoint": "agentsImperium.json"
+    },
+    "units": [
+        {
+            "id": "w40k.10e.agt.unit.vindicare",
+            "type": "unit",
+            "rulesetId": "w40k.10e.agt",
+            "name": "Vindicare Assassin",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Vindicare Assassin",
+                    "points": 80
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.agt.unit.culexus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.agt",
+            "name": "Culexus Assassin",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Culexus Assassin",
+                    "points": 85
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.agt.unit.eversor",
+            "type": "unit",
+            "rulesetId": "w40k.10e.agt",
+            "name": "Eversor Assassin",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Eversor Assassin",
+                    "points": 75
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.agt.unit.callidus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.agt",
+            "name": "Callidus Assassin",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Callidus Assassin",
+                    "points": 115
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.agt.unit.rogueTraderEntourage",
+            "type": "unit",
+            "rulesetId": "w40k.10e.agt",
+            "name": "Rogue Trader Entourage",
+            "role": "CHARACTER",
+            "points": [
+                {
+                    "name": "Rogue Trader, Rogue Trader Specialist",
+                    "amount": 4,
+                    "cost": 105
+                }
+            ],
+            "models": [
+                {
+                    "name": "Rogue Trader",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Rogue Trader Specialist"
+                },
+                {
+                    "name": "Rogue Trader Specialist"
+                },
+                {
+                    "name": "Rogue Trader Specialist"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.agt.unit.voidsmenAtArms",
+            "type": "unit",
+            "rulesetId": "w40k.10e.agt",
+            "name": "Voidsmen-at-Arms",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Canid, Voidsman, Voidmaster",
+                    "amount": 10,
+                    "cost": 80
+                },
+                {
+                    "name": "Voidsman, Voidmaster",
+                    "amount": 5,
+                    "cost": 40
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Voidsman",
+                    "min": 4,
+                    "max": 8
+                },
+                {
+                    "type": "model",
+                    "name": "Voidmaster",
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "type": "model",
+                    "name": "Canid",
+                    "min": 0,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Voidsman"
+                },
+                {
+                    "name": "Voidmaster"
+                },
+                {
+                    "name": "Canid"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.agt.unit.navyBreachers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.agt",
+            "name": "Imperial Navy Breachers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Navis Armsman, Navis Sergeant-at-Arms",
+                    "amount": 10,
+                    "cost": 105
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Navis Armsman",
+                    "min": 9,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Navis Sergeant-at-Arms",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Navis Armsman",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Navis Shotgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Navis Shotgun"
+                                },
+                                {
+                                    "name": "Navis Heavy Shotgun, Endurant Shield"
+                                },
+                                {
+                                    "name": "Navis Las-volley"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plasma Gun"
+                                },
+                                {
+                                    "name": "Autopistol, Power Weapon"
+                                },
+                                {
+                                    "name": "Autopistol, Chainfist"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Demoliton Charge and Grenade Belts"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Navis Sergeant-at-Arms",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Navis Shotgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Navis Shotgun"
+                                },
+                                {
+                                    "name": "Autopistol, Chainsword"
+                                },
+                                {
+                                    "name": "Bolt Pistol, Power Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.agt.unit.subductorSquad",
+            "type": "unit",
+            "rulesetId": "w40k.10e.agt",
+            "name": "Subductor Squad",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Cyber-Mastiff, Subductor, Proctor-Subductor",
+                    "amount": 11,
+                    "cost": 110
+                },
+                {
+                    "name": "Subductor, Proctor-Subductor",
+                    "amount": 10,
+                    "cost": 110
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Subductor",
+                    "min": 9,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Proctor-Subductor",
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "type": "model",
+                    "name": "Cyber-Mastiff",
+                    "min": 0,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Subductor"
+                },
+                {
+                    "name": "Proctor-Subductor",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Nuncio Aquila"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Cyber-Mastiff"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.agt.unit.exactionSquad",
+            "type": "unit",
+            "rulesetId": "w40k.10e.agt",
+            "name": "Exaction Squad",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Cyber-Mastiff, Exaction Vigilant, Proctor-Exactant",
+                    "amount": 11,
+                    "cost": 75
+                },
+                {
+                    "name": "Cyber-Mastiff, Exaction Vigilant, Proctor-Exactant",
+                    "amount": 10,
+                    "cost": 75
+                },
+                {
+                    "name": "Exaction Vigilant, Proctor-Exactant",
+                    "amount": 5,
+                    "cost": 35
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Exaction Vigilant",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Proctor-Exactant",
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "type": "model",
+                    "name": "Cyber-Mastiff",
+                    "min": 0,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Cyber-Mastiff"
+                },
+                {
+                    "name": "Exaction Vigilant",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Arbites Combat Shotgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Arbites Combat Shotgun"
+                                },
+                                {
+                                    "name": "Executioner Shotgun"
+                                },
+                                {
+                                    "name": "Arbites Grenade Launcher"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Webber"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Excruciator Maul"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Arbites Medi-kit"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Soulguilt Scanner"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Proctor-Exactant",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Nuncio Aquila"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.agt.unit.vigilantSquad",
+            "type": "unit",
+            "rulesetId": "w40k.10e.agt",
+            "name": "Vigilant Squad",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Cyber-Mastiff, Vigilant, Proctor-Vigilant",
+                    "amount": 11,
+                    "cost": 105
+                },
+                {
+                    "name": "Vigilant, Proctor-Vigilant",
+                    "amount": 10,
+                    "cost": 105
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Vigilant",
+                    "min": 9,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Proctor-Vigilant",
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "type": "model",
+                    "name": "Cyber-Mastiff",
+                    "min": 0,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Cyber-Mastiff"
+                },
+                {
+                    "name": "Vigilant",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Arbites Combat Shotgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Arbites Combat Shotgun"
+                                },
+                                {
+                                    "name": "Executioner Shotgun"
+                                },
+                                {
+                                    "name": "Arbites Grenade Launcher"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Webber"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Proctor-Vigilant",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Nuncio Aquila"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.agt.unit.inquisitorKyriaDraxus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.agt",
+            "name": "Inquisitor Kyria Draxus",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Inquisitor Kyria Draxus",
+                    "points": 75,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.agt.unit.inquisitorCoteaz",
+            "type": "unit",
+            "rulesetId": "w40k.10e.agt",
+            "name": "Inquisitor Coteaz",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Inquisitor Coteaz",
+                    "points": 75,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.agt.unit.inquisitorGreyfax",
+            "type": "unit",
+            "rulesetId": "w40k.10e.agt",
+            "name": "Inquisitor Greyfax",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Inquisitor Greyfax",
+                    "points": 65,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.agt.unit.inquisitorKaramazov",
+            "type": "unit",
+            "rulesetId": "w40k.10e.agt",
+            "name": "Inquisitor Karamazov",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Inquisitor Karamazov",
+                    "points": 130,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.agt.unit.inquisitor",
+            "type": "unit",
+            "rulesetId": "w40k.10e.agt",
+            "name": "Inquisitor",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Inquisitor",
+                    "points": 55,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Blessed Wardings"
+                            },
+                            "options": [
+                                {
+                                    "name": "Blessed Wardings"
+                                },
+                                {
+                                    "name": "Psychic Gifts, Psychic Shock Wave"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Inquisitorial Melee Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Inquisitorial Melee Weapon"
+                                },
+                                {
+                                    "name": "Force Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.agt.unit.inquisitorEisenhorn",
+            "type": "unit",
+            "rulesetId": "w40k.10e.agt",
+            "name": "Inquisitor Eisenhorn",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Inquisitor Eisenhorn",
+                    "points": 65,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.agt.unit.inquisitoralHenchmen",
+            "type": "unit",
+            "rulesetId": "w40k.10e.agt",
+            "name": "Inquisitorial Henchmen",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Inquisitorial Acolyte, Gun Servitor, Mystic",
+                    "amount": 14,
+                    "cost": 140
+                },
+                {
+                    "name": "Inquisitorial Acolyte",
+                    "amount": 10,
+                    "cost": 100
+                },
+                {
+                    "name": "Inquisitorial Acolyte, Gun Servitor, Mystic",
+                    "amount": 6,
+                    "cost": 60
+                },
+                {
+                    "name": "Inquisitorial Acolyte",
+                    "amount": 4,
+                    "cost": 40
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Inquisitorial Acolyte",
+                    "min": 4,
+                    "max": 10
+                },
+                {
+                    "type": "model",
+                    "name": "Gun Servitor",
+                    "min": 0,
+                    "max": 2
+                },
+                {
+                    "type": "model",
+                    "name": "Mystic",
+                    "min": 0,
+                    "max": 2
+                },
+                {
+                    "type": "model",
+                    "name": "Jokaero Weaponsmith",
+                    "min": 0,
+                    "max": 1
+                },
+                {
+                    "type": "model",
+                    "name": "Daemonhost",
+                    "min": 0,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Inquisitorial Acolyte",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Plasma Pistol"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Eviscerator"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Gun Servitor",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Bolter"
+                                },
+                                {
+                                    "name": "Multi-melta"
+                                },
+                                {
+                                    "name": "Plasma Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Mystic"
+                },
+                {
+                    "name": "Jokaero Weaponsmith",
+                    "points": 10
+                },
+                {
+                    "name": "Daemonhost",
+                    "points": 10
+                }
+            ]
+        }
+    ]
+}

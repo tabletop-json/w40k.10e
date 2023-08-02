@@ -1,0 +1,1268 @@
+{
+    "config": {
+        "id": "w40k.10e.cst.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.cst",
+        "name": "Adeptus Custodes",
+        "keyword": "ADEPTUS CUSTODES",
+        "enabled": true,
+        "endpoint": "custodes.json"
+    },
+    "detachments": [
+        {
+            "id": "w40k.10e.cst.dt.shieldHost",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Shield Host",
+            "rule": ""
+        }
+    ],
+    "units": [
+        {
+            "id": "w40k.10e.cst.unit.custodianGuard",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Custodian Guard",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Custodian Guard",
+                    "amount": 4,
+                    "cost": 180
+                },
+                {
+                    "name": "Custodian Guard",
+                    "amount": 5,
+                    "cost": 225
+                },
+                {
+                    "name": "Custodian Guard",
+                    "amount": 9,
+                    "cost": 405
+                },
+                {
+                    "name": "Custodian Guard",
+                    "amount": 10,
+                    "cost": 450
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Custodian Guard",
+                    "min": 4,
+                    "max": 10
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Custodian Guard",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Guardian Spear"
+                            },
+                            "options": [
+                                {
+                                    "name": "Guardian Spear"
+                                },
+                                {
+                                    "name": "Sentinel Blade, Praesidium Shield"
+                                },
+                                {
+                                    "name": "Vexilla, Misericordia"
+                                },
+                                {
+                                    "name": "Vexilla, Misericordia, Praesidium Shield"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.custodianWarden",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Custodian Warden",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Custodian Warden",
+                    "amount": 6,
+                    "cost": 300
+                },
+                {
+                    "name": "Custodian Warden",
+                    "amount": 3,
+                    "cost": 150
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Custodian Warden",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Custodian Warden",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Guardian Spear"
+                            },
+                            "options": [
+                                {
+                                    "name": "Guardian Spear"
+                                },
+                                {
+                                    "name": "Castellan Axe"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Vexilla"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.allarusCustodians",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Allarus Custodians",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Allarus Custodian",
+                    "amount": 6,
+                    "cost": 390
+                },
+                {
+                    "name": "Allarus Custodian",
+                    "amount": 5,
+                    "cost": 325
+                },
+                {
+                    "name": "Allarus Custodian",
+                    "amount": 3,
+                    "cost": 195
+                },
+                {
+                    "name": "Allarus Custodian",
+                    "amount": 2,
+                    "cost": 130
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Allarus Custodian",
+                    "min": 2,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Allarus Custodian",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Guardian Spear"
+                            },
+                            "options": [
+                                {
+                                    "name": "Guardian Spear"
+                                },
+                                {
+                                    "name": "Castellan Axe"
+                                },
+                                {
+                                    "name": "Vexilla, Misericordia"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.vertusPraetors",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Vertus Praetors",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Vertus Praetor",
+                    "amount": 6,
+                    "cost": 540
+                },
+                {
+                    "name": "Vertus Praetor",
+                    "amount": 5,
+                    "cost": 450
+                },
+                {
+                    "name": "Vertus Praetor",
+                    "amount": 3,
+                    "cost": 270
+                },
+                {
+                    "name": "Vertus Praetor",
+                    "amount": 2,
+                    "cost": 180
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Vertus Praetor",
+                    "min": 2,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Vertus Praetor",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Salvo Launcher"
+                            },
+                            "options": [
+                                {
+                                    "name": "Salvo Launcher"
+                                },
+                                {
+                                    "name": "Vertus Hurricane Bolter"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.prosecutors",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Prosecutors",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Prosecutor, Prosecutor Sister Superior",
+                    "amount": 10,
+                    "cost": 100
+                },
+                {
+                    "name": "Prosecutor, Prosecutor Sister Superior",
+                    "amount": 9,
+                    "cost": 90
+                },
+                {
+                    "name": "Prosecutor, Prosecutor Sister Superior",
+                    "amount": 5,
+                    "cost": 50
+                },
+                {
+                    "name": "Prosecutor, Prosecutor Sister Superior",
+                    "amount": 4,
+                    "cost": 40
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Prosecutor",
+                    "min": 3,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Prosecutor Sister Superior",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Prosecutor"
+                },
+                {
+                    "name": "Prosecutor Sister Superior"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.vigilator",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Vigilators",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Vigilator, Vigilator Sister Superior",
+                    "amount": 10,
+                    "cost": 150
+                },
+                {
+                    "name": "Vigilator, Vigilator Sister Superior",
+                    "amount": 9,
+                    "cost": 135
+                },
+                {
+                    "name": "Vigilator, Vigilator Sister Superior",
+                    "amount": 5,
+                    "cost": 75
+                },
+                {
+                    "name": "Vigilator, Vigilator Sister Superior",
+                    "amount": 4,
+                    "cost": 60
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Vigilator",
+                    "min": 3,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Vigilator Sister Superior",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Vigilator"
+                },
+                {
+                    "name": "Vigilator Sister Superior"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.witchseekers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Witchseekers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Witchseeker, Witchseeker Sister Superior",
+                    "amount": 10,
+                    "cost": 150
+                },
+                {
+                    "name": "Witchseeker, Witchseeker Sister Superior",
+                    "amount": 9,
+                    "cost": 135
+                },
+                {
+                    "name": "Witchseeker, Witchseeker Sister Superior",
+                    "amount": 5,
+                    "cost": 75
+                },
+                {
+                    "name": "Witchseeker, Witchseeker Sister Superior",
+                    "amount": 4,
+                    "cost": 60
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Witchseeker",
+                    "min": 3,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Witchseeker Sister Superior",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Witchseeker"
+                },
+                {
+                    "name": "Witchseeker Sister Superior"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.shieldCaptain",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Shield-captain",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Shield-captain",
+                    "points": 120,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Guardian Spear"
+                            },
+                            "options": [
+                                {
+                                    "name": "Guardian Spear"
+                                },
+                                {
+                                    "name": "Castellan Axe"
+                                },
+                                {
+                                    "name": "Sentinel Blade"
+                                },
+                                {
+                                    "name": "Sentinel Blade, Praesidium Shield"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.cst.dt.shieldHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "UnstoppableDestroyer",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Inspirational Exemplar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Veiled Blade",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Ceaseless Hunter",
+                                    "points": 30
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.bladeChampion",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Blade Champion",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Blade Champion",
+                    "points": 100,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.cst.dt.shieldHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "UnstoppableDestroyer",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Inspirational Exemplar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Veiled Blade",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Ceaseless Hunter",
+                                    "points": 30
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.aleya",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Aleya",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Aleya",
+                    "points": 80,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.psykanaRhino",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Anathema Psykana Rhino",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Anathema Psykana Rhino",
+                    "points": 75,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Hunter-killer Missile"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.knightCentura",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Knight-centura",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Knight-centura",
+                    "points": 75,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Executioner Greatblade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Executioner Greatblade"
+                                },
+                                {
+                                    "name": "Master-crafted Boltgun"
+                                },
+                                {
+                                    "name": "Witchseeker Flamer"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.shieldCaptainTerminatorArmour",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Shield-captain in Allarus Terminator Armour",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Shield-captain in Allarus Terminator Armour",
+                    "points": 120,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Guardian Spear"
+                            },
+                            "options": [
+                                {
+                                    "name": "Guardian Spear"
+                                },
+                                {
+                                    "name": "Castellan Axe"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.cst.dt.shieldHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "UnstoppableDestroyer",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Inspirational Exemplar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Veiled Blade",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Ceaseless Hunter",
+                                    "points": 30
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.shieldCaptainDawneagleJetbike",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Shield-captain on Dawneagle Jetbike",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Shield-captain on Dawneagle Jetbike",
+                    "points": 145,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Salvo Launcher"
+                            },
+                            "options": [
+                                {
+                                    "name": "Salvo Launcher"
+                                },
+                                {
+                                    "name": "Vertus Hurricane Bolter"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.cst.dt.shieldHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "UnstoppableDestroyer",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Inspirational Exemplar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Veiled Blade",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Ceaseless Hunter",
+                                    "points": 30
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.trajanValoris",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Trajan Valoris",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Trajan Valoris",
+                    "points": 145,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.valerian",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Valerian",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Valerian",
+                    "points": 115,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.venerableContemptorDreadnought",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Venerable Contemptor Dreadnought",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Venerable Contemptor Dreadnought",
+                    "points": 185,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Multi-melta"
+                            },
+                            "options": [
+                                {
+                                    "name": "Multi-melta"
+                                },
+                                {
+                                    "name": "Kheres-pattern Assault Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.venerableLandRaider",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Venerable Land Raider",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Venerable Land Raider",
+                    "points": 260,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Hunter-killer Missile"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Storm Bolter"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.custodianGuardSpears",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Custodian Guard with Adrasite/Pyrithite Spears",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Custodian Guard",
+                    "amount": 5,
+                    "cost": 325
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Custodian Guard",
+                    "min": 5,
+                    "max": 5
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Custodian Guard",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Adrasite Spear"
+                            },
+                            "options": [
+                                {
+                                    "name": "Adrasite Spear"
+                                },
+                                {
+                                    "name": "Pyrithite Spear"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.saggitarumCustodians",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Saggitarum Custodians",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Saggitarum Custodian",
+                    "amount": 5,
+                    "cost": 250
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Saggitarum Custodian",
+                    "min": 5,
+                    "max": 5
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Saggitarum Custodian"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.aquilonCustodians",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Aquilon Custodians",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Aquilon Custodian",
+                    "amount": 6,
+                    "cost": 460
+                },
+                {
+                    "name": "Aquilon Custodian",
+                    "amount": 3,
+                    "cost": 230
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Aquilon Custodian",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Aquilon Custodian",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Lastrum Storm Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Lastrum Storm Bolter"
+                                },
+                                {
+                                    "name": "Infernus Firepike"
+                                },
+                                {
+                                    "name": "Twin Adrathic Destructor"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Solerite Power Gauntlet"
+                            },
+                            "options": [
+                                {
+                                    "name": "Solerite Power Gauntlet"
+                                },
+                                {
+                                    "name": "Solerite Power Talon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.contemptorAchillusDreadnought",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Contemptor-Achillus Dreadnought",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Contemptor-Achillus Dreadnought",
+                    "points": 155,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Lastrum Storm Bolter, Lastrum Storm Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Lastrum Storm Bolter, Lastrum Storm Bolter"
+                                },
+                                {
+                                    "name": "Infernus Incinerator, Infernus Incinerator"
+                                },
+                                {
+                                    "name": "Twin Adrathic Destructor, Twin Adrathic Destructor"
+                                },
+                                {
+                                    "name": "Lastrum Storm Bolter, Infernus Incinerator"
+                                },
+                                {
+                                    "name": "Lastrum Storm Bolter, Twin Adrathic Destructor"
+                                },
+                                {
+                                    "name": "Infernus Incinerator, Twin Adrathic Destructor"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.agamatusCustodians",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Agamatus Custodians",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Agamatus Custodian",
+                    "amount": 6,
+                    "cost": 560
+                },
+                {
+                    "name": "Agamatus Custodian",
+                    "amount": 3,
+                    "cost": 280
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Agamatus Custodian",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Agamatus Custodian",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Lastrum Bolt Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Lastrum Storm Bolter"
+                                },
+                                {
+                                    "name": "Adrathic Devastator"
+                                },
+                                {
+                                    "name": "Twin Las-pulsar"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.venatariCustodians",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Venatari Custodians",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Venatari Custodian",
+                    "amount": 6,
+                    "cost": 470
+                },
+                {
+                    "name": "Venatari Custodian",
+                    "amount": 3,
+                    "cost": 235
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Venatari Custodian",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Venatari Custodian",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Venatari Lance"
+                            },
+                            "options": [
+                                {
+                                    "name": "Venatari Lance"
+                                },
+                                {
+                                    "name": "Kinetic Destroyer, Tarsus Buckler"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.pallasGravAttack",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Pallas Grav-Attack",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Pallas Grav-Attack",
+                    "points": 120
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.telemon",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Telemon Heavy Dreadnought",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Telemon Heavy Dreadnought",
+                    "points": 235,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Iliastus Accelerator Culverin"
+                            },
+                            "options": [
+                                {
+                                    "name": "Iliastus Accelerator Culverin"
+                                },
+                                {
+                                    "name": "Arachnus Storm Cannon"
+                                },
+                                {
+                                    "name": "Telemon Caestus, Twin Plasma Projector"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Iliastus Accelerator Culverin"
+                            },
+                            "options": [
+                                {
+                                    "name": "Iliastus Accelerator Culverin"
+                                },
+                                {
+                                    "name": "Arachnus Storm Cannon"
+                                },
+                                {
+                                    "name": "Telemon Caestus, Twin Plasma Projector"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.caladiusGravTank",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Caladius Grav-Tank",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Caladius Grav-Tank",
+                    "points": 215,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Iliastus Accelerator Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Iliastus Accelerator Cannon"
+                                },
+                                {
+                                    "name": "Twin Arachnus Heavy Blaze Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.coronusGravCarrier",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Coronus Grav-Carrier",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Coronus Grav-Carrier",
+                    "points": 200
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.orionAssaultDropship",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Orion Assault Dropship",
+            "role": "AIRCRAFT",
+            "models": [
+                {
+                    "name": "Orion Assault Dropship",
+                    "points": 690
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.aresGunship",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Ares Gunship",
+            "role": "AIRCRAFT",
+            "models": [
+                {
+                    "name": "Ares Gunship",
+                    "points": 580
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.contemptorGalatusDreadnought",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Contemptor-Galatus Dreadnought",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Contemptor-Galatus Dreadnought",
+                    "points": 175
+                }
+            ]
+        }
+    ]
+}

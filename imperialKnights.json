@@ -1,0 +1,1324 @@
+{
+    "config": {
+        "id": "w40k.10e.ik.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.ik",
+        "name": "Imperial Knights",
+        "keyword": "IMPERIAL KNIGHTS",
+        "enabled": true,
+        "endpoint": "imperialKnights.json"
+    },
+    "detachments": [
+        {
+            "id": "w40k.10e.ik.dt.lance",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.ck",
+            "name": "Noble Lance"
+        }
+    ],
+    "units": [
+        {
+            "id": "w40k.10e.ik.unit.helverin",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "name": "Armiger Helverin",
+            "role": "BATTLELINE",
+            "models": [
+                {
+                    "name": "Armiger Helverin",
+                    "points": 145,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Questoris Heavy Stubber"
+                            },
+                            "options": [
+                                {
+                                    "name": "Questoris Heavy Stubber"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.warglaive",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "name": "Armiger Warglaive",
+            "role": "BATTLELINE",
+            "models": [
+                {
+                    "name": "Armiger Warglaive",
+                    "points": 140,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Questoris Heavy Stubber"
+                            },
+                            "options": [
+                                {
+                                    "name": "Questoris Heavy Stubber"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.paladin",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "name": "Knight Paladin",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Knight Paladin",
+                    "points": 450,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Reaper Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Reaper Chainsword"
+                                },
+                                {
+                                    "name": "Thunderstrike Gauntlet"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Meltagun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Questoris Heavy Stubber"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Icarus Autocannons"
+                                },
+                                {
+                                    "name": "Ironstorm Missile Pod"
+                                },
+                                {
+                                    "name": "Stormspear Rocket Pod"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.lance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Revered Knight (Aura)",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mysterious Guardian",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Mythic Hero",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Banner of Macharius Triumphant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Unyielding Paragon",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.errant",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "name": "Knight Errant",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Knight Errant",
+                    "points": 430,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Reaper Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Reaper Chainsword"
+                                },
+                                {
+                                    "name": "Thunderstrike Gauntlet"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Meltagun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Questoris Heavy Stubber"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Icarus Autocannons"
+                                },
+                                {
+                                    "name": "Ironstorm Missile Pod"
+                                },
+                                {
+                                    "name": "Stormspear Rocket Pod"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.lance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Revered Knight (Aura)",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mysterious Guardian",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Mythic Hero",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Banner of Macharius Triumphant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Unyielding Paragon",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.gallant",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "name": "Knight Gallant",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Knight Gallant",
+                    "points": 400,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Meltagun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Questoris Heavy Stubber"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Icarus Autocannons"
+                                },
+                                {
+                                    "name": "Ironstorm Missile Pod"
+                                },
+                                {
+                                    "name": "Stormspear Rocket Pod"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.lance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Revered Knight (Aura)",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mysterious Guardian",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Mythic Hero",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Banner of Macharius Triumphant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Unyielding Paragon",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.warden",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "name": "Knight Warden",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Knight Warden",
+                    "points": 480,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Reaper Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Reaper Chainsword"
+                                },
+                                {
+                                    "name": "Thunderstrike Gauntlet"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Meltagun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Questoris Heavy Stubber"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Icarus Autocannons"
+                                },
+                                {
+                                    "name": "Ironstorm Missile Pod"
+                                },
+                                {
+                                    "name": "Stormspear Rocket Pod"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.lance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Revered Knight (Aura)",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mysterious Guardian",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Mythic Hero",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Banner of Macharius Triumphant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Unyielding Paragon",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.crusader",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "name": "Knight Crusader",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Knight Crusader",
+                    "points": 475,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Thermal Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Thermal Cannon"
+                                },
+                                {
+                                    "name": "Rapid-fire Battle Cannon, Questoris Heavy Stubber"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Meltagun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Questoris Heavy Stubber"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Icarus Autocannons"
+                                },
+                                {
+                                    "name": "Ironstorm Missile Pod"
+                                },
+                                {
+                                    "name": "Stormspear Rocket Pod"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.lance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Revered Knight (Aura)",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mysterious Guardian",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Mythic Hero",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Banner of Macharius Triumphant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Unyielding Paragon",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.preceptor",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "name": "Knight Preceptor",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Knight Preceptor",
+                    "points": 430,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Reaper Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Reaper Chainsword"
+                                },
+                                {
+                                    "name": "Thunderstrike Gauntlet"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Multi-laser"
+                            },
+                            "options": [
+                                {
+                                    "name": "Multi-laser"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Questoris Heavy Stubber"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Icarus Autocannons"
+                                },
+                                {
+                                    "name": "Ironstorm Missile Pod"
+                                },
+                                {
+                                    "name": "Stormspear Rocket Pod"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.lance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Revered Knight (Aura)",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mysterious Guardian",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Mythic Hero",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Banner of Macharius Triumphant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Unyielding Paragon",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.castellan",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "name": "Knight Castellan",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Knight Castellan",
+                    "points": 565,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "2 Shieldbreaker Missle Launchers, Twin Siegebreaker Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "2 Shieldbreaker Missle Launchers, Twin Siegebreaker Cannon"
+                                },
+                                {
+                                    "name": "Shieldbreaker Missle Launcher, 2 Twin Siegebreaker Cannons"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.lance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Revered Knight (Aura)",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mysterious Guardian",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Mythic Hero",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Banner of Macharius Triumphant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Unyielding Paragon",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.valiant",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "name": "Knight Valiant",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Knight Valiant",
+                    "points": 565,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "2 Shieldbreaker Missle Launchers, Twin Siegebreaker Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "2 Shieldbreaker Missle Launchers, Twin Siegebreaker Cannon"
+                                },
+                                {
+                                    "name": "Shieldbreaker Missle Launcher, 2 Twin Siegebreaker Cannons"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.lance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Revered Knight (Aura)",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mysterious Guardian",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Mythic Hero",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Banner of Macharius Triumphant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Unyielding Paragon",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.canisRex",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "name": "Canis Rex",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Canis Rex",
+                    "points": 490,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.acastusKnightAsterius",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "name": "Acastus Knight Asterius",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Acastus Knight Asterius",
+                    "points": 840
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.acastusKnightPorphyrion",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "name": "Acastus Knight Porphyrion",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Acastus Knight Porphyrion",
+                    "points": 745,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Acastus Autocannon, Acastus Autocannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Acastus Autocannon, Acastus Autocannon"
+                                },
+                                {
+                                    "name": "Lascannon, Lascannon"
+                                },
+                                {
+                                    "name": "Acastus Autocannon, Lascannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Ironstorm Missile Pod"
+                            },
+                            "options": [
+                                {
+                                    "name": "Ironstorm Missile Pod"
+                                },
+                                {
+                                    "name": "Helios Defence Missiles"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.cerastusKnightLancer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "name": "Cerastus Knight Lancer",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Cerastus Knight Lancer",
+                    "points": 495,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.lance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Revered Knight (Aura)",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mysterious Guardian",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Mythic Hero",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Banner of Macharius Triumphant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Unyielding Paragon",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.cerastusKnightCastigator",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "name": "Cerastus Knight Castigator",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Cerastus Knight Castigator",
+                    "points": 485,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.lance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Revered Knight (Aura)",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mysterious Guardian",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Mythic Hero",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Banner of Macharius Triumphant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Unyielding Paragon",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.cerastusKnightAcheron",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "name": "Cerastus Knight Acheron",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Cerastus Knight Acheron",
+                    "points": 445,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.lance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Revered Knight (Aura)",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mysterious Guardian",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Mythic Hero",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Banner of Macharius Triumphant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Unyielding Paragon",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.cerastusKnightAtrapos",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "name": "Cerastus Knight Atrapos",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Cerastus Knight Atrapos",
+                    "points": 440,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.lance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Revered Knight (Aura)",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mysterious Guardian",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Mythic Hero",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Banner of Macharius Triumphant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Unyielding Paragon",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.questorisKnightMagaera",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "name": "Questoris Knight Magaera",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Questoris Knight Magaera",
+                    "points": 450,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Reaper Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Reaper Chainsword"
+                                },
+                                {
+                                    "name": "Hekaton Siege Claw, Twin Rad Cleanser"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.lance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Revered Knight (Aura)",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mysterious Guardian",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Mythic Hero",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Banner of Macharius Triumphant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Unyielding Paragon",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.questorisKnightStyrix",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "name": "Questoris Knight Styrix",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Questoris Knight Styrix",
+                    "points": 490,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Reaper Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Reaper Chainsword"
+                                },
+                                {
+                                    "name": "Hekaton Siege Claw, Twin Rad Cleanser"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.lance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Revered Knight (Aura)",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mysterious Guardian",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Mythic Hero",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Banner of Macharius Triumphant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Unyielding Paragon",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.armigerMoirax",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "name": "Armiger Moirax",
+            "role": "BATTLELINE",
+            "models": [
+                {
+                    "name": "Armiger Moirax",
+                    "points": 170,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Volkite Veuglaire"
+                            },
+                            "options": [
+                                {
+                                    "name": "Siege Claw, Rad Cleanser"
+                                },
+                                {
+                                    "name": "Graviton Pulsar"
+                                },
+                                {
+                                    "name": "Lightning Lock"
+                                },
+                                {
+                                    "name": "Conversion Beam Cannon"
+                                },
+                                {
+                                    "name": "Volkite Veuglaire"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Graviton Pulsar"
+                            },
+                            "options": [
+                                {
+                                    "name": "Siege Claw, Rad Cleanser"
+                                },
+                                {
+                                    "name": "Graviton Pulsar"
+                                },
+                                {
+                                    "name": "Lightning Lock"
+                                },
+                                {
+                                    "name": "Conversion Beam Cannon"
+                                },
+                                {
+                                    "name": "Volkite Veuglaire"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

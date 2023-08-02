@@ -1,0 +1,1632 @@
+{
+    "config": {
+        "id": "w40k.10e.nid.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.nid",
+        "name": "Tyranids",
+        "keyword": "TYRANIDS",
+        "enabled": true,
+        "endpoint": "tyranids.json"
+    },
+    "detachments": [
+        {
+            "id": "w40k.10e.nid.dt.invasionFleet",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Invasion Fleet"
+        }
+    ],
+    "units": [
+        {
+            "id": "w40k.10e.nid.unit.wingedHiveTyrant",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Winged Hive Tyrant",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Winged Hive Tyrant",
+                    "points": 195,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Monstrous Boneword, Lash Whip"
+                            },
+                            "options": [
+                                {
+                                    "name": "Monstrous Boneword, Lash Whip"
+                                },
+                                {
+                                    "name": "Heavy Venom Cannon"
+                                },
+                                {
+                                    "name": "Stranglethorn Cannon"
+                                },
+                                {
+                                    "name": "Monstrous Scything Talons"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nid.dt.invasionFleet",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Alien Cunning",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Perfectly Adapted",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Synaptic Linchpin",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Adaptive Biology",
+                                    "points": 25
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.hiveTyrant",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Hive Tyrant",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Hive Tyrant",
+                    "points": 220,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Monstrous Boneword, Lash Whip"
+                            },
+                            "options": [
+                                {
+                                    "name": "Monstrous Boneword, Lash Whip"
+                                },
+                                {
+                                    "name": "Heavy Venom Cannon"
+                                },
+                                {
+                                    "name": "Stranglethorn Cannon"
+                                },
+                                {
+                                    "name": "Monstrous Scything Talons"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Monstrous Scything Talons"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Venom Cannon"
+                                },
+                                {
+                                    "name": "Stranglethorn Cannon"
+                                },
+                                {
+                                    "name": "Monstrous Scything Talons"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nid.dt.invasionFleet",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Alien Cunning",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Perfectly Adapted",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Synaptic Linchpin",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Adaptive Biology",
+                                    "points": 25
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.swarmlord",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "The Swarmlord",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "The Swarmlord",
+                    "points": 250,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.broodlord",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Broodlord",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Broodlord",
+                    "points": 100,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nid.dt.invasionFleet",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Alien Cunning",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Perfectly Adapted",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Synaptic Linchpin",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Adaptive Biology",
+                                    "points": 25
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.wingedTyranidPrime",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Winged Tyranid Prime",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Winged Tyranid Prime",
+                    "points": 80,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nid.dt.invasionFleet",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Alien Cunning",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Perfectly Adapted",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Synaptic Linchpin",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Adaptive Biology",
+                                    "points": 25
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.tervigon",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Tervigon",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Tervigon",
+                    "points": 200,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Massive Scything Talons"
+                            },
+                            "options": [
+                                {
+                                    "name": "Massive Scything Talons"
+                                },
+                                {
+                                    "name": "Massive Crushing Claws"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nid.dt.invasionFleet",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Alien Cunning",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Perfectly Adapted",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Synaptic Linchpin",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Adaptive Biology",
+                                    "points": 25
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.oldOneEye",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Old One Eye",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Old One Eye",
+                    "points": 140,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.tyranidWarriorsRanged",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Tyranid Warriors with Ranged Bio-Weapons",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Tyranid Warrior, Tyranid Prime",
+                    "amount": 6,
+                    "cost": 140
+                },
+                {
+                    "name": "Tyranid Warrior, Tyranid Prime",
+                    "amount": 3,
+                    "cost": 70
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Tyranid Warrior",
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "type": "model",
+                    "name": "Tyranid Prime",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Tyranid Warrior",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Devourer"
+                            },
+                            "options": [
+                                {
+                                    "name": "Devourer"
+                                },
+                                {
+                                    "name": "Deathspitter"
+                                },
+                                {
+                                    "name": "Spinefists"
+                                },
+                                {
+                                    "name": "Barbed Strangler"
+                                },
+                                {
+                                    "name": "Venom Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Tyranid Prime",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Devourer"
+                            },
+                            "options": [
+                                {
+                                    "name": "Devourer"
+                                },
+                                {
+                                    "name": "Deathspitter"
+                                },
+                                {
+                                    "name": "Spinefists"
+                                },
+                                {
+                                    "name": "Barbed Strangler"
+                                },
+                                {
+                                    "name": "Venom Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.tyranidWarriorsMelee",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Tyranid Warriors with Melee Bio-Weapons",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Tyranid Warrior, Tyranid Prime",
+                    "amount": 6,
+                    "cost": 180
+                },
+                {
+                    "name": "Tyranid Warrior, Tyranid Prime",
+                    "amount": 3,
+                    "cost": 90
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Tyranid Warrior",
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "type": "model",
+                    "name": "Tyranid Prime",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Tyranid Warrior"
+                },
+                {
+                    "name": "Tyranid Prime"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.termagants",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Termagants",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Termagant",
+                    "amount": 20,
+                    "cost": 120
+                },
+                {
+                    "name": "Termagant",
+                    "amount": 10,
+                    "cost": 60
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Termagant",
+                    "min": 10,
+                    "max": 20
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Termagant"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.hormagaunts",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Hormagaunts",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Hormagaunt",
+                    "amount": 20,
+                    "cost": 140
+                },
+                {
+                    "name": "Hormagaunt",
+                    "amount": 10,
+                    "cost": 70
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Hormagaunt",
+                    "min": 10,
+                    "max": 20
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Hormagaunt"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.gargoyles",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Gargoyles",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Gargoyle",
+                    "amount": 20,
+                    "cost": 150
+                },
+                {
+                    "name": "Gargoyle",
+                    "amount": 10,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Gargoyle",
+                    "min": 10,
+                    "max": 20
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Gargoyle"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.toxicrene",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Toxicrene",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Toxicrene",
+                    "points": 200
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.tyrantGuard",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Tyrant Guard",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Tyrant Guard",
+                    "amount": 6,
+                    "cost": 150
+                },
+                {
+                    "name": "Tyrant Guard",
+                    "amount": 3,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Tyrant Guard",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Tyrant Guard",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Scything Talons, Rending Claws"
+                            },
+                            "options": [
+                                {
+                                    "name": "Scything Talons, Rending Claws"
+                                },
+                                {
+                                    "name": "Bone Cleaver, Lash Whip, Rending Claws"
+                                },
+                                {
+                                    "name": "Crushing Claws, Rending Claws"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.neurotyrant",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Neurotyrant",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Neurotyrant",
+                    "points": 105,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nid.dt.invasionFleet",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Alien Cunning",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Perfectly Adapted",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Synaptic Linchpin",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Adaptive Biology",
+                                    "points": 25
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.lictor",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Lictor",
+            "role": "INFANTRY",
+            "models": [
+                {
+                    "name": "Lictor",
+                    "points": 75
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.deathleaper",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Deathleaper",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Deathleaper",
+                    "points": 80,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.maleceptor",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Maleceptor",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Maleceptor",
+                    "points": 165
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.pyrovores",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Pyrovores",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Pyrovore",
+                    "amount": 3,
+                    "cost": 90
+                },
+                {
+                    "name": "Pyrovore",
+                    "amount": 2,
+                    "cost": 60
+                },
+                {
+                    "name": "Pyrovore",
+                    "amount": 1,
+                    "cost": 30
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Pyrovore",
+                    "min": 1,
+                    "max": 3
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Pyrovore"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.haruspex",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Haruspex",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Haruspex",
+                    "points": 125
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.venomthropes",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Venomthropes",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Venomthrope",
+                    "amount": 6,
+                    "cost": 140
+                },
+                {
+                    "name": "Venomthrope",
+                    "amount": 3,
+                    "cost": 70
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Venomthrope",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Venomthrope"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.vonRyansLeapers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Von Ryan's Leapers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Von Ryan's Leaper",
+                    "amount": 6,
+                    "cost": 150
+                },
+                {
+                    "name": "Von Ryan's Leaper",
+                    "amount": 3,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Von Ryan's Leaper",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Von Ryan's Leaper"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.neurogaunts",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Neurogaunts",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Neurogaunt, Neurogaunt Nodebeast",
+                    "amount": 22,
+                    "cost": 90
+                },
+                {
+                    "name": "Neurogaunt, Neurogaunt Nodebeast",
+                    "amount": 11,
+                    "cost": 45
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Neurogaunt",
+                    "min": 10,
+                    "max": 20
+                },
+                {
+                    "type": "model",
+                    "name": "Neurogaunt Nodebeast",
+                    "min": 1,
+                    "max": 2
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Neurogaunt"
+                },
+                {
+                    "name": "Neurogaunt Nodebeast"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.zoanthropes",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Zoanthropes",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Zoanthrope, Neurothrope",
+                    "amount": 6,
+                    "cost": 180
+                },
+                {
+                    "name": "Zoanthrope, Neurothrope",
+                    "amount": 3,
+                    "cost": 90
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Zoanthrope",
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "type": "model",
+                    "name": "Neurothrope",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Zoanthrope"
+                },
+                {
+                    "name": "Neurothrope"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.genestealers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Genestealers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Genestealer",
+                    "amount": 10,
+                    "cost": 180
+                },
+                {
+                    "name": "Genestealer",
+                    "amount": 5,
+                    "cost": 90
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Genestealer",
+                    "min": 5,
+                    "max": 10
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Genestealer"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.raveners",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Raveners",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Ravener",
+                    "amount": 6,
+                    "cost": 150
+                },
+                {
+                    "name": "Ravener",
+                    "amount": 3,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Ravener",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Ravener",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Thoracic Bio-weapon"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.ripperSwarms",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Ripper Swarms",
+            "role": "SWARM",
+            "points": [
+                {
+                    "name": "Ripper Swarm",
+                    "amount": 6,
+                    "cost": 70
+                },
+                {
+                    "name": "Ripper Swarm",
+                    "amount": 3,
+                    "cost": 35
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Ripper Swarm",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Ripper Swarm",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Spinemaw"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.parasiteMortrex",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Parasite of Mortrex",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Parasite of Mortrex",
+                    "points": 90,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nid.dt.invasionFleet",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Alien Cunning",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Perfectly Adapted",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Synaptic Linchpin",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Adaptive Biology",
+                                    "points": 25
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.mawloc",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Mawloc",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Mawloc",
+                    "points": 145
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.trygon",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Trygon",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Trygon",
+                    "points": 180
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.mucolidSpores",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Mucolid Spores",
+            "role": "BEAST",
+            "points": [
+                {
+                    "name": "Mucolid Spore",
+                    "amount": 2,
+                    "cost": 90
+                },
+                {
+                    "name": "Mucolid Spore",
+                    "amount": 1,
+                    "cost": 45
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Mucolid Spore",
+                    "min": 1,
+                    "max": 2
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Mucolid Spore"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.sporeMines",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Spore Mines",
+            "role": "BEAST",
+            "points": [
+                {
+                    "name": "Spore Mine",
+                    "amount": 6,
+                    "cost": 90
+                },
+                {
+                    "name": "Spore Mine",
+                    "amount": 3,
+                    "cost": 45
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Spore Mine",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Spore Mine"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.exocrine",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Exocrine",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Exocrine",
+                    "points": 135
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.biovores",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Biovores",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Biovore",
+                    "amount": 3,
+                    "cost": 195
+                },
+                {
+                    "name": "Biovore",
+                    "amount": 2,
+                    "cost": 130
+                },
+                {
+                    "name": "Biovore",
+                    "amount": 1,
+                    "cost": 65
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Biovore",
+                    "min": 1,
+                    "max": 3
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Biovore"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.carnifexes",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Carnifexes",
+            "role": "MONSTER",
+            "points": [
+                {
+                    "name": "Carnifex",
+                    "amount": 2,
+                    "cost": 250
+                },
+                {
+                    "name": "Carnifex",
+                    "amount": 1,
+                    "cost": 125
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Carnifex",
+                    "min": 1,
+                    "max": 2
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Carnifex",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Carnifex Extra Scything Talons"
+                            },
+                            "options": [
+                                {
+                                    "name": "Carnifex Extra Scything Talons"
+                                },
+                                {
+                                    "name": "Deathspitters with Slimer Maggots"
+                                },
+                                {
+                                    "name": "Devourers with Brainleech Worms"
+                                },
+                                {
+                                    "name": "Heavy Venom Cannon"
+                                },
+                                {
+                                    "name": "Stranglethorn Cannon"
+                                },
+                                {
+                                    "name": "Carnifex Crushing Claws"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Carnifex Scything Talons"
+                            },
+                            "options": [
+                                {
+                                    "name": "Deathspitters with Slimer Maggots"
+                                },
+                                {
+                                    "name": "Devourers with Brainleech Worms"
+                                },
+                                {
+                                    "name": "Carnifex Crushing Claws"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Bio-plasma"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Spine Banks"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.screamerKiller",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Screamer-Killer",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Screamer-Killer",
+                    "points": 180
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.hiveGuard",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Hive Guard",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Hive Guard",
+                    "amount": 6,
+                    "cost": 200
+                },
+                {
+                    "name": "Hive Guard",
+                    "amount": 3,
+                    "cost": 100
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Hive Guard",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Hive Guard",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shockcannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shockcannon"
+                                },
+                                {
+                                    "name": "Impaler Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.tyrannofex",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Tyrannofex",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Tyrannofex",
+                    "points": 200,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Fleshborer Hive"
+                            },
+                            "options": [
+                                {
+                                    "name": "Fleshborer Hive"
+                                },
+                                {
+                                    "name": "Acid Spray"
+                                },
+                                {
+                                    "name": "Rupture Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.tyrannocyte",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Tyrannocyte",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Tyrannocyte",
+                    "points": 105
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.hiveCrone",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Hive Crone",
+            "role": "AIRCRAFT",
+            "models": [
+                {
+                    "name": "Hive Crone",
+                    "points": 200
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.harpy",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Harpy",
+            "role": "AIRCRAFT",
+            "models": [
+                {
+                    "name": "Harpy",
+                    "points": 230,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Stranglethorn Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Stranglethorn Cannon"
+                                },
+                                {
+                                    "name": "Twin Heavy Venom Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.sporocyst",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Sporocyst",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Sporocyst",
+                    "points": 145
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.psychophage",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Psychophage",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Psychophage",
+                    "points": 125
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.barbgaunts",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Barbgaunts",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Barbgaunt",
+                    "amount": 10,
+                    "cost": 100
+                },
+                {
+                    "name": "Barbgaunt",
+                    "amount": 5,
+                    "cost": 50
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Barbgaunt",
+                    "min": 5,
+                    "max": 10
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Barbgaunt"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.barbedHierodule",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Barbed Hierodule",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Barbed Hierodule",
+                    "points": 305
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.scythedHierodule",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Scythed Hierodule",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Scythed Hierodule",
+                    "points": 305
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.harridan",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Harridan",
+            "role": "AIRCRAFT",
+            "models": [
+                {
+                    "name": "Harridan",
+                    "points": 655
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nid.unit.hierophant",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Hierophant",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Hierophant",
+                    "points": 810
+                }
+            ]
+        }
+    ]
+}

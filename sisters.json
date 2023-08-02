@@ -1,0 +1,1985 @@
+{
+    "config": {
+        "id": "w40k.10e.sis.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.sis",
+        "name": "Sisters of Battle",
+        "keyword": "ADEPTA SORORITAS",
+        "enabled": true,
+        "endpoint": "sisters.json"
+    },
+    "detachments": [
+        {
+            "id": "w40k.10e.sis.dt.hallowedMartyrs",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Hallowed Martyrs",
+            "rule": ""
+        }
+    ],
+    "units": [
+        {
+            "id": "w40k.10e.sis.unit.morvennVahl",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Morvenn Vahl",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Morvenn Vahl",
+                    "points": 135,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.canoness",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Canoness",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Canoness",
+                    "points": 60,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Condemnor Boltgun"
+                                },
+                                {
+                                    "name": "Inferno Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Chainsword"
+                                },
+                                {
+                                    "name": "Blessed Blade"
+                                },
+                                {
+                                    "name": "Power Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Brazier of Holy Fire"
+                                },
+                                {
+                                    "name": "Null Rod"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Rod of Office"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.hallowedMartyrs",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Saintly Example",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Blade of Saint Ellynor",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Litanies of Faith",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mantle of Ophelia",
+                                    "points": 30
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.palatine",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Palatine",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Palatine",
+                    "points": 55,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.hallowedMartyrs",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Saintly Example",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Blade of Saint Ellynor",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Litanies of Faith",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mantle of Ophelia",
+                                    "points": 30
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.junithEruita",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Junith Eruita",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Junith Eruita",
+                    "points": 100,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.missionary",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Missionary",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Missionary",
+                    "points": 35,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Power Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Power Weapon"
+                                },
+                                {
+                                    "name": "Autogun, Chainsword"
+                                },
+                                {
+                                    "name": "Ministorum Shotgun, Chainsword"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.hallowedMartyrs",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Saintly Example",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Blade of Saint Ellynor",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Litanies of Faith",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mantle of Ophelia",
+                                    "points": 30
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.saintCelestine",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Saint Celestine",
+            "role": "CHARACTER",
+            "points": [
+                {
+                    "name": "Saint Celestine, Geminae Superior",
+                    "amount": 3,
+                    "cost": 150
+                }
+            ],
+            "models": [
+                {
+                    "name": "Saint Celestine",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Geminae Superior"
+                },
+                {
+                    "name": "Geminae Superior"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.triumphSaintKatherine",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Triumph of Saint Katherine",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Triumph of Saint Katherine",
+                    "points": 150,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.triumphSaintKatherine",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Daemonifuge",
+            "role": "CHARACTER",
+            "points": [
+                {
+                    "name": "Ephrael Stern, Kyganil of the Bloody Tears",
+                    "amount": 2,
+                    "cost": 80
+                }
+            ],
+            "models": [
+                {
+                    "name": "Ephrael Stern",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Kyganil of the Bloody Tears",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.battleSistersSquad",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Battle Sisters Squad",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Battle Sister, Sister Superior",
+                    "amount": 10,
+                    "cost": 110
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Battle Sister",
+                    "min": 9,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Sister Superior",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Battle Sister",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Boltgun"
+                                },
+                                {
+                                    "name": "Artificer-crafted Storm Bolter"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Ministorum Flamer"
+                                },
+                                {
+                                    "name": "Boltgun"
+                                },
+                                {
+                                    "name": "Heavy Bolter"
+                                },
+                                {
+                                    "name": "Ministorum Heavy Flamer"
+                                },
+                                {
+                                    "name": "Multi-melta"
+                                },
+                                {
+                                    "name": "Boltgun, Simulacrum Imperialis"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Sister Superior",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Boltgun"
+                                },
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                },
+                                {
+                                    "name": "Condemnor Boltgun"
+                                },
+                                {
+                                    "name": "Inferno Pistol"
+                                },
+                                {
+                                    "name": "Ministorum Hand Flamer"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chainsword"
+                                },
+                                {
+                                    "name": "Power Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.sistersNovitiateSquad",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Sisters Novitiate Squad",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Sisters Novitiate, Novitiate Superior",
+                    "amount": 10,
+                    "cost": 90
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Sisters Novitiate",
+                    "min": 9,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Novitiate Superior",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Sister Novitiate",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Autogun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autogun"
+                                },
+                                {
+                                    "name": "Sacred Banner"
+                                },
+                                {
+                                    "name": "Simulacrum Imperialis"
+                                },
+                                {
+                                    "name": "Ministorum Flamer"
+                                },
+                                {
+                                    "name": "Novitiate Melee Weapons"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Novitiate Superior",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol, Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol, Boltgun"
+                                },
+                                {
+                                    "name": "Bolt Pistol, Power Weapon"
+                                },
+                                {
+                                    "name": "Plasma Pistol, Power Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.aestredThurgaAndAgathaeDolan",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Aestred Thurga and Agathae Dolan",
+            "role": "CHARACTER",
+            "points": [
+                {
+                    "name": "Aestred Thurga, Agathae Dolan",
+                    "amount": 2,
+                    "cost": 70
+                }
+            ],
+            "models": [
+                {
+                    "name": "Aestred Thurga",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Agathae Dolan",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.imagifier",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Imagifier",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Imagifier",
+                    "points": 40,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.hallowedMartyrs",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Saintly Example",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Blade of Saint Ellynor",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Litanies of Faith",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mantle of Ophelia",
+                                    "points": 30
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.dialogus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Dialogus",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Dialogus",
+                    "points": 35,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.hallowedMartyrs",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Saintly Example",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Blade of Saint Ellynor",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Litanies of Faith",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mantle of Ophelia",
+                                    "points": 30
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.preacher",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Preacher",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Preacher",
+                    "points": 45,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.hallowedMartyrs",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Saintly Example",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Blade of Saint Ellynor",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Litanies of Faith",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mantle of Ophelia",
+                                    "points": 30
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.preacher",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Preacher",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Preacher",
+                    "points": 45,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Zealot's Vindicator"
+                            },
+                            "options": [
+                                {
+                                    "name": "Zealot's Vindicator"
+                                },
+                                {
+                                    "name": "Autopistol, Chainsword"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.hallowedMartyrs",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Saintly Example",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Blade of Saint Ellynor",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Litanies of Faith",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mantle of Ophelia",
+                                    "points": 30
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.celestianSacresants",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Celestian Sacresants",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Celestian Sacresant, Sacresant Superior",
+                    "amount": 10,
+                    "cost": 130
+                },
+                {
+                    "name": "Celestian Sacresant, Sacresant Superior",
+                    "amount": 5,
+                    "cost": 65
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Celestian Sacresant",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Sacresant Superior",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Celestian Sacresant",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Hallowed Mace"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hallowed Mace"
+                                },
+                                {
+                                    "name": "Anointed Halberd"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Sacresant Superior",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Inferno Pistol"
+                                },
+                                {
+                                    "name": "Ministorum Hand Flamer"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Hallowed Mace"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hallowed Mace"
+                                },
+                                {
+                                    "name": "Anointed Halberd"
+                                },
+                                {
+                                    "name": "Spear of the Faithful"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.hospitaler",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Hospitaler",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Hospitaler",
+                    "points": 40,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.hallowedMartyrs",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Saintly Example",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Blade of Saint Ellynor",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Litanies of Faith",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mantle of Ophelia",
+                                    "points": 30
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.dogmata",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Dogmata",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Dogmata",
+                    "points": 50,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.hallowedMartyrs",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Saintly Example",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Blade of Saint Ellynor",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Litanies of Faith",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mantle of Ophelia",
+                                    "points": 30
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.paragonWarsuits",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Paragon Warsuits",
+            "role": "VEHICLE",
+            "points": [
+                {
+                    "name": "Paragon, Paragon Superior",
+                    "amount": 3,
+                    "cost": 240
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Paragon",
+                    "min": 2,
+                    "max": 2
+                },
+                {
+                    "type": "model",
+                    "name": "Paragon Superior",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Paragon",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Paragon War Blade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Paragon War Blade"
+                                },
+                                {
+                                    "name": "Paragon War Mace"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Bolter"
+                                },
+                                {
+                                    "name": "Ministorum Heavy Flamer"
+                                },
+                                {
+                                    "name": "Multi-melta"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Paragon Storm Bolters"
+                            },
+                            "options": [
+                                {
+                                    "name": "Paragon Storm Bolters"
+                                },
+                                {
+                                    "name": "Paragon Grenade Launchers"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Paragon Superior",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Paragon War Blade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Paragon War Blade"
+                                },
+                                {
+                                    "name": "Paragon War Mace"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Bolter"
+                                },
+                                {
+                                    "name": "Ministorum Heavy Flamer"
+                                },
+                                {
+                                    "name": "Multi-melta"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Paragon Storm Bolters"
+                            },
+                            "options": [
+                                {
+                                    "name": "Paragon Storm Bolters"
+                                },
+                                {
+                                    "name": "Paragon Grenade Launchers"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.repentiaSquad",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Repentia Squad",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Sister Repentia, Repentia Superior",
+                    "amount": 10,
+                    "cost": 150
+                },
+                {
+                    "name": "Sister Repentia, Repentia Superior",
+                    "amount": 5,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Sister Repentia",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Repentia Superior",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Sister Repentia"
+                },
+                {
+                    "name": "Repentia Superior"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.crusaders",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Crusaders",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Crusader",
+                    "amount": 6,
+                    "cost": 60
+                },
+                {
+                    "name": "Crusader",
+                    "amount": 4,
+                    "cost": 40
+                },
+                {
+                    "name": "Crusader",
+                    "amount": 2,
+                    "cost": 20
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Crusader",
+                    "min": 2,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Crusader"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.deathCultAssassins",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Death Cult Assassins",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Death Cult Assassin",
+                    "amount": 6,
+                    "cost": 105
+                },
+                {
+                    "name": "Death Cult Assassin",
+                    "amount": 4,
+                    "cost": 70
+                },
+                {
+                    "name": "Death Cult Assassin",
+                    "amount": 2,
+                    "cost": 35
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Death Cult Assassin",
+                    "min": 2,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Death Cult Assassin"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.dominionSquad",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Dominion Squad",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Dominion, Dominion Superior",
+                    "amount": 10,
+                    "cost": 130
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Dominion",
+                    "min": 9,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Dominion Superior",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Dominion",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Boltgun"
+                                },
+                                {
+                                    "name": "Artificer-crafted Storm Bolter"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Ministorum Flamer"
+                                },
+                                {
+                                    "name": "Boltgun, Simulacrum Imperialis"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Dominion Superior",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Boltgun"
+                                },
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                },
+                                {
+                                    "name": "Condemnor Boltgun"
+                                },
+                                {
+                                    "name": "Inferno Pistol"
+                                },
+                                {
+                                    "name": "Ministorum Hand Flamer"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chainsword"
+                                },
+                                {
+                                    "name": "Power Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.seraphimSquad",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Seraphim Squad",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Seraphim, Seraphim Superior",
+                    "amount": 10,
+                    "cost": 140
+                },
+                {
+                    "name": "Seraphim, Seraphim Superior",
+                    "amount": 5,
+                    "cost": 70
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Seraphim",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Seraphim Superior",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Seraphim",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "2 Bolt Pistols"
+                            },
+                            "options": [
+                                {
+                                    "name": "2 Bolt Pistols"
+                                },
+                                {
+                                    "name": "2 Inferno Pistols"
+                                },
+                                {
+                                    "name": "2 Ministorum Hand Flamer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Seraphim Superior",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "2 Bolt Pistols"
+                            },
+                            "options": [
+                                {
+                                    "name": "2 Bolt Pistols"
+                                },
+                                {
+                                    "name": "Bolt Pistol, Chainsword"
+                                },
+                                {
+                                    "name": "Bolt Pistol, Plasma Pistol"
+                                },
+                                {
+                                    "name": "Bolt Pistol, Power Weapon"
+                                },
+                                {
+                                    "name": "Plasma Pistol, Chainsword"
+                                },
+                                {
+                                    "name": "Plasma Pistol, Power Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.zephyrimSquad",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Zephyrim Squad",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Zephyrim, Zephyrim Superior",
+                    "amount": 10,
+                    "cost": 140
+                },
+                {
+                    "name": "Zephyrim, Zephyrim Superior",
+                    "amount": 5,
+                    "cost": 70
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Zephyrim",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Zephyrim Superior",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Zephyrim"
+                },
+                {
+                    "name": "Zephyrim Superior",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Sacred Banner"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.retributorSquad",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Retributor Squad",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Retributor, Retributor Superior",
+                    "amount": 5,
+                    "cost": 130
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Retributor",
+                    "min": 4,
+                    "max": 4
+                },
+                {
+                    "type": "model",
+                    "name": "Retributor Superior",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Retributor",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Bolter"
+                                },
+                                {
+                                    "name": "Ministorum Heavy Flamer"
+                                },
+                                {
+                                    "name": "Multi-melta"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Retributor Superior",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Boltgun"
+                                },
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                },
+                                {
+                                    "name": "Condemnor Boltgun"
+                                },
+                                {
+                                    "name": "Inferno Pistol"
+                                },
+                                {
+                                    "name": "Ministorum Hand Flamer"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chainsword"
+                                },
+                                {
+                                    "name": "Power Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.mortifiers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Mortifiers",
+            "role": "VEHICLE",
+            "points": [
+                {
+                    "name": "Mortifier",
+                    "amount": 2,
+                    "cost": 120
+                },
+                {
+                    "name": "Mortifier",
+                    "amount": 1,
+                    "cost": 60
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Mortifier",
+                    "min": 1,
+                    "max": 2
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Mortifier",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "2 Heavy Bolters"
+                            },
+                            "options": [
+                                {
+                                    "name": "2 Heavy Bolters"
+                                },
+                                {
+                                    "name": "Heavy Bolter, Mortifier Flamer"
+                                },
+                                {
+                                    "name": "2 Mortifier Flamers"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Penitent Buzz-blades"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Penitent Buzz-blades"
+                                },
+                                {
+                                    "name": "Twin Penitent Flails"
+                                },
+                                {
+                                    "name": "Penitent Buzz-blade, Penitent Flail"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Anchorite Sarcophagus"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.penitentEngines",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Penitent Engines",
+            "role": "VEHICLE",
+            "points": [
+                {
+                    "name": "Penitent Engine",
+                    "amount": 2,
+                    "cost": 120
+                },
+                {
+                    "name": "Penitent Engine",
+                    "amount": 1,
+                    "cost": 60
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Penitent Engine",
+                    "min": 1,
+                    "max": 2
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Penitent Engine",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Penitent Buzz-blades"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Penitent Buzz-blades"
+                                },
+                                {
+                                    "name": "Twin Penitent Flails"
+                                },
+                                {
+                                    "name": "Penitent Buzz-blade, Penitent Flail"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.exorcist",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Exorcist",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Exorcist",
+                    "points": 140,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Exorcist Missile Launcher"
+                            },
+                            "options": [
+                                {
+                                    "name": "Exorcist Missile Launcher"
+                                },
+                                {
+                                    "name": "Exorcist Conflagration Rockets"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Hunter-killer Missile"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.castigator",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Castigator",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Castigator",
+                    "points": 150,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Castigator Autocannons"
+                            },
+                            "options": [
+                                {
+                                    "name": "Castigator Autocannons"
+                                },
+                                {
+                                    "name": "Castigator Battle Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Hunter-killer Missile"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Storm Bolter"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.sororitasRhino",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Sororitas Rhino",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Sororitas Rhino",
+                    "points": 80,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Hunter-killer Missile"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.immolator",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Immolator",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Immolator",
+                    "points": 130,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Immolation Flamers"
+                            },
+                            "options": [
+                                {
+                                    "name": "Immolation Flamers"
+                                },
+                                {
+                                    "name": "Twin Heavy Bolter"
+                                },
+                                {
+                                    "name": "Twin Multi-melta"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Hunter-killer Missile"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.arcoFlagellants",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Arco-Flagellants",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Arco-Flagellant",
+                    "amount": 10,
+                    "cost": 150
+                },
+                {
+                    "name": "Arco-Flagellant",
+                    "amount": 3,
+                    "cost": 45
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Arco-Flagellant",
+                    "min": 3,
+                    "max": 10
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Arco-Flagellant"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,305 @@
+{
+    "config": {
+        "id": "w40k.10e.tit.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.tit",
+        "name": "Titans",
+        "enabled": true,
+        "endpoint": "titans.json"
+    },
+    "detachments": [
+        {
+            "id": "w40k.10e.tit.dt.titanDetachment",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.tit",
+            "name": "Titan Detachment"
+        }
+    ],
+    "units": [
+        {
+            "id": "w40k.10e.tit.unit.warhound",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tit",
+            "name": "Warhound Titan",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Warhound Titan",
+                    "points": 1100,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Warhound Plasma Blastgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Warhound Plasma Blastgun"
+                                },
+                                {
+                                    "name": "Warhound Inferno Gun"
+                                },
+                                {
+                                    "name": "Warhound Turbo-laser Destructor"
+                                },
+                                {
+                                    "name": "Warhound Vulcan Mega-bolter"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Warhound Vulcan Mega-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Warhound Plasma Blastgun"
+                                },
+                                {
+                                    "name": "Warhound Inferno Gun"
+                                },
+                                {
+                                    "name": "Warhound Turbo-laser Destructor"
+                                },
+                                {
+                                    "name": "Warhound Vulcan Mega-bolter"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tit.unit.reaver",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tit",
+            "name": "Reaver Titan",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Reaver Titan",
+                    "points": 2200,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Reaver Gatling Blaster"
+                            },
+                            "options": [
+                                {
+                                    "name": "Reaver Gatling Blaster"
+                                },
+                                {
+                                    "name": "Reaver Laser Blaster"
+                                },
+                                {
+                                    "name": "Reaver Melta Cannon"
+                                },
+                                {
+                                    "name": "Reaver Volcano Cannon"
+                                },
+                                {
+                                    "name": "Reaver Power Fist"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Reaver Gatling Blaster"
+                            },
+                            "options": [
+                                {
+                                    "name": "Reaver Gatling Blaster"
+                                },
+                                {
+                                    "name": "Reaver Laser Blaster"
+                                },
+                                {
+                                    "name": "Reaver Melta Cannon"
+                                },
+                                {
+                                    "name": "Reaver Volcano Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tit.unit.warbringerNemesis",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tit",
+            "name": "Warbringer Nemesis Titan",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Warbringer Nemesis Titan",
+                    "points": 2600,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Nemesis Quake Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Nemesis Quake Cannon"
+                                },
+                                {
+                                    "name": "Nemesis Volcano Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Reaver Gatling Blaster"
+                            },
+                            "options": [
+                                {
+                                    "name": "Reaver Gatling Blaster"
+                                },
+                                {
+                                    "name": "Reaver Laser Blaster"
+                                },
+                                {
+                                    "name": "Reaver Melta Cannon"
+                                },
+                                {
+                                    "name": "Reaver Volcano Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Reaver Gatling Blaster"
+                            },
+                            "options": [
+                                {
+                                    "name": "Reaver Gatling Blaster"
+                                },
+                                {
+                                    "name": "Reaver Laser Blaster"
+                                },
+                                {
+                                    "name": "Reaver Melta Cannon"
+                                },
+                                {
+                                    "name": "Reaver Volcano Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tit.unit.warlord",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tit",
+            "name": "Warlord Titan",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Warlord Titan",
+                    "points": 3500,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Arioch Power Claw"
+                            },
+                            "options": [
+                                {
+                                    "name": "Arioch Power Claw"
+                                },
+                                {
+                                    "name": "Belicosa Volcano Cannon"
+                                },
+                                {
+                                    "name": "Macro Gatling Blaster"
+                                },
+                                {
+                                    "name": "Mori Quake Cannon"
+                                },
+                                {
+                                    "name": "Sunfury Plasma Annihilator"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Macro Gatling Blaster"
+                            },
+                            "options": [
+                                {
+                                    "name": "Arioch Power Claw"
+                                },
+                                {
+                                    "name": "Belicosa Volcano Cannon"
+                                },
+                                {
+                                    "name": "Macro Gatling Blaster"
+                                },
+                                {
+                                    "name": "Mori Quake Cannon"
+                                },
+                                {
+                                    "name": "Sunfury Plasma Annihilator"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Apocalypse Launcher, Apocalypse Launcher"
+                            },
+                            "options": [
+                                {
+                                    "name": "Apocalypse Launcher, Apocalypse Launcher"
+                                },
+                                {
+                                    "name": "Laser Blaster, Laser Blaster"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1517 @@
+{
+    "config": {
+        "id": "w40k.10e.adm.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.adm",
+        "name": "Adeptus Mechanicus",
+        "keyword": "ADEPTUS MECHANICUS",
+        "enabled": true,
+        "endpoint": "adeptusMechanicus.json"
+    },
+    "detachments": [
+        {
+            "id": "w40k.10e.adm.dt.radCohort",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Rad-Cohort",
+            "rule": ""
+        }
+    ],
+    "units": [
+        {
+            "id": "w40k.10e.adm.unit.archaeopterFusilave",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Archaeopter Fusilave",
+            "role": "AIRCRAFT",
+            "models": [
+                {
+                    "name": "Archaeopter Fusilave",
+                    "points": 160,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Command Uplink"
+                            },
+                            "options": [
+                                {
+                                    "name": "Command Uplink"
+                                },
+                                {
+                                    "name": "Chaff Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.archaeopterStratoraptor",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Archaeopter Stratoraptor",
+            "role": "AIRCRAFT",
+            "models": [
+                {
+                    "name": "Archaeopter Stratoraptor",
+                    "points": 165,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Command Uplink"
+                            },
+                            "options": [
+                                {
+                                    "name": "Command Uplink"
+                                },
+                                {
+                                    "name": "Chaff Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.archaeopterTransvector",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Archaeopter Transvector",
+            "role": "AIRCRAFT",
+            "models": [
+                {
+                    "name": "Archaeopter Transvector",
+                    "points": 155,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Command Uplink"
+                            },
+                            "options": [
+                                {
+                                    "name": "Command Uplink"
+                                },
+                                {
+                                    "name": "Chaff Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.belisariusCawl",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Belisarius Cawl",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Belisarius Cawl",
+                    "points": 155,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.corpuscariiElectroPriests",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Corpuscarii Electro-Priests",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Corpuscarii Electro-Priest",
+                    "amount": 10,
+                    "cost": 130
+                },
+                {
+                    "name": "Corpuscarii Electro-Priest",
+                    "amount": 5,
+                    "cost": 65
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Corpuscarii Electro-Priest",
+                    "min": 5,
+                    "max": 10
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Corpuscarii Electro-Priest"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.cyberneticaDatasmith",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Cybernetica Datasmith",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Cybernetica Datasmith",
+                    "points": 35,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.radCohort",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archived Purge Protocols",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Excoriating Emanation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master Annihilator",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Omni-sterilizer",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.kastelanRobots",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Kastelan Robots",
+            "role": "VEHICLE",
+            "points": [
+                {
+                    "name": "Kastelan Robot",
+                    "amount": 4,
+                    "cost": 320
+                },
+                {
+                    "name": "Kastelan Robot",
+                    "amount": 2,
+                    "cost": 160
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Kastelan Robot",
+                    "min": 2,
+                    "max": 4
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Kastelan Robot",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Kastelan Fist"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Kastelan Fist"
+                                },
+                                {
+                                    "name": "Kastelan Phosphor Blaster, Kastelan Fist"
+                                },
+                                {
+                                    "name": "Twin Kastelan Phosphor Blaster, Close Combat Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Incendine Combustor"
+                            },
+                            "options": [
+                                {
+                                    "name": "Incendine Combustor"
+                                },
+                                {
+                                    "name": "Heavy Phosphor Blaster"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.fulguriteElectroPriests",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Fulgurite Electro-Priests",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Fulgurite Electro-Priest",
+                    "amount": 10,
+                    "cost": 130
+                },
+                {
+                    "name": "Fulgurite Electro-Priest",
+                    "amount": 5,
+                    "cost": 65
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Fulgurite Electro-Priest",
+                    "min": 5,
+                    "max": 10
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Fulgurite Electro-Priest"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.ironstriderBallistarii",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Ironstrider Ballistarii",
+            "role": "VEHICLE",
+            "points": [
+                {
+                    "name": "Ironstrider Ballistarii",
+                    "amount": 3,
+                    "cost": 150
+                },
+                {
+                    "name": "Ironstrider Ballistarii",
+                    "amount": 2,
+                    "cost": 100
+                },
+                {
+                    "name": "Ironstrider Ballistarii",
+                    "amount": 1,
+                    "cost": 50
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Ironstrider Ballistarii",
+                    "min": 1,
+                    "max": 3
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Ironstrider Ballistarii",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Cognis Autocannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Cognis Autocannon"
+                                },
+                                {
+                                    "name": "Twin Cognis Lascannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.kataphronBreachers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Kataphron Breachers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Kataphron Breacher",
+                    "amount": 6,
+                    "cost": 300
+                },
+                {
+                    "name": "Kataphron Breacher",
+                    "amount": 3,
+                    "cost": 150
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Kataphron Breacher",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Kataphron Breacher",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Arc Rifle"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Arc Rifle"
+                                },
+                                {
+                                    "name": "Torsion Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Arc Claw"
+                            },
+                            "options": [
+                                {
+                                    "name": "Arc Claw"
+                                },
+                                {
+                                    "name": "Hydraulic Claw"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.kataphronDestroyers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Kataphron Destroyers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Kataphron Destroyer",
+                    "amount": 6,
+                    "cost": 240
+                },
+                {
+                    "name": "Kataphron Destroyer",
+                    "amount": 3,
+                    "cost": 120
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Kataphron Destroyer",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Kataphron Destroyer",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Grav-cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Grav-cannon"
+                                },
+                                {
+                                    "name": "Kataphron Plasma Culverin"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Phosphor Blaster"
+                            },
+                            "options": [
+                                {
+                                    "name": "Phosphor Blaster"
+                                },
+                                {
+                                    "name": "Cognis Flamer"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.onagerDunecrawler",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Onager Dunecrawler",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Onager Dunecrawler",
+                    "points": 140,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Eradication Beamer"
+                            },
+                            "options": [
+                                {
+                                    "name": "Eradication Beamer"
+                                },
+                                {
+                                    "name": "Daedalus Missile Launcher, Icarus Array"
+                                },
+                                {
+                                    "name": "Neutron Laser, Cognis Heavy Stubber"
+                                },
+                                {
+                                    "name": "Twin Onager Heavy Phosphor Blaster"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Cognis Heavy Stubber"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Broad Spectrum Data-tether"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Smoke Launchers"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.pteraxiiSkystalkers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Pteraxii Skystalkers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Pteraxii Skystalker, Pteraxii Skystalker Alpha",
+                    "amount": 10,
+                    "cost": 140
+                },
+                {
+                    "name": "Pteraxii Skystalker, Pteraxii Skystalker Alpha",
+                    "amount": 5,
+                    "cost": 70
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Pteraxii Skystalker",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Pteraxii Skystalker Alpha",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Pteraxii Skystalker"
+                },
+                {
+                    "name": "Pteraxii Skystalker Alpha"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.pteraxiiSterylizors",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Pteraxii Sterylizors",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Pteraxii Sterylizor, Pteraxii Sterylizor Alpha",
+                    "amount": 10,
+                    "cost": 150
+                },
+                {
+                    "name": "Pteraxii Sterylizor, Pteraxii Sterylizor Alpha",
+                    "amount": 5,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Pteraxii Sterylizor",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Pteraxii Sterylizor Alpha",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Pteraxii Sterylizor"
+                },
+                {
+                    "name": "Pteraxii Sterylizor Alpha"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.serberysRaiders",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Serberys Raiders",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Serberys Raider, Serberys Raider Alpha",
+                    "amount": 6,
+                    "cost": 150
+                },
+                {
+                    "name": "Serberys Raider, Serberys Raider Alpha",
+                    "amount": 3,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Serberys Raider",
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "type": "model",
+                    "name": "Serberys Raider Alpha",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Serberys Raider",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Enhanced Data-tether"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Serberys Raider Alpha"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.serberysSulphurhounds",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Serberys Sulphurhounds",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Serberys Sulphurhound, Serberys Sulphurhound Alpha",
+                    "amount": 6,
+                    "cost": 130
+                },
+                {
+                    "name": "Serberys Sulphurhound, Serberys Sulphurhound Alpha",
+                    "amount": 3,
+                    "cost": 65
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Serberys Sulphurhound",
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "type": "model",
+                    "name": "Serberys Sulphurhound Alpha",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Serberys Sulphurhound",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Phosphor Pistols"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Phosphor Pistols"
+                                },
+                                {
+                                    "name": "Phosphor Blast Carbine, Phosphor Pistol"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Serberys Sulphurhound Alpha"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.servitors",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Servitors",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Servitor",
+                    "amount": 4,
+                    "cost": 35
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Servitor",
+                    "min": 4,
+                    "max": 4
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Servitor",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Servitor Servo-arm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Servitor Servo-arm"
+                                },
+                                {
+                                    "name": "Heavy Bolter, Servitor's Tools"
+                                },
+                                {
+                                    "name": "Multi-melta, Servitor's Tools"
+                                },
+                                {
+                                    "name": "Plasma Cannon, Servitor's Tools"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.sicarianInfiltrators",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Sicarian Infiltrators",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Sicarian Infiltrator, Sicarian Infiltrator Princeps",
+                    "amount": 10,
+                    "cost": 160
+                },
+                {
+                    "name": "Sicarian Infiltrator, Sicarian Infiltrator Princeps",
+                    "amount": 5,
+                    "cost": 80
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Sicarian Infiltrator",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Sicarian Infiltrator Princeps",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Sicarian Infiltrator",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Stubcarbine, Power Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Stubcarbine, Power Weapon"
+                                },
+                                {
+                                    "name": "Flechette Blaster, Taser Goad"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Sicarian Infiltrator Princeps",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Stubcarbine, Power Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Stubcarbine, Power Weapon"
+                                },
+                                {
+                                    "name": "Flechette Blaster, Taser Goad"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.sicarianRuststalkers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Sicarian Ruststalkers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Sicarian Ruststalker, Sicarian Ruststalker Princeps",
+                    "amount": 10,
+                    "cost": 150
+                },
+                {
+                    "name": "Sicarian Ruststalker, Sicarian Ruststalker Princeps",
+                    "amount": 5,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Sicarian Ruststalker",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Sicarian Ruststalker Princeps",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Sicarian Ruststalker",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Transonic Razor and Chordclaw"
+                            },
+                            "options": [
+                                {
+                                    "name": "Transonic Razor and Chordclaw"
+                                },
+                                {
+                                    "name": "Transonic Blades"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Sicarian Ruststalker Princeps",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Transonic Razor and Chordclaw"
+                            },
+                            "options": [
+                                {
+                                    "name": "Transonic Blades and Chordclaw"
+                                },
+                                {
+                                    "name": "Transonic Blades"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.skitariiMarshal",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Skitarii Marshal",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Skitarii Marshal",
+                    "points": 45,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.radCohort",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archived Purge Protocols",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Excoriating Emanation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master Annihilator",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Omni-sterilizer",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.skitariiRangers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Skitarii Rangers",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Skitarii Ranger, Skitarii Ranger Alpha",
+                    "amount": 10,
+                    "cost": 125
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Skitarii Ranger",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Skitarii Ranger Alpha",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Skitarii Ranger",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Galvanic Rifle"
+                            },
+                            "options": [
+                                {
+                                    "name": "Galvanic Rifle"
+                                },
+                                {
+                                    "name": "Arc Rifle"
+                                },
+                                {
+                                    "name": "Plasma Caliver"
+                                },
+                                {
+                                    "name": "Transuranic Arquebus"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Enhanced Data-tether"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Omnispex"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Skitarii Ranger Alpha",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Galvanic Rifle"
+                            },
+                            "options": [
+                                {
+                                    "name": "Galvanic Rifle"
+                                },
+                                {
+                                    "name": "Archeotech Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Alpha Combat Weapon"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.skitariiVanguard",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Skitarii Vanguard",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Skitarii Vanguard, Skitarii Vanguard Alpha",
+                    "amount": 10,
+                    "cost": 100
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Skitarii Vanguard",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Skitarii Vanguard Alpha",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Skitarii Vanguard",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Radium Carbine"
+                            },
+                            "options": [
+                                {
+                                    "name": "Radium Carbine"
+                                },
+                                {
+                                    "name": "Arc Rifle"
+                                },
+                                {
+                                    "name": "Plasma Caliver"
+                                },
+                                {
+                                    "name": "Transuranic Arquebus"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Enhanced Data-tether"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Omnispex"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Skitarii Vanguard Alpha",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Radium Carbine"
+                            },
+                            "options": [
+                                {
+                                    "name": "Radium Carbine"
+                                },
+                                {
+                                    "name": "Archeotech Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Alpha Combat Weapon"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.skorpiusDisintegrator",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Skorpius Disintegrator",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Skorpius Disintegrator",
+                    "points": 195,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Belleros Energy Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Belleros Energy Cannon"
+                                },
+                                {
+                                    "name": "Ferrumite Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.skorpiusDunerider",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Skorpius Dunerider",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Skorpius Dunerider",
+                    "points": 80
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.sydonianDragoons",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Sydonian Dragoons",
+            "role": "VEHICLE",
+            "points": [
+                {
+                    "name": "Sydonian Dragoon",
+                    "amount": 3,
+                    "cost": 225
+                },
+                {
+                    "name": "Sydonian Dragoon",
+                    "amount": 2,
+                    "cost": 150
+                },
+                {
+                    "name": "Sydonian Dragoon",
+                    "amount": 1,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Sydonian Dragoon",
+                    "min": 1,
+                    "max": 3
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Sydonian Dragoon",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Taser Lance"
+                            },
+                            "options": [
+                                {
+                                    "name": "Taser Lance"
+                                },
+                                {
+                                    "name": "Radium Jezzail, Ironstrider Feet"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Phosphor Serpenta"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.techpriestDominus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Tech-Priest Dominus",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Tech-Priest Dominus",
+                    "points": 75,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Macrostubber"
+                            },
+                            "options": [
+                                {
+                                    "name": "Macrostubber"
+                                },
+                                {
+                                    "name": "Phosphor Serpenta"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Volkite Blaster"
+                            },
+                            "options": [
+                                {
+                                    "name": "Volkite Blaster"
+                                },
+                                {
+                                    "name": "Eradication Ray"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.radCohort",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archived Purge Protocols",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Excoriating Emanation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master Annihilator",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Omni-sterilizer",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.techpriestEnginseer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Tech-Priest Enginseer",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Tech-Priest Enginseer",
+                    "points": 45,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.radCohort",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archived Purge Protocols",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Excoriating Emanation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master Annihilator",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Omni-sterilizer",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.techpriestManipulus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Tech-Priest Manipulus",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Tech-Priest Manipulus",
+                    "points": 60,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Magnarail Lance"
+                            },
+                            "options": [
+                                {
+                                    "name": "Magnarail Lance"
+                                },
+                                {
+                                    "name": "Transonic Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.radCohort",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archived Purge Protocols",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Excoriating Emanation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master Annihilator",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Omni-sterilizer",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.technoarchaelogist",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Technoarchaelogist",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Technoarchaelogist",
+                    "points": 45,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.radCohort",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archived Purge Protocols",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Excoriating Emanation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master Annihilator",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Omni-sterilizer",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,3556 @@
+{
+    "config": {
+        "id": "w40k.10e.aeld.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.aeld",
+        "name": "Aeldari",
+        "keyword": "AELDARI",
+        "enabled": true,
+        "endpoint": "aeldari.json"
+    },
+    "detachments": [
+        {
+            "id": "w40k.10e.aeld.dt.battleHost",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Battle Host"
+        }
+    ],
+    "units": [
+        {
+            "id": "w40k.10e.aeld.unit.asurmen",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Asurmen",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Asurmen",
+                    "points": 120,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.autarch",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Autarch",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Autarch",
+                    "points": 65,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shuriken Pistol"
+                                },
+                                {
+                                    "name": "Death Spinner"
+                                },
+                                {
+                                    "name": "Dragon Fusion Gun"
+                                },
+                                {
+                                    "name": "Fusion Pistol"
+                                },
+                                {
+                                    "name": "Reaper Launcher"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Star Glaive"
+                            },
+                            "options": [
+                                {
+                                    "name": "Star Glaive"
+                                },
+                                {
+                                    "name": "Scorpion Chainsword"
+                                },
+                                {
+                                    "name": "Banshee Blade"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Howling Banshee Mask"
+                                },
+                                {
+                                    "name": "Mandiblasters"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.battleHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "The Phoenix Gem",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Weeping Stones",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Reader of the Runes",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fate's Messenger",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.autarchWayleaper",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Autarch Wayleaper",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Autarch Wayleaper",
+                    "points": 80,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shuriken Pistol"
+                                },
+                                {
+                                    "name": "Death Spinner"
+                                },
+                                {
+                                    "name": "Dragon Fusion Gun"
+                                },
+                                {
+                                    "name": "Fusion Pistol"
+                                },
+                                {
+                                    "name": "Reaper Launcher"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Star Glaive"
+                            },
+                            "options": [
+                                {
+                                    "name": "Star Glaive"
+                                },
+                                {
+                                    "name": "Scorpion Chainsword"
+                                },
+                                {
+                                    "name": "Banshee Blade"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Howling Banshee Mask"
+                                },
+                                {
+                                    "name": "Mandiblasters"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.battleHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "The Phoenix Gem",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Weeping Stones",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Reader of the Runes",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fate's Messenger",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.autarchSkyrunner",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Autarch Skyrunner",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Autarch Skyrunner",
+                    "points": 80,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Laser Lance"
+                            },
+                            "options": [
+                                {
+                                    "name": "Laser Lance"
+                                },
+                                {
+                                    "name": "Dragon Fusion Gun"
+                                },
+                                {
+                                    "name": "Banshee Blade"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Howling Banshee Mask"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.battleHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "The Phoenix Gem",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Weeping Stones",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Reader of the Runes",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fate's Messenger",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.avatarKhaine",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Avatar of Khaine",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Avatar of Khaine",
+                    "points": 295,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.baharroth",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Baharroth",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Baharroth",
+                    "points": 125,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.corsairVoidreavers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Corsair Voidreavers",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Corsair Voidreaver, Voidreaver Felarch",
+                    "amount": 10,
+                    "cost": 140
+                },
+                {
+                    "name": "Corsair Voidreaver, Voidreaver Felarch",
+                    "amount": 5,
+                    "cost": 70
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Corsair Voidreaver",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Voidreaver Felarch",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Corsair Voidreaver",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Pistol, Aeldari Power Sword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shuriken Pistol, Aeldari Power Sword"
+                                },
+                                {
+                                    "name": "Shuriken Rifle"
+                                },
+                                {
+                                    "name": "Corsair Blaster"
+                                },
+                                {
+                                    "name": "Corsair Shredder"
+                                },
+                                {
+                                    "name": "Shuriken Cannon"
+                                },
+                                {
+                                    "name": "Wraithcannon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Voidreaver Felarch",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shuriken Pistol"
+                                },
+                                {
+                                    "name": "Neuro Disruptor"
+                                },
+                                {
+                                    "name": "Shuriken Rifle"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Mistshield"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.corsairVoidscarred",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Corsair Voidscarred",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Corsair Voidscarred, Voidreaver Felarch, Shade Runner, Soul Weaver, Way Seeker",
+                    "amount": 10,
+                    "cost": 180
+                },
+                {
+                    "name": "Corsair Voidscarred, Voidreaver Felarch, Shade Runner, Soul Weaver, Way Seeker",
+                    "amount": 5,
+                    "cost": 90
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Corsair Voidreaver",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Voidreaver Felarch",
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "type": "model",
+                    "name": "Shade Runner",
+                    "min": 0,
+                    "max": 1
+                },
+                {
+                    "type": "model",
+                    "name": "Soul Weaver",
+                    "min": 0,
+                    "max": 1
+                },
+                {
+                    "type": "model",
+                    "name": "Way Seeker",
+                    "min": 0,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Corsair Voidreaver",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Pistol, Aeldari Power Sword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shuriken Pistol, Aeldari Power Sword"
+                                },
+                                {
+                                    "name": "Shuriken Rifle"
+                                },
+                                {
+                                    "name": "Corsair Blaster"
+                                },
+                                {
+                                    "name": "Corsair Shredder"
+                                },
+                                {
+                                    "name": "Shuriken Cannon"
+                                },
+                                {
+                                    "name": "Wraithcannon"
+                                },
+                                {
+                                    "name": "Ranger Longrifle"
+                                },
+                                {
+                                    "name": "Shuriken Pistol, Fusion Pistol"
+                                },
+                                {
+                                    "name": "Shuriken Pistol, Aeldari Power Sword, Faolchu"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Shade Runner"
+                },
+                {
+                    "name": "Soul Weaver"
+                },
+                {
+                    "name": "Way Seeker"
+                },
+                {
+                    "name": "Voidreaver Felarch",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shuriken Pistol"
+                                },
+                                {
+                                    "name": "Neuro Disruptor"
+                                },
+                                {
+                                    "name": "Shuriken Rifle"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Mistshield"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.crimsonHunter",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Crimson Hunter",
+            "role": "AIRCRAFT",
+            "models": [
+                {
+                    "name": "Crimson Hunter",
+                    "points": 160,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "2 Starcannons"
+                            },
+                            "options": [
+                                {
+                                    "name": "2 Starcannons"
+                                },
+                                {
+                                    "name": "2 Bright Lances"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.darkReapers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Dark Reapers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Dark Reaper, Dark Reaper Exarch",
+                    "amount": 10,
+                    "cost": 150
+                },
+                {
+                    "name": "Dark Reaper, Dark Reaper Exarch",
+                    "amount": 5,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Dark Reaper",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Dark Reaper Exarch",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Dark Reaper"
+                },
+                {
+                    "name": "Dark Reaper Exarch",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Reaper Launcher"
+                            },
+                            "options": [
+                                {
+                                    "name": "Reaper Launcher"
+                                },
+                                {
+                                    "name": "Aeldari Missile Launcher"
+                                },
+                                {
+                                    "name": "Shuriken Cannon"
+                                },
+                                {
+                                    "name": "Tempest Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.deathJester",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Death Jester",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Death Jester",
+                    "points": 70,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.battleHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "The Phoenix Gem",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Weeping Stones",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Reader of the Runes",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fate's Messenger",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.direAvengers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Dire Avengers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Dire Avenger, Dire Avenger Exarch",
+                    "amount": 10,
+                    "cost": 140
+                },
+                {
+                    "name": "Dire Avenger, Dire Avenger Exarch",
+                    "amount": 5,
+                    "cost": 70
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Dire Avenger",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Dire Avenger Exarch",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Dire Avenger"
+                },
+                {
+                    "name": "Dire Avenger Exarch",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Avenger Shuriken Catapult"
+                            },
+                            "options": [
+                                {
+                                    "name": "Avenger Shuriken Catapult"
+                                },
+                                {
+                                    "name": "Avenger Shuriken Catapult, Avenger Shuriken Catapult"
+                                },
+                                {
+                                    "name": "Shuriken Pistol, Diresword"
+                                },
+                                {
+                                    "name": "Shuriken Pistol, Power Glaive"
+                                },
+                                {
+                                    "name": "Shimmershield, Diresword"
+                                },
+                                {
+                                    "name": "Shimmershield, Power Glaive"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.eldradUlthran",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Eldrad Ulthran",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Eldrad Ulthran",
+                    "points": 100,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.falcon",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Falcon",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Falcon",
+                    "points": 140,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Scatter Laser"
+                            },
+                            "options": [
+                                {
+                                    "name": "Scatter Laser"
+                                },
+                                {
+                                    "name": "Aeldari Missile Launcher"
+                                },
+                                {
+                                    "name": "Bright Lance"
+                                },
+                                {
+                                    "name": "Shuriken Cannon"
+                                },
+                                {
+                                    "name": "Starcannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Shuriken Catapult"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Shuriken Catapult"
+                                },
+                                {
+                                    "name": "Shuriken Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.farseer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Farseer",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Farseer",
+                    "points": 65,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Witchblade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Witchblade"
+                                },
+                                {
+                                    "name": "Singing Spear"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.battleHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "The Phoenix Gem",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Weeping Stones",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Reader of the Runes",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fate's Messenger",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.farseerSkyrunner",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Farseer Skyrunner",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Farseer Skyrunner",
+                    "points": 75,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Witchblade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Witchblade"
+                                },
+                                {
+                                    "name": "Singing Spear"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.battleHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "The Phoenix Gem",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Weeping Stones",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Reader of the Runes",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fate's Messenger",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.fireDragons",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Fire Dragons",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Fire Dragon, Fire Dragon Exarch",
+                    "amount": 10,
+                    "cost": 170
+                },
+                {
+                    "name": "Fire Dragon, Fire Dragon Exarch",
+                    "amount": 5,
+                    "cost": 85
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Fire Dragon",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Fire Dragon Exarch",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Fire Dragon"
+                },
+                {
+                    "name": "Fire Dragon Exarch",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Fusion Gun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Fusion Gun"
+                                },
+                                {
+                                    "name": "Dragon's Breath Flamer"
+                                },
+                                {
+                                    "name": "Firepike"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.firePrism",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Fire Prism",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Fire Prism",
+                    "points": 150,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Shuriken Catapult"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Shuriken Catapult"
+                                },
+                                {
+                                    "name": "Shuriken Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.fuegan",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Fuegan",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Fuegan",
+                    "points": 115,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.guardianDefenders",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Guardian Defenders",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Guardian Defender, Heavy Weapon Platform",
+                    "amount": 11,
+                    "cost": 110
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Guardian Defender",
+                    "min": 10,
+                    "max": 10
+                },
+                {
+                    "type": "model",
+                    "name": "Heavy Weapon Platform",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Guardian Defender"
+                },
+                {
+                    "name": "Heavy Weapon Platform",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shuriken Cannon"
+                                },
+                                {
+                                    "name": "Aeldari Missile Launcher"
+                                },
+                                {
+                                    "name": "Bright Lance"
+                                },
+                                {
+                                    "name": "Scatter Laser"
+                                },
+                                {
+                                    "name": "Starcannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.hemlockWraithfighter",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Hemlock Wraithfighter",
+            "role": "AIRCRAFT",
+            "models": [
+                {
+                    "name": "Hemlock Wraithfighter",
+                    "points": 155
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.howlingBanshees",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Howling Banshees",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Howling Banshee, Howling Banshee Exarch",
+                    "amount": 10,
+                    "cost": 170
+                },
+                {
+                    "name": "Howling Banshee, Howling Banshee Exarch",
+                    "amount": 5,
+                    "cost": 85
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Howling Banshee",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Howling Banshee Exarch",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Howling Banshee"
+                },
+                {
+                    "name": "Howling Banshee Exarch",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Pistol, Banshee Blade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shuriken Pistol, Banshee Blade"
+                                },
+                                {
+                                    "name": "Shuriken Pistol, Executioner"
+                                },
+                                {
+                                    "name": "Shuriken Pistol, Triskele"
+                                },
+                                {
+                                    "name": "Mirrorswords"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.illicNightspear",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Illic Nightspear",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Illic Nightspear",
+                    "points": 65,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.jainZar",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Jain Zar",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Jain Zar",
+                    "points": 105,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.karandras",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Karandras",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Karandras",
+                    "points": 100,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.mauganRa",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Maugan Ra",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Maugan Ra",
+                    "points": 130,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.nightSpinner",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Night Spinner",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Night Spinner",
+                    "points": 170,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Shuriken Catapult"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Shuriken Catapult"
+                                },
+                                {
+                                    "name": "Shuriken Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.princeYriel",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Prince Yriel",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Prince Yriel",
+                    "points": 100,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.rangers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Rangers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Ranger",
+                    "amount": 10,
+                    "cost": 110
+                },
+                {
+                    "name": "Ranger",
+                    "amount": 5,
+                    "cost": 55
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Ranger",
+                    "min": 5,
+                    "max": 10
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Ranger"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.shadowseer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Shadowseer",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Shadowseer",
+                    "points": 60,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.battleHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "The Phoenix Gem",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Weeping Stones",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Reader of the Runes",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fate's Messenger",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.shiningSpears",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Shining Spears",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Shining Spear, Shining Spear Exarch",
+                    "amount": 6,
+                    "cost": 240
+                },
+                {
+                    "name": "Shining Spear, Shining Spear Exarch",
+                    "amount": 3,
+                    "cost": 120
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Shining Spear",
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "type": "model",
+                    "name": "Shining Spear Exarch",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Shining Spear"
+                },
+                {
+                    "name": "Shining Spear Exarch",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Laser Lance"
+                            },
+                            "options": [
+                                {
+                                    "name": "Laser Lance"
+                                },
+                                {
+                                    "name": "Paragon Sabre"
+                                },
+                                {
+                                    "name": "Star Lance"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Shuriken Catapult"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Shuriken Catapult"
+                                },
+                                {
+                                    "name": "Shuriken Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Shimmershield"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.shroudRunners",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Shroud Runners",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Shroud Runner",
+                    "amount": 6,
+                    "cost": 160
+                },
+                {
+                    "name": "Shroud Runner",
+                    "amount": 3,
+                    "cost": 80
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Shroud Runner",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Shroud Runner"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.skyweavers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Skyweavers",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Skyweaver",
+                    "amount": 4,
+                    "cost": 160
+                },
+                {
+                    "name": "Skyweaver",
+                    "amount": 2,
+                    "cost": 80
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Skyweaver",
+                    "min": 2,
+                    "max": 4
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Skyweaver",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shuriken Cannon"
+                                },
+                                {
+                                    "name": "Skyweaver Haywire Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Star Bolas"
+                            },
+                            "options": [
+                                {
+                                    "name": "Star Bolas"
+                                },
+                                {
+                                    "name": "Zephyrglaive"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.solitaire",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Solitaire",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Solitaire",
+                    "points": 115
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.spiritseer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Spiritseer",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Spiritseer",
+                    "points": 65,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.battleHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "The Phoenix Gem",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Weeping Stones",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Reader of the Runes",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fate's Messenger",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.starweaver",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Starweaver",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Starweaver",
+                    "points": 80
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.stormGuardians",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Storm Guardians",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Storm Guardian, Serpent's Scale Platform",
+                    "amount": 11,
+                    "cost": 115
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Storm Guardian",
+                    "min": 10,
+                    "max": 10
+                },
+                {
+                    "type": "model",
+                    "name": "Serpent's Scale Platform",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Storm Guardian",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shuriken Pistol"
+                                },
+                                {
+                                    "name": "Aeldari Flamer"
+                                },
+                                {
+                                    "name": "Guardian Fusion Gun"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Guardian Combat Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Guardian Combat Weapon"
+                                },
+                                {
+                                    "name": "Aeldari Power Sword"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Serpent's Scale Platform"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.strikingScorpions",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Striking Scorpions",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Striking Scorpion, Striking Scorpion Exarch",
+                    "amount": 10,
+                    "cost": 150
+                },
+                {
+                    "name": "Striking Scorpion, Striking Scorpion Exarch",
+                    "amount": 5,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Striking Scorpion",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Striking Scorpion Exarch",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Striking Scorpion"
+                },
+                {
+                    "name": "Striking Scorpion Exarch",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Pistol, Scorpion Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shuriken Pistol, Scorpion Chainsword"
+                                },
+                                {
+                                    "name": "Scorpion's Claw, Scorpion Chainsword"
+                                },
+                                {
+                                    "name": "Biting Blade"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.supportWeapons",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Support Weapons",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Support Weapon",
+                    "points": 105,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shadow Weaver"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shadow Weaver"
+                                },
+                                {
+                                    "name": "D-cannon"
+                                },
+                                {
+                                    "name": "Vibro Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.swoopingHawks",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Swooping Hawks",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Swooping Hawk, Swooping Hawk Exarch",
+                    "amount": 10,
+                    "cost": 150
+                },
+                {
+                    "name": "Swooping Hawk, Swooping Hawk Exarch",
+                    "amount": 5,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Swooping Hawk",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Swooping Hawk Exarch",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Swooping Hawk"
+                },
+                {
+                    "name": "Swooping Hawk Exarch",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Lasblaster"
+                            },
+                            "options": [
+                                {
+                                    "name": "Lasblaster"
+                                },
+                                {
+                                    "name": "Hawk's Talon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Aeldari Power Sword"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.visarch",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "The Visarch",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "The Visarch",
+                    "points": 90,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.yncarne",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "The Yncarne",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "The Yncarne",
+                    "points": 270,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.troupe",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Troupe",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Player, Lead Player",
+                    "amount": 12,
+                    "cost": 180
+                },
+                {
+                    "name": "Player, Lead Player",
+                    "amount": 11,
+                    "cost": 165
+                },
+                {
+                    "name": "Player, Lead Player",
+                    "amount": 6,
+                    "cost": 90
+                },
+                {
+                    "name": "Player, Lead Player",
+                    "amount": 5,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Player",
+                    "min": 4,
+                    "max": 11
+                },
+                {
+                    "type": "model",
+                    "name": "Lead Player",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Player",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Harlequin's Blade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Harlequin's Blade"
+                                },
+                                {
+                                    "name": "Harlequin's Special Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shuriken Pistol"
+                                },
+                                {
+                                    "name": "Neuro Disruptor"
+                                },
+                                {
+                                    "name": "Fusion Pistol"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Lead Player",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Harlequin's Blade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Harlequin's Blade"
+                                },
+                                {
+                                    "name": "Harlequin's Special Weapon"
+                                },
+                                {
+                                    "name": "Aeldari Power Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shuriken Pistol"
+                                },
+                                {
+                                    "name": "Neuro Disruptor"
+                                },
+                                {
+                                    "name": "Fusion Pistol"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.troupeMaster",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Troupe Master",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Troupe Master",
+                    "points": 55,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shuriken Pistol"
+                                },
+                                {
+                                    "name": "Neuro Disruptor"
+                                },
+                                {
+                                    "name": "Fusion Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Troupe Master's Blade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Troupe Master's Blade"
+                                },
+                                {
+                                    "name": "Harlequin's Special Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.battleHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "The Phoenix Gem",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Weeping Stones",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Reader of the Runes",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fate's Messenger",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.voidweaver",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Voidweaver",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Voidweaver",
+                    "points": 100,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Voidweaver Haywire Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Voidweaver Haywire Cannon"
+                                },
+                                {
+                                    "name": "Prismatic Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.vypers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Vypers",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Vyper",
+                    "points": 75,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shuriken Cannon"
+                                },
+                                {
+                                    "name": "Aeldari Missile Launcher"
+                                },
+                                {
+                                    "name": "Bright Lance"
+                                },
+                                {
+                                    "name": "Scatter Laser"
+                                },
+                                {
+                                    "name": "Starcannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.warWalkers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "War Walkers",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "War Walker",
+                    "points": 95,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shuriken Cannon"
+                                },
+                                {
+                                    "name": "Aeldari Missile Launcher"
+                                },
+                                {
+                                    "name": "Bright Lance"
+                                },
+                                {
+                                    "name": "Scatter Laser"
+                                },
+                                {
+                                    "name": "Starcannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.warlockSkyrunner",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Warlock Skyrunner",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Warlock Skyrunner",
+                    "points": 55,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Witchblade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Witchblade"
+                                },
+                                {
+                                    "name": "Singing Spear"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.battleHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "The Phoenix Gem",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Weeping Stones",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Reader of the Runes",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fate's Messenger",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.warlock",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Warlock",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Warlock",
+                    "points": 45,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Witchblade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Witchblade"
+                                },
+                                {
+                                    "name": "Singing Spear"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.battleHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "The Phoenix Gem",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Weeping Stones",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Reader of the Runes",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fate's Messenger",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.warpSpiders",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Warp Spiders",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Warp Spider, Warp Spider Exarch",
+                    "amount": 10,
+                    "cost": 200
+                },
+                {
+                    "name": "Warp Spider, Warp Spider Exarch",
+                    "amount": 5,
+                    "cost": 100
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Warp Spider",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Warp Spider Exarch",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Warp Spider"
+                },
+                {
+                    "name": "Warp Spider Exarch",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Additional Death Spinner, Powerblades"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.waveSerpent",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Wave Serpent",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Wave Serpent",
+                    "points": 120,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Shuriken Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Shuriken Cannon"
+                                },
+                                {
+                                    "name": "Twin Aeldari Missile Launcher"
+                                },
+                                {
+                                    "name": "Twin Bright Lance"
+                                },
+                                {
+                                    "name": "Twin Scatter Laser"
+                                },
+                                {
+                                    "name": "Twin Starcannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Shuriken Catapult"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Shuriken Catapult"
+                                },
+                                {
+                                    "name": "Shuriken Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.webwayGate",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Webway Gate",
+            "role": "FORTIFICATION",
+            "models": [
+                {
+                    "name": "Webway Gate",
+                    "points": 220
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.windriders",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Windriders",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Windrider",
+                    "amount": 9,
+                    "cost": 240
+                },
+                {
+                    "name": "Windrider",
+                    "amount": 6,
+                    "cost": 160
+                },
+                {
+                    "name": "Windrider",
+                    "amount": 3,
+                    "cost": 80
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Windrider",
+                    "min": 3,
+                    "max": 9
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Windrider",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Shuriken Catapult"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Shuriken Catapult"
+                                },
+                                {
+                                    "name": "Scatter Laser"
+                                },
+                                {
+                                    "name": "Shuriken Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.wraithblades",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Wraithblades",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Wraithblade",
+                    "amount": 10,
+                    "cost": 340
+                },
+                {
+                    "name": "Wraithblade",
+                    "amount": 5,
+                    "cost": 170
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Wraithblade",
+                    "min": 5,
+                    "max": 10
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Wraithblade",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Ghostsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Ghostsword"
+                                },
+                                {
+                                    "name": "Ghostaxe, Forceshield"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.wraithguard",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Wraithguard",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Wraithguard",
+                    "amount": 10,
+                    "cost": 310
+                },
+                {
+                    "name": "Wraithguard",
+                    "amount": 5,
+                    "cost": 155
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Wraithguard",
+                    "min": 5,
+                    "max": 10
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Wraithguard",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Wraithcannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Wraithcannon"
+                                },
+                                {
+                                    "name": "D-scythe"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.wraithknight",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Wraithknight",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Wraithknight",
+                    "points": 475,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Titanic Ghostglaive"
+                            },
+                            "options": [
+                                {
+                                    "name": "Titanic Ghostglaive"
+                                },
+                                {
+                                    "name": "Heavy Wraithcannon"
+                                },
+                                {
+                                    "name": "Suncannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Scattershield"
+                            },
+                            "options": [
+                                {
+                                    "name": "Scattershield"
+                                },
+                                {
+                                    "name": "Heavy Wraithcannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Scatter Laser"
+                                },
+                                {
+                                    "name": "Shuriken Cannon"
+                                },
+                                {
+                                    "name": "Starcannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Scatter Laser"
+                                },
+                                {
+                                    "name": "Shuriken Cannon"
+                                },
+                                {
+                                    "name": "Starcannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.wraithlord",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Wraithlord",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Wraithlord",
+                    "points": 160,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Catapult"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shuriken Catapult"
+                                },
+                                {
+                                    "name": "Aeldari Flamer"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Catapult"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shuriken Catapult"
+                                },
+                                {
+                                    "name": "Aeldari Flamer"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Ghostglaive"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Aeldari Missile Launcher"
+                                },
+                                {
+                                    "name": "Bright Lance"
+                                },
+                                {
+                                    "name": "Scatter Laser"
+                                },
+                                {
+                                    "name": "Shuriken Cannon"
+                                },
+                                {
+                                    "name": "Starcannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Aeldari Missile Launcher"
+                                },
+                                {
+                                    "name": "Bright Lance"
+                                },
+                                {
+                                    "name": "Scatter Laser"
+                                },
+                                {
+                                    "name": "Shuriken Cannon"
+                                },
+                                {
+                                    "name": "Starcannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.yvraine",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Yvraine",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Yvraine",
+                    "points": 100,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.warlockSkyrunnerConclave",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Warlock Skyrunner Conclave",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Warlock Skyrunner",
+                    "amount": 3,
+                    "cost": 150
+                },
+                {
+                    "name": "Warlock Skyrunner",
+                    "amount": 2,
+                    "cost": 100
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Warlock Skyrunner",
+                    "min": 2,
+                    "max": 3
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Warlock Skyrunner",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Witchblade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Witchblade"
+                                },
+                                {
+                                    "name": "Singing Spear"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.warlockConclave",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Warlock Conclave",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Warlock",
+                    "amount": 4,
+                    "cost": 120
+                },
+                {
+                    "name": "Warlock",
+                    "amount": 2,
+                    "cost": 60
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Warlock",
+                    "min": 2,
+                    "max": 4
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Warlock",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Witchblade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Witchblade"
+                                },
+                                {
+                                    "name": "Singing Spear"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.wraithseer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Wraithseer",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Wraithseer",
+                    "points": 160,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Aeldari Missile Launcher"
+                                },
+                                {
+                                    "name": "Bright Lance"
+                                },
+                                {
+                                    "name": "Scatter Laser"
+                                },
+                                {
+                                    "name": "Shuriken Cannon"
+                                },
+                                {
+                                    "name": "Starcannon"
+                                },
+                                {
+                                    "name": "Wraithseer D-cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.revenantTitan",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Revenant Titan",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Revenant Titan",
+                    "points": 1100,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Revenant Pulsar"
+                            },
+                            "options": [
+                                {
+                                    "name": "Revenant Pulsar"
+                                },
+                                {
+                                    "name": "Sonic Lance"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Sonic Lance"
+                            },
+                            "options": [
+                                {
+                                    "name": "Revenant Pulsar"
+                                },
+                                {
+                                    "name": "Sonic Lance"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.phantomTitan",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Phantom Titan",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Phantom Titan",
+                    "points": 2100,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "D-bombard"
+                            },
+                            "options": [
+                                {
+                                    "name": "D-bombard"
+                                },
+                                {
+                                    "name": "2x Phantom Starcannons, Wraith Glaive"
+                                },
+                                {
+                                    "name": "Phantom Starcannon, Pulse Laser, Wraith Glaive"
+                                },
+                                {
+                                    "name": "2x Pulse Lasers, Wraith Glaive"
+                                },
+                                {
+                                    "name": "Phantom Pulsar"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Phantom Pulsar"
+                            },
+                            "options": [
+                                {
+                                    "name": "D-bombard"
+                                },
+                                {
+                                    "name": "2x Phantom Starcannons, Wraith Glaive"
+                                },
+                                {
+                                    "name": "Phantom Starcannon, Pulse Laser, Wraith Glaive"
+                                },
+                                {
+                                    "name": "2x Pulse Lasers, Wraith Glaive"
+                                },
+                                {
+                                    "name": "Phantom Pulsar"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Phantom Starcannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Phantom Starcannon"
+                                },
+                                {
+                                    "name": "Pulse Laser"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.cobra",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Cobra",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Cobra",
+                    "points": 415,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Aeldari Missile Launcher"
+                                },
+                                {
+                                    "name": "Bright Lance"
+                                },
+                                {
+                                    "name": "Scatter Laser"
+                                },
+                                {
+                                    "name": "Shuriken Cannon"
+                                },
+                                {
+                                    "name": "Starcannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.scorpion",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Scorpion",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Scorpion",
+                    "points": 410,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Aeldari Missile Launcher"
+                                },
+                                {
+                                    "name": "Bright Lance"
+                                },
+                                {
+                                    "name": "Scatter Laser"
+                                },
+                                {
+                                    "name": "Shuriken Cannon"
+                                },
+                                {
+                                    "name": "Starcannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.nightwing",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Nightwing",
+            "role": "AIRCRAFT",
+            "models": [
+                {
+                    "name": "Nightwing",
+                    "points": 150
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.warpHunter",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Warp Hunter",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Warp Hunter",
+                    "points": 130,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Shuriken Catapult"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Shuriken Catapult"
+                                },
+                                {
+                                    "name": "Shuriken Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.lynx",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Lynx",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Lynx",
+                    "points": 155,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Aeldari Missile Launcher"
+                                },
+                                {
+                                    "name": "Bright Lance"
+                                },
+                                {
+                                    "name": "Scatter Laser"
+                                },
+                                {
+                                    "name": "Shuriken Cannon"
+                                },
+                                {
+                                    "name": "Starcannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.hornet",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Hornet",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Hornet",
+                    "points": 80,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Hornet Pulse Laser"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hornet Pulse Laser"
+                                },
+                                {
+                                    "name": "Aeldari Missile Launcher"
+                                },
+                                {
+                                    "name": "Bright Lance"
+                                },
+                                {
+                                    "name": "Scatter Laser"
+                                },
+                                {
+                                    "name": "Shuriken Cannon"
+                                },
+                                {
+                                    "name": "Starcannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Hornet Pulse Laser"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hornet Pulse Laser"
+                                },
+                                {
+                                    "name": "Aeldari Missile Launcher"
+                                },
+                                {
+                                    "name": "Bright Lance"
+                                },
+                                {
+                                    "name": "Scatter Laser"
+                                },
+                                {
+                                    "name": "Shuriken Cannon"
+                                },
+                                {
+                                    "name": "Starcannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.shadowSpectres",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Shadow Spectres",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Shadow Spectre",
+                    "amount": 10,
+                    "cost": 160
+                },
+                {
+                    "name": "Shadow Spectre",
+                    "amount": 5,
+                    "cost": 80
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Shadow Spectre",
+                    "min": 5,
+                    "max": 10
+                },
+                {
+                    "type": "model",
+                    "name": "Shadow Spectre Exarch",
+                    "min": 0,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Shadow Spectre"
+                },
+                {
+                    "name": "Shadow Spectre Exarch",
+                    "points": 20
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.skathachWraithknight",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Skathach Wraithknight",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Skathach Wraithknight",
+                    "points": 440,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Inferno Lance"
+                            },
+                            "options": [
+                                {
+                                    "name": "Inferno Lance"
+                                },
+                                {
+                                    "name": "Deathshroud Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Scattershield"
+                            },
+                            "options": [
+                                {
+                                    "name": "Scattershield"
+                                },
+                                {
+                                    "name": "Inferno Lance"
+                                },
+                                {
+                                    "name": "Deathshroud Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Scatter Laser"
+                                },
+                                {
+                                    "name": "Shuriken Cannon"
+                                },
+                                {
+                                    "name": "Starcannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Scatter Laser"
+                                },
+                                {
+                                    "name": "Shuriken Cannon"
+                                },
+                                {
+                                    "name": "Starcannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.irillyth",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Irillyth",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Irillyth",
+                    "points": 105,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

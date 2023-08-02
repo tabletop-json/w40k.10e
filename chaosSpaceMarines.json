@@ -1,0 +1,3979 @@
+{
+    "config": {
+        "id": "w40k.10e.csm.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.csm",
+        "name": "Chaos Space Marines",
+        "keyword": "HERETIC ASTARTES",
+        "enabled": true,
+        "endpoint": "chaosSpaceMarines.json",
+        "allies": [
+            "w40k.10e.dmns",
+            "w40k.10e.ck"
+        ]
+    },
+    "detachments": [
+        {
+            "id": "w40k.10e.csm.dt.slavesToDarkness",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Slaves to Darkness",
+            "rule": ""
+        }
+    ],
+    "units": [
+        {
+            "id": "w40k.10e.csm.unit.abaddon",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Abaddon the Despoiler",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Abaddon the Despoiler",
+                    "points": 280,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.haarkenWorldclaimer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Haarken Worldclaimer",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Haarken Worldclaimer",
+                    "points": 120,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.huronBlackheart",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Huron Blackheart",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Huron Blackheart",
+                    "points": 80,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.daemonPrince",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Daemon Prince",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Daemon Prince",
+                    "points": 180,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.slavesToDarkness",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Talisman of Burning Blood",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Eye of Tzeentch",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Orbs of Unlife",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Intoxicating Elixir",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Liber Hereticus",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.daemonPrinceWings",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Daemon Prince with Wings",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Daemon Prince with Wings",
+                    "points": 190,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.slavesToDarkness",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Talisman of Burning Blood",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Eye of Tzeentch",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Orbs of Unlife",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Intoxicating Elixir",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Liber Hereticus",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.fabiusBile",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Fabius Bile",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Fabius Bile",
+                    "points": 100,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.cypher",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Cypher",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Cypher",
+                    "points": 105,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.masterOfPossession",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Master of Possession",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Master of Possession",
+                    "points": 70,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.slavesToDarkness",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Talisman of Burning Blood",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Eye of Tzeentch",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Orbs of Unlife",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Intoxicating Elixir",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Liber Hereticus",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.chaosLord",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Chaos Lord",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Chaos Lord",
+                    "points": 75,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Daemon Hammer"
+                            },
+                            "options": [
+                                {
+                                    "name": "Daemon Hammer"
+                                },
+                                {
+                                    "name": "Accursed Weapon"
+                                },
+                                {
+                                    "name": "Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Plasma Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Plasma Pistol"
+                                },
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Accursed Weapon"
+                                },
+                                {
+                                    "name": "Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                },
+                                {
+                                    "name": "Daemon Hammer"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.slavesToDarkness",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Talisman of Burning Blood",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Eye of Tzeentch",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Orbs of Unlife",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Intoxicating Elixir",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Liber Hereticus",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.chaosLordTerminatorArmour",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Chaos Lord in Terminator Armour",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Chaos Lord in Terminator Armour",
+                    "points": 100,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Combi-bolter, Exalted Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Combi-bolter, Exalted Weapon"
+                                },
+                                {
+                                    "name": "Combi-weapon, Exalted Weapon"
+                                },
+                                {
+                                    "name": "Combi-bolter, Power Fist"
+                                },
+                                {
+                                    "name": "Combi-weapon, Power Fist"
+                                },
+                                {
+                                    "name": "Combi-bolter, Chainfist"
+                                },
+                                {
+                                    "name": "Combi-weapon, Chainfist"
+                                },
+                                {
+                                    "name": "Paired Accursed Weapons"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.slavesToDarkness",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Talisman of Burning Blood",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Eye of Tzeentch",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Orbs of Unlife",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Intoxicating Elixir",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Liber Hereticus",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.sorcerer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Sorcerer",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Sorcerer",
+                    "points": 60,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.slavesToDarkness",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Talisman of Burning Blood",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Eye of Tzeentch",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Orbs of Unlife",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Intoxicating Elixir",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Liber Hereticus",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.sorcererTerminatorArmour",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Sorcerer in Terminator Armour",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Sorcerer in Terminator Armour",
+                    "points": 90,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Combi-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Chaos Familiar"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.slavesToDarkness",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Talisman of Burning Blood",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Eye of Tzeentch",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Orbs of Unlife",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Intoxicating Elixir",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Liber Hereticus",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.lucius",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Lucius the Eternal",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Lucius the Eternal",
+                    "points": 95,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.lordDiscordant",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Lord Discordant on Helstalker",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Lord Discordant on Helstalker",
+                    "points": 220,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Helstalker Autocannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Helstalker Autocannon"
+                                },
+                                {
+                                    "name": "Baleflamer"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Techno-virus Injector"
+                            },
+                            "options": [
+                                {
+                                    "name": "Techno-virus Injector"
+                                },
+                                {
+                                    "name": "Magma Cutter"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.slavesToDarkness",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Talisman of Burning Blood",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Eye of Tzeentch",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Orbs of Unlife",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Intoxicating Elixir",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Liber Hereticus",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.warpsmith",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Warpsmith",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Warpsmith",
+                    "points": 70,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Exalted Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Exalted Weapon"
+                                },
+                                {
+                                    "name": "Warp Hammer"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.slavesToDarkness",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Talisman of Burning Blood",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Eye of Tzeentch",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Orbs of Unlife",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Intoxicating Elixir",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Liber Hereticus",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.exaltedChampion",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Exalted Champion",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Exalted Champion",
+                    "points": 70,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.slavesToDarkness",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Talisman of Burning Blood",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Eye of Tzeentch",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Orbs of Unlife",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Intoxicating Elixir",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Liber Hereticus",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.darkApostle",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Dark Apostle",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Dark Apostle",
+                    "points": 85,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.slavesToDarkness",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Talisman of Burning Blood",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Eye of Tzeentch",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Orbs of Unlife",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Intoxicating Elixir",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Liber Hereticus",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.darkCommune",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Dark Commune",
+            "role": "CHARACTER",
+            "points": [
+                {
+                    "name": "Cult Demagogue, Mindwitch, Iconarch, Blessed Blade",
+                    "amount": 5,
+                    "cost": 55
+                }
+            ],
+            "models": [
+                {
+                    "name": "Cult Demagogue",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.slavesToDarkness",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Talisman of Burning Blood",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Eye of Tzeentch",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Orbs of Unlife",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Intoxicating Elixir",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Liber Hereticus",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Mindwitch"
+                },
+                {
+                    "name": "Iconarch"
+                },
+                {
+                    "name": "Blessed Blade"
+                },
+                {
+                    "name": "Blessed Blade"
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.legionaries",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Legionaries",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Legionary, Aspiring Champion",
+                    "amount": 10,
+                    "cost": 200
+                },
+                {
+                    "name": "Legionary, Aspiring Champion",
+                    "amount": 5,
+                    "cost": 100
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Legionary",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Aspiring Champion",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Legionary",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Boltgun"
+                                },
+                                {
+                                    "name": "Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Heavy Melee Weapon"
+                                },
+                                {
+                                    "name": "Balefire Tome"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Havoc Autocannon"
+                                },
+                                {
+                                    "name": "Heavy Bolter"
+                                },
+                                {
+                                    "name": "Lascannon"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Missile Launcher"
+                                },
+                                {
+                                    "name": "Plasma Gun"
+                                },
+                                {
+                                    "name": "Reaper Chaincannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Chaos Icon"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Aspiring Champion",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Boltgun"
+                                },
+                                {
+                                    "name": "Plasma Pistol, Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Accursed Weapon"
+                                },
+                                {
+                                    "name": "Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Heavy Melee Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                },
+                                {
+                                    "name": "Accursed Weapon"
+                                },
+                                {
+                                    "name": "Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Heavy Melee Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Chaos Icon"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.cultistMob",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Cultist Mob",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Cultist, Cultist Champion",
+                    "amount": 20,
+                    "cost": 110
+                },
+                {
+                    "name": "Cultist, Cultist Champion",
+                    "amount": 10,
+                    "cost": 55
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Cultist",
+                    "min": 9,
+                    "max": 19
+                },
+                {
+                    "type": "model",
+                    "name": "Cultist Champion",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Cultist",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Autopistol, Brutal Assault Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autopistol, Brutal Assault Weapon"
+                                },
+                                {
+                                    "name": "Cultist Firearm, Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Flamer, Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Heavy Stubber, Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Cultist Grenade Launcher, Close Combat Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cultist Champion",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Autopistol, Brutal Assault Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autopistol, Brutal Assault Weapon"
+                                },
+                                {
+                                    "name": "Bolt Pistol, Brutal Assault Weapon"
+                                },
+                                {
+                                    "name": "Cultist Firearm, Close Combat Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.accursedCultists",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Accursed Cultists",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Mutant, Torment",
+                    "amount": 16,
+                    "cost": 190
+                },
+                {
+                    "name": "Mutant, Torment",
+                    "amount": 8,
+                    "cost": 95
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Mutant",
+                    "min": 5,
+                    "max": 10
+                },
+                {
+                    "type": "model",
+                    "name": "Torment",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Mutant"
+                },
+                {
+                    "name": "Torment"
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.terminatorSquad",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Terminator Squad",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Terminator, Terminator Champion",
+                    "amount": 10,
+                    "cost": 390
+                },
+                {
+                    "name": "Terminator, Terminator Champion",
+                    "amount": 5,
+                    "cost": 195
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Terminator",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Terminator Champion",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Terminator",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Combi-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                },
+                                {
+                                    "name": "Heavy Flamer"
+                                },
+                                {
+                                    "name": "Reaper Autocannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Accursed Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Accursed Weapon"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                },
+                                {
+                                    "name": "Chain Fist"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Paired Accursed Weapon"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Terminator Champion",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Combi-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Accursed Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Accursed Weapon"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                },
+                                {
+                                    "name": "Chain Fist"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Paired Accursed Weapon"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.masterExecutions",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Master of Executions",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Master of Executions",
+                    "points": 80,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.slavesToDarkness",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Talisman of Burning Blood",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Eye of Tzeentch",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Orbs of Unlife",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Intoxicating Elixir",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Liber Hereticus",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.possessed",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Possessed",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Possessed, Possessed Champion",
+                    "amount": 10,
+                    "cost": 290
+                },
+                {
+                    "name": "Possessed, Possessed Champion",
+                    "amount": 5,
+                    "cost": 145
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Possessed",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Possessed Champion",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Possessed",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Chaos Icon"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Possessed Champion",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Chaos Icon"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.Chosen",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Chosen",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Chosen, Chosen Champion",
+                    "amount": 10,
+                    "cost": 230
+                },
+                {
+                    "name": "Chosen, Chosen Champion",
+                    "amount": 5,
+                    "cost": 115
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Chosen",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Chosen Champion",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Chosen",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Boltgun, Accursed Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Boltgun, Accursed Weapon"
+                                },
+                                {
+                                    "name": "Combi-weapon, Accursed Weapon"
+                                },
+                                {
+                                    "name": "Paired Accursed Weapon"
+                                },
+                                {
+                                    "name": "Boltgun, Power Fist"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Chaos Icon"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Chosen Champion",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Boltgun, Accursed Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Boltgun, Accursed Weapon"
+                                },
+                                {
+                                    "name": "Combi-weapon, Accursed Weapon"
+                                },
+                                {
+                                    "name": "Paired Accursed Weapon"
+                                },
+                                {
+                                    "name": "Boltgun, Power Fist"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Chaos Icon"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.noiseMarines",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Noise Marines",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Noise Marine, Noise Champion",
+                    "amount": 10,
+                    "cost": 170
+                },
+                {
+                    "name": "Noise Marine, Noise Champion",
+                    "amount": 5,
+                    "cost": 85
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Noise Marine",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Noise Champion",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Noise Marine",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Boltgun"
+                                },
+                                {
+                                    "name": "Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Sonic Blaster"
+                                },
+                                {
+                                    "name": "Blastmaster"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Chaos Icon"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Noise Champion",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                },
+                                {
+                                    "name": "Accursed Weapon"
+                                },
+                                {
+                                    "name": "Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Boltgun"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                },
+                                {
+                                    "name": "Accursed Weapon"
+                                },
+                                {
+                                    "name": "Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                },
+                                {
+                                    "name": "Sonic Blaster"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Doom Siren"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Chaos Icon"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.venomcrawler",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Venomcrawler",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Venomcrawler",
+                    "points": 140
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.bikers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Chaos Bikers",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Chaos Biker, Biker Champion",
+                    "amount": 6,
+                    "cost": 190
+                },
+                {
+                    "name": "Chaos Biker, Biker Champion",
+                    "amount": 3,
+                    "cost": 95
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Chaos Biker",
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "type": "model",
+                    "name": "Biker Champion",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Chaos Biker",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Astartes Chainsword"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Combi-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                },
+                                {
+                                    "name": "Combi-bolter, Flamer"
+                                },
+                                {
+                                    "name": "Combi-bolter, Meltagun"
+                                },
+                                {
+                                    "name": "Combi-bolter, Plasma Gun"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Chaos Icon"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Biker Champion",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                },
+                                {
+                                    "name": "Accursed Weapon"
+                                },
+                                {
+                                    "name": "Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Chaos Icon"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.raptors",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Raptors",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Raptor, Raptor Champion",
+                    "amount": 10,
+                    "cost": 190
+                },
+                {
+                    "name": "Raptor, Raptor Champion",
+                    "amount": 5,
+                    "cost": 95
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Raptor",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Raptor Champion",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Raptor",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol, Astartes Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol, Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Plasma Pistol, Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Flamer, Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Meltagun, Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Plasma Gun, Close Combat Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Raptor Champion",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Astartes Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Accursed Weapon"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.warpTalons",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Warp Talons",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Warp Talon, Warp Talon Champion",
+                    "amount": 10,
+                    "cost": 260
+                },
+                {
+                    "name": "Warp Talon, Warp Talon Champion",
+                    "amount": 5,
+                    "cost": 130
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Warp Talon",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Warp Talon Champion",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Warp Talon"
+                },
+                {
+                    "name": "Warp Talon Champion"
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.havocs",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Havocs",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Havoc, Havoc Champion",
+                    "amount": 5,
+                    "cost": 135
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Havoc",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Havoc Champion",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Havoc",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Havoc Autocannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Havoc Autocannon"
+                                },
+                                {
+                                    "name": "Havoc Heavy Bolter"
+                                },
+                                {
+                                    "name": "Havoc Lascannon"
+                                },
+                                {
+                                    "name": "Havoc Missile Launcher"
+                                },
+                                {
+                                    "name": "Havoc Reaper Chaincannon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Havoc Champion",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Flamer"
+                            },
+                            "options": [
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Boltgun"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plasma Gun"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                },
+                                {
+                                    "name": "Accursed Weapon"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Astartes Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Accursed Weapon"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.obliterators",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Obliterators",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Obliterator",
+                    "amount": 4,
+                    "cost": 320
+                },
+                {
+                    "name": "Obliterator",
+                    "amount": 2,
+                    "cost": 160
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Obliterator",
+                    "min": 2,
+                    "max": 4
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Obliterator"
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.landRaider",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Land Raider",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Land Raider",
+                    "points": 255,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Havoc Launcher"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.annihilator",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Predator Annihilator",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Predator Annihilator",
+                    "points": 130,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "2 Heavy Bolters"
+                                },
+                                {
+                                    "name": "2 Lascannons"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "",
+                                "points": 0
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Havoc Launcher"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.destructor",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Predator Destructor",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Predator Destructor",
+                    "points": 130,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "2 Heavy Bolters"
+                                },
+                                {
+                                    "name": "2 Lascannons"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Havoc Launcher"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.vindicator",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Vindicator",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Vindicator",
+                    "points": 210,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Havoc Launcher"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.defiler",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Defiler",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Defiler",
+                    "points": 210,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Heavy Flamer"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Heavy Flamer"
+                                },
+                                {
+                                    "name": "Havoc Launcher"
+                                },
+                                {
+                                    "name": "Defiler Scourge"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Reaper Autocannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Reaper Autocannon"
+                                },
+                                {
+                                    "name": "Twin Heavy Bolter"
+                                },
+                                {
+                                    "name": "Twin Lascannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.forgefiend",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Forgefiend",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Forgefiend",
+                    "points": 165,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Hades Autocannon, Hades Autocannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hades Autocannon, Hades Autocannon"
+                                },
+                                {
+                                    "name": "Ectoplasma Cannon, Ectoplasma Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Forgefiend Jaws"
+                            },
+                            "options": [
+                                {
+                                    "name": "Forgefiend Jaws"
+                                },
+                                {
+                                    "name": "Ectoplasma Cannon, Armoured Limbs"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.helbrute",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Helbrute",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Helbrute",
+                    "points": 155,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Multi-melta"
+                            },
+                            "options": [
+                                {
+                                    "name": "Multi-melta"
+                                },
+                                {
+                                    "name": "Helbrute Plasma Cannon"
+                                },
+                                {
+                                    "name": "Twin Autocannon"
+                                },
+                                {
+                                    "name": "Twin Heavy Bolter"
+                                },
+                                {
+                                    "name": "Twin Lascannon"
+                                },
+                                {
+                                    "name": "Helbrute Fist, Combi-bolter"
+                                },
+                                {
+                                    "name": "Helbrute Fist, Heavy Flamer"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Missile Launcher"
+                            },
+                            "options": [
+                                {
+                                    "name": "Missile Launcher"
+                                },
+                                {
+                                    "name": "Helbrute Fist, Combi-bolter"
+                                },
+                                {
+                                    "name": "Helbrute Fist, Heavy Flamer"
+                                },
+                                {
+                                    "name": "Helbrute Hammer"
+                                },
+                                {
+                                    "name": "Power Scourge"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.heldrake",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Heldrake",
+            "role": "AIRCRAFT",
+            "models": [
+                {
+                    "name": "Heldrake",
+                    "points": 205,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Hades Autocannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hades Autocannon"
+                                },
+                                {
+                                    "name": "Baleflamer"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.maulerfiend",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Maulerfiend",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Maulerfiend",
+                    "points": 155,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Lasher Tendrils"
+                            },
+                            "options": [
+                                {
+                                    "name": "Lasher Tendrils"
+                                },
+                                {
+                                    "name": "2 Magma Cutters"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.rhino",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Rhino",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Rhino",
+                    "points": 85,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Havoc Launcher"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.spawn",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Chaos Spawn",
+            "role": "BEAST",
+            "points": [
+                {
+                    "name": "Chaos Spawn",
+                    "amount": 2,
+                    "cost": 80
+                }
+            ],
+            "models": [
+                {
+                    "name": "Chaos Spawn"
+                },
+                {
+                    "name": "Chaos Spawn"
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.klos",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Khorne Lord of Skulls",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Khorne Lord of Skulls",
+                    "points": 480,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Gorestorm Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Gorestorm Cannon"
+                                },
+                                {
+                                    "name": "Daemongore Cannon"
+                                },
+                                {
+                                    "name": "Ichor Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Hades Gatling Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hades Gatling Cannon"
+                                },
+                                {
+                                    "name": "Skullhurler"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.noctolithCrown",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Noctolith Crown",
+            "role": "FORTIFICATION",
+            "models": [
+                {
+                    "name": "Noctolith Crown",
+                    "points": 125
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.vashtorr",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Vashtorr the Arkifane",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Vashtorr the Arkifane",
+                    "points": 225,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.traitorGuardsmen",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Traitor Guardsmen Squad",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Traitor Guardsman, Traitor Sergeant",
+                    "amount": 10,
+                    "cost": 70
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Traitor Guardsman",
+                    "min": 9,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Traitor Sergeant",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Traitor Guardsman",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Lasgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Lasgun"
+                                },
+                                {
+                                    "name": "Cultist Grenade Launcher"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plasma Gun"
+                                },
+                                {
+                                    "name": "Cultist Sniper Rifle"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Traitor Sergeant",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Corrupted Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Corrupted Pistol"
+                                },
+                                {
+                                    "name": "Boltgun"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Close Combat Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Chainsword"
+                                },
+                                {
+                                    "name": "Power Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.fellgorBeastmen",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Fellgor Beastmen",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Fellgor Beastman, Fellgor Champion",
+                    "amount": 10,
+                    "cost": 95
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Fellgor Beastman",
+                    "min": 9,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Fellgor Champion",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Fellgor Beastman",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Close Combat Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Great Weapon"
+                                },
+                                {
+                                    "name": "Corrupted Stave"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Fellgor Champion",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.traitorEnforcer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Traitor Enforcer",
+            "role": "CHARACTER",
+            "points": [
+                {
+                    "name": "Traitor Ogryn, Traitor Enforcer",
+                    "amount": 2,
+                    "cost": 65
+                }
+            ],
+            "models": [
+                {
+                    "name": "Traitor Ogryn"
+                },
+                {
+                    "name": "Traitor Enforcer",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.slavesToDarkness",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Talisman of Burning Blood",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Eye of Tzeentch",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Orbs of Unlife",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Intoxicating Elixir",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Liber Hereticus",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "selectedOption": {
+                        "name": "Chaos Undivided"
+                    },
+                    "options": [
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

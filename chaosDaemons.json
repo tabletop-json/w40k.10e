@@ -1,0 +1,1900 @@
+{
+    "config": {
+        "id": "w40k.10e.dmns.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.dmns",
+        "name": "Chaos Daemons",
+        "keyword": "LEGIONES DAEMONICA",
+        "enabled": true,
+        "endpoint": "chaosDaemons.json",
+        "allies": [
+            "w40k.10e.ck"
+        ]
+    },
+    "detachments": [
+        {
+            "id": "w40k.10e.dmns.dt.theShadowOfChaos",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "The Shadow of Chaos",
+            "rule": ""
+        }
+    ],
+    "units": [
+        {
+            "id": "w40k.10e.dmns.unit.skarbrand",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Skarbrand",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Skarbrand",
+                    "points": 365,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.bloodthirster",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Bloodthirster",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Bloodthirster",
+                    "points": 300,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Great Axe of Khorne"
+                            },
+                            "options": [
+                                {
+                                    "name": "Great Axe of Khorne"
+                                },
+                                {
+                                    "name": "Axe of Khorne, Bloodflail"
+                                },
+                                {
+                                    "name": "Axe of Khorne, Lash of Khorne"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.theShadowOfChaos",
+                            "selectedOption": {
+                                "name": "A'rgath, The King of Blades",
+                                "points": 20
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.skulltaker",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Skulltaker",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Skulltaker",
+                    "points": 95,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.bloodmaster",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Bloodmaster",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Bloodmaster",
+                    "points": 85,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.theShadowOfChaos",
+                            "selectedOption": {
+                                "name": "A'rgath, The King of Blades",
+                                "points": 20
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.skullmaster",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Skullmaster",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Skullmaster",
+                    "points": 105,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.theShadowOfChaos",
+                            "selectedOption": {
+                                "name": "A'rgath, The King of Blades",
+                                "points": 20
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.rendmasterOnBloodthrone",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Rendmaster on Bloodthrone",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Rendmaster on Bloodthrone",
+                    "points": 150,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.theShadowOfChaos",
+                            "selectedOption": {
+                                "name": "A'rgath, The King of Blades",
+                                "points": 20
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.karanak",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Karanak",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Karanak",
+                    "points": 85,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.bloodletters",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Bloodletters",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Bloodletter, Bloodreaper",
+                    "amount": 10,
+                    "cost": 160
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Bloodletter",
+                    "min": 9,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Bloodreaper",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Bloodletter",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Daemonic Icon"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Instrument of Chaos"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Bloodreaper"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.bloodcrushers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Bloodcrushers",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Bloodcrusher, Bloodhunter",
+                    "amount": 6,
+                    "cost": 240
+                },
+                {
+                    "name": "Bloodcrusher, Bloodhunter",
+                    "amount": 3,
+                    "cost": 120
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Bloodcrusher",
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "type": "model",
+                    "name": "Bloodhunter",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Bloodcrusher",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Daemonic Icon"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Instrument of Chaos"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Bloodhunter"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.fleshhounds",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Flesh Hounds",
+            "role": "BEAST",
+            "points": [
+                {
+                    "name": "Flesh Hound, Gore Hound",
+                    "amount": 10,
+                    "cost": 140
+                },
+                {
+                    "name": "Flesh Hound, Gore Hound",
+                    "amount": 5,
+                    "cost": 70
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Flesh Hound",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Gore Hound",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Flesh Hound"
+                },
+                {
+                    "name": "Gore Hound"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.skullcannon",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Skull Cannon",
+            "role": "MOUNTED",
+            "models": [
+                {
+                    "name": "Skull Cannon",
+                    "points": 115
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.skullaltar",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Skull Altar",
+            "role": "FORTIFICATION",
+            "models": [
+                {
+                    "name": "Skull Altar",
+                    "points": 105
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.kairos",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Kairos Fateweaver",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Kairos Fateweaver",
+                    "points": 285,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.lordOfChange",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Lord of Change",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Lord of Change",
+                    "points": 230,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Rod of Sorcery"
+                                },
+                                {
+                                    "name": "Baleful Sword"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.theShadowOfChaos",
+                            "selectedOption": {
+                                "name": "The Everstave",
+                                "points": 25
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.changeling",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "The Changeling",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "The Changeling",
+                    "points": 75,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.fateskimmer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Fateskimmer",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Fateskimmer",
+                    "points": 105,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.theShadowOfChaos",
+                            "selectedOption": {
+                                "name": "The Everstave",
+                                "points": 25
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.fluxmaster",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Fluxmaster",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Fluxmaster",
+                    "points": 60,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.theShadowOfChaos",
+                            "selectedOption": {
+                                "name": "The Everstave",
+                                "points": 25
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.blueScribes",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "The Blue Scribes",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "The Blue Scribes",
+                    "points": 65,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.changecaster",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Changecaster",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Changecaster",
+                    "points": 65,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.theShadowOfChaos",
+                            "selectedOption": {
+                                "name": "The Everstave",
+                                "points": 25
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.blueHorrors",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Blue Horrors",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Blue Horror",
+                    "amount": 10,
+                    "cost": 125
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Blue Horror",
+                    "min": 10,
+                    "max": 10
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Blue Horror"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.pinkHorrors",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Pink Horrors",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Pink Horror",
+                    "amount": 10,
+                    "cost": 140
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Pink Horror",
+                    "min": 10,
+                    "max": 10
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Pink Horror",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Daemonic Icon"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Instrument of Chaos"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.flamers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Flamers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Flamer, Pyrocaster",
+                    "amount": 6,
+                    "cost": 130
+                },
+                {
+                    "name": "Flamer, Pyrocaster",
+                    "amount": 3,
+                    "cost": 65
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Flamer",
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "type": "model",
+                    "name": "Pyrocaster",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Flamer"
+                },
+                {
+                    "name": "Pyrocaster"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.exaltedFlamer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Exalted Flamer",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Exalted Flamer",
+                    "points": 70
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.screamers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Screamers",
+            "role": "BEAST",
+            "points": [
+                {
+                    "name": "Screamer",
+                    "amount": 6,
+                    "cost": 180
+                },
+                {
+                    "name": "Screamer",
+                    "amount": 3,
+                    "cost": 90
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Screamer",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Screamer"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.burningChariot",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Burning Chariot",
+            "role": "MOUNTED",
+            "models": [
+                {
+                    "name": "Burning Chariot",
+                    "points": 135
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.rotigus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Rotigus",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Rotigus",
+                    "points": 285,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.greatUncleanOne",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Great Unclean One",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Great Unclean One",
+                    "points": 280,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Plagueflail"
+                            },
+                            "options": [
+                                {
+                                    "name": "Plagueflail"
+                                },
+                                {
+                                    "name": "Bileblade"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bilesword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bilesword"
+                                },
+                                {
+                                    "name": "Doomsday Bell"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.theShadowOfChaos",
+                            "selectedOption": {
+                                "name": "The Endless Gift",
+                                "points": 30
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.poxbringer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Poxbringer",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Poxbringer",
+                    "points": 75,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.theShadowOfChaos",
+                            "selectedOption": {
+                                "name": "The Endless Gift",
+                                "points": 30
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.spoilpoxScrivener",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Spoilpox Scrivener",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Spoilpox Scrivener",
+                    "points": 65,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.theShadowOfChaos",
+                            "selectedOption": {
+                                "name": "The Endless Gift",
+                                "points": 30
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.epidemius",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Epidemius",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Epidemius",
+                    "points": 85,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.sloppityBilepiper",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Sloppity Bilepiper",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Sloppity Bilepiper",
+                    "points": 55,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.theShadowOfChaos",
+                            "selectedOption": {
+                                "name": "The Endless Gift",
+                                "points": 30
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.horticulousSlimux",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Horticulous Slimux",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Horticulous Slimux",
+                    "points": 120,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.plaguebearers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Plaguebearers",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Plaguebearer, Plagueridden",
+                    "amount": 10,
+                    "cost": 145
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Plaguebearer",
+                    "min": 9,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Plagueridden",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Plaguebearer",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Daemonic Icon"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Instrument of Chaos"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Plagueridden"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.nurglings",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Nurglings",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Nurgling Swarm",
+                    "amount": 9,
+                    "cost": 120
+                },
+                {
+                    "name": "Nurgling Swarm",
+                    "amount": 6,
+                    "cost": 80
+                },
+                {
+                    "name": "Nurgling Swarm",
+                    "amount": 3,
+                    "cost": 40
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Nurgling Swarm",
+                    "min": 3,
+                    "max": 9
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Nurgling Swarm"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.beastsOfNurgle",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Beasts of Nurgle",
+            "role": "BEAST",
+            "points": [
+                {
+                    "name": "Beast of Nurgle",
+                    "amount": 2,
+                    "cost": 150
+                },
+                {
+                    "name": "Beast of Nurgle",
+                    "amount": 1,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Beast of Nurgle",
+                    "min": 1,
+                    "max": 2
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Beast of Nurgle"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.plagueDrones",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Plague Drones",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Plague Drone, Plaguebringer",
+                    "amount": 6,
+                    "cost": 240
+                },
+                {
+                    "name": "Plague Drone, Plaguebringer",
+                    "amount": 3,
+                    "cost": 120
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Plague Drone",
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "type": "model",
+                    "name": "Plaguebringer",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Plague Drone",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Daemonic Icon"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Instrument of Chaos"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Plaguebringer"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.feculentGnarlmaw",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Feculent Gnarlmaw",
+            "role": "FORTIFICATION",
+            "models": [
+                {
+                    "name": "Feculent Gnarlmaw",
+                    "points": 100
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.shalaxi",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Shalaxi Helbane",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Shalaxi Helbane",
+                    "points": 400,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.keeperOfSecrets",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Keeper of Secrets",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Keeper of Secrets",
+                    "points": 330,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Living Whip"
+                                },
+                                {
+                                    "name": "Ritual Knife"
+                                },
+                                {
+                                    "name": "Shining Aegis"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.theShadowOfChaos",
+                            "selectedOption": {
+                                "name": "Soulstealer",
+                                "points": 15
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.infernalEnrapturess",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Infernal Enrapturess",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Infernal Enrapturess",
+                    "points": 65,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.theShadowOfChaos",
+                            "selectedOption": {
+                                "name": "Soulstealer",
+                                "points": 15
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.masqueOfSlaanesh",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "The Masque of Slaanesh",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "The Masque of Slaanesh",
+                    "points": 105,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.syllesske",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Syll'esske",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Syll'esske",
+                    "points": 140,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.contortedEpitome",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Contorted Epitome",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Contorted Epitome",
+                    "points": 85,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.theShadowOfChaos",
+                            "selectedOption": {
+                                "name": "Soulstealer",
+                                "points": 15
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.tormentbringerOnExaltedSeekerChariot",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Tormentbringer on Exalted Seeker Chariot",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Tormentbringer on Exalted Seeker Chariot",
+                    "points": 160,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.theShadowOfChaos",
+                            "selectedOption": {
+                                "name": "Soulstealer",
+                                "points": 15
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.tranceweaver",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Tranceweaver",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Tranceweaver",
+                    "points": 60,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.theShadowOfChaos",
+                            "selectedOption": {
+                                "name": "Soulstealer",
+                                "points": 15
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.daemonettes",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Daemonettes",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Daemonette, Alluress",
+                    "amount": 10,
+                    "cost": 140
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Daemonette",
+                    "min": 9,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Alluress",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Daemonette",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Daemonic Icon"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Instrument of Chaos"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Alluress"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.fiends",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Fiends",
+            "role": "BEAST",
+            "points": [
+                {
+                    "name": "Fiend, Blissbringer",
+                    "amount": 6,
+                    "cost": 300
+                },
+                {
+                    "name": "Fiend, Blissbringer",
+                    "amount": 3,
+                    "cost": 150
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Fiend",
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "type": "model",
+                    "name": "Blissbringer",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Fiend"
+                },
+                {
+                    "name": "Blissbringer"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.seekers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Seekers",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Seeker, Heartseeker",
+                    "amount": 10,
+                    "cost": 190
+                },
+                {
+                    "name": "Seeker, Heartseeker",
+                    "amount": 5,
+                    "cost": 95
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Seeker",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Heartseeker",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Seeker",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Daemonic Icon"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Instrument of Chaos"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Alluress"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.hellflayer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Hellflayer",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Hellflayer",
+                    "amount": 2,
+                    "cost": 220
+                },
+                {
+                    "name": "Hellflayer",
+                    "amount": 1,
+                    "cost": 110
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Hellflayer",
+                    "min": 1,
+                    "max": 2
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Hellflayer"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.seekerChariot",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Seeker Chariot",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Seeker Chariot",
+                    "amount": 2,
+                    "cost": 150
+                },
+                {
+                    "name": "Seeker Chariot",
+                    "amount": 1,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Seeker Chariot",
+                    "min": 1,
+                    "max": 2
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Seeker Chariot"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.exaltedSeekerChariot",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Exalted Seeker Chariot",
+            "role": "MOUNTED",
+            "models": [
+                {
+                    "name": "Exalted Seeker Chariot",
+                    "points": 115
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.belakor",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Be'lakor",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Be'lakor",
+                    "points": 325,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.soulGrinder",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Soul Grinder",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Soul Grinder",
+                    "points": 215,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Warpsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Warpsword"
+                                },
+                                {
+                                    "name": "Warpclaw"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Khorne"
+                                },
+                                {
+                                    "name": "Tzeentch"
+                                },
+                                {
+                                    "name": "Nurgle"
+                                },
+                                {
+                                    "name": "Slaanesh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.daemonPrince",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Daemon Prince",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Daemon Prince",
+                    "points": 215,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Khorne"
+                                },
+                                {
+                                    "name": "Tzeentch"
+                                },
+                                {
+                                    "name": "Nurgle"
+                                },
+                                {
+                                    "name": "Slaanesh"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.theShadowOfChaos",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "A'rgath, The King of Blades",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "The Everstave",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Endless Gift",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Soulstealer",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.daemonPrinceWings",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Daemon Prince with Wings",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Daemon Prince with Wings",
+                    "points": 195,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Khorne"
+                                },
+                                {
+                                    "name": "Tzeentch"
+                                },
+                                {
+                                    "name": "Nurgle"
+                                },
+                                {
+                                    "name": "Slaanesh"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.theShadowOfChaos",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "A'rgath, The King of Blades",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "The Everstave",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Endless Gift",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Soulstealer",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

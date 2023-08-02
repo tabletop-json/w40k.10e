@@ -1,0 +1,1469 @@
+{
+    "config": {
+        "id": "w40k.10e.tsons.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.tsons",
+        "name": "Thousand Sons",
+        "enabled": true,
+        "keyword": "THOUSAND SONS",
+        "endpoint": "thousandSons.json",
+        "allies": [
+            "w40k.10e.dmns",
+            "w40k.10e.ck"
+        ]
+    },
+    "detachments": [
+        {
+            "id": "w40k.10e.tsons.dt.cultOfMagic",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Cult of Magic",
+            "rule": ""
+        }
+    ],
+    "units": [
+        {
+            "id": "w40k.10e.tsons.unit.ahriman",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Ahriman",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Ahriman",
+                    "points": 110,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.ahrimanDisc",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Ahriman on Disc",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Ahriman",
+                    "points": 115,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.landRaider",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Land Raider",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Land Raider",
+                    "points": 250,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Inferno Combi-bolter"
+                                },
+                                {
+                                    "name": "Inferno Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Havoc Launcher"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.annihilator",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Predator Annihilator",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Predator Annihilator",
+                    "points": 120,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "2 Heavy Bolters"
+                                },
+                                {
+                                    "name": "2 Lascannons"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "",
+                                "points": 0
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Inferno Combi-bolter"
+                                },
+                                {
+                                    "name": "Inferno Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Havoc Launcher"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.destructor",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Predator Destructor",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Predator Destructor",
+                    "points": 125,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "2 Heavy Bolters"
+                                },
+                                {
+                                    "name": "2 Lascannons"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Inferno Combi-bolter"
+                                },
+                                {
+                                    "name": "Inferno Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Havoc Launcher"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.rhino",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Rhino",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Rhino",
+                    "points": 75,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Inferno Combi-bolter"
+                                },
+                                {
+                                    "name": "Inferno Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Havoc Launcher"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.spawn",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Chaos Spawn",
+            "role": "BEAST",
+            "points": [
+                {
+                    "name": "Chaos Spawn",
+                    "amount": 2,
+                    "cost": 65
+                }
+            ],
+            "models": [
+                {
+                    "name": "Chaos Spawn"
+                },
+                {
+                    "name": "Chaos Spawn"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.vindicator",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Vindicator",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Vindicator",
+                    "points": 200,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Inferno Combi-bolter"
+                                },
+                                {
+                                    "name": "Inferno Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Havoc Launcher"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.defiler",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Defiler",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Defiler",
+                    "points": 200,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Heavy Flamer"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Heavy Flamer"
+                                },
+                                {
+                                    "name": "Havoc Launcher"
+                                },
+                                {
+                                    "name": "Defiler Scourge"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Reaper Autocannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Reaper Autocannon"
+                                },
+                                {
+                                    "name": "Twin Inferno Heavy Bolter"
+                                },
+                                {
+                                    "name": "Twin Lascannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Inferno Combi-weapon"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.exaltedSorcerer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Exalted Sorcerer",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Exalted Sorcerer",
+                    "points": 90,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Inferno Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Inferno Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                },
+                                {
+                                    "name": "Warpflame Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Prosperine Khopesh"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.cultOfMagic",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Lord of Forbidden Lore",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Athenaean Scrolls",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Umbralefic Crystal",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Arcane Vortex",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.exaltedSorcererDisc",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Exalted Sorcerer on Disc",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Exalted Sorcerer on Disc",
+                    "points": 105,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Inferno Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Inferno Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                },
+                                {
+                                    "name": "Warpflame Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Prosperine Khopesh"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.cultOfMagic",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Lord of Forbidden Lore",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Athenaean Scrolls",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Umbralefic Crystal",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Arcane Vortex",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.forgefiend",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Forgefiend",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Forgefiend",
+                    "points": 135,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "2 Hades Autocannons"
+                            },
+                            "options": [
+                                {
+                                    "name": "2 Hades Autocannons"
+                                },
+                                {
+                                    "name": "2 Ectoplasma Cannons"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Forgefiend Jaws"
+                            },
+                            "options": [
+                                {
+                                    "name": "Forgefiend Jaws"
+                                },
+                                {
+                                    "name": "Ectoplasma Cannon, Forgefiend Claws"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.helbrute",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Helbrute",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Helbrute",
+                    "points": 145,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Multi-melta"
+                            },
+                            "options": [
+                                {
+                                    "name": "Multi-melta"
+                                },
+                                {
+                                    "name": "Helbrute Plasma Cannon"
+                                },
+                                {
+                                    "name": "Twin Autocannon"
+                                },
+                                {
+                                    "name": "Twin Inferno Heavy Bolter"
+                                },
+                                {
+                                    "name": "Twin Lascannon"
+                                },
+                                {
+                                    "name": "Helbrute Fist, Inferno Combi-bolter"
+                                },
+                                {
+                                    "name": "Helbrute Fist, Heavy Flamer"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Missile Launcher"
+                            },
+                            "options": [
+                                {
+                                    "name": "Missile Launcher"
+                                },
+                                {
+                                    "name": "Helbrute Fist, Inferno Combi-bolter"
+                                },
+                                {
+                                    "name": "Helbrute Fist, Heavy Flamer"
+                                },
+                                {
+                                    "name": "Helbrute Hammer"
+                                },
+                                {
+                                    "name": "Power Scourge"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.heldrake",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Heldrake",
+            "role": "AIRCRAFT",
+            "models": [
+                {
+                    "name": "Heldrake",
+                    "points": 195,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Hades Autocannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hades Autocannon"
+                                },
+                                {
+                                    "name": "Baleflamer"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.infernalMaster",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Infernal Master",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Infernal Master",
+                    "points": 75,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.cultOfMagic",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Lord of Forbidden Lore",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Athenaean Scrolls",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Umbralefic Crystal",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Arcane Vortex",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.magnus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Magnus the Red",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Magnus the Red",
+                    "points": 410,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.maulerfiend",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Maulerfiend",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Maulerfiend",
+                    "points": 140,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Lasher Tendrils"
+                            },
+                            "options": [
+                                {
+                                    "name": "Lasher Tendrils"
+                                },
+                                {
+                                    "name": "2 Magma Cutters"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.vortexBeast",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Mutalith Vortex Beast",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Mutalith Vortex Beast",
+                    "points": 145
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.rubrics",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Rubric Marines",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Rubric Marine, Aspiring Sorcerer",
+                    "amount": 10,
+                    "cost": 190
+                },
+                {
+                    "name": "Rubric Marine, Aspiring Sorcerer",
+                    "amount": 5,
+                    "cost": 95
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Rubric Marine",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Aspiring Sorcerer",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Rubric Marine",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Inferno Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Inferno Boltgun"
+                                },
+                                {
+                                    "name": "Warpflamer"
+                                },
+                                {
+                                    "name": "Soulreaper Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Icon of Flame"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Aspiring Sorcerer",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Inferno Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Inferno Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                },
+                                {
+                                    "name": "Warpflame Pistol"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.scarabs",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Scarab Occult Terminators",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Scarab Occult Terminator, Scarab Occult Sorcerer",
+                    "amount": 10,
+                    "cost": 410
+                },
+                {
+                    "name": "Scarab Occult Terminator, Scarab Occult Sorcerer",
+                    "amount": 5,
+                    "cost": 205
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Scarab Occult Terminator",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Scarab Occult Sorcerer",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Scarab Occult Terminator",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Inferno Combi-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Inferno Combi-bolter"
+                                },
+                                {
+                                    "name": "Heavy Warpflamer"
+                                },
+                                {
+                                    "name": "Soulreaper Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Hellfyre Missile Rack"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Scarab Occult Sorcerer",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Inferno Combi-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Inferno Combi-bolter"
+                                },
+                                {
+                                    "name": "Prosperine Khopesh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.sorcerer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Sorcerer",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Sorcerer",
+                    "points": 85,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Inferno Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Inferno Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                },
+                                {
+                                    "name": "Warpflame Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.cultOfMagic",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Lord of Forbidden Lore",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Athenaean Scrolls",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Umbralefic Crystal",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Arcane Vortex",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.terminatorSorcerer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Sorcerer in Terminator Armour",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Sorcerer in Terminator Armour",
+                    "points": 105,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Inferno Combi-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Inferno Combi-bolter"
+                                },
+                                {
+                                    "name": "Inferno Combi-weapon"
+                                },
+                                {
+                                    "name": "Prosperine Khopesh"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.cultOfMagic",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Lord of Forbidden Lore",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Athenaean Scrolls",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Umbralefic Crystal",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Arcane Vortex",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.cultists",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Cultists",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Cultist, Cultist Champion",
+                    "amount": 20,
+                    "cost": 130
+                },
+                {
+                    "name": "Cultist, Cultist Champion",
+                    "amount": 10,
+                    "cost": 65
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Cultist",
+                    "min": 9,
+                    "max": 19
+                },
+                {
+                    "type": "model",
+                    "name": "Cultist Champion",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Cultist",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Cultist Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Cultist Firearm"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cultist Champion"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.daemonPrince",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Daemon Prince",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Daemon Prince",
+                    "points": 210,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.cultOfMagic",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Lord of Forbidden Lore",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Athenaean Scrolls",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Umbralefic Crystal",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Arcane Vortex",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.daemonPrinceWings",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Daemon Prince with Wings",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Daemon Prince",
+                    "points": 190,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.cultOfMagic",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Lord of Forbidden Lore",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Athenaean Scrolls",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Umbralefic Crystal",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Arcane Vortex",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.tzaangorEnlightened",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Tzaangor Enlightened",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Tzaangor Enlightened, Aviarch",
+                    "amount": 6,
+                    "cost": 90
+                },
+                {
+                    "name": "Tzaangor Enlightened, Aviarch",
+                    "amount": 3,
+                    "cost": 45
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Tzaangor Enlightened",
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "type": "model",
+                    "name": "Aviarch",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Tzaangor Enlightened",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Divining Spear"
+                            },
+                            "options": [
+                                {
+                                    "name": "Divining Spear"
+                                },
+                                {
+                                    "name": "Autopistol, Chainsword"
+                                },
+                                {
+                                    "name": "Fatecaster Greatbow, Close Combat Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Aviarch",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Divining Spear"
+                            },
+                            "options": [
+                                {
+                                    "name": "Divining Spear"
+                                },
+                                {
+                                    "name": "Autopistol, Chainsword"
+                                },
+                                {
+                                    "name": "Fatecaster Greatbow, Close Combat Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.tzaangorShaman",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Tzaangor Shaman",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Tzaangor Shaman",
+                    "points": 60,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.cultOfMagic",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Lord of Forbidden Lore",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Athenaean Scrolls",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Umbralefic Crystal",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Arcane Vortex",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.tzaangors",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Tzaangors",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Tzaangor, Twistbray",
+                    "amount": 20,
+                    "cost": 130
+                },
+                {
+                    "name": "Tzaangor, Twistbray",
+                    "amount": 10,
+                    "cost": 65
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Tzaangor",
+                    "min": 9,
+                    "max": 19
+                },
+                {
+                    "type": "model",
+                    "name": "Twistbray",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Tzaangor",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Tzaangor Blades"
+                            },
+                            "options": [
+                                {
+                                    "name": "Tzaangor Blades"
+                                },
+                                {
+                                    "name": "Autopistol, Chainsword"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Brayhorn"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Herd Banner"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Twistbray",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Tzaangor Blades"
+                            },
+                            "options": [
+                                {
+                                    "name": "Tzaangor Blades"
+                                },
+                                {
+                                    "name": "Autopistol, Chainsword"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

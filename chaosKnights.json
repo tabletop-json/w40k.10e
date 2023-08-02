@@ -1,0 +1,1058 @@
+{
+    "config": {
+        "id": "w40k.10e.ck.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.ck",
+        "name": "Chaos Knights",
+        "keyword": "CHAOS KNIGHTS",
+        "enabled": true,
+        "endpoint": "chaosKnights.json",
+        "allies": [
+            "w40k.10e.dmns"
+        ]
+    },
+    "detachments": [
+        {
+            "id": "w40k.10e.ck.dt.lance",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.ck",
+            "name": "Traitoris Lance"
+        }
+    ],
+    "units": [
+        {
+            "id": "w40k.10e.ck.unit.executioner",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "name": "War Dog Executioner",
+            "role": "BATTLELINE",
+            "models": [
+                {
+                    "name": "War Dog Executioner",
+                    "points": 135,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Diabolus Heavy Stubber"
+                            },
+                            "options": [
+                                {
+                                    "name": "Diabolus Heavy Stubber"
+                                },
+                                {
+                                    "name": "Daemonbreath Meltagun"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ck.unit.stalker",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "name": "War Dog Stalker",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "War Dog Stalker",
+                    "points": 135,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Avenger Chaincannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Avenger Chaincannon"
+                                },
+                                {
+                                    "name": "Daemonbreath Spear"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Slaughterclaw"
+                            },
+                            "options": [
+                                {
+                                    "name": "Slaughterclaw"
+                                },
+                                {
+                                    "name": "Reaper Chaintalon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Diabolus Heavy Stubber"
+                            },
+                            "options": [
+                                {
+                                    "name": "Diabolus Heavy Stubber"
+                                },
+                                {
+                                    "name": "Havoc Multi-launcher"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.lance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Lord of Dread",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Aura of Terror",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Traitor's Mark",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Panoply of the Cursed Knights",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ck.unit.karnivore",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "name": "War Dog Karnivore",
+            "role": "BATTLELINE",
+            "models": [
+                {
+                    "name": "War Dog Karnivore",
+                    "points": 160,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Diabolus Heavy Stubber"
+                            },
+                            "options": [
+                                {
+                                    "name": "Diabolus Heavy Stubber"
+                                },
+                                {
+                                    "name": "Havoc Multi-launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ck.unit.brigand",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "name": "War Dog Brigand",
+            "role": "BATTLELINE",
+            "models": [
+                {
+                    "name": "War Dog Brigand",
+                    "points": 150,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Diabolus Heavy Stubber"
+                            },
+                            "options": [
+                                {
+                                    "name": "Diabolus Heavy Stubber"
+                                },
+                                {
+                                    "name": "Havoc Multi-launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ck.unit.huntsman",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "name": "War Dog Huntsman",
+            "role": "BATTLELINE",
+            "models": [
+                {
+                    "name": "War Dog Huntsman",
+                    "points": 140,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Diabolus Heavy Stubber"
+                            },
+                            "options": [
+                                {
+                                    "name": "Diabolus Heavy Stubber"
+                                },
+                                {
+                                    "name": "Daemonbreath Meltagun"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ck.unit.despoiler",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "name": "Knight Despoiler",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Knight Despoiler",
+                    "points": 470,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Reaper Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Reaper Chainsword"
+                                },
+                                {
+                                    "name": "Daemonbreath Thermal Cannon"
+                                },
+                                {
+                                    "name": "Despoiler Gatling Cannon, Heavy Darkflamer"
+                                },
+                                {
+                                    "name": "Despoiler Battle Cannon, Diabolus Heavy Stubber"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Warpstrike Claw"
+                            },
+                            "options": [
+                                {
+                                    "name": "Warpstrike Claw"
+                                },
+                                {
+                                    "name": "Daemonbreath Thermal Cannon"
+                                },
+                                {
+                                    "name": "Despoiler Gatling Cannon, Heavy Darkflamer"
+                                },
+                                {
+                                    "name": "Despoiler Battle Cannon, Diabolus Heavy Stubber"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Daemonbreath Meltagun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Daemonbreath Meltagun"
+                                },
+                                {
+                                    "name": "Diabolus Heavy Stubber"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Havoc Missile Pod"
+                                },
+                                {
+                                    "name": "Ruinspear Rocket Pod"
+                                },
+                                {
+                                    "name": "Hellstorm Autocannons"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.lance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Lord of Dread",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Aura of Terror",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Traitor's Mark",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Panoply of the Cursed Knights",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ck.unit.desecrator",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "name": "Knight Desecrator",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Knight Desecrator",
+                    "points": 450,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Reaper Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Reaper Chainsword"
+                                },
+                                {
+                                    "name": "Warpstrike Claw"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.lance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Lord of Dread",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Aura of Terror",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Traitor's Mark",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Panoply of the Cursed Knights",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ck.unit.rampager",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "name": "Knight Rampager",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Knight Rampager",
+                    "points": 395,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.lance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Lord of Dread",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Aura of Terror",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Traitor's Mark",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Panoply of the Cursed Knights",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ck.unit.abominant",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "name": "Knight Abominant",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Knight Abominant",
+                    "points": 455,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.lance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Lord of Dread",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Aura of Terror",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Traitor's Mark",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Panoply of the Cursed Knights",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ck.unit.tyrant",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "name": "Knight Tyrant",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Knight Tyrant",
+                    "points": 555,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Brimstone Volcano Lance, Ectoplasma Decimator"
+                            },
+                            "options": [
+                                {
+                                    "name": "Brimstone Volcano Lance, Ectoplasma Decimator"
+                                },
+                                {
+                                    "name": "Darkflame Cannon, Warpshock Harpoon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "2 Gheiststrike Missle Launchers, Twin Desecrator Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "2 Gheiststrike Missle Launchers, Twin Desecrator Cannon"
+                                },
+                                {
+                                    "name": "Gheiststrike Missle Launcher, 2 Twin Desecrator Cannons"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.lance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Lord of Dread",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Aura of Terror",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Traitor's Mark",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Panoply of the Cursed Knights",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ck.unit.acastusKnightAsterius",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "name": "Acastus Knight Asterius",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Acastus Knight Asterius",
+                    "points": 840
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ck.unit.acastusKnightPorphyrion",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "name": "Acastus Knight Porphyrion",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Acastus Knight Porphyrion",
+                    "points": 740,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Acastus Autocannon, Acastus Autocannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Acastus Autocannon, Acastus Autocannon"
+                                },
+                                {
+                                    "name": "Lascannon, Lascannon"
+                                },
+                                {
+                                    "name": "Acastus Autocannon, Lascannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Ironstorm Missile Pod"
+                            },
+                            "options": [
+                                {
+                                    "name": "Ironstorm Missile Pod"
+                                },
+                                {
+                                    "name": "Helios Defence Missiles"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ck.unit.cerastusKnightLancer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "name": "Cerastus Knight Lancer",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Cerastus Knight Lancer",
+                    "points": 465,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.lance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Lord of Dread",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Aura of Terror",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Traitor's Mark",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Panoply of the Cursed Knights",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ck.unit.cerastusKnightCastigator",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "name": "Cerastus Knight Castigator",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Cerastus Knight Castigator",
+                    "points": 480,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.lance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Lord of Dread",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Aura of Terror",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Traitor's Mark",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Panoply of the Cursed Knights",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ck.unit.cerastusKnightAcheron",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "name": "Cerastus Knight Acheron",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Cerastus Knight Acheron",
+                    "points": 465,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.lance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Lord of Dread",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Aura of Terror",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Traitor's Mark",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Panoply of the Cursed Knights",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ck.unit.cerastusKnightAtrapos",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "name": "Cerastus Knight Atrapos",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Cerastus Knight Atrapos",
+                    "points": 465,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.lance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Lord of Dread",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Aura of Terror",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Traitor's Mark",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Panoply of the Cursed Knights",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ck.unit.questorisKnightMagaera",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "name": "Questoris Knight Magaera",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Questoris Knight Magaera",
+                    "points": 465,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Reaper Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Reaper Chainsword"
+                                },
+                                {
+                                    "name": "Hekaton Siege Claw, Twin Rad Cleanser"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.lance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Lord of Dread",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Aura of Terror",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Traitor's Mark",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Panoply of the Cursed Knights",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ck.unit.questorisKnightStyrix",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "name": "Questoris Knight Styrix",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Questoris Knight Styrix",
+                    "points": 505,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Reaper Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Reaper Chainsword"
+                                },
+                                {
+                                    "name": "Hekaton Siege Claw, Twin Rad Cleanser"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.lance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Lord of Dread",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Aura of Terror",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Traitor's Mark",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Panoply of the Cursed Knights",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ck.unit.warDogMoirax",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "name": "War Dog Moirax",
+            "role": "BATTLELINE",
+            "models": [
+                {
+                    "name": "War Dog Moirax",
+                    "points": 170,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Volkite Veuglaire"
+                            },
+                            "options": [
+                                {
+                                    "name": "Siege Claw, Rad Cleanser"
+                                },
+                                {
+                                    "name": "Graviton Pulsar"
+                                },
+                                {
+                                    "name": "Lightning Lock"
+                                },
+                                {
+                                    "name": "Conversion Beam Cannon"
+                                },
+                                {
+                                    "name": "Volkite Veuglaire"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Graviton Pulsar"
+                            },
+                            "options": [
+                                {
+                                    "name": "Siege Claw, Rad Cleanser"
+                                },
+                                {
+                                    "name": "Graviton Pulsar"
+                                },
+                                {
+                                    "name": "Lightning Lock"
+                                },
+                                {
+                                    "name": "Conversion Beam Cannon"
+                                },
+                                {
+                                    "name": "Volkite Veuglaire"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,846 @@
+{
+    "config": {
+        "id": "w40k.10e.vtn.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.vtn",
+        "name": "Leagues of Votann",
+        "keyword": "LEAGUES OF VOTANN",
+        "enabled": true,
+        "endpoint": "votann.json"
+    },
+    "detachments": [
+        {
+            "id": "w40k.10e.vtn.dt.oathband",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Oathband",
+            "rule": ""
+        }
+    ],
+    "units": [
+        {
+            "id": "w40k.10e.vtn.unit.uthar",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Uthar the Destined",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Uthar the Destined",
+                    "points": 115,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.unit.kahl",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Kahl",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Kahl",
+                    "points": 90,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Autoch-pattern Combi-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autoch-pattern Combi-bolter"
+                                },
+                                {
+                                    "name": "Volkanite Disintegrator"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Forgewrought Plasma Axe"
+                            },
+                            "options": [
+                                {
+                                    "name": "Forgewrought Plasma Axe"
+                                },
+                                {
+                                    "name": "Mass Gauntlet"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Rampart Crest"
+                            },
+                            "options": [
+                                {
+                                    "name": "Rampart Crest"
+                                },
+                                {
+                                    "name": "Teleport Crest"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.oathband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Appraising Glare",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "A Long List",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Grim Demeanour",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wayfarer's Grace",
+                                    "points": 25
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.unit.einhyrChampion",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Einhyr Champion",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Einhyr Champion",
+                    "points": 75,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Mass Hammer"
+                            },
+                            "options": [
+                                {
+                                    "name": "Mass Hammer"
+                                },
+                                {
+                                    "name": "Darkstar Axe"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Weavefield Crest"
+                            },
+                            "options": [
+                                {
+                                    "name": "Weavefield Crest"
+                                },
+                                {
+                                    "name": "Teleport Crest"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.oathband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Appraising Glare",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "A Long List",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Grim Demeanour",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wayfarer's Grace",
+                                    "points": 25
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.unit.grimnyr",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Grimnyr",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Grimnyr",
+                    "points": 75,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.oathband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Appraising Glare",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "A Long List",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Grim Demeanour",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wayfarer's Grace",
+                                    "points": 25
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.unit.brokhyr",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Brokhyr Iron-master",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Brokhyr Iron-master",
+                    "points": 75,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.oathband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Appraising Glare",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "A Long List",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Grim Demeanour",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wayfarer's Grace",
+                                    "points": 25
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.unit.hearthkyn",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Hearthkyn Warriors",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Hearthkyn Warrior, Theyn",
+                    "amount": 10,
+                    "cost": 135
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Hearthkyn Warrior",
+                    "min": 9,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Theyn",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Hearthkyn Warrior",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Autoch-pattern Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autoch-pattern Bolter"
+                                },
+                                {
+                                    "name": "Ionblaster"
+                                },
+                                {
+                                    "name": "HYLas Auto Rifle"
+                                },
+                                {
+                                    "name": "HYLas Rotary Cannon"
+                                },
+                                {
+                                    "name": "L7 Missile Launcher"
+                                },
+                                {
+                                    "name": "EtaCarn Plasma Beamer"
+                                },
+                                {
+                                    "name": "Magna-rail Rifle"
+                                },
+                                {
+                                    "name": "Kin Melee Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Medipac"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Comms Array"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Pan Spectral Scanner"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Theyn",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Autoch-pattern Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autoch-pattern Bolter"
+                                },
+                                {
+                                    "name": "Ionblaster"
+                                },
+                                {
+                                    "name": "Kin Melee Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Autoch-pattern Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autoch-pattern Bolt Pistol"
+                                },
+                                {
+                                    "name": "Ion Pistol"
+                                },
+                                {
+                                    "name": "EtaCarn Plasma Pistol"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.unit.hearthguard",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Hearthguard",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Hearthguard, Hesyr",
+                    "amount": 10,
+                    "cost": 330
+                },
+                {
+                    "name": "Hearthguard, Hesyr",
+                    "amount": 5,
+                    "cost": 165
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Hearthguard",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Hesyr",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Hearthguard",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "EtaCarn Plasma Gun"
+                            },
+                            "options": [
+                                {
+                                    "name": "EtaCarn Plasma Gun"
+                                },
+                                {
+                                    "name": "Volkanite Disintegrator"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Concussion Gauntlet"
+                            },
+                            "options": [
+                                {
+                                    "name": "Concussion Gauntlet"
+                                },
+                                {
+                                    "name": "Plasma Blade Gauntlet"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Hesyr",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "EtaCarn Plasma Gun"
+                            },
+                            "options": [
+                                {
+                                    "name": "EtaCarn Plasma Gun"
+                                },
+                                {
+                                    "name": "Volkanite Disintegrator"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Concussion Gauntlet"
+                            },
+                            "options": [
+                                {
+                                    "name": "Concussion Gauntlet"
+                                },
+                                {
+                                    "name": "Plasma Blade Gauntlet"
+                                },
+                                {
+                                    "name": "Concussion Hammer"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Weavefield Crest"
+                            },
+                            "options": [
+                                {
+                                    "name": "Weavefield Crest"
+                                },
+                                {
+                                    "name": "Teleport Crest"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.unit.beserks",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Cthonian Beserks",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Cthonian Beserk",
+                    "amount": 10,
+                    "cost": 270
+                },
+                {
+                    "name": "Cthonian Beserk",
+                    "amount": 5,
+                    "cost": 135
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Cthonian Beserk",
+                    "min": 5,
+                    "max": 10
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Cthonian Beserk",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Plasma Axe"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Plasma Axe"
+                                },
+                                {
+                                    "name": "Concussion Maul"
+                                },
+                                {
+                                    "name": "Twin Concussion Gauntlet"
+                                },
+                                {
+                                    "name": "Mole Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.unit.pioneer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Hernkyn Pioneers",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Hernkyn Pioneer",
+                    "amount": 6,
+                    "cost": 210
+                },
+                {
+                    "name": "Hernkyn Pioneer",
+                    "amount": 3,
+                    "cost": 105
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Hernkyn Pioneer",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Hernkyn Pioneer",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "HYLas Rotary Cannon"
+                                },
+                                {
+                                    "name": "Ion Beamer"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Comms Array"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Pan Spectral Scanner"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Rollbar Searchlight"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.unit.sagitaur",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Sagitaur",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Sagitaur",
+                    "points": 120,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "HYLas Beam Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "HYLas Beam Cannon"
+                                },
+                                {
+                                    "name": "L7 Missile Launcher, Sagitaur Missile Launcher"
+                                },
+                                {
+                                    "name": "MATR Autocannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.unit.thunderkyn",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Brokhyr Thunderkyn",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Brokhyr Thunderkyn",
+                    "amount": 6,
+                    "cost": 190
+                },
+                {
+                    "name": "Brokhyr Thunderkyn",
+                    "amount": 3,
+                    "cost": 95
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Brokhyr Thunderkyn",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Brokhyr Thunderkyn",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Cannon"
+                                },
+                                {
+                                    "name": "Graviton Blast Cannon"
+                                },
+                                {
+                                    "name": "SP Conversion Beamer"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.unit.landFortress",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Hekaton Land Fortress",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Hekaton Land Fortress",
+                    "points": 245,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Bolt Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Bolt Cannon"
+                                },
+                                {
+                                    "name": "Twin Ion Beamer"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Bolt Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Bolt Cannon"
+                                },
+                                {
+                                    "name": "Twin Ion Beamer"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Cyclic Ion Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Cyclic Ion Cannon"
+                                },
+                                {
+                                    "name": "SP Heavy Conversion Beamer"
+                                },
+                                {
+                                    "name": "Heavy Magna-rail Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Pan Spectral Scanner"
+                            },
+                            "options": [
+                                {
+                                    "name": "Pan Spectral Scanner"
+                                },
+                                {
+                                    "name": "Hekaton Warhead"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

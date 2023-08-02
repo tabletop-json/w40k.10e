@@ -1,0 +1,411 @@
+{
+    "id": "w40k.10e",
+    "version": "0.2.0",
+    "updateNotes": "Significant structural update, will likely break all existing lists. One time thing due to the approach of formal release.",
+    "name": "Warhammer 40,000: 10th Edition",
+    "enabled": true,
+    "path": "https://raw.githubusercontent.com/tabletop-json/tabletop-datafiles/develop/w40k/",
+    "configs": [
+        {
+            "id": "w40k.10e.ck.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.ck",
+            "name": "Chaos Knights",
+            "enabled": true,
+            "endpoint": "chaosKnights.json",
+            "allies": [
+                "w40k.10e.dmns",
+                "w40k.10e.tit"
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.ik",
+            "name": "Imperial Knights",
+            "enabled": true,
+            "endpoint": "imperialKnights.json",
+            "allies": [
+                "w40k.10e.agt",
+                "w40k.10e.tit"
+            ]
+        },
+        {
+            "id": "w40k.10e.we.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.we",
+            "name": "World Eaters",
+            "enabled": true,
+            "endpoint": "worldEaters.json",
+            "allies": [
+                "w40k.10e.dmns",
+                "w40k.10e.ck",
+                "w40k.10e.tit"
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Chaos Daemons",
+            "enabled": true,
+            "endpoint": "chaosDaemons.json",
+            "allies": [
+                "w40k.10e.ck",
+                "w40k.10e.tit"
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Thousand Sons",
+            "enabled": true,
+            "endpoint": "thousandSons.json",
+            "allies": [
+                "w40k.10e.dmns",
+                "w40k.10e.ck",
+                "w40k.10e.tit"
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Leagues of Votann",
+            "enabled": true,
+            "endpoint": "votann.json"
+        },
+        {
+            "id": "w40k.10e.cst.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Adeptus Custodes",
+            "enabled": true,
+            "endpoint": "custodes.json",
+            "allies": [
+                "w40k.10e.agt",
+                "w40k.10e.ik",
+                "w40k.10e.tit"
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Genestealer Cults",
+            "enabled": true,
+            "endpoint": "genestealerCults.json"
+        },
+        {
+            "id": "w40k.10e.gk.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Grey Knights",
+            "enabled": true,
+            "endpoint": "greyKnights.json",
+            "allies": [
+                "w40k.10e.agt",
+                "w40k.10e.ik",
+                "w40k.10e.tit"
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Death Guard",
+            "enabled": true,
+            "endpoint": "deathGuard.json",
+            "allies": [
+                "w40k.10e.dmns",
+                "w40k.10e.ck",
+                "w40k.10e.tit"
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Chaos Space Marines",
+            "enabled": true,
+            "endpoint": "chaosSpaceMarines.json",
+            "allies": [
+                "w40k.10e.dmns",
+                "w40k.10e.ck",
+                "w40k.10e.tit"
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Drukhari",
+            "enabled": true,
+            "endpoint": "drukhari.json"
+        },
+        {
+            "id": "w40k.10e.am.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.am",
+            "name": "Astra Militarum",
+            "enabled": true,
+            "endpoint": "astraMilitarum.json",
+            "allies": [
+                "w40k.10e.agt",
+                "w40k.10e.ik",
+                "w40k.10e.tit"
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Adeptus Mechanicus",
+            "enabled": true,
+            "endpoint": "adeptusMechanicus.json",
+            "allies": [
+                "w40k.10e.agt",
+                "w40k.10e.ik",
+                "w40k.10e.tit"
+            ]
+        },
+        {
+            "id": "w40k.10e.sm.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.sm",
+            "name": "Space Marines",
+            "enabled": true,
+            "endpoint": "spaceMarines.json",
+            "allies": [
+                "w40k.10e.agt",
+                "w40k.10e.ik",
+                "w40k.10e.tit"
+            ]
+        },
+        {
+            "id": "w40k.10e.bt.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.bt",
+            "name": "Black Templars",
+            "enabled": true,
+            "endpoint": "blackTemplars.json",
+            "allies": [
+                "w40k.10e.agt",
+                "w40k.10e.ik",
+                "w40k.10e.tit"
+            ]
+        },
+        {
+            "id": "w40k.10e.ba.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.ba",
+            "name": "Blood Angels",
+            "enabled": true,
+            "endpoint": "bloodAngels.json",
+            "allies": [
+                "w40k.10e.agt",
+                "w40k.10e.ik",
+                "w40k.10e.tit"
+            ]
+        },
+        {
+            "id": "w40k.10e.da.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.da",
+            "name": "Dark Angels",
+            "enabled": true,
+            "endpoint": "darkAngels.json",
+            "allies": [
+                "w40k.10e.agt",
+                "w40k.10e.ik",
+                "w40k.10e.tit"
+            ]
+        },
+        {
+            "id": "w40k.10e.dw.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.dw",
+            "name": "Deathwatch",
+            "enabled": true,
+            "endpoint": "deathwatch.json",
+            "allies": [
+                "w40k.10e.agt",
+                "w40k.10e.ik",
+                "w40k.10e.tit"
+            ]
+        },
+        {
+            "id": "w40k.10e.if.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.if",
+            "name": "Imperial Fists",
+            "enabled": true,
+            "endpoint": "imperialFists.json",
+            "allies": [
+                "w40k.10e.agt",
+                "w40k.10e.ik",
+                "w40k.10e.tit"
+            ]
+        },
+        {
+            "id": "w40k.10e.ih.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.ih",
+            "name": "Iron Hands",
+            "enabled": true,
+            "endpoint": "ironHands.json",
+            "allies": [
+                "w40k.10e.agt",
+                "w40k.10e.ik",
+                "w40k.10e.tit"
+            ]
+        },
+        {
+            "id": "w40k.10e.rg.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.rg",
+            "name": "Raven Guard",
+            "enabled": true,
+            "endpoint": "ravenGuard.json",
+            "allies": [
+                "w40k.10e.agt",
+                "w40k.10e.ik",
+                "w40k.10e.tit"
+            ]
+        },
+        {
+            "id": "w40k.10e.sal.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.sal",
+            "name": "Salamanders",
+            "enabled": true,
+            "endpoint": "salamanders.json",
+            "allies": [
+                "w40k.10e.agt",
+                "w40k.10e.ik",
+                "w40k.10e.tit"
+            ]
+        },
+        {
+            "id": "w40k.10e.sw.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.sw",
+            "name": "Space Wolves",
+            "enabled": true,
+            "endpoint": "spaceWolves.json",
+            "allies": [
+                "w40k.10e.agt",
+                "w40k.10e.ik",
+                "w40k.10e.tit"
+            ]
+        },
+        {
+            "id": "w40k.10e.ult.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.ult",
+            "name": "Ultramarines",
+            "enabled": true,
+            "endpoint": "ultramarines.json",
+            "allies": [
+                "w40k.10e.agt",
+                "w40k.10e.ik",
+                "w40k.10e.tit"
+            ]
+        },
+        {
+            "id": "w40k.10e.ws.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.ws",
+            "name": "White Scars",
+            "enabled": true,
+            "endpoint": "whiteScars.json",
+            "allies": [
+                "w40k.10e.agt",
+                "w40k.10e.ik",
+                "w40k.10e.tit"
+            ]
+        },
+        {
+            "id": "w40k.10e.tit.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.tit",
+            "name": "Titans",
+            "enabled": true,
+            "endpoint": "titans.json",
+            "allies": [
+                "w40k.10e.agt",
+                "w40k.10e.ik"
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Sisters of Battle",
+            "enabled": true,
+            "endpoint": "sisters.json",
+            "allies": [
+                "w40k.10e.agt",
+                "w40k.10e.ik",
+                "w40k.10e.tit"
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Necrons",
+            "enabled": true,
+            "endpoint": "necrons.json"
+        },
+        {
+            "id": "w40k.10e.tau.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.tau",
+            "name": "T'au Empire",
+            "enabled": true,
+            "endpoint": "tau.json"
+        },
+        {
+            "id": "w40k.10e.ork.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.ork",
+            "name": "Orks",
+            "enabled": true,
+            "endpoint": "orks.json"
+        },
+        {
+            "id": "w40k.10e.nid.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Tyranids",
+            "enabled": true,
+            "endpoint": "tyranids.json"
+        },
+        {
+            "id": "w40k.10e.aeld.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Aeldari",
+            "enabled": true,
+            "endpoint": "aeldari.json"
+        },
+        {
+            "id": "w40k.10e.ynn.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.ynn",
+            "name": "Aeldari (Ynnari)",
+            "enabled": true,
+            "endpoint": "ynnari.json"
+        },
+        {
+            "id": "w40k.10e.agt.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.agt",
+            "name": "Agents of the Imperium",
+            "enabled": false,
+            "endpoint": "agentsImperium.json"
+        }
+    ]
+}

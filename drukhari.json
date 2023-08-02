@@ -1,0 +1,1912 @@
+{
+    "config": {
+        "id": "w40k.10e.duk.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.duk",
+        "name": "Drukhari",
+        "keyword": "DRUKHARI",
+        "enabled": false,
+        "endpoint": "drukhari.json"
+    },
+    "detachments": [
+        {
+            "id": "w40k.10e.duk.dt.realspaceRaiders",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Realspace Raiders",
+            "rule": ""
+        }
+    ],
+    "units": [
+        {
+            "id": "w40k.10e.duk.unit.archon",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Archon",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Archon",
+                    "points": 85,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Splinter Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Splinter Pistol"
+                                },
+                                {
+                                    "name": "Blast Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.duk.dt.realspaceRaiders",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Crucible of Malediction",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Labyrinthine Cunning",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Blood Dancer",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "The Art of Pain",
+                                    "points": 25
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.beastmaster",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Beastmaster",
+            "role": "MOUNTED",
+            "models": [
+                {
+                    "name": "Beastmaster",
+                    "points": 120,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.duk.dt.realspaceRaiders",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Crucible of Malediction",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Labyrinthine Cunning",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Blood Dancer",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "The Art of Pain",
+                                    "points": 25
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Clawed Fiend"
+                },
+                {
+                    "name": "Khymerae"
+                },
+                {
+                    "name": "Khymerae"
+                },
+                {
+                    "name": "Razorwing Flock"
+                },
+                {
+                    "name": "Razorwing Flock"
+                },
+                {
+                    "name": "Razorwing Flock"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.courtArchon",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Court of the Archon",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Lhamaean, Medusae, Sslyth, Ur-ghul",
+                    "amount": 4,
+                    "cost": 95
+                }
+            ],
+            "models": [
+                {
+                    "name": "Lhamaean"
+                },
+                {
+                    "name": "Medusae"
+                },
+                {
+                    "name": "Sslyth"
+                },
+                {
+                    "name": "Ur-ghul"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.cronos",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Cronos",
+            "role": "MONSTER",
+            "points": [
+                {
+                    "name": "Cronos",
+                    "amount": 2,
+                    "cost": 100
+                },
+                {
+                    "name": "Cronos",
+                    "amount": 1,
+                    "cost": 50
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Cronos",
+                    "min": 1,
+                    "max": 2
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Cronos",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Spirit Vortex"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.drazhar",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Drazhar",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Drazhar",
+                    "points": 105,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.grotesques",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Grotesques",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Grotesque",
+                    "amount": 6,
+                    "cost": 210
+                },
+                {
+                    "name": "Grotesque",
+                    "amount": 3,
+                    "cost": 105
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Grotesque",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Grotesque",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Liquifier Gun"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.haemonculus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Haemonculus",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Haemonculus",
+                    "points": 75,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.duk.dt.realspaceRaiders",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Crucible of Malediction",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Labyrinthine Cunning",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Blood Dancer",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "The Art of Pain",
+                                    "points": 25
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.hellions",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Hellions",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Hellion, Helliarch",
+                    "amount": 10,
+                    "cost": 220
+                },
+                {
+                    "name": "Hellion, Helliarch",
+                    "amount": 5,
+                    "cost": 110
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Hellion",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Helliarch",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Hellion"
+                },
+                {
+                    "name": "Helliarch",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Phantasm Grenade Launcher"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Hellglaive"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hellglaive"
+                                },
+                                {
+                                    "name": "Splinter Pistol, Helliarch Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.incubi",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Incubi",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Incubi, Klaivex",
+                    "amount": 10,
+                    "cost": 170
+                },
+                {
+                    "name": "Incubi, Klaivex",
+                    "amount": 5,
+                    "cost": 85
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Incubi",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Klaivex",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Incubi"
+                },
+                {
+                    "name": "Klaivex",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Klaive"
+                            },
+                            "options": [
+                                {
+                                    "name": "Klaive"
+                                },
+                                {
+                                    "name": "Demiklaives"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.kabalites",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Kabalite Warriors",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Kabalite Warrior, Sybarite",
+                    "amount": 10,
+                    "cost": 120
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Kabalite Warrior",
+                    "min": 9,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Sybarite",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Kabalite Warrior",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Splinter Rifle"
+                            },
+                            "options": [
+                                {
+                                    "name": "Splinter Rifle"
+                                },
+                                {
+                                    "name": "Blaster"
+                                },
+                                {
+                                    "name": "Dark Lance"
+                                },
+                                {
+                                    "name": "Shredder"
+                                },
+                                {
+                                    "name": "Splinter Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Sybarite",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Close Combat Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Sybarite Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Splinter Rifle"
+                            },
+                            "options": [
+                                {
+                                    "name": "Splinter Rifle"
+                                },
+                                {
+                                    "name": "Splinter Pistol"
+                                },
+                                {
+                                    "name": "Blast Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Phantasm Grenade Launcher"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.lelithHesperax",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Lelith Hesperax",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Lelith Hesperax",
+                    "points": 105,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.mandrakes",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Mandrakes",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Mandrake, Nightfiend",
+                    "amount": 10,
+                    "cost": 140
+                },
+                {
+                    "name": "Mandrake, Nightfiend",
+                    "amount": 5,
+                    "cost": 70
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Mandrake",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Nightfiend",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Mandrake"
+                },
+                {
+                    "name": "Nightfiend"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.raider",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Raider",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Raider",
+                    "points": 90,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Dark Lance"
+                            },
+                            "options": [
+                                {
+                                    "name": "Dark Lance"
+                                },
+                                {
+                                    "name": "Disintegrator Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.ravager",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Ravager",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Ravager",
+                    "points": 95,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Dark Lance"
+                            },
+                            "options": [
+                                {
+                                    "name": "Dark Lance"
+                                },
+                                {
+                                    "name": "Disintegrator Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Dark Lance"
+                            },
+                            "options": [
+                                {
+                                    "name": "Dark Lance"
+                                },
+                                {
+                                    "name": "Disintegrator Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Dark Lance"
+                            },
+                            "options": [
+                                {
+                                    "name": "Dark Lance"
+                                },
+                                {
+                                    "name": "Disintegrator Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.razorwing",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Razorwing Jetfighter",
+            "role": "AIRCRAFT",
+            "models": [
+                {
+                    "name": "Razorwing Jetfighter",
+                    "points": 170,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "2x Dark Lance"
+                            },
+                            "options": [
+                                {
+                                    "name": "2x Dark Lance"
+                                },
+                                {
+                                    "name": "2x Disintegrator Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Splinter Rifle"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Splinter Rifle"
+                                },
+                                {
+                                    "name": "Splinter Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.reavers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Reavers",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Reaver, Arena Champion",
+                    "amount": 6,
+                    "cost": 150
+                },
+                {
+                    "name": "Reaver, Arena Champion",
+                    "amount": 3,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Reaver",
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "type": "model",
+                    "name": "Arena Champion",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Reaver",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Splinter Rifle"
+                            },
+                            "options": [
+                                {
+                                    "name": "Splinter Rifle"
+                                },
+                                {
+                                    "name": "Blaster"
+                                },
+                                {
+                                    "name": "Heat Lance"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Grav-talon"
+                                },
+                                {
+                                    "name": "Cluster Caltrops"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Arena Champion",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Splinter Rifle"
+                            },
+                            "options": [
+                                {
+                                    "name": "Splinter Rifle"
+                                },
+                                {
+                                    "name": "Blaster"
+                                },
+                                {
+                                    "name": "Heat Lance"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Grav-talon"
+                                },
+                                {
+                                    "name": "Cluster Caltrops"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Agoniser"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.scourges",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Scourges",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Scourge, Solarite",
+                    "amount": 10,
+                    "cost": 200
+                },
+                {
+                    "name": "Scourge, Solarite",
+                    "amount": 5,
+                    "cost": 120
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Scourge",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Solarite",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Scourge",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shardcarbine"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shardcarbine"
+                                },
+                                {
+                                    "name": "Blaster"
+                                },
+                                {
+                                    "name": "Dark Lance"
+                                },
+                                {
+                                    "name": "Drukhari Haywire Blaster"
+                                },
+                                {
+                                    "name": "Heat Lance"
+                                },
+                                {
+                                    "name": "Shredder"
+                                },
+                                {
+                                    "name": "Splinter Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Solarite",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shardcarbine"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shardcarbine"
+                                },
+                                {
+                                    "name": "Splinter Pistol"
+                                },
+                                {
+                                    "name": "Blast Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Solarite Weapon"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.succubus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Succubus",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Succubus",
+                    "points": 70,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blast Pistol"
+                                },
+                                {
+                                    "name": "Splinter Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.duk.dt.realspaceRaiders",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Crucible of Malediction",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Labyrinthine Cunning",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Blood Dancer",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "The Art of Pain",
+                                    "points": 25
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.talos",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Talos",
+            "role": "MONSTER",
+            "points": [
+                {
+                    "name": "Talos",
+                    "amount": 2,
+                    "cost": 180
+                },
+                {
+                    "name": "Talos",
+                    "amount": 1,
+                    "cost": 90
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Talos",
+                    "min": 1,
+                    "max": 2
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Talos",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Splinter Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Splinter Cannon"
+                                },
+                                {
+                                    "name": "Twin Drukhari Haywire Blasters"
+                                },
+                                {
+                                    "name": "Twin Heat Lance"
+                                },
+                                {
+                                    "name": "Stinger Pod"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Macro-scalpel"
+                            },
+                            "options": [
+                                {
+                                    "name": "Macro-scalpel"
+                                },
+                                {
+                                    "name": "Talos Ichor Injector"
+                                },
+                                {
+                                    "name": "Twin Liquifier Gun"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Macro-scalpel"
+                            },
+                            "options": [
+                                {
+                                    "name": "Macro-scalpel"
+                                },
+                                {
+                                    "name": "Chain-flails"
+                                },
+                                {
+                                    "name": "Talos Gauntlet"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.urienRakarth",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Urien Rakarth",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Urien Rakarth",
+                    "points": 105,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.venom",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Venom",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Venom",
+                    "points": 80,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Splinter Rifle"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Splinter Rifle"
+                                },
+                                {
+                                    "name": "Splinter Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.voidraven",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Voidraven Bomber",
+            "role": "AIRCRAFT",
+            "models": [
+                {
+                    "name": "Voidraven Bomber",
+                    "points": 195,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "2x Void Lance"
+                            },
+                            "options": [
+                                {
+                                    "name": "2x Void Lance"
+                                },
+                                {
+                                    "name": "2x Dark Scythe"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Voidraven Missiles"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.wracks",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Wracks",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Wrack, Acothyst",
+                    "amount": 10,
+                    "cost": 130
+                },
+                {
+                    "name": "Wrack, Acothyst",
+                    "amount": 5,
+                    "cost": 65
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Wrack",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Acothyst",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Wrack",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Hexrifle"
+                                },
+                                {
+                                    "name": "Liquifier Gun"
+                                },
+                                {
+                                    "name": "Ossefactor"
+                                },
+                                {
+                                    "name": "Stinger Pistol"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Acothyst",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Hexrifle"
+                                },
+                                {
+                                    "name": "Liquifier Gun"
+                                },
+                                {
+                                    "name": "Ossefactor"
+                                },
+                                {
+                                    "name": "Stinger Pistol"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.wyches",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Wyches",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Wych, Hekatrix",
+                    "amount": 10,
+                    "cost": 110
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Wych",
+                    "min": 9,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Hekatrix",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Wych"
+                },
+                {
+                    "name": "Hekatrix",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Splinter Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Splinter Pistol"
+                                },
+                                {
+                                    "name": "Blast Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Phantasm Grenade Launcher"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.tantalus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Tantalus",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Tantalus",
+                    "points": 230
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.corsairVoidreavers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Corsair Voidreavers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Corsair Voidreaver, Voidreaver Felarch",
+                    "amount": 10,
+                    "cost": 140
+                },
+                {
+                    "name": "Corsair Voidreaver, Voidreaver Felarch",
+                    "amount": 5,
+                    "cost": 70
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Corsair Voidreaver",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Voidreaver Felarch",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Corsair Voidreaver",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Pistol, Aeldari Power Sword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shuriken Pistol, Aeldari Power Sword"
+                                },
+                                {
+                                    "name": "Shuriken Rifle"
+                                },
+                                {
+                                    "name": "Corsair Blaster"
+                                },
+                                {
+                                    "name": "Corsair Shredder"
+                                },
+                                {
+                                    "name": "Shuriken Cannon"
+                                },
+                                {
+                                    "name": "Wraithcannon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Voidreaver Felarch",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shuriken Pistol"
+                                },
+                                {
+                                    "name": "Neuro Disruptor"
+                                },
+                                {
+                                    "name": "Shuriken Rifle"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Mistshield"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.corsairVoidscarred",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Corsair Voidscarred",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Corsair Voidscarred, Voidreaver Felarch, Shade Runner, Soul Weaver, Way Seeker",
+                    "amount": 10,
+                    "cost": 180
+                },
+                {
+                    "name": "Corsair Voidscarred, Voidreaver Felarch, Shade Runner, Soul Weaver, Way Seeker",
+                    "amount": 5,
+                    "cost": 90
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Corsair Voidreaver",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Voidreaver Felarch",
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "type": "model",
+                    "name": "Shade Runner",
+                    "min": 0,
+                    "max": 1
+                },
+                {
+                    "type": "model",
+                    "name": "Soul Weaver",
+                    "min": 0,
+                    "max": 1
+                },
+                {
+                    "type": "model",
+                    "name": "Way Seeker",
+                    "min": 0,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Corsair Voidreaver",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Pistol, Aeldari Power Sword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shuriken Pistol, Aeldari Power Sword"
+                                },
+                                {
+                                    "name": "Shuriken Rifle"
+                                },
+                                {
+                                    "name": "Corsair Blaster"
+                                },
+                                {
+                                    "name": "Corsair Shredder"
+                                },
+                                {
+                                    "name": "Shuriken Cannon"
+                                },
+                                {
+                                    "name": "Wraithcannon"
+                                },
+                                {
+                                    "name": "Ranger Longrifle"
+                                },
+                                {
+                                    "name": "Shuriken Pistol, Fusion Pistol"
+                                },
+                                {
+                                    "name": "Shuriken Pistol, Aeldari Power Sword, Faolchu"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Shade Runner"
+                },
+                {
+                    "name": "Soul Weaver"
+                },
+                {
+                    "name": "Way Seeker"
+                },
+                {
+                    "name": "Voidreaver Felarch",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shuriken Pistol"
+                                },
+                                {
+                                    "name": "Neuro Disruptor"
+                                },
+                                {
+                                    "name": "Shuriken Rifle"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Mistshield"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.deathJester",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Death Jester",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Death Jester",
+                    "points": 70
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.shadowseer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Shadowseer",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Shadowseer",
+                    "points": 60
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.skyweavers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Skyweavers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Skyweaver",
+                    "amount": 4,
+                    "cost": 160
+                },
+                {
+                    "name": "Skyweaver",
+                    "amount": 2,
+                    "cost": 80
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Skyweaver",
+                    "min": 2,
+                    "max": 4
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Skyweaver",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shuriken Cannon"
+                                },
+                                {
+                                    "name": "Skyweaver Haywire Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Star Bolas"
+                            },
+                            "options": [
+                                {
+                                    "name": "Star Bolas"
+                                },
+                                {
+                                    "name": "Zephyrglaive"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.solitaire",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Solitaire",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Solitaire",
+                    "points": 115
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.starweaver",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Starweaver",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Starweaver",
+                    "points": 80
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.troupe",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Troupe",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Player, Lead Player",
+                    "amount": 12,
+                    "cost": 180
+                },
+                {
+                    "name": "Player, Lead Player",
+                    "amount": 11,
+                    "cost": 165
+                },
+                {
+                    "name": "Player, Lead Player",
+                    "amount": 6,
+                    "cost": 90
+                },
+                {
+                    "name": "Player, Lead Player",
+                    "amount": 5,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Player",
+                    "min": 4,
+                    "max": 11
+                },
+                {
+                    "type": "model",
+                    "name": "Lead Player",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Player",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Harlequin's Blade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Harlequin's Blade"
+                                },
+                                {
+                                    "name": "Harlequin's Special Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shuriken Pistol"
+                                },
+                                {
+                                    "name": "Neuro Disruptor"
+                                },
+                                {
+                                    "name": "Fusion Pistol"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Lead Player",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Harlequin's Blade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Harlequin's Blade"
+                                },
+                                {
+                                    "name": "Harlequin's Special Weapon"
+                                },
+                                {
+                                    "name": "Aeldari Power Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shuriken Pistol"
+                                },
+                                {
+                                    "name": "Neuro Disruptor"
+                                },
+                                {
+                                    "name": "Fusion Pistol"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.troupeMaster",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Troupe Master",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Troupe Master",
+                    "points": 55,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shuriken Pistol"
+                                },
+                                {
+                                    "name": "Neuro Disruptor"
+                                },
+                                {
+                                    "name": "Fusion Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Troupe Master's Blade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Troupe Master's Blade"
+                                },
+                                {
+                                    "name": "Harlequin's Special Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.voidweaver",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Voidweaver",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Voidweaver",
+                    "points": 100,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Voidweaver Haywire Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Voidweaver Haywire Cannon"
+                                },
+                                {
+                                    "name": "Prismatic Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

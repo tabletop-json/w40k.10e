@@ -1,0 +1,1253 @@
+{
+    "config": {
+        "id": "w40k.10e.gsc.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.gsc",
+        "name": "Genestealer Cults",
+        "keyword": "GENESTEALER CULTS",
+        "enabled": true,
+        "endpoint": "genestealerCults.json"
+    },
+    "detachments": [
+        {
+            "id": "w40k.10e.gsc.dt.ascensionDay",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Ascension Day",
+            "rule": ""
+        }
+    ],
+    "units": [
+        {
+            "id": "w40k.10e.gsc.unit.abberants",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Abberants",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Abberant, Abberant Hypermorph",
+                    "amount": 10,
+                    "cost": 330
+                },
+                {
+                    "name": "Abberant, Abberant Hypermorph",
+                    "amount": 5,
+                    "cost": 165
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Abberant",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Abberant Hypermorph",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Abberant"
+                },
+                {
+                    "name": "Abberant Hypermorph",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Power Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Power Weapon"
+                                },
+                                {
+                                    "name": "Heavy Improvised Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.abominant",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Abominant",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Abominant",
+                    "points": 75,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.ascensionDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prowling Agitant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Inscrutable Cunning",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Meticulous Planner",
+                                    "points": 40
+                                },
+                                {
+                                    "name": "Focus of Adoration",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.achillesRidgerunner",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Achilles Ridgerunner",
+            "role": "VEHICLE",
+            "points": [
+                {
+                    "name": "Achilles Ridgerunner",
+                    "amount": 2,
+                    "cost": 150
+                },
+                {
+                    "name": "Achilles Ridgerunner",
+                    "amount": 1,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Achilles Ridgerunner",
+                    "min": 1,
+                    "max": 2
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Achilles Ridgerunner",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Mining Laser"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Mining Laser"
+                                },
+                                {
+                                    "name": "Achilles Missile Launcher"
+                                },
+                                {
+                                    "name": "Heavy Mortar"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Flare Launcher"
+                            },
+                            "options": [
+                                {
+                                    "name": "Flare Launcher"
+                                },
+                                {
+                                    "name": "Spotter"
+                                },
+                                {
+                                    "name": "Survey Augur"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.acolyteHybrids",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Acolyte Hybrids",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Acolyte Hybrid, Acolyte Leader",
+                    "amount": 10,
+                    "cost": 150
+                },
+                {
+                    "name": "Acolyte Hybrid, Acolyte Leader",
+                    "amount": 5,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Acolyte Hybrid",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Acolyte Leader",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Acolyte Hybrid",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Autopistol, Cult Claws and Knife"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autopistol, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Handflamer, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Cult Icon, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Demolition Charges, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Heavy Mining Tool"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Acolyte Leader",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Autopistol, Cult Claws and Knife"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autopistol, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Handflamer, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Leader's Cult Weapons"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.acolyteIconward",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Acolyte Iconward",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Acolyte Iconward",
+                    "points": 50,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.ascensionDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prowling Agitant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Inscrutable Cunning",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Meticulous Planner",
+                                    "points": 40
+                                },
+                                {
+                                    "name": "Focus of Adoration",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.atalanJackals",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Atalan Jackals",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Atalan Jackal, Atalan Wolfquad",
+                    "amount": 10,
+                    "cost": 160
+                },
+                {
+                    "name": "Atalan Jackal, Atalan Wolfquad",
+                    "amount": 5,
+                    "cost": 80
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Atalan Jackal",
+                    "min": 4,
+                    "max": 8
+                },
+                {
+                    "type": "model",
+                    "name": "Atalan Wolfquad",
+                    "min": 1,
+                    "max": 2
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Atalan Jackal",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Close Combat Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Atalan Power Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Atalan Small Arms"
+                            },
+                            "options": [
+                                {
+                                    "name": "Atalan Small Arms"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Atalan Wolfquad",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Stubber"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Atalan Incinerator"
+                                },
+                                {
+                                    "name": "Mining Laser"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.biophagus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Biophagus",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Biophagus",
+                    "points": 50,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Alchemicus Familiar"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.ascensionDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prowling Agitant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Inscrutable Cunning",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Meticulous Planner",
+                                    "points": 40
+                                },
+                                {
+                                    "name": "Focus of Adoration",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.clamavus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Clamavus",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Clamavus",
+                    "points": 40,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.ascensionDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prowling Agitant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Inscrutable Cunning",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Meticulous Planner",
+                                    "points": 40
+                                },
+                                {
+                                    "name": "Focus of Adoration",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.goliathRockgrinder",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Goliath Rockgrinder",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Goliath Rockgrinder",
+                    "points": 155,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Mining Laser"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Mining Laser"
+                                },
+                                {
+                                    "name": "Clearance Incinerator"
+                                },
+                                {
+                                    "name": "Heavy Seismic Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.goliathTruck",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Goliath Truck",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Goliath Truck",
+                    "points": 110
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.hybridMetamorphs",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Hybrid Metamorphs",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Hybrid Metamorph, Metamorph Leader",
+                    "amount": 10,
+                    "cost": 160
+                },
+                {
+                    "name": "Hybrid Metamorph, Metamorph Leader",
+                    "amount": 5,
+                    "cost": 80
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Hybrid Metamorph",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Metamorph Leader",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Hybrid Metamorph",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Autopistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autopistol"
+                                },
+                                {
+                                    "name": "Handflamer"
+                                },
+                                {
+                                    "name": "Cult Icon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name":  "Metamorph Leader",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Autopistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autopistol"
+                                },
+                                {
+                                    "name": "Handflamer"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.jackalAlphus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Jackal Alphus",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Jackal Alphus",
+                    "points": 60,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.ascensionDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prowling Agitant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Inscrutable Cunning",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Meticulous Planner",
+                                    "points": 40
+                                },
+                                {
+                                    "name": "Focus of Adoration",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.kelermorph",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Kelermorph",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Kelermorph",
+                    "points": 55,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.ascensionDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prowling Agitant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Inscrutable Cunning",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Meticulous Planner",
+                                    "points": 40
+                                },
+                                {
+                                    "name": "Focus of Adoration",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.locus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Locus",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Locus",
+                    "points": 40,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.ascensionDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prowling Agitant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Inscrutable Cunning",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Meticulous Planner",
+                                    "points": 40
+                                },
+                                {
+                                    "name": "Focus of Adoration",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.magus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Magus",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Magus",
+                    "points": 50,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.ascensionDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prowling Agitant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Inscrutable Cunning",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Meticulous Planner",
+                                    "points": 40
+                                },
+                                {
+                                    "name": "Focus of Adoration",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.neophyteHybrids",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Neophyte Hybrids",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Neophyte Hybrid, Neophyte Leader",
+                    "amount": 10,
+                    "cost": 160
+                },
+                {
+                    "name": "Neophyte Hybrid, Neophyte Leader",
+                    "amount": 5,
+                    "cost": 80
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Neophyte Hybrid",
+                    "min": 9,
+                    "max": 19
+                },
+                {
+                    "type": "model",
+                    "name": "Neophyte Leader",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Neophyte Hybrid",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Hybrid Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hybrid Firearm"
+                                },
+                                {
+                                    "name": "Hybrid Firearm, Cult Icon"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Mining Laser"
+                                },
+                                {
+                                    "name": "Seismic Cannon"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Webber"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Neophyte Leader",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Hybrid Firearm, Close Combat Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hybrid Firearm, Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Leader Pistol, Chainsword"
+                                },
+                                {
+                                    "name": "Leader Pistol, Power Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.nexos",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Nexos",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Nexos",
+                    "points": 50,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.ascensionDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prowling Agitant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Inscrutable Cunning",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Meticulous Planner",
+                                    "points": 40
+                                },
+                                {
+                                    "name": "Focus of Adoration",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.patriarch",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Patriarch",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Patriarch",
+                    "points": 85,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.ascensionDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prowling Agitant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Inscrutable Cunning",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Meticulous Planner",
+                                    "points": 40
+                                },
+                                {
+                                    "name": "Focus of Adoration",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.primus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Primus",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Primus",
+                    "points": 70,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.ascensionDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prowling Agitant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Inscrutable Cunning",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Meticulous Planner",
+                                    "points": 40
+                                },
+                                {
+                                    "name": "Focus of Adoration",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.purestrainGenestealers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Purestrain Genestealers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Purestrain Genestealer",
+                    "amount": 10,
+                    "cost": 180
+                },
+                {
+                    "name": "Purestrain Genestealer",
+                    "amount": 5,
+                    "cost": 90
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Purestrain Genestealer",
+                    "min": 5,
+                    "max": 10
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Purestrain Genestealer"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.reductusSaboteur",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Reductus Saboteur",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Reductus Saboteur",
+                    "points": 55,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.ascensionDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prowling Agitant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Inscrutable Cunning",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Meticulous Planner",
+                                    "points": 40
+                                },
+                                {
+                                    "name": "Focus of Adoration",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.sanctus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Sanctus",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Sanctus",
+                    "points": 50,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Sanctus Bio-dagger"
+                            },
+                            "options": [
+                                {
+                                    "name": "Sanctus Bio-dagger"
+                                },
+                                {
+                                    "name": "Cult Sniper Rifle, Close Combat Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.ascensionDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prowling Agitant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Inscrutable Cunning",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Meticulous Planner",
+                                    "points": 40
+                                },
+                                {
+                                    "name": "Focus of Adoration",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

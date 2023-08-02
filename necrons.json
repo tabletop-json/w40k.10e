@@ -1,0 +1,1979 @@
+{
+    "config": {
+        "id": "w40k.10e.nec.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.nec",
+        "name": "Necrons",
+        "keyword": "NECRONS",
+        "enabled": true,
+        "endpoint": "necrons.json"
+    },
+    "detachments": [
+        {
+            "id": "w40k.10e.nec.dt.awakenedDynasty",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Awakened Dynasty"
+        }
+    ],
+    "units": [
+        {
+            "id": "w40k.10e.nec.unit.imotekhStormlord",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Imotekh the Stormlord",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Imotekh the Stormlord",
+                    "points": 105,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.orikanDiviner",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Orikan the Diviner",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Orikan the Diviner",
+                    "points": 80,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.anrakyrTraveller",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Anrakyr the Traveller",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Anrakyr the Traveller",
+                    "points": 95,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.vargardObyron",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Vargard Obyron",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Vargard Obyron",
+                    "points": 85,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.illuminorSzeras",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Illuminor Szeras",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Illuminor Szeras",
+                    "points": 220,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.nemesorZahndrekh",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Nemesor Zahndrekh",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Nemesor Zahndrekh",
+                    "points": 85,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.trazynInfinite",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Trazyn the Infinite",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Trazyn the Infinite",
+                    "points": 75,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.royalWarden",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Royal Warden",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Royal Warden",
+                    "points": 40,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.awakenedDynasty",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Veil of Darkness",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hypermaterial Ablator",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Sovereign Coronal",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Sempiternal Weave",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.skorpekhLord",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Skorpekh Lord",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Skorpekh Lord",
+                    "points": 115,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.awakenedDynasty",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Veil of Darkness",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hypermaterial Ablator",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Sovereign Coronal",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Sempiternal Weave",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.lokhustLord",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Lokhust Lord",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Lokhust Lord",
+                    "points": 85,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Staff of Light"
+                            },
+                            "options": [
+                                {
+                                    "name": "Staff of Light"
+                                },
+                                {
+                                    "name": "Lord's Blade"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Phylactery"
+                                },
+                                {
+                                    "name": "Resurrection Orb"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.awakenedDynasty",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Veil of Darkness",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hypermaterial Ablator",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Sovereign Coronal",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Sempiternal Weave",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.lord",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Lord",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Lord",
+                    "points": 65,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Staff of Light"
+                            },
+                            "options": [
+                                {
+                                    "name": "Staff of Light"
+                                },
+                                {
+                                    "name": "Lord's Blade"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Resurrection Orb"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.awakenedDynasty",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Veil of Darkness",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hypermaterial Ablator",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Sovereign Coronal",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Sempiternal Weave",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.catacombCommandBarge",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Catacomb Command Barge",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Catacomb Command Barge",
+                    "points": 150,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Gauss Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Gauss Cannon"
+                                },
+                                {
+                                    "name": "Tesla Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Staff of Light"
+                            },
+                            "options": [
+                                {
+                                    "name": "Staff of Light"
+                                },
+                                {
+                                    "name": "Overlord's Blade"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Resurrection Orb"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.awakenedDynasty",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Veil of Darkness",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hypermaterial Ablator",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Sovereign Coronal",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Sempiternal Weave",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.overlord",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Overlord",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Overlord",
+                    "points": 85,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Overlord's Blade, Tachyon Arrow"
+                            },
+                            "options": [
+                                {
+                                    "name": "Overlord's Blade, Tachyon Arrow"
+                                },
+                                {
+                                    "name": "Staff of Light, Resurrection Orb"
+                                },
+                                {
+                                    "name": "Voidscythe, Resurrection Orb"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.awakenedDynasty",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Veil of Darkness",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hypermaterial Ablator",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Sovereign Coronal",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Sempiternal Weave",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.technomancer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Technomancer",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Technomancer",
+                    "points": 60,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Canoptek Cloak"
+                            },
+                            "options": [
+                                {
+                                    "name": "Canoptek Cloak"
+                                },
+                                {
+                                    "name": "Canoptek Control Node"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.awakenedDynasty",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Veil of Darkness",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hypermaterial Ablator",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Sovereign Coronal",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Sempiternal Weave",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.psychomancer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Psychomancer",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Psychomancer",
+                    "points": 50,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.awakenedDynasty",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Veil of Darkness",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hypermaterial Ablator",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Sovereign Coronal",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Sempiternal Weave",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.chronomancer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Chronomancer",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Chronomancer",
+                    "points": 50,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.awakenedDynasty",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Veil of Darkness",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hypermaterial Ablator",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Sovereign Coronal",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Sempiternal Weave",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.plasmancer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Plasmancer",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Plasmancer",
+                    "points": 55,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.awakenedDynasty",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Veil of Darkness",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hypermaterial Ablator",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Sovereign Coronal",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Sempiternal Weave",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.necronWarriors",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Necron Warriors",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Necron Warrior",
+                    "amount": 20,
+                    "cost": 240
+                },
+                {
+                    "name": "Necron Warrior",
+                    "amount": 10,
+                    "cost": 120
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Necron Warrior",
+                    "min": 10,
+                    "max": 20
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Necron Warrior",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Gauss Flayer"
+                            },
+                            "options": [
+                                {
+                                    "name": "Gauss Flayer"
+                                },
+                                {
+                                    "name": "Gauss Reaper"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.immortals",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Immortals",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Immortal",
+                    "amount": 10,
+                    "cost": 140
+                },
+                {
+                    "name": "Immortal",
+                    "amount": 5,
+                    "cost": 70
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Immortal",
+                    "min": 5,
+                    "max": 10
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Immortal",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Gauss Blaster"
+                            },
+                            "options": [
+                                {
+                                    "name": "Gauss Blaster"
+                                },
+                                {
+                                    "name": "Tesla Carbine"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.canoptekReanimator",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Canoptek Reanimator",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Canoptek Reanimator",
+                    "points": 95
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.hexmarkDestroyer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Hexmark Destroyer",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Hexmark Destroyer",
+                    "points": 70,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.awakenedDynasty",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Veil of Darkness",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hypermaterial Ablator",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Sovereign Coronal",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Sempiternal Weave",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.lychguard",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Lychguard",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Lychguard",
+                    "amount": 10,
+                    "cost": 190
+                },
+                {
+                    "name": "Lychguard",
+                    "amount": 5,
+                    "cost": 95
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Lychguard",
+                    "min": 5,
+                    "max": 10
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Lychguard",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Warscythe"
+                            },
+                            "options": [
+                                {
+                                    "name": "Warscythe"
+                                },
+                                {
+                                    "name": "Hyperphase Sword, Dispersion Shield"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.deathmarks",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Deathmarks",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Deathmark",
+                    "amount": 10,
+                    "cost": 130
+                },
+                {
+                    "name": "Deathmark",
+                    "amount": 5,
+                    "cost": 65
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Deathmark",
+                    "min": 5,
+                    "max": 10
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Deathmark"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.flayedOnes",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Flayed Ones",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Flayed One",
+                    "amount": 10,
+                    "cost": 130
+                },
+                {
+                    "name": "Flayed One",
+                    "amount": 5,
+                    "cost": 65
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Flayed One",
+                    "min": 5,
+                    "max": 10
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Flayed One"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.cryptothralls",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Cryptothralls",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Cryptothrall",
+                    "amount": 2,
+                    "cost": 40
+                }
+            ],
+            "models": [
+                {
+                    "name": "Cryptothrall"
+                },
+                {
+                    "name": "Cryptothrall"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.skorpekhDestroyers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Skorpekh Destroyers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Skorpekh Destroyer",
+                    "amount": 6,
+                    "cost": 220
+                },
+                {
+                    "name": "Skorpekh Destroyer",
+                    "amount": 3,
+                    "cost": 110
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Skorpekh Destroyer",
+                    "min": 3,
+                    "max": 6
+                },
+                {
+                    "type": "model",
+                    "name": "Plasmacyte",
+                    "min": 0,
+                    "max": 2
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Skorpekh Destroyer"
+                },
+                {
+                    "name": "Plasmacyte"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.triarchStalker",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Triarch Stalker",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Triarch Stalker",
+                    "points": 125,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heat Ray"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heat Ray"
+                                },
+                                {
+                                    "name": "Particle Shredder"
+                                },
+                                {
+                                    "name": "Twin Heavy Gauss Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.ctanShardDeceiver",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "C'tan Shard of the Deceiver",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "C'tan Shard of the Deceiver",
+                    "points": 265
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.ctanShardNightbringer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "C'tan Shard of the Nightbringer",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "C'tan Shard of the Nightbringer",
+                    "points": 255
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.ctanShardVoidDragon",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "C'tan Shard of the Void Dragon",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "C'tan Shard of the Void Dragon",
+                    "points": 270
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.transcendantCtan",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Transcendant C'tan",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Transcendant C'tan",
+                    "points": 280,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.awakenedDynasty",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Veil of Darkness",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hypermaterial Ablator",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "The Sovereign Coronal",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Sempiternal Weave",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.canoptekSpyders",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Canoptek Spyders",
+            "role": "VEHICLE",
+            "points": [
+                {
+                    "name": "Canoptek Spyder",
+                    "amount": 2,
+                    "cost": 150
+                },
+                {
+                    "name": "Canoptek Spyder",
+                    "amount": 1,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Canoptek Spyder",
+                    "min": 1,
+                    "max": 2
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Canoptek Spyder",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "2x Particle Beamers"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Fabricator Claw Array"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Gloom Prism"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.canoptekScarabSwarms",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Canoptek Scarab Swarms",
+            "role": "SWARM",
+            "points": [
+                {
+                    "name": "Canoptek Scarab Swarm",
+                    "amount": 6,
+                    "cost": 150
+                },
+                {
+                    "name": "Canoptek Scarab Swarm",
+                    "amount": 3,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Canoptek Scarab Swarm",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Canoptek Spyder"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.ophydianDestroyers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Ophydian Destroyers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Ophydian Destroyer",
+                    "amount": 6,
+                    "cost": 220
+                },
+                {
+                    "name": "Ophydian Destroyer",
+                    "amount": 3,
+                    "cost": 110
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Ophydian Destroyer",
+                    "min": 3,
+                    "max": 6
+                },
+                {
+                    "type": "model",
+                    "name": "Plasmacyte",
+                    "min": 0,
+                    "max": 2
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Ophydian Destroyer"
+                },
+                {
+                    "name": "Plasmacyte"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.tombBlades",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Tomb Blades",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Tomb Blade",
+                    "amount": 6,
+                    "cost": 160
+                },
+                {
+                    "name": "Tomb Blade",
+                    "amount": 3,
+                    "cost": 80
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Tomb Blade",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Tomb Blade",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Gauss Blaster"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Gauss Blaster"
+                                },
+                                {
+                                    "name": "Particle Beamer"
+                                },
+                                {
+                                    "name": "Twin Tesla Carbine"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Nebuloscope"
+                                },
+                                {
+                                    "name": "Shadowloom"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Shieldvane"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.triarchPraetorians",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Triarch Praetorians",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Triarch Praetorian",
+                    "amount": 10,
+                    "cost": 270
+                },
+                {
+                    "name": "Triarch Praetorian",
+                    "amount": 5,
+                    "cost": 135
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Triarch Praetorian",
+                    "min": 5,
+                    "max": 10
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Triarch Praetorian",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Rod of Covenant"
+                            },
+                            "options": [
+                                {
+                                    "name": "Rod of Covenant"
+                                },
+                                {
+                                    "name": "Particle Caster, Voidblade"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.canoptekWraiths",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Canoptek Wraiths",
+            "role": "BEAST",
+            "points": [
+                {
+                    "name": "Canoptek Wraith",
+                    "amount": 6,
+                    "cost": 220
+                },
+                {
+                    "name": "Canoptek Wraith",
+                    "amount": 3,
+                    "cost": 110
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Canoptek Wraith",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Canoptek Wraith",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Vicious Claws"
+                            },
+                            "options": [
+                                {
+                                    "name": "Vicious Claws"
+                                },
+                                {
+                                    "name": "Whip Coils"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Particle Caster"
+                                },
+                                {
+                                    "name": "Transdimensional Beamer"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.annihilationBarge",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Annihilation Barge",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Annihilation Barge",
+                    "points": 115,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Gauss Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Gauss Cannon"
+                                },
+                                {
+                                    "name": "Tesla Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.doomsdayArk",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Doomsday Ark",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Doomsday Ark",
+                    "points": 185
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.lokhustDestroyers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Lokhust Destroyers",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Lokhust Destroyer",
+                    "amount": 6,
+                    "cost": 180
+                },
+                {
+                    "name": "Lokhust Destroyer",
+                    "amount": 3,
+                    "cost": 90
+                },
+                {
+                    "name": "Lokhust Destroyer",
+                    "amount": 2,
+                    "cost": 60
+                },
+                {
+                    "name": "Lokhust Destroyer",
+                    "amount": 1,
+                    "cost": 30
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Lokhust Destroyer",
+                    "min": 1,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Lokhust Destroyer"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.lokhustHeavyDestroyers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Lokhust Heavy Destroyers",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Lokhust Heavy Destroyer",
+                    "amount": 3,
+                    "cost": 135
+                },
+                {
+                    "name": "Lokhust Heavy Destroyer",
+                    "amount": 2,
+                    "cost": 90
+                },
+                {
+                    "name": "Lokhust Heavy Destroyer",
+                    "amount": 1,
+                    "cost": 45
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Lokhust Heavy Destroyer",
+                    "min": 1,
+                    "max": 3
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Lokhust Heavy Destroyer",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Gauss Destructor"
+                            },
+                            "options": [
+                                {
+                                    "name": "Gauss Destructor"
+                                },
+                                {
+                                    "name": "Enmitic Exterminator"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.canoptekDoomstalker",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Canoptek Doomstalker",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Canoptek Doomstalker",
+                    "points": 125
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.ghostArk",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Ghost Ark",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Ghost Ark",
+                    "points": 125
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.doomScythe",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Doom Scythe",
+            "role": "AIRCRAFT",
+            "models": [
+                {
+                    "name": "Doom Scythe",
+                    "points": 225
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.nightScythe",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Night Scythe",
+            "role": "AIRCRAFT",
+            "models": [
+                {
+                    "name": "Night Scythe",
+                    "points": 145
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.obelisk",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Obelisk",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Obelisk",
+                    "points": 325
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.tesseractVault",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Tesseract Vault",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Tesseract Vault",
+                    "points": 425
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.monolith",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Monolith",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Monolith",
+                    "points": 385,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "4x Gauss Flux Arcs"
+                            },
+                            "options": [
+                                {
+                                    "name": "4x Gauss Flux Arcs"
+                                },
+                                {
+                                    "name": "4x Death Rays"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.silentKing",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "The Silent King",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "The Silent King",
+                    "points": 470,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.convergenceDominion",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Convergence of Dominion",
+            "role": "FORTIFICATION",
+            "points": [
+                {
+                    "name": "Convergence of Dominion Starstele",
+                    "amount": 3,
+                    "cost": 255
+                }
+            ],
+            "models": [
+                {
+                    "name": "Convergence of Dominion Starstele"
+                },
+                {
+                    "name": "Convergence of Dominion Starstele"
+                },
+                {
+                    "name": "Convergence of Dominion Starstele"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.canoptekTombStalker",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Canoptek Tomb Stalker",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Canoptek Tomb Stalker",
+                    "points": 130
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.canoptekTombSentinel",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Canoptek Tomb Sentinel",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Canoptek Tomb Sentinel",
+                    "points": 115
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.canoptekAcanthrites",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Canoptek Acanthrites",
+            "role": "BEAST",
+            "points": [
+                {
+                    "name": "Canoptek Acanthrite",
+                    "amount": 6,
+                    "cost": 220
+                },
+                {
+                    "name": "Canoptek Acanthrite",
+                    "amount": 3,
+                    "cost": 110
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Canoptek Acanthrite",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Canoptek Acanthrite"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.tesseractArk",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Tesseract Ark",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Tesseract Ark",
+                    "points": 130,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "2x Tesla Cannons"
+                            },
+                            "options": [
+                                {
+                                    "name": "2x Tesla Cannons"
+                                },
+                                {
+                                    "name": "2x Gauss Cannons"
+                                },
+                                {
+                                    "name": "2x Particle Beamers"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.seraptekHeavyConstruct",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Seraptek Heavy Construct",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Seraptek Heavy Construct",
+                    "points": 540,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "2x Singularity Generators"
+                            },
+                            "options": [
+                                {
+                                    "name": "2x Singularity Generators"
+                                },
+                                {
+                                    "name": "2x Synaptic Obliterators, 2x Transdimensional Projectors"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

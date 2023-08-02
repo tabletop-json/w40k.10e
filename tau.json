@@ -1,0 +1,3601 @@
+{
+    "config": {
+        "id": "w40k.10e.tau.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.tau",
+        "name": "T'au Empire",
+        "keyword": "T'AU EMPIRE",
+        "enabled": true,
+        "endpoint": "tau.json"
+    },
+    "detachments": [
+        {
+            "id": "w40k.10e.tau.dt.kauyon",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Kauyon"
+        }
+    ],
+    "units": [
+        {
+            "id": "w40k.10e.tau.unit.commanderShadowsun",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Commander Shadowsun",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Commander Shadowsun",
+                    "points": 140,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.commanderFarsight",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Commander Farsight",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Commander Farsight",
+                    "points": 120,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.commanderCrisisBattlesuit",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Commander in Crisis Battlesuit",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Commander in Crisis Battlesuit",
+                    "points": 110,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Burst Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Burst Cannon"
+                                },
+                                {
+                                    "name": "Airbursting Fragmentation Projector"
+                                },
+                                {
+                                    "name": "Battlesuit Support System"
+                                },
+                                {
+                                    "name": "Cyclic Ion Blaster"
+                                },
+                                {
+                                    "name": "Fusion Blaster"
+                                },
+                                {
+                                    "name": "Missile Pod"
+                                },
+                                {
+                                    "name": "Plasma Rifle"
+                                },
+                                {
+                                    "name": "Shield Generator"
+                                },
+                                {
+                                    "name": "T'au Flamer"
+                                },
+                                {
+                                    "name": "Weapon Support System"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Burst Cannon"
+                                },
+                                {
+                                    "name": "Airbursting Fragmentation Projector"
+                                },
+                                {
+                                    "name": "Battlesuit Support System"
+                                },
+                                {
+                                    "name": "Cyclic Ion Blaster"
+                                },
+                                {
+                                    "name": "Fusion Blaster"
+                                },
+                                {
+                                    "name": "Missile Pod"
+                                },
+                                {
+                                    "name": "Plasma Rifle"
+                                },
+                                {
+                                    "name": "Shield Generator"
+                                },
+                                {
+                                    "name": "T'au Flamer"
+                                },
+                                {
+                                    "name": "Weapon Support System"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Burst Cannon"
+                                },
+                                {
+                                    "name": "Airbursting Fragmentation Projector"
+                                },
+                                {
+                                    "name": "Battlesuit Support System"
+                                },
+                                {
+                                    "name": "Cyclic Ion Blaster"
+                                },
+                                {
+                                    "name": "Fusion Blaster"
+                                },
+                                {
+                                    "name": "Missile Pod"
+                                },
+                                {
+                                    "name": "Plasma Rifle"
+                                },
+                                {
+                                    "name": "Shield Generator"
+                                },
+                                {
+                                    "name": "T'au Flamer"
+                                },
+                                {
+                                    "name": "Weapon Support System"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Burst Cannon"
+                                },
+                                {
+                                    "name": "Airbursting Fragmentation Projector"
+                                },
+                                {
+                                    "name": "Battlesuit Support System"
+                                },
+                                {
+                                    "name": "Cyclic Ion Blaster"
+                                },
+                                {
+                                    "name": "Fusion Blaster"
+                                },
+                                {
+                                    "name": "Missile Pod"
+                                },
+                                {
+                                    "name": "Plasma Rifle"
+                                },
+                                {
+                                    "name": "Shield Generator"
+                                },
+                                {
+                                    "name": "T'au Flamer"
+                                },
+                                {
+                                    "name": "Weapon Support System"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.kauyon",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Exemplar of the Kauyon",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Precision of the Patient Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Puretide Engram Neurochip",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Through Unity, Devastation",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.commanderEnforcerBattlesuit",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Commander in Enforcer Battlesuit",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Commander in Enforcer Battlesuit",
+                    "points": 135,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Burst Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Burst Cannon"
+                                },
+                                {
+                                    "name": "Airbursting Fragmentation Projector"
+                                },
+                                {
+                                    "name": "Battlesuit Support System"
+                                },
+                                {
+                                    "name": "Cyclic Ion Blaster"
+                                },
+                                {
+                                    "name": "Fusion Blaster"
+                                },
+                                {
+                                    "name": "Missile Pod"
+                                },
+                                {
+                                    "name": "Plasma Rifle"
+                                },
+                                {
+                                    "name": "Shield Generator"
+                                },
+                                {
+                                    "name": "T'au Flamer"
+                                },
+                                {
+                                    "name": "Weapon Support System"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Burst Cannon"
+                                },
+                                {
+                                    "name": "Airbursting Fragmentation Projector"
+                                },
+                                {
+                                    "name": "Battlesuit Support System"
+                                },
+                                {
+                                    "name": "Cyclic Ion Blaster"
+                                },
+                                {
+                                    "name": "Fusion Blaster"
+                                },
+                                {
+                                    "name": "Missile Pod"
+                                },
+                                {
+                                    "name": "Plasma Rifle"
+                                },
+                                {
+                                    "name": "Shield Generator"
+                                },
+                                {
+                                    "name": "T'au Flamer"
+                                },
+                                {
+                                    "name": "Weapon Support System"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Burst Cannon"
+                                },
+                                {
+                                    "name": "Airbursting Fragmentation Projector"
+                                },
+                                {
+                                    "name": "Battlesuit Support System"
+                                },
+                                {
+                                    "name": "Cyclic Ion Blaster"
+                                },
+                                {
+                                    "name": "Fusion Blaster"
+                                },
+                                {
+                                    "name": "Missile Pod"
+                                },
+                                {
+                                    "name": "Plasma Rifle"
+                                },
+                                {
+                                    "name": "Shield Generator"
+                                },
+                                {
+                                    "name": "T'au Flamer"
+                                },
+                                {
+                                    "name": "Weapon Support System"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Burst Cannon"
+                                },
+                                {
+                                    "name": "Airbursting Fragmentation Projector"
+                                },
+                                {
+                                    "name": "Battlesuit Support System"
+                                },
+                                {
+                                    "name": "Cyclic Ion Blaster"
+                                },
+                                {
+                                    "name": "Fusion Blaster"
+                                },
+                                {
+                                    "name": "Missile Pod"
+                                },
+                                {
+                                    "name": "Plasma Rifle"
+                                },
+                                {
+                                    "name": "Shield Generator"
+                                },
+                                {
+                                    "name": "T'au Flamer"
+                                },
+                                {
+                                    "name": "Weapon Support System"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.kauyon",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Exemplar of the Kauyon",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Precision of the Patient Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Puretide Engram Neurochip",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Through Unity, Devastation",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.commanderColdstarBattlesuit",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Commander in Coldstar Battlesuit",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Commander in Coldstar Battlesuit",
+                    "points": 125,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "High-output Burst Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "High-output Burst Cannon"
+                                },
+                                {
+                                    "name": "Burst Cannon"
+                                },
+                                {
+                                    "name": "Airbursting Fragmentation Projector"
+                                },
+                                {
+                                    "name": "Battlesuit Support System"
+                                },
+                                {
+                                    "name": "Cyclic Ion Blaster"
+                                },
+                                {
+                                    "name": "Fusion Blaster"
+                                },
+                                {
+                                    "name": "Missile Pod"
+                                },
+                                {
+                                    "name": "Plasma Rifle"
+                                },
+                                {
+                                    "name": "Shield Generator"
+                                },
+                                {
+                                    "name": "T'au Flamer"
+                                },
+                                {
+                                    "name": "Weapon Support System"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Burst Cannon"
+                                },
+                                {
+                                    "name": "Airbursting Fragmentation Projector"
+                                },
+                                {
+                                    "name": "Battlesuit Support System"
+                                },
+                                {
+                                    "name": "Cyclic Ion Blaster"
+                                },
+                                {
+                                    "name": "Fusion Blaster"
+                                },
+                                {
+                                    "name": "Missile Pod"
+                                },
+                                {
+                                    "name": "Plasma Rifle"
+                                },
+                                {
+                                    "name": "Shield Generator"
+                                },
+                                {
+                                    "name": "T'au Flamer"
+                                },
+                                {
+                                    "name": "Weapon Support System"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Burst Cannon"
+                                },
+                                {
+                                    "name": "Airbursting Fragmentation Projector"
+                                },
+                                {
+                                    "name": "Battlesuit Support System"
+                                },
+                                {
+                                    "name": "Cyclic Ion Blaster"
+                                },
+                                {
+                                    "name": "Fusion Blaster"
+                                },
+                                {
+                                    "name": "Missile Pod"
+                                },
+                                {
+                                    "name": "Plasma Rifle"
+                                },
+                                {
+                                    "name": "Shield Generator"
+                                },
+                                {
+                                    "name": "T'au Flamer"
+                                },
+                                {
+                                    "name": "Weapon Support System"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Burst Cannon"
+                                },
+                                {
+                                    "name": "Airbursting Fragmentation Projector"
+                                },
+                                {
+                                    "name": "Battlesuit Support System"
+                                },
+                                {
+                                    "name": "Cyclic Ion Blaster"
+                                },
+                                {
+                                    "name": "Fusion Blaster"
+                                },
+                                {
+                                    "name": "Missile Pod"
+                                },
+                                {
+                                    "name": "Plasma Rifle"
+                                },
+                                {
+                                    "name": "Shield Generator"
+                                },
+                                {
+                                    "name": "T'au Flamer"
+                                },
+                                {
+                                    "name": "Weapon Support System"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.kauyon",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Exemplar of the Kauyon",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Precision of the Patient Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Puretide Engram Neurochip",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Through Unity, Devastation",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.cadreFireblade",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Cadre Fireblade",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Cadre Fireblade",
+                    "points": 50,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.kauyon",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Exemplar of the Kauyon",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Precision of the Patient Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Puretide Engram Neurochip",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Through Unity, Devastation",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.krootShaper",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Kroot Shaper",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Kroot Shaper",
+                    "points": 50,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Kroot Rifle"
+                            },
+                            "options": [
+                                {
+                                    "name": "Kroot Rifle"
+                                },
+                                {
+                                    "name": "Pulse Rifle"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.kauyon",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Exemplar of the Kauyon",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Precision of the Patient Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Puretide Engram Neurochip",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Through Unity, Devastation",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.ethereal",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Ethereal",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Ethereal",
+                    "points": 50,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Hover Drone"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.kauyon",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Exemplar of the Kauyon",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Precision of the Patient Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Puretide Engram Neurochip",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Through Unity, Devastation",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.aunva",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Aun'va",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Aun'va",
+                    "points": 65,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Ethereal Guard"
+                },
+                {
+                    "name": "Ethereal Guard"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.aunshi",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Aun'shi",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Aun'shi",
+                    "points": 60,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.darkstrider",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Darkstrider",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Darkstrider",
+                    "points": 75,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.longstrike",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Longstrike",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Longstrike",
+                    "points": 170,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Railgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Railgun"
+                                },
+                                {
+                                    "name": "Ion Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "2x Twin Pulse Carbines"
+                            },
+                            "options": [
+                                {
+                                    "name": "2x Twin Pulse Carbines"
+                                },
+                                {
+                                    "name": "2x Accelerator Burst Cannons"
+                                },
+                                {
+                                    "name": "2x Twin Smart Missile Systems"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Seeker Missile"
+                                },
+                                {
+                                    "name": "2x Seeker Missiles"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.strikeTeam",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Strike Team",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Fire Warrior, Fire Warrior Shas'ui",
+                    "amount": 10,
+                    "cost": 100
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Fire Warrior",
+                    "min": 9,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Fire Warrior Shas'ui",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Fire Warrior",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Pulse Rifle"
+                            },
+                            "options": [
+                                {
+                                    "name": "Pulse Rifle"
+                                },
+                                {
+                                    "name": "Pulse Carbine"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Fire Warrior Shas'ui",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                },
+                                {
+                                    "name": "Guardian Drone"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.breacherTeam",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Breacher Team",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Breacher Fire Warrior, Breacher Fire Warrior Shas'ui",
+                    "amount": 10,
+                    "cost": 115
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Breacher Fire Warrior",
+                    "min": 9,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Breacher Fire Warrior Shas'ui",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Breacher Fire Warrior"
+                },
+                {
+                    "name": "Breacher Fire Warrior Shas'ui",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                },
+                                {
+                                    "name": "Guardian Drone"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.krootCarnivores",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Kroot Carnivores",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Kroot Carnivore",
+                    "amount": 20,
+                    "cost": 150
+                },
+                {
+                    "name": "Kroot Carnivore",
+                    "amount": 10,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Kroot Carnivore",
+                    "min": 10,
+                    "max": 20
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Kroot Carnivore"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.krootoxRider",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Krootox Rider",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Krootox Rider",
+                    "amount": 3,
+                    "cost": 105
+                },
+                {
+                    "name": "Krootox Rider",
+                    "amount": 2,
+                    "cost": 70
+                },
+                {
+                    "name": "Krootox Rider",
+                    "amount": 1,
+                    "cost": 35
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Krootox Rider",
+                    "min": 1,
+                    "max": 3
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Krootox Rider"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.crisisBattlesuits",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Crisis Battlesuits",
+            "role": "VEHICLE",
+            "points": [
+                {
+                    "name": "Crisis Shas'ui, Crisis Shas'vre",
+                    "amount": 6,
+                    "cost": 390
+                },
+                {
+                    "name": "Crisis Shas'ui, Crisis Shas'vre",
+                    "amount": 3,
+                    "cost": 195
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Crisis Shas'ui",
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "type": "model",
+                    "name": "Crisis Shas'vre",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Crisis Shas'ui",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Burst Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Burst Cannon"
+                                },
+                                {
+                                    "name": "Airbursting Fragmentation Projector"
+                                },
+                                {
+                                    "name": "Battlesuit Support System"
+                                },
+                                {
+                                    "name": "Cyclic Ion Blaster"
+                                },
+                                {
+                                    "name": "Fusion Blaster"
+                                },
+                                {
+                                    "name": "Missile Pod"
+                                },
+                                {
+                                    "name": "Plasma Rifle"
+                                },
+                                {
+                                    "name": "Shield Generator"
+                                },
+                                {
+                                    "name": "T'au Flamer"
+                                },
+                                {
+                                    "name": "Weapon Support System"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Burst Cannon"
+                                },
+                                {
+                                    "name": "Airbursting Fragmentation Projector"
+                                },
+                                {
+                                    "name": "Battlesuit Support System"
+                                },
+                                {
+                                    "name": "Cyclic Ion Blaster"
+                                },
+                                {
+                                    "name": "Fusion Blaster"
+                                },
+                                {
+                                    "name": "Missile Pod"
+                                },
+                                {
+                                    "name": "Plasma Rifle"
+                                },
+                                {
+                                    "name": "Shield Generator"
+                                },
+                                {
+                                    "name": "T'au Flamer"
+                                },
+                                {
+                                    "name": "Weapon Support System"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Burst Cannon"
+                                },
+                                {
+                                    "name": "Airbursting Fragmentation Projector"
+                                },
+                                {
+                                    "name": "Battlesuit Support System"
+                                },
+                                {
+                                    "name": "Cyclic Ion Blaster"
+                                },
+                                {
+                                    "name": "Fusion Blaster"
+                                },
+                                {
+                                    "name": "Missile Pod"
+                                },
+                                {
+                                    "name": "Plasma Rifle"
+                                },
+                                {
+                                    "name": "Shield Generator"
+                                },
+                                {
+                                    "name": "T'au Flamer"
+                                },
+                                {
+                                    "name": "Weapon Support System"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Burst Cannon"
+                                },
+                                {
+                                    "name": "Airbursting Fragmentation Projector"
+                                },
+                                {
+                                    "name": "Battlesuit Support System"
+                                },
+                                {
+                                    "name": "Cyclic Ion Blaster"
+                                },
+                                {
+                                    "name": "Fusion Blaster"
+                                },
+                                {
+                                    "name": "Missile Pod"
+                                },
+                                {
+                                    "name": "Plasma Rifle"
+                                },
+                                {
+                                    "name": "Shield Generator"
+                                },
+                                {
+                                    "name": "T'au Flamer"
+                                },
+                                {
+                                    "name": "Weapon Support System"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Crisis Shas'vre",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Burst Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Burst Cannon"
+                                },
+                                {
+                                    "name": "Airbursting Fragmentation Projector"
+                                },
+                                {
+                                    "name": "Battlesuit Support System"
+                                },
+                                {
+                                    "name": "Cyclic Ion Blaster"
+                                },
+                                {
+                                    "name": "Fusion Blaster"
+                                },
+                                {
+                                    "name": "Missile Pod"
+                                },
+                                {
+                                    "name": "Plasma Rifle"
+                                },
+                                {
+                                    "name": "Shield Generator"
+                                },
+                                {
+                                    "name": "T'au Flamer"
+                                },
+                                {
+                                    "name": "Weapon Support System"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Burst Cannon"
+                                },
+                                {
+                                    "name": "Airbursting Fragmentation Projector"
+                                },
+                                {
+                                    "name": "Battlesuit Support System"
+                                },
+                                {
+                                    "name": "Cyclic Ion Blaster"
+                                },
+                                {
+                                    "name": "Fusion Blaster"
+                                },
+                                {
+                                    "name": "Missile Pod"
+                                },
+                                {
+                                    "name": "Plasma Rifle"
+                                },
+                                {
+                                    "name": "Shield Generator"
+                                },
+                                {
+                                    "name": "T'au Flamer"
+                                },
+                                {
+                                    "name": "Weapon Support System"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Burst Cannon"
+                                },
+                                {
+                                    "name": "Airbursting Fragmentation Projector"
+                                },
+                                {
+                                    "name": "Battlesuit Support System"
+                                },
+                                {
+                                    "name": "Cyclic Ion Blaster"
+                                },
+                                {
+                                    "name": "Fusion Blaster"
+                                },
+                                {
+                                    "name": "Missile Pod"
+                                },
+                                {
+                                    "name": "Plasma Rifle"
+                                },
+                                {
+                                    "name": "Shield Generator"
+                                },
+                                {
+                                    "name": "T'au Flamer"
+                                },
+                                {
+                                    "name": "Weapon Support System"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Burst Cannon"
+                                },
+                                {
+                                    "name": "Airbursting Fragmentation Projector"
+                                },
+                                {
+                                    "name": "Battlesuit Support System"
+                                },
+                                {
+                                    "name": "Cyclic Ion Blaster"
+                                },
+                                {
+                                    "name": "Fusion Blaster"
+                                },
+                                {
+                                    "name": "Missile Pod"
+                                },
+                                {
+                                    "name": "Plasma Rifle"
+                                },
+                                {
+                                    "name": "Shield Generator"
+                                },
+                                {
+                                    "name": "T'au Flamer"
+                                },
+                                {
+                                    "name": "Weapon Support System"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.stealthBattlesuits",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Stealth Battlesuits",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Stealth Shas'ui, Stealth Shas'vre",
+                    "amount": 6,
+                    "cost": 150
+                },
+                {
+                    "name": "Stealth Shas'ui, Stealth Shas'vre",
+                    "amount": 3,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Stealth Shas'ui",
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "type": "model",
+                    "name": "Stealth Shas'vre",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Stealth Shas'ui",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Burst Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Burst Cannon"
+                                },
+                                {
+                                    "name": "Fusion Blaster"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Battlesuit Support System"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Stealth Shas'vre",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Burst Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Burst Cannon"
+                                },
+                                {
+                                    "name": "Fusion Blaster"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Battlesuit Support System"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.ghostkeelBattlesuit",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Ghostkeel Battlesuit",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Ghostkeel Battlesuit",
+                    "points": 170,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Fusion Collider"
+                            },
+                            "options": [
+                                {
+                                    "name": "Fusion Collider"
+                                },
+                                {
+                                    "name": "Cyclic Ion Raker"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin T'au Flamer"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin T'au Flamer"
+                                },
+                                {
+                                    "name": "Twin Fusion Blaster"
+                                },
+                                {
+                                    "name": "Twin Burst Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Battlesuit Support System"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.firesightTeam",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Firesight Team",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Firesight Marksman",
+                    "points": 70,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.kauyon",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Exemplar of the Kauyon",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Precision of the Patient Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Puretide Engram Neurochip",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Through Unity, Devastation",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.pathfinderTeam",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Pathfinder Team",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Pathfinder, Pathfinder Shas'ui",
+                    "amount": 10,
+                    "cost": 120
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Pathfinder",
+                    "min": 9,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Pathfinder Shas'ui",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Pathfinder",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Pulse Carbine"
+                            },
+                            "options": [
+                                {
+                                    "name": "Pulse Carbine"
+                                },
+                                {
+                                    "name": "Ion Rifle"
+                                },
+                                {
+                                    "name": "Rail Rifle"
+                                },
+                                {
+                                    "name": "Pulse Carbine, Semi-automatic Grenade Launcher"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Pathfinder Shas'ui",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Pulse Carbine"
+                            },
+                            "options": [
+                                {
+                                    "name": "Pulse Carbine"
+                                },
+                                {
+                                    "name": "Pulse Carbine, Semi-automatic Grenade Launcher"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Grav-inhibitor Drone"
+                                },
+                                {
+                                    "name": "Pulse Accelerator Drone"
+                                },
+                                {
+                                    "name": "Recon Drone"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.piranha",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Piranha",
+            "role": "VEHICLE",
+            "points": [
+                {
+                    "name": "Piranha",
+                    "amount": 3,
+                    "cost": 165
+                },
+                {
+                    "name": "Piranha",
+                    "amount": 2,
+                    "cost": 110
+                },
+                {
+                    "name": "Piranha",
+                    "amount": 1,
+                    "cost": 55
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Piranha",
+                    "min": 1,
+                    "max": 3
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Piranha",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Piranha Burst Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Piranha Burst Cannon"
+                                },
+                                {
+                                    "name": "Piranha Fusion Blaster"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Seeker Missile"
+                                },
+                                {
+                                    "name": "2 Seeker Missiles"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.vespidStingwings",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Vespid Stingwings",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Vespid Stingwing, Vespid Strain Leader",
+                    "amount": 5,
+                    "cost": 75
+                }
+            ],
+            "models": [
+                {
+                    "name": "Vespid Stingwing"
+                },
+                {
+                    "name": "Vespid Stingwing"
+                },
+                {
+                    "name": "Vespid Stingwing"
+                },
+                {
+                    "name": "Vespid Stingwing"
+                },
+                {
+                    "name": "Vespid Strain Leader"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.krootHounds",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Kroot Hounds",
+            "role": "BEAST",
+            "points": [
+                {
+                    "name": "Kroot Hound",
+                    "amount": 12,
+                    "cost": 90
+                },
+                {
+                    "name": "Kroot Hound",
+                    "amount": 8,
+                    "cost": 60
+                },
+                {
+                    "name": "Kroot Hound",
+                    "amount": 4,
+                    "cost": 30
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Kroot Hound",
+                    "min": 4,
+                    "max": 12
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Kroot Hound"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.broadsideBattlesuits",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Broadside Battlesuits",
+            "role": "VEHICLE",
+            "points": [
+                {
+                    "name": "Broadside Shas'ui, Broadside Shas'vre",
+                    "amount": 3,
+                    "cost": 330
+                },
+                {
+                    "name": "Broadside Shas'ui, Broadside Shas'vre",
+                    "amount": 2,
+                    "cost": 220
+                },
+                {
+                    "name": "Broadside Shas'vre",
+                    "amount": 1,
+                    "cost": 110
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Broadside Shas'ui",
+                    "min": 0,
+                    "max": 2
+                },
+                {
+                    "type": "model",
+                    "name": "Broadside Shas'vre",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Broadside Shas'ui",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Rail Rifle"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Rail Rifle"
+                                },
+                                {
+                                    "name": "High-yield Missile Pods"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Battlesuit Support System"
+                                },
+                                {
+                                    "name": "Seeker Missile"
+                                },
+                                {
+                                    "name": "Twin Plasma Rifle"
+                                },
+                                {
+                                    "name": "Twin Smart Missile System"
+                                },
+                                {
+                                    "name": "Weapon Support System"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Battlesuit Support System"
+                                },
+                                {
+                                    "name": "Seeker Missile"
+                                },
+                                {
+                                    "name": "Twin Plasma Rifle"
+                                },
+                                {
+                                    "name": "Twin Smart Missile System"
+                                },
+                                {
+                                    "name": "Weapon Support System"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                },
+                                {
+                                    "name": "Missile Drone"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                },
+                                {
+                                    "name": "Missile Drone"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Broadside Shas'vre",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Rail Rifle"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Rail Rifle"
+                                },
+                                {
+                                    "name": "High-yield Missile Pods"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Battlesuit Support System"
+                                },
+                                {
+                                    "name": "Seeker Missile"
+                                },
+                                {
+                                    "name": "Twin Plasma Rifle"
+                                },
+                                {
+                                    "name": "Twin Smart Missile System"
+                                },
+                                {
+                                    "name": "Weapon Support System"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Battlesuit Support System"
+                                },
+                                {
+                                    "name": "Seeker Missile"
+                                },
+                                {
+                                    "name": "Twin Plasma Rifle"
+                                },
+                                {
+                                    "name": "Twin Smart Missile System"
+                                },
+                                {
+                                    "name": "Weapon Support System"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                },
+                                {
+                                    "name": "Missile Drone"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                },
+                                {
+                                    "name": "Missile Drone"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.riptideBattlesuit",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Riptide Battlesuits",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Riptide Battlesuit",
+                    "points": 235,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Burst Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Burst Cannon"
+                                },
+                                {
+                                    "name": "Ion Accelerator"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Plasma Rifles"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Plasma Rifles"
+                                },
+                                {
+                                    "name": "Twin Fusion Blaster"
+                                },
+                                {
+                                    "name": "Twin Smart Missile System"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Missile Drone"
+                                },
+                                {
+                                    "name": "2x Missile Drones"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.hammerheadGunship",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Hammerhead Gunship",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Hammerhead Gunship",
+                    "points": 145,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Railgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Railgun"
+                                },
+                                {
+                                    "name": "Ion Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "2x Twin Pulse Carbines"
+                            },
+                            "options": [
+                                {
+                                    "name": "2x Twin Pulse Carbines"
+                                },
+                                {
+                                    "name": "2x Accelerator Burst Cannons"
+                                },
+                                {
+                                    "name": "2x Twin Smart Missile Systems"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Seeker Missile"
+                                },
+                                {
+                                    "name": "2x Seeker Missiles"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.skyRayGunship",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Sky Ray Gunship",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Sky Ray Gunship",
+                    "points": 160,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "2x Twin Pulse Carbines"
+                            },
+                            "options": [
+                                {
+                                    "name": "2x Twin Pulse Carbines"
+                                },
+                                {
+                                    "name": "2x Accelerator Burst Cannons"
+                                },
+                                {
+                                    "name": "2x Twin Smart Missile Systems"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.devilfish",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Devilfish",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Devilfish",
+                    "points": 95,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "2x Twin Pulse Carbines"
+                            },
+                            "options": [
+                                {
+                                    "name": "2x Twin Pulse Carbines"
+                                },
+                                {
+                                    "name": "2x Twin Smart Missile Systems"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Seeker Missile"
+                                },
+                                {
+                                    "name": "2x Seeker Missiles"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.razorsharkStrikeFighter",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Razorshark Strike Fighter",
+            "role": "AIRCRAFT",
+            "models": [
+                {
+                    "name": "Razorshark Strike Fighter",
+                    "points": 165,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Accelerator Burst Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Accelerator Burst Cannon"
+                                },
+                                {
+                                    "name": "Missile Pod"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.sunSharkBomber",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Sun Shark Bomber",
+            "role": "AIRCRAFT",
+            "models": [
+                {
+                    "name": "Sun Shark Bomber",
+                    "points": 150,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Missile Pod"
+                            },
+                            "options": [
+                                {
+                                    "name": "Missile Pod"
+                                },
+                                {
+                                    "name": "Twin Missile Pod"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.tidewallShieldline",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Tidewall Shieldline",
+            "role": "FORTIFICATION",
+            "models": [
+                {
+                    "name": "Tidewall Shieldline",
+                    "points": 85,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Tidewall Defence Platform",
+                                "points": 20
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.tidewallDroneport",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Tidewall Droneport",
+            "role": "FORTIFICATION",
+            "models": [
+                {
+                    "name": "Tidewall Droneport",
+                    "points": 85
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.tidewallGunrig",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Tidewall Gunrig",
+            "role": "FORTIFICATION",
+            "models": [
+                {
+                    "name": "Tidewall Gunrig",
+                    "points": 90
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.stormsurge",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Stormsurge",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Stormsurge",
+                    "points": 465,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Pulse Driver Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Pulse Driver Cannon"
+                                },
+                                {
+                                    "name": "Pulse Blast Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin T'au Flamer"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin T'au Flamer"
+                                },
+                                {
+                                    "name": "Twin Airbursting Fragmentation Projector"
+                                },
+                                {
+                                    "name": "Twin Burst Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.tacticalDrones",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Tactical Drones",
+            "role": "DRONE",
+            "points": [
+                {
+                    "name": "Tactical Drone",
+                    "amount": 12,
+                    "cost": 210
+                },
+                {
+                    "name": "Tactical Drone",
+                    "amount": 8,
+                    "cost": 140
+                },
+                {
+                    "name": "Tactical Drone",
+                    "amount": 4,
+                    "cost": 70
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Tactical Drone",
+                    "min": 4,
+                    "max": 12
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Tactical Drone"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.krootFarstalkers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Kroot Farstalkers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Kroot Farstalker, Kroot Kill-Broker, Kroot Hound",
+                    "amount": 12,
+                    "cost": 105
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Kroot Farstalker",
+                    "min": 9,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Kroot Kill-Broker",
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "type": "model",
+                    "name": "Kroot Hound",
+                    "min": 2,
+                    "max": 2
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Kroot Farstalker",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Farstalker Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Farstalker Firearm"
+                                },
+                                {
+                                    "name": "Dvorgite Skinner"
+                                },
+                                {
+                                    "name": "Londaxi Tribalest"
+                                },
+                                {
+                                    "name": "Farstalker Firearm, Pech'ra"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Kroot Kill-Broker",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Farstalker Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Farstalker Firearm"
+                                },
+                                {
+                                    "name": "Pulse Carbine"
+                                },
+                                {
+                                    "name": "Pulse Rifle"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Kroot Hound"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.rVarnaBattlesuit",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "R'varna Battlesuit",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "R'varna Battlesuit",
+                    "points": 235,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Missile Drone"
+                                },
+                                {
+                                    "name": "2x Missile Drones"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.yVahraBattlesuit",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Y'vahra Battlesuit",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Y'vahra Battlesuit",
+                    "points": 235,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Missile Drone"
+                                },
+                                {
+                                    "name": "2x Missile Drones"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.tetras",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Tetras",
+            "role": "VEHICLE",
+            "points": [
+                {
+                    "name": "Tetra",
+                    "amount": 4,
+                    "cost": 160
+                },
+                {
+                    "name": "Tetra",
+                    "amount": 2,
+                    "cost": 80
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Tetra",
+                    "min": 2,
+                    "max": 4
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Tetra"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.remoraStealthDrones",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Remora Stealth Drones",
+            "role": "VEHICLE",
+            "points": [
+                {
+                    "name": "Remora Stealth Drone",
+                    "amount": 2,
+                    "cost": 160
+                }
+            ],
+            "models": [
+                {
+                    "name": "Remora Stealth Drone"
+                },
+                {
+                    "name": "Remora Stealth Drone"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.taunar",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Ta'unar Supremacy Armour",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Ta'unar Supremacy Armour",
+                    "points": 790,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Tri-axis Ion Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Tri-axis Ion Cannon"
+                                },
+                                {
+                                    "name": "Fusion Eradicator"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Fusion Eradicator"
+                            },
+                            "options": [
+                                {
+                                    "name": "Tri-axis Ion Cannon"
+                                },
+                                {
+                                    "name": "Fusion Eradicator"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "3x Ordnance Drivers"
+                            },
+                            "options": [
+                                {
+                                    "name": "3x Ordnance Drivers"
+                                },
+                                {
+                                    "name": "2x Nexus Missile Launchers"
+                                },
+                                {
+                                    "name": "Heavy Rail Cannon Array, Fragmentation Cluster Shell Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.barracuda",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Barracuda",
+            "role": "AIRCRAFT",
+            "models": [
+                {
+                    "name": "Barracuda",
+                    "points": 220,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "2x Long-barrelled Burst Cannons"
+                            },
+                            "options": [
+                                {
+                                    "name": "2x Long-barrelled Burst Cannons"
+                                },
+                                {
+                                    "name": "2x Cyclic Ion Blasters"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Swiftstrike Burst Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Ion Cannon"
+                                },
+                                {
+                                    "name": "Swiftstrike Railgun"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Seeker Missile"
+                                },
+                                {
+                                    "name": "2x Seeker Missiles"
+                                },
+                                {
+                                    "name": "3x Seeker Missiles"
+                                },
+                                {
+                                    "name": "4x Seeker Missiles"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.tigerShark",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Tiger Shark",
+            "role": "AIRCRAFT",
+            "models": [
+                {
+                    "name": "Tiger Shark",
+                    "points": 275,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "2x Ion Cannons"
+                            },
+                            "options": [
+                                {
+                                    "name": "2x Ion Cannons"
+                                },
+                                {
+                                    "name": "2x Swiftstrike Burst Cannons"
+                                },
+                                {
+                                    "name": "2x Swiftstrike Railguns"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Transport Bay"
+                            },
+                            "options": [
+                                {
+                                    "name": "Transport Bay"
+                                },
+                                {
+                                    "name": "2x Skyspear Missile Racks"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Seeker Missile"
+                                },
+                                {
+                                    "name": "2x Seeker Missiles"
+                                },
+                                {
+                                    "name": "3x Seeker Missiles"
+                                },
+                                {
+                                    "name": "4x Seeker Missiles"
+                                },
+                                {
+                                    "name": "5x Seeker Missiles"
+                                },
+                                {
+                                    "name": "6x Seeker Missiles"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.ax10TigerShark",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "AX-1-0 Tiger Shark",
+            "role": "AIRCRAFT",
+            "models": [
+                {
+                    "name": "AX-1-0 Tiger Shark",
+                    "points": 315,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "2x Burst Cannons"
+                            },
+                            "options": [
+                                {
+                                    "name": "2x Burst Cannons"
+                                },
+                                {
+                                    "name": "2x Cyclic Ion Blasters"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Seeker Missile"
+                                },
+                                {
+                                    "name": "2x Seeker Missiles"
+                                },
+                                {
+                                    "name": "3x Seeker Missiles"
+                                },
+                                {
+                                    "name": "4x Seeker Missiles"
+                                },
+                                {
+                                    "name": "5x Seeker Missiles"
+                                },
+                                {
+                                    "name": "6x Seeker Missiles"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.manta",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Manta",
+            "role": "AIRCRAFT",
+            "models": [
+                {
+                    "name": "Manta",
+                    "points": 2100
+                }
+            ]
+        }
+    ]
+}
