@@ -107,6 +107,18 @@
                             "selected": false
                         },
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Hellforged Weapons"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Infernal Cannon"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "color": "green",
                             "detachmentId": "w40k.10e.we.dt.berzerkerWarband",
@@ -156,6 +168,18 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Hellforged Weapons"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Infernal Cannon"
+                            }
                         },
                         {
                             "type": "dropdown",
@@ -209,6 +233,24 @@
                             "selected": false
                         },
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Exalted Chainblade"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Plasma Pistol"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Juggernaut's Bladed Horn"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "color": "green",
                             "detachmentId": "w40k.10e.we.dt.berzerkerWarband",
@@ -258,6 +300,18 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Axe of Dismemberment"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            }
                         },
                         {
                             "type": "dropdown",
@@ -387,6 +441,13 @@
                             "selectedOption": {
                                 "name": "Berzerker Chainblade"
                             }
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Icon of Khorne"
+                            },
+                            "selected": false
                         }
                     ]
                 }
@@ -449,6 +510,12 @@
                             ]
                         },
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Autopistol"
+                            }
+                        },
+                        {
                             "type": "checkbox",
                             "selectedOption": {
                                 "name": "Icon of Khorne"
@@ -483,6 +550,12 @@
                             "type": "text",
                             "selectedOption": {
                                 "name": "Jakhal Chainblades"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Autopistol"
                             }
                         }
                     ]
@@ -732,7 +805,13 @@
                         {
                             "type": "text",
                             "selectedOption": {
-                                "name": "Eightbound Eviscerator, Eightbound Chainfist"
+                                "name": "Eightbound Eviscerator"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Eightbound Chainfist"
                             }
                         }
                     ]
@@ -773,6 +852,18 @@
                     "points": 255,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "2x Soulshatter Lascannons"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Heavy Bolter"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": ""
@@ -811,6 +902,12 @@
                     "name": "Predator Annihilator",
                     "points": 130,
                     "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Predator Twin Lascannon"
+                            }
+                        },
                         {
                             "type": "dropdown",
                             "selectedOption": {
@@ -869,6 +966,12 @@
                     "points": 130,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Predator Autocannon"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": ""
@@ -924,6 +1027,18 @@
                     "name": "Defiler",
                     "points": 210,
                     "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Defiler Cannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Defiler Claws"
+                            }
+                        },
                         {
                             "type": "dropdown",
                             "selectedOption": {
@@ -993,14 +1108,14 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "2 Hades Autocannons"
+                                "name": "2x Hades Autocannons"
                             },
                             "options": [
                                 {
-                                    "name": "2 Hades Autocannons"
+                                    "name": "2x Hades Autocannons"
                                 },
                                 {
-                                    "name": "Ectoplasma Cannon, Ectoplasma Cannon"
+                                    "name": "2x Ectoplasma Cannon"
                                 }
                             ]
                         },
@@ -1113,6 +1228,12 @@
                                     "name": "Baleflamer"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Heldrake Claws"
+                            }
                         }
                     ]
                 }
@@ -1129,6 +1250,12 @@
                     "name": "Maulerfiend",
                     "points": 175,
                     "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Maulerfiend Fists"
+                            }
+                        },
                         {
                             "type": "dropdown",
                             "selectedOption": {
@@ -1201,10 +1328,26 @@
             ],
             "models": [
                 {
-                    "name": "Chaos Spawn"
+                    "name": "Chaos Spawn",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Hideous Mutations"
+                            }
+                        }
+                    ]
                 },
                 {
-                    "name": "Chaos Spawn"
+                    "name": "Chaos Spawn",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Hideous Mutations"
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -1249,6 +1392,12 @@
                                     "name": "Skullhurler"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Great Cleaver of Khorne"
+                            }
                         }
                     ]
                 }

@@ -32,6 +32,12 @@
                     "points": 135,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "2x War Dog Autocannon"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": "Diabolus Heavy Stubber"
@@ -154,6 +160,18 @@
                     "points": 160,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Reaper Chaintalon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Slaughterclaw"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": "Diabolus Heavy Stubber"
@@ -183,6 +201,18 @@
                     "points": 150,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Daemonbreath Spear"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Avenger Chaincannon"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": "Diabolus Heavy Stubber"
@@ -211,6 +241,18 @@
                     "name": "War Dog Huntsman",
                     "points": 140,
                     "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Daemonbreath Spear"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Reaper Chaintalon"
+                            }
+                        },
                         {
                             "type": "dropdown",
                             "selectedOption": {
@@ -373,6 +415,12 @@
                             "selected": false
                         },
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Desecrator Laser Destructor"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": "Reaper Chainsword"
@@ -438,6 +486,18 @@
                             "selected": false
                         },
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Reaper Chainsword"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Warpstrike Claw"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "color": "green",
                             "detachmentId": "w40k.10e.ck.dt.lance",
@@ -487,6 +547,24 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Volkite Combustor"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Electroscourge"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Balemace"
+                            }
                         },
                         {
                             "type": "dropdown",
@@ -568,6 +646,12 @@
                             ]
                         },
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "2x Twin Meltaguns"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "color": "green",
                             "detachmentId": "w40k.10e.ck.dt.lance",
@@ -609,7 +693,27 @@
             "models": [
                 {
                     "name": "Acastus Knight Asterius",
-                    "points": 840
+                    "points": 840,
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "2x Asterius Volkite Culverins"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "2x Twin Conversion Beam Cannons"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Karacnos Mortar Battery"
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -625,16 +729,22 @@
                     "points": 740,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "2x Twin Magna Lascannons"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Acastus Autocannon, Acastus Autocannon"
+                                "name": "2x Acastus Autocannon"
                             },
                             "options": [
                                 {
-                                    "name": "Acastus Autocannon, Acastus Autocannon"
+                                    "name": "2x Acastus Autocannon"
                                 },
                                 {
-                                    "name": "Lascannon, Lascannon"
+                                    "name": "2x Lascannon"
                                 },
                                 {
                                     "name": "Acastus Autocannon, Lascannon"
@@ -676,6 +786,12 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Cerastus Shock Lance"
+                            }
                         },
                         {
                             "type": "dropdown",
@@ -729,6 +845,18 @@
                             "selected": false
                         },
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Castigator Bolt Cannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Tempest Warblade"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "color": "green",
                             "detachmentId": "w40k.10e.ck.dt.lance",
@@ -778,6 +906,24 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Acheron Flame Cannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Heavy Bolter"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Reaper Chainfist"
+                            }
                         },
                         {
                             "type": "dropdown",
@@ -831,6 +977,18 @@
                             "selected": false
                         },
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Graviton Singularity Cannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Atrapos Lascutter"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "color": "green",
                             "detachmentId": "w40k.10e.ck.dt.lance",
@@ -880,6 +1038,18 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Lightning Cannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Phased Plasma-fusil"
+                            }
                         },
                         {
                             "type": "dropdown",
@@ -945,6 +1115,18 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Volkite Chierovile"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Graviton Crusher"
+                            }
                         },
                         {
                             "type": "dropdown",
