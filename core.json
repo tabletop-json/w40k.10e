@@ -4,7 +4,7 @@
     "updateNotes": "Significant structural update, will likely break all existing lists. One time thing due to the approach of formal release.",
     "name": "Warhammer 40,000: 10th Edition",
     "enabled": true,
-    "path": "https://raw.githubusercontent.com/tabletop-json/tabletop-datafiles/develop/w40k/",
+    "path": "https://raw.githubusercontent.com/tabletop-json/w40k.10e/develop/",
     "configs": [
         {
             "id": "w40k.10e.ck.config",
