@@ -251,6 +251,12 @@
                                     "name": "Vertus Hurricane Bolter"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Interceptor Lance"
+                            }
                         }
                     ]
                 }
@@ -812,6 +818,12 @@
                                     "name": "Kheres-pattern Assault Cannon"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Contemptor Combat Weapon"
+                            }
                         }
                     ]
                 }
@@ -828,6 +840,18 @@
                     "name": "Venerable Land Raider",
                     "points": 260,
                     "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "2x Godhammer Lascannons"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Heavy Bolter"
+                            }
+                        },
                         {
                             "type": "checkbox",
                             "selectedOption": {
@@ -1017,6 +1041,12 @@
                                     "name": "Infernus Incinerator, Twin Adrathic Destructor"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Achillus Dreadspear"
+                            }
                         }
                     ]
                 }
@@ -1059,7 +1089,7 @@
                             },
                             "options": [
                                 {
-                                    "name": "Lastrum Storm Bolter"
+                                    "name": "Lastrum Bolt Cannon"
                                 },
                                 {
                                     "name": "Adrathic Devastator"
@@ -1178,6 +1208,12 @@
                                     "name": "Telemon Caestus, Twin Plasma Projector"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Spiculus Bolt Launcher"
+                            }
                         }
                     ]
                 }
@@ -1207,6 +1243,12 @@
                                     "name": "Twin Arachnus Heavy Blaze Cannon"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Lastrum Bolt Cannon"
+                            }
                         }
                     ]
                 }
@@ -1260,7 +1302,15 @@
             "models": [
                 {
                     "name": "Contemptor-Galatus Dreadnought",
-                    "points": 175
+                    "points": 175,
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Galatus Warblade"
+                            }
+                        }
+                    ]
                 }
             ]
         }
