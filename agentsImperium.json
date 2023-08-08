@@ -399,6 +399,12 @@
                     "name": "Proctor-Exactant",
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Arbites Combat Shotgun"
+                            }
+                        },
+                        {
                             "type": "checkbox",
                             "selectedOption": {
                                 "name": "Nuncio Aquila"
@@ -482,6 +488,12 @@
                 {
                     "name": "Proctor-Vigilant",
                     "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Arbites Combat Shotgun"
+                            }
+                        },
                         {
                             "type": "checkbox",
                             "selectedOption": {
