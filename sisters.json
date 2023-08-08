@@ -553,7 +553,7 @@
             ],
             "blueprints": [
                 {
-                    "name": "Sister Novitiate",
+                    "name": "Sisters Novitiate",
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -812,71 +812,6 @@
             ]
         },
         {
-            "id": "w40k.10e.sis.unit.preacher",
-            "type": "unit",
-            "rulesetId": "w40k.10e.sis",
-            "name": "Preacher",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Preacher",
-                    "points": 45,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Zealot's Vindicator"
-                            },
-                            "options": [
-                                {
-                                    "name": "Zealot's Vindicator"
-                                },
-                                {
-                                    "name": "Autopistol, Chainsword"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sis.dt.hallowedMartyrs",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Saintly Example",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Blade of Saint Ellynor",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Litanies of Faith",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Mantle of Ophelia",
-                                    "points": 30
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "id": "w40k.10e.sis.unit.celestianSacresants",
             "type": "unit",
             "rulesetId": "w40k.10e.sis",
@@ -912,6 +847,12 @@
                 {
                     "name": "Celestian Sacresant",
                     "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            }
+                        },
                         {
                             "type": "dropdown",
                             "selectedOption": {
@@ -1467,17 +1408,17 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "2 Bolt Pistols"
+                                "name": "2x Bolt Pistols"
                             },
                             "options": [
                                 {
-                                    "name": "2 Bolt Pistols"
+                                    "name": "2x Bolt Pistols"
                                 },
                                 {
-                                    "name": "2 Inferno Pistols"
+                                    "name": "2x Inferno Pistols"
                                 },
                                 {
-                                    "name": "2 Ministorum Hand Flamer"
+                                    "name": "2x Ministorum Hand Flamer"
                                 }
                             ]
                         }
@@ -1489,11 +1430,11 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "2 Bolt Pistols"
+                                "name": "2x Bolt Pistols"
                             },
                             "options": [
                                 {
-                                    "name": "2 Bolt Pistols"
+                                    "name": "2x Bolt Pistols"
                                 },
                                 {
                                     "name": "Bolt Pistol, Chainsword"
@@ -1550,7 +1491,21 @@
             ],
             "blueprints": [
                 {
-                    "name": "Zephyrim"
+                    "name": "Zephyrim",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Power Weapon"
+                            }
+                        }
+                    ]
                 },
                 {
                     "name": "Zephyrim Superior",
@@ -1568,6 +1523,12 @@
                                     "name": "Plasma Pistol"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Power Weapon"
+                            }
                         },
                         {
                             "type": "checkbox",
@@ -1716,17 +1677,17 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "2 Heavy Bolters"
+                                "name": "2x Heavy Bolters"
                             },
                             "options": [
                                 {
-                                    "name": "2 Heavy Bolters"
+                                    "name": "2x Heavy Bolters"
                                 },
                                 {
                                     "name": "Heavy Bolter, Mortifier Flamer"
                                 },
                                 {
-                                    "name": "2 Mortifier Flamers"
+                                    "name": "2x Mortifier Flamers"
                                 }
                             ]
                         },
