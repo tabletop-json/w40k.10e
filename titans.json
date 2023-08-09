@@ -4,6 +4,7 @@
         "type": "config",
         "rulesetId": "w40k.10e.tit",
         "name": "Titans",
+        "keyword": "ADEPTUS TITANICUS",
         "enabled": true,
         "endpoint": "titans.json"
     },

@@ -781,6 +781,12 @@
                         {
                             "type": "text",
                             "selectedOption": {
+                                "name": "Lasgun"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
                                 "name": "Medi-pack"
                             }
                         }
@@ -789,6 +795,12 @@
                 {
                     "name": "Cadian Veteran Guardsman",
                     "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Lasgun"
+                            }
+                        },
                         {
                             "type": "text",
                             "selectedOption": {
@@ -848,7 +860,6 @@
                         }
                     ]
                 },
-
                 {
                     "name": "Cadian Commander",
                     "gearset": [
@@ -1929,7 +1940,15 @@
                     ]
                 },
                 {
-                    "name": "Jungle Fighter Sergeant"
+                    "name": "Jungle Fighter Sergeant",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Laspistol"
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -2362,7 +2381,7 @@
                     "name": "Ogryn"
                 },
                 {
-                    "name": "Ogryn Bone'ead"
+                    "name": "Ogryn Bone 'ead"
                 }
             ]
         },
@@ -2433,7 +2452,7 @@
                     ]
                 },
                 {
-                    "name": "Bullgryn Bone'ead",
+                    "name": "Bullgryn Bone 'ead",
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2553,6 +2572,12 @@
                 {
                     "name": "Rough Rider Sergeant",
                     "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Hunting Lance"
+                            }
+                        },
                         {
                             "type": "checkbox",
                             "selectedOption": {
@@ -2818,6 +2843,12 @@
                             ]
                         },
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Heavy Stubber"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": ""
@@ -2979,6 +3010,12 @@
                     "points": 195,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Leman Russ Battle Cannon"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": "Lascannon"
@@ -3057,6 +3094,12 @@
                     "name": "Leman Russ Demolisher",
                     "points": 220,
                     "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Demolisher Battle Cannon"
+                            }
+                        },
                         {
                             "type": "dropdown",
                             "selectedOption": {
@@ -3137,6 +3180,12 @@
                     "points": 190,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Vanquisher Battle Cannon"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": "Lascannon"
@@ -3215,6 +3264,12 @@
                     "name": "Leman Russ Punisher",
                     "points": 180,
                     "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Punisher Gatling Cannon"
+                            }
+                        },
                         {
                             "type": "dropdown",
                             "selectedOption": {
@@ -3295,6 +3350,12 @@
                     "points": 195,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Executioner Plasma Cannon"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": "Lascannon"
@@ -3373,6 +3434,12 @@
                     "name": "Leman Russ Exterminator",
                     "points": 200,
                     "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Exterminator Autocannon"
+                            }
+                        },
                         {
                             "type": "dropdown",
                             "selectedOption": {
@@ -3453,6 +3520,12 @@
                     "points": 180,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Eradicator Nova Cannon"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": "Lascannon"
@@ -3532,6 +3605,12 @@
                     "points": 135,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Earthshaker Cannon"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": "Heavy Bolter"
@@ -3567,6 +3646,12 @@
                     "name": "Hydra",
                     "points": 95,
                     "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Hydra Autocannon"
+                            }
+                        },
                         {
                             "type": "dropdown",
                             "selectedOption": {
@@ -3604,6 +3689,12 @@
                     "points": 125,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Storm Eagle Rockets"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": "Heavy Bolter"
@@ -3640,6 +3731,12 @@
                     "points": 110,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Wyvern Quad Stormshard Mortar"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": "Heavy Bolter"
@@ -3675,6 +3772,12 @@
                     "name": "deathstrike",
                     "points": 160,
                     "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Deathstrike Missile"
+                            }
+                        },
                         {
                             "type": "dropdown",
                             "selectedOption": {
@@ -3765,6 +3868,12 @@
                     "points": 65,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Autocannon"
+                            }
+                        },
+                        {
                             "type": "checkbox",
                             "selectedOption": {
                                 "name": "Storm Bolter"
@@ -3850,16 +3959,46 @@
                     "points": 540,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Baneblade Cannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Co-axial Autocannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Demolisher Cannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Heavy Bolter"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Heavy Stubber"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "2x Twin Heavy Flamer"
+                                "name": "2x Lascannon, 2x Twin Heavy Flamer"
                             },
                             "options": [
                                 {
-                                    "name": "2x Twin Heavy Flamer"
+                                    "name": "2x Lascannon, 2x Twin Heavy Flamer"
                                 },
                                 {
-                                    "name": "2x Twin Heavy Bolter"
+                                    "name": "2x Lascannon, 2x Twin Heavy Bolter"
                                 }
                             ]
                         },
@@ -3896,16 +4035,28 @@
                     "points": 490,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Tremor Cannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Heavy Bolter"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "2x Twin Heavy Flamer"
+                                "name": "2x Lascannon, 2x Twin Heavy Flamer"
                             },
                             "options": [
                                 {
-                                    "name": "2x Twin Heavy Flamer"
+                                    "name": "2x Lascannon, 2x Twin Heavy Flamer"
                                 },
                                 {
-                                    "name": "2x Twin Heavy Bolter"
+                                    "name": "2x Lascannon, 2x Twin Heavy Bolter"
                                 }
                             ]
                         },
@@ -3942,16 +4093,28 @@
                     "points": 515,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Quake Cannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Heavy Bolter"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "2x Twin Heavy Flamer"
+                                "name": "2x Lascannon, 2x Twin Heavy Flamer"
                             },
                             "options": [
                                 {
-                                    "name": "2x Twin Heavy Flamer"
+                                    "name": "2x Lascannon, 2x Twin Heavy Flamer"
                                 },
                                 {
-                                    "name": "2x Twin Heavy Bolter"
+                                    "name": "2x Lascannon, 2x Twin Heavy Bolter"
                                 }
                             ]
                         },
@@ -3988,16 +4151,28 @@
                     "points": 455,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Magma Cannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Heavy Bolter"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "2x Twin Heavy Flamer"
+                                "name": "2x Lascannon, 2x Twin Heavy Flamer"
                             },
                             "options": [
                                 {
-                                    "name": "2x Twin Heavy Flamer"
+                                    "name": "2x Lascannon, 2x Twin Heavy Flamer"
                                 },
                                 {
-                                    "name": "2x Twin Heavy Bolter"
+                                    "name": "2x Lascannon, 2x Twin Heavy Bolter"
                                 }
                             ]
                         },
@@ -4034,16 +4209,46 @@
                     "points": 510,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Hellhammer Cannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Co-axial Autocannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Demolisher Cannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Heavy Bolter"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Heavy Stubber"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "2x Twin Heavy Flamer"
+                                "name": "2x Lascannon, 2x Twin Heavy Flamer"
                             },
                             "options": [
                                 {
-                                    "name": "2x Twin Heavy Flamer"
+                                    "name": "2x Lascannon, 2x Twin Heavy Flamer"
                                 },
                                 {
-                                    "name": "2x Twin Heavy Bolter"
+                                    "name": "2x Lascannon, 2x Twin Heavy Bolter"
                                 }
                             ]
                         },
@@ -4080,16 +4285,28 @@
                     "points": 440,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Volcano Cannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Heavy Bolter"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "2x Twin Heavy Flamer"
+                                "name": "2x Lascannon, 2x Twin Heavy Flamer"
                             },
                             "options": [
                                 {
-                                    "name": "2x Twin Heavy Flamer"
+                                    "name": "2x Lascannon, 2x Twin Heavy Flamer"
                                 },
                                 {
-                                    "name": "2x Twin Heavy Bolter"
+                                    "name": "2x Lascannon, 2x Twin Heavy Bolter"
                                 }
                             ]
                         },
@@ -4126,16 +4343,34 @@
                     "points": 460,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Vulcan Mega-bolter"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Heavy Bolter"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "2x Heavy Stubber"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "2x Twin Heavy Flamer"
+                                "name": "2x Lascannon, 2x Twin Heavy Flamer"
                             },
                             "options": [
                                 {
-                                    "name": "2x Twin Heavy Flamer"
+                                    "name": "2x Lascannon, 2x Twin Heavy Flamer"
                                 },
                                 {
-                                    "name": "2x Twin Heavy Bolter"
+                                    "name": "2x Lascannon, 2x Twin Heavy Bolter"
                                 }
                             ]
                         },
@@ -4172,16 +4407,28 @@
                     "points": 520,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Stormsword Siege Cannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Heavy Bolter"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "2x Twin Heavy Flamer"
+                                "name": "2x Lascannon, 2x Twin Heavy Flamer"
                             },
                             "options": [
                                 {
-                                    "name": "2x Twin Heavy Flamer"
+                                    "name": "2x Lascannon, 2x Twin Heavy Flamer"
                                 },
                                 {
-                                    "name": "2x Twin Heavy Bolter"
+                                    "name": "2x Lascannon, 2x Twin Heavy Bolter"
                                 }
                             ]
                         },
@@ -4848,6 +5095,12 @@
                     "points": 250,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Malcador Battle Cannon"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": "2x Autocannon"
@@ -4921,6 +5174,18 @@
                     "points": 270,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Demolisher Cannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Malcador Twin Lascannon"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": "2x Heavy Bolter"
@@ -4977,6 +5242,18 @@
                     "points": 310,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Demolisher Cannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "5x Heavy Bolter"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": "2x Heavy Bolter"
@@ -5032,6 +5309,12 @@
                     "name": "Malcador Infernus",
                     "points": 235,
                     "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Inferno Gun"
+                            }
+                        },
                         {
                             "type": "dropdown",
                             "selectedOption": {
@@ -5191,6 +5474,18 @@
                     "points": 310,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Macharius Twin Battle Cannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Heavy Stubber"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": "2x Heavy Stubber"
@@ -5246,6 +5541,18 @@
                     "name": "Macharius Vanquisher",
                     "points": 285,
                     "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Macharius Twin Vanquisher Cannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Heavy Stubber"
+                            }
+                        },
                         {
                             "type": "dropdown",
                             "selectedOption": {
@@ -5303,6 +5610,18 @@
                     "points": 310,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Macharius Vulcan Mega-bolter"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Heavy Stubber"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": "2x Heavy Stubber"
@@ -5359,6 +5678,18 @@
                     "points": 275,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Praetor Launcher"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "2x Heavy Bolter"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": ""
@@ -5391,6 +5722,12 @@
                     "points": 180,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "4x Heavy Stubber"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": ""
@@ -5422,6 +5759,12 @@
                     "name": "Colossus",
                     "points": 160,
                     "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Colossus Siege Mortar"
+                            }
+                        },
                         {
                             "type": "checkbox",
                             "selectedOption": {
@@ -5461,6 +5804,12 @@
                     "name": "Valdor",
                     "points": 285,
                     "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Valdor Neutron Laser"
+                            }
+                        },
                         {
                             "type": "dropdown",
                             "selectedOption": {
@@ -5607,6 +5956,18 @@
                     "points": 345,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "2x Heavy Bolter"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "2x Lascannon"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": "Heavy Bombs"
@@ -5635,6 +5996,24 @@
                     "name": "Marauder Destroyer",
                     "points": 375,
                     "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "2x Assault Cannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "2x Heavy Bolter"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Marauder Nose Autocannons"
+                            }
+                        },
                         {
                             "type": "checkbox",
                             "selectedOption": {
@@ -5745,7 +6124,15 @@
             "models": [
                 {
                     "name": "Hades Breaching Drill",
-                    "points": 110
+                    "points": 110,
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Melta-cutter Drill"
+                            }
+                        }
+                    ]
                 }
             ]
         },

@@ -1,16 +1,17 @@
 {
     "id": "w40k.10e",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "updateNotes": "Misc bugfixes",
     "name": "Warhammer 40,000: 10th Edition",
     "enabled": true,
-    "path": "https://raw.githubusercontent.com/tabletop-json/w40k.10e/master/",
+    "path": "https://raw.githubusercontent.com/tabletop-json/w40k.10e/develop/",
     "configs": [
         {
             "id": "w40k.10e.ck.config",
             "type": "config",
             "rulesetId": "w40k.10e.ck",
             "name": "Chaos Knights",
+            "keyword": "CHAOS KNIGHTS",
             "enabled": true,
             "endpoint": "chaosKnights.json",
             "allies": [
@@ -23,6 +24,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.ik",
             "name": "Imperial Knights",
+            "keyword": "IMPERIAL KNIGHTS",
             "enabled": true,
             "endpoint": "imperialKnights.json",
             "allies": [
@@ -35,6 +37,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.we",
             "name": "World Eaters",
+            "keyword": "WORLD EATERS",
             "enabled": true,
             "endpoint": "worldEaters.json",
             "allies": [
@@ -48,6 +51,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.dmns",
             "name": "Chaos Daemons",
+            "keyword": "LEGIONES DAEMONICA",
             "enabled": true,
             "endpoint": "chaosDaemons.json",
             "allies": [
@@ -60,6 +64,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.tsons",
             "name": "Thousand Sons",
+            "keyword": "THOUSAND SONS",
             "enabled": true,
             "endpoint": "thousandSons.json",
             "allies": [
@@ -73,6 +78,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.vtn",
             "name": "Leagues of Votann",
+            "keyword": "LEAGUES OF VOTANN",
             "enabled": true,
             "endpoint": "votann.json"
         },
@@ -81,6 +87,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.cst",
             "name": "Adeptus Custodes",
+            "keyword": "ADEPTUS CUSTODES",
             "enabled": true,
             "endpoint": "custodes.json",
             "allies": [
@@ -94,6 +101,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.gsc",
             "name": "Genestealer Cults",
+            "keyword": "GENESTEALER CULTS",
             "enabled": true,
             "endpoint": "genestealerCults.json"
         },
@@ -102,6 +110,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.gk",
             "name": "Grey Knights",
+            "keyword": "GREY KNIGHTS",
             "enabled": true,
             "endpoint": "greyKnights.json",
             "allies": [
@@ -115,6 +124,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.dg",
             "name": "Death Guard",
+            "keyword": "DEATH GUARD",
             "enabled": true,
             "endpoint": "deathGuard.json",
             "allies": [
@@ -128,6 +138,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.csm",
             "name": "Chaos Space Marines",
+            "keyword": "HERETIC ASTARTES",
             "enabled": true,
             "endpoint": "chaosSpaceMarines.json",
             "allies": [
@@ -141,6 +152,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.duk",
             "name": "Drukhari",
+            "keyword": "DRUKHARI",
             "enabled": true,
             "endpoint": "drukhari.json"
         },
@@ -149,6 +161,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.am",
             "name": "Astra Militarum",
+            "keyword": "ASTRA MILITARUM",
             "enabled": true,
             "endpoint": "astraMilitarum.json",
             "allies": [
@@ -162,6 +175,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.adm",
             "name": "Adeptus Mechanicus",
+            "keyword": "ADEPTUS MECHANICUS",
             "enabled": true,
             "endpoint": "adeptusMechanicus.json",
             "allies": [
@@ -175,6 +189,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.sm",
             "name": "Space Marines",
+            "keyword": "ADEPTUS ASTARTES",
             "enabled": true,
             "endpoint": "spaceMarines.json",
             "allies": [
@@ -188,6 +203,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.bt",
             "name": "Black Templars",
+            "keyword": "BLACK TEMPLARS",
             "enabled": true,
             "endpoint": "blackTemplars.json",
             "allies": [
@@ -201,6 +217,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.ba",
             "name": "Blood Angels",
+            "keyword": "BLOOD ANGELS",
             "enabled": true,
             "endpoint": "bloodAngels.json",
             "allies": [
@@ -214,6 +231,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.da",
             "name": "Dark Angels",
+            "keyword": "DARK ANGELS",
             "enabled": true,
             "endpoint": "darkAngels.json",
             "allies": [
@@ -227,6 +245,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.dw",
             "name": "Deathwatch",
+            "keyword": "DEATHWATCH",
             "enabled": true,
             "endpoint": "deathwatch.json",
             "allies": [
@@ -240,6 +259,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.if",
             "name": "Imperial Fists",
+            "keyword": "IMPERIAL FISTS",
             "enabled": true,
             "endpoint": "imperialFists.json",
             "allies": [
@@ -253,6 +273,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.ih",
             "name": "Iron Hands",
+            "keyword": "IRON HANDS",
             "enabled": true,
             "endpoint": "ironHands.json",
             "allies": [
@@ -266,6 +287,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.rg",
             "name": "Raven Guard",
+            "keyword": "RAVEN GUARD",
             "enabled": true,
             "endpoint": "ravenGuard.json",
             "allies": [
@@ -279,6 +301,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.sal",
             "name": "Salamanders",
+            "keyword": "SALAMANDERS",
             "enabled": true,
             "endpoint": "salamanders.json",
             "allies": [
@@ -292,6 +315,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.sw",
             "name": "Space Wolves",
+            "keyword": "SPACE WOLVES",
             "enabled": true,
             "endpoint": "spaceWolves.json",
             "allies": [
@@ -305,6 +329,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.ult",
             "name": "Ultramarines",
+            "keyword": "ULTRAMARINES",
             "enabled": true,
             "endpoint": "ultramarines.json",
             "allies": [
@@ -318,6 +343,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.ws",
             "name": "White Scars",
+            "keyword": "WHITE SCARS",
             "enabled": true,
             "endpoint": "whiteScars.json",
             "allies": [
@@ -331,6 +357,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.tit",
             "name": "Titans",
+            "keyword": "ADEPTUS TITANICUS",
             "enabled": true,
             "endpoint": "titans.json",
             "allies": [
@@ -343,6 +370,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.sis",
             "name": "Sisters of Battle",
+            "keyword": "ADEPTA SORORITAS",
             "enabled": true,
             "endpoint": "sisters.json",
             "allies": [
@@ -356,6 +384,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.nec",
             "name": "Necrons",
+            "keyword": "NECRONS",
             "enabled": true,
             "endpoint": "necrons.json"
         },
@@ -364,6 +393,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.tau",
             "name": "T'au Empire",
+            "keyword": "T'AU EMPIRE",
             "enabled": true,
             "endpoint": "tau.json"
         },
@@ -372,6 +402,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.ork",
             "name": "Orks",
+            "keyword": "ORKS",
             "enabled": true,
             "endpoint": "orks.json"
         },
@@ -380,6 +411,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.nid",
             "name": "Tyranids",
+            "keyword": "TYRANIDS",
             "enabled": true,
             "endpoint": "tyranids.json"
         },
@@ -388,6 +420,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.aeld",
             "name": "Aeldari",
+            "keyword": "AELDARI",
             "enabled": true,
             "endpoint": "aeldari.json"
         },
@@ -396,6 +429,7 @@
             "type": "config",
             "rulesetId": "w40k.10e.ynn",
             "name": "Aeldari (Ynnari)",
+            "keyword": "AELDARI",
             "enabled": true,
             "endpoint": "ynnari.json"
         },
