@@ -659,6 +659,12 @@
                     "name": "Serberys Raider",
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Galvanic Carbine"
+                            }
+                        },
+                        {
                             "type": "checkbox",
                             "selectedOption": {
                                 "name": "Enhanced Data-tether"
@@ -668,7 +674,21 @@
                     ]
                 },
                 {
-                    "name": "Serberys Raider Alpha"
+                    "name": "Serberys Raider Alpha",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Galvanic Carbine"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Archeotech Pistol"
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -721,11 +741,37 @@
                                     "name": "Phosphor Blast Carbine, Phosphor Pistol"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Sulphur Breath"
+                            }
                         }
                     ]
                 },
                 {
-                    "name": "Serberys Sulphurhound Alpha"
+                    "name": "Serberys Sulphurhound Alpha",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Phosphor Blast Pistol"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Cavalry Arc Maul"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Sulphur Breath"
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -890,11 +936,11 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Transonic Razor and Chordclaw"
+                                "name": "Transonic Razor, Chordclaw"
                             },
                             "options": [
                                 {
-                                    "name": "Transonic Razor and Chordclaw"
+                                    "name": "Transonic Razor, Chordclaw"
                                 },
                                 {
                                     "name": "Transonic Blades"
@@ -909,14 +955,14 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Transonic Razor and Chordclaw"
+                                "name": "Transonic Razor, Chordclaw"
                             },
                             "options": [
                                 {
-                                    "name": "Transonic Blades and Chordclaw"
+                                    "name": "Transonic Razor, Chordclaw"
                                 },
                                 {
-                                    "name": "Transonic Blades"
+                                    "name": "Transonic Blades, Chordclaw"
                                 }
                             ]
                         }
@@ -1189,6 +1235,18 @@
                                     "name": "Ferrumite Cannon"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Disruptor Missile Launcher"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "3x Cognis Heavy Stubber"
+                            }
                         }
                     ]
                 }
