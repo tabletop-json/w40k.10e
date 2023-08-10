@@ -1332,7 +1332,7 @@
             ],
             "blueprints": [
                 {
-                    "name": "Canoptek Spyder"
+                    "name": "Canoptek Scarab Swarm"
                 }
             ]
         },
@@ -1577,6 +1577,12 @@
                     "points": 115,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Tesla Destructor"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": "Gauss Cannon"
@@ -1804,6 +1810,18 @@
                                     "name": "4x Death Rays"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Particle Whip"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Portal of Exile"
+                            }
                         }
                     ]
                 }
@@ -1925,6 +1943,12 @@
                     "name": "Tesseract Ark",
                     "points": 130,
                     "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Tesseract Singularity Chamber"
+                            }
+                        },
                         {
                             "type": "dropdown",
                             "selectedOption": {

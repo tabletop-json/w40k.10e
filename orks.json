@@ -146,7 +146,15 @@
                     ]
                 },
                 {
-                    "name": "Beast Snagga Nob"
+                    "name": "Beast Snagga Nob",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Slugga, Choppa"
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -218,6 +226,18 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Beastchoppa"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Squigosaur's Jaws"
+                            }
                         },
                         {
                             "type": "checkbox",
@@ -293,6 +313,12 @@
                                     "name": "Kustom Shoota"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Power Klaw"
+                            }
                         },
                         {
                             "type": "dropdown",
@@ -693,7 +719,15 @@
             ],
             "blueprints": [
                 {
-                    "name": "Burna Boy"
+                    "name": "Burna Boy",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Burna"
+                            }
+                        }
+                    ]
                 },
                 {
                     "name": "Spanner",
@@ -1237,6 +1271,12 @@
                                     "name": "Power Klaw"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Slugga"
+                            }
                         }
                     ]
                 }
@@ -1310,7 +1350,15 @@
             ],
             "blueprints": [
                 {
-                    "name": "Loota"
+                    "name": "Loota",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Deffgun"
+                            }
+                        }
+                    ]
                 },
                 {
                     "name": "Spanner",
@@ -2048,7 +2096,21 @@
             ],
             "blueprints": [
                 {
-                    "name": "Stormboy"
+                    "name": "Stormboy",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Choppa"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Slugga"
+                            }
+                        }
+                    ]
                 },
                 {
                     "name": "Boss Nob",
@@ -2066,6 +2128,12 @@
                                     "name": "Power Klaw"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Slugga"
+                            }
                         }
                     ]
                 }
@@ -2175,6 +2243,43 @@
                                     "name": "Choppa"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Dakkagun"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Boss Nob on Warbike",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Slugga"
+                                },
+                                {
+                                    "name": "Big Choppa"
+                                },
+                                {
+                                    "name": "Power Klaw"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Dakkagun"
+                            }
                         }
                     ]
                 }
@@ -2211,6 +2316,18 @@
                                     "name": "Power Klaw"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Kombi-weapon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Slugga"
+                            }
                         },
                         {
                             "type": "checkbox",
@@ -2705,6 +2822,18 @@
                                     "name": "Giga Shoota"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Big Shoota"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Skorcha"
+                            }
                         }
                     ]
                 }
@@ -2867,6 +2996,12 @@
                                     "name": "Power Klaw"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Dakkagun"
+                            }
                         }
                     ]
                 }
@@ -2922,6 +3057,12 @@
                                     "name": "Slugga"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Dakkagun"
+                            }
                         },
                         {
                             "type": "checkbox",

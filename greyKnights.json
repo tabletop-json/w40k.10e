@@ -182,15 +182,23 @@
                                 },
                                 {
                                     "name": "Heavy Psycannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": "Gatling Psilencer"
                                 },
                                 {
-                                    "name": "Gatling Psilencer, Heavy Incinerator"
+                                    "name": "Heavy Incinerator"
                                 },
                                 {
-                                    "name": "Gatling Psilencer, Heavy Psycannon"
-                                },
-                                {
-                                    "name": "Heavy Incinerator, Heavy Psycannon"
+                                    "name": "Heavy Psycannon"
                                 }
                             ]
                         },
@@ -638,11 +646,31 @@
                                     "name": "Narthecium"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Nemesis Force Weapon"
+                            }
                         }
                     ]
                 },
                 {
-                    "name": "Terminator Justicar"
+                    "name": "Terminator Justicar",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Storm Bolter"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Nemesis Force Weapon"
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -705,7 +733,21 @@
                     ]
                 },
                 {
-                    "name": "Justicar"
+                    "name": "Justicar",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Storm Bolter"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Nemesis Force Weapon"
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -766,6 +808,12 @@
                             ]
                         },
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Nemesis Force Weapon"
+                            }
+                        },
+                        {
                             "type": "checkbox",
                             "selectedOption": {
                                 "name": "Ancient's Banner"
@@ -775,7 +823,21 @@
                     ]
                 },
                 {
-                    "name": "Paragon"
+                    "name": "Paragon",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Storm Bolter"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Nemesis Force Weapon"
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -838,7 +900,21 @@
                     ]
                 },
                 {
-                    "name": "Knight of the Flame"
+                    "name": "Knight of the Flame",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Storm Bolter"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Nemesis Force Weapon"
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -1002,7 +1078,21 @@
                     ]
                 },
                 {
-                    "name": "Interceptor Justicar"
+                    "name": "Interceptor Justicar",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Storm Bolter"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Nemesis Force Weapon"
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -1065,7 +1155,21 @@
                     ]
                 },
                 {
-                    "name": "Purgator Justicar"
+                    "name": "Purgator Justicar",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Storm Bolter"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Nemesis Force Weapon"
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -1111,15 +1215,23 @@
                                 },
                                 {
                                     "name": "Heavy Psycannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": "Gatling Psilencer"
                                 },
                                 {
-                                    "name": "Gatling Psilencer, Heavy Incinerator"
+                                    "name": "Heavy Incinerator"
                                 },
                                 {
-                                    "name": "Gatling Psilencer, Heavy Psycannon"
-                                },
-                                {
-                                    "name": "Heavy Incinerator, Heavy Psycannon"
+                                    "name": "Heavy Psycannon"
                                 }
                             ]
                         }
@@ -1138,6 +1250,18 @@
                     "name": "Land Raider",
                     "points": 270,
                     "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "2x Godhammer Lascannons"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Heavy Bolter"
+                            }
+                        },
                         {
                             "type": "checkbox",
                             "selectedOption": {
@@ -1175,6 +1299,18 @@
                     "points": 250,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "2x Hurricane Bolters"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Assault Cannon"
+                            }
+                        },
+                        {
                             "type": "checkbox",
                             "selectedOption": {
                                 "name": "Hunter-killer Missile"
@@ -1210,6 +1346,18 @@
                     "name": "Land Raider Redeemer",
                     "points": 290,
                     "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "2x Flamestorm Cannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Assault Cannon"
+                            }
+                        },
                         {
                             "type": "checkbox",
                             "selectedOption": {
@@ -1351,6 +1499,12 @@
                                     "name": "Typhoon Missile Launcher"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Assault Cannon"
+                            }
                         }
                     ]
                 }
@@ -1383,6 +1537,12 @@
                                     "name": "Typhoon Missile Launcher"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Assault Cannon"
+                            }
                         }
                     ]
                 }
@@ -1432,6 +1592,12 @@
                                     "name": "Twin Multi-melta"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "2x Stormstrike Missiles"
+                            }
                         },
                         {
                             "type": "checkbox",

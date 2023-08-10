@@ -19,19 +19,19 @@
     ],
     "units": [
         {
-            "id": "w40k.10e.gsc.unit.abberants",
+            "id": "w40k.10e.gsc.unit.aberrants",
             "type": "unit",
             "rulesetId": "w40k.10e.gsc",
-            "name": "Abberants",
+            "name": "Aberrants",
             "role": "INFANTRY",
             "points": [
                 {
-                    "name": "Abberant, Abberant Hypermorph",
+                    "name": "Aberrant, Aberrant Hypermorph",
                     "amount": 10,
                     "cost": 330
                 },
                 {
-                    "name": "Abberant, Abberant Hypermorph",
+                    "name": "Aberrant, Aberrant Hypermorph",
                     "amount": 5,
                     "cost": 165
                 }
@@ -39,23 +39,31 @@
             "restrictions": [
                 {
                     "type": "model",
-                    "name": "Abberant",
+                    "name": "Aberrant",
                     "min": 4,
                     "max": 9
                 },
                 {
                     "type": "model",
-                    "name": "Abberant Hypermorph",
+                    "name": "Aberrant Hypermorph",
                     "min": 1,
                     "max": 1
                 }
             ],
             "blueprints": [
                 {
-                    "name": "Abberant"
+                    "name": "Aberrant",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Heavy Power Weapon"
+                            }
+                        }
+                    ]
                 },
                 {
-                    "name": "Abberant Hypermorph",
+                    "name": "Aberrant Hypermorph",
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -70,6 +78,12 @@
                                     "name": "Heavy Improvised Weapon"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Hypermorph Tail"
+                            }
                         }
                     ]
                 }
@@ -415,6 +429,18 @@
                                     "name": "Mining Laser"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Atalan Small Arms"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Close Combat Weapon"
+                            }
                         }
                     ]
                 }
@@ -921,6 +947,12 @@
                                     "name": "Webber"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Close Combat Weapon"
+                            }
                         }
                     ]
                 },

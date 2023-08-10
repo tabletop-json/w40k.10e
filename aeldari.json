@@ -459,6 +459,12 @@
                             ]
                         },
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Aeldari Power Sword"
+                            }
+                        },
+                        {
                             "type": "checkbox",
                             "selectedOption": {
                                 "name": "Mistshield"
@@ -561,13 +567,67 @@
                     ]
                 },
                 {
-                    "name": "Shade Runner"
+                    "name": "Shade Runner",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Shuriken Pistol"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Paired Hekatarii Blades"
+                            }
+                        }
+                    ]
                 },
                 {
-                    "name": "Soul Weaver"
+                    "name": "Soul Weaver",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Shuriken Pistol"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Aeldari Power Sword"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Channeller Stones"
+                            }
+                        }
+                    ]
                 },
                 {
-                    "name": "Way Seeker"
+                    "name": "Way Seeker",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Shuriken Pistol"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Executioner"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Witch Staff"
+                            }
+                        }
+                    ]
                 },
                 {
                     "name": "Voidreaver Felarch",
@@ -588,6 +648,12 @@
                                     "name": "Shuriken Rifle"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Aeldari Power Sword"
+                            }
                         },
                         {
                             "type": "checkbox",

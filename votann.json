@@ -378,6 +378,12 @@
                             ]
                         },
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Autoch-pattern Bolt Pistol"
+                            }
+                        },
+                        {
                             "type": "checkbox",
                             "selectedOption": {
                                 "name": "Medipac"
@@ -436,6 +442,12 @@
                                     "name": "EtaCarn Plasma Pistol"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Weavefield Crest"
+                            }
                         }
                     ]
                 }
@@ -712,6 +724,12 @@
                                     "name": "MATR Autocannon"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Bolt Cannon"
+                            }
                         }
                     ]
                 }
@@ -823,6 +841,12 @@
                                     "name": "Heavy Magna-rail Cannon"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "MATR Autocannon"
+                            }
                         },
                         {
                             "type": "dropdown",
