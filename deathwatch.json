@@ -1457,7 +1457,7 @@
             "models": [
                 {
                     "name": "Librarian in Phobos Armour",
-                    "points": 60,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -7088,7 +7088,7 @@
                     ]
                 },
                 {
-                    "name": "Desolation Marine Sergeant",
+                    "name": "Desolation Sergeant",
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -8341,28 +8341,32 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Long Vigil Melee Weapon"
+                                "name": "Boltgun, Long Vigil Melee Weapon"
                             },
                             "options": [
                                 {
-                                    "name": "Long Vigil Melee Weapon"
+                                    "name": "Long Vigil Ranged Weapon, Close Combat Weapon"
                                 },
                                 {
-                                    "name": "Xenophase Blade"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Boltgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Boltgun"
+                                    "name": "Astartes Shield, Boltgun, Close Combat Weapon"
                                 },
                                 {
-                                    "name": "Long Vigil Ranged Weapon"
+                                    "name": "Astartes Shield, Long Vigil Melee Weapon"
+                                },
+                                {
+                                    "name": "Astartes Shield, Xenophase Blade"
+                                },
+                                {
+                                    "name": "Deathwatch Thunder Hammer"
+                                },
+                                {
+                                    "name": "Frag Cannon, Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Infernus Heavy Bolter, Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Missile Launcher, Close Combat Weapon"
                                 }
                             ]
                         }
