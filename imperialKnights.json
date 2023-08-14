@@ -29,6 +29,12 @@
                     "points": 145,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "2x Armiger Autocannon"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": "Questoris Heavy Stubber"
@@ -57,6 +63,18 @@
                     "name": "Armiger Warglaive",
                     "points": 140,
                     "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Thermal Spear"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Reaper Chain-cleaver"
+                            }
+                        },
                         {
                             "type": "dropdown",
                             "selectedOption": {
@@ -92,6 +110,12 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Rapid-fire Battle Cannon"
+                            }
                         },
                         {
                             "type": "dropdown",
@@ -197,6 +221,12 @@
                             "selected": false
                         },
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Thermal Cannon"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": "Reaper Chainsword"
@@ -298,6 +328,18 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Thunderstrike Gauntlet"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Reaper Chainsword"
+                            }
                         },
                         {
                             "type": "dropdown",
@@ -492,6 +534,18 @@
                             "selected": false
                         },
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Avenger Gatling Cannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Heavy Flamer"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": "Thermal Cannon"
@@ -593,6 +647,12 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Las-impulsor"
+                            }
                         },
                         {
                             "type": "dropdown",
@@ -701,18 +761,36 @@
                             "selected": false
                         },
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Volcano Lance"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Plasma Decimator"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "2 Shieldbreaker Missle Launchers, Twin Siegebreaker Cannon"
+                                "name": "2x Shieldbreaker Missle Launchers, Twin Siegebreaker Cannon"
                             },
                             "options": [
                                 {
-                                    "name": "2 Shieldbreaker Missle Launchers, Twin Siegebreaker Cannon"
+                                    "name": "2x Shieldbreaker Missle Launchers, Twin Siegebreaker Cannon"
                                 },
                                 {
-                                    "name": "Shieldbreaker Missle Launcher, 2 Twin Siegebreaker Cannons"
+                                    "name": "Shieldbreaker Missle Launcher, 2x Twin Siegebreaker Cannons"
                                 }
                             ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "2x Twin Meltaguns"
+                            }
                         },
                         {
                             "type": "dropdown",
@@ -770,16 +848,28 @@
                             "selected": false
                         },
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Conflagration Cannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Thundercoil Harpoon"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "2 Shieldbreaker Missle Launchers, Twin Siegebreaker Cannon"
+                                "name": "2x Shieldbreaker Missle Launchers, Twin Siegebreaker Cannon"
                             },
                             "options": [
                                 {
-                                    "name": "2 Shieldbreaker Missle Launchers, Twin Siegebreaker Cannon"
+                                    "name": "2x Shieldbreaker Missle Launchers, Twin Siegebreaker Cannon"
                                 },
                                 {
-                                    "name": "Shieldbreaker Missle Launcher, 2 Twin Siegebreaker Cannons"
+                                    "name": "Shieldbreaker Missle Launcher, 2x Twin Siegebreaker Cannons"
                                 }
                             ]
                         },
@@ -851,7 +941,27 @@
             "models": [
                 {
                     "name": "Acastus Knight Asterius",
-                    "points": 840
+                    "points": 840,
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "2x Asterius Volkite Culverins"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "2x Twin Conversion Beam Cannons"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Karacnos Mortar Battery"
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -867,16 +977,22 @@
                     "points": 745,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "2x Twin Magna Lascannons"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Acastus Autocannon, Acastus Autocannon"
+                                "name": "2x Acastus Autocannon"
                             },
                             "options": [
                                 {
-                                    "name": "Acastus Autocannon, Acastus Autocannon"
+                                    "name": "2x Acastus Autocannon"
                                 },
                                 {
-                                    "name": "Lascannon, Lascannon"
+                                    "name": "2x Lascannon"
                                 },
                                 {
                                     "name": "Acastus Autocannon, Lascannon"
@@ -918,6 +1034,12 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Cerastus Shock Lance"
+                            }
                         },
                         {
                             "type": "dropdown",
@@ -975,6 +1097,18 @@
                             "selected": false
                         },
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Castigator Bolt Cannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Tempest Warblade"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "color": "green",
                             "detachmentId": "w40k.10e.ik.dt.lance",
@@ -1028,6 +1162,24 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Acheron Flame Cannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Heavy Bolter"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Reaper Chainfist"
+                            }
                         },
                         {
                             "type": "dropdown",
@@ -1085,6 +1237,18 @@
                             "selected": false
                         },
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Graviton Singularity Cannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Atrapos Lascutter"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "color": "green",
                             "detachmentId": "w40k.10e.ik.dt.lance",
@@ -1138,6 +1302,18 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Lightning Cannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Phased Plasma-fusil"
+                            }
                         },
                         {
                             "type": "dropdown",
@@ -1207,6 +1383,18 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Volkite Chierovile"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Graviton Crusher"
+                            }
                         },
                         {
                             "type": "dropdown",
