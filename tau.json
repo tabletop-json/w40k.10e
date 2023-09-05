@@ -1267,6 +1267,12 @@
                     "name": "Fire Warrior Shas'ui",
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Pulse Rifle"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": ""
@@ -3416,6 +3422,9 @@
                                 "name": "Swiftstrike Burst Cannon"
                             },
                             "options": [
+                                {
+                                    "name": "Swiftstrike Burst Cannon"
+                                },
                                 {
                                     "name": "Ion Cannon"
                                 },
