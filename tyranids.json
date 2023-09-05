@@ -1302,7 +1302,35 @@
             ],
             "blueprints": [
                 {
-                    "name": "Termagant"
+                    "name": "Termagant",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Fleshborer"
+                            },
+                            "options": [
+                                {
+                                    "name": "Fleshborer"
+                                },
+                                {
+                                    "name": "Termagant Devourer"
+                                },
+                                {
+                                    "name": "Termagant Spinefists"
+                                },
+                                {
+                                    "name": "Shardlauncher"
+                                },
+                                {
+                                    "name": "Spike Rifle"
+                                },
+                                {
+                                    "name": "Strangleweb"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -1937,11 +1965,18 @@
                     "name": "Ravener",
                     "gearset": [
                         {
-                            "type": "checkbox",
+                            "type": "dropdown",
                             "selectedOption": {
-                                "name": "Thoracic Bio-weapon"
+                                "name": "Armored Thorax"
                             },
-                            "selected": false
+                            "options": [
+                                {
+                                    "name": "Armored Thorax"
+                                },
+                                {
+                                    "name": "Thoracic Bio-weapon"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2660,194 +2695,11 @@
             "type": "unit",
             "rulesetId": "w40k.10e.nid",
             "name": "Neurolictor",
-            "role": "CHARACTER",
+            "role": "INFANTRY",
             "models": [
                 {
                     "name": "Neurolictor",
-                    "points": 60,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.nid.dt.invasionFleet",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Alien Cunning",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Perfectly Adapted",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Synaptic Linchpin",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Adaptive Biology",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.nid.dt.crusherStampede",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Ominous Presence",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Enraged Reserves",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Null Nodules",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Monstrous Nemesis",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.nid.dt.unendingSwarms",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Relentless Hunter",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Adrenalised Onslaught",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Naturalised Camoflauge",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Piercing Talons",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.nid.dt.assimilationSwarm",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Biophagic Flow",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Instinctive Defense",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Parasitic Biomorphology",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Regenerating Monstrosity",
-                                    "points": 20
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.nid.dt.vanguardOnslaught",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Chameleonic",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Stalker",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Neuronode",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Hunting Grounds",
-                                    "points": 20
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.nid.dt.synapticNexus",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Synaptic Control",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Power of the Hive Mind",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Psychostatic Disruption",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Dirgeheart of Kharis",
-                                    "points": 15
-                                }
-                            ]
-                        }
-                    ]
+                    "points": 60
                 }
             ]
         },
