@@ -34,16 +34,6 @@
                     "name": "Custodian Guard",
                     "amount": 5,
                     "cost": 225
-                },
-                {
-                    "name": "Custodian Guard",
-                    "amount": 9,
-                    "cost": 405
-                },
-                {
-                    "name": "Custodian Guard",
-                    "amount": 10,
-                    "cost": 450
                 }
             ],
             "restrictions": [
@@ -51,7 +41,7 @@
                     "type": "model",
                     "name": "Custodian Guard",
                     "min": 4,
-                    "max": 10
+                    "max": 5
                 }
             ],
             "blueprints": [
@@ -91,12 +81,12 @@
             "points": [
                 {
                     "name": "Custodian Warden",
-                    "amount": 6,
+                    "amount": 5,
                     "cost": 300
                 },
                 {
                     "name": "Custodian Warden",
-                    "amount": 3,
+                    "amount": 4,
                     "cost": 150
                 }
             ],
@@ -104,8 +94,8 @@
                 {
                     "type": "model",
                     "name": "Custodian Warden",
-                    "min": 3,
-                    "max": 6
+                    "min": 4,
+                    "max": 5
                 }
             ],
             "blueprints": [
@@ -207,16 +197,6 @@
             "points": [
                 {
                     "name": "Vertus Praetor",
-                    "amount": 6,
-                    "cost": 540
-                },
-                {
-                    "name": "Vertus Praetor",
-                    "amount": 5,
-                    "cost": 450
-                },
-                {
-                    "name": "Vertus Praetor",
                     "amount": 3,
                     "cost": 270
                 },
@@ -231,7 +211,7 @@
                     "type": "model",
                     "name": "Vertus Praetor",
                     "min": 2,
-                    "max": 6
+                    "max": 3
                 }
             ],
             "blueprints": [

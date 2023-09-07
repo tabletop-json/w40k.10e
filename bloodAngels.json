@@ -7046,11 +7046,6 @@
             "points": [
                 {
                     "name": "Desolation Marine, Desolation Sergeant",
-                    "amount": 10,
-                    "cost": 340
-                },
-                {
-                    "name": "Desolation Marine, Desolation Sergeant",
                     "amount": 5,
                     "cost": 170
                 }
@@ -7060,7 +7055,7 @@
                     "type": "model",
                     "name": "Desolation Marine",
                     "min": 4,
-                    "max": 9
+                    "max": 4
                 },
                 {
                     "type": "model",

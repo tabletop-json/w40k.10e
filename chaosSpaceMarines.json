@@ -31,7 +31,7 @@
             "models": [
                 {
                     "name": "Abaddon the Despoiler",
-                    "points": 280,
+                    "points": 310,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -53,7 +53,7 @@
             "models": [
                 {
                     "name": "Haarken Worldclaimer",
-                    "points": 120,
+                    "points": 90,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -281,7 +281,7 @@
             "models": [
                 {
                     "name": "Fabius Bile",
-                    "points": 100,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -325,7 +325,7 @@
             "models": [
                 {
                     "name": "Master of Possession",
-                    "points": 70,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -543,7 +543,7 @@
             "models": [
                 {
                     "name": "Chaos Lord in Terminator Armour",
-                    "points": 100,
+                    "points": 95,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -879,7 +879,7 @@
             "models": [
                 {
                     "name": "Lord Discordant on Helstalker",
-                    "points": 220,
+                    "points": 190,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1203,7 +1203,7 @@
             "models": [
                 {
                     "name": "Dark Apostle",
-                    "points": 85,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1388,12 +1388,12 @@
                 {
                     "name": "Legionary, Aspiring Champion",
                     "amount": 10,
-                    "cost": 200
+                    "cost": 180
                 },
                 {
                     "name": "Legionary, Aspiring Champion",
                     "amount": 5,
-                    "cost": 100
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -1997,12 +1997,12 @@
                 {
                     "name": "Possessed, Possessed Champion",
                     "amount": 10,
-                    "cost": 290
+                    "cost": 280
                 },
                 {
                     "name": "Possessed, Possessed Champion",
                     "amount": 5,
-                    "cost": 145
+                    "cost": 140
                 }
             ],
             "restrictions": [
@@ -2081,12 +2081,12 @@
                 {
                     "name": "Chosen, Chosen Champion",
                     "amount": 10,
-                    "cost": 230
+                    "cost": 220
                 },
                 {
                     "name": "Chosen, Chosen Champion",
                     "amount": 5,
-                    "cost": 115
+                    "cost": 110
                 }
             ],
             "restrictions": [
@@ -2373,7 +2373,7 @@
             "models": [
                 {
                     "name": "Venomcrawler",
-                    "points": 140,
+                    "points": 120,
                     "gearset": [
                         {
                             "type": "text",
@@ -2426,12 +2426,12 @@
                 {
                     "name": "Chaos Biker, Biker Champion",
                     "amount": 6,
-                    "cost": 190
+                    "cost": 170
                 },
                 {
                     "name": "Chaos Biker, Biker Champion",
                     "amount": 3,
-                    "cost": 95
+                    "cost": 85
                 }
             ],
             "restrictions": [
@@ -2576,12 +2576,12 @@
                 {
                     "name": "Raptor, Raptor Champion",
                     "amount": 10,
-                    "cost": 190
+                    "cost": 180
                 },
                 {
                     "name": "Raptor, Raptor Champion",
                     "amount": 5,
-                    "cost": 95
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -2700,12 +2700,12 @@
                 {
                     "name": "Warp Talon, Warp Talon Champion",
                     "amount": 10,
-                    "cost": 260
+                    "cost": 200
                 },
                 {
                     "name": "Warp Talon, Warp Talon Champion",
                     "amount": 5,
-                    "cost": 130
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -2916,12 +2916,12 @@
                 {
                     "name": "Obliterator",
                     "amount": 4,
-                    "cost": 320
+                    "cost": 340
                 },
                 {
                     "name": "Obliterator",
                     "amount": 2,
-                    "cost": 160
+                    "cost": 170
                 }
             ],
             "restrictions": [
@@ -2986,7 +2986,7 @@
             "models": [
                 {
                     "name": "Land Raider",
-                    "points": 255,
+                    "points": 240,
                     "gearset": [
                         {
                             "type": "text",
@@ -3237,7 +3237,7 @@
             "models": [
                 {
                     "name": "Vindicator",
-                    "points": 210,
+                    "points": 190,
                     "gearset": [
                         {
                             "type": "text",
@@ -3307,7 +3307,7 @@
             "models": [
                 {
                     "name": "Defiler",
-                    "points": 210,
+                    "points": 190,
                     "gearset": [
                         {
                             "type": "text",
@@ -3410,7 +3410,7 @@
             "models": [
                 {
                     "name": "Forgefiend",
-                    "points": 165,
+                    "points": 180,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -3478,7 +3478,7 @@
             "models": [
                 {
                     "name": "Helbrute",
-                    "points": 155,
+                    "points": 140,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -3690,7 +3690,7 @@
             "models": [
                 {
                     "name": "Rhino",
-                    "points": 85,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -3755,7 +3755,7 @@
                 {
                     "name": "Chaos Spawn",
                     "amount": 2,
-                    "cost": 80
+                    "cost": 70
                 }
             ],
             "models": [
@@ -3891,7 +3891,7 @@
             "models": [
                 {
                     "name": "Vashtorr the Arkifane",
-                    "points": 225,
+                    "points": 190,
                     "gearset": [
                         {
                             "type": "checkbox",
