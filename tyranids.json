@@ -1376,12 +1376,12 @@
                 {
                     "name": "Gargoyle",
                     "amount": 20,
-                    "cost": 140
+                    "cost": 150
                 },
                 {
                     "name": "Gargoyle",
                     "amount": 10,
-                    "cost": 70
+                    "cost": 75
                 }
             ],
             "restrictions": [
@@ -1421,12 +1421,12 @@
                 {
                     "name": "Tyrant Guard",
                     "amount": 6,
-                    "cost": 150
+                    "cost": 190
                 },
                 {
                     "name": "Tyrant Guard",
                     "amount": 3,
-                    "cost": 75
+                    "cost": 95
                 }
             ],
             "restrictions": [
@@ -1471,7 +1471,7 @@
             "models": [
                 {
                     "name": "Neurotyrant",
-                    "points": 95,
+                    "points": 105,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1752,7 +1752,7 @@
             "models": [
                 {
                     "name": "Haruspex",
-                    "points": 120
+                    "points": 125
                 }
             ]
         },
@@ -1798,12 +1798,12 @@
                 {
                     "name": "Von Ryan's Leaper",
                     "amount": 6,
-                    "cost": 140
+                    "cost": 150
                 },
                 {
                     "name": "Von Ryan's Leaper",
                     "amount": 3,
-                    "cost": 70
+                    "cost": 75
                 }
             ],
             "restrictions": [
@@ -2233,7 +2233,7 @@
             "models": [
                 {
                     "name": "Mawloc",
-                    "points": 135
+                    "points": 145
                 }
             ]
         },
@@ -2323,7 +2323,7 @@
             "models": [
                 {
                     "name": "Exocrine",
-                    "points": 125
+                    "points": 135
                 }
             ]
         },
@@ -2560,7 +2560,7 @@
             "models": [
                 {
                     "name": "Tyrannocyte",
-                    "points": 95
+                    "points": 105
                 }
             ]
         },
@@ -2573,7 +2573,7 @@
             "models": [
                 {
                     "name": "Hive Crone",
-                    "points": 195
+                    "points": 200
                 }
             ]
         },
