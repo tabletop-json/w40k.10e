@@ -27,7 +27,7 @@
             "models": [
                 {
                     "name": "Uthar the Destined",
-                    "points": 115,
+                    "points": 90,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -49,7 +49,7 @@
             "models": [
                 {
                     "name": "Kahl",
-                    "points": 90,
+                    "points": 70,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -142,7 +142,7 @@
             "models": [
                 {
                     "name": "Einhyr Champion",
-                    "points": 75,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -221,7 +221,7 @@
             "models": [
                 {
                     "name": "Grimnyr",
-                    "points": 75,
+                    "points": 65,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -272,7 +272,7 @@
             "models": [
                 {
                     "name": "Brokhyr Iron-master",
-                    "points": 75,
+                    "points": 65,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -324,7 +324,7 @@
                 {
                     "name": "Hearthkyn Warrior, Theyn",
                     "amount": 10,
-                    "cost": 135
+                    "cost": 110
                 }
             ],
             "restrictions": [
@@ -463,12 +463,12 @@
                 {
                     "name": "Hearthguard, Hesyr",
                     "amount": 10,
-                    "cost": 330
+                    "cost": 300
                 },
                 {
                     "name": "Hearthguard, Hesyr",
                     "amount": 5,
-                    "cost": 165
+                    "cost": 150
                 }
             ],
             "restrictions": [
@@ -581,12 +581,12 @@
                 {
                     "name": "Cthonian Beserk",
                     "amount": 10,
-                    "cost": 270
+                    "cost": 200
                 },
                 {
                     "name": "Cthonian Beserk",
                     "amount": 5,
-                    "cost": 135
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -635,12 +635,12 @@
                 {
                     "name": "Hernkyn Pioneer",
                     "amount": 6,
-                    "cost": 210
+                    "cost": 180
                 },
                 {
                     "name": "Hernkyn Pioneer",
                     "amount": 3,
-                    "cost": 105
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -706,7 +706,7 @@
             "models": [
                 {
                     "name": "Sagitaur",
-                    "points": 120,
+                    "points": 100,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -745,12 +745,12 @@
                 {
                     "name": "Brokhyr Thunderkyn",
                     "amount": 6,
-                    "cost": 190
+                    "cost": 150
                 },
                 {
                     "name": "Brokhyr Thunderkyn",
                     "amount": 3,
-                    "cost": 95
+                    "cost": 75
                 }
             ],
             "restrictions": [
@@ -795,7 +795,7 @@
             "models": [
                 {
                     "name": "Hekaton Land Fortress",
-                    "points": 245,
+                    "points": 225,
                     "gearset": [
                         {
                             "type": "dropdown",

@@ -56,7 +56,7 @@
             "models": [
                 {
                     "name": "Callidus Assassin",
-                    "points": 115
+                    "points": 90
                 }
             ]
         },
@@ -107,12 +107,12 @@
                 {
                     "name": "Canid, Voidsman, Voidmaster",
                     "amount": 10,
-                    "cost": 80
+                    "cost": 100
                 },
                 {
                     "name": "Voidsman, Voidmaster",
                     "amount": 5,
-                    "cost": 40
+                    "cost": 50
                 }
             ],
             "restrictions": [
@@ -309,24 +309,19 @@
                 {
                     "name": "Cyber-Mastiff, Exaction Vigilant, Proctor-Exactant",
                     "amount": 11,
-                    "cost": 75
+                    "cost": 110
                 },
                 {
                     "name": "Cyber-Mastiff, Exaction Vigilant, Proctor-Exactant",
                     "amount": 10,
-                    "cost": 75
-                },
-                {
-                    "name": "Exaction Vigilant, Proctor-Exactant",
-                    "amount": 5,
-                    "cost": 35
+                    "cost": 110
                 }
             ],
             "restrictions": [
                 {
                     "type": "model",
                     "name": "Exaction Vigilant",
-                    "min": 4,
+                    "min": 9,
                     "max": 9
                 },
                 {

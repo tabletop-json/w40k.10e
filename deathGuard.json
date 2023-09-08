@@ -31,7 +31,7 @@
             "models": [
                 {
                     "name": "Daemon Prince",
-                    "points": 170,
+                    "points": 160,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -94,7 +94,7 @@
             "models": [
                 {
                     "name": "Daemon Prince with Wings",
-                    "points": 215,
+                    "points": 195,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -157,7 +157,7 @@
             "models": [
                 {
                     "name": "Typhus",
-                    "points": 115,
+                    "points": 100,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -179,7 +179,7 @@
             "models": [
                 {
                     "name": "Chaos Lord",
-                    "points": 75,
+                    "points": 65,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -286,7 +286,7 @@
             "models": [
                 {
                     "name": "Chaos Lord in Terminator Armour",
-                    "points": 100,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -378,7 +378,7 @@
             "models": [
                 {
                     "name": "Lord of Virulence",
-                    "points": 115,
+                    "points": 100,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -429,7 +429,7 @@
             "models": [
                 {
                     "name": "Lord of Contagion",
-                    "points": 100,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -480,7 +480,7 @@
             "models": [
                 {
                     "name": "Sorcerer in Terminator Armour",
-                    "points": 80,
+                    "points": 70,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -571,7 +571,7 @@
             "models": [
                 {
                     "name": "Malignant Plaguecaster",
-                    "points": 75,
+                    "points": 65,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -623,17 +623,17 @@
                 {
                     "name": "Plague Marine, Plague Champion",
                     "amount": 10,
-                    "cost": 200
+                    "cost": 160
                 },
                 {
                     "name": "Plague Marine, Plague Champion",
                     "amount": 7,
-                    "cost": 140
+                    "cost": 110
                 },
                 {
                     "name": "Plague Marine, Plague Champion",
                     "amount": 5,
-                    "cost": 100
+                    "cost": 80
                 }
             ],
             "restrictions": [
@@ -748,12 +748,12 @@
                 {
                     "name": "Cultist, Cultist Champion",
                     "amount": 20,
-                    "cost": 110
+                    "cost": 100
                 },
                 {
                     "name": "Cultist, Cultist Champion",
                     "amount": 10,
-                    "cost": 55
+                    "cost": 50
                 }
             ],
             "restrictions": [
@@ -819,12 +819,12 @@
                 {
                     "name": "Poxwalker",
                     "amount": 20,
-                    "cost": 120
+                    "cost": 100
                 },
                 {
                     "name": "Poxwalker",
                     "amount": 10,
-                    "cost": 60
+                    "cost": 50
                 }
             ],
             "restrictions": [
@@ -850,7 +850,7 @@
             "models": [
                 {
                     "name": "Noxious Blightbringer",
-                    "points": 60,
+                    "points": 50,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -901,7 +901,7 @@
             "models": [
                 {
                     "name": "Foul Blightspawn",
-                    "points": 55,
+                    "points": 50,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -952,7 +952,7 @@
             "models": [
                 {
                     "name": "Biologus Putrifier",
-                    "points": 60,
+                    "points": 50,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1003,7 +1003,7 @@
             "models": [
                 {
                     "name": "Tallyman",
-                    "points": 55,
+                    "points": 45,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1106,12 +1106,12 @@
                 {
                     "name": "Blightlord Terminator, Blightlord Champion",
                     "amount": 10,
-                    "cost": 350
+                    "cost": 330
                 },
                 {
                     "name": "Blightlord Terminator, Blightlord Champion",
                     "amount": 5,
-                    "cost": 175
+                    "cost": 165
                 }
             ],
             "restrictions": [
@@ -1197,12 +1197,12 @@
                 {
                     "name": "Deathshroud Terminator, Deathshroud Champion",
                     "amount": 6,
-                    "cost": 280
+                    "cost": 250
                 },
                 {
                     "name": "Deathshroud Terminator, Deathshroud Champion",
                     "amount": 3,
-                    "cost": 140
+                    "cost": 125
                 }
             ],
             "restrictions": [
@@ -1260,7 +1260,7 @@
             "models": [
                 {
                     "name": "Helbrute",
-                    "points": 155,
+                    "points": 140,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1328,7 +1328,7 @@
                 {
                     "name": "Chaos Spawn",
                     "amount": 2,
-                    "cost": 75
+                    "cost": 70
                 }
             ],
             "models": [
@@ -1350,17 +1350,17 @@
                 {
                     "name": "Myphitic Blight-hauler",
                     "amount": 3,
-                    "cost": 345
+                    "cost": 300
                 },
                 {
                     "name": "Myphitic Blight-hauler",
                     "amount": 2,
-                    "cost": 230
+                    "cost": 200
                 },
                 {
                     "name": "Myphitic Blight-hauler",
                     "amount": 1,
-                    "cost": 115
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -1386,7 +1386,7 @@
             "models": [
                 {
                     "name": "Foetid Bloat Drone",
-                    "points": 135,
+                    "points": 100,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1418,7 +1418,7 @@
             "models": [
                 {
                     "name": "Plagueburst Crawler",
-                    "points": 175,
+                    "points": 165,
                     "gearset": [
                         {
                             "type": "text",
@@ -1467,7 +1467,7 @@
             "models": [
                 {
                     "name": "Land Raider",
-                    "points": 250,
+                    "points": 240,
                     "gearset": [
                         {
                             "type": "text",
@@ -1581,7 +1581,7 @@
             "models": [
                 {
                     "name": "Predator Destructor",
-                    "points": 140,
+                    "points": 130,
                     "gearset": [
                         {
                             "type": "text",
@@ -1643,7 +1643,7 @@
             "models": [
                 {
                     "name": "Rhino",
-                    "points": 80,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1674,6 +1674,84 @@
             ]
         },
         {
+            "id": "w40k.10e.dg.unit.defiler",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Defiler",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Defiler",
+                    "points": 190,
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Defiler Cannon"
+                            }
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Heavy Flamer"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Heavy Flamer"
+                                },
+                                {
+                                    "name": "Havoc Launcher"
+                                },
+                                {
+                                    "name": "Defiler Scourge"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Reaper Autocannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Reaper Autocannon"
+                                },
+                                {
+                                    "name": "Twin Plague Heavy Bolter"
+                                },
+                                {
+                                    "name": "Twin Lascannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Plague Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Defiler Claws"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "w40k.10e.dg.unit.mortarion",
             "type": "unit",
             "rulesetId": "w40k.10e.dg",
@@ -1682,7 +1760,7 @@
             "models": [
                 {
                     "name": "Mortarion",
-                    "points": 370,
+                    "points": 325,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1704,7 +1782,7 @@
             "models": [
                 {
                     "name": "Icon Bearer",
-                    "points": 55,
+                    "points": 45,
                     "gearset": [
                         {
                             "type": "checkbox",

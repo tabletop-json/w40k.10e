@@ -26,7 +26,7 @@
             "models": [
                 {
                     "name": "Commander Shadowsun",
-                    "points": 140,
+                    "points": 100,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -48,7 +48,7 @@
             "models": [
                 {
                     "name": "Commander Farsight",
-                    "points": 120,
+                    "points": 90,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -70,7 +70,7 @@
             "models": [
                 {
                     "name": "Commander in Crisis Battlesuit",
-                    "points": 110,
+                    "points": 90,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -322,7 +322,7 @@
             "models": [
                 {
                     "name": "Commander in Enforcer Battlesuit",
-                    "points": 135,
+                    "points": 100,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -574,7 +574,7 @@
             "models": [
                 {
                     "name": "Commander in Coldstar Battlesuit",
-                    "points": 125,
+                    "points": 110,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -829,7 +829,7 @@
             "models": [
                 {
                     "name": "Cadre Fireblade",
-                    "points": 50,
+                    "points": 40,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -920,7 +920,7 @@
             "models": [
                 {
                     "name": "Kroot Shaper",
-                    "points": 50,
+                    "points": 40,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1111,7 +1111,7 @@
             "models": [
                 {
                     "name": "Aun'shi",
-                    "points": 60,
+                    "points": 50,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1133,7 +1133,7 @@
             "models": [
                 {
                     "name": "Darkstrider",
-                    "points": 75,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1155,7 +1155,7 @@
             "models": [
                 {
                     "name": "Longstrike",
-                    "points": 170,
+                    "points": 140,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1226,7 +1226,7 @@
                 {
                     "name": "Fire Warrior, Fire Warrior Shas'ui",
                     "amount": 10,
-                    "cost": 100
+                    "cost": 80
                 }
             ],
             "restrictions": [
@@ -1329,7 +1329,7 @@
                 {
                     "name": "Breacher Fire Warrior, Breacher Fire Warrior Shas'ui",
                     "amount": 10,
-                    "cost": 115
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -1410,12 +1410,12 @@
                 {
                     "name": "Kroot Carnivore",
                     "amount": 20,
-                    "cost": 150
+                    "cost": 110
                 },
                 {
                     "name": "Kroot Carnivore",
                     "amount": 10,
-                    "cost": 75
+                    "cost": 55
                 }
             ],
             "restrictions": [
@@ -1479,12 +1479,12 @@
                 {
                     "name": "Crisis Shas'ui, Crisis Shas'vre",
                     "amount": 6,
-                    "cost": 390
+                    "cost": 360
                 },
                 {
                     "name": "Crisis Shas'ui, Crisis Shas'vre",
                     "amount": 3,
-                    "cost": 195
+                    "cost": 180
                 }
             ],
             "restrictions": [
@@ -1926,12 +1926,12 @@
                 {
                     "name": "Stealth Shas'ui, Stealth Shas'vre",
                     "amount": 6,
-                    "cost": 150
+                    "cost": 120
                 },
                 {
                     "name": "Stealth Shas'ui, Stealth Shas'vre",
                     "amount": 3,
-                    "cost": 75
+                    "cost": 60
                 }
             ],
             "restrictions": [
@@ -2052,7 +2052,7 @@
             "models": [
                 {
                     "name": "Ghostkeel Battlesuit",
-                    "points": 170,
+                    "points": 160,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2157,7 +2157,7 @@
                 {
                     "name": "Pathfinder, Pathfinder Shas'ui",
                     "amount": 10,
-                    "cost": 120
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -2469,17 +2469,17 @@
                 {
                     "name": "Broadside Shas'ui, Broadside Shas'vre",
                     "amount": 3,
-                    "cost": 330
+                    "cost": 270
                 },
                 {
                     "name": "Broadside Shas'ui, Broadside Shas'vre",
                     "amount": 2,
-                    "cost": 220
+                    "cost": 180
                 },
                 {
                     "name": "Broadside Shas'vre",
                     "amount": 1,
-                    "cost": 110
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -2742,7 +2742,7 @@
             "models": [
                 {
                     "name": "Riptide Battlesuit",
-                    "points": 235,
+                    "points": 180,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2805,7 +2805,7 @@
             "models": [
                 {
                     "name": "Hammerhead Gunship",
-                    "points": 145,
+                    "points": 130,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2868,7 +2868,7 @@
             "models": [
                 {
                     "name": "Sky Ray Gunship",
-                    "points": 160,
+                    "points": 130,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2900,7 +2900,7 @@
             "models": [
                 {
                     "name": "Devilfish",
-                    "points": 95,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -3053,7 +3053,7 @@
             "models": [
                 {
                     "name": "Stormsurge",
-                    "points": 465,
+                    "points": 400,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -3137,7 +3137,7 @@
                 {
                     "name": "Kroot Farstalker, Kroot Kill-Broker, Kroot Hound",
                     "amount": 12,
-                    "cost": 105
+                    "cost": 70
                 }
             ],
             "restrictions": [
@@ -3222,7 +3222,7 @@
             "models": [
                 {
                     "name": "R'varna Battlesuit",
-                    "points": 235,
+                    "points": 200,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -3254,7 +3254,7 @@
             "models": [
                 {
                     "name": "Y'vahra Battlesuit",
-                    "points": 235,
+                    "points": 210,
                     "gearset": [
                         {
                             "type": "dropdown",

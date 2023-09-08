@@ -27,7 +27,7 @@
             "models": [
                 {
                     "name": "Archon",
-                    "points": 85,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -92,7 +92,7 @@
             "models": [
                 {
                     "name": "Beastmaster",
-                    "points": 120,
+                    "points": 105,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -162,7 +162,7 @@
                 {
                     "name": "Lhamaean, Medusae, Sslyth, Ur-ghul",
                     "amount": 4,
-                    "cost": 95
+                    "cost": 85
                 }
             ],
             "models": [
@@ -230,7 +230,7 @@
             "models": [
                 {
                     "name": "Drazhar",
-                    "points": 105,
+                    "points": 90,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -293,7 +293,7 @@
             "models": [
                 {
                     "name": "Haemonculus",
-                    "points": 75,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -345,12 +345,12 @@
                 {
                     "name": "Hellion, Helliarch",
                     "amount": 10,
-                    "cost": 220
+                    "cost": 200
                 },
                 {
                     "name": "Hellion, Helliarch",
                     "amount": 5,
-                    "cost": 110
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -417,12 +417,12 @@
                 {
                     "name": "Incubi, Klaivex",
                     "amount": 10,
-                    "cost": 170
+                    "cost": 160
                 },
                 {
                     "name": "Incubi, Klaivex",
                     "amount": 5,
-                    "cost": 85
+                    "cost": 80
                 }
             ],
             "restrictions": [
@@ -482,7 +482,7 @@
                 {
                     "name": "Kabalite Warrior, Sybarite",
                     "amount": 10,
-                    "cost": 120
+                    "cost": 110
                 }
             ],
             "restrictions": [
@@ -588,7 +588,7 @@
             "models": [
                 {
                     "name": "Lelith Hesperax",
-                    "points": 105,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -611,12 +611,12 @@
                 {
                     "name": "Mandrake, Nightfiend",
                     "amount": 10,
-                    "cost": 140
+                    "cost": 130
                 },
                 {
                     "name": "Mandrake, Nightfiend",
                     "amount": 5,
-                    "cost": 70
+                    "cost": 65
                 }
             ],
             "restrictions": [
@@ -680,7 +680,7 @@
             "models": [
                 {
                     "name": "Ravager",
-                    "points": 95,
+                    "points": 115,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -787,12 +787,12 @@
                 {
                     "name": "Reaver, Arena Champion",
                     "amount": 6,
-                    "cost": 150
+                    "cost": 140
                 },
                 {
                     "name": "Reaver, Arena Champion",
                     "amount": 3,
-                    "cost": 75
+                    "cost": 70
                 }
             ],
             "restrictions": [
@@ -907,12 +907,12 @@
                 {
                     "name": "Scourge, Solarite",
                     "amount": 10,
-                    "cost": 200
+                    "cost": 220
                 },
                 {
                     "name": "Scourge, Solarite",
                     "amount": 5,
-                    "cost": 120
+                    "cost": 110
                 }
             ],
             "restrictions": [
@@ -1004,7 +1004,7 @@
             "models": [
                 {
                     "name": "Succubus",
-                    "points": 70,
+                    "points": 55,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1160,7 +1160,7 @@
             "models": [
                 {
                     "name": "Urien Rakarth",
-                    "points": 105,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1248,12 +1248,12 @@
                 {
                     "name": "Wrack, Acothyst",
                     "amount": 10,
-                    "cost": 130
+                    "cost": 120
                 },
                 {
                     "name": "Wrack, Acothyst",
                     "amount": 5,
-                    "cost": 65
+                    "cost": 60
                 }
             ],
             "restrictions": [
@@ -1339,7 +1339,7 @@
                 {
                     "name": "Wych, Hekatrix",
                     "amount": 10,
-                    "cost": 110
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -1722,7 +1722,7 @@
             "models": [
                 {
                     "name": "Death Jester",
-                    "points": 70
+                    "points": 90
                 }
             ]
         },
@@ -2002,7 +2002,7 @@
             "models": [
                 {
                     "name": "Voidweaver",
-                    "points": 100,
+                    "points": 125,
                     "gearset": [
                         {
                             "type": "dropdown",

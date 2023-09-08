@@ -27,7 +27,7 @@
             "models": [
                 {
                     "name": "Morvenn Vahl",
-                    "points": 135,
+                    "points": 125,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -49,7 +49,7 @@
             "models": [
                 {
                     "name": "Canoness",
-                    "points": 60,
+                    "points": 50,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -161,7 +161,7 @@
             "models": [
                 {
                     "name": "Palatine",
-                    "points": 55,
+                    "points": 50,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -226,7 +226,7 @@
             "models": [
                 {
                     "name": "Junith Eruita",
-                    "points": 100,
+                    "points": 90,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -248,7 +248,7 @@
             "models": [
                 {
                     "name": "Missionary",
-                    "points": 35,
+                    "points": 30,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -317,7 +317,7 @@
                 {
                     "name": "Saint Celestine, Geminae Superior",
                     "amount": 3,
-                    "cost": 150
+                    "cost": 135
                 }
             ],
             "models": [
@@ -350,7 +350,7 @@
             "models": [
                 {
                     "name": "Triumph of Saint Katherine",
-                    "points": 150,
+                    "points": 125,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -413,7 +413,7 @@
                 {
                     "name": "Battle Sister, Sister Superior",
                     "amount": 10,
-                    "cost": 110
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -534,7 +534,7 @@
                 {
                     "name": "Sisters Novitiate, Novitiate Superior",
                     "amount": 10,
-                    "cost": 90
+                    "cost": 85
                 }
             ],
             "restrictions": [
@@ -614,7 +614,7 @@
                 {
                     "name": "Aestred Thurga, Agathae Dolan",
                     "amount": 2,
-                    "cost": 70
+                    "cost": 55
                 }
             ],
             "models": [
@@ -653,7 +653,7 @@
             "models": [
                 {
                     "name": "Imagifier",
-                    "points": 40,
+                    "points": 35,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -704,7 +704,7 @@
             "models": [
                 {
                     "name": "Dialogus",
-                    "points": 35,
+                    "points": 30,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -755,7 +755,7 @@
             "models": [
                 {
                     "name": "Preacher",
-                    "points": 45,
+                    "points": 40,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -922,7 +922,7 @@
             "models": [
                 {
                     "name": "Hospitaler",
-                    "points": 40,
+                    "points": 35,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -973,7 +973,7 @@
             "models": [
                 {
                     "name": "Dogmata",
-                    "points": 50,
+                    "points": 45,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1025,7 +1025,7 @@
                 {
                     "name": "Paragon, Paragon Superior",
                     "amount": 3,
-                    "cost": 240
+                    "cost": 200
                 }
             ],
             "restrictions": [
@@ -1155,12 +1155,12 @@
                 {
                     "name": "Sister Repentia, Repentia Superior",
                     "amount": 10,
-                    "cost": 150
+                    "cost": 130
                 },
                 {
                     "name": "Sister Repentia, Repentia Superior",
                     "amount": 5,
-                    "cost": 75
+                    "cost": 65
                 }
             ],
             "restrictions": [
@@ -1196,17 +1196,17 @@
                 {
                     "name": "Crusader",
                     "amount": 6,
-                    "cost": 60
+                    "cost": 75
                 },
                 {
                     "name": "Crusader",
                     "amount": 4,
-                    "cost": 40
+                    "cost": 50
                 },
                 {
                     "name": "Crusader",
                     "amount": 2,
-                    "cost": 20
+                    "cost": 25
                 }
             ],
             "restrictions": [
@@ -1270,7 +1270,7 @@
                 {
                     "name": "Dominion, Dominion Superior",
                     "amount": 10,
-                    "cost": 130
+                    "cost": 120
                 }
             ],
             "restrictions": [
@@ -1551,7 +1551,7 @@
                 {
                     "name": "Retributor, Retributor Superior",
                     "amount": 5,
-                    "cost": 130
+                    "cost": 115
                 }
             ],
             "restrictions": [
@@ -1779,7 +1779,7 @@
             "models": [
                 {
                     "name": "Exorcist",
-                    "points": 140,
+                    "points": 160,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1815,7 +1815,7 @@
             "models": [
                 {
                     "name": "Castigator",
-                    "points": 150,
+                    "points": 140,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1858,7 +1858,7 @@
             "models": [
                 {
                     "name": "Sororitas Rhino",
-                    "points": 80,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1880,7 +1880,7 @@
             "models": [
                 {
                     "name": "Immolator",
-                    "points": 130,
+                    "points": 115,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1920,12 +1920,12 @@
                 {
                     "name": "Arco-Flagellant",
                     "amount": 10,
-                    "cost": 150
+                    "cost": 130
                 },
                 {
                     "name": "Arco-Flagellant",
                     "amount": 3,
-                    "cost": 45
+                    "cost": 40
                 }
             ],
             "restrictions": [

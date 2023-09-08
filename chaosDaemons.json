@@ -30,7 +30,7 @@
             "models": [
                 {
                     "name": "Skarbrand",
-                    "points": 365,
+                    "points": 345,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -52,7 +52,7 @@
             "models": [
                 {
                     "name": "Bloodthirster",
-                    "points": 300,
+                    "points": 320,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -123,7 +123,7 @@
             "models": [
                 {
                     "name": "Bloodmaster",
-                    "points": 85,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -219,7 +219,7 @@
             "models": [
                 {
                     "name": "Karanak",
-                    "points": 85,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -242,7 +242,7 @@
                 {
                     "name": "Bloodletter, Bloodreaper",
                     "amount": 10,
-                    "cost": 160
+                    "cost": 140
                 }
             ],
             "restrictions": [
@@ -391,7 +391,7 @@
             "models": [
                 {
                     "name": "Skull Cannon",
-                    "points": 115
+                    "points": 105
                 }
             ]
         },
@@ -439,7 +439,7 @@
             "models": [
                 {
                     "name": "Lord of Change",
-                    "points": 230,
+                    "points": 260,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -488,7 +488,7 @@
             "models": [
                 {
                     "name": "The Changeling",
-                    "points": 75,
+                    "points": 90,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -699,12 +699,12 @@
                 {
                     "name": "Flamer, Pyrocaster",
                     "amount": 6,
-                    "cost": 130
+                    "cost": 160
                 },
                 {
                     "name": "Flamer, Pyrocaster",
                     "amount": 3,
-                    "cost": 65
+                    "cost": 80
                 }
             ],
             "restrictions": [
@@ -753,12 +753,12 @@
                 {
                     "name": "Screamer",
                     "amount": 6,
-                    "cost": 180
+                    "cost": 160
                 },
                 {
                     "name": "Screamer",
                     "amount": 3,
-                    "cost": 90
+                    "cost": 80
                 }
             ],
             "restrictions": [
@@ -784,7 +784,7 @@
             "models": [
                 {
                     "name": "Burning Chariot",
-                    "points": 135
+                    "points": 115
                 }
             ]
         },
@@ -797,7 +797,7 @@
             "models": [
                 {
                     "name": "Rotigus",
-                    "points": 285,
+                    "points": 260,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -819,7 +819,7 @@
             "models": [
                 {
                     "name": "Great Unclean One",
-                    "points": 280,
+                    "points": 250,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -879,7 +879,7 @@
             "models": [
                 {
                     "name": "Poxbringer",
-                    "points": 75,
+                    "points": 65,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1020,7 +1020,7 @@
                 {
                     "name": "Plaguebearer, Plagueridden",
                     "amount": 10,
-                    "cost": 145
+                    "cost": 125
                 }
             ],
             "restrictions": [
@@ -1072,17 +1072,17 @@
                 {
                     "name": "Nurgling Swarm",
                     "amount": 9,
-                    "cost": 120
+                    "cost": 105
                 },
                 {
                     "name": "Nurgling Swarm",
                     "amount": 6,
-                    "cost": 80
+                    "cost": 70
                 },
                 {
                     "name": "Nurgling Swarm",
                     "amount": 3,
-                    "cost": 40
+                    "cost": 35
                 }
             ],
             "restrictions": [
@@ -1109,12 +1109,12 @@
                 {
                     "name": "Beast of Nurgle",
                     "amount": 2,
-                    "cost": 150
+                    "cost": 140
                 },
                 {
                     "name": "Beast of Nurgle",
                     "amount": 1,
-                    "cost": 75
+                    "cost": 70
                 }
             ],
             "restrictions": [
@@ -1210,7 +1210,7 @@
             "models": [
                 {
                     "name": "Shalaxi Helbane",
-                    "points": 400,
+                    "points": 450,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1338,7 +1338,7 @@
             "models": [
                 {
                     "name": "Syll'esske",
-                    "points": 140,
+                    "points": 120,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1392,7 +1392,7 @@
             "models": [
                 {
                     "name": "Tormentbringer on Exalted Seeker Chariot",
-                    "points": 160,
+                    "points": 140,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1457,7 +1457,7 @@
                 {
                     "name": "Daemonette, Alluress",
                     "amount": 10,
-                    "cost": 140
+                    "cost": 120
                 }
             ],
             "restrictions": [
@@ -1509,12 +1509,12 @@
                 {
                     "name": "Fiend, Blissbringer",
                     "amount": 6,
-                    "cost": 300
+                    "cost": 260
                 },
                 {
                     "name": "Fiend, Blissbringer",
                     "amount": 3,
-                    "cost": 150
+                    "cost": 130
                 }
             ],
             "restrictions": [
@@ -1550,12 +1550,12 @@
                 {
                     "name": "Seeker, Heartseeker",
                     "amount": 10,
-                    "cost": 190
+                    "cost": 170
                 },
                 {
                     "name": "Seeker, Heartseeker",
                     "amount": 5,
-                    "cost": 95
+                    "cost": 85
                 }
             ],
             "restrictions": [
@@ -1607,12 +1607,12 @@
                 {
                     "name": "Hellflayer",
                     "amount": 2,
-                    "cost": 220
+                    "cost": 210
                 },
                 {
                     "name": "Hellflayer",
                     "amount": 1,
-                    "cost": 110
+                    "cost": 105
                 }
             ],
             "restrictions": [
@@ -1683,7 +1683,7 @@
             "models": [
                 {
                     "name": "Be'lakor",
-                    "points": 325,
+                    "points": 350,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1705,7 +1705,7 @@
             "models": [
                 {
                     "name": "Soul Grinder",
-                    "points": 215,
+                    "points": 200,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1757,7 +1757,7 @@
             "models": [
                 {
                     "name": "Daemon Prince",
-                    "points": 215,
+                    "points": 200,
                     "gearset": [
                         {
                             "type": "checkbox",

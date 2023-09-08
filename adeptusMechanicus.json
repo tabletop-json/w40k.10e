@@ -27,7 +27,7 @@
             "models": [
                 {
                     "name": "Archaeopter Fusilave",
-                    "points": 160,
+                    "points": 155,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -85,7 +85,7 @@
             "models": [
                 {
                     "name": "Archaeopter Transvector",
-                    "points": 155,
+                    "points": 140,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -137,12 +137,12 @@
                 {
                     "name": "Corpuscarii Electro-Priest",
                     "amount": 10,
-                    "cost": 130
+                    "cost": 110
                 },
                 {
                     "name": "Corpuscarii Electro-Priest",
                     "amount": 5,
-                    "cost": 65
+                    "cost": 55
                 }
             ],
             "restrictions": [
@@ -220,12 +220,12 @@
                 {
                     "name": "Kastelan Robot",
                     "amount": 4,
-                    "cost": 320
+                    "cost": 400
                 },
                 {
                     "name": "Kastelan Robot",
                     "amount": 2,
-                    "cost": 160
+                    "cost": 200
                 }
             ],
             "restrictions": [
@@ -285,12 +285,12 @@
                 {
                     "name": "Fulgurite Electro-Priest",
                     "amount": 10,
-                    "cost": 130
+                    "cost": 120
                 },
                 {
                     "name": "Fulgurite Electro-Priest",
                     "amount": 5,
-                    "cost": 65
+                    "cost": 60
                 }
             ],
             "restrictions": [
@@ -370,12 +370,12 @@
                 {
                     "name": "Kataphron Breacher",
                     "amount": 6,
-                    "cost": 300
+                    "cost": 290
                 },
                 {
                     "name": "Kataphron Breacher",
                     "amount": 3,
-                    "cost": 150
+                    "cost": 145
                 }
             ],
             "restrictions": [
@@ -432,12 +432,12 @@
                 {
                     "name": "Kataphron Destroyer",
                     "amount": 6,
-                    "cost": 240
+                    "cost": 230
                 },
                 {
                     "name": "Kataphron Destroyer",
                     "amount": 3,
-                    "cost": 120
+                    "cost": 115
                 }
             ],
             "restrictions": [
@@ -550,12 +550,12 @@
                 {
                     "name": "Pteraxii Skystalker, Pteraxii Skystalker Alpha",
                     "amount": 10,
-                    "cost": 140
+                    "cost": 130
                 },
                 {
                     "name": "Pteraxii Skystalker, Pteraxii Skystalker Alpha",
                     "amount": 5,
-                    "cost": 70
+                    "cost": 65
                 }
             ],
             "restrictions": [
@@ -591,12 +591,12 @@
                 {
                     "name": "Pteraxii Sterylizor, Pteraxii Sterylizor Alpha",
                     "amount": 10,
-                    "cost": 150
+                    "cost": 140
                 },
                 {
                     "name": "Pteraxii Sterylizor, Pteraxii Sterylizor Alpha",
                     "amount": 5,
-                    "cost": 75
+                    "cost": 70
                 }
             ],
             "restrictions": [
@@ -632,12 +632,12 @@
                 {
                     "name": "Serberys Raider, Serberys Raider Alpha",
                     "amount": 6,
-                    "cost": 150
+                    "cost": 120
                 },
                 {
                     "name": "Serberys Raider, Serberys Raider Alpha",
                     "amount": 3,
-                    "cost": 75
+                    "cost": 60
                 }
             ],
             "restrictions": [
@@ -702,12 +702,12 @@
                 {
                     "name": "Serberys Sulphurhound, Serberys Sulphurhound Alpha",
                     "amount": 6,
-                    "cost": 130
+                    "cost": 110
                 },
                 {
                     "name": "Serberys Sulphurhound, Serberys Sulphurhound Alpha",
                     "amount": 3,
-                    "cost": 65
+                    "cost": 55
                 }
             ],
             "restrictions": [
@@ -834,12 +834,12 @@
                 {
                     "name": "Sicarian Infiltrator, Sicarian Infiltrator Princeps",
                     "amount": 10,
-                    "cost": 160
+                    "cost": 140
                 },
                 {
                     "name": "Sicarian Infiltrator, Sicarian Infiltrator Princeps",
                     "amount": 5,
-                    "cost": 80
+                    "cost": 70
                 }
             ],
             "restrictions": [
@@ -907,12 +907,12 @@
                 {
                     "name": "Sicarian Ruststalker, Sicarian Ruststalker Princeps",
                     "amount": 10,
-                    "cost": 150
+                    "cost": 140
                 },
                 {
                     "name": "Sicarian Ruststalker, Sicarian Ruststalker Princeps",
                     "amount": 5,
-                    "cost": 75
+                    "cost": 70
                 }
             ],
             "restrictions": [
@@ -979,7 +979,7 @@
             "models": [
                 {
                     "name": "Skitarii Marshal",
-                    "points": 45,
+                    "points": 35,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1031,7 +1031,7 @@
                 {
                     "name": "Skitarii Ranger, Skitarii Ranger Alpha",
                     "amount": 10,
-                    "cost": 125
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -1126,7 +1126,7 @@
                 {
                     "name": "Skitarii Vanguard, Skitarii Vanguard Alpha",
                     "amount": 10,
-                    "cost": 100
+                    "cost": 80
                 }
             ],
             "restrictions": [
@@ -1220,7 +1220,7 @@
             "models": [
                 {
                     "name": "Skorpius Disintegrator",
-                    "points": 195,
+                    "points": 180,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1275,17 +1275,17 @@
                 {
                     "name": "Sydonian Dragoon",
                     "amount": 3,
-                    "cost": 225
+                    "cost": 180
                 },
                 {
                     "name": "Sydonian Dragoon",
                     "amount": 2,
-                    "cost": 150
+                    "cost": 120
                 },
                 {
                     "name": "Sydonian Dragoon",
                     "amount": 1,
-                    "cost": 75
+                    "cost": 60
                 }
             ],
             "restrictions": [
@@ -1413,7 +1413,7 @@
             "models": [
                 {
                     "name": "Tech-Priest Enginseer",
-                    "points": 45,
+                    "points": 40,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1464,7 +1464,7 @@
             "models": [
                 {
                     "name": "Tech-Priest Manipulus",
-                    "points": 60,
+                    "points": 55,
                     "gearset": [
                         {
                             "type": "checkbox",

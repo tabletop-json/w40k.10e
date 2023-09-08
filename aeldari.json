@@ -26,7 +26,7 @@
             "models": [
                 {
                     "name": "Asurmen",
-                    "points": 120,
+                    "points": 135,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -48,7 +48,7 @@
             "models": [
                 {
                     "name": "Autarch",
-                    "points": 65,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -156,7 +156,7 @@
             "models": [
                 {
                     "name": "Autarch Wayleaper",
-                    "points": 80,
+                    "points": 115,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -264,7 +264,7 @@
             "models": [
                 {
                     "name": "Autarch Skyrunner",
-                    "points": 80,
+                    "points": 90,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -339,7 +339,7 @@
             "models": [
                 {
                     "name": "Avatar of Khaine",
-                    "points": 295,
+                    "points": 335,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -705,12 +705,12 @@
                 {
                     "name": "Dark Reaper, Dark Reaper Exarch",
                     "amount": 10,
-                    "cost": 150
+                    "cost": 160
                 },
                 {
                     "name": "Dark Reaper, Dark Reaper Exarch",
                     "amount": 5,
-                    "cost": 75
+                    "cost": 80
                 }
             ],
             "restrictions": [
@@ -767,7 +767,7 @@
             "models": [
                 {
                     "name": "Death Jester",
-                    "points": 70,
+                    "points": 90,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -887,7 +887,7 @@
             "models": [
                 {
                     "name": "Eldrad Ulthran",
-                    "points": 100,
+                    "points": 110,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -961,7 +961,7 @@
             "models": [
                 {
                     "name": "Farseer",
-                    "points": 65,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1026,7 +1026,7 @@
             "models": [
                 {
                     "name": "Farseer Skyrunner",
-                    "points": 75,
+                    "points": 90,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1151,7 +1151,7 @@
             "models": [
                 {
                     "name": "Fire Prism",
-                    "points": 150,
+                    "points": 180,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1339,7 +1339,7 @@
             "models": [
                 {
                     "name": "Illic Nightspear",
-                    "points": 65,
+                    "points": 70,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1427,7 +1427,7 @@
             "models": [
                 {
                     "name": "Night Spinner",
-                    "points": 170,
+                    "points": 180,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1942,7 +1942,7 @@
             "models": [
                 {
                     "name": "Support Weapon",
-                    "points": 105,
+                    "points": 125,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2060,7 +2060,7 @@
             "models": [
                 {
                     "name": "The Yncarne",
-                    "points": 270,
+                    "points": 350,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2284,7 +2284,7 @@
             "models": [
                 {
                     "name": "Voidweaver",
-                    "points": 100,
+                    "points": 125,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2313,7 +2313,7 @@
             "models": [
                 {
                     "name": "Vyper",
-                    "points": 75,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2351,7 +2351,7 @@
             "models": [
                 {
                     "name": "War Walker",
-                    "points": 95,
+                    "points": 110,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2520,12 +2520,12 @@
                 {
                     "name": "Warp Spider, Warp Spider Exarch",
                     "amount": 10,
-                    "cost": 200
+                    "cost": 230
                 },
                 {
                     "name": "Warp Spider, Warp Spider Exarch",
                     "amount": 5,
-                    "cost": 100
+                    "cost": 115
                 }
             ],
             "restrictions": [
@@ -2739,12 +2739,12 @@
                 {
                     "name": "Wraithguard",
                     "amount": 10,
-                    "cost": 310
+                    "cost": 340
                 },
                 {
                     "name": "Wraithguard",
                     "amount": 5,
-                    "cost": 155
+                    "cost": 170
                 }
             ],
             "restrictions": [
@@ -2786,7 +2786,7 @@
             "models": [
                 {
                     "name": "Wraithknight",
-                    "points": 475,
+                    "points": 510,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -3343,7 +3343,7 @@
             "models": [
                 {
                     "name": "Warp Hunter",
-                    "points": 130,
+                    "points": 145,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -3372,7 +3372,7 @@
             "models": [
                 {
                     "name": "Lynx",
-                    "points": 155,
+                    "points": 180,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -3410,7 +3410,7 @@
             "models": [
                 {
                     "name": "Hornet",
-                    "points": 80,
+                    "points": 100,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -3478,12 +3478,12 @@
                 {
                     "name": "Shadow Spectre",
                     "amount": 10,
-                    "cost": 160
+                    "cost": 190
                 },
                 {
                     "name": "Shadow Spectre",
                     "amount": 5,
-                    "cost": 80
+                    "cost": 95
                 }
             ],
             "restrictions": [
@@ -3506,7 +3506,7 @@
                 },
                 {
                     "name": "Shadow Spectre Exarch",
-                    "points": 20
+                    "points": 30
                 }
             ]
         },
@@ -3519,7 +3519,7 @@
             "models": [
                 {
                     "name": "Skathach Wraithknight",
-                    "points": 440,
+                    "points": 490,
                     "gearset": [
                         {
                             "type": "dropdown",

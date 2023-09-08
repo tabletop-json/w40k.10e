@@ -27,7 +27,7 @@
             "models": [
                 {
                     "name": "Kaldor Draigo",
-                    "points": 155,
+                    "points": 125,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -49,7 +49,7 @@
             "models": [
                 {
                     "name": "Grandmaster Voldus",
-                    "points": 115,
+                    "points": 95,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -71,7 +71,7 @@
             "models": [
                 {
                     "name": "Grand Master",
-                    "points": 115,
+                    "points": 95,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -142,7 +142,7 @@
             "models": [
                 {
                     "name": "Grand Master in Nemesis Dreadknight",
-                    "points": 245,
+                    "points": 200,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -244,7 +244,7 @@
             "models": [
                 {
                     "name": "Castellan Crowe",
-                    "points": 95,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -266,7 +266,7 @@
             "models": [
                 {
                     "name": "Brother-captain Stern",
-                    "points": 110,
+                    "points": 90,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -288,7 +288,7 @@
             "models": [
                 {
                     "name": "Brother-captain",
-                    "points": 95,
+                    "points": 90,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -359,7 +359,7 @@
             "models": [
                 {
                     "name": "Brotherhood Champion",
-                    "points": 85,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -410,7 +410,7 @@
             "models": [
                 {
                     "name": "Brotherhood Librarian",
-                    "points": 110,
+                    "points": 100,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -478,7 +478,7 @@
             "models": [
                 {
                     "name": "Brotherhood Techmarine",
-                    "points": 85,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -543,7 +543,7 @@
             "models": [
                 {
                     "name": "Brotherhood Chaplain",
-                    "points": 90,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -595,12 +595,12 @@
                 {
                     "name": "Brotherhood Terminator, Terminator Justicar",
                     "amount": 10,
-                    "cost": 450
+                    "cost": 420
                 },
                 {
                     "name": "Brotherhood Terminator, Terminator Justicar",
                     "amount": 5,
-                    "cost": 225
+                    "cost": 210
                 }
             ],
             "restrictions": [
@@ -684,12 +684,12 @@
                 {
                     "name": "Grey Knight, Justicar",
                     "amount": 10,
-                    "cost": 270
+                    "cost": 250
                 },
                 {
                     "name": "Grey Knight, Justicar",
                     "amount": 5,
-                    "cost": 135
+                    "cost": 125
                 }
             ],
             "restrictions": [
@@ -761,12 +761,12 @@
                 {
                     "name": "Paladin, Paragon",
                     "amount": 10,
-                    "cost": 510
+                    "cost": 450
                 },
                 {
                     "name": "Paladin, Paragon",
                     "amount": 5,
-                    "cost": 255
+                    "cost": 225
                 }
             ],
             "restrictions": [
@@ -851,12 +851,12 @@
                 {
                     "name": "Purifier, Knight of the Flame",
                     "amount": 10,
-                    "cost": 300
+                    "cost": 260
                 },
                 {
                     "name": "Purifier, Knight of the Flame",
                     "amount": 5,
-                    "cost": 150
+                    "cost": 130
                 }
             ],
             "restrictions": [
@@ -1029,12 +1029,12 @@
                 {
                     "name": "Interceptor, Interceptor Justicar",
                     "amount": 10,
-                    "cost": 320
+                    "cost": 270
                 },
                 {
                     "name": "Interceptor, Interceptor Justicar",
                     "amount": 5,
-                    "cost": 160
+                    "cost": 135
                 }
             ],
             "restrictions": [
@@ -1106,12 +1106,12 @@
                 {
                     "name": "Purgator, Purgator Justicar",
                     "amount": 10,
-                    "cost": 320
+                    "cost": 270
                 },
                 {
                     "name": "Purgator, Purgator Justicar",
                     "amount": 5,
-                    "cost": 190
+                    "cost": 135
                 }
             ],
             "restrictions": [
@@ -1182,7 +1182,7 @@
             "models": [
                 {
                     "name": "Nemesis Dreadknight",
-                    "points": 215,
+                    "points": 185,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1248,7 +1248,7 @@
             "models": [
                 {
                     "name": "Land Raider",
-                    "points": 270,
+                    "points": 240,
                     "gearset": [
                         {
                             "type": "text",
@@ -1296,7 +1296,7 @@
             "models": [
                 {
                     "name": "Land Raider Crusader",
-                    "points": 250,
+                    "points": 230,
                     "gearset": [
                         {
                             "type": "text",
@@ -1344,7 +1344,7 @@
             "models": [
                 {
                     "name": "Land Raider Redeemer",
-                    "points": 290,
+                    "points": 260,
                     "gearset": [
                         {
                             "type": "text",
@@ -1392,7 +1392,7 @@
             "models": [
                 {
                     "name": "Rhino",
-                    "points": 80,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1421,7 +1421,7 @@
             "models": [
                 {
                     "name": "Razorback",
-                    "points": 95,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "dropdown",
