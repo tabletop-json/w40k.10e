@@ -26,7 +26,7 @@
             "models": [
                 {
                     "name": "Imotekh the Stormlord",
-                    "points": 105,
+                    "points": 100,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -114,7 +114,7 @@
             "models": [
                 {
                     "name": "Illuminor Szeras",
-                    "points": 220,
+                    "points": 185,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -231,7 +231,7 @@
             "models": [
                 {
                     "name": "Skorpekh Lord",
-                    "points": 115,
+                    "points": 100,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -282,7 +282,7 @@
             "models": [
                 {
                     "name": "Lokhust Lord",
-                    "points": 85,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -809,12 +809,12 @@
                 {
                     "name": "Necron Warrior",
                     "amount": 20,
-                    "cost": 240
+                    "cost": 220
                 },
                 {
                     "name": "Necron Warrior",
                     "amount": 10,
-                    "cost": 120
+                    "cost": 110
                 }
             ],
             "restrictions": [
@@ -904,7 +904,7 @@
             "models": [
                 {
                     "name": "Canoptek Reanimator",
-                    "points": 95
+                    "points": 105
                 }
             ]
         },
@@ -917,7 +917,7 @@
             "models": [
                 {
                     "name": "Hexmark Destroyer",
-                    "points": 70,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -969,12 +969,12 @@
                 {
                     "name": "Lychguard",
                     "amount": 10,
-                    "cost": 190
+                    "cost": 230
                 },
                 {
                     "name": "Lychguard",
                     "amount": 5,
-                    "cost": 95
+                    "cost": 115
                 }
             ],
             "restrictions": [
@@ -1081,7 +1081,7 @@
                 {
                     "name": "Cryptothrall",
                     "amount": 2,
-                    "cost": 40
+                    "cost": 60
                 }
             ],
             "models": [
@@ -1103,12 +1103,12 @@
                 {
                     "name": "Skorpekh Destroyer",
                     "amount": 6,
-                    "cost": 220
+                    "cost": 200
                 },
                 {
                     "name": "Skorpekh Destroyer",
                     "amount": 3,
-                    "cost": 110
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -1214,7 +1214,7 @@
             "models": [
                 {
                     "name": "Transcendant C'tan",
-                    "points": 280,
+                    "points": 300,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1346,12 +1346,12 @@
                 {
                     "name": "Ophydian Destroyer",
                     "amount": 6,
-                    "cost": 220
+                    "cost": 200
                 },
                 {
                     "name": "Ophydian Destroyer",
                     "amount": 3,
-                    "cost": 110
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -1462,12 +1462,12 @@
                 {
                     "name": "Triarch Praetorian",
                     "amount": 10,
-                    "cost": 270
+                    "cost": 240
                 },
                 {
                     "name": "Triarch Praetorian",
                     "amount": 5,
-                    "cost": 135
+                    "cost": 120
                 }
             ],
             "restrictions": [
@@ -1609,7 +1609,7 @@
             "models": [
                 {
                     "name": "Doomsday Ark",
-                    "points": 185
+                    "points": 210
                 }
             ]
         },
@@ -1665,17 +1665,17 @@
                 {
                     "name": "Lokhust Heavy Destroyer",
                     "amount": 3,
-                    "cost": 135
+                    "cost": 150
                 },
                 {
                     "name": "Lokhust Heavy Destroyer",
                     "amount": 2,
-                    "cost": 90
+                    "cost": 100
                 },
                 {
                     "name": "Lokhust Heavy Destroyer",
                     "amount": 1,
-                    "cost": 45
+                    "cost": 50
                 }
             ],
             "restrictions": [
@@ -1717,7 +1717,7 @@
             "models": [
                 {
                     "name": "Canoptek Doomstalker",
-                    "points": 125
+                    "points": 135
                 }
             ]
         },
@@ -1782,7 +1782,7 @@
             "models": [
                 {
                     "name": "Tesseract Vault",
-                    "points": 425
+                    "points": 375
                 }
             ]
         },
@@ -1795,7 +1795,7 @@
             "models": [
                 {
                     "name": "Monolith",
-                    "points": 385,
+                    "points": 350,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1836,7 +1836,7 @@
             "models": [
                 {
                     "name": "The Silent King",
-                    "points": 470,
+                    "points": 420,
                     "gearset": [
                         {
                             "type": "checkbox",

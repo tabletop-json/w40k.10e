@@ -71,7 +71,7 @@
             "models": [
                 {
                     "name": "Cadian Castellan",
-                    "points": 50,
+                    "points": 45,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -159,7 +159,7 @@
             "models": [
                 {
                     "name": "Tank Commander",
-                    "points": 240,
+                    "points": 205,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -946,7 +946,7 @@
             "models": [
                 {
                     "name": "Iron Hand Straken",
-                    "points": 80,
+                    "points": 55,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1020,7 +1020,7 @@
                 {
                     "name": "Ibram Gaunt, Tanith Ghost",
                     "amount": 6,
-                    "cost": 115
+                    "cost": 100
                 }
             ],
             "models": [
@@ -1136,7 +1136,7 @@
             "models": [
                 {
                     "name": "Nork Deddog",
-                    "points": 70
+                    "points": 60
                 }
             ]
         },
@@ -1150,27 +1150,27 @@
                 {
                     "name": "Guardsman, Sergeant",
                     "amount": 20,
-                    "cost": 130
+                    "cost": 120
                 },
                 {
                     "name": "Guardsman, Heavy Weapons Team, Sergeant",
                     "amount": 19,
-                    "cost": 130
+                    "cost": 120
                 },
                 {
                     "name": "Guardsman, Heavy Weapons Team, Sergeant",
                     "amount": 18,
-                    "cost": 130
+                    "cost": 120
                 },
                 {
                     "name": "Guardsman, Sergeant",
                     "amount": 10,
-                    "cost": 65
+                    "cost": 60
                 },
                 {
                     "name": "Guardsman, Heavy Weapons Team, Sergeant",
                     "amount": 9,
-                    "cost": 65
+                    "cost": 60
                 }
             ],
             "restrictions": [
@@ -1700,12 +1700,12 @@
                 {
                     "name": "Shock Trooper, Shock Trooper Sergeant",
                     "amount": 20,
-                    "cost": 130
+                    "cost": 120
                 },
                 {
                     "name": "Shock Trooper, Shock Trooper Sergeant",
                     "amount": 10,
-                    "cost": 65
+                    "cost": 60
                 }
             ],
             "restrictions": [
@@ -1890,12 +1890,12 @@
                 {
                     "name": "Jungle Fighter, Jungle Fighter Sergeant",
                     "amount": 20,
-                    "cost": 130
+                    "cost": 110
                 },
                 {
                     "name": "Jungle Fighter, Jungle Fighter Sergeant",
                     "amount": 10,
-                    "cost": 65
+                    "cost": 55
                 }
             ],
             "restrictions": [
@@ -1961,7 +1961,7 @@
             "models": [
                 {
                     "name": "Sly Marbo",
-                    "points": 75
+                    "points": 65
                 }
             ]
         },
@@ -1975,7 +1975,7 @@
                 {
                     "name": "Kasrkin Trooper, Kasrkin Sergeant",
                     "amount": 10,
-                    "cost": 120
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -2152,7 +2152,7 @@
             "models": [
                 {
                     "name": "Sergeant Harker",
-                    "points": 60,
+                    "points": 40,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2274,7 +2274,7 @@
             "models": [
                 {
                     "name": "Commissar",
-                    "points": 35,
+                    "points": 30,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2354,12 +2354,12 @@
                 {
                     "name": "Ogryn, Ogryn Bone 'ead",
                     "amount": 6,
-                    "cost": 150
+                    "cost": 130
                 },
                 {
                     "name": "Ogryn, Ogryn Bone 'ead",
                     "amount": 3,
-                    "cost": 75
+                    "cost": 65
                 }
             ],
             "restrictions": [
@@ -2395,12 +2395,12 @@
                 {
                     "name": "Bullgryn, Bullgryn Bone 'ead",
                     "amount": 6,
-                    "cost": 180
+                    "cost": 160
                 },
                 {
                     "name": "Bullgryn, Bullgryn Bone 'ead",
                     "amount": 3,
-                    "cost": 90
+                    "cost": 80
                 }
             ],
             "restrictions": [
@@ -2496,7 +2496,7 @@
                 {
                     "name": "Ratling Sniper",
                     "amount": 5,
-                    "cost": 70
+                    "cost": 60
                 }
             ],
             "models": [
@@ -2527,12 +2527,12 @@
                 {
                     "name": "Rough Rider, Rough Rider Sergeant",
                     "amount": 10,
-                    "cost": 160
+                    "cost": 140
                 },
                 {
                     "name": "Rough Rider, Rough Rider Sergeant",
                     "amount": 5,
-                    "cost": 80
+                    "cost": 70
                 }
             ],
             "restrictions": [
@@ -2599,17 +2599,17 @@
                 {
                     "name": "Scout Sentinel",
                     "amount": 3,
-                    "cost": 150
+                    "cost": 180
                 },
                 {
                     "name": "Scout Sentinel",
                     "amount": 2,
-                    "cost": 100
+                    "cost": 120
                 },
                 {
                     "name": "Scout Sentinel",
                     "amount": 1,
-                    "cost": 50
+                    "cost": 60
                 }
             ],
             "restrictions": [
@@ -2812,7 +2812,7 @@
             "models": [
                 {
                     "name": "Rogal Dorn Battle Tank",
-                    "points": 285,
+                    "points": 260,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -3007,7 +3007,7 @@
             "models": [
                 {
                     "name": "Leman Russ Battle Tank",
-                    "points": 195,
+                    "points": 180,
                     "gearset": [
                         {
                             "type": "text",
@@ -3092,7 +3092,7 @@
             "models": [
                 {
                     "name": "Leman Russ Demolisher",
-                    "points": 220,
+                    "points": 200,
                     "gearset": [
                         {
                             "type": "text",
@@ -3177,7 +3177,7 @@
             "models": [
                 {
                     "name": "Leman Russ Vanquisher",
-                    "points": 190,
+                    "points": 155,
                     "gearset": [
                         {
                             "type": "text",
@@ -3262,7 +3262,7 @@
             "models": [
                 {
                     "name": "Leman Russ Punisher",
-                    "points": 180,
+                    "points": 160,
                     "gearset": [
                         {
                             "type": "text",
@@ -3347,7 +3347,7 @@
             "models": [
                 {
                     "name": "Leman Russ Executioner",
-                    "points": 195,
+                    "points": 180,
                     "gearset": [
                         {
                             "type": "text",
@@ -3432,7 +3432,7 @@
             "models": [
                 {
                     "name": "Leman Russ Exterminator",
-                    "points": 200,
+                    "points": 180,
                     "gearset": [
                         {
                             "type": "text",
@@ -3517,7 +3517,7 @@
             "models": [
                 {
                     "name": "Leman Russ Eradicator",
-                    "points": 180,
+                    "points": 160,
                     "gearset": [
                         {
                             "type": "text",
@@ -3686,7 +3686,7 @@
             "models": [
                 {
                     "name": "Manticore",
-                    "points": 125,
+                    "points": 150,
                     "gearset": [
                         {
                             "type": "text",
@@ -3812,7 +3812,7 @@
             "models": [
                 {
                     "name": "Chimera",
-                    "points": 85,
+                    "points": 70,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -3893,7 +3893,7 @@
             "models": [
                 {
                     "name": "Valkyrie",
-                    "points": 200,
+                    "points": 190,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -3956,7 +3956,7 @@
             "models": [
                 {
                     "name": "Baneblade",
-                    "points": 540,
+                    "points": 480,
                     "gearset": [
                         {
                             "type": "text",
@@ -4032,7 +4032,7 @@
             "models": [
                 {
                     "name": "Banehammer",
-                    "points": 490,
+                    "points": 450,
                     "gearset": [
                         {
                             "type": "text",
@@ -4090,7 +4090,7 @@
             "models": [
                 {
                     "name": "Banesword",
-                    "points": 515,
+                    "points": 480,
                     "gearset": [
                         {
                             "type": "text",
@@ -4206,7 +4206,7 @@
             "models": [
                 {
                     "name": "Hellhammer",
-                    "points": 510,
+                    "points": 450,
                     "gearset": [
                         {
                             "type": "text",
@@ -4404,7 +4404,7 @@
             "models": [
                 {
                     "name": "Stormsword",
-                    "points": 520,
+                    "points": 495,
                     "gearset": [
                         {
                             "type": "text",
@@ -4658,12 +4658,12 @@
                 {
                     "name": "Tempestus Scion, Tempestor",
                     "amount": 10,
-                    "cost": 120
+                    "cost": 110
                 },
                 {
                     "name": "Tempestus Scion, Tempestor",
                     "amount": 5,
-                    "cost": 60
+                    "cost": 55
                 }
             ],
             "restrictions": [
@@ -5375,7 +5375,7 @@
             "models": [
                 {
                     "name": "Earthshaker Carriage Battery",
-                    "points": 80
+                    "points": 120
                 }
             ]
         },
@@ -5388,7 +5388,7 @@
             "models": [
                 {
                     "name": "Medusa Carriage Battery",
-                    "points": 80
+                    "points": 110
                 }
             ]
         },
@@ -5902,7 +5902,7 @@
             "models": [
                 {
                     "name": "Thunderbolt Heavy Fighter",
-                    "points": 190,
+                    "points": 200,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -6035,17 +6035,17 @@
                 {
                     "name": "Tarantula Battery",
                     "amount": 3,
-                    "cost": 105
+                    "cost": 120
                 },
                 {
                     "name": "Tarantula Battery",
                     "amount": 2,
-                    "cost": 70
+                    "cost": 80
                 },
                 {
                     "name": "Tarantula Battery",
                     "amount": 1,
-                    "cost": 35
+                    "cost": 40
                 }
             ],
             "restrictions": [
@@ -6088,17 +6088,17 @@
                 {
                     "name": "Rapier Laser Destroyer Battery",
                     "amount": 3,
-                    "cost": 90
+                    "cost": 105
                 },
                 {
                     "name": "Rapier Laser Destroyer Battery",
                     "amount": 2,
-                    "cost": 60
+                    "cost": 70
                 },
                 {
                     "name": "Rapier Laser Destroyer Battery",
                     "amount": 1,
-                    "cost": 30
+                    "cost": 35
                 }
             ],
             "restrictions": [

@@ -167,7 +167,7 @@
             "models": [
                 {
                     "name": "Beastboss",
-                    "points": 80,
+                    "points": 100,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -288,7 +288,7 @@
             "models": [
                 {
                     "name": "Big Mek in Mega Armour",
-                    "points": 100,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -386,7 +386,7 @@
             "models": [
                 {
                     "name": "Big Mek with Kustom Force Field",
-                    "points": 65,
+                    "points": 55,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -563,7 +563,7 @@
             "models": [
                 {
                     "name": "Boss Snikrot",
-                    "points": 105,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -585,7 +585,7 @@
             "models": [
                 {
                     "name": "Boss Zagstruk",
-                    "points": 100,
+                    "points": 90,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -690,17 +690,17 @@
                 {
                     "name": "Burna Boy, Spanner",
                     "amount": 15,
-                    "cost": 195
+                    "cost": 180
                 },
                 {
                     "name": "Burna Boy, Spanner",
                     "amount": 10,
-                    "cost": 130
+                    "cost": 120
                 },
                 {
                     "name": "Burna Boy, Spanner",
                     "amount": 5,
-                    "cost": 65
+                    "cost": 60
                 }
             ],
             "restrictions": [
@@ -806,7 +806,7 @@
             "models": [
                 {
                     "name": "Deff Dread",
-                    "points": 150,
+                    "points": 130,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -913,7 +913,7 @@
             "models": [
                 {
                     "name": "Deffkilla Wartrike",
-                    "points": 90
+                    "points": 80
                 }
             ]
         },
@@ -927,12 +927,12 @@
                 {
                     "name": "Deffkopta",
                     "amount": 6,
-                    "cost": 230
+                    "cost": 200
                 },
                 {
                     "name": "Deffkopta",
                     "amount": 3,
-                    "cost": 115
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -1049,7 +1049,7 @@
             "models": [
                 {
                     "name": "Gorkanaut",
-                    "points": 295
+                    "points": 280
                 }
             ]
         },
@@ -1063,12 +1063,12 @@
                 {
                     "name": "Gretchin, Runtherd",
                     "amount": 22,
-                    "cost": 90
+                    "cost": 80
                 },
                 {
                     "name": "Gretchin, Runtherd",
                     "amount": 11,
-                    "cost": 45
+                    "cost": 40
                 }
             ],
             "restrictions": [
@@ -1103,7 +1103,7 @@
             "models": [
                 {
                     "name": "Hunta Rig",
-                    "points": 180
+                    "points": 160
                 }
             ]
         },
@@ -1116,7 +1116,7 @@
             "models": [
                 {
                     "name": "Kaptin Badrukk",
-                    "points": 95,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1138,7 +1138,7 @@
             "models": [
                 {
                     "name": "Kill Rig",
-                    "points": 220
+                    "points": 200
                 }
             ]
         },
@@ -1321,17 +1321,17 @@
                 {
                     "name": "Loota, Spanner",
                     "amount": 15,
-                    "cost": 165
+                    "cost": 150
                 },
                 {
                     "name": "Loota, Spanner",
                     "amount": 10,
-                    "cost": 110
+                    "cost": 100
                 },
                 {
                     "name": "Loota, Spanner",
                     "amount": 5,
-                    "cost": 55
+                    "cost": 50
                 }
             ],
             "restrictions": [
@@ -1393,7 +1393,7 @@
             "models": [
                 {
                     "name": "Mad Dok Grotsnik",
-                    "points": 75,
+                    "points": 65,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1416,22 +1416,22 @@
                 {
                     "name": "Meganob",
                     "amount": 6,
-                    "cost": 200
+                    "cost": 180
                 },
                 {
                     "name": "Meganob",
                     "amount": 5,
-                    "cost": 165
+                    "cost": 150
                 },
                 {
                     "name": "Meganob",
                     "amount": 3,
-                    "cost": 100
+                    "cost": 90
                 },
                 {
                     "name": "Meganob",
                     "amount": 2,
-                    "cost": 65
+                    "cost": 60
                 }
             ],
             "restrictions": [
@@ -1564,17 +1564,17 @@
                 {
                     "name": "Mek Gun",
                     "amount": 3,
-                    "cost": 135
+                    "cost": 165
                 },
                 {
                     "name": "Mek Gun",
                     "amount": 2,
-                    "cost": 90
+                    "cost": 110
                 },
                 {
                     "name": "Mek Gun",
                     "amount": 1,
-                    "cost": 45
+                    "cost": 65
                 }
             ],
             "restrictions": [
@@ -1622,7 +1622,7 @@
             "models": [
                 {
                     "name": "Morkanaut",
-                    "points": 350
+                    "points": 330
                 }
             ]
         },
@@ -1657,7 +1657,7 @@
             "models": [
                 {
                     "name": "Nob on Smasha Squig",
-                    "points": 75,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1760,12 +1760,12 @@
                 {
                     "name": "Nob, Boss Nob",
                     "amount": 10,
-                    "cost": 230
+                    "cost": 210
                 },
                 {
                     "name": "Nob, Boss Nob",
                     "amount": 5,
-                    "cost": 115
+                    "cost": 105
                 }
             ],
             "restrictions": [
@@ -1854,7 +1854,7 @@
             "models": [
                 {
                     "name": "Painboss",
-                    "points": 70,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1919,7 +1919,7 @@
             "models": [
                 {
                     "name": "Painboy",
-                    "points": 80,
+                    "points": 70,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2149,7 +2149,7 @@
                 {
                     "name": "Tankbusta, Boss Nob",
                     "amount": 5,
-                    "cost": 135
+                    "cost": 110
                 }
             ],
             "restrictions": [
@@ -2184,7 +2184,7 @@
             "models": [
                 {
                     "name": "Trukk",
-                    "points": 50,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2207,12 +2207,12 @@
                 {
                     "name": "Warbiker, Boss Nob on Warbike",
                     "amount": 6,
-                    "cost": 150
+                    "cost": 140
                 },
                 {
                     "name": "Warbiker, Boss Nob on Warbike",
                     "amount": 3,
-                    "cost": 75
+                    "cost": 70
                 }
             ],
             "restrictions": [
@@ -2294,7 +2294,7 @@
             "models": [
                 {
                     "name": "Warboss",
-                    "points": 70,
+                    "points": 65,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2378,7 +2378,7 @@
             "models": [
                 {
                     "name": "Warboss in Mega Armour",
-                    "points": 95,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2807,7 +2807,7 @@
             "models": [
                 {
                     "name": "Kill Tank",
-                    "points": 305,
+                    "points": 295,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2897,7 +2897,7 @@
             "models": [
                 {
                     "name": "Meka-Dread",
-                    "points": 230,
+                    "points": 210,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2946,7 +2946,7 @@
             "models": [
                 {
                     "name": "Big Trakk",
-                    "points": 75,
+                    "points": 90,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2978,7 +2978,7 @@
             "models": [
                 {
                     "name": "Warboss on Warbike",
-                    "points": 85,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "dropdown",

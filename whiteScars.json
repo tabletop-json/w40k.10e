@@ -100,7 +100,7 @@
             "models": [
                 {
                     "name": "Captain in Gravis Armour",
-                    "points": 95,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -831,7 +831,7 @@
             "models": [
                 {
                     "name": "Lieutenant in Reiver Armour",
-                    "points": 75,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1866,12 +1866,12 @@
                 {
                     "name": "Intercessor, Intercessor Sergeant",
                     "amount": 10,
-                    "cost": 190
+                    "cost": 170
                 },
                 {
                     "name": "Intercessor, Intercessor Sergeant",
                     "amount": 5,
-                    "cost": 95
+                    "cost": 85
                 }
             ],
             "restrictions": [
@@ -1964,12 +1964,12 @@
                 {
                     "name": "Infernus Marine, Infernus Sergeant",
                     "amount": 10,
-                    "cost": 180
+                    "cost": 170
                 },
                 {
                     "name": "Infernus Marine, Infernus Sergeant",
                     "amount": 5,
-                    "cost": 90
+                    "cost": 85
                 }
             ],
             "restrictions": [
@@ -2005,12 +2005,12 @@
                 {
                     "name": "Assault Intercessor, Assault Intercessor Sergeant",
                     "amount": 10,
-                    "cost": 180
+                    "cost": 160
                 },
                 {
                     "name": "Assault Intercessor, Assault Intercessor Sergeant",
                     "amount": 5,
-                    "cost": 90
+                    "cost": 80
                 }
             ],
             "restrictions": [
@@ -2167,7 +2167,7 @@
             "models": [
                 {
                     "name": "Lieutenant with Combi-weapon",
-                    "points": 80,
+                    "points": 70,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2219,12 +2219,12 @@
                 {
                     "name": "Heavy Intercessor, Heavy Intercessor Sergeant",
                     "amount": 10,
-                    "cost": 220
+                    "cost": 210
                 },
                 {
                     "name": "Heavy Intercessor, Heavy Intercessor Sergeant",
                     "amount": 5,
-                    "cost": 110
+                    "cost": 105
                 }
             ],
             "restrictions": [
@@ -2276,12 +2276,12 @@
                 {
                     "name": "Infiltrator, Infiltrator Sergeant",
                     "amount": 10,
-                    "cost": 180
+                    "cost": 200
                 },
                 {
                     "name": "Infiltrator, Infiltrator Sergeant",
                     "amount": 5,
-                    "cost": 90
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -2333,12 +2333,12 @@
                 {
                     "name": "Incursor, Incursor Sergeant",
                     "amount": 10,
-                    "cost": 180
+                    "cost": 170
                 },
                 {
                     "name": "Incursor, Incursor Sergeant",
                     "amount": 5,
-                    "cost": 90
+                    "cost": 85
                 }
             ],
             "restrictions": [
@@ -2383,7 +2383,7 @@
                 {
                     "name": "Tactical Marine, Tactical Sergeant",
                     "amount": 10,
-                    "cost": 180
+                    "cost": 160
                 }
             ],
             "restrictions": [
@@ -2562,12 +2562,12 @@
                 {
                     "name": "Scout, Scout Sergeant",
                     "amount": 10,
-                    "cost": 140
+                    "cost": 130
                 },
                 {
                     "name": "Scout, Scout Sergeant",
                     "amount": 5,
-                    "cost": 70
+                    "cost": 65
                 }
             ],
             "restrictions": [
@@ -3124,12 +3124,12 @@
                 {
                     "name": "Bladeguard Veteran, Bladeguard Veteran Sergeant",
                     "amount": 6,
-                    "cost": 200
+                    "cost": 180
                 },
                 {
                     "name": "Bladeguard Veteran, Bladeguard Veteran Sergeant",
                     "amount": 3,
-                    "cost": 100
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -3614,12 +3614,12 @@
                 {
                     "name": "Vanguard Veteran with Jump Pack, Vanguard Veteran Sergeant with Jump Pack",
                     "amount": 10,
-                    "cost": 260
+                    "cost": 210
                 },
                 {
                     "name": "Vanguard Veteran with Jump Pack, Vanguard Veteran Sergeant with Jump Pack",
                     "amount": 5,
-                    "cost": 130
+                    "cost": 105
                 }
             ],
             "restrictions": [
@@ -3711,12 +3711,12 @@
                 {
                     "name": "Sternguard Veteran, Sternguard Veteran Sergeant",
                     "amount": 10,
-                    "cost": 210
+                    "cost": 220
                 },
                 {
                     "name": "Sternguard Veteran, Sternguard Veteran Sergeant",
                     "amount": 5,
-                    "cost": 105
+                    "cost": 110
                 }
             ],
             "restrictions": [
@@ -3838,12 +3838,12 @@
                 {
                     "name": "Reiver, Reiver Sergeant",
                     "amount": 10,
-                    "cost": 190
+                    "cost": 170
                 },
                 {
                     "name": "Reiver, Reiver Sergeant",
                     "amount": 5,
-                    "cost": 95
+                    "cost": 85
                 }
             ],
             "restrictions": [
@@ -3932,12 +3932,12 @@
                 {
                     "name": "Aggressor, Aggressor Sergeant",
                     "amount": 6,
-                    "cost": 220
+                    "cost": 200
                 },
                 {
                     "name": "Aggressor, Aggressor Sergeant",
                     "amount": 3,
-                    "cost": 110
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -4005,12 +4005,12 @@
                 {
                     "name": "Assault Terminator, Assault Terminator Sergeant",
                     "amount": 10,
-                    "cost": 400
+                    "cost": 410
                 },
                 {
                     "name": "Assault Terminator, Assault Terminator Sergeant",
                     "amount": 5,
-                    "cost": 200
+                    "cost": 205
                 }
             ],
             "restrictions": [
@@ -4078,12 +4078,12 @@
                 {
                     "name": "Terminator, Terminator Sergeant",
                     "amount": 10,
-                    "cost": 410
+                    "cost": 380
                 },
                 {
                     "name": "Terminator, Terminator Sergeant",
                     "amount": 5,
-                    "cost": 205
+                    "cost": 190
                 }
             ],
             "restrictions": [
@@ -4350,12 +4350,12 @@
                 {
                     "name": "Assault Centurion, Assault Centurion Sergeant",
                     "amount": 6,
-                    "cost": 350
+                    "cost": 300
                 },
                 {
                     "name": "Assault Centurion, Assault Centurion Sergeant",
                     "amount": 3,
-                    "cost": 175
+                    "cost": 150
                 }
             ],
             "restrictions": [
@@ -4451,12 +4451,12 @@
                 {
                     "name": "Devastator Centurion, Devastator Centurion Sergeant",
                     "amount": 6,
-                    "cost": 410
+                    "cost": 350
                 },
                 {
                     "name": "Devastator Centurion, Devastator Centurion Sergeant",
                     "amount": 3,
-                    "cost": 205
+                    "cost": 175
                 }
             ],
             "restrictions": [
@@ -4557,7 +4557,7 @@
             "models": [
                 {
                     "name": "Invictor Warsuit",
-                    "points": 160,
+                    "points": 150,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -4586,7 +4586,7 @@
             "models": [
                 {
                     "name": "Dreadnought",
-                    "points": 160,
+                    "points": 135,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -4748,7 +4748,7 @@
             "models": [
                 {
                     "name": "Redemptor Dreadnought",
-                    "points": 225,
+                    "points": 210,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -4812,7 +4812,7 @@
             "models": [
                 {
                     "name": "Brutalis Dreadnought",
-                    "points": 220,
+                    "points": 175,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -4855,7 +4855,7 @@
             "models": [
                 {
                     "name": "Ballistus Dreadnought",
-                    "points": 170
+                    "points": 150
                 }
             ]
         },
@@ -5149,12 +5149,12 @@
                 {
                     "name": "Outrider, Outrider Sergeant",
                     "amount": 6,
-                    "cost": 230
+                    "cost": 210
                 },
                 {
                     "name": "Outrider, Outrider Sergeant",
                     "amount": 3,
-                    "cost": 115
+                    "cost": 105
                 }
             ],
             "restrictions": [
@@ -5180,7 +5180,7 @@
             "blueprints": [
                 {
                     "name": "Invader ATV",
-                    "points": 80
+                    "points": 70
                 },
                 {
                     "name": "Outrider"
@@ -5199,7 +5199,7 @@
             "models": [
                 {
                     "name": "Invader ATV",
-                    "points": 80,
+                    "points": 70,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -5626,7 +5626,7 @@
             "models": [
                 {
                     "name": "Stormspeeder Hailstrike",
-                    "points": 130
+                    "points": 140
                 }
             ]
         },
@@ -5639,7 +5639,7 @@
             "models": [
                 {
                     "name": "Stormspeeder Thunderstrike",
-                    "points": 160
+                    "points": 170
                 }
             ]
         },
@@ -5840,7 +5840,7 @@
                 {
                     "name": "Eliminator, Eliminator Sergeant",
                     "amount": 3,
-                    "cost": 95
+                    "cost": 75
                 }
             ],
             "restrictions": [
@@ -6140,7 +6140,7 @@
                 {
                     "name": "Desolation Marine, Desolation Sergeant",
                     "amount": 5,
-                    "cost": 170
+                    "cost": 200
                 }
             ],
             "restrictions": [
@@ -6450,7 +6450,7 @@
             "models": [
                 {
                     "name": "Gladiator Lancer",
-                    "points": 145,
+                    "points": 160,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -6493,7 +6493,7 @@
             "models": [
                 {
                     "name": "Gladiator Reaper",
-                    "points": 155,
+                    "points": 150,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -6522,7 +6522,7 @@
             "models": [
                 {
                     "name": "Gladiator Valiant",
-                    "points": 155,
+                    "points": 150,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -6551,7 +6551,7 @@
             "models": [
                 {
                     "name": "Vindicator",
-                    "points": 205,
+                    "points": 190,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -6580,7 +6580,7 @@
             "models": [
                 {
                     "name": "Land Raider",
-                    "points": 275,
+                    "points": 240,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -6616,7 +6616,7 @@
             "models": [
                 {
                     "name": "Land Raider Crusader",
-                    "points": 255,
+                    "points": 230,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -6652,7 +6652,7 @@
             "models": [
                 {
                     "name": "Land Raider Redeemer",
-                    "points": 295,
+                    "points": 260,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -6774,7 +6774,7 @@
             "models": [
                 {
                     "name": "Rhino",
-                    "points": 85,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -6839,7 +6839,7 @@
             "models": [
                 {
                     "name": "Impulsor",
-                    "points": 95,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -7202,7 +7202,7 @@
             "models": [
                 {
                     "name": "Kor'sarro Khan",
-                    "points": 80,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",

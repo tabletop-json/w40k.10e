@@ -31,7 +31,7 @@
             "models": [
                 {
                     "name": "Ahriman",
-                    "points": 110,
+                    "points": 130,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -53,7 +53,7 @@
             "models": [
                 {
                     "name": "Ahriman",
-                    "points": 115,
+                    "points": 140,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -75,7 +75,7 @@
             "models": [
                 {
                     "name": "Land Raider",
-                    "points": 250,
+                    "points": 240,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -114,7 +114,7 @@
             "models": [
                 {
                     "name": "Predator Annihilator",
-                    "points": 120,
+                    "points": 130,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -171,7 +171,7 @@
             "models": [
                 {
                     "name": "Predator Destructor",
-                    "points": 125,
+                    "points": 130,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -288,7 +288,7 @@
             "models": [
                 {
                     "name": "Vindicator",
-                    "points": 200,
+                    "points": 190,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -327,7 +327,7 @@
             "models": [
                 {
                     "name": "Defiler",
-                    "points": 200,
+                    "points": 190,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -383,7 +383,7 @@
             "models": [
                 {
                     "name": "Exalted Sorcerer",
-                    "points": 90,
+                    "points": 100,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -458,7 +458,7 @@
             "models": [
                 {
                     "name": "Exalted Sorcerer on Disc",
-                    "points": 105,
+                    "points": 115,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -672,7 +672,7 @@
             "models": [
                 {
                     "name": "Infernal Master",
-                    "points": 75,
+                    "points": 90,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -723,7 +723,7 @@
             "models": [
                 {
                     "name": "Magnus the Red",
-                    "points": 410,
+                    "points": 440,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -745,7 +745,7 @@
             "models": [
                 {
                     "name": "Maulerfiend",
-                    "points": 140,
+                    "points": 155,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -774,7 +774,7 @@
             "models": [
                 {
                     "name": "Mutalith Vortex Beast",
-                    "points": 145
+                    "points": 165
                 }
             ]
         },
@@ -788,12 +788,12 @@
                 {
                     "name": "Rubric Marine, Aspiring Sorcerer",
                     "amount": 10,
-                    "cost": 190
+                    "cost": 210
                 },
                 {
                     "name": "Rubric Marine, Aspiring Sorcerer",
                     "amount": 5,
-                    "cost": 95
+                    "cost": 105
                 }
             ],
             "restrictions": [
@@ -874,12 +874,12 @@
                 {
                     "name": "Scarab Occult Terminator, Scarab Occult Sorcerer",
                     "amount": 10,
-                    "cost": 410
+                    "cost": 430
                 },
                 {
                     "name": "Scarab Occult Terminator, Scarab Occult Sorcerer",
                     "amount": 5,
-                    "cost": 205
+                    "cost": 215
                 }
             ],
             "restrictions": [
@@ -956,7 +956,7 @@
             "models": [
                 {
                     "name": "Sorcerer",
-                    "points": 85,
+                    "points": 95,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1024,7 +1024,7 @@
             "models": [
                 {
                     "name": "Sorcerer in Terminator Armour",
-                    "points": 105,
+                    "points": 115,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1093,12 +1093,12 @@
                 {
                     "name": "Cultist, Cultist Champion",
                     "amount": 20,
-                    "cost": 130
+                    "cost": 120
                 },
                 {
                     "name": "Cultist, Cultist Champion",
                     "amount": 10,
-                    "cost": 65
+                    "cost": 60
                 }
             ],
             "restrictions": [
@@ -1155,7 +1155,7 @@
             "models": [
                 {
                     "name": "Daemon Prince",
-                    "points": 210,
+                    "points": 180,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1206,7 +1206,7 @@
             "models": [
                 {
                     "name": "Daemon Prince",
-                    "points": 190,
+                    "points": 195,
                     "gearset": [
                         {
                             "type": "checkbox",

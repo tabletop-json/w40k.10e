@@ -28,12 +28,12 @@
                 {
                     "name": "Custodian Guard",
                     "amount": 4,
-                    "cost": 180
+                    "cost": 200
                 },
                 {
                     "name": "Custodian Guard",
                     "amount": 5,
-                    "cost": 225
+                    "cost": 250
                 }
             ],
             "restrictions": [
@@ -82,12 +82,12 @@
                 {
                     "name": "Custodian Warden",
                     "amount": 5,
-                    "cost": 300
+                    "cost": 275
                 },
                 {
                     "name": "Custodian Warden",
                     "amount": 4,
-                    "cost": 150
+                    "cost": 220
                 }
             ],
             "restrictions": [
@@ -137,22 +137,22 @@
                 {
                     "name": "Allarus Custodian",
                     "amount": 6,
-                    "cost": 390
+                    "cost": 420
                 },
                 {
                     "name": "Allarus Custodian",
                     "amount": 5,
-                    "cost": 325
+                    "cost": 350
                 },
                 {
                     "name": "Allarus Custodian",
                     "amount": 3,
-                    "cost": 195
+                    "cost": 210
                 },
                 {
                     "name": "Allarus Custodian",
                     "amount": 2,
-                    "cost": 130
+                    "cost": 140
                 }
             ],
             "restrictions": [
@@ -198,12 +198,12 @@
                 {
                     "name": "Vertus Praetor",
                     "amount": 3,
-                    "cost": 270
+                    "cost": 240
                 },
                 {
                     "name": "Vertus Praetor",
                     "amount": 2,
-                    "cost": 180
+                    "cost": 160
                 }
             ],
             "restrictions": [
@@ -303,22 +303,22 @@
                 {
                     "name": "Vigilator, Vigilator Sister Superior",
                     "amount": 10,
-                    "cost": 150
+                    "cost": 130
                 },
                 {
                     "name": "Vigilator, Vigilator Sister Superior",
                     "amount": 9,
-                    "cost": 135
+                    "cost": 115
                 },
                 {
                     "name": "Vigilator, Vigilator Sister Superior",
                     "amount": 5,
-                    "cost": 75
+                    "cost": 65
                 },
                 {
                     "name": "Vigilator, Vigilator Sister Superior",
                     "amount": 4,
-                    "cost": 60
+                    "cost": 50
                 }
             ],
             "restrictions": [
@@ -354,22 +354,22 @@
                 {
                     "name": "Witchseeker, Witchseeker Sister Superior",
                     "amount": 10,
-                    "cost": 150
+                    "cost": 125
                 },
                 {
                     "name": "Witchseeker, Witchseeker Sister Superior",
                     "amount": 9,
-                    "cost": 135
+                    "cost": 115
                 },
                 {
                     "name": "Witchseeker, Witchseeker Sister Superior",
                     "amount": 5,
-                    "cost": 75
+                    "cost": 65
                 },
                 {
                     "name": "Witchseeker, Witchseeker Sister Superior",
                     "amount": 4,
-                    "cost": 60
+                    "cost": 50
                 }
             ],
             "restrictions": [
@@ -404,7 +404,7 @@
             "models": [
                 {
                     "name": "Shield-captain",
-                    "points": 120,
+                    "points": 140,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -475,7 +475,7 @@
             "models": [
                 {
                     "name": "Blade Champion",
-                    "points": 100,
+                    "points": 120,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -609,7 +609,7 @@
             "models": [
                 {
                     "name": "Shield-captain in Allarus Terminator Armour",
-                    "points": 120,
+                    "points": 140,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -674,7 +674,7 @@
             "models": [
                 {
                     "name": "Shield-captain on Dawneagle Jetbike",
-                    "points": 145,
+                    "points": 180,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -739,7 +739,7 @@
             "models": [
                 {
                     "name": "Trajan Valoris",
-                    "points": 145,
+                    "points": 160,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -818,7 +818,7 @@
             "models": [
                 {
                     "name": "Venerable Land Raider",
-                    "points": 260,
+                    "points": 240,
                     "gearset": [
                         {
                             "type": "text",
@@ -860,7 +860,7 @@
                 {
                     "name": "Custodian Guard",
                     "amount": 5,
-                    "cost": 325
+                    "cost": 300
                 }
             ],
             "restrictions": [
@@ -894,29 +894,29 @@
             ]
         },
         {
-            "id": "w40k.10e.cst.unit.saggitarumCustodians",
+            "id": "w40k.10e.cst.unit.sagittarumCustodians",
             "type": "unit",
             "rulesetId": "w40k.10e.cst",
-            "name": "Saggitarum Custodians",
+            "name": "Sagittarum Custodians",
             "role": "INFANTRY",
             "points": [
                 {
-                    "name": "Saggitarum Custodian",
+                    "name": "Sagittarum Custodian",
                     "amount": 5,
-                    "cost": 250
+                    "cost": 225
                 }
             ],
             "restrictions": [
                 {
                     "type": "model",
-                    "name": "Saggitarum Custodian",
+                    "name": "Sagittarum Custodian",
                     "min": 5,
                     "max": 5
                 }
             ],
             "blueprints": [
                 {
-                    "name": "Saggitarum Custodian"
+                    "name": "Sagittarum Custodian"
                 }
             ]
         },
@@ -930,12 +930,12 @@
                 {
                     "name": "Aquilon Custodian",
                     "amount": 6,
-                    "cost": 460
+                    "cost": 420
                 },
                 {
                     "name": "Aquilon Custodian",
                     "amount": 3,
-                    "cost": 230
+                    "cost": 210
                 }
             ],
             "restrictions": [
@@ -994,7 +994,7 @@
             "models": [
                 {
                     "name": "Contemptor-Achillus Dreadnought",
-                    "points": 155,
+                    "points": 165,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1042,12 +1042,12 @@
                 {
                     "name": "Agamatus Custodian",
                     "amount": 6,
-                    "cost": 560
+                    "cost": 480
                 },
                 {
                     "name": "Agamatus Custodian",
                     "amount": 3,
-                    "cost": 280
+                    "cost": 240
                 }
             ],
             "restrictions": [
@@ -1093,12 +1093,12 @@
                 {
                     "name": "Venatari Custodian",
                     "amount": 6,
-                    "cost": 470
+                    "cost": 400
                 },
                 {
                     "name": "Venatari Custodian",
                     "amount": 3,
-                    "cost": 235
+                    "cost": 200
                 }
             ],
             "restrictions": [

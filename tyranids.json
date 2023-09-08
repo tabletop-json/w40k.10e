@@ -56,7 +56,7 @@
             "models": [
                 {
                     "name": "Winged Hive Tyrant",
-                    "points": 190,
+                    "points": 210,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -106,7 +106,7 @@
                                 },
                                 {
                                     "name": "Synaptic Linchpin",
-                                    "points": 10
+                                    "points": 20
                                 },
                                 {
                                     "name": "Adaptive Biology",
@@ -272,7 +272,7 @@
             "models": [
                 {
                     "name": "Hive Tyrant",
-                    "points": 215,
+                    "points": 235,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -339,7 +339,7 @@
                                 },
                                 {
                                     "name": "Synaptic Linchpin",
-                                    "points": 10
+                                    "points": 20
                                 },
                                 {
                                     "name": "Adaptive Biology",
@@ -505,7 +505,7 @@
             "models": [
                 {
                     "name": "The Swarmlord",
-                    "points": 250,
+                    "points": 270,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -557,7 +557,7 @@
                                 },
                                 {
                                     "name": "Synaptic Linchpin",
-                                    "points": 10
+                                    "points": 20
                                 },
                                 {
                                     "name": "Adaptive Biology",
@@ -753,7 +753,7 @@
                                 },
                                 {
                                     "name": "Synaptic Linchpin",
-                                    "points": 10
+                                    "points": 20
                                 },
                                 {
                                     "name": "Adaptive Biology",
@@ -963,7 +963,7 @@
                                 },
                                 {
                                     "name": "Synaptic Linchpin",
-                                    "points": 10
+                                    "points": 20
                                 },
                                 {
                                     "name": "Adaptive Biology",
@@ -1243,12 +1243,12 @@
                 {
                     "name": "Tyranid Warrior, Tyranid Prime",
                     "amount": 6,
-                    "cost": 190
+                    "cost": 170
                 },
                 {
                     "name": "Tyranid Warrior, Tyranid Prime",
                     "amount": 3,
-                    "cost": 95
+                    "cost": 85
                 }
             ],
             "restrictions": [
@@ -1344,12 +1344,12 @@
                 {
                     "name": "Hormagaunt",
                     "amount": 20,
-                    "cost": 140
+                    "cost": 130
                 },
                 {
                     "name": "Hormagaunt",
                     "amount": 10,
-                    "cost": 70
+                    "cost": 65
                 }
             ],
             "restrictions": [
@@ -1407,7 +1407,7 @@
             "models": [
                 {
                     "name": "Toxicrene",
-                    "points": 200
+                    "points": 180
                 }
             ]
         },
@@ -1501,7 +1501,7 @@
                                 },
                                 {
                                     "name": "Synaptic Linchpin",
-                                    "points": 10
+                                    "points": 20
                                 },
                                 {
                                     "name": "Adaptive Biology",
@@ -1667,7 +1667,7 @@
             "models": [
                 {
                     "name": "Lictor",
-                    "points": 70
+                    "points": 60
                 }
             ]
         },
@@ -1680,7 +1680,7 @@
             "models": [
                 {
                     "name": "Deathleaper",
-                    "points": 75,
+                    "points": 70,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1702,7 +1702,7 @@
             "models": [
                 {
                     "name": "Maleceptor",
-                    "points": 160
+                    "points": 170
                 }
             ]
         },
@@ -1871,12 +1871,12 @@
                 {
                     "name": "Zoanthrope, Neurothrope",
                     "amount": 6,
-                    "cost": 180
+                    "cost": 220
                 },
                 {
                     "name": "Zoanthrope, Neurothrope",
                     "amount": 3,
-                    "cost": 90
+                    "cost": 110
                 }
             ],
             "restrictions": [
@@ -1912,12 +1912,12 @@
                 {
                     "name": "Genestealer",
                     "amount": 10,
-                    "cost": 190
+                    "cost": 170
                 },
                 {
                     "name": "Genestealer",
                     "amount": 5,
-                    "cost": 95
+                    "cost": 85
                 }
             ],
             "restrictions": [
@@ -1992,17 +1992,17 @@
                 {
                     "name": "Ripper Swarm",
                     "amount": 3,
-                    "cost": 45
+                    "cost": 60
                 },
                 {
                     "name": "Ripper Swarm",
                     "amount": 2,
-                    "cost": 30
+                    "cost": 40
                 },
                 {
                     "name": "Ripper Swarm",
                     "amount": 1,
-                    "cost": 15
+                    "cost": 20
                 }
             ],
             "restrictions": [
@@ -2037,7 +2037,7 @@
             "models": [
                 {
                     "name": "Parasite of Mortrex",
-                    "points": 90,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2067,7 +2067,7 @@
                                 },
                                 {
                                     "name": "Synaptic Linchpin",
-                                    "points": 10
+                                    "points": 20
                                 },
                                 {
                                     "name": "Adaptive Biology",
@@ -2260,12 +2260,12 @@
                 {
                     "name": "Mucolid Spore",
                     "amount": 2,
-                    "cost": 80
+                    "cost": 100
                 },
                 {
                     "name": "Mucolid Spore",
                     "amount": 1,
-                    "cost": 40
+                    "cost": 50
                 }
             ],
             "restrictions": [
@@ -2292,12 +2292,12 @@
                 {
                     "name": "Spore Mine",
                     "amount": 6,
-                    "cost": 80
+                    "cost": 110
                 },
                 {
                     "name": "Spore Mine",
                     "amount": 3,
-                    "cost": 40
+                    "cost": 55
                 }
             ],
             "restrictions": [
@@ -2337,17 +2337,17 @@
                 {
                     "name": "Biovore",
                     "amount": 3,
-                    "cost": 135
+                    "cost": 225
                 },
                 {
                     "name": "Biovore",
                     "amount": 2,
-                    "cost": 90
+                    "cost": 150
                 },
                 {
                     "name": "Biovore",
                     "amount": 1,
-                    "cost": 45
+                    "cost": 75
                 }
             ],
             "restrictions": [
@@ -2467,7 +2467,7 @@
             "models": [
                 {
                     "name": "Screamer-Killer",
-                    "points": 175
+                    "points": 170
                 }
             ]
         },
@@ -2481,12 +2481,12 @@
                 {
                     "name": "Hive Guard",
                     "amount": 6,
-                    "cost": 190
+                    "cost": 220
                 },
                 {
                     "name": "Hive Guard",
                     "amount": 3,
-                    "cost": 95
+                    "cost": 110
                 }
             ],
             "restrictions": [
@@ -2528,7 +2528,7 @@
             "models": [
                 {
                     "name": "Tyrannofex",
-                    "points": 190,
+                    "points": 245,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2586,7 +2586,7 @@
             "models": [
                 {
                     "name": "Harpy",
-                    "points": 165,
+                    "points": 215,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2642,12 +2642,12 @@
                 {
                     "name": "Barbgaunt",
                     "amount": 10,
-                    "cost": 110
+                    "cost": 120
                 },
                 {
                     "name": "Barbgaunt",
                     "amount": 5,
-                    "cost": 55
+                    "cost": 60
                 }
             ],
             "restrictions": [
@@ -2673,7 +2673,7 @@
             "models": [
                 {
                     "name": "Norn Emissary",
-                    "points": 285
+                    "points": 290
                 }
             ]
         },
@@ -2686,7 +2686,7 @@
             "models": [
                 {
                     "name": "Norn Assimilator",
-                    "points": 305
+                    "points": 310
                 }
             ]
         },
@@ -2699,7 +2699,7 @@
             "models": [
                 {
                     "name": "Neurolictor",
-                    "points": 60
+                    "points": 65
                 }
             ]
         },
@@ -2712,7 +2712,7 @@
             "models": [
                 {
                     "name": "Barbed Hierodule",
-                    "points": 305
+                    "points": 340
                 }
             ]
         },
@@ -2725,7 +2725,7 @@
             "models": [
                 {
                     "name": "Scythed Hierodule",
-                    "points": 305
+                    "points": 330
                 }
             ]
         },
@@ -2738,7 +2738,7 @@
             "models": [
                 {
                     "name": "Harridan",
-                    "points": 655
+                    "points": 610
                 }
             ]
         },
