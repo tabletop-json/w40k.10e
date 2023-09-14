@@ -615,11 +615,15 @@
                                 },
                                 {
                                     "name": "Twin Concussion Gauntlet"
-                                },
-                                {
-                                    "name": "Mole Grenade Launcher"
                                 }
                             ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Mole Grenade Launcher"
+                            },
+                            "selected": false
                         }
                     ]
                 }
