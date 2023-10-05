@@ -24,14 +24,14 @@
     ],
     "units": [
         {
-            "id": "w40k.10e.da.unit.primarisCaptain",
+            "id": "w40k.10e.da.unit.captain",
             "type": "unit",
             "rulesetId": "w40k.10e.da",
-            "name": "Primaris Captain",
+            "name": "Captain",
             "role": "CHARACTER",
             "models": [
                 {
-                    "name": "Primaris Captain",
+                    "name": "Captain",
                     "points": 80,
                     "gearset": [
                         {
@@ -88,8 +88,8 @@
                                     "points": 20
                                 },
                                 {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
+                                    "name": "Fire Discipline",
+                                    "points": 30
                                 }
                             ]
                         },
@@ -119,6 +119,57 @@
                                 {
                                     "name": "Pennant of Remembrance",
                                     "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.da.unit.captainJumpPack",
+            "type": "unit",
+            "rulesetId": "w40k.10e.da",
+            "name": "Captain with Jump Pack",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Captain with Jump Pack",
+                    "points": 85,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.gladius",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Artificer Armour",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "The Honour Vehement",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Adept of the Codex",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fire Discipline",
+                                    "points": 30
                                 }
                             ]
                         }
@@ -188,8 +239,8 @@
                                     "points": 20
                                 },
                                 {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
+                                    "name": "Fire Discipline",
+                                    "points": 30
                                 }
                             ]
                         },
@@ -268,8 +319,8 @@
                                     "points": 20
                                 },
                                 {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
+                                    "name": "Fire Discipline",
+                                    "points": 30
                                 }
                             ]
                         },
@@ -417,613 +468,8 @@
                                     "points": 20
                                 },
                                 {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Shroud of Heroes",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Stubborn Tenacity",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.da.unit.captain",
-            "type": "unit",
-            "rulesetId": "w40k.10e.da",
-            "name": "Captain",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Captain",
-                    "points": 80,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Master-crafted Boltgun"
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Master-crafted Boltgun"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                },
-                                {
-                                    "name": "Grav-pistol"
-                                },
-                                {
-                                    "name": "Hand Flamer"
-                                },
-                                {
-                                    "name": "Inferno Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Relic Shield"
-                                },
-                                {
-                                    "name": "Relic Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Astartes Chainsword"
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Close Combat Weapon, Relic Shield"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Relic Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Twin Lightning Claws"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.da.dt.gladius",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Artificer Armour",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "The Honour Vehement",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Adept of the Codex",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Shroud of Heroes",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Stubborn Tenacity",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.da.unit.captainJumpPack",
-            "type": "unit",
-            "rulesetId": "w40k.10e.da",
-            "name": "Captain with Jump Pack",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Captain",
-                    "points": 80,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Master-crafted Boltgun"
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Master-crafted Boltgun"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                },
-                                {
-                                    "name": "Grav-pistol"
-                                },
-                                {
-                                    "name": "Hand Flamer"
-                                },
-                                {
-                                    "name": "Inferno Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Relic Shield"
-                                },
-                                {
-                                    "name": "Relic Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Astartes Chainsword"
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Close Combat Weapon, Relic Shield"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Relic Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Twin Lightning Claws"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.da.dt.gladius",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Artificer Armour",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "The Honour Vehement",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Adept of the Codex",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Shroud of Heroes",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Stubborn Tenacity",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.da.unit.captainBike",
-            "type": "unit",
-            "rulesetId": "w40k.10e.da",
-            "name": "Captain on Bike",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Captain on Bike",
-                    "points": 95,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Master-crafted Boltgun"
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Master-crafted Boltgun"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                },
-                                {
-                                    "name": "Grav-pistol"
-                                },
-                                {
-                                    "name": "Hand Flamer"
-                                },
-                                {
-                                    "name": "Inferno Pistol"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Relic Shield"
-                                },
-                                {
-                                    "name": "Relic Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Astartes Chainsword"
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Close Combat Weapon, Relic Shield"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Relic Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Twin Lightning Claws"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.da.dt.gladius",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Artificer Armour",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "The Honour Vehement",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Adept of the Codex",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Shroud of Heroes",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Stubborn Tenacity",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.da.unit.primarisLieutenant",
-            "type": "unit",
-            "rulesetId": "w40k.10e.da",
-            "name": "Primaris Lieutenant",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Primaris Lieutenant",
-                    "points": 75,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Master-crafted Bolt Rifle"
-                            },
-                            "options": [
-                                {
-                                    "name": "Master-crafted Bolt Rifle"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Master-crafted Power Weapon"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Heavy Bolt Pistol"
-                                },
-                                {
-                                    "name": "Neo-volkite Pistol"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Close Combat Weapon"
-                            },
-                            "options": [
-                                {
-                                    "name": "Close Combat Weapon"
-                                },
-                                {
-                                    "name": "Master-crafted Power Weapon"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Storm Shield"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.da.dt.gladius",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Artificer Armour",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "The Honour Vehement",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Adept of the Codex",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
+                                    "name": "Fire Discipline",
+                                    "points": 30
                                 }
                             ]
                         },
@@ -1069,7 +515,7 @@
             "models": [
                 {
                     "name": "Lieutenant in Reiver Armour",
-                    "points": 60,
+                    "points": 55,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1102,8 +548,8 @@
                                     "points": 20
                                 },
                                 {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
+                                    "name": "Fire Discipline",
+                                    "points": 30
                                 }
                             ]
                         },
@@ -1149,7 +595,7 @@
             "models": [
                 {
                     "name": "Lieutenant in Phobos Armour",
-                    "points": 60,
+                    "points": 55,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1182,8 +628,8 @@
                                     "points": 20
                                 },
                                 {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
+                                    "name": "Fire Discipline",
+                                    "points": 30
                                 }
                             ]
                         },
@@ -1229,7 +675,7 @@
             "models": [
                 {
                     "name": "Lieutenant",
-                    "points": 80,
+                    "points": 65,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1330,88 +776,8 @@
                                     "points": 20
                                 },
                                 {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Shroud of Heroes",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Stubborn Tenacity",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.da.unit.primarisLibrarian",
-            "type": "unit",
-            "rulesetId": "w40k.10e.da",
-            "name": "Primaris Librarian",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Primaris Librarian",
-                    "points": 70,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.da.dt.gladius",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Artificer Armour",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "The Honour Vehement",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Adept of the Codex",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
+                                    "name": "Fire Discipline",
+                                    "points": 30
                                 }
                             ]
                         },
@@ -1457,7 +823,7 @@
             "models": [
                 {
                     "name": "Librarian in Phobos Armour",
-                    "points": 75,
+                    "points": 70,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1490,8 +856,8 @@
                                     "points": 20
                                 },
                                 {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
+                                    "name": "Fire Discipline",
+                                    "points": 30
                                 }
                             ]
                         },
@@ -1537,7 +903,7 @@
             "models": [
                 {
                     "name": "Librarian in Terminator Armour",
-                    "points": 90,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1587,8 +953,8 @@
                                     "points": 20
                                 },
                                 {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
+                                    "name": "Fire Discipline",
+                                    "points": 30
                                 }
                             ]
                         },
@@ -1634,7 +1000,7 @@
             "models": [
                 {
                     "name": "Librarian",
-                    "points": 75,
+                    "points": 65,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1699,88 +1065,8 @@
                                     "points": 20
                                 },
                                 {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Shroud of Heroes",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Stubborn Tenacity",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.da.unit.primarisChaplain",
-            "type": "unit",
-            "rulesetId": "w40k.10e.da",
-            "name": "Primaris Chaplain",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Primaris Chaplain",
-                    "points": 65,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.da.dt.gladius",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Artificer Armour",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "The Honour Vehement",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Adept of the Codex",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
+                                    "name": "Fire Discipline",
+                                    "points": 30
                                 }
                             ]
                         },
@@ -1825,8 +1111,8 @@
             "role": "CHARACTER",
             "models": [
                 {
-                    "name": "Chaplain in Terminator Armour",
-                    "points": 90,
+                    "name": "Chaplain with Jump Pack",
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1873,8 +1159,8 @@
                                     "points": 20
                                 },
                                 {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
+                                    "name": "Fire Discipline",
+                                    "points": 30
                                 }
                             ]
                         },
@@ -1920,7 +1206,7 @@
             "models": [
                 {
                     "name": "Chaplain on Bike",
-                    "points": 80,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1953,8 +1239,8 @@
                                     "points": 20
                                 },
                                 {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
+                                    "name": "Fire Discipline",
+                                    "points": 30
                                 }
                             ]
                         },
@@ -2000,7 +1286,7 @@
             "models": [
                 {
                     "name": "Chaplain",
-                    "points": 70,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2068,8 +1354,8 @@
                                     "points": 20
                                 },
                                 {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
+                                    "name": "Fire Discipline",
+                                    "points": 30
                                 }
                             ]
                         },
@@ -2115,7 +1401,7 @@
             "models": [
                 {
                     "name": "Chaplain with Jump Pack",
-                    "points": 85,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2183,88 +1469,8 @@
                                     "points": 20
                                 },
                                 {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Shroud of Heroes",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Stubborn Tenacity",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.da.unit.primarisTechmarine",
-            "type": "unit",
-            "rulesetId": "w40k.10e.da",
-            "name": "Primaris Techmarine",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Primaris Techmarine",
-                    "points": 65,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.da.dt.gladius",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Artificer Armour",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "The Honour Vehement",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Adept of the Codex",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
+                                    "name": "Fire Discipline",
+                                    "points": 30
                                 }
                             ]
                         },
@@ -2310,7 +1516,7 @@
             "models": [
                 {
                     "name": "Techmarine",
-                    "points": 65,
+                    "points": 55,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2413,8 +1619,8 @@
                                     "points": 20
                                 },
                                 {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
+                                    "name": "Fire Discipline",
+                                    "points": 30
                                 }
                             ]
                         },
@@ -2764,118 +1970,6 @@
             ]
         },
         {
-            "id": "w40k.10e.da.unit.librarianJumpPack",
-            "type": "unit",
-            "rulesetId": "w40k.10e.da",
-            "name": "Librarian with Jump Pack",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Librarian with Jump Pack",
-                    "points": 75,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                },
-                                {
-                                    "name": "Grav-pistol"
-                                },
-                                {
-                                    "name": "Hand Flamer"
-                                },
-                                {
-                                    "name": "Inferno Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.da.dt.gladius",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Artificer Armour",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "The Honour Vehement",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Adept of the Codex",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Shroud of Heroes",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Stubborn Tenacity",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "id": "w40k.10e.da.unit.lieutenantCombiWeapon",
             "type": "unit",
             "rulesetId": "w40k.10e.da",
@@ -2917,8 +2011,8 @@
                                     "points": 20
                                 },
                                 {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
+                                    "name": "Fire Discipline",
+                                    "points": 30
                                 }
                             ]
                         },
@@ -3308,12 +2402,12 @@
                 {
                     "name": "Scout, Scout Sergeant",
                     "amount": 10,
-                    "cost": 130
+                    "cost": 110
                 },
                 {
                     "name": "Scout, Scout Sergeant",
                     "amount": 5,
-                    "cost": 65
+                    "cost": 55
                 }
             ],
             "restrictions": [
@@ -3455,143 +2549,6 @@
             ]
         },
         {
-            "id": "w40k.10e.da.unit.scoutSniperSquad",
-            "type": "unit",
-            "rulesetId": "w40k.10e.da",
-            "name": "Scout Sniper Squad",
-            "role": "INFANTRY",
-            "points": [
-                {
-                    "name": "Scout Sniper, Scout Sniper Sergeant",
-                    "amount": 10,
-                    "cost": 150
-                },
-                {
-                    "name": "Scout Sniper, Scout Sniper Sergeant",
-                    "amount": 5,
-                    "cost": 75
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Scout Sniper",
-                    "min": 4,
-                    "max": 9
-                },
-                {
-                    "type": "model",
-                    "name": "Scout Sniper Sergeant",
-                    "min": 1,
-                    "max": 1
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Scout Sniper",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Sniper Rifle"
-                            },
-                            "options": [
-                                {
-                                    "name": "Sniper Rifle"
-                                },
-                                {
-                                    "name": "Missile Launcher"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Scout Sniper Sergeant"
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.da.unit.primarisCompanyChampion",
-            "type": "unit",
-            "rulesetId": "w40k.10e.da",
-            "name": "Primaris Company Champion",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Primaris Company Champion",
-                    "points": 55,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.da.dt.gladius",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Artificer Armour",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "The Honour Vehement",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Adept of the Codex",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Shroud of Heroes",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Stubborn Tenacity",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "id": "w40k.10e.da.unit.apothecary",
             "type": "unit",
             "rulesetId": "w40k.10e.da",
@@ -3633,8 +2590,8 @@
                                     "points": 20
                                 },
                                 {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
+                                    "name": "Fire Discipline",
+                                    "points": 30
                                 }
                             ]
                         },
@@ -3713,8 +2670,8 @@
                                     "points": 20
                                 },
                                 {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
+                                    "name": "Fire Discipline",
+                                    "points": 30
                                 }
                             ]
                         },
@@ -3807,8 +2764,8 @@
                                     "points": 20
                                 },
                                 {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
+                                    "name": "Fire Discipline",
+                                    "points": 30
                                 }
                             ]
                         },
@@ -3887,8 +2844,8 @@
                                     "points": 20
                                 },
                                 {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
+                                    "name": "Fire Discipline",
+                                    "points": 30
                                 }
                             ]
                         },
@@ -3996,8 +2953,8 @@
                                     "points": 20
                                 },
                                 {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
+                                    "name": "Fire Discipline",
+                                    "points": 30
                                 }
                             ]
                         },
@@ -4084,436 +3041,6 @@
                                 },
                                 {
                                     "name": "Neo-volkite Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.da.unit.commandSquad",
-            "type": "unit",
-            "rulesetId": "w40k.10e.da",
-            "name": "Command Squad",
-            "role": "INFANTRY",
-            "points": [
-                {
-                    "name": "Apothecary, Company Ancient, Company Champion, Company Veteran",
-                    "amount": 5,
-                    "cost": 165
-                }
-            ],
-            "models": [
-                {
-                    "name": "Apothecary",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Hand Flamer"
-                                },
-                                {
-                                    "name": "Grav-pistol"
-                                },
-                                {
-                                    "name": "Inferno Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Company Ancient",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Hand Flamer"
-                                },
-                                {
-                                    "name": "Grav-pistol"
-                                },
-                                {
-                                    "name": "Inferno Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Company Champion",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Hand Flamer"
-                                },
-                                {
-                                    "name": "Grav-pistol"
-                                },
-                                {
-                                    "name": "Inferno Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Company Veteran",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Hand Flamer"
-                                },
-                                {
-                                    "name": "Grav-pistol"
-                                },
-                                {
-                                    "name": "Inferno Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Astartes Shield"
-                                },
-                                {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Boltgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Astartes Shield"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                },
-                                {
-                                    "name": "Flamer"
-                                },
-                                {
-                                    "name": "Heavy Bolter"
-                                },
-                                {
-                                    "name": "Heavy Flamer"
-                                },
-                                {
-                                    "name": "Grav-cannon"
-                                },
-                                {
-                                    "name": "Grav-gun"
-                                },
-                                {
-                                    "name": "Lascannon"
-                                },
-                                {
-                                    "name": "Meltagun"
-                                },
-                                {
-                                    "name": "Missile Launcher"
-                                },
-                                {
-                                    "name": "Multi-melta"
-                                },
-                                {
-                                    "name": "Plasma Cannon"
-                                },
-                                {
-                                    "name": "Plasma Gun"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Twin Lightning Claws"
-                            },
-                            "selected": false
-                        }
-                    ]
-                },
-                {
-                    "name": "Company Veteran",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Hand Flamer"
-                                },
-                                {
-                                    "name": "Grav-pistol"
-                                },
-                                {
-                                    "name": "Inferno Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Astartes Shield"
-                                },
-                                {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Boltgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Astartes Shield"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                },
-                                {
-                                    "name": "Flamer"
-                                },
-                                {
-                                    "name": "Heavy Bolter"
-                                },
-                                {
-                                    "name": "Heavy Flamer"
-                                },
-                                {
-                                    "name": "Grav-cannon"
-                                },
-                                {
-                                    "name": "Grav-gun"
-                                },
-                                {
-                                    "name": "Lascannon"
-                                },
-                                {
-                                    "name": "Meltagun"
-                                },
-                                {
-                                    "name": "Missile Launcher"
-                                },
-                                {
-                                    "name": "Multi-melta"
-                                },
-                                {
-                                    "name": "Plasma Cannon"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Twin Lightning Claws"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.da.unit.vanguardVeteranSquad",
-            "type": "unit",
-            "rulesetId": "w40k.10e.da",
-            "name": "Vanguard Veteran Squad",
-            "role": "INFANTRY",
-            "points": [
-                {
-                    "name": "Vanguard Veteran, Vanguard Veteran Sergeant",
-                    "amount": 10,
-                    "cost": 240
-                },
-                {
-                    "name": "Vanguard Veteran, Vanguard Veteran Sergeant",
-                    "amount": 5,
-                    "cost": 120
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Vanguard Veteran",
-                    "min": 4,
-                    "max": 9
-                },
-                {
-                    "type": "model",
-                    "name": "Vanguard Veteran Sergeant",
-                    "min": 1,
-                    "max": 1
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Vanguard Veteran",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Storm Shield"
-                                },
-                                {
-                                    "name": "Grav-pistol"
-                                },
-                                {
-                                    "name": "Hand Flamer"
-                                },
-                                {
-                                    "name": "Inferno Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Vanguard Veteran Sergeant",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Storm Shield"
-                                },
-                                {
-                                    "name": "Grav-pistol"
-                                },
-                                {
-                                    "name": "Hand Flamer"
-                                },
-                                {
-                                    "name": "Inferno Pistol"
                                 },
                                 {
                                     "name": "Plasma Pistol"
@@ -4631,12 +3158,12 @@
                 {
                     "name": "Sternguard Veteran, Sternguard Veteran Sergeant",
                     "amount": 10,
-                    "cost": 220
+                    "cost": 200
                 },
                 {
                     "name": "Sternguard Veteran, Sternguard Veteran Sergeant",
                     "amount": 5,
-                    "cost": 110
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -4706,7 +3233,7 @@
             "models": [
                 {
                     "name": "Judiciar",
-                    "points": 75,
+                    "points": 70,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -4739,8 +3266,8 @@
                                     "points": 20
                                 },
                                 {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
+                                    "name": "Fire Discipline",
+                                    "points": 30
                                 }
                             ]
                         },
@@ -4954,12 +3481,12 @@
                 {
                     "name": "Assault Terminator, Assault Terminator Sergeant",
                     "amount": 10,
-                    "cost": 410
+                    "cost": 390
                 },
                 {
                     "name": "Assault Terminator, Assault Terminator Sergeant",
                     "amount": 5,
-                    "cost": 205
+                    "cost": 195
                 }
             ],
             "restrictions": [
@@ -5027,12 +3554,12 @@
                 {
                     "name": "Terminator, Terminator Sergeant",
                     "amount": 10,
-                    "cost": 380
+                    "cost": 370
                 },
                 {
                     "name": "Terminator, Terminator Sergeant",
                     "amount": 5,
-                    "cost": 190
+                    "cost": 185
                 }
             ],
             "restrictions": [
@@ -5125,165 +3652,6 @@
                                     "name": "Chainfist"
                                 }
                             ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.da.unit.relicTerminatorSquad",
-            "type": "unit",
-            "rulesetId": "w40k.10e.da",
-            "name": "Relic Terminator Squad",
-            "role": "INFANTRY",
-            "points": [
-                {
-                    "name": "Relic Terminator, Relic Terminator Sergeant",
-                    "amount": 10,
-                    "cost": 400
-                },
-                {
-                    "name": "Relic Terminator, Relic Terminator Sergeant",
-                    "amount": 5,
-                    "cost": 200
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Relic Terminator",
-                    "min": 4,
-                    "max": 9
-                },
-                {
-                    "type": "model",
-                    "name": "Relic Terminator Sergeant",
-                    "min": 1,
-                    "max": 1
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Relic Terminator",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Combi-bolter"
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Combi-bolter"
-                                },
-                                {
-                                    "name": "Heavy Flamer"
-                                },
-                                {
-                                    "name": "Reaper Autocannon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Power Fist"
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Chainfist"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Twin Lightning Claws"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Grenade Harness"
-                            },
-                            "selected": false
-                        }
-                    ]
-                },
-                {
-                    "name": "Relic Terminator Sergeant",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Combi-bolter"
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Combi-bolter"
-                                },
-                                {
-                                    "name": "Heavy Flamer"
-                                },
-                                {
-                                    "name": "Reaper Autocannon"
-                                },
-                                {
-                                    "name": "Plasma Blaster"
-                                },
-                                {
-                                    "name": "Volkite Charger"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Power Fist"
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Chainfist"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Twin Lightning Claws"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Grenade Harness"
-                            },
-                            "selected": false
                         }
                     ]
                 }
@@ -5506,7 +3874,7 @@
             "models": [
                 {
                     "name": "Invictor Warsuit",
-                    "points": 150,
+                    "points": 140,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -5579,116 +3947,6 @@
             ]
         },
         {
-            "id": "w40k.10e.da.unit.contemptorDreadnought",
-            "type": "unit",
-            "rulesetId": "w40k.10e.da",
-            "name": "Contemptor Dreadnought",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Contemptor Dreadnought",
-                    "points": 170,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Multi-melta"
-                            },
-                            "options": [
-                                {
-                                    "name": "Multi-melta"
-                                },
-                                {
-                                    "name": "Kheres-pattern Assault Cannon"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.da.unit.ironcladDreadnought",
-            "type": "unit",
-            "rulesetId": "w40k.10e.da",
-            "name": "Ironclad Dreadnought",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Ironclad Dreadnought",
-                    "points": 150,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Seismic Hammer"
-                            },
-                            "options": [
-                                {
-                                    "name": "Seismic Hammer"
-                                },
-                                {
-                                    "name": "Dreadnought Chainfist"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Dreadnought Combat Weapon, Storm Bolter"
-                            },
-                            "options": [
-                                {
-                                    "name": "Dreadnought Combat Weapon, Storm Bolter"
-                                },
-                                {
-                                    "name": "Dreadnought Combat Weapon, Heavy Flamer"
-                                },
-                                {
-                                    "name": "Hurricane Bolter"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Meltagun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Meltagun"
-                                },
-                                {
-                                    "name": "Heavy Flamer"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Hunter-killer Missile"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Hunter-killer Missile"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Ironclad Assault Launchers"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "id": "w40k.10e.da.unit.redemptorDreadnought",
             "type": "unit",
             "rulesetId": "w40k.10e.da",
@@ -5697,7 +3955,7 @@
             "models": [
                 {
                     "name": "Redemptor Dreadnought",
-                    "points": 210,
+                    "points": 200,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -5818,12 +4076,12 @@
                 {
                     "name": "Outrider, Outrider Sergeant",
                     "amount": 6,
-                    "cost": 210
+                    "cost": 190
                 },
                 {
                     "name": "Outrider, Outrider Sergeant",
                     "amount": 3,
-                    "cost": 105
+                    "cost": 95
                 }
             ],
             "restrictions": [
@@ -5889,306 +4147,6 @@
             ]
         },
         {
-            "id": "w40k.10e.da.unit.bikeSquad",
-            "type": "unit",
-            "rulesetId": "w40k.10e.da",
-            "name": "Bike Squad",
-            "role": "MOUNTED",
-            "points": [
-                {
-                    "name": "Space Marine Biker, Biker Sergeant",
-                    "amount": 6,
-                    "cost": 160
-                },
-                {
-                    "name": "Space Marine Biker, Biker Sergeant",
-                    "amount": 3,
-                    "cost": 80
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Space Marine Biker",
-                    "min": 2,
-                    "max": 5
-                },
-                {
-                    "type": "model",
-                    "name": "Biker Sergeant",
-                    "min": 1,
-                    "max": 1
-                },
-                {
-                    "type": "model",
-                    "name": "Attack Bike",
-                    "min": 0,
-                    "max": 1
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Attack Bike",
-                    "points": 55,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Heavy Bolter"
-                            },
-                            "options": [
-                                {
-                                    "name": "Heavy Bolter"
-                                },
-                                {
-                                    "name": "Multi-melta"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Space Marine Biker",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Flamer"
-                                },
-                                {
-                                    "name": "Grav-gun"
-                                },
-                                {
-                                    "name": "Meltagun"
-                                },
-                                {
-                                    "name": "Plasma Gun"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Biker Sergeant",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                },
-                                {
-                                    "name": "Hand Flamer"
-                                },
-                                {
-                                    "name": "Grav-pistol"
-                                },
-                                {
-                                    "name": "Inferno Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.da.unit.scoutBikeSquad",
-            "type": "unit",
-            "rulesetId": "w40k.10e.da",
-            "name": "Scout Bike Squad",
-            "role": "MOUNTED",
-            "points": [
-                {
-                    "name": "Scout Biker, Scout Biker Sergeant",
-                    "amount": 6,
-                    "cost": 150
-                },
-                {
-                    "name": "Scout Biker, Scout Biker Sergeant",
-                    "amount": 3,
-                    "cost": 75
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Scout Biker",
-                    "min": 2,
-                    "max": 5
-                },
-                {
-                    "type": "model",
-                    "name": "Scout Biker Sergeant",
-                    "min": 1,
-                    "max": 1
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Scout Biker",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Twin Boltgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Twin Boltgun"
-                                },
-                                {
-                                    "name": "Astartes Grenade Launcher"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Scout Biker Sergeant",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                },
-                                {
-                                    "name": "Hand Flamer"
-                                },
-                                {
-                                    "name": "Grav-pistol"
-                                },
-                                {
-                                    "name": "Inferno Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.da.unit.attackBike",
-            "type": "unit",
-            "rulesetId": "w40k.10e.da",
-            "name": "Attack Bike Squad",
-            "role": "MOUNTED",
-            "points": [
-                {
-                    "name": "Attack Bike",
-                    "amount": 3,
-                    "cost": 165
-                },
-                {
-                    "name": "Attack Bike",
-                    "amount": 2,
-                    "cost": 110
-                },
-                {
-                    "name": "Attack Bike",
-                    "amount": 1,
-                    "cost": 55
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Attack Bike",
-                    "min": 1,
-                    "max": 3
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Attack Bike",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Heavy Bolter"
-                            },
-                            "options": [
-                                {
-                                    "name": "Heavy Bolter"
-                                },
-                                {
-                                    "name": "Multi-melta"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "id": "w40k.10e.da.unit.suppressorSquad",
             "type": "unit",
             "rulesetId": "w40k.10e.da",
@@ -6223,12 +4181,12 @@
                 {
                     "name": "Inceptor, Inceptor Sergeant",
                     "amount": 6,
-                    "cost": 230
+                    "cost": 220
                 },
                 {
                     "name": "Inceptor, Inceptor Sergeant",
                     "amount": 3,
-                    "cost": 115
+                    "cost": 110
                 }
             ],
             "restrictions": [
@@ -6295,7 +4253,7 @@
             "models": [
                 {
                     "name": "Stormspeeder Hailstrike",
-                    "points": 140
+                    "points": 130
                 }
             ]
         },
@@ -6308,7 +4266,7 @@
             "models": [
                 {
                     "name": "Stormspeeder Thunderstrike",
-                    "points": 170
+                    "points": 160
                 }
             ]
         },
@@ -6321,108 +4279,7 @@
             "models": [
                 {
                     "name": "Stormspeeder Hammerstrike",
-                    "points": 160
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.da.unit.landSpeeder",
-            "type": "unit",
-            "rulesetId": "w40k.10e.da",
-            "name": "Land Speeder",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Land Speeder",
-                    "points": 80,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Heavy Bolter"
-                            },
-                            "options": [
-                                {
-                                    "name": "Heavy Bolter"
-                                },
-                                {
-                                    "name": "Multi-melta"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.da.unit.landSpeederTornado",
-            "type": "unit",
-            "rulesetId": "w40k.10e.da",
-            "name": "Land Speeder Tornado",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Land Speeder Tornado",
-                    "points": 95,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Heavy Bolter"
-                            },
-                            "options": [
-                                {
-                                    "name": "Heavy Bolter"
-                                },
-                                {
-                                    "name": "Multi-melta"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Assault Cannon"
-                            },
-                            "options": [
-                                {
-                                    "name": "Assault Cannon"
-                                },
-                                {
-                                    "name": "Heavy Flamer"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.da.unit.landSpeederTyphoon",
-            "type": "unit",
-            "rulesetId": "w40k.10e.da",
-            "name": "Land Speeder Typhoon",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Land Speeder Typhoon",
-                    "points": 100,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Heavy Bolter"
-                            },
-                            "options": [
-                                {
-                                    "name": "Heavy Bolter"
-                                },
-                                {
-                                    "name": "Multi-melta"
-                                }
-                            ]
-                        }
-                    ]
+                    "points": 150
                 }
             ]
         },
@@ -6871,19 +4728,6 @@
             ]
         },
         {
-            "id": "w40k.10e.da.unit.thunderfireCannon",
-            "type": "unit",
-            "rulesetId": "w40k.10e.da",
-            "name": "Thunderfire Cannon",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Thunderfire Cannon",
-                    "points": 90
-                }
-            ]
-        },
-        {
             "id": "w40k.10e.da.unit.firestrike Servo-turrets",
             "type": "unit",
             "rulesetId": "w40k.10e.da",
@@ -6893,12 +4737,12 @@
                 {
                     "name": "Firestrike Servo-turret",
                     "amount": 2,
-                    "cost": 160
+                    "cost": 150
                 },
                 {
                     "name": "Firestrike Servo-turret",
                     "amount": 1,
-                    "cost": 80
+                    "cost": 75
                 }
             ],
             "restrictions": [
@@ -6961,35 +4805,6 @@
             ]
         },
         {
-            "id": "w40k.10e.da.unit.stalker",
-            "type": "unit",
-            "rulesetId": "w40k.10e.da",
-            "name": "Stalker",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Stalker",
-                    "points": 140,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Hunter-killer Missile"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Storm Bolter"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "id": "w40k.10e.da.unit.whirlwind",
             "type": "unit",
             "rulesetId": "w40k.10e.da",
@@ -6998,7 +4813,7 @@
             "models": [
                 {
                     "name": "Whirlwind",
-                    "points": 150,
+                    "points": 145,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -7357,7 +5172,7 @@
             "models": [
                 {
                     "name": "Repulsor",
-                    "points": 195,
+                    "points": 190,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -7400,7 +5215,7 @@
             "models": [
                 {
                     "name": "Repulsor Executioner",
-                    "points": 230,
+                    "points": 220,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -7465,7 +5280,7 @@
             "models": [
                 {
                     "name": "Razorback",
-                    "points": 100,
+                    "points": 95,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -7508,7 +5323,7 @@
             "models": [
                 {
                     "name": "Impulsor",
-                    "points": 85,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -7588,19 +5403,6 @@
             ]
         },
         {
-            "id": "w40k.10e.da.unit.landSpeederStorm",
-            "type": "unit",
-            "rulesetId": "w40k.10e.da",
-            "name": "Land Speeder Storm",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Land Speeder Storm",
-                    "points": 70
-                }
-            ]
-        },
-        {
             "id": "w40k.10e.da.unit.stormhawkInterceptor",
             "type": "unit",
             "rulesetId": "w40k.10e.da",
@@ -7609,7 +5411,7 @@
             "models": [
                 {
                     "name": "Stormhawk Interceptor",
-                    "points": 165,
+                    "points": 155,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -7655,7 +5457,7 @@
             "models": [
                 {
                     "name": "Stormtalon Gunship",
-                    "points": 175,
+                    "points": 165,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -7690,7 +5492,7 @@
             "models": [
                 {
                     "name": "Stormraven Gunship",
-                    "points": 255,
+                    "points": 240,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -7749,7 +5551,7 @@
             "models": [
                 {
                     "name": "Hammerfall Bunker",
-                    "points": 210,
+                    "points": 175,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -8014,8 +5816,8 @@
                                     "points": 20
                                 },
                                 {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
+                                    "name": "Fire Discipline",
+                                    "points": 30
                                 }
                             ]
                         },
@@ -8184,8 +5986,8 @@
                                     "points": 20
                                 },
                                 {
-                                    "name": "Bolter Discipline",
-                                    "points": 25
+                                    "name": "Fire Discipline",
+                                    "points": 30
                                 }
                             ]
                         },
