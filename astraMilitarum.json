@@ -155,7 +155,7 @@
             "type": "unit",
             "rulesetId": "w40k.10e.am",
             "name": "Tank Commander",
-            "role": "VEHICLE",
+            "role": "CHARACTER",
             "models": [
                 {
                     "name": "Tank Commander",
@@ -1015,7 +1015,7 @@
             "type": "unit",
             "rulesetId": "w40k.10e.am",
             "name": "Gaunt's Ghosts",
-            "role": "INFANTRY",
+            "role": "CHARACTER",
             "points": [
                 {
                     "name": "Ibram Gaunt, Tanith Ghost",

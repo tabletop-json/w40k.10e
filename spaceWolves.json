@@ -2452,55 +2452,6 @@
             ]
         },
         {
-            "id": "w40k.10e.sw.unit.astartesServitors",
-            "type": "unit",
-            "rulesetId": "w40k.10e.sw",
-            "name": "Astartes Servitors",
-            "role": "INFANTRY",
-            "points": [
-                {
-                    "name": "Astartes Servitor",
-                    "amount": 4,
-                    "cost": 35
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Astartes Servitor",
-                    "min": 4,
-                    "max": 4
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Astartes Servitor",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Servitor Servo-arm"
-                            },
-                            "options": [
-                                {
-                                    "name": "Servitor Servo-arm"
-                                },
-                                {
-                                    "name": "Heavy Bolter"
-                                },
-                                {
-                                    "name": "Multi-melta"
-                                },
-                                {
-                                    "name": "Plasma Cannon"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "id": "w40k.10e.sw.unit.intercessorSquad",
             "type": "unit",
             "rulesetId": "w40k.10e.sw",
@@ -2712,6 +2663,99 @@
                                 },
                                 {
                                     "name": "Thunder Hammer"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sw.unit.assaultIntercessorsWithJumpPacks",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sw",
+            "name": "Assault Intercessor Squad",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Assault Intercessor with Jump Pack, Assault Intercessor Sergeant with Jump Pack",
+                    "amount": 10,
+                    "cost": 170
+                },
+                {
+                    "name": "Assault Intercessor with Jump Pack, Assault Intercessor Sergeant with Jump Pack",
+                    "amount": 5,
+                    "cost": 85
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Assault Intercessor with Jump Pack",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Assault Intercessor Sergeant with Jump Pack",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Assault Intercessor with Jump Pack",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Assault Intercessor Sergeant with Jump Pack",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Bolt Pistol"
+                                },
+                                {
+                                    "name": "Hand Flamer"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Astartes Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                },
+                                {
+                                    "name": "Power Weapon"
                                 }
                             ]
                         }
@@ -3548,15 +3592,15 @@
             ]
         },
         {
-            "id": "w40k.10e.sw.unit.primarisApothecary",
+            "id": "w40k.10e.sw.unit.apothecary",
             "type": "unit",
             "rulesetId": "w40k.10e.sw",
-            "name": "Primaris Apothecary",
+            "name": "Apothecary",
             "role": "CHARACTER",
             "models": [
                 {
-                    "name": "Primaris Apothecary",
-                    "points": 55,
+                    "name": "Apothecary",
+                    "points": 50,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -3708,15 +3752,15 @@
             ]
         },
         {
-            "id": "w40k.10e.sw.unit.primarisAncient",
+            "id": "w40k.10e.sw.unit.ancient",
             "type": "unit",
             "rulesetId": "w40k.10e.sw",
-            "name": "Primaris Ancient",
+            "name": "Ancient",
             "role": "CHARACTER",
             "models": [
                 {
-                    "name": "Primaris Ancient",
-                    "points": 55,
+                    "name": "Ancient",
+                    "points": 50,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -3810,7 +3854,7 @@
             "models": [
                 {
                     "name": "Bladeguard Ancient",
-                    "points": 50,
+                    "points": 45,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -3890,7 +3934,7 @@
             "models": [
                 {
                     "name": "Ancient in Terminator Armour",
-                    "points": 90,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -4837,12 +4881,12 @@
                 {
                     "name": "Aggressor, Aggressor Sergeant",
                     "amount": 6,
-                    "cost": 200
+                    "cost": 220
                 },
                 {
                     "name": "Aggressor, Aggressor Sergeant",
                     "amount": 3,
-                    "cost": 100
+                    "cost": 110
                 }
             ],
             "restrictions": [
@@ -5760,287 +5804,7 @@
             "models": [
                 {
                     "name": "Ballistus Dreadnought",
-                    "points": 150
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.sw.unit.assaultSquad",
-            "type": "unit",
-            "rulesetId": "w40k.10e.sw",
-            "name": "Assault Squad",
-            "role": "INFANTRY",
-            "points": [
-                {
-                    "name": "Assault Marine, Assault Sergeant",
-                    "amount": 10,
-                    "cost": 190
-                },
-                {
-                    "name": "Assault Marine, Assault Sergeant",
-                    "amount": 5,
-                    "cost": 95
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Assault Marine",
-                    "min": 4,
-                    "max": 9
-                },
-                {
-                    "type": "model",
-                    "name": "Assault Sergeant",
-                    "min": 1,
-                    "max": 1
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Assault Marine",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol, Astartes Chainsword"
-                            },
-                            "options": [
-                                {
-                                    "name": "Bolt Pistol, Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Plasma Pistol, Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Flamer"
-                                },
-                                {
-                                    "name": "Meltagun"
-                                },
-                                {
-                                    "name": "Plasma Gun"
-                                },
-                                {
-                                    "name": "Bolt Pistol, Eviscerator"
-                                },
-                                {
-                                    "name": "Plasma Pistol, Eviscerator"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Assault Sergeant",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Grav-pistol"
-                                },
-                                {
-                                    "name": "Hand Flamer"
-                                },
-                                {
-                                    "name": "Inferno Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Astartes Chainsword"
-                            },
-                            "options": [
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Twin Lightning Claws"
-                                },
-                                {
-                                    "name": "Astartes Shield"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.sw.unit.assaultSquadJumpPacks",
-            "type": "unit",
-            "rulesetId": "w40k.10e.sw",
-            "name": "Assault Squad with Jump Packs",
-            "role": "INFANTRY",
-            "points": [
-                {
-                    "name": "Assault Marine with Jump Pack, Assault Sergeant with Jump Pack",
-                    "amount": 10,
-                    "cost": 230
-                },
-                {
-                    "name": "Assault Marine with Jump Pack, Assault Sergeant with Jump Pack",
-                    "amount": 5,
-                    "cost": 115
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Assault Marine with Jump Pack",
-                    "min": 4,
-                    "max": 9
-                },
-                {
-                    "type": "model",
-                    "name": "Assault Sergeant with Jump Pack",
-                    "min": 1,
-                    "max": 1
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Assault Marine with Jump Pack",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol, Astartes Chainsword"
-                            },
-                            "options": [
-                                {
-                                    "name": "Bolt Pistol, Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Plasma Pistol, Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Flamer"
-                                },
-                                {
-                                    "name": "Meltagun"
-                                },
-                                {
-                                    "name": "Plasma Gun"
-                                },
-                                {
-                                    "name": "Bolt Pistol, Eviscerator"
-                                },
-                                {
-                                    "name": "Plasma Pistol, Eviscerator"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Assault Sergeant with Jump Pack",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Grav-pistol"
-                                },
-                                {
-                                    "name": "Hand Flamer"
-                                },
-                                {
-                                    "name": "Inferno Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Astartes Chainsword"
-                            },
-                            "options": [
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Twin Lightning Claws"
-                                },
-                                {
-                                    "name": "Astartes Shield"
-                                }
-                            ]
-                        }
-                    ]
+                    "points": 140
                 }
             ]
         },
