@@ -5118,7 +5118,7 @@
                 }
             ],
             "blueprints": [
-                {
+                                {
                     "name": "Tactical Marine",
                     "gearset": [
                         {
@@ -5135,9 +5135,6 @@
                                 },
                                 {
                                     "name": "Heavy Bolter"
-                                },
-                                {
-                                    "name": "Heavy Flamer"
                                 },
                                 {
                                     "name": "Grav-cannon"
@@ -5177,6 +5174,9 @@
                             },
                             "options": [
                                 {
+                                    "name": ""
+                                },
+                                {
                                     "name": "Astartes Chainsword"
                                 },
                                 {
@@ -5190,12 +5190,6 @@
                                 },
                                 {
                                     "name": "Grav-pistol"
-                                },
-                                {
-                                    "name": "Hand Flamer"
-                                },
-                                {
-                                    "name": "Inferno Pistol"
                                 },
                                 {
                                     "name": "Plasma Pistol"
@@ -5221,6 +5215,9 @@
                             },
                             "options": [
                                 {
+                                    "name": ""
+                                },
+                                {
                                     "name": "Astartes Chainsword"
                                 },
                                 {
@@ -5234,12 +5231,6 @@
                                 },
                                 {
                                     "name": "Grav-pistol"
-                                },
-                                {
-                                    "name": "Hand Flamer"
-                                },
-                                {
-                                    "name": "Inferno Pistol"
                                 },
                                 {
                                     "name": "Plasma Pistol"
@@ -5321,6 +5312,9 @@
                                     "name": "Combat Knife"
                                 },
                                 {
+                                    "name": "Scout Sniper Rifle"
+                                },
+                                {
                                     "name": "Heavy Bolter"
                                 },
                                 {
@@ -5336,88 +5330,20 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                },
-                                {
-                                    "name": "Grav-pistol"
-                                },
-                                {
-                                    "name": "Hand Flamer"
-                                },
-                                {
-                                    "name": "Inferno Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
                                 "name": "Boltgun"
                             },
                             "options": [
                                 {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
                                     "name": "Boltgun"
                                 },
                                 {
-                                    "name": "Combi-weapon"
+                                    "name": "Astartes Chainsword"
                                 },
                                 {
-                                    "name": "Grav-pistol"
+                                    "name": "Astartes Shotgun"
                                 },
                                 {
-                                    "name": "Hand Flamer"
-                                },
-                                {
-                                    "name": "Inferno Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
+                                    "name": "Combat Knife"
                                 }
                             ]
                         }
@@ -6944,6 +6870,9 @@
                                     "name": "Combi-weapon"
                                 },
                                 {
+                                    "name": "Pyrecannon"
+                                },
+                                {
                                     "name": "Sternguard Heavy Bolter"
                                 }
                             ]
@@ -6963,7 +6892,25 @@
                                     "name": "Sternguard Bolt Rifle"
                                 },
                                 {
+                                    "name": "Astartes Chainsword"
+                                },
+                                {
                                     "name": "Combi-weapon"
+                                },
+                                {
+                                    "name": "Power Weapon"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                },
+                                {
+                                    "name": "Astartes Chainsword, Sternguard Bolt Rifle"
+                                },
+                                {
+                                    "name": "Power Weapon, Sternguard Bolt Rifle"
+                                },
+                                {
+                                    "name": "Power Fist, Sternguard Bolt Rifle"
                                 }
                             ]
                         }
@@ -7586,24 +7533,10 @@
                     "name": "Terminator Sergeant",
                     "gearset": [
                         {
-                            "type": "dropdown",
+                            "type": "text",
                             "selectedOption": {
                                 "name": "Storm Bolter"
-                            },
-                            "options": [
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Assault Cannon"
-                                },
-                                {
-                                    "name": "Heavy Flamer"
-                                },
-                                {
-                                    "name": "Storm Bolter, Cyclone Missile Launcher"
-                                }
-                            ]
+                            }
                         },
                         {
                             "type": "dropdown",
@@ -7615,7 +7548,7 @@
                                     "name": "Power Fist"
                                 },
                                 {
-                                    "name": "Chainfist"
+                                    "name": "Power Weapon"
                                 }
                             ]
                         }
@@ -8073,7 +8006,23 @@
             "blueprints": [
                 {
                     "name": "Invader ATV",
-                    "points": 70
+                    "points": 70,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Onslaught Gatling Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Onslaught Gatling Cannon"
+                                },
+                                {
+                                    "name": "Multi-melta"
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "name": "Outrider"
@@ -8283,23 +8232,7 @@
             ],
             "blueprints": [
                 {
-                    "name": "Hellblaster",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                }
-                            ]
-                        }
-                    ]
+                    "name": "Hellblaster"
                 },
                 {
                     "name": "Hellblaster Sergeant",
@@ -8502,9 +8435,6 @@
                                     "name": "Heavy Bolter"
                                 },
                                 {
-                                    "name": "Heavy Flamer"
-                                },
-                                {
                                     "name": "Lascannon"
                                 },
                                 {
@@ -8545,16 +8475,7 @@
                                     "name": "Grav-pistol"
                                 },
                                 {
-                                    "name": "Hand Flamer"
-                                },
-                                {
-                                    "name": "Inferno Pistol"
-                                },
-                                {
                                     "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Storm Bolter"
                                 },
                                 {
                                     "name": "Power Fist"
@@ -8589,16 +8510,7 @@
                                     "name": "Grav-pistol"
                                 },
                                 {
-                                    "name": "Hand Flamer"
-                                },
-                                {
-                                    "name": "Inferno Pistol"
-                                },
-                                {
                                     "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Storm Bolter"
                                 },
                                 {
                                     "name": "Power Fist"
@@ -8610,13 +8522,6 @@
                                     "name": "Thunder Hammer"
                                 }
                             ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Twin Lightning Claws"
-                            },
-                            "selected": false
                         }
                     ]
                 }
