@@ -1562,6 +1562,324 @@
             ]
         },
         {
+            "id": "w40k.10e.csm.unit.plagueMarines",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Plague Marines",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Plague Marine, Plague Champion",
+                    "amount": 10,
+                    "cost": 160
+                },
+                {
+                    "name": "Plague Marine, Plague Champion",
+                    "amount": 7,
+                    "cost": 110
+                },
+                {
+                    "name": "Plague Marine, Plague Champion",
+                    "amount": 5,
+                    "cost": 80
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Plague Marine",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Plague Champion",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Plague Marine",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Plague Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Plague Boltgun"
+                                },
+                                {
+                                    "name": "Blight Launcher"
+                                },
+                                {
+                                    "name": "Plague Spewer"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plague Belcher"
+                                },
+                                {
+                                    "name": "Plasma Gun"
+                                },
+                                {
+                                    "name": "Bubotic Weapon"
+                                },
+                                {
+                                    "name": "Heavy Plague Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Plague Knives"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Plague Champion",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Plague Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Plague Boltgun"
+                                },
+                                {
+                                    "name": "Plague Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Gun"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Plague Knives"
+                            },
+                            "options": [
+                                {
+                                    "name": "Plague Knives"
+                                },
+                                {
+                                    "name": "Bubotic Weapon"
+                                },
+                                {
+                                    "name": "Heavy Plague Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.rubrics",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Rubric Marines",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Rubric Marine, Aspiring Sorcerer",
+                    "amount": 10,
+                    "cost": 210
+                },
+                {
+                    "name": "Rubric Marine, Aspiring Sorcerer",
+                    "amount": 5,
+                    "cost": 105
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Rubric Marine",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Aspiring Sorcerer",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Rubric Marine",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Inferno Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Inferno Boltgun"
+                                },
+                                {
+                                    "name": "Warpflamer"
+                                },
+                                {
+                                    "name": "Soulreaper Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Icon of Flame"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Aspiring Sorcerer",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Inferno Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Inferno Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                },
+                                {
+                                    "name": "Warpflame Pistol"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.khorneBerzerkers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Khorne Berzerkers",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Khorne Berzerker, Khorne Berzerker Champion",
+                    "amount": 10,
+                    "cost": 200
+                },
+                {
+                    "name": "Khorne Berzerker, Khorne Berzerker Champion",
+                    "amount": 5,
+                    "cost": 100
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Khorne Berzerker",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Khorne Berzerker Champion",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Khorne Berzerker",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Berzerker Chainblade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Berzerker Chainblade"
+                                },
+                                {
+                                    "name": "Khornate Eviscerator"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Icon of Khorne"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Khorne Berzerker Champion",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Berzerker Chainblade"
+                            }
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Icon of Khorne"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "w40k.10e.csm.unit.cultistMob",
             "type": "unit",
             "rulesetId": "w40k.10e.csm",
