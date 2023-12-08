@@ -10,10 +10,38 @@
     },
     "detachments": [
         {
-            "id": "w40k.10e.adm.dt.radCohort",
+            "id": "w40k.10e.adm.dt.cohortCybernetica",
             "type": "detachment",
             "rulesetId": "w40k.10e.adm",
-            "name": "Rad-Cohort",
+            "name": "Cohort Cybernetica",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.adm.dt.datapsalmConclave",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Data-psalm Conclave",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.adm.dt.exploratorManiple",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Explorator Maniple",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.adm.dt.radzoneCorps",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Rad-zone Corps",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.adm.dt.skitariiHunterCohort",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Skitarii Hunter Cohort",
             "rule": ""
         }
     ],
@@ -27,7 +55,7 @@
             "models": [
                 {
                     "name": "Archaeopter Fusilave",
-                    "points": 155,
+                    "points": 150,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -56,7 +84,7 @@
             "models": [
                 {
                     "name": "Archaeopter Stratoraptor",
-                    "points": 165,
+                    "points": 170,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -114,7 +142,7 @@
             "models": [
                 {
                     "name": "Belisarius Cawl",
-                    "points": 155,
+                    "points": 180,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -137,12 +165,12 @@
                 {
                     "name": "Corpuscarii Electro-Priest",
                     "amount": 10,
-                    "cost": 110
+                    "cost": 120
                 },
                 {
                     "name": "Corpuscarii Electro-Priest",
                     "amount": 5,
-                    "cost": 55
+                    "cost": 60
                 }
             ],
             "restrictions": [
@@ -180,7 +208,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.adm.dt.radCohort",
+                            "detachmentId": "w40k.10e.adm.dt.cohortCybernetica",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -189,19 +217,135 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Archived Purge Protocols",
+                                    "name": "Arch-negator",
                                     "points": 10
                                 },
                                 {
-                                    "name": "Excoriating Emanation",
+                                    "name": "Emotionless Clarity",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of Machines",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Necromechanic",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.datapsalmConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Data-blessed Autosermon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mantle of the Gnosticarch",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mechanicus Locum",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Temporcopia",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.exploratorManiple",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Artisan",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Genetor",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Master Annihilator",
-                                    "points": 35
+                                    "name": "Logis",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Omni-sterilizer",
+                                    "name": "Magos",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.radzoneCorps",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Autoclavic Denunciation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Malphonic Susurrus",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Peerless Eradicator",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Radial Suffusion",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.skitariiHunterCohort",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Battle-sphere Uplink",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Cantic Thrallnet",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Clandestine Infiltrator",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veiled Hunter",
                                     "points": 20
                                 }
                             ]
@@ -591,12 +735,12 @@
                 {
                     "name": "Pteraxii Sterylizor, Pteraxii Sterylizor Alpha",
                     "amount": 10,
-                    "cost": 140
+                    "cost": 130
                 },
                 {
                     "name": "Pteraxii Sterylizor, Pteraxii Sterylizor Alpha",
                     "amount": 5,
-                    "cost": 70
+                    "cost": 65
                 }
             ],
             "restrictions": [
@@ -991,7 +1135,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.adm.dt.radCohort",
+                            "detachmentId": "w40k.10e.adm.dt.cohortCybernetica",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1000,19 +1144,135 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Archived Purge Protocols",
+                                    "name": "Arch-negator",
                                     "points": 10
                                 },
                                 {
-                                    "name": "Excoriating Emanation",
+                                    "name": "Emotionless Clarity",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of Machines",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Necromechanic",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.datapsalmConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Data-blessed Autosermon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mantle of the Gnosticarch",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mechanicus Locum",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Temporcopia",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.exploratorManiple",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Artisan",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Genetor",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Master Annihilator",
-                                    "points": 35
+                                    "name": "Logis",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Omni-sterilizer",
+                                    "name": "Magos",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.radzoneCorps",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Autoclavic Denunciation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Malphonic Susurrus",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Peerless Eradicator",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Radial Suffusion",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.skitariiHunterCohort",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Battle-sphere Uplink",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Cantic Thrallnet",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Clandestine Infiltrator",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veiled Hunter",
                                     "points": 20
                                 }
                             ]
@@ -1266,10 +1526,47 @@
             ]
         },
         {
-            "id": "w40k.10e.adm.unit.sydonianDragoons",
+            "id": "w40k.10e.adm.unit.sydonianDragoonsRadiumJezzails",
             "type": "unit",
             "rulesetId": "w40k.10e.adm",
-            "name": "Sydonian Dragoons",
+            "name": "Sydonian Dragoons with Radium Jezzails",
+            "role": "VEHICLE",
+            "points": [
+                {
+                    "name": "Sydonian Dragoon",
+                    "amount": 3,
+                    "cost": 135
+                },
+                {
+                    "name": "Sydonian Dragoon",
+                    "amount": 2,
+                    "cost": 90
+                },
+                {
+                    "name": "Sydonian Dragoon",
+                    "amount": 1,
+                    "cost": 45
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Sydonian Dragoon",
+                    "min": 1,
+                    "max": 3
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Sydonian Dragoon"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.sydonianDragoonsTaserLances",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Sydonian Dragoons with Taser Lances",
             "role": "VEHICLE",
             "points": [
                 {
@@ -1298,28 +1595,172 @@
             ],
             "blueprints": [
                 {
-                    "name": "Sydonian Dragoon",
+                    "name": "Sydonian Dragoon"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.sydonianSkatros",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Sydonian Skatros",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Sydonian Skatros",
+                    "points": 65,
                     "gearset": [
                         {
-                            "type": "dropdown",
+                            "type": "checkbox",
                             "selectedOption": {
-                                "name": "Taser Lance"
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.cohortCybernetica",
+                            "selectedOption": {
+                                "name": ""
                             },
                             "options": [
                                 {
-                                    "name": "Taser Lance"
+                                    "name": ""
                                 },
                                 {
-                                    "name": "Radium Jezzail, Ironstrider Feet"
+                                    "name": "Arch-negator",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Emotionless Clarity",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of Machines",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Necromechanic",
+                                    "points": 25
                                 }
                             ]
                         },
                         {
-                            "type": "checkbox",
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.datapsalmConclave",
                             "selectedOption": {
-                                "name": "Phosphor Serpenta"
+                                "name": ""
                             },
-                            "selected": false
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Data-blessed Autosermon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mantle of the Gnosticarch",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mechanicus Locum",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Temporcopia",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.exploratorManiple",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Artisan",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Genetor",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Logis",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Magos",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.radzoneCorps",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Autoclavic Denunciation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Malphonic Susurrus",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Peerless Eradicator",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Radial Suffusion",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.skitariiHunterCohort",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Battle-sphere Uplink",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Cantic Thrallnet",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Clandestine Infiltrator",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veiled Hunter",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1374,7 +1815,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.adm.dt.radCohort",
+                            "detachmentId": "w40k.10e.adm.dt.cohortCybernetica",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1383,19 +1824,135 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Archived Purge Protocols",
+                                    "name": "Arch-negator",
                                     "points": 10
                                 },
                                 {
-                                    "name": "Excoriating Emanation",
+                                    "name": "Emotionless Clarity",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of Machines",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Necromechanic",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.datapsalmConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Data-blessed Autosermon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mantle of the Gnosticarch",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mechanicus Locum",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Temporcopia",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.exploratorManiple",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Artisan",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Genetor",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Master Annihilator",
-                                    "points": 35
+                                    "name": "Logis",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Omni-sterilizer",
+                                    "name": "Magos",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.radzoneCorps",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Autoclavic Denunciation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Malphonic Susurrus",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Peerless Eradicator",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Radial Suffusion",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.skitariiHunterCohort",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Battle-sphere Uplink",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Cantic Thrallnet",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Clandestine Infiltrator",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veiled Hunter",
                                     "points": 20
                                 }
                             ]
@@ -1413,7 +1970,7 @@
             "models": [
                 {
                     "name": "Tech-Priest Enginseer",
-                    "points": 40,
+                    "points": 45,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1425,7 +1982,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.adm.dt.radCohort",
+                            "detachmentId": "w40k.10e.adm.dt.cohortCybernetica",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1434,19 +1991,135 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Archived Purge Protocols",
+                                    "name": "Arch-negator",
                                     "points": 10
                                 },
                                 {
-                                    "name": "Excoriating Emanation",
+                                    "name": "Emotionless Clarity",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of Machines",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Necromechanic",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.datapsalmConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Data-blessed Autosermon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mantle of the Gnosticarch",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mechanicus Locum",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Temporcopia",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.exploratorManiple",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Artisan",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Genetor",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Master Annihilator",
-                                    "points": 35
+                                    "name": "Logis",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Omni-sterilizer",
+                                    "name": "Magos",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.radzoneCorps",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Autoclavic Denunciation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Malphonic Susurrus",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Peerless Eradicator",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Radial Suffusion",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.skitariiHunterCohort",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Battle-sphere Uplink",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Cantic Thrallnet",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Clandestine Infiltrator",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veiled Hunter",
                                     "points": 20
                                 }
                             ]
@@ -1490,7 +2163,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.adm.dt.radCohort",
+                            "detachmentId": "w40k.10e.adm.dt.cohortCybernetica",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1499,19 +2172,135 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Archived Purge Protocols",
+                                    "name": "Arch-negator",
                                     "points": 10
                                 },
                                 {
-                                    "name": "Excoriating Emanation",
+                                    "name": "Emotionless Clarity",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of Machines",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Necromechanic",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.datapsalmConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Data-blessed Autosermon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mantle of the Gnosticarch",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mechanicus Locum",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Temporcopia",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.exploratorManiple",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Artisan",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Genetor",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Master Annihilator",
-                                    "points": 35
+                                    "name": "Logis",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Omni-sterilizer",
+                                    "name": "Magos",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.radzoneCorps",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Autoclavic Denunciation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Malphonic Susurrus",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Peerless Eradicator",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Radial Suffusion",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.skitariiHunterCohort",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Battle-sphere Uplink",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Cantic Thrallnet",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Clandestine Infiltrator",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veiled Hunter",
                                     "points": 20
                                 }
                             ]
@@ -1541,7 +2330,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.adm.dt.radCohort",
+                            "detachmentId": "w40k.10e.adm.dt.cohortCybernetica",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1550,19 +2339,135 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Archived Purge Protocols",
+                                    "name": "Arch-negator",
                                     "points": 10
                                 },
                                 {
-                                    "name": "Excoriating Emanation",
+                                    "name": "Emotionless Clarity",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of Machines",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Necromechanic",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.datapsalmConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Data-blessed Autosermon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mantle of the Gnosticarch",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mechanicus Locum",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Temporcopia",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.exploratorManiple",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Artisan",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Genetor",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Master Annihilator",
-                                    "points": 35
+                                    "name": "Logis",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Omni-sterilizer",
+                                    "name": "Magos",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.radzoneCorps",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Autoclavic Denunciation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Malphonic Susurrus",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Peerless Eradicator",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Radial Suffusion",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.skitariiHunterCohort",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Battle-sphere Uplink",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Cantic Thrallnet",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Clandestine Infiltrator",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veiled Hunter",
                                     "points": 20
                                 }
                             ]
