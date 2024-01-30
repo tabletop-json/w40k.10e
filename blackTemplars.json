@@ -8941,28 +8941,6 @@
             "rulesetId": "w40k.10e.bt",
             "name": "Crusader Squad",
             "role": "BATTLELINE",
-            "points": [
-                {
-                    "name": "Initiate, Neophyte, Sword Brother",
-                    "amount": 20,
-                    "cost": 270
-                },
-                {
-                    "name": "Initiate, Neophyte, Sword Brother",
-                    "amount": 10,
-                    "cost": 150
-                },
-                {
-                    "name": "Initiate, Neophyte, Sword Brother",
-                    "amount": 10,
-                    "cost": 135
-                },
-                {
-                    "name": "Initiate, Neophyte, Sword Brother",
-                    "amount": 5,
-                    "cost": 75
-                }
-            ],
             "restrictions": [
                 {
                     "type": "model",
@@ -8986,6 +8964,7 @@
             "blueprints": [
                 {
                     "name": "Initiate",
+                    "points": 15,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -9044,6 +9023,7 @@
                 },
                 {
                     "name": "Neophyte",
+                    "points": 12,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -9066,6 +9046,7 @@
                 },
                 {
                     "name": "Sword Brother",
+                    "points": 15,
                     "gearset": [
                         {
                             "type": "dropdown",
