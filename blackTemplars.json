@@ -9151,6 +9151,351 @@
                         }
                     ]
                 }
+            ],
+            "models": [
+                {
+                    "name": "Initiate",
+                    "points": 15,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Boltgun"
+                                },
+                                {
+                                    "name": "Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Plasma Gun"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Grav-gun"
+                                },
+                                {
+                                    "name": "Power Weapon"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                },
+                                {
+                                    "name": "Heavy Bolter"
+                                },
+                                {
+                                    "name": "Heavy Flamer"
+                                },
+                                {
+                                    "name": "Grav-cannon"
+                                },
+                                {
+                                    "name": "Lascannon"
+                                },
+                                {
+                                    "name": "Missile Launcher"
+                                },
+                                {
+                                    "name": "Multi-melta"
+                                },
+                                {
+                                    "name": "Plasma Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Initiate",
+                    "points": 15,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Boltgun"
+                                },
+                                {
+                                    "name": "Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Plasma Gun"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Grav-gun"
+                                },
+                                {
+                                    "name": "Power Weapon"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                },
+                                {
+                                    "name": "Heavy Bolter"
+                                },
+                                {
+                                    "name": "Heavy Flamer"
+                                },
+                                {
+                                    "name": "Grav-cannon"
+                                },
+                                {
+                                    "name": "Lascannon"
+                                },
+                                {
+                                    "name": "Missile Launcher"
+                                },
+                                {
+                                    "name": "Multi-melta"
+                                },
+                                {
+                                    "name": "Plasma Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Initiate",
+                    "points": 15,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Boltgun"
+                                },
+                                {
+                                    "name": "Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Plasma Gun"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Grav-gun"
+                                },
+                                {
+                                    "name": "Power Weapon"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                },
+                                {
+                                    "name": "Heavy Bolter"
+                                },
+                                {
+                                    "name": "Heavy Flamer"
+                                },
+                                {
+                                    "name": "Grav-cannon"
+                                },
+                                {
+                                    "name": "Lascannon"
+                                },
+                                {
+                                    "name": "Missile Launcher"
+                                },
+                                {
+                                    "name": "Multi-melta"
+                                },
+                                {
+                                    "name": "Plasma Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Initiate",
+                    "points": 15,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Boltgun"
+                                },
+                                {
+                                    "name": "Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Plasma Gun"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Grav-gun"
+                                },
+                                {
+                                    "name": "Power Weapon"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                },
+                                {
+                                    "name": "Heavy Bolter"
+                                },
+                                {
+                                    "name": "Heavy Flamer"
+                                },
+                                {
+                                    "name": "Grav-cannon"
+                                },
+                                {
+                                    "name": "Lascannon"
+                                },
+                                {
+                                    "name": "Missile Launcher"
+                                },
+                                {
+                                    "name": "Multi-melta"
+                                },
+                                {
+                                    "name": "Plasma Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Sword Brother",
+                    "points": 15,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Astartes Chainsword"
+                                },
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Boltgun"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                },
+                                {
+                                    "name": "Grav-pistol"
+                                },
+                                {
+                                    "name": "Hand Flamer"
+                                },
+                                {
+                                    "name": "Inferno Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                },
+                                {
+                                    "name": "Storm Bolter"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                },
+                                {
+                                    "name": "Power Weapon"
+                                },
+                                {
+                                    "name": "Thunder Hammer"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Astartes Chainsword"
+                                },
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Boltgun"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                },
+                                {
+                                    "name": "Grav-pistol"
+                                },
+                                {
+                                    "name": "Hand Flamer"
+                                },
+                                {
+                                    "name": "Inferno Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                },
+                                {
+                                    "name": "Storm Bolter"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                },
+                                {
+                                    "name": "Power Weapon"
+                                },
+                                {
+                                    "name": "Thunder Hammer"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Twin Lightning Claws"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
             ]
         },
         {
