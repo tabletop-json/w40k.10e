@@ -4370,12 +4370,12 @@
                 {
                     "name": "Intercessor, Intercessor Sergeant",
                     "amount": 10,
-                    "cost": 170
+                    "cost": 160
                 },
                 {
                     "name": "Intercessor, Intercessor Sergeant",
                     "amount": 5,
-                    "cost": 85
+                    "cost": 80
                 }
             ],
             "restrictions": [
@@ -4468,12 +4468,12 @@
                 {
                     "name": "Infernus Marine, Infernus Sergeant",
                     "amount": 10,
-                    "cost": 170
+                    "cost": 160
                 },
                 {
                     "name": "Infernus Marine, Infernus Sergeant",
                     "amount": 5,
-                    "cost": 85
+                    "cost": 80
                 }
             ],
             "restrictions": [
@@ -4509,12 +4509,12 @@
                 {
                     "name": "Assault Intercessor, Assault Intercessor Sergeant",
                     "amount": 10,
-                    "cost": 160
+                    "cost": 150
                 },
                 {
                     "name": "Assault Intercessor, Assault Intercessor Sergeant",
                     "amount": 5,
-                    "cost": 80
+                    "cost": 75
                 }
             ],
             "restrictions": [
@@ -4936,12 +4936,12 @@
                 {
                     "name": "Heavy Intercessor, Heavy Intercessor Sergeant",
                     "amount": 10,
-                    "cost": 210
+                    "cost": 200
                 },
                 {
                     "name": "Heavy Intercessor, Heavy Intercessor Sergeant",
                     "amount": 5,
-                    "cost": 105
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -5270,12 +5270,12 @@
                 {
                     "name": "Scout, Scout Sergeant",
                     "amount": 10,
-                    "cost": 110
+                    "cost": 130
                 },
                 {
                     "name": "Scout, Scout Sergeant",
                     "amount": 5,
-                    "cost": 55
+                    "cost": 65
                 }
             ],
             "restrictions": [
@@ -6831,12 +6831,12 @@
                 {
                     "name": "Sternguard Veteran, Sternguard Veteran Sergeant",
                     "amount": 10,
-                    "cost": 200
+                    "cost": 180
                 },
                 {
                     "name": "Sternguard Veteran, Sternguard Veteran Sergeant",
                     "amount": 5,
-                    "cost": 100
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -7321,12 +7321,12 @@
                 {
                     "name": "Aggressor, Aggressor Sergeant",
                     "amount": 6,
-                    "cost": 220
+                    "cost": 240
                 },
                 {
                     "name": "Aggressor, Aggressor Sergeant",
                     "amount": 3,
-                    "cost": 110
+                    "cost": 120
                 }
             ],
             "restrictions": [
@@ -7667,12 +7667,12 @@
                 {
                     "name": "Devastator Centurion, Devastator Centurion Sergeant",
                     "amount": 6,
-                    "cost": 350
+                    "cost": 370
                 },
                 {
                     "name": "Devastator Centurion, Devastator Centurion Sergeant",
                     "amount": 3,
-                    "cost": 175
+                    "cost": 185
                 }
             ],
             "restrictions": [
@@ -7854,7 +7854,7 @@
             "models": [
                 {
                     "name": "Redemptor Dreadnought",
-                    "points": 200,
+                    "points": 210,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -7975,12 +7975,12 @@
                 {
                     "name": "Outrider, Outrider Sergeant",
                     "amount": 6,
-                    "cost": 190
+                    "cost": 160
                 },
                 {
                     "name": "Outrider, Outrider Sergeant",
                     "amount": 3,
-                    "cost": 95
+                    "cost": 80
                 }
             ],
             "restrictions": [
@@ -8096,12 +8096,12 @@
                 {
                     "name": "Inceptor, Inceptor Sergeant",
                     "amount": 6,
-                    "cost": 220
+                    "cost": 260
                 },
                 {
                     "name": "Inceptor, Inceptor Sergeant",
                     "amount": 3,
-                    "cost": 110
+                    "cost": 130
                 }
             ],
             "restrictions": [
@@ -8684,7 +8684,7 @@
             "models": [
                 {
                     "name": "Whirlwind",
-                    "points": 145,
+                    "points": 180,
                     "gearset": [
                         {
                             "type": "checkbox",

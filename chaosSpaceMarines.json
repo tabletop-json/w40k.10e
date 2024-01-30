@@ -417,7 +417,7 @@
             "models": [
                 {
                     "name": "Chaos Lord",
-                    "points": 75,
+                    "points": 95,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1290,7 +1290,7 @@
                 {
                     "name": "Cult Demagogue, Mindwitch, Iconarch, Blessed Blade",
                     "amount": 5,
-                    "cost": 55
+                    "cost": 65
                 }
             ],
             "models": [
@@ -1999,12 +1999,12 @@
                 {
                     "name": "Mutant, Torment",
                     "amount": 16,
-                    "cost": 190
+                    "cost": 210
                 },
                 {
                     "name": "Mutant, Torment",
                     "amount": 8,
-                    "cost": 95
+                    "cost": 105
                 }
             ],
             "restrictions": [
@@ -2399,12 +2399,12 @@
                 {
                     "name": "Chosen, Chosen Champion",
                     "amount": 10,
-                    "cost": 220
+                    "cost": 260
                 },
                 {
                     "name": "Chosen, Chosen Champion",
                     "amount": 5,
-                    "cost": 110
+                    "cost": 130
                 }
             ],
             "restrictions": [
@@ -3018,12 +3018,12 @@
                 {
                     "name": "Warp Talon, Warp Talon Champion",
                     "amount": 10,
-                    "cost": 200
+                    "cost": 220
                 },
                 {
                     "name": "Warp Talon, Warp Talon Champion",
                     "amount": 5,
-                    "cost": 100
+                    "cost": 110
                 }
             ],
             "restrictions": [
@@ -3234,12 +3234,12 @@
                 {
                     "name": "Obliterator",
                     "amount": 4,
-                    "cost": 340
+                    "cost": 360
                 },
                 {
                     "name": "Obliterator",
                     "amount": 2,
-                    "cost": 170
+                    "cost": 180
                 }
             ],
             "restrictions": [
@@ -3728,7 +3728,7 @@
             "models": [
                 {
                     "name": "Forgefiend",
-                    "points": 180,
+                    "points": 200,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -4119,7 +4119,7 @@
             "models": [
                 {
                     "name": "Khorne Lord of Skulls",
-                    "points": 480,
+                    "points": 450,
                     "gearset": [
                         {
                             "type": "dropdown",

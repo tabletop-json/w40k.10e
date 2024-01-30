@@ -463,12 +463,12 @@
                 {
                     "name": "Hearthguard, Hesyr",
                     "amount": 10,
-                    "cost": 300
+                    "cost": 320
                 },
                 {
                     "name": "Hearthguard, Hesyr",
                     "amount": 5,
-                    "cost": 150
+                    "cost": 160
                 }
             ],
             "restrictions": [
@@ -710,7 +710,7 @@
             "models": [
                 {
                     "name": "Sagitaur",
-                    "points": 100,
+                    "points": 115,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -749,12 +749,12 @@
                 {
                     "name": "Brokhyr Thunderkyn",
                     "amount": 6,
-                    "cost": 150
+                    "cost": 160
                 },
                 {
                     "name": "Brokhyr Thunderkyn",
                     "amount": 3,
-                    "cost": 75
+                    "cost": 85
                 }
             ],
             "restrictions": [

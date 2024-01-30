@@ -70,7 +70,7 @@
             "models": [
                 {
                     "name": "Commander in Crisis Battlesuit",
-                    "points": 90,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -322,7 +322,7 @@
             "models": [
                 {
                     "name": "Commander in Enforcer Battlesuit",
-                    "points": 100,
+                    "points": 90,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1479,12 +1479,12 @@
                 {
                     "name": "Crisis Shas'ui, Crisis Shas'vre",
                     "amount": 6,
-                    "cost": 360
+                    "cost": 400
                 },
                 {
                     "name": "Crisis Shas'ui, Crisis Shas'vre",
                     "amount": 3,
-                    "cost": 180
+                    "cost": 200
                 }
             ],
             "restrictions": [
@@ -2401,7 +2401,7 @@
                 {
                     "name": "Vespid Stingwing, Vespid Strain Leader",
                     "amount": 5,
-                    "cost": 75
+                    "cost": 65
                 }
             ],
             "models": [
@@ -2742,7 +2742,7 @@
             "models": [
                 {
                     "name": "Riptide Battlesuit",
-                    "points": 180,
+                    "points": 165,
                     "gearset": [
                         {
                             "type": "dropdown",

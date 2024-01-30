@@ -26,7 +26,7 @@
             "models": [
                 {
                     "name": "Battlewagon",
-                    "points": 185,
+                    "points": 160,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -550,7 +550,7 @@
             "models": [
                 {
                     "name": "Boomdakka Snazzwagon",
-                    "points": 90
+                    "points": 80
                 }
             ]
         },
@@ -1103,7 +1103,7 @@
             "models": [
                 {
                     "name": "Hunta Rig",
-                    "points": 160
+                    "points": 150
                 }
             ]
         },
@@ -1138,7 +1138,7 @@
             "models": [
                 {
                     "name": "Kill Rig",
-                    "points": 200
+                    "points": 170
                 }
             ]
         },
@@ -1152,12 +1152,12 @@
                 {
                     "name": "Killa Kan",
                     "amount": 6,
-                    "cost": 300
+                    "cost": 250
                 },
                 {
                     "name": "Killa Kan",
                     "amount": 3,
-                    "cost": 150
+                    "cost": 125
                 }
             ],
             "restrictions": [
@@ -1307,7 +1307,7 @@
             "models": [
                 {
                     "name": "Kustom Boosta-Blasta",
-                    "points": 85
+                    "points": 75
                 }
             ]
         },
@@ -1485,7 +1485,7 @@
             "models": [
                 {
                     "name": "Megatrakk Scrapjet",
-                    "points": 90
+                    "points": 80
                 }
             ]
         },
@@ -1622,7 +1622,7 @@
             "models": [
                 {
                     "name": "Morkanaut",
-                    "points": 330
+                    "points": 295
                 }
             ]
         },
@@ -1760,12 +1760,12 @@
                 {
                     "name": "Nob, Boss Nob",
                     "amount": 10,
-                    "cost": 210
+                    "cost": 220
                 },
                 {
                     "name": "Nob, Boss Nob",
                     "amount": 5,
-                    "cost": 105
+                    "cost": 110
                 }
             ],
             "restrictions": [
@@ -1984,7 +1984,7 @@
             "models": [
                 {
                     "name": "Rukkatrukk Squigbuggy",
-                    "points": 110
+                    "points": 100
                 }
             ]
         },
@@ -1997,7 +1997,7 @@
             "models": [
                 {
                     "name": "Shokkjump Dragsta",
-                    "points": 85
+                    "points": 75
                 }
             ]
         },
@@ -2011,12 +2011,12 @@
                 {
                     "name": "Squighog Boy",
                     "amount": 6,
-                    "cost": 220
+                    "cost": 250
                 },
                 {
                     "name": "Squighog Boy",
                     "amount": 3,
-                    "cost": 110
+                    "cost": 125
                 }
             ],
             "restrictions": [
@@ -2184,7 +2184,7 @@
             "models": [
                 {
                     "name": "Trukk",
-                    "points": 60,
+                    "points": 65,
                     "gearset": [
                         {
                             "type": "checkbox",

@@ -15,6 +15,13 @@
             "rulesetId": "w40k.10e.duk",
             "name": "Realspace Raiders",
             "rule": ""
+        },
+        {
+            "id": "w40k.10e.duk.dt.skysplinterAssault",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Skysplinter Assault",
+            "rule": ""
         }
     ],
     "units": [
@@ -78,6 +85,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.duk.dt.skypsplinterAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Nightmare Shroud",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Phantasmal Smoke",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Sadistic Fulcrum",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Spiteful Raider",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -127,6 +163,35 @@
                                 {
                                     "name": "The Art of Pain",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.duk.dt.skypsplinterAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Nightmare Shroud",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Phantasmal Smoke",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Sadistic Fulcrum",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Spiteful Raider",
+                                    "points": 10
                                 }
                             ]
                         }
@@ -230,7 +295,7 @@
             "models": [
                 {
                     "name": "Drazhar",
-                    "points": 90,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -253,12 +318,12 @@
                 {
                     "name": "Grotesque",
                     "amount": 6,
-                    "cost": 210
+                    "cost": 180
                 },
                 {
                     "name": "Grotesque",
                     "amount": 3,
-                    "cost": 105
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -330,6 +395,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.duk.dt.skypsplinterAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Nightmare Shroud",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Phantasmal Smoke",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Sadistic Fulcrum",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Spiteful Raider",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -345,12 +439,12 @@
                 {
                     "name": "Hellion, Helliarch",
                     "amount": 10,
-                    "cost": 200
+                    "cost": 170
                 },
                 {
                     "name": "Hellion, Helliarch",
                     "amount": 5,
-                    "cost": 100
+                    "cost": 85
                 }
             ],
             "restrictions": [
@@ -417,12 +511,12 @@
                 {
                     "name": "Incubi, Klaivex",
                     "amount": 10,
-                    "cost": 160
+                    "cost": 150
                 },
                 {
                     "name": "Incubi, Klaivex",
                     "amount": 5,
-                    "cost": 80
+                    "cost": 75
                 }
             ],
             "restrictions": [
@@ -651,7 +745,7 @@
             "models": [
                 {
                     "name": "Raider",
-                    "points": 90,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1004,7 +1098,7 @@
             "models": [
                 {
                     "name": "Succubus",
-                    "points": 55,
+                    "points": 45,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1058,6 +1152,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.duk.dt.skypsplinterAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Nightmare Shroud",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Phantasmal Smoke",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Sadistic Fulcrum",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Spiteful Raider",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1073,12 +1196,12 @@
                 {
                     "name": "Talos",
                     "amount": 2,
-                    "cost": 180
+                    "cost": 160
                 },
                 {
                     "name": "Talos",
                     "amount": 1,
-                    "cost": 90
+                    "cost": 80
                 }
             ],
             "restrictions": [
@@ -1182,7 +1305,7 @@
             "models": [
                 {
                     "name": "Venom",
-                    "points": 80,
+                    "points": 70,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1211,7 +1334,7 @@
             "models": [
                 {
                     "name": "Voidraven Bomber",
-                    "points": 195,
+                    "points": 215,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1431,12 +1554,12 @@
                 {
                     "name": "Corsair Voidreaver, Voidreaver Felarch",
                     "amount": 10,
-                    "cost": 140
+                    "cost": 120
                 },
                 {
                     "name": "Corsair Voidreaver, Voidreaver Felarch",
                     "amount": 5,
-                    "cost": 70
+                    "cost": 60
                 }
             ],
             "restrictions": [

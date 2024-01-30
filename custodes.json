@@ -27,13 +27,13 @@
             "points": [
                 {
                     "name": "Custodian Guard",
-                    "amount": 4,
-                    "cost": 200
+                    "amount": 5,
+                    "cost": 225
                 },
                 {
                     "name": "Custodian Guard",
-                    "amount": 5,
-                    "cost": 250
+                    "amount": 4,
+                    "cost": 180
                 }
             ],
             "restrictions": [
@@ -82,12 +82,12 @@
                 {
                     "name": "Custodian Warden",
                     "amount": 5,
-                    "cost": 275
+                    "cost": 250
                 },
                 {
                     "name": "Custodian Warden",
                     "amount": 4,
-                    "cost": 220
+                    "cost": 200
                 }
             ],
             "restrictions": [
@@ -137,22 +137,22 @@
                 {
                     "name": "Allarus Custodian",
                     "amount": 6,
-                    "cost": 420
+                    "cost": 390
                 },
                 {
                     "name": "Allarus Custodian",
                     "amount": 5,
-                    "cost": 350
+                    "cost": 325
                 },
                 {
                     "name": "Allarus Custodian",
                     "amount": 3,
-                    "cost": 210
+                    "cost": 195
                 },
                 {
                     "name": "Allarus Custodian",
                     "amount": 2,
-                    "cost": 140
+                    "cost": 130
                 }
             ],
             "restrictions": [
@@ -198,12 +198,12 @@
                 {
                     "name": "Vertus Praetor",
                     "amount": 3,
-                    "cost": 240
+                    "cost": 225
                 },
                 {
                     "name": "Vertus Praetor",
                     "amount": 2,
-                    "cost": 160
+                    "cost": 150
                 }
             ],
             "restrictions": [
@@ -674,7 +674,7 @@
             "models": [
                 {
                     "name": "Shield-captain on Dawneagle Jetbike",
-                    "points": 180,
+                    "points": 140,
                     "gearset": [
                         {
                             "type": "checkbox",

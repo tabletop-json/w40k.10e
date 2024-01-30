@@ -527,7 +527,7 @@
             "models": [
                 {
                     "name": "Broodlord",
-                    "points": 90,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1376,12 +1376,12 @@
                 {
                     "name": "Gargoyle",
                     "amount": 20,
-                    "cost": 150
+                    "cost": 160
                 },
                 {
                     "name": "Gargoyle",
                     "amount": 10,
-                    "cost": 75
+                    "cost": 80
                 }
             ],
             "restrictions": [
@@ -1407,7 +1407,7 @@
             "models": [
                 {
                     "name": "Toxicrene",
-                    "points": 180
+                    "points": 150
                 }
             ]
         },
@@ -1680,7 +1680,7 @@
             "models": [
                 {
                     "name": "Deathleaper",
-                    "points": 70,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1716,17 +1716,17 @@
                 {
                     "name": "Pyrovore",
                     "amount": 3,
-                    "cost": 90
+                    "cost": 105
                 },
                 {
                     "name": "Pyrovore",
                     "amount": 2,
-                    "cost": 60
+                    "cost": 70
                 },
                 {
                     "name": "Pyrovore",
                     "amount": 1,
-                    "cost": 30
+                    "cost": 35
                 }
             ],
             "restrictions": [
@@ -1912,12 +1912,12 @@
                 {
                     "name": "Genestealer",
                     "amount": 10,
-                    "cost": 170
+                    "cost": 150
                 },
                 {
                     "name": "Genestealer",
                     "amount": 5,
-                    "cost": 85
+                    "cost": 75
                 }
             ],
             "restrictions": [
@@ -2246,7 +2246,7 @@
             "models": [
                 {
                     "name": "Trygon",
-                    "points": 180
+                    "points": 170
                 }
             ]
         },
@@ -2467,7 +2467,7 @@
             "models": [
                 {
                     "name": "Screamer-Killer",
-                    "points": 170
+                    "points": 145
                 }
             ]
         },
@@ -2528,7 +2528,7 @@
             "models": [
                 {
                     "name": "Tyrannofex",
-                    "points": 245,
+                    "points": 190,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2673,7 +2673,7 @@
             "models": [
                 {
                     "name": "Norn Emissary",
-                    "points": 290
+                    "points": 275
                 }
             ]
         },
@@ -2686,7 +2686,7 @@
             "models": [
                 {
                     "name": "Norn Assimilator",
-                    "points": 310
+                    "points": 290
                 }
             ]
         },
@@ -2699,7 +2699,7 @@
             "models": [
                 {
                     "name": "Neurolictor",
-                    "points": 65
+                    "points": 80
                 }
             ]
         },
