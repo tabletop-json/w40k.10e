@@ -27,7 +27,7 @@
             "models": [
                 {
                     "name": "Morvenn Vahl",
-                    "points": 125,
+                    "points": 145,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1025,7 +1025,7 @@
                 {
                     "name": "Paragon, Paragon Superior",
                     "amount": 3,
-                    "cost": 200
+                    "cost": 170
                 }
             ],
             "restrictions": [
@@ -1155,12 +1155,12 @@
                 {
                     "name": "Sister Repentia, Repentia Superior",
                     "amount": 10,
-                    "cost": 130
+                    "cost": 110
                 },
                 {
                     "name": "Sister Repentia, Repentia Superior",
                     "amount": 5,
-                    "cost": 65
+                    "cost": 55
                 }
             ],
             "restrictions": [
@@ -1270,7 +1270,7 @@
                 {
                     "name": "Dominion, Dominion Superior",
                     "amount": 10,
-                    "cost": 120
+                    "cost": 110
                 }
             ],
             "restrictions": [
@@ -1467,12 +1467,12 @@
                 {
                     "name": "Zephyrim, Zephyrim Superior",
                     "amount": 10,
-                    "cost": 140
+                    "cost": 120
                 },
                 {
                     "name": "Zephyrim, Zephyrim Superior",
                     "amount": 5,
-                    "cost": 70
+                    "cost": 60
                 }
             ],
             "restrictions": [
@@ -1551,7 +1551,7 @@
                 {
                     "name": "Retributor, Retributor Superior",
                     "amount": 5,
-                    "cost": 115
+                    "cost": 105
                 }
             ],
             "restrictions": [
@@ -1779,7 +1779,7 @@
             "models": [
                 {
                     "name": "Exorcist",
-                    "points": 160,
+                    "points": 180,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1920,12 +1920,12 @@
                 {
                     "name": "Arco-Flagellant",
                     "amount": 10,
-                    "cost": 130
+                    "cost": 150
                 },
                 {
                     "name": "Arco-Flagellant",
                     "amount": 3,
-                    "cost": 40
+                    "cost": 45
                 }
             ],
             "restrictions": [

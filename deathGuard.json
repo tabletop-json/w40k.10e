@@ -157,7 +157,7 @@
             "models": [
                 {
                     "name": "Typhus",
-                    "points": 100,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -378,7 +378,7 @@
             "models": [
                 {
                     "name": "Lord of Virulence",
-                    "points": 100,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -623,17 +623,17 @@
                 {
                     "name": "Plague Marine, Plague Champion",
                     "amount": 10,
-                    "cost": 160
+                    "cost": 180
                 },
                 {
                     "name": "Plague Marine, Plague Champion",
                     "amount": 7,
-                    "cost": 110
+                    "cost": 125
                 },
                 {
                     "name": "Plague Marine, Plague Champion",
                     "amount": 5,
-                    "cost": 80
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -1197,12 +1197,12 @@
                 {
                     "name": "Deathshroud Terminator, Deathshroud Champion",
                     "amount": 6,
-                    "cost": 250
+                    "cost": 240
                 },
                 {
                     "name": "Deathshroud Terminator, Deathshroud Champion",
                     "amount": 3,
-                    "cost": 125
+                    "cost": 120
                 }
             ],
             "restrictions": [
@@ -1386,7 +1386,7 @@
             "models": [
                 {
                     "name": "Foetid Bloat Drone",
-                    "points": 100,
+                    "points": 90,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1418,7 +1418,7 @@
             "models": [
                 {
                     "name": "Plagueburst Crawler",
-                    "points": 165,
+                    "points": 180,
                     "gearset": [
                         {
                             "type": "text",

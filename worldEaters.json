@@ -53,7 +53,7 @@
             "models": [
                 {
                     "name": "Kharn the Betrayer",
-                    "points": 80,
+                    "points": 100,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -131,7 +131,7 @@
                                 },
                                 {
                                     "name": "Favoured of Khorne",
-                                    "points": 30
+                                    "points": 20
                                 },
                                 {
                                     "name": "Berzerker Glaive",
@@ -194,7 +194,7 @@
                                 },
                                 {
                                     "name": "Favoured of Khorne",
-                                    "points": 30
+                                    "points": 20
                                 },
                                 {
                                     "name": "Berzerker Glaive",
@@ -263,7 +263,7 @@
                                 },
                                 {
                                     "name": "Favoured of Khorne",
-                                    "points": 30
+                                    "points": 20
                                 },
                                 {
                                     "name": "Berzerker Glaive",
@@ -292,7 +292,7 @@
             "models": [
                 {
                     "name": "Master of Executions",
-                    "points": 80,
+                    "points": 100,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -326,7 +326,7 @@
                                 },
                                 {
                                     "name": "Favoured of Khorne",
-                                    "points": 30
+                                    "points": 20
                                 },
                                 {
                                     "name": "Berzerker Glaive",
@@ -711,12 +711,12 @@
                 {
                     "name": "Eightbound, Eightbound Champion",
                     "amount": 6,
-                    "cost": 270
+                    "cost": 290
                 },
                 {
                     "name": "Eightbound, Eightbound Champion",
                     "amount": 3,
-                    "cost": 135
+                    "cost": 145
                 }
             ],
             "restrictions": [
@@ -776,12 +776,12 @@
                 {
                     "name": "Exalted Eightbound, Exalted Eightbound Champion",
                     "amount": 6,
-                    "cost": 300
+                    "cost": 320
                 },
                 {
                     "name": "Exalted Eightbound, Exalted Eightbound Champion",
                     "amount": 3,
-                    "cost": 150
+                    "cost": 160
                 }
             ],
             "restrictions": [
@@ -1103,7 +1103,7 @@
             "models": [
                 {
                     "name": "Forgefiend",
-                    "points": 170,
+                    "points": 145,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1360,7 +1360,7 @@
             "models": [
                 {
                     "name": "Khorne Lord of Skulls",
-                    "points": 480,
+                    "points": 450,
                     "gearset": [
                         {
                             "type": "dropdown",
