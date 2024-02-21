@@ -1862,17 +1862,34 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Laspistol, Chainsword"
+                                "name": "Laspistol"
                             },
                             "options": [
                                 {
-                                    "name": "Laspistol, Chainsword"
+                                    "name": "Laspistol"
                                 },
                                 {
-                                    "name": "Bolt Pistol, Chainsword"
+                                    "name": "Bolt Pistol"
                                 },
                                 {
-                                    "name": "Drum-fed Autogun, Close Combat Weapon"
+                                    "name": "Boltgun"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Chainsword"
+                                },
+                                {
+                                    "name": "Power Weapon"
                                 }
                             ]
                         }
@@ -4493,11 +4510,15 @@
                                 },
                                 {
                                     "name": "Plasma Gun"
-                                },
-                                {
-                                    "name": "Hot-shot Laspistol, Master Vox"
                                 }
                             ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Master Vox"
+                            },
+                            "selected": false
                         }
                     ]
                 },
@@ -4565,14 +4586,15 @@
                                 },
                                 {
                                     "name": "Plasma Gun"
-                                },
-                                {
-                                    "name": "Hot-shot Laspistol, Medi-pack"
-                                },
-                                {
-                                    "name": "Hot-shot Lasgun, Hot-shot Laspistol, Medi-pack"
                                 }
                             ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Medi-pack"
+                            },
+                            "selected": false
                         }
                     ]
                 },
@@ -4611,21 +4633,11 @@
                     "name": "Tempestor Prime",
                     "gearset": [
                         {
-                            "type": "dropdown",
+                            "type": "checkbox",
                             "selectedOption": {
-                                "name": "Hot-shot Laspistol"
+                                "name": "WARLORD"
                             },
-                            "options": [
-                                {
-                                    "name": "Hot-shot Laspistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Bolt Pistol"
-                                }
-                            ]
+                            "selected": false
                         },
                         {
                             "type": "dropdown",
@@ -4641,6 +4653,35 @@
                                 },
                                 {
                                     "name": "Command Rod"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.combinedRegiment",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Death Mask of Ollanius",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Drill Commander",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Grand Strategist",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Kurov's Aquila",
+                                    "points": 40
                                 }
                             ]
                         }
