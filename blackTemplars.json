@@ -8943,6 +8943,11 @@
             "role": "BATTLELINE",
             "points": [
                 {
+                    "name": "Sword Brother, Initiate",
+                    "amount": 5,
+                    "cost": 10
+                },
+                {
                     "name": "Sword Brother, Initiate, Neophyte",
                     "amount": 20,
                     "cost": 0
@@ -8956,11 +8961,6 @@
                     "name": "Sword Brother, Initiate",
                     "amount": 10,
                     "cost": 0
-                },
-                {
-                    "name": "Sword Brother, Initiate",
-                    "amount": 5,
-                    "cost": 10
                 }
             ],
             "restrictions": [
