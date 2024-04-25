@@ -97,7 +97,7 @@
             "models": [
                 {
                     "name": "Daemon Prince",
-                    "points": 180,
+                    "points": 165,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -189,7 +189,7 @@
             "models": [
                 {
                     "name": "Daemon Prince with Wings",
-                    "points": 190,
+                    "points": 180,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -303,7 +303,7 @@
             "models": [
                 {
                     "name": "Cypher",
-                    "points": 105,
+                    "points": 90,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1388,12 +1388,12 @@
                 {
                     "name": "Legionary, Aspiring Champion",
                     "amount": 10,
-                    "cost": 180
+                    "cost": 160
                 },
                 {
                     "name": "Legionary, Aspiring Champion",
                     "amount": 5,
-                    "cost": 90
+                    "cost": 80
                 }
             ],
             "restrictions": [
@@ -1889,12 +1889,12 @@
                 {
                     "name": "Cultist, Cultist Champion",
                     "amount": 20,
-                    "cost": 110
+                    "cost": 100
                 },
                 {
                     "name": "Cultist, Cultist Champion",
                     "amount": 10,
-                    "cost": 55
+                    "cost": 50
                 }
             ],
             "restrictions": [
@@ -2065,12 +2065,12 @@
                 {
                     "name": "Terminator, Terminator Champion",
                     "amount": 10,
-                    "cost": 390
+                    "cost": 370
                 },
                 {
                     "name": "Terminator, Terminator Champion",
                     "amount": 5,
-                    "cost": 195
+                    "cost": 185
                 }
             ],
             "restrictions": [
@@ -2315,12 +2315,12 @@
                 {
                     "name": "Possessed, Possessed Champion",
                     "amount": 10,
-                    "cost": 280
+                    "cost": 260
                 },
                 {
                     "name": "Possessed, Possessed Champion",
                     "amount": 5,
-                    "cost": 140
+                    "cost": 130
                 }
             ],
             "restrictions": [
@@ -2691,7 +2691,7 @@
             "models": [
                 {
                     "name": "Venomcrawler",
-                    "points": 120,
+                    "points": 110,
                     "gearset": [
                         {
                             "type": "text",
@@ -2744,12 +2744,12 @@
                 {
                     "name": "Chaos Biker, Biker Champion",
                     "amount": 6,
-                    "cost": 170
+                    "cost": 150
                 },
                 {
                     "name": "Chaos Biker, Biker Champion",
                     "amount": 3,
-                    "cost": 85
+                    "cost": 75
                 }
             ],
             "restrictions": [
@@ -2894,12 +2894,12 @@
                 {
                     "name": "Raptor, Raptor Champion",
                     "amount": 10,
-                    "cost": 180
+                    "cost": 170
                 },
                 {
                     "name": "Raptor, Raptor Champion",
                     "amount": 5,
-                    "cost": 90
+                    "cost": 85
                 }
             ],
             "restrictions": [
@@ -3100,7 +3100,7 @@
                 {
                     "name": "Havoc, Havoc Champion",
                     "amount": 5,
-                    "cost": 135
+                    "cost": 120
                 }
             ],
             "restrictions": [
@@ -3555,7 +3555,7 @@
             "models": [
                 {
                     "name": "Vindicator",
-                    "points": 190,
+                    "points": 175,
                     "gearset": [
                         {
                             "type": "text",
@@ -3796,7 +3796,7 @@
             "models": [
                 {
                     "name": "Helbrute",
-                    "points": 140,
+                    "points": 130,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -3948,7 +3948,7 @@
             "models": [
                 {
                     "name": "Maulerfiend",
-                    "points": 155,
+                    "points": 140,
                     "gearset": [
                         {
                             "type": "text",

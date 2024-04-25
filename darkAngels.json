@@ -52,6 +52,18 @@
             "name": "Vanguard Spearhead"
         },
         {
+            "id": "w40k.10e.da.dt.companyHunters",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.da",
+            "name": "Company of Hunters"
+        },
+        {
+            "id": "w40k.10e.da.dt.innerCircleTaskForce",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.da",
+            "name": "Inner Circle Task Force"
+        },
+        {
             "id": "w40k.10e.da.dt.unforgivenTaskForce",
             "type": "detachment",
             "rulesetId": "w40k.10e.da",
@@ -244,11 +256,11 @@
                                 },
                                 {
                                     "name": "Adept of the Omnissiah",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Master of Machine War",
-                                    "points": 20
+                                    "points": 30
                                 },
                                 {
                                     "name": "Target Augury Web",
@@ -321,6 +333,64 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.companyHunters",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Master of Manoeuvre",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Master-crafted Weapon",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Mounted Strategist",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Recon Hunter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.innerCircleTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Deathwing",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Deathwing Assault",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eye of the Unseen",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Singular Will",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
                             "selectedOption": {
                                 "name": ""
@@ -328,6 +398,10 @@
                             "options": [
                                 {
                                     "name": ""
+                                },
+                                {
+                                    "name": "Pennant of Remembrance",
+                                    "points": 10
                                 },
                                 {
                                     "name": "Shroud of Heroes",
@@ -338,12 +412,8 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
+                                    "name": "Weapons of the First Legion",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -545,11 +615,11 @@
                                 },
                                 {
                                     "name": "Adept of the Omnissiah",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Master of Machine War",
-                                    "points": 20
+                                    "points": 30
                                 },
                                 {
                                     "name": "Target Augury Web",
@@ -790,11 +860,11 @@
                                 },
                                 {
                                     "name": "Adept of the Omnissiah",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Master of Machine War",
-                                    "points": 20
+                                    "points": 30
                                 },
                                 {
                                     "name": "Target Augury Web",
@@ -867,6 +937,64 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.companyHunters",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Master of Manoeuvre",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Master-crafted Weapon",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Mounted Strategist",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Recon Hunter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.innerCircleTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Deathwing",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Deathwing Assault",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eye of the Unseen",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Singular Will",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
                             "selectedOption": {
                                 "name": ""
@@ -874,6 +1002,10 @@
                             "options": [
                                 {
                                     "name": ""
+                                },
+                                {
+                                    "name": "Pennant of Remembrance",
+                                    "points": 10
                                 },
                                 {
                                     "name": "Shroud of Heroes",
@@ -884,12 +1016,8 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
+                                    "name": "Weapons of the First Legion",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -1044,11 +1172,11 @@
                                 },
                                 {
                                     "name": "Adept of the Omnissiah",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Master of Machine War",
-                                    "points": 20
+                                    "points": 30
                                 },
                                 {
                                     "name": "Target Augury Web",
@@ -1121,6 +1249,64 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.companyHunters",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Master of Manoeuvre",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Master-crafted Weapon",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Mounted Strategist",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Recon Hunter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.innerCircleTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Deathwing",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Deathwing Assault",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eye of the Unseen",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Singular Will",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
                             "selectedOption": {
                                 "name": ""
@@ -1128,6 +1314,10 @@
                             "options": [
                                 {
                                     "name": ""
+                                },
+                                {
+                                    "name": "Pennant of Remembrance",
+                                    "points": 10
                                 },
                                 {
                                     "name": "Shroud of Heroes",
@@ -1138,12 +1328,8 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
+                                    "name": "Weapons of the First Legion",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -1326,11 +1512,11 @@
                                 },
                                 {
                                     "name": "Adept of the Omnissiah",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Master of Machine War",
-                                    "points": 20
+                                    "points": 30
                                 },
                                 {
                                     "name": "Target Augury Web",
@@ -1403,6 +1589,64 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.companyHunters",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Master of Manoeuvre",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Master-crafted Weapon",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Mounted Strategist",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Recon Hunter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.innerCircleTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Deathwing",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Deathwing Assault",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eye of the Unseen",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Singular Will",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
                             "selectedOption": {
                                 "name": ""
@@ -1410,6 +1654,10 @@
                             "options": [
                                 {
                                     "name": ""
+                                },
+                                {
+                                    "name": "Pennant of Remembrance",
+                                    "points": 10
                                 },
                                 {
                                     "name": "Shroud of Heroes",
@@ -1420,12 +1668,8 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
+                                    "name": "Weapons of the First Legion",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -1580,11 +1824,11 @@
                                 },
                                 {
                                     "name": "Adept of the Omnissiah",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Master of Machine War",
-                                    "points": 20
+                                    "points": 30
                                 },
                                 {
                                     "name": "Target Augury Web",
@@ -1657,6 +1901,64 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.companyHunters",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Master of Manoeuvre",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Master-crafted Weapon",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Mounted Strategist",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Recon Hunter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.innerCircleTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Deathwing",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Deathwing Assault",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eye of the Unseen",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Singular Will",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
                             "selectedOption": {
                                 "name": ""
@@ -1664,6 +1966,10 @@
                             "options": [
                                 {
                                     "name": ""
+                                },
+                                {
+                                    "name": "Pennant of Remembrance",
+                                    "points": 10
                                 },
                                 {
                                     "name": "Shroud of Heroes",
@@ -1674,12 +1980,8 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
+                                    "name": "Weapons of the First Legion",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -1834,11 +2136,11 @@
                                 },
                                 {
                                     "name": "Adept of the Omnissiah",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Master of Machine War",
-                                    "points": 20
+                                    "points": 30
                                 },
                                 {
                                     "name": "Target Augury Web",
@@ -1911,6 +2213,64 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.companyHunters",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Master of Manoeuvre",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Master-crafted Weapon",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Mounted Strategist",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Recon Hunter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.innerCircleTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Deathwing",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Deathwing Assault",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eye of the Unseen",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Singular Will",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
                             "selectedOption": {
                                 "name": ""
@@ -1918,6 +2278,10 @@
                             "options": [
                                 {
                                     "name": ""
+                                },
+                                {
+                                    "name": "Pennant of Remembrance",
+                                    "points": 10
                                 },
                                 {
                                     "name": "Shroud of Heroes",
@@ -1928,12 +2292,8 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
+                                    "name": "Weapons of the First Legion",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -2155,11 +2515,11 @@
                                 },
                                 {
                                     "name": "Adept of the Omnissiah",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Master of Machine War",
-                                    "points": 20
+                                    "points": 30
                                 },
                                 {
                                     "name": "Target Augury Web",
@@ -2232,6 +2592,64 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.companyHunters",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Master of Manoeuvre",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Master-crafted Weapon",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Mounted Strategist",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Recon Hunter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.innerCircleTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Deathwing",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Deathwing Assault",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eye of the Unseen",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Singular Will",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
                             "selectedOption": {
                                 "name": ""
@@ -2239,6 +2657,10 @@
                             "options": [
                                 {
                                     "name": ""
+                                },
+                                {
+                                    "name": "Pennant of Remembrance",
+                                    "points": 10
                                 },
                                 {
                                     "name": "Shroud of Heroes",
@@ -2249,12 +2671,8 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
+                                    "name": "Weapons of the First Legion",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -2409,11 +2827,11 @@
                                 },
                                 {
                                     "name": "Adept of the Omnissiah",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Master of Machine War",
-                                    "points": 20
+                                    "points": 30
                                 },
                                 {
                                     "name": "Target Augury Web",
@@ -2486,6 +2904,64 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.companyHunters",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Master of Manoeuvre",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Master-crafted Weapon",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Mounted Strategist",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Recon Hunter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.innerCircleTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Deathwing",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Deathwing Assault",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eye of the Unseen",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Singular Will",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
                             "selectedOption": {
                                 "name": ""
@@ -2493,6 +2969,10 @@
                             "options": [
                                 {
                                     "name": ""
+                                },
+                                {
+                                    "name": "Pennant of Remembrance",
+                                    "points": 10
                                 },
                                 {
                                     "name": "Shroud of Heroes",
@@ -2503,12 +2983,8 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
+                                    "name": "Weapons of the First Legion",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -2680,11 +3156,11 @@
                                 },
                                 {
                                     "name": "Adept of the Omnissiah",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Master of Machine War",
-                                    "points": 20
+                                    "points": 30
                                 },
                                 {
                                     "name": "Target Augury Web",
@@ -2757,6 +3233,64 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.companyHunters",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Master of Manoeuvre",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Master-crafted Weapon",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Mounted Strategist",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Recon Hunter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.innerCircleTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Deathwing",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Deathwing Assault",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eye of the Unseen",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Singular Will",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
                             "selectedOption": {
                                 "name": ""
@@ -2764,6 +3298,10 @@
                             "options": [
                                 {
                                     "name": ""
+                                },
+                                {
+                                    "name": "Pennant of Remembrance",
+                                    "points": 10
                                 },
                                 {
                                     "name": "Shroud of Heroes",
@@ -2774,12 +3312,8 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
+                                    "name": "Weapons of the First Legion",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -2934,11 +3468,11 @@
                                 },
                                 {
                                     "name": "Adept of the Omnissiah",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Master of Machine War",
-                                    "points": 20
+                                    "points": 30
                                 },
                                 {
                                     "name": "Target Augury Web",
@@ -3011,6 +3545,64 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.companyHunters",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Master of Manoeuvre",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Master-crafted Weapon",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Mounted Strategist",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Recon Hunter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.innerCircleTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Deathwing",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Deathwing Assault",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eye of the Unseen",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Singular Will",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
                             "selectedOption": {
                                 "name": ""
@@ -3018,6 +3610,10 @@
                             "options": [
                                 {
                                     "name": ""
+                                },
+                                {
+                                    "name": "Pennant of Remembrance",
+                                    "points": 10
                                 },
                                 {
                                     "name": "Shroud of Heroes",
@@ -3028,12 +3624,8 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
+                                    "name": "Weapons of the First Legion",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -3202,11 +3794,11 @@
                                 },
                                 {
                                     "name": "Adept of the Omnissiah",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Master of Machine War",
-                                    "points": 20
+                                    "points": 30
                                 },
                                 {
                                     "name": "Target Augury Web",
@@ -3279,6 +3871,64 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.companyHunters",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Master of Manoeuvre",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Master-crafted Weapon",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Mounted Strategist",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Recon Hunter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.innerCircleTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Deathwing",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Deathwing Assault",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eye of the Unseen",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Singular Will",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
                             "selectedOption": {
                                 "name": ""
@@ -3286,6 +3936,10 @@
                             "options": [
                                 {
                                     "name": ""
+                                },
+                                {
+                                    "name": "Pennant of Remembrance",
+                                    "points": 10
                                 },
                                 {
                                     "name": "Shroud of Heroes",
@@ -3296,12 +3950,8 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
+                                    "name": "Weapons of the First Legion",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -3456,11 +4106,11 @@
                                 },
                                 {
                                     "name": "Adept of the Omnissiah",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Master of Machine War",
-                                    "points": 20
+                                    "points": 30
                                 },
                                 {
                                     "name": "Target Augury Web",
@@ -3533,6 +4183,64 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.companyHunters",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Master of Manoeuvre",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Master-crafted Weapon",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Mounted Strategist",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Recon Hunter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.innerCircleTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Deathwing",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Deathwing Assault",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eye of the Unseen",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Singular Will",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
                             "selectedOption": {
                                 "name": ""
@@ -3540,6 +4248,10 @@
                             "options": [
                                 {
                                     "name": ""
+                                },
+                                {
+                                    "name": "Pennant of Remembrance",
+                                    "points": 10
                                 },
                                 {
                                     "name": "Shroud of Heroes",
@@ -3550,12 +4262,8 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
+                                    "name": "Weapons of the First Legion",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -3710,11 +4418,11 @@
                                 },
                                 {
                                     "name": "Adept of the Omnissiah",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Master of Machine War",
-                                    "points": 20
+                                    "points": 30
                                 },
                                 {
                                     "name": "Target Augury Web",
@@ -3787,6 +4495,64 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.companyHunters",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Master of Manoeuvre",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Master-crafted Weapon",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Mounted Strategist",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Recon Hunter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.innerCircleTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Deathwing",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Deathwing Assault",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eye of the Unseen",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Singular Will",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
                             "selectedOption": {
                                 "name": ""
@@ -3794,6 +4560,10 @@
                             "options": [
                                 {
                                     "name": ""
+                                },
+                                {
+                                    "name": "Pennant of Remembrance",
+                                    "points": 10
                                 },
                                 {
                                     "name": "Shroud of Heroes",
@@ -3804,12 +4574,8 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
+                                    "name": "Weapons of the First Legion",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -3999,11 +4765,11 @@
                                 },
                                 {
                                     "name": "Adept of the Omnissiah",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Master of Machine War",
-                                    "points": 20
+                                    "points": 30
                                 },
                                 {
                                     "name": "Target Augury Web",
@@ -4076,6 +4842,64 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.companyHunters",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Master of Manoeuvre",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Master-crafted Weapon",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Mounted Strategist",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Recon Hunter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.innerCircleTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Deathwing",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Deathwing Assault",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eye of the Unseen",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Singular Will",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
                             "selectedOption": {
                                 "name": ""
@@ -4083,6 +4907,10 @@
                             "options": [
                                 {
                                     "name": ""
+                                },
+                                {
+                                    "name": "Pennant of Remembrance",
+                                    "points": 10
                                 },
                                 {
                                     "name": "Shroud of Heroes",
@@ -4093,12 +4921,8 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
+                                    "name": "Weapons of the First Legion",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -4253,11 +5077,11 @@
                                 },
                                 {
                                     "name": "Adept of the Omnissiah",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Master of Machine War",
-                                    "points": 20
+                                    "points": 30
                                 },
                                 {
                                     "name": "Target Augury Web",
@@ -4330,6 +5154,64 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.companyHunters",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Master of Manoeuvre",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Master-crafted Weapon",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Mounted Strategist",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Recon Hunter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.innerCircleTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Deathwing",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Deathwing Assault",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eye of the Unseen",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Singular Will",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
                             "selectedOption": {
                                 "name": ""
@@ -4337,6 +5219,10 @@
                             "options": [
                                 {
                                     "name": ""
+                                },
+                                {
+                                    "name": "Pennant of Remembrance",
+                                    "points": 10
                                 },
                                 {
                                     "name": "Shroud of Heroes",
@@ -4347,12 +5233,8 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
+                                    "name": "Weapons of the First Legion",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -4589,12 +5471,12 @@
                 {
                     "name": "Assault Intercessor with Jump Pack, Assault Intercessor Sergeant with Jump Pack",
                     "amount": 10,
-                    "cost": 170
+                    "cost": 160
                 },
                 {
                     "name": "Assault Intercessor with Jump Pack, Assault Intercessor Sergeant with Jump Pack",
                     "amount": 5,
-                    "cost": 85
+                    "cost": 80
                 }
             ],
             "restrictions": [
@@ -4819,11 +5701,11 @@
                                 },
                                 {
                                     "name": "Adept of the Omnissiah",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Master of Machine War",
-                                    "points": 20
+                                    "points": 30
                                 },
                                 {
                                     "name": "Target Augury Web",
@@ -4896,6 +5778,64 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.companyHunters",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Master of Manoeuvre",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Master-crafted Weapon",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Mounted Strategist",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Recon Hunter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.innerCircleTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Deathwing",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Deathwing Assault",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eye of the Unseen",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Singular Will",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
                             "selectedOption": {
                                 "name": ""
@@ -4903,6 +5843,10 @@
                             "options": [
                                 {
                                     "name": ""
+                                },
+                                {
+                                    "name": "Pennant of Remembrance",
+                                    "points": 10
                                 },
                                 {
                                     "name": "Shroud of Heroes",
@@ -4913,12 +5857,8 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
+                                    "name": "Weapons of the First Legion",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -5050,12 +5990,12 @@
                 {
                     "name": "Incursor, Incursor Sergeant",
                     "amount": 10,
-                    "cost": 170
+                    "cost": 160
                 },
                 {
                     "name": "Incursor, Incursor Sergeant",
                     "amount": 5,
-                    "cost": 85
+                    "cost": 80
                 }
             ],
             "restrictions": [
@@ -5100,7 +6040,7 @@
                 {
                     "name": "Tactical Marine, Tactical Sergeant",
                     "amount": 10,
-                    "cost": 160
+                    "cost": 140
                 }
             ],
             "restrictions": [
@@ -5498,11 +6438,11 @@
                                 },
                                 {
                                     "name": "Adept of the Omnissiah",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Master of Machine War",
-                                    "points": 20
+                                    "points": 30
                                 },
                                 {
                                     "name": "Target Augury Web",
@@ -5575,6 +6515,64 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.companyHunters",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Master of Manoeuvre",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Master-crafted Weapon",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Mounted Strategist",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Recon Hunter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.innerCircleTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Deathwing",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Deathwing Assault",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eye of the Unseen",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Singular Will",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
                             "selectedOption": {
                                 "name": ""
@@ -5582,6 +6580,10 @@
                             "options": [
                                 {
                                     "name": ""
+                                },
+                                {
+                                    "name": "Pennant of Remembrance",
+                                    "points": 10
                                 },
                                 {
                                     "name": "Shroud of Heroes",
@@ -5592,12 +6594,8 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
+                                    "name": "Weapons of the First Legion",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -5752,11 +6750,11 @@
                                 },
                                 {
                                     "name": "Adept of the Omnissiah",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Master of Machine War",
-                                    "points": 20
+                                    "points": 30
                                 },
                                 {
                                     "name": "Target Augury Web",
@@ -5829,6 +6827,64 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.companyHunters",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Master of Manoeuvre",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Master-crafted Weapon",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Mounted Strategist",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Recon Hunter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.innerCircleTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Deathwing",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Deathwing Assault",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eye of the Unseen",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Singular Will",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
                             "selectedOption": {
                                 "name": ""
@@ -5836,6 +6892,10 @@
                             "options": [
                                 {
                                     "name": ""
+                                },
+                                {
+                                    "name": "Pennant of Remembrance",
+                                    "points": 10
                                 },
                                 {
                                     "name": "Shroud of Heroes",
@@ -5846,12 +6906,8 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
+                                    "name": "Weapons of the First Legion",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -6020,11 +7076,11 @@
                                 },
                                 {
                                     "name": "Adept of the Omnissiah",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Master of Machine War",
-                                    "points": 20
+                                    "points": 30
                                 },
                                 {
                                     "name": "Target Augury Web",
@@ -6097,6 +7153,64 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.companyHunters",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Master of Manoeuvre",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Master-crafted Weapon",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Mounted Strategist",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Recon Hunter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.innerCircleTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Deathwing",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Deathwing Assault",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eye of the Unseen",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Singular Will",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
                             "selectedOption": {
                                 "name": ""
@@ -6104,6 +7218,10 @@
                             "options": [
                                 {
                                     "name": ""
+                                },
+                                {
+                                    "name": "Pennant of Remembrance",
+                                    "points": 10
                                 },
                                 {
                                     "name": "Shroud of Heroes",
@@ -6114,12 +7232,8 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
+                                    "name": "Weapons of the First Legion",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -6274,11 +7388,11 @@
                                 },
                                 {
                                     "name": "Adept of the Omnissiah",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Master of Machine War",
-                                    "points": 20
+                                    "points": 30
                                 },
                                 {
                                     "name": "Target Augury Web",
@@ -6351,6 +7465,64 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.companyHunters",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Master of Manoeuvre",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Master-crafted Weapon",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Mounted Strategist",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Recon Hunter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.innerCircleTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Deathwing",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Deathwing Assault",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eye of the Unseen",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Singular Will",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
                             "selectedOption": {
                                 "name": ""
@@ -6358,6 +7530,10 @@
                             "options": [
                                 {
                                     "name": ""
+                                },
+                                {
+                                    "name": "Pennant of Remembrance",
+                                    "points": 10
                                 },
                                 {
                                     "name": "Shroud of Heroes",
@@ -6368,12 +7544,8 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
+                                    "name": "Weapons of the First Legion",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -6557,11 +7729,11 @@
                                 },
                                 {
                                     "name": "Adept of the Omnissiah",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Master of Machine War",
-                                    "points": 20
+                                    "points": 30
                                 },
                                 {
                                     "name": "Target Augury Web",
@@ -6634,6 +7806,64 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.companyHunters",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Master of Manoeuvre",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Master-crafted Weapon",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Mounted Strategist",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Recon Hunter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.innerCircleTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Deathwing",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Deathwing Assault",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eye of the Unseen",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Singular Will",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
                             "selectedOption": {
                                 "name": ""
@@ -6641,6 +7871,10 @@
                             "options": [
                                 {
                                     "name": ""
+                                },
+                                {
+                                    "name": "Pennant of Remembrance",
+                                    "points": 10
                                 },
                                 {
                                     "name": "Shroud of Heroes",
@@ -6651,12 +7885,8 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
+                                    "name": "Weapons of the First Legion",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -7065,11 +8295,11 @@
                                 },
                                 {
                                     "name": "Adept of the Omnissiah",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Master of Machine War",
-                                    "points": 20
+                                    "points": 30
                                 },
                                 {
                                     "name": "Target Augury Web",
@@ -7142,6 +8372,64 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.companyHunters",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Master of Manoeuvre",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Master-crafted Weapon",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Mounted Strategist",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Recon Hunter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.innerCircleTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Deathwing",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Deathwing Assault",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eye of the Unseen",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Singular Will",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
                             "selectedOption": {
                                 "name": ""
@@ -7149,6 +8437,10 @@
                             "options": [
                                 {
                                     "name": ""
+                                },
+                                {
+                                    "name": "Pennant of Remembrance",
+                                    "points": 10
                                 },
                                 {
                                     "name": "Shroud of Heroes",
@@ -7159,12 +8451,8 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
+                                    "name": "Weapons of the First Legion",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -7394,12 +8682,12 @@
                 {
                     "name": "Assault Terminator, Assault Terminator Sergeant",
                     "amount": 10,
-                    "cost": 390
+                    "cost": 370
                 },
                 {
                     "name": "Assault Terminator, Assault Terminator Sergeant",
                     "amount": 5,
-                    "cost": 195
+                    "cost": 185
                 }
             ],
             "restrictions": [
@@ -7467,12 +8755,12 @@
                 {
                     "name": "Terminator, Terminator Sergeant",
                     "amount": 10,
-                    "cost": 370
+                    "cost": 350
                 },
                 {
                     "name": "Terminator, Terminator Sergeant",
                     "amount": 5,
-                    "cost": 185
+                    "cost": 175
                 }
             ],
             "restrictions": [
@@ -7918,7 +9206,7 @@
             "models": [
                 {
                     "name": "Brutalis Dreadnought",
-                    "points": 175,
+                    "points": 160,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -8208,12 +9496,12 @@
                 {
                     "name": "Hellblaster, Hellblaster Sergeant",
                     "amount": 10,
-                    "cost": 250
+                    "cost": 230
                 },
                 {
                     "name": "Hellblaster, Hellblaster Sergeant",
                     "amount": 5,
-                    "cost": 125
+                    "cost": 115
                 }
             ],
             "restrictions": [
@@ -8265,7 +9553,7 @@
                 {
                     "name": "Eliminator, Eliminator Sergeant",
                     "amount": 3,
-                    "cost": 75
+                    "cost": 85
                 }
             ],
             "restrictions": [
@@ -8906,7 +10194,7 @@
             "models": [
                 {
                     "name": "Vindicator",
-                    "points": 190,
+                    "points": 175,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -9792,11 +11080,11 @@
                                 },
                                 {
                                     "name": "Adept of the Omnissiah",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Master of Machine War",
-                                    "points": 20
+                                    "points": 30
                                 },
                                 {
                                     "name": "Target Augury Web",
@@ -9869,6 +11157,64 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.companyHunters",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Master of Manoeuvre",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Master-crafted Weapon",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Mounted Strategist",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Recon Hunter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.innerCircleTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Deathwing",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Deathwing Assault",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eye of the Unseen",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Singular Will",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
                             "selectedOption": {
                                 "name": ""
@@ -9876,6 +11222,10 @@
                             "options": [
                                 {
                                     "name": ""
+                                },
+                                {
+                                    "name": "Pennant of Remembrance",
+                                    "points": 10
                                 },
                                 {
                                     "name": "Shroud of Heroes",
@@ -9886,12 +11236,8 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
+                                    "name": "Weapons of the First Legion",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -10136,11 +11482,11 @@
                                 },
                                 {
                                     "name": "Adept of the Omnissiah",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Master of Machine War",
-                                    "points": 20
+                                    "points": 30
                                 },
                                 {
                                     "name": "Target Augury Web",
@@ -10213,6 +11559,64 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.companyHunters",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Master of Manoeuvre",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Master-crafted Weapon",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Mounted Strategist",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Recon Hunter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.innerCircleTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Deathwing",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Deathwing Assault",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eye of the Unseen",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Singular Will",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
                             "selectedOption": {
                                 "name": ""
@@ -10220,6 +11624,10 @@
                             "options": [
                                 {
                                     "name": ""
+                                },
+                                {
+                                    "name": "Pennant of Remembrance",
+                                    "points": 10
                                 },
                                 {
                                     "name": "Shroud of Heroes",
@@ -10230,12 +11638,8 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Heavenfall Blade",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Pennant of Remembrance",
-                                    "points": 10
+                                    "name": "Weapons of the First Legion",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -10386,12 +11790,12 @@
                 {
                     "name": "Deathwing Terminator, Deathwing Sergeant",
                     "amount": 10,
-                    "cost": 380
+                    "cost": 360
                 },
                 {
                     "name": "Deathwing Terminator, Deathwing Sergeant",
                     "amount": 5,
-                    "cost": 190
+                    "cost": 180
                 }
             ],
             "restrictions": [
@@ -10419,9 +11823,6 @@
                             },
                             "options": [
                                 {
-                                    "name": ""
-                                },
-                                {
                                     "name": "Storm Bolter"
                                 },
                                 {
@@ -10445,30 +11846,10 @@
                             },
                             "options": [
                                 {
-                                    "name": ""
-                                },
-                                {
                                     "name": "Power Fist"
                                 },
                                 {
                                     "name": "Chainfist"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Twin Lightning Claws"
-                                },
-                                {
-                                    "name": "Thunder Hammer, Storm Shield"
                                 }
                             ]
                         }
@@ -10497,13 +11878,8 @@
             "points": [
                 {
                     "name": "Deathwing Knight, Knight Master",
-                    "amount": 10,
-                    "cost": 470
-                },
-                {
-                    "name": "Deathwing Knight, Knight Master",
                     "amount": 5,
-                    "cost": 235
+                    "cost": 215
                 }
             ],
             "restrictions": [
@@ -10511,7 +11887,7 @@
                     "type": "model",
                     "name": "Deathwing Knight",
                     "min": 4,
-                    "max": 9
+                    "max": 4
                 },
                 {
                     "type": "model",
@@ -10522,10 +11898,42 @@
             ],
             "blueprints": [
                 {
-                    "name": "Deathwing Knight"
+                    "name": "Deathwing Knight",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Mace of Absolution"
+                            },
+                            "options": [
+                                {
+                                    "name": "Mace of Absolution"
+                                },
+                                {
+                                    "name": "Power Weapon"
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
-                    "name": "Knight Master"
+                    "name": "Knight Master",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Great Weapon of the Unforgiven"
+                            },
+                            "options": [
+                                {
+                                    "name": "Great Weapon of the Unforgiven"
+                                },
+                                {
+                                    "name": "Relic Weapon"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ],
             "gearset": [
@@ -10859,7 +12267,7 @@
             "models": [
                 {
                     "name": "Lion El'Jonson",
-                    "points": 350,
+                    "points": 300,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -10869,6 +12277,38 @@
                             "selected": false
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.da.unit.innerCircleCompanions",
+            "type": "unit",
+            "rulesetId": "w40k.10e.da",
+            "name": "Inner Circle Companions",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Inner Circle Companion",
+                    "amount": 6,
+                    "cost": 180
+                },
+                {
+                    "name": "Inner Circle Companion",
+                    "amount": 3,
+                    "cost": 90
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Inner Circle Companion",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Inner Circle Companion"
                 }
             ]
         }

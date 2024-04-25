@@ -288,7 +288,7 @@
             "models": [
                 {
                     "name": "Vindicator",
-                    "points": 190,
+                    "points": 175,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -429,7 +429,7 @@
                                 },
                                 {
                                     "name": "Lord of Forbidden Lore",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Athenaean Scrolls",
@@ -441,7 +441,7 @@
                                 },
                                 {
                                     "name": "Arcane Vortex",
-                                    "points": 15
+                                    "points": 25
                                 }
                             ]
                         }
@@ -504,7 +504,7 @@
                                 },
                                 {
                                     "name": "Lord of Forbidden Lore",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Athenaean Scrolls",
@@ -516,7 +516,7 @@
                                 },
                                 {
                                     "name": "Arcane Vortex",
-                                    "points": 15
+                                    "points": 25
                                 }
                             ]
                         }
@@ -576,7 +576,7 @@
             "models": [
                 {
                     "name": "Helbrute",
-                    "points": 145,
+                    "points": 130,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -694,7 +694,7 @@
                                 },
                                 {
                                     "name": "Lord of Forbidden Lore",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Athenaean Scrolls",
@@ -706,7 +706,7 @@
                                 },
                                 {
                                     "name": "Arcane Vortex",
-                                    "points": 15
+                                    "points": 25
                                 }
                             ]
                         }
@@ -745,7 +745,7 @@
             "models": [
                 {
                     "name": "Maulerfiend",
-                    "points": 155,
+                    "points": 140,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -874,12 +874,12 @@
                 {
                     "name": "Scarab Occult Terminator, Scarab Occult Sorcerer",
                     "amount": 10,
-                    "cost": 430
+                    "cost": 400
                 },
                 {
                     "name": "Scarab Occult Terminator, Scarab Occult Sorcerer",
                     "amount": 5,
-                    "cost": 215
+                    "cost": 200
                 }
             ],
             "restrictions": [
@@ -995,7 +995,7 @@
                                 },
                                 {
                                     "name": "Lord of Forbidden Lore",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Athenaean Scrolls",
@@ -1007,7 +1007,7 @@
                                 },
                                 {
                                     "name": "Arcane Vortex",
-                                    "points": 15
+                                    "points": 25
                                 }
                             ]
                         }
@@ -1063,7 +1063,7 @@
                                 },
                                 {
                                     "name": "Lord of Forbidden Lore",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Athenaean Scrolls",
@@ -1075,7 +1075,7 @@
                                 },
                                 {
                                     "name": "Arcane Vortex",
-                                    "points": 15
+                                    "points": 25
                                 }
                             ]
                         }
@@ -1093,12 +1093,12 @@
                 {
                     "name": "Cultist, Cultist Champion",
                     "amount": 20,
-                    "cost": 120
+                    "cost": 110
                 },
                 {
                     "name": "Cultist, Cultist Champion",
                     "amount": 10,
-                    "cost": 60
+                    "cost": 55
                 }
             ],
             "restrictions": [
@@ -1155,6 +1155,57 @@
             "models": [
                 {
                     "name": "Daemon Prince",
+                    "points": 170,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.cultOfMagic",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Lord of Forbidden Lore",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Athenaean Scrolls",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Umbralefic Crystal",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Arcane Vortex",
+                                    "points": 25
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.daemonPrinceWings",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Daemon Prince with Wings",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Daemon Prince",
                     "points": 180,
                     "gearset": [
                         {
@@ -1177,7 +1228,7 @@
                                 },
                                 {
                                     "name": "Lord of Forbidden Lore",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Athenaean Scrolls",
@@ -1189,58 +1240,7 @@
                                 },
                                 {
                                     "name": "Arcane Vortex",
-                                    "points": 15
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.tsons.unit.daemonPrinceWings",
-            "type": "unit",
-            "rulesetId": "w40k.10e.tsons",
-            "name": "Daemon Prince with Wings",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Daemon Prince",
-                    "points": 195,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.tsons.dt.cultOfMagic",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Lord of Forbidden Lore",
                                     "points": 25
-                                },
-                                {
-                                    "name": "Athenaean Scrolls",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Umbralefic Crystal",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Arcane Vortex",
-                                    "points": 15
                                 }
                             ]
                         }
@@ -1358,7 +1358,7 @@
                                 },
                                 {
                                     "name": "Lord of Forbidden Lore",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Athenaean Scrolls",
@@ -1370,7 +1370,7 @@
                                 },
                                 {
                                     "name": "Arcane Vortex",
-                                    "points": 15
+                                    "points": 25
                                 }
                             ]
                         }

@@ -127,7 +127,7 @@
                                 },
                                 {
                                     "name": "The Phoenix Gem",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "The Weeping Stones",
@@ -235,7 +235,7 @@
                                 },
                                 {
                                     "name": "The Phoenix Gem",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "The Weeping Stones",
@@ -310,7 +310,7 @@
                                 },
                                 {
                                     "name": "The Phoenix Gem",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "The Weeping Stones",
@@ -789,7 +789,7 @@
                                 },
                                 {
                                     "name": "The Phoenix Gem",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "The Weeping Stones",
@@ -997,7 +997,7 @@
                                 },
                                 {
                                     "name": "The Phoenix Gem",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "The Weeping Stones",
@@ -1062,7 +1062,7 @@
                                 },
                                 {
                                     "name": "The Phoenix Gem",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "The Weeping Stones",
@@ -1180,7 +1180,7 @@
             "models": [
                 {
                     "name": "Fuegan",
-                    "points": 115,
+                    "points": 130,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1203,7 +1203,7 @@
                 {
                     "name": "Guardian Defender, Heavy Weapon Platform",
                     "amount": 11,
-                    "cost": 110
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -1277,12 +1277,12 @@
                 {
                     "name": "Howling Banshee, Howling Banshee Exarch",
                     "amount": 10,
-                    "cost": 170
+                    "cost": 140
                 },
                 {
                     "name": "Howling Banshee, Howling Banshee Exarch",
                     "amount": 5,
-                    "cost": 85
+                    "cost": 70
                 }
             ],
             "restrictions": [
@@ -1532,7 +1532,7 @@
                                 },
                                 {
                                     "name": "The Phoenix Gem",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "The Weeping Stones",
@@ -1562,12 +1562,12 @@
                 {
                     "name": "Shining Spear, Shining Spear Exarch",
                     "amount": 6,
-                    "cost": 240
+                    "cost": 200
                 },
                 {
                     "name": "Shining Spear, Shining Spear Exarch",
                     "amount": 3,
-                    "cost": 120
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -1771,7 +1771,7 @@
                                 },
                                 {
                                     "name": "The Phoenix Gem",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "The Weeping Stones",
@@ -1814,7 +1814,7 @@
                 {
                     "name": "Storm Guardian, Serpent's Scale Platform",
                     "amount": 11,
-                    "cost": 115
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -1883,12 +1883,12 @@
                 {
                     "name": "Striking Scorpion, Striking Scorpion Exarch",
                     "amount": 10,
-                    "cost": 150
+                    "cost": 130
                 },
                 {
                     "name": "Striking Scorpion, Striking Scorpion Exarch",
                     "amount": 5,
-                    "cost": 75
+                    "cost": 65
                 }
             ],
             "restrictions": [
@@ -1942,7 +1942,7 @@
             "models": [
                 {
                     "name": "Support Weapon",
-                    "points": 125,
+                    "points": 135,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1975,12 +1975,12 @@
                 {
                     "name": "Swooping Hawk, Swooping Hawk Exarch",
                     "amount": 10,
-                    "cost": 150
+                    "cost": 160
                 },
                 {
                     "name": "Swooping Hawk, Swooping Hawk Exarch",
                     "amount": 5,
-                    "cost": 75
+                    "cost": 80
                 }
             ],
             "restrictions": [
@@ -2255,7 +2255,7 @@
                                 },
                                 {
                                     "name": "The Phoenix Gem",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "The Weeping Stones",
@@ -2425,7 +2425,7 @@
                                 },
                                 {
                                     "name": "The Phoenix Gem",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "The Weeping Stones",
@@ -2490,7 +2490,7 @@
                                 },
                                 {
                                     "name": "The Phoenix Gem",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "The Weeping Stones",
@@ -3478,12 +3478,12 @@
                 {
                     "name": "Shadow Spectre",
                     "amount": 10,
-                    "cost": 190
+                    "cost": 210
                 },
                 {
                     "name": "Shadow Spectre",
                     "amount": 5,
-                    "cost": 95
+                    "cost": 105
                 }
             ],
             "restrictions": [

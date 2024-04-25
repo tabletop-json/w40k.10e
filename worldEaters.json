@@ -356,12 +356,12 @@
                 {
                     "name": "Khorne Berzerker, Khorne Berzerker Champion",
                     "amount": 10,
-                    "cost": 200
+                    "cost": 180
                 },
                 {
                     "name": "Khorne Berzerker, Khorne Berzerker Champion",
                     "amount": 5,
-                    "cost": 100
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -463,12 +463,12 @@
                 {
                     "name": "Jakhal, Dishonoured, Jakhal Pack Leader",
                     "amount": 20,
-                    "cost": 140
+                    "cost": 130
                 },
                 {
                     "name": "Jakhal, Dishonoured, Jakhal Pack Leader",
                     "amount": 10,
-                    "cost": 70
+                    "cost": 65
                 }
             ],
             "restrictions": [
@@ -572,12 +572,12 @@
                 {
                     "name": "Terminator, Terminator Champion",
                     "amount": 10,
-                    "cost": 380
+                    "cost": 360
                 },
                 {
                     "name": "Terminator, Terminator Champion",
                     "amount": 5,
-                    "cost": 190
+                    "cost": 180
                 }
             ],
             "restrictions": [
@@ -1146,7 +1146,7 @@
             "models": [
                 {
                     "name": "Helbrute",
-                    "points": 140,
+                    "points": 130,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1248,7 +1248,7 @@
             "models": [
                 {
                     "name": "Maulerfiend",
-                    "points": 155,
+                    "points": 140,
                     "gearset": [
                         {
                             "type": "text",

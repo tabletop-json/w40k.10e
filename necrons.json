@@ -94,7 +94,7 @@
             "models": [
                 {
                     "name": "Illuminor Szeras",
-                    "points": 160,
+                    "points": 175,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -251,7 +251,7 @@
                                 },
                                 {
                                     "name": "Dimensional Overseer",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Hyperspatial Transfer Node",
@@ -305,7 +305,7 @@
             "models": [
                 {
                     "name": "Skorpekh Lord",
-                    "points": 100,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -418,7 +418,7 @@
                                 },
                                 {
                                     "name": "Dimensional Overseer",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Hyperspatial Transfer Node",
@@ -616,7 +616,7 @@
                                 },
                                 {
                                     "name": "Dimensional Overseer",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Hyperspatial Transfer Node",
@@ -670,7 +670,7 @@
             "models": [
                 {
                     "name": "Catacomb Command Barge",
-                    "points": 150,
+                    "points": 130,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -818,7 +818,7 @@
                                 },
                                 {
                                     "name": "Dimensional Overseer",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Hyperspatial Transfer Node",
@@ -1002,7 +1002,7 @@
                                 },
                                 {
                                     "name": "Dimensional Overseer",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Hyperspatial Transfer Node",
@@ -1169,7 +1169,7 @@
                                 },
                                 {
                                     "name": "Dimensional Overseer",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Hyperspatial Transfer Node",
@@ -1223,7 +1223,7 @@
             "models": [
                 {
                     "name": "Technomancer",
-                    "points": 60,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1336,7 +1336,7 @@
                                 },
                                 {
                                     "name": "Dimensional Overseer",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Hyperspatial Transfer Node",
@@ -1503,7 +1503,7 @@
                                 },
                                 {
                                     "name": "Dimensional Overseer",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Hyperspatial Transfer Node",
@@ -1557,7 +1557,7 @@
             "models": [
                 {
                     "name": "Chronomancer",
-                    "points": 50,
+                    "points": 65,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1670,7 +1670,7 @@
                                 },
                                 {
                                     "name": "Dimensional Overseer",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Hyperspatial Transfer Node",
@@ -1724,7 +1724,7 @@
             "models": [
                 {
                     "name": "Plasmancer",
-                    "points": 55,
+                    "points": 65,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1837,7 +1837,7 @@
                                 },
                                 {
                                     "name": "Dimensional Overseer",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Hyperspatial Transfer Node",
@@ -1940,12 +1940,12 @@
                 {
                     "name": "Immortal",
                     "amount": 10,
-                    "cost": 140
+                    "cost": 150
                 },
                 {
                     "name": "Immortal",
                     "amount": 5,
-                    "cost": 70
+                    "cost": 75
                 }
             ],
             "restrictions": [
@@ -2113,7 +2113,7 @@
                                 },
                                 {
                                     "name": "Dimensional Overseer",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Hyperspatial Transfer Node",
@@ -2216,12 +2216,12 @@
                 {
                     "name": "Deathmark",
                     "amount": 10,
-                    "cost": 130
+                    "cost": 120
                 },
                 {
                     "name": "Deathmark",
                     "amount": 5,
-                    "cost": 65
+                    "cost": 60
                 }
             ],
             "restrictions": [
@@ -2302,12 +2302,12 @@
                 {
                     "name": "Skorpekh Destroyer",
                     "amount": 6,
-                    "cost": 200
+                    "cost": 180
                 },
                 {
                     "name": "Skorpekh Destroyer",
                     "amount": 3,
-                    "cost": 100
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -2387,7 +2387,7 @@
             "models": [
                 {
                     "name": "C'tan Shard of the Nightbringer",
-                    "points": 255
+                    "points": 295
                 }
             ]
         },
@@ -2400,7 +2400,7 @@
             "models": [
                 {
                     "name": "C'tan Shard of the Void Dragon",
-                    "points": 270
+                    "points": 290
                 }
             ]
         },
@@ -2413,7 +2413,7 @@
             "models": [
                 {
                     "name": "Transcendant C'tan",
-                    "points": 275,
+                    "points": 285,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2519,7 +2519,7 @@
                                 },
                                 {
                                     "name": "Dimensional Overseer",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Hyperspatial Transfer Node",
@@ -2661,12 +2661,12 @@
                 {
                     "name": "Ophydian Destroyer",
                     "amount": 6,
-                    "cost": 200
+                    "cost": 180
                 },
                 {
                     "name": "Ophydian Destroyer",
                     "amount": 3,
-                    "cost": 100
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -3110,7 +3110,7 @@
             "models": [
                 {
                     "name": "Monolith",
-                    "points": 350,
+                    "points": 375,
                     "gearset": [
                         {
                             "type": "dropdown",

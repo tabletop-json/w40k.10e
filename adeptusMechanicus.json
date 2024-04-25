@@ -142,7 +142,7 @@
             "models": [
                 {
                     "name": "Belisarius Cawl",
-                    "points": 180,
+                    "points": 150,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -364,12 +364,12 @@
                 {
                     "name": "Kastelan Robot",
                     "amount": 4,
-                    "cost": 400
+                    "cost": 360
                 },
                 {
                     "name": "Kastelan Robot",
                     "amount": 2,
-                    "cost": 200
+                    "cost": 180
                 }
             ],
             "restrictions": [
@@ -576,12 +576,12 @@
                 {
                     "name": "Kataphron Destroyer",
                     "amount": 6,
-                    "cost": 230
+                    "cost": 210
                 },
                 {
                     "name": "Kataphron Destroyer",
                     "amount": 3,
-                    "cost": 115
+                    "cost": 105
                 }
             ],
             "restrictions": [
@@ -637,7 +637,7 @@
             "models": [
                 {
                     "name": "Onager Dunecrawler",
-                    "points": 140,
+                    "points": 130,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -978,12 +978,12 @@
                 {
                     "name": "Sicarian Infiltrator, Sicarian Infiltrator Princeps",
                     "amount": 10,
-                    "cost": 140
+                    "cost": 120
                 },
                 {
                     "name": "Sicarian Infiltrator, Sicarian Infiltrator Princeps",
                     "amount": 5,
-                    "cost": 70
+                    "cost": 60
                 }
             ],
             "restrictions": [
@@ -1291,7 +1291,7 @@
                 {
                     "name": "Skitarii Ranger, Skitarii Ranger Alpha",
                     "amount": 10,
-                    "cost": 90
+                    "cost": 80
                 }
             ],
             "restrictions": [
@@ -1480,7 +1480,7 @@
             "models": [
                 {
                     "name": "Skorpius Disintegrator",
-                    "points": 180,
+                    "points": 170,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1608,7 +1608,7 @@
             "models": [
                 {
                     "name": "Sydonian Skatros",
-                    "points": 65,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "checkbox",

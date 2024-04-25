@@ -10,10 +10,31 @@
     },
     "detachments": [
         {
+            "id": "w40k.10e.cst.dt.auricChampions",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Auric Champions",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.cst.dt.nullMaidenVigil",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Null Maiden Vigil",
+            "rule": ""
+        },
+        {
             "id": "w40k.10e.cst.dt.shieldHost",
             "type": "detachment",
             "rulesetId": "w40k.10e.cst",
             "name": "Shield Host",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.cst.dt.talonsEmperor",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Talons of the Emperor",
             "rule": ""
         }
     ],
@@ -303,7 +324,7 @@
                 {
                     "name": "Vigilator, Vigilator Sister Superior",
                     "amount": 10,
-                    "cost": 130
+                    "cost": 125
                 },
                 {
                     "name": "Vigilator, Vigilator Sister Superior",
@@ -436,6 +457,64 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.cst.dt.auricChampions",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blade Imperator",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Inspirational Exemplar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Martial Philosopher",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Veiled Blade",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.cst.dt.nullMaidenVigil",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Enhanced Voidsheen Cloak",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Huntress' Eye",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Oblivion Knight",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Raptor Blade",
+                                    "points": 5
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.cst.dt.shieldHost",
                             "selectedOption": {
                                 "name": ""
@@ -445,19 +524,48 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "UnstoppableDestroyer",
+                                    "name": "Auric Mantle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Castellan's Mark",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "From the Hall of Armouries",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Inspirational Exemplar",
-                                    "points": 10
+                                    "name": "Panoptispex",
+                                    "points": 5
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.cst.dt.talonsEmperor",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
                                 },
                                 {
-                                    "name": "Veiled Blade",
+                                    "name": "Aegis Protector",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Champion of the Imperium",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Ceaseless Hunter",
+                                    "name": "Gift of Terran Artifice",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Radiant Mantle",
                                     "points": 30
                                 }
                             ]
@@ -475,7 +583,7 @@
             "models": [
                 {
                     "name": "Blade Champion",
-                    "points": 120,
+                    "points": 110,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -483,6 +591,64 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
+                        },
+{
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.cst.dt.auricChampions",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blade Imperator",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Inspirational Exemplar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Martial Philosopher",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Veiled Blade",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.cst.dt.nullMaidenVigil",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Enhanced Voidsheen Cloak",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Huntress' Eye",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Oblivion Knight",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Raptor Blade",
+                                    "points": 5
+                                }
+                            ]
                         },
                         {
                             "type": "dropdown",
@@ -496,19 +662,48 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "UnstoppableDestroyer",
+                                    "name": "Auric Mantle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Castellan's Mark",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "From the Hall of Armouries",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Inspirational Exemplar",
-                                    "points": 10
+                                    "name": "Panoptispex",
+                                    "points": 5
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.cst.dt.talonsEmperor",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
                                 },
                                 {
-                                    "name": "Veiled Blade",
+                                    "name": "Aegis Protector",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Champion of the Imperium",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Ceaseless Hunter",
+                                    "name": "Gift of Terran Artifice",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Radiant Mantle",
                                     "points": 30
                                 }
                             ]
@@ -526,7 +721,7 @@
             "models": [
                 {
                     "name": "Aleya",
-                    "points": 80,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -570,7 +765,7 @@
             "models": [
                 {
                     "name": "Knight-centura",
-                    "points": 75,
+                    "points": 70,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -632,6 +827,64 @@
                                 }
                             ]
                         },
+{
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.cst.dt.auricChampions",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blade Imperator",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Inspirational Exemplar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Martial Philosopher",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Veiled Blade",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.cst.dt.nullMaidenVigil",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Enhanced Voidsheen Cloak",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Huntress' Eye",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Oblivion Knight",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Raptor Blade",
+                                    "points": 5
+                                }
+                            ]
+                        },
                         {
                             "type": "dropdown",
                             "color": "green",
@@ -644,19 +897,48 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "UnstoppableDestroyer",
+                                    "name": "Auric Mantle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Castellan's Mark",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "From the Hall of Armouries",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Inspirational Exemplar",
-                                    "points": 10
+                                    "name": "Panoptispex",
+                                    "points": 5
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.cst.dt.talonsEmperor",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
                                 },
                                 {
-                                    "name": "Veiled Blade",
+                                    "name": "Aegis Protector",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Champion of the Imperium",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Ceaseless Hunter",
+                                    "name": "Gift of Terran Artifice",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Radiant Mantle",
                                     "points": 30
                                 }
                             ]
@@ -697,6 +979,64 @@
                                 }
                             ]
                         },
+{
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.cst.dt.auricChampions",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blade Imperator",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Inspirational Exemplar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Martial Philosopher",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Veiled Blade",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.cst.dt.nullMaidenVigil",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Enhanced Voidsheen Cloak",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Huntress' Eye",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Oblivion Knight",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Raptor Blade",
+                                    "points": 5
+                                }
+                            ]
+                        },
                         {
                             "type": "dropdown",
                             "color": "green",
@@ -709,19 +1049,48 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "UnstoppableDestroyer",
+                                    "name": "Auric Mantle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Castellan's Mark",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "From the Hall of Armouries",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Inspirational Exemplar",
-                                    "points": 10
+                                    "name": "Panoptispex",
+                                    "points": 5
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.cst.dt.talonsEmperor",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
                                 },
                                 {
-                                    "name": "Veiled Blade",
+                                    "name": "Aegis Protector",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Champion of the Imperium",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Ceaseless Hunter",
+                                    "name": "Gift of Terran Artifice",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Radiant Mantle",
                                     "points": 30
                                 }
                             ]
@@ -739,7 +1108,7 @@
             "models": [
                 {
                     "name": "Trajan Valoris",
-                    "points": 160,
+                    "points": 150,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -761,7 +1130,7 @@
             "models": [
                 {
                     "name": "Valerian",
-                    "points": 115,
+                    "points": 110,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -783,7 +1152,7 @@
             "models": [
                 {
                     "name": "Venerable Contemptor Dreadnought",
-                    "points": 185,
+                    "points": 170,
                     "gearset": [
                         {
                             "type": "dropdown",
