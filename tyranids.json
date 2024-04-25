@@ -505,7 +505,7 @@
             "models": [
                 {
                     "name": "The Swarmlord",
-                    "points": 270,
+                    "points": 240,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1152,12 +1152,12 @@
                 {
                     "name": "Tyranid Warrior, Tyranid Prime",
                     "amount": 6,
-                    "cost": 140
+                    "cost": 130
                 },
                 {
                     "name": "Tyranid Warrior, Tyranid Prime",
                     "amount": 3,
-                    "cost": 70
+                    "cost": 65
                 }
             ],
             "restrictions": [
@@ -1243,12 +1243,12 @@
                 {
                     "name": "Tyranid Warrior, Tyranid Prime",
                     "amount": 6,
-                    "cost": 170
+                    "cost": 150
                 },
                 {
                     "name": "Tyranid Warrior, Tyranid Prime",
                     "amount": 3,
-                    "cost": 85
+                    "cost": 75
                 }
             ],
             "restrictions": [
@@ -1376,12 +1376,12 @@
                 {
                     "name": "Gargoyle",
                     "amount": 20,
-                    "cost": 160
+                    "cost": 170
                 },
                 {
                     "name": "Gargoyle",
                     "amount": 10,
-                    "cost": 80
+                    "cost": 85
                 }
             ],
             "restrictions": [
@@ -1421,12 +1421,12 @@
                 {
                     "name": "Tyrant Guard",
                     "amount": 6,
-                    "cost": 190
+                    "cost": 170
                 },
                 {
                     "name": "Tyrant Guard",
                     "amount": 3,
-                    "cost": 95
+                    "cost": 85
                 }
             ],
             "restrictions": [
@@ -1667,7 +1667,7 @@
             "models": [
                 {
                     "name": "Lictor",
-                    "points": 60
+                    "points": 55
                 }
             ]
         },
@@ -1871,12 +1871,12 @@
                 {
                     "name": "Zoanthrope, Neurothrope",
                     "amount": 6,
-                    "cost": 220
+                    "cost": 200
                 },
                 {
                     "name": "Zoanthrope, Neurothrope",
                     "amount": 3,
-                    "cost": 110
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -2481,12 +2481,12 @@
                 {
                     "name": "Hive Guard",
                     "amount": 6,
-                    "cost": 220
+                    "cost": 200
                 },
                 {
                     "name": "Hive Guard",
                     "amount": 3,
-                    "cost": 110
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -2628,7 +2628,7 @@
             "models": [
                 {
                     "name": "Psychophage",
-                    "points": 125
+                    "points": 95
                 }
             ]
         },
@@ -2642,12 +2642,12 @@
                 {
                     "name": "Barbgaunt",
                     "amount": 10,
-                    "cost": 120
+                    "cost": 110
                 },
                 {
                     "name": "Barbgaunt",
                     "amount": 5,
-                    "cost": 60
+                    "cost": 55
                 }
             ],
             "restrictions": [

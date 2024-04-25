@@ -1992,7 +1992,7 @@
                 {
                     "name": "Kasrkin Trooper, Kasrkin Sergeant",
                     "amount": 10,
-                    "cost": 100
+                    "cost": 120
                 }
             ],
             "restrictions": [
@@ -2412,12 +2412,12 @@
                 {
                     "name": "Bullgryn, Bullgryn Bone 'ead",
                     "amount": 6,
-                    "cost": 160
+                    "cost": 180
                 },
                 {
                     "name": "Bullgryn, Bullgryn Bone 'ead",
                     "amount": 3,
-                    "cost": 80
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -2544,12 +2544,12 @@
                 {
                     "name": "Rough Rider, Rough Rider Sergeant",
                     "amount": 10,
-                    "cost": 140
+                    "cost": 120
                 },
                 {
                     "name": "Rough Rider, Rough Rider Sergeant",
                     "amount": 5,
-                    "cost": 70
+                    "cost": 60
                 }
             ],
             "restrictions": [
@@ -2773,7 +2773,7 @@
             "models": [
                 {
                     "name": "Hellhound",
-                    "points": 125,
+                    "points": 115,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -3024,7 +3024,7 @@
             "models": [
                 {
                     "name": "Leman Russ Battle Tank",
-                    "points": 180,
+                    "points": 170,
                     "gearset": [
                         {
                             "type": "text",
@@ -3194,7 +3194,7 @@
             "models": [
                 {
                     "name": "Leman Russ Vanquisher",
-                    "points": 155,
+                    "points": 145,
                     "gearset": [
                         {
                             "type": "text",
@@ -3279,7 +3279,7 @@
             "models": [
                 {
                     "name": "Leman Russ Punisher",
-                    "points": 160,
+                    "points": 150,
                     "gearset": [
                         {
                             "type": "text",
@@ -3364,7 +3364,7 @@
             "models": [
                 {
                     "name": "Leman Russ Executioner",
-                    "points": 180,
+                    "points": 170,
                     "gearset": [
                         {
                             "type": "text",
@@ -3449,7 +3449,7 @@
             "models": [
                 {
                     "name": "Leman Russ Exterminator",
-                    "points": 180,
+                    "points": 170,
                     "gearset": [
                         {
                             "type": "text",
@@ -3534,7 +3534,7 @@
             "models": [
                 {
                     "name": "Leman Russ Eradicator",
-                    "points": 160,
+                    "points": 150,
                     "gearset": [
                         {
                             "type": "text",
@@ -3619,7 +3619,7 @@
             "models": [
                 {
                     "name": "Basilisk",
-                    "points": 135,
+                    "points": 150,
                     "gearset": [
                         {
                             "type": "text",
@@ -3661,7 +3661,7 @@
             "models": [
                 {
                     "name": "Hydra",
-                    "points": 95,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "text",
@@ -3703,7 +3703,7 @@
             "models": [
                 {
                     "name": "Manticore",
-                    "points": 180,
+                    "points": 190,
                     "gearset": [
                         {
                             "type": "text",
@@ -4480,7 +4480,7 @@
                 {
                     "name": "Tempestus Scion, Tempestor Prime",
                     "amount": 5,
-                    "cost": 80
+                    "cost": 70
                 }
             ],
             "models": [
@@ -4699,12 +4699,12 @@
                 {
                     "name": "Tempestus Scion, Tempestor",
                     "amount": 10,
-                    "cost": 110
+                    "cost": 100
                 },
                 {
                     "name": "Tempestus Scion, Tempestor",
                     "amount": 5,
-                    "cost": 55
+                    "cost": 50
                 }
             ],
             "restrictions": [
@@ -5429,7 +5429,7 @@
             "models": [
                 {
                     "name": "Medusa Carriage Battery",
-                    "points": 110
+                    "points": 125
                 }
             ]
         },

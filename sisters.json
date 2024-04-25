@@ -136,7 +136,7 @@
                                 },
                                 {
                                     "name": "Blade of Saint Ellynor",
-                                    "points": 15
+                                    "points": 25
                                 },
                                 {
                                     "name": "Litanies of Faith",
@@ -201,7 +201,7 @@
                                 },
                                 {
                                     "name": "Blade of Saint Ellynor",
-                                    "points": 15
+                                    "points": 25
                                 },
                                 {
                                     "name": "Litanies of Faith",
@@ -291,7 +291,7 @@
                                 },
                                 {
                                     "name": "Blade of Saint Ellynor",
-                                    "points": 15
+                                    "points": 25
                                 },
                                 {
                                     "name": "Litanies of Faith",
@@ -350,7 +350,7 @@
             "models": [
                 {
                     "name": "Triumph of Saint Katherine",
-                    "points": 125,
+                    "points": 140,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -373,7 +373,7 @@
                 {
                     "name": "Ephrael Stern, Kyganil of the Bloody Tears",
                     "amount": 2,
-                    "cost": 80
+                    "cost": 70
                 }
             ],
             "models": [
@@ -679,7 +679,7 @@
                                 },
                                 {
                                     "name": "Blade of Saint Ellynor",
-                                    "points": 15
+                                    "points": 25
                                 },
                                 {
                                     "name": "Litanies of Faith",
@@ -730,7 +730,7 @@
                                 },
                                 {
                                     "name": "Blade of Saint Ellynor",
-                                    "points": 15
+                                    "points": 25
                                 },
                                 {
                                     "name": "Litanies of Faith",
@@ -795,7 +795,7 @@
                                 },
                                 {
                                     "name": "Blade of Saint Ellynor",
-                                    "points": 15
+                                    "points": 25
                                 },
                                 {
                                     "name": "Litanies of Faith",
@@ -821,12 +821,12 @@
                 {
                     "name": "Celestian Sacresant, Sacresant Superior",
                     "amount": 10,
-                    "cost": 130
+                    "cost": 120
                 },
                 {
                     "name": "Celestian Sacresant, Sacresant Superior",
                     "amount": 5,
-                    "cost": 65
+                    "cost": 60
                 }
             ],
             "restrictions": [
@@ -948,7 +948,7 @@
                                 },
                                 {
                                     "name": "Blade of Saint Ellynor",
-                                    "points": 15
+                                    "points": 25
                                 },
                                 {
                                     "name": "Litanies of Faith",
@@ -999,7 +999,7 @@
                                 },
                                 {
                                     "name": "Blade of Saint Ellynor",
-                                    "points": 15
+                                    "points": 25
                                 },
                                 {
                                     "name": "Litanies of Faith",
@@ -1206,7 +1206,7 @@
                 {
                     "name": "Crusader",
                     "amount": 2,
-                    "cost": 25
+                    "cost": 35
                 }
             ],
             "restrictions": [
@@ -1243,7 +1243,7 @@
                 {
                     "name": "Death Cult Assassin",
                     "amount": 2,
-                    "cost": 35
+                    "cost": 45
                 }
             ],
             "restrictions": [
@@ -1654,12 +1654,12 @@
                 {
                     "name": "Mortifier",
                     "amount": 2,
-                    "cost": 120
+                    "cost": 110
                 },
                 {
                     "name": "Mortifier",
                     "amount": 1,
-                    "cost": 60
+                    "cost": 55
                 }
             ],
             "restrictions": [
@@ -1729,12 +1729,12 @@
                 {
                     "name": "Penitent Engine",
                     "amount": 2,
-                    "cost": 120
+                    "cost": 110
                 },
                 {
                     "name": "Penitent Engine",
                     "amount": 1,
-                    "cost": 60
+                    "cost": 55
                 }
             ],
             "restrictions": [
@@ -1920,12 +1920,12 @@
                 {
                     "name": "Arco-Flagellant",
                     "amount": 10,
-                    "cost": 150
+                    "cost": 160
                 },
                 {
                     "name": "Arco-Flagellant",
                     "amount": 3,
-                    "cost": 45
+                    "cost": 50
                 }
             ],
             "restrictions": [

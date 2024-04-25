@@ -56,7 +56,7 @@
             "models": [
                 {
                     "name": "Callidus Assassin",
-                    "points": 90
+                    "points": 100
                 }
             ]
         },
@@ -509,7 +509,7 @@
             "models": [
                 {
                     "name": "Inquisitor Kyria Draxus",
-                    "points": 75,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -699,7 +699,7 @@
                 {
                     "name": "Inquisitorial Acolyte",
                     "amount": 4,
-                    "cost": 40
+                    "cost": 50
                 }
             ],
             "restrictions": [
