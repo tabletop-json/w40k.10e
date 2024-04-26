@@ -843,15 +843,15 @@
             ]
         },
         {
-            "id": "w40k.10e.ork.unit.bigMekKustomForceField",
+            "id": "w40k.10e.ork.unit.bigMek",
             "type": "unit",
             "rulesetId": "w40k.10e.ork",
-            "name": "Big Mek with Kustom Force Field",
+            "name": "Big Mek",
             "role": "CHARACTER",
             "models": [
                 {
-                    "name": "Big Mek with Kustom Force Field",
-                    "points": 55,
+                    "name": "Big Mek",
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -861,11 +861,32 @@
                             "selected": false
                         },
                         {
-                            "type": "checkbox",
+                            "type": "dropdown",
                             "selectedOption": {
-                                "name": "Grot Helper"
+                                "name": "Kustom Mega-Blasta"
                             },
-                            "selected": false
+                            "options": [
+                                {
+                                    "name": "Kustom Mega-Blasta"
+                                },
+                                {
+                                    "name": "Traktor Blasta"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Power Klaw"
+                            },
+                            "options": [
+                                {
+                                    "name": "Power Klaw"
+                                },
+                                {
+                                    "name": "Drilla"
+                                }
+                            ]
                         },
                         {
                             "type": "dropdown",
