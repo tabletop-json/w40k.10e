@@ -2480,7 +2480,7 @@
             "models": [
                 {
                     "name": "Mozrog Skragbad",
-                    "points": 195,
+                    "points": 165,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2503,12 +2503,12 @@
                 {
                     "name": "Nob, Boss Nob",
                     "amount": 10,
-                    "cost": 220
+                    "cost": 210
                 },
                 {
                     "name": "Nob, Boss Nob",
                     "amount": 5,
-                    "cost": 110
+                    "cost": 105
                 }
             ],
             "restrictions": [
