@@ -61,20 +61,6 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Tracks and Wheels"
-                            },
-                            "options": [
-                                {
-                                    "name": "Tracks and Wheels"
-                                },
-                                {
-                                    "name": "Deff Rolla"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
                                 "name": ""
                             },
                             "options": [
@@ -89,6 +75,43 @@
                                 },
                                 {
                                     "name": "Zzap Gun"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "1x Big Shoota"
+                                },
+                                {
+                                    "name": "2x Big Shoota"
+                                },
+                                {
+                                    "name": "3x Big Shoota"
+                                },
+                                {
+                                    "name": "4x Big Shoota"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Tracks and Wheels"
+                            },
+                            "options": [
+                                {
+                                    "name": "Tracks and Wheels"
+                                },
+                                {
+                                    "name": "Deff Rolla"
                                 }
                             ]
                         },
@@ -3042,13 +3065,13 @@
             "role": "MOUNTED",
             "points": [
                 {
-                    "name": "Squighog Boy",
-                    "amount": 6,
+                    "name": "Squighog Boy, Nob on Smasha Squig",
+                    "amount": 8,
                     "cost": 320
                 },
                 {
-                    "name": "Squighog Boy",
-                    "amount": 3,
+                    "name": "Squighog Boy, Nob on Smasha Squig",
+                    "amount": 4,
                     "cost": 160
                 }
             ],
@@ -3058,11 +3081,20 @@
                     "name": "Squighog Boy",
                     "min": 3,
                     "max": 6
+                },
+                {
+                    "type": "model",
+                    "name": "Nob on Smasha Squig",
+                    "min": 1,
+                    "max": 2
                 }
             ],
             "blueprints": [
                 {
                     "name": "Squighog Boy"
+                },
+                {
+                    "name": "Nob on Smasha Squig"
                 }
             ],
             "gearset": [
