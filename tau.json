@@ -14,6 +14,24 @@
             "type": "detachment",
             "rulesetId": "w40k.10e.tau",
             "name": "Kauyon"
+        },
+        {
+            "id": "w40k.10e.tau.dt.krootHuntingPack",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Kroot Hunting Pack"
+        },
+        {
+            "id": "w40k.10e.tau.dt.montka",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Mont'ka"
+        },
+        {
+            "id": "w40k.10e.tau.dt.retaliationCadre",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Retaliation Cadre"
         }
     ],
     "units": [
@@ -48,7 +66,7 @@
             "models": [
                 {
                     "name": "Commander Farsight",
-                    "points": 90,
+                    "points": 105,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -56,258 +74,6 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.tau.unit.commanderCrisisBattlesuit",
-            "type": "unit",
-            "rulesetId": "w40k.10e.tau",
-            "name": "Commander in Crisis Battlesuit",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Commander in Crisis Battlesuit",
-                    "points": 80,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Burst Cannon"
-                            },
-                            "options": [
-                                {
-                                    "name": "Burst Cannon"
-                                },
-                                {
-                                    "name": "Airbursting Fragmentation Projector"
-                                },
-                                {
-                                    "name": "Battlesuit Support System"
-                                },
-                                {
-                                    "name": "Cyclic Ion Blaster"
-                                },
-                                {
-                                    "name": "Fusion Blaster"
-                                },
-                                {
-                                    "name": "Missile Pod"
-                                },
-                                {
-                                    "name": "Plasma Rifle"
-                                },
-                                {
-                                    "name": "Shield Generator"
-                                },
-                                {
-                                    "name": "T'au Flamer"
-                                },
-                                {
-                                    "name": "Weapon Support System"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Burst Cannon"
-                                },
-                                {
-                                    "name": "Airbursting Fragmentation Projector"
-                                },
-                                {
-                                    "name": "Battlesuit Support System"
-                                },
-                                {
-                                    "name": "Cyclic Ion Blaster"
-                                },
-                                {
-                                    "name": "Fusion Blaster"
-                                },
-                                {
-                                    "name": "Missile Pod"
-                                },
-                                {
-                                    "name": "Plasma Rifle"
-                                },
-                                {
-                                    "name": "Shield Generator"
-                                },
-                                {
-                                    "name": "T'au Flamer"
-                                },
-                                {
-                                    "name": "Weapon Support System"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Burst Cannon"
-                                },
-                                {
-                                    "name": "Airbursting Fragmentation Projector"
-                                },
-                                {
-                                    "name": "Battlesuit Support System"
-                                },
-                                {
-                                    "name": "Cyclic Ion Blaster"
-                                },
-                                {
-                                    "name": "Fusion Blaster"
-                                },
-                                {
-                                    "name": "Missile Pod"
-                                },
-                                {
-                                    "name": "Plasma Rifle"
-                                },
-                                {
-                                    "name": "Shield Generator"
-                                },
-                                {
-                                    "name": "T'au Flamer"
-                                },
-                                {
-                                    "name": "Weapon Support System"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Burst Cannon"
-                                },
-                                {
-                                    "name": "Airbursting Fragmentation Projector"
-                                },
-                                {
-                                    "name": "Battlesuit Support System"
-                                },
-                                {
-                                    "name": "Cyclic Ion Blaster"
-                                },
-                                {
-                                    "name": "Fusion Blaster"
-                                },
-                                {
-                                    "name": "Missile Pod"
-                                },
-                                {
-                                    "name": "Plasma Rifle"
-                                },
-                                {
-                                    "name": "Shield Generator"
-                                },
-                                {
-                                    "name": "T'au Flamer"
-                                },
-                                {
-                                    "name": "Weapon Support System"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Gun Drone"
-                                },
-                                {
-                                    "name": "Marker Drone"
-                                },
-                                {
-                                    "name": "Shield Drone"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Gun Drone"
-                                },
-                                {
-                                    "name": "Marker Drone"
-                                },
-                                {
-                                    "name": "Shield Drone"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.tau.dt.kauyon",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Exemplar of the Kauyon",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Precision of the Patient Hunter",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Puretide Engram Neurochip",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Through Unity, Devastation",
-                                    "points": 20
-                                }
-                            ]
                         }
                     ]
                 }
@@ -545,18 +311,105 @@
                                 },
                                 {
                                     "name": "Exemplar of the Kauyon",
-                                    "points": 15
+                                    "points": 20
                                 },
                                 {
                                     "name": "Precision of the Patient Hunter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Solid-image Projection Unit",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Through Unity, Devastation",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.krootHuntingPack",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Borthrod Gland",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Kroothawk Flock",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Nomadic Hunter",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Root-carved Weapons",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.montka",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Coordinated Exploitation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Exemplar of the Mont'ka",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Strategic Conquerer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Strike Swiftly",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.retaliationCadre",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Internal Grenade Racks",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Prototype Weapon System",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Puretide Engram Neurochip",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Through Unity, Devastation",
+                                    "name": "Starflare Ignition System",
                                     "points": 20
                                 }
                             ]
@@ -800,18 +653,105 @@
                                 },
                                 {
                                     "name": "Exemplar of the Kauyon",
-                                    "points": 15
+                                    "points": 20
                                 },
                                 {
                                     "name": "Precision of the Patient Hunter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Solid-image Projection Unit",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Through Unity, Devastation",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.krootHuntingPack",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Borthrod Gland",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Kroothawk Flock",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Nomadic Hunter",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Root-carved Weapons",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.montka",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Coordinated Exploitation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Exemplar of the Mont'ka",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Strategic Conquerer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Strike Swiftly",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.retaliationCadre",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Internal Grenade Racks",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Prototype Weapon System",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Puretide Engram Neurochip",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Through Unity, Devastation",
+                                    "name": "Starflare Ignition System",
                                     "points": 20
                                 }
                             ]
@@ -829,7 +769,7 @@
             "models": [
                 {
                     "name": "Cadre Fireblade",
-                    "points": 40,
+                    "points": 50,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -891,18 +831,105 @@
                                 },
                                 {
                                     "name": "Exemplar of the Kauyon",
-                                    "points": 15
+                                    "points": 20
                                 },
                                 {
                                     "name": "Precision of the Patient Hunter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Solid-image Projection Unit",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Through Unity, Devastation",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.krootHuntingPack",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Borthrod Gland",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Kroothawk Flock",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Nomadic Hunter",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Root-carved Weapons",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.montka",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Coordinated Exploitation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Exemplar of the Mont'ka",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Strategic Conquerer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Strike Swiftly",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.retaliationCadre",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Internal Grenade Racks",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Prototype Weapon System",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Puretide Engram Neurochip",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Through Unity, Devastation",
+                                    "name": "Starflare Ignition System",
                                     "points": 20
                                 }
                             ]
@@ -912,15 +939,153 @@
             ]
         },
         {
-            "id": "w40k.10e.tau.unit.krootShaper",
+            "id": "w40k.10e.tau.unit.krootFleshShaper",
             "type": "unit",
             "rulesetId": "w40k.10e.tau",
-            "name": "Kroot Shaper",
+            "name": "Kroot Flesh Shaper",
             "role": "CHARACTER",
             "models": [
                 {
-                    "name": "Kroot Shaper",
-                    "points": 40,
+                    "name": "Kroot Flesh Shaper",
+                    "points": 55,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.kauyon",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Exemplar of the Kauyon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Precision of the Patient Hunter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Solid-image Projection Unit",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Through Unity, Devastation",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.krootHuntingPack",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Borthrod Gland",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Kroothawk Flock",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Nomadic Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Root-carved Weapons",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.montka",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Coordinated Exploitation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Exemplar of the Mont'ka",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Strategic Conquerer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Strike Swiftly",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.retaliationCadre",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Internal Grenade Racks",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Prototype Weapon System",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Puretide Engram Neurochip",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Starflare Ignition System",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.krootLoneSpear",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Kroot Lone Spear",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Kroot Lone Spear",
+                    "points": 90,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -932,14 +1097,14 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Kroot Rifle"
+                                "name": "Kroot Long Gun"
                             },
                             "options": [
                                 {
-                                    "name": "Kroot Rifle"
+                                    "name": "Kroot Long Gun"
                                 },
                                 {
-                                    "name": "Pulse Rifle"
+                                    "name": "Blast Javelin, Hunting Javelin"
                                 }
                             ]
                         },
@@ -956,18 +1121,395 @@
                                 },
                                 {
                                     "name": "Exemplar of the Kauyon",
-                                    "points": 15
+                                    "points": 20
                                 },
                                 {
                                     "name": "Precision of the Patient Hunter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Solid-image Projection Unit",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Through Unity, Devastation",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.krootHuntingPack",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Borthrod Gland",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Kroothawk Flock",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Nomadic Hunter",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Root-carved Weapons",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.montka",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Coordinated Exploitation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Exemplar of the Mont'ka",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Strategic Conquerer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Strike Swiftly",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.retaliationCadre",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Internal Grenade Racks",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Prototype Weapon System",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Puretide Engram Neurochip",
                                     "points": 25
                                 },
                                 {
+                                    "name": "Starflare Ignition System",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.krootTrailShaper",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Kroot Trail Shaper",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Kroot Trail Shaper",
+                    "points": 65,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.kauyon",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Exemplar of the Kauyon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Precision of the Patient Hunter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Solid-image Projection Unit",
+                                    "points": 30
+                                },
+                                {
                                     "name": "Through Unity, Devastation",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.krootHuntingPack",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Borthrod Gland",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Kroothawk Flock",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Nomadic Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Root-carved Weapons",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.montka",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Coordinated Exploitation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Exemplar of the Mont'ka",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Strategic Conquerer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Strike Swiftly",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.retaliationCadre",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Internal Grenade Racks",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Prototype Weapon System",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Puretide Engram Neurochip",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Starflare Ignition System",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.krootWarShaper",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Kroot War Shaper",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Kroot War Shaper",
+                    "points": 60,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Dart Bow, Tri Blade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Dart Bow, Tri Blade"
+                                },
+                                {
+                                    "name": "Bladestave, Prey Hook"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.kauyon",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Exemplar of the Kauyon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Precision of the Patient Hunter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Solid-image Projection Unit",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Through Unity, Devastation",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.krootHuntingPack",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Borthrod Gland",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Kroothawk Flock",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Nomadic Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Root-carved Weapons",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.montka",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Coordinated Exploitation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Exemplar of the Mont'ka",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Strategic Conquerer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Strike Swiftly",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.retaliationCadre",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Internal Grenade Racks",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Prototype Weapon System",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Puretide Engram Neurochip",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Starflare Ignition System",
                                     "points": 20
                                 }
                             ]
@@ -1054,71 +1596,108 @@
                                 },
                                 {
                                     "name": "Exemplar of the Kauyon",
-                                    "points": 15
+                                    "points": 20
                                 },
                                 {
                                     "name": "Precision of the Patient Hunter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Solid-image Projection Unit",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Through Unity, Devastation",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.krootHuntingPack",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Borthrod Gland",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Kroothawk Flock",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Nomadic Hunter",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Root-carved Weapons",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.montka",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Coordinated Exploitation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Exemplar of the Mont'ka",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Strategic Conquerer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Strike Swiftly",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.retaliationCadre",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Internal Grenade Racks",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Prototype Weapon System",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Puretide Engram Neurochip",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Through Unity, Devastation",
+                                    "name": "Starflare Ignition System",
                                     "points": 20
                                 }
                             ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.tau.unit.aunva",
-            "type": "unit",
-            "rulesetId": "w40k.10e.tau",
-            "name": "Aun'va",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Aun'va",
-                    "points": 65,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        }
-                    ]
-                },
-                {
-                    "name": "Ethereal Guard"
-                },
-                {
-                    "name": "Ethereal Guard"
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.tau.unit.aunshi",
-            "type": "unit",
-            "rulesetId": "w40k.10e.tau",
-            "name": "Aun'shi",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Aun'shi",
-                    "points": 50,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
                         }
                     ]
                 }
@@ -1141,76 +1720,6 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.tau.unit.longstrike",
-            "type": "unit",
-            "rulesetId": "w40k.10e.tau",
-            "name": "Longstrike",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Longstrike",
-                    "points": 140,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Railgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Railgun"
-                                },
-                                {
-                                    "name": "Ion Cannon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "2x Twin Pulse Carbines"
-                            },
-                            "options": [
-                                {
-                                    "name": "2x Twin Pulse Carbines"
-                                },
-                                {
-                                    "name": "2x Accelerator Burst Cannons"
-                                },
-                                {
-                                    "name": "2x Twin Smart Missile Systems"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Seeker Missile"
-                                },
-                                {
-                                    "name": "2x Seeker Missiles"
-                                }
-                            ]
                         }
                     ]
                 }
@@ -1329,7 +1838,7 @@
                 {
                     "name": "Breacher Fire Warrior, Breacher Fire Warrior Shas'ui",
                     "amount": 10,
-                    "cost": 90
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -1408,35 +1917,76 @@
             "role": "INFANTRY",
             "points": [
                 {
-                    "name": "Kroot Carnivore",
+                    "name": "Kroot Carnivore, Long-quill",
                     "amount": 20,
-                    "cost": 110
+                    "cost": 150
                 },
                 {
-                    "name": "Kroot Carnivore",
+                    "name": "Kroot Carnivore, Long-quill",
                     "amount": 10,
-                    "cost": 55
+                    "cost": 75
                 }
             ],
             "restrictions": [
                 {
                     "type": "model",
                     "name": "Kroot Carnivore",
-                    "min": 10,
-                    "max": 20
+                    "min": 9,
+                    "max": 19
+                },
+                {
+                    "type": "model",
+                    "name": "Long-quill",
+                    "min": 1,
+                    "max": 1
                 }
             ],
             "blueprints": [
                 {
-                    "name": "Kroot Carnivore"
+                    "name": "Kroot Carnivore",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Kroot Rifle"
+                            },
+                            "options": [
+                                {
+                                    "name": "Kroot Rifle"
+                                },
+                                {
+                                    "name": "Tanglebomb Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Long-quill",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Kroot Rifle"
+                            },
+                            "options": [
+                                {
+                                    "name": "Kroot Rifle"
+                                },
+                                {
+                                    "name": "Kroot Carbine"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
         {
-            "id": "w40k.10e.tau.unit.krootoxRider",
+            "id": "w40k.10e.tau.unit.krootoxRiders",
             "type": "unit",
             "rulesetId": "w40k.10e.tau",
-            "name": "Krootox Rider",
+            "name": "Krootox Riders",
             "role": "MOUNTED",
             "points": [
                 {
@@ -1465,204 +2015,114 @@
             ],
             "blueprints": [
                 {
-                    "name": "Krootox Rider"
+                    "name": "Krootox Rider",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Repeater Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Repeater Cannon"
+                                },
+                                {
+                                    "name": "Tanglecannon"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
         {
-            "id": "w40k.10e.tau.unit.crisisBattlesuits",
+            "id": "w40k.10e.tau.unit.krootoxRampagers",
             "type": "unit",
             "rulesetId": "w40k.10e.tau",
-            "name": "Crisis Battlesuits",
-            "role": "VEHICLE",
+            "name": "Krootox Rampagers",
+            "role": "MOUNTED",
             "points": [
                 {
-                    "name": "Crisis Shas'ui, Crisis Shas'vre",
+                    "name": "Krootox Rampager",
                     "amount": 6,
-                    "cost": 400
+                    "cost": 220
                 },
                 {
-                    "name": "Crisis Shas'ui, Crisis Shas'vre",
+                    "name": "Krootox Rampager",
                     "amount": 3,
-                    "cost": 200
+                    "cost": 110
                 }
             ],
             "restrictions": [
                 {
                     "type": "model",
-                    "name": "Crisis Shas'ui",
+                    "name": "Krootox Rampager",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Krootox Rampager"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.crisisFireknifeBattlesuits",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Crisis Fireknife Battlesuits",
+            "role": "VEHICLE",
+            "points": [
+                {
+                    "name": "Crisis Fireknife Shas'ui, Crisis Fireknife Shas'vre",
+                    "amount": 3,
+                    "cost": 150
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Crisis Fireknife Shas'ui",
                     "min": 2,
-                    "max": 5
+                    "max": 2
                 },
                 {
                     "type": "model",
-                    "name": "Crisis Shas'vre",
+                    "name": "Crisis Fireknife Shas'vre",
                     "min": 1,
                     "max": 1
                 }
             ],
             "blueprints": [
                 {
-                    "name": "Crisis Shas'ui",
+                    "name": "Crisis Fireknife Shas'ui",
                     "gearset": [
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Burst Cannon"
+                                "name": "Plasma Rifle"
                             },
                             "options": [
-                                {
-                                    "name": "Burst Cannon"
-                                },
-                                {
-                                    "name": "Airbursting Fragmentation Projector"
-                                },
-                                {
-                                    "name": "Battlesuit Support System"
-                                },
-                                {
-                                    "name": "Cyclic Ion Blaster"
-                                },
-                                {
-                                    "name": "Fusion Blaster"
-                                },
-                                {
-                                    "name": "Missile Pod"
-                                },
                                 {
                                     "name": "Plasma Rifle"
                                 },
                                 {
-                                    "name": "Shield Generator"
-                                },
-                                {
-                                    "name": "T'au Flamer"
-                                },
-                                {
-                                    "name": "Weapon Support System"
+                                    "name": "Missile Pod"
                                 }
                             ]
                         },
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": ""
+                                "name": "Missile Pod"
                             },
                             "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Burst Cannon"
-                                },
-                                {
-                                    "name": "Airbursting Fragmentation Projector"
-                                },
-                                {
-                                    "name": "Battlesuit Support System"
-                                },
-                                {
-                                    "name": "Cyclic Ion Blaster"
-                                },
-                                {
-                                    "name": "Fusion Blaster"
-                                },
                                 {
                                     "name": "Missile Pod"
                                 },
                                 {
                                     "name": "Plasma Rifle"
-                                },
-                                {
-                                    "name": "Shield Generator"
-                                },
-                                {
-                                    "name": "T'au Flamer"
-                                },
-                                {
-                                    "name": "Weapon Support System"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Burst Cannon"
-                                },
-                                {
-                                    "name": "Airbursting Fragmentation Projector"
-                                },
-                                {
-                                    "name": "Battlesuit Support System"
-                                },
-                                {
-                                    "name": "Cyclic Ion Blaster"
-                                },
-                                {
-                                    "name": "Fusion Blaster"
-                                },
-                                {
-                                    "name": "Missile Pod"
-                                },
-                                {
-                                    "name": "Plasma Rifle"
-                                },
-                                {
-                                    "name": "Shield Generator"
-                                },
-                                {
-                                    "name": "T'au Flamer"
-                                },
-                                {
-                                    "name": "Weapon Support System"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Burst Cannon"
-                                },
-                                {
-                                    "name": "Airbursting Fragmentation Projector"
-                                },
-                                {
-                                    "name": "Battlesuit Support System"
-                                },
-                                {
-                                    "name": "Cyclic Ion Blaster"
-                                },
-                                {
-                                    "name": "Fusion Blaster"
-                                },
-                                {
-                                    "name": "Missile Pod"
-                                },
-                                {
-                                    "name": "Plasma Rifle"
-                                },
-                                {
-                                    "name": "Shield Generator"
-                                },
-                                {
-                                    "name": "T'au Flamer"
-                                },
-                                {
-                                    "name": "Weapon Support System"
                                 }
                             ]
                         },
@@ -1709,8 +2169,125 @@
                     ]
                 },
                 {
-                    "name": "Crisis Shas'vre",
+                    "name": "Crisis Fireknife Shas'vre",
                     "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Plasma Rifle"
+                            },
+                            "options": [
+                                {
+                                    "name": "Plasma Rifle"
+                                },
+                                {
+                                    "name": "Missile Pod"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Missile Pod"
+                            },
+                            "options": [
+                                {
+                                    "name": "Missile Pod"
+                                },
+                                {
+                                    "name": "Plasma Rifle"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.crisisStarscytheBattlesuits",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Crisis Starscythe Battlesuits",
+            "role": "VEHICLE",
+            "points": [
+                {
+                    "name": "Crisis Starscythe Shas'ui, Crisis Starscythe Shas'vre",
+                    "amount": 3,
+                    "cost": 130
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Crisis Starscythe Shas'ui",
+                    "min": 2,
+                    "max": 2
+                },
+                {
+                    "type": "model",
+                    "name": "Crisis Starscythe Shas'vre",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Crisis Starscythe Shas'ui",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "T'au Flamer"
+                            },
+                            "options": [
+                                {
+                                    "name": "T'au Flamer"
+                                },
+                                {
+                                    "name": "Burst Cannon"
+                                }
+                            ]
+                        },
                         {
                             "type": "dropdown",
                             "selectedOption": {
@@ -1721,31 +2298,7 @@
                                     "name": "Burst Cannon"
                                 },
                                 {
-                                    "name": "Airbursting Fragmentation Projector"
-                                },
-                                {
-                                    "name": "Battlesuit Support System"
-                                },
-                                {
-                                    "name": "Cyclic Ion Blaster"
-                                },
-                                {
-                                    "name": "Fusion Blaster"
-                                },
-                                {
-                                    "name": "Missile Pod"
-                                },
-                                {
-                                    "name": "Plasma Rifle"
-                                },
-                                {
-                                    "name": "Shield Generator"
-                                },
-                                {
                                     "name": "T'au Flamer"
-                                },
-                                {
-                                    "name": "Weapon Support System"
                                 }
                             ]
                         },
@@ -1759,34 +2312,13 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Burst Cannon"
+                                    "name": "Gun Drone"
                                 },
                                 {
-                                    "name": "Airbursting Fragmentation Projector"
+                                    "name": "Marker Drone"
                                 },
                                 {
-                                    "name": "Battlesuit Support System"
-                                },
-                                {
-                                    "name": "Cyclic Ion Blaster"
-                                },
-                                {
-                                    "name": "Fusion Blaster"
-                                },
-                                {
-                                    "name": "Missile Pod"
-                                },
-                                {
-                                    "name": "Plasma Rifle"
-                                },
-                                {
-                                    "name": "Shield Generator"
-                                },
-                                {
-                                    "name": "T'au Flamer"
-                                },
-                                {
-                                    "name": "Weapon Support System"
+                                    "name": "Shield Drone"
                                 }
                             ]
                         },
@@ -1800,34 +2332,46 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Burst Cannon"
+                                    "name": "Gun Drone"
                                 },
                                 {
-                                    "name": "Airbursting Fragmentation Projector"
+                                    "name": "Marker Drone"
                                 },
                                 {
-                                    "name": "Battlesuit Support System"
-                                },
-                                {
-                                    "name": "Cyclic Ion Blaster"
-                                },
-                                {
-                                    "name": "Fusion Blaster"
-                                },
-                                {
-                                    "name": "Missile Pod"
-                                },
-                                {
-                                    "name": "Plasma Rifle"
-                                },
-                                {
-                                    "name": "Shield Generator"
-                                },
+                                    "name": "Shield Drone"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Crisis Starscythe Shas'vre",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "T'au Flamer"
+                            },
+                            "options": [
                                 {
                                     "name": "T'au Flamer"
                                 },
                                 {
-                                    "name": "Weapon Support System"
+                                    "name": "Burst Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Burst Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Burst Cannon"
+                                },
+                                {
+                                    "name": "T'au Flamer"
                                 }
                             ]
                         },
@@ -1841,37 +2385,116 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Burst Cannon"
+                                    "name": "Gun Drone"
                                 },
                                 {
-                                    "name": "Airbursting Fragmentation Projector"
+                                    "name": "Marker Drone"
                                 },
                                 {
-                                    "name": "Battlesuit Support System"
-                                },
-                                {
-                                    "name": "Cyclic Ion Blaster"
-                                },
-                                {
-                                    "name": "Fusion Blaster"
-                                },
-                                {
-                                    "name": "Missile Pod"
-                                },
-                                {
-                                    "name": "Plasma Rifle"
-                                },
-                                {
-                                    "name": "Shield Generator"
-                                },
-                                {
-                                    "name": "T'au Flamer"
-                                },
-                                {
-                                    "name": "Weapon Support System"
+                                    "name": "Shield Drone"
                                 }
                             ]
                         },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tau.unit.crisisSunforgeBattlesuits",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Crisis Sunforge Battlesuits",
+            "role": "VEHICLE",
+            "points": [
+                {
+                    "name": "Crisis Sunforge Shas'ui, Crisis Sunforge Shas'vre",
+                    "amount": 3,
+                    "cost": 170
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Crisis Sunforge Shas'ui",
+                    "min": 2,
+                    "max": 2
+                },
+                {
+                    "type": "model",
+                    "name": "Crisis Sunforge Shas'vre",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Crisis Sunforge Shas'ui",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gun Drone"
+                                },
+                                {
+                                    "name": "Marker Drone"
+                                },
+                                {
+                                    "name": "Shield Drone"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Crisis Sunforge Shas'vre",
+                    "gearset": [
                         {
                             "type": "dropdown",
                             "selectedOption": {
@@ -2127,18 +2750,105 @@
                                 },
                                 {
                                     "name": "Exemplar of the Kauyon",
-                                    "points": 15
+                                    "points": 20
                                 },
                                 {
                                     "name": "Precision of the Patient Hunter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Solid-image Projection Unit",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Through Unity, Devastation",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.krootHuntingPack",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Borthrod Gland",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Kroothawk Flock",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Nomadic Hunter",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Root-carved Weapons",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.montka",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Coordinated Exploitation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Exemplar of the Mont'ka",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Strategic Conquerer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Strike Swiftly",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.retaliationCadre",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Internal Grenade Racks",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Prototype Weapon System",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Puretide Engram Neurochip",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Through Unity, Devastation",
+                                    "name": "Starflare Ignition System",
                                     "points": 20
                                 }
                             ]
@@ -2431,26 +3141,21 @@
             "points": [
                 {
                     "name": "Kroot Hound",
-                    "amount": 12,
-                    "cost": 90
+                    "amount": 10,
+                    "cost": 80
                 },
                 {
                     "name": "Kroot Hound",
-                    "amount": 8,
-                    "cost": 60
-                },
-                {
-                    "name": "Kroot Hound",
-                    "amount": 4,
-                    "cost": 30
+                    "amount": 5,
+                    "cost": 40
                 }
             ],
             "restrictions": [
                 {
                     "type": "model",
                     "name": "Kroot Hound",
-                    "min": 4,
-                    "max": 12
+                    "min": 5,
+                    "max": 10
                 }
             ],
             "blueprints": [
@@ -2469,17 +3174,17 @@
                 {
                     "name": "Broadside Shas'ui, Broadside Shas'vre",
                     "amount": 3,
-                    "cost": 270
+                    "cost": 330
                 },
                 {
                     "name": "Broadside Shas'ui, Broadside Shas'vre",
                     "amount": 2,
-                    "cost": 180
+                    "cost": 220
                 },
                 {
                     "name": "Broadside Shas'vre",
                     "amount": 1,
-                    "cost": 90
+                    "cost": 110
                 }
             ],
             "restrictions": [
@@ -2524,9 +3229,6 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Battlesuit Support System"
-                                },
-                                {
                                     "name": "Seeker Missile"
                                 },
                                 {
@@ -2548,9 +3250,6 @@
                             "options": [
                                 {
                                     "name": ""
-                                },
-                                {
-                                    "name": "Battlesuit Support System"
                                 },
                                 {
                                     "name": "Seeker Missile"
@@ -2641,9 +3340,6 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Battlesuit Support System"
-                                },
-                                {
                                     "name": "Seeker Missile"
                                 },
                                 {
@@ -2665,9 +3361,6 @@
                             "options": [
                                 {
                                     "name": ""
-                                },
-                                {
-                                    "name": "Battlesuit Support System"
                                 },
                                 {
                                     "name": "Seeker Missile"
@@ -2742,7 +3435,7 @@
             "models": [
                 {
                     "name": "Riptide Battlesuit",
-                    "points": 165,
+                    "points": 180,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2868,7 +3561,7 @@
             "models": [
                 {
                     "name": "Sky Ray Gunship",
-                    "points": 130,
+                    "points": 140,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2900,7 +3593,7 @@
             "models": [
                 {
                     "name": "Devilfish",
-                    "points": 75,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2946,7 +3639,7 @@
             "models": [
                 {
                     "name": "Razorshark Strike Fighter",
-                    "points": 165,
+                    "points": 170,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2975,7 +3668,7 @@
             "models": [
                 {
                     "name": "Sun Shark Bomber",
-                    "points": 150,
+                    "points": 160,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -3091,43 +3784,6 @@
             ]
         },
         {
-            "id": "w40k.10e.tau.unit.tacticalDrones",
-            "type": "unit",
-            "rulesetId": "w40k.10e.tau",
-            "name": "Tactical Drones",
-            "role": "DRONE",
-            "points": [
-                {
-                    "name": "Tactical Drone",
-                    "amount": 12,
-                    "cost": 210
-                },
-                {
-                    "name": "Tactical Drone",
-                    "amount": 8,
-                    "cost": 140
-                },
-                {
-                    "name": "Tactical Drone",
-                    "amount": 4,
-                    "cost": 70
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Tactical Drone",
-                    "min": 4,
-                    "max": 12
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Tactical Drone"
-                }
-            ]
-        },
-        {
             "id": "w40k.10e.tau.unit.krootFarstalkers",
             "type": "unit",
             "rulesetId": "w40k.10e.tau",
@@ -3137,7 +3793,7 @@
                 {
                     "name": "Kroot Farstalker, Kroot Kill-Broker, Kroot Hound",
                     "amount": 12,
-                    "cost": 70
+                    "cost": 85
                 }
             ],
             "restrictions": [
@@ -3214,124 +3870,6 @@
             ]
         },
         {
-            "id": "w40k.10e.tau.unit.rVarnaBattlesuit",
-            "type": "unit",
-            "rulesetId": "w40k.10e.tau",
-            "name": "R'varna Battlesuit",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "R'varna Battlesuit",
-                    "points": 200,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Missile Drone"
-                                },
-                                {
-                                    "name": "2x Missile Drones"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.tau.unit.yVahraBattlesuit",
-            "type": "unit",
-            "rulesetId": "w40k.10e.tau",
-            "name": "Y'vahra Battlesuit",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Y'vahra Battlesuit",
-                    "points": 210,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Missile Drone"
-                                },
-                                {
-                                    "name": "2x Missile Drones"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.tau.unit.tetras",
-            "type": "unit",
-            "rulesetId": "w40k.10e.tau",
-            "name": "Tetras",
-            "role": "VEHICLE",
-            "points": [
-                {
-                    "name": "Tetra",
-                    "amount": 4,
-                    "cost": 160
-                },
-                {
-                    "name": "Tetra",
-                    "amount": 2,
-                    "cost": 80
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Tetra",
-                    "min": 2,
-                    "max": 4
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Tetra"
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.tau.unit.remoraStealthDrones",
-            "type": "unit",
-            "rulesetId": "w40k.10e.tau",
-            "name": "Remora Stealth Drones",
-            "role": "VEHICLE",
-            "points": [
-                {
-                    "name": "Remora Stealth Drone",
-                    "amount": 2,
-                    "cost": 160
-                }
-            ],
-            "models": [
-                {
-                    "name": "Remora Stealth Drone"
-                },
-                {
-                    "name": "Remora Stealth Drone"
-                }
-            ]
-        },
-        {
             "id": "w40k.10e.tau.unit.taunar",
             "type": "unit",
             "rulesetId": "w40k.10e.tau",
@@ -3384,75 +3922,6 @@
                                 },
                                 {
                                     "name": "Heavy Rail Cannon Array, Fragmentation Cluster Shell Launcher"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.tau.unit.barracuda",
-            "type": "unit",
-            "rulesetId": "w40k.10e.tau",
-            "name": "Barracuda",
-            "role": "AIRCRAFT",
-            "models": [
-                {
-                    "name": "Barracuda",
-                    "points": 220,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "2x Long-barrelled Burst Cannons"
-                            },
-                            "options": [
-                                {
-                                    "name": "2x Long-barrelled Burst Cannons"
-                                },
-                                {
-                                    "name": "2x Cyclic Ion Blasters"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Swiftstrike Burst Cannon"
-                            },
-                            "options": [
-                                {
-                                    "name": "Swiftstrike Burst Cannon"
-                                },
-                                {
-                                    "name": "Ion Cannon"
-                                },
-                                {
-                                    "name": "Swiftstrike Railgun"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Seeker Missile"
-                                },
-                                {
-                                    "name": "2x Seeker Missiles"
-                                },
-                                {
-                                    "name": "3x Seeker Missiles"
-                                },
-                                {
-                                    "name": "4x Seeker Missiles"
                                 }
                             ]
                         }
