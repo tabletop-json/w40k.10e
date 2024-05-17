@@ -1315,38 +1315,33 @@
                     "name": "Storm Guardian",
                     "gearset": [
                         {
-                            "name": "Storm Guardian",
-                            "gearset": [
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Pistol"
+                            },
+                            "options": [
                                 {
-                                    "type": "dropdown",
-                                    "selectedOption": {
-                                        "name": "Shuriken Pistol"
-                                    },
-                                    "options": [
-                                        {
-                                            "name": "Shuriken Pistol"
-                                        },
-                                        {
-                                            "name": "Aeldari Flamer"
-                                        },
-                                        {
-                                            "name": "Guardian Fusion Gun"
-                                        }
-                                    ]
+                                    "name": "Shuriken Pistol"
                                 },
                                 {
-                                    "type": "dropdown",
-                                    "selectedOption": {
-                                        "name": "Guardian Combat Weapon"
-                                    },
-                                    "options": [
-                                        {
-                                            "name": "Guardian Combat Weapon"
-                                        },
-                                        {
-                                            "name": "Aeldari Power Sword"
-                                        }
-                                    ]
+                                    "name": "Aeldari Flamer"
+                                },
+                                {
+                                    "name": "Guardian Fusion Gun"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Guardian Combat Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Guardian Combat Weapon"
+                                },
+                                {
+                                    "name": "Aeldari Power Sword"
                                 }
                             ]
                         }
