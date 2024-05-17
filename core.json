@@ -1,7 +1,7 @@
 {
     "id": "w40k.10e",
-    "version": "0.5.14",
-    "updateNotes": "09/05/2024 Tau MFM updates",
+    "version": "0.5.15",
+    "updateNotes": "17/05/2024 Datafixes for Necrons & Aeldari",
     "name": "Warhammer 40,000: 10th Edition",
     "enabled": true,
     "path": "https://raw.githubusercontent.com/tabletop-json/w40k.10e/develop/",
@@ -141,6 +141,20 @@
             "keyword": "HERETIC ASTARTES",
             "enabled": true,
             "endpoint": "chaosSpaceMarines.json",
+            "allies": [
+                "w40k.10e.dmns",
+                "w40k.10e.ck",
+                "w40k.10e.tit"
+            ]
+        },
+        {
+            "id": "w40k.10e.ec.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.ec",
+            "name": "Emperors Children",
+            "keyword": "EMPERORS CHILDREN",
+            "enabled": true,
+            "endpoint": "emperorsChildren.json",
             "allies": [
                 "w40k.10e.dmns",
                 "w40k.10e.ck",
