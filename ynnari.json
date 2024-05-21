@@ -1056,7 +1056,7 @@
             "type": "unit",
             "rulesetId": "w40k.10e.ynn",
             "name": "Shining Spears",
-            "role": "INFANTRY",
+            "role": "MOUNTED",
             "points": [
                 {
                     "name": "Shining Spear, Shining Spear Exarch",
@@ -1137,7 +1137,7 @@
             "type": "unit",
             "rulesetId": "w40k.10e.ynn",
             "name": "Shroud Runners",
-            "role": "INFANTRY",
+            "role": "MOUNTED",
             "points": [
                 {
                     "name": "Shroud Runner",
@@ -1169,7 +1169,7 @@
             "type": "unit",
             "rulesetId": "w40k.10e.ynn",
             "name": "Skyweavers",
-            "role": "INFANTRY",
+            "role": "MOUNTED",
             "points": [
                 {
                     "name": "Skyweaver",
@@ -2070,7 +2070,7 @@
             "type": "unit",
             "rulesetId": "w40k.10e.ynn",
             "name": "Windriders",
-            "role": "INFANTRY",
+            "role": "MOUNTED",
             "points": [
                 {
                     "name": "Windrider",
@@ -2432,7 +2432,7 @@
             "type": "unit",
             "rulesetId": "w40k.10e.ynn",
             "name": "Warlock Skyrunner Conclave",
-            "role": "INFANTRY",
+            "role": "MOUNTED",
             "points": [
                 {
                     "name": "Warlock Skyrunner",
