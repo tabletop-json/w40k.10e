@@ -1,12 +1,12 @@
 {
     "config": {
-        "id": "w40k.10e.csm.config",
+        "id": "w40k.10e.ec.config",
         "type": "config",
-        "rulesetId": "w40k.10e.csm",
-        "name": "Chaos Space Marines",
-        "keyword": "HERETIC ASTARTES",
+        "rulesetId": "w40k.10e.ec",
+        "name": "Emperors Children",
+        "keyword": "Emperors Children",
         "enabled": true,
-        "endpoint": "chaosSpaceMarines.json",
+        "endpoint": "emperorsChildren.json",
         "allies": [
             "w40k.10e.dmns",
             "w40k.10e.ck",
@@ -15,58 +15,58 @@
     },
     "detachments": [
         {
-            "id": "w40k.10e.csm.dt.veteransLongWar",
+            "id": "w40k.10e.ec.dt.veteransLongWar",
             "type": "detachment",
-            "rulesetId": "w40k.10e.csm",
+            "rulesetId": "w40k.10e.ec",
             "name": "Veterans of the Long War",
             "rule": ""
         },
         {
-            "id": "w40k.10e.csm.dt.deceptors",
+            "id": "w40k.10e.ec.dt.deceptors",
             "type": "detachment",
-            "rulesetId": "w40k.10e.csm",
+            "rulesetId": "w40k.10e.ec",
             "name": "Deceptors",
             "rule": ""
         },
         {
-            "id": "w40k.10e.csm.dt.renegadeRaiders",
+            "id": "w40k.10e.ec.dt.renegadeRaiders",
             "type": "detachment",
-            "rulesetId": "w40k.10e.csm",
+            "rulesetId": "w40k.10e.ec",
             "name": "Renegade Raiders",
             "rule": ""
         },
         {
-            "id": "w40k.10e.csm.dt.dreadTalons",
+            "id": "w40k.10e.ec.dt.dreadTalons",
             "type": "detachment",
-            "rulesetId": "w40k.10e.csm",
+            "rulesetId": "w40k.10e.ec",
             "name": "Dread Talons",
             "rule": ""
         },
         {
-            "id": "w40k.10e.csm.dt.fellhammerSiegeHost",
+            "id": "w40k.10e.ec.dt.fellhammerSiegeHost",
             "type": "detachment",
-            "rulesetId": "w40k.10e.csm",
+            "rulesetId": "w40k.10e.ec",
             "name": "Fellhammer Siege-Host",
             "rule": ""
         },
         {
-            "id": "w40k.10e.csm.dt.soulforgedWarpack",
+            "id": "w40k.10e.ec.dt.soulforgedWarpack",
             "type": "detachment",
-            "rulesetId": "w40k.10e.csm",
+            "rulesetId": "w40k.10e.ec",
             "name": "Soulforged Warpack",
             "rule": ""
         },
         {
-            "id": "w40k.10e.csm.dt.chaosCult",
+            "id": "w40k.10e.ec.dt.chaosCult",
             "type": "detachment",
-            "rulesetId": "w40k.10e.csm",
+            "rulesetId": "w40k.10e.ec",
             "name": "Chaos Cult",
             "rule": ""
         },
         {
-            "id": "w40k.10e.csm.dt.pactboundZealots",
+            "id": "w40k.10e.ec.dt.pactboundZealots",
             "type": "detachment",
-            "rulesetId": "w40k.10e.csm",
+            "rulesetId": "w40k.10e.ec",
             "name": "Pactbound Zealots",
             "rule": ""
         }
@@ -2581,6 +2581,28 @@
                         },
                         {
                             "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.lucius",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Lucius the Eternal",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Lucius the Eternal",
+                    "points": 95,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
                         }
                     ]
                 }
