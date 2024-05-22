@@ -1,12 +1,12 @@
 {
     "config": {
-        "id": "w40k.10e.csm.config",
+        "id": "w40k.10e.ec.config",
         "type": "config",
-        "rulesetId": "w40k.10e.csm",
-        "name": "Chaos Space Marines",
-        "keyword": "HERETIC ASTARTES",
+        "rulesetId": "w40k.10e.ec",
+        "name": "Emperors Children",
+        "keyword": "Emperors Children",
         "enabled": true,
-        "endpoint": "chaosSpaceMarines.json",
+        "endpoint": "emperorsChildren.json",
         "allies": [
             "w40k.10e.dmns",
             "w40k.10e.ck",
@@ -15,58 +15,58 @@
     },
     "detachments": [
         {
-            "id": "w40k.10e.csm.dt.veteransLongWar",
+            "id": "w40k.10e.ec.dt.veteransLongWar",
             "type": "detachment",
-            "rulesetId": "w40k.10e.csm",
+            "rulesetId": "w40k.10e.ec",
             "name": "Veterans of the Long War",
             "rule": ""
         },
         {
-            "id": "w40k.10e.csm.dt.deceptors",
+            "id": "w40k.10e.ec.dt.deceptors",
             "type": "detachment",
-            "rulesetId": "w40k.10e.csm",
+            "rulesetId": "w40k.10e.ec",
             "name": "Deceptors",
             "rule": ""
         },
         {
-            "id": "w40k.10e.csm.dt.renegadeRaiders",
+            "id": "w40k.10e.ec.dt.renegadeRaiders",
             "type": "detachment",
-            "rulesetId": "w40k.10e.csm",
+            "rulesetId": "w40k.10e.ec",
             "name": "Renegade Raiders",
             "rule": ""
         },
         {
-            "id": "w40k.10e.csm.dt.dreadTalons",
+            "id": "w40k.10e.ec.dt.dreadTalons",
             "type": "detachment",
-            "rulesetId": "w40k.10e.csm",
+            "rulesetId": "w40k.10e.ec",
             "name": "Dread Talons",
             "rule": ""
         },
         {
-            "id": "w40k.10e.csm.dt.fellhammerSiegeHost",
+            "id": "w40k.10e.ec.dt.fellhammerSiegeHost",
             "type": "detachment",
-            "rulesetId": "w40k.10e.csm",
+            "rulesetId": "w40k.10e.ec",
             "name": "Fellhammer Siege-Host",
             "rule": ""
         },
         {
-            "id": "w40k.10e.csm.dt.soulforgedWarpack",
+            "id": "w40k.10e.ec.dt.soulforgedWarpack",
             "type": "detachment",
-            "rulesetId": "w40k.10e.csm",
+            "rulesetId": "w40k.10e.ec",
             "name": "Soulforged Warpack",
             "rule": ""
         },
         {
-            "id": "w40k.10e.csm.dt.chaosCult",
+            "id": "w40k.10e.ec.dt.chaosCult",
             "type": "detachment",
-            "rulesetId": "w40k.10e.csm",
+            "rulesetId": "w40k.10e.ec",
             "name": "Chaos Cult",
             "rule": ""
         },
         {
-            "id": "w40k.10e.csm.dt.pactboundZealots",
+            "id": "w40k.10e.ec.dt.pactboundZealots",
             "type": "detachment",
-            "rulesetId": "w40k.10e.csm",
+            "rulesetId": "w40k.10e.ec",
             "name": "Pactbound Zealots",
             "rule": ""
         }
@@ -402,35 +402,6 @@
                         }
                     ]
                 }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -694,35 +665,6 @@
                                     "points": 15
                                 }
                             ]
-                        }
-                    ]
-                }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
                         }
                     ]
                 }
@@ -1036,35 +978,6 @@
                         }
                     ]
                 }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -1350,35 +1263,6 @@
                         }
                     ]
                 }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -1653,35 +1537,6 @@
                                     "points": 15
                                 }
                             ]
-                        }
-                    ]
-                }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
                         }
                     ]
                 }
@@ -1968,35 +1823,6 @@
                         }
                     ]
                 }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -2260,35 +2086,6 @@
                                     "points": 15
                                 }
                             ]
-                        }
-                    ]
-                }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
                         }
                     ]
                 }
@@ -2579,32 +2376,25 @@
                         }
                     ]
                 }
-            ],
-            "gearset": [
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.lucius",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Lucius the Eternal",
+            "role": "CHARACTER",
+            "models": [
                 {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
+                    "name": "Lucius the Eternal",
+                    "points": 95,
+                    "gearset": [
                         {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
                         }
                     ]
                 }
@@ -2902,35 +2692,6 @@
                         }
                     ]
                 }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -3217,35 +2978,6 @@
                         }
                     ]
                 }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -3503,35 +3235,6 @@
                                     "points": 15
                                 }
                             ]
-                        }
-                    ]
-                }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
                         }
                     ]
                 }
@@ -3807,35 +3510,6 @@
                 {
                     "name": "Blessed Blade"
                 }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -4016,353 +3690,6 @@
                         }
                     ]
                 }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.csm.unit.plagueMarines",
-            "type": "unit",
-            "rulesetId": "w40k.10e.csm",
-            "name": "Plague Marines",
-            "role": "BATTLELINE",
-            "points": [
-                {
-                    "name": "Plague Marine, Plague Champion",
-                    "amount": 10,
-                    "cost": 180
-                },
-                {
-                    "name": "Plague Marine, Plague Champion",
-                    "amount": 7,
-                    "cost": 125
-                },
-                {
-                    "name": "Plague Marine, Plague Champion",
-                    "amount": 5,
-                    "cost": 90
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Plague Marine",
-                    "min": 4,
-                    "max": 9
-                },
-                {
-                    "type": "model",
-                    "name": "Plague Champion",
-                    "min": 1,
-                    "max": 1
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Plague Marine",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Plague Boltgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Plague Boltgun"
-                                },
-                                {
-                                    "name": "Blight Launcher"
-                                },
-                                {
-                                    "name": "Plague Spewer"
-                                },
-                                {
-                                    "name": "Meltagun"
-                                },
-                                {
-                                    "name": "Plague Belcher"
-                                },
-                                {
-                                    "name": "Plasma Gun"
-                                },
-                                {
-                                    "name": "Bubotic Weapon"
-                                },
-                                {
-                                    "name": "Heavy Plague Weapon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Plague Knives"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "name": "Plague Champion",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Plague Boltgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Plague Boltgun"
-                                },
-                                {
-                                    "name": "Plague Bolt Pistol"
-                                },
-                                {
-                                    "name": "Plasma Gun"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Plague Knives"
-                            },
-                            "options": [
-                                {
-                                    "name": "Plague Knives"
-                                },
-                                {
-                                    "name": "Bubotic Weapon"
-                                },
-                                {
-                                    "name": "Heavy Plague Weapon"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.csm.unit.rubrics",
-            "type": "unit",
-            "rulesetId": "w40k.10e.csm",
-            "name": "Rubric Marines",
-            "role": "BATTLELINE",
-            "points": [
-                {
-                    "name": "Rubric Marine, Aspiring Sorcerer",
-                    "amount": 10,
-                    "cost": 210
-                },
-                {
-                    "name": "Rubric Marine, Aspiring Sorcerer",
-                    "amount": 5,
-                    "cost": 105
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Rubric Marine",
-                    "min": 4,
-                    "max": 9
-                },
-                {
-                    "type": "model",
-                    "name": "Aspiring Sorcerer",
-                    "min": 1,
-                    "max": 1
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Rubric Marine",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Inferno Boltgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Inferno Boltgun"
-                                },
-                                {
-                                    "name": "Warpflamer"
-                                },
-                                {
-                                    "name": "Soulreaper Cannon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Icon of Flame"
-                            },
-                            "selected": false
-                        }
-                    ]
-                },
-                {
-                    "name": "Aspiring Sorcerer",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Inferno Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": "Inferno Bolt Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Warpflame Pistol"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.csm.unit.khorneBerzerkers",
-            "type": "unit",
-            "rulesetId": "w40k.10e.csm",
-            "name": "Khorne Berzerkers",
-            "role": "BATTLELINE",
-            "points": [
-                {
-                    "name": "Khorne Berzerker, Khorne Berzerker Champion",
-                    "amount": 10,
-                    "cost": 180
-                },
-                {
-                    "name": "Khorne Berzerker, Khorne Berzerker Champion",
-                    "amount": 5,
-                    "cost": 90
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Khorne Berzerker",
-                    "min": 4,
-                    "max": 9
-                },
-                {
-                    "type": "model",
-                    "name": "Khorne Berzerker Champion",
-                    "min": 1,
-                    "max": 1
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Khorne Berzerker",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Berzerker Chainblade"
-                            },
-                            "options": [
-                                {
-                                    "name": "Berzerker Chainblade"
-                                },
-                                {
-                                    "name": "Khornate Eviscerator"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Icon of Khorne"
-                            },
-                            "selected": false
-                        }
-                    ]
-                },
-                {
-                    "name": "Khorne Berzerker Champion",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Berzerker Chainblade"
-                            }
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Icon of Khorne"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -4448,35 +3775,6 @@
                         }
                     ]
                 }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -4517,35 +3815,6 @@
                 },
                 {
                     "name": "Torment"
-                }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
-                        }
-                    ]
                 }
             ]
         },
@@ -4683,35 +3952,6 @@
                                 "name": "Paired Accursed Weapon"
                             },
                             "selected": false
-                        }
-                    ]
-                }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
                         }
                     ]
                 }
@@ -4975,35 +4215,6 @@
                         }
                     ]
                 }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -5060,35 +4271,6 @@
                                 "name": "Chaos Icon"
                             },
                             "selected": false
-                        }
-                    ]
-                }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
                         }
                     ]
                 }
@@ -5219,35 +4401,6 @@
                         }
                     ]
                 }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -5255,7 +4408,7 @@
             "type": "unit",
             "rulesetId": "w40k.10e.csm",
             "name": "Noise Marines",
-            "role": "INFANTRY",
+            "role": "BATTLELINE",
             "points": [
                 {
                     "name": "Noise Marine, Noise Champion",
@@ -5416,35 +4569,6 @@
                         }
                     ]
                 }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -5570,35 +4694,6 @@
                         }
                     ]
                 }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -5698,35 +4793,6 @@
                         }
                     ]
                 }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -5781,35 +4847,6 @@
                             "selectedOption": {
                                 "name": "Warp Claws"
                             }
-                        }
-                    ]
-                }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
                         }
                     ]
                 }
@@ -5922,35 +4959,6 @@
                         }
                     ]
                 }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -5989,35 +4997,6 @@
                             "selectedOption": {
                                 "name": "Crushing Fists"
                             }
-                        }
-                    ]
-                }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
                         }
                     ]
                 }
@@ -6069,35 +5048,6 @@
                                 "name": "Havoc Launcher"
                             },
                             "selected": false
-                        }
-                    ]
-                }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
                         }
                     ]
                 }
@@ -6164,35 +5114,6 @@
                         }
                     ]
                 }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -6255,35 +5176,6 @@
                         }
                     ]
                 }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -6326,35 +5218,6 @@
                                 "name": "Havoc Launcher"
                             },
                             "selected": false
-                        }
-                    ]
-                }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
                         }
                     ]
                 }
@@ -6436,35 +5299,6 @@
                         }
                     ]
                 }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -6505,35 +5339,6 @@
                                     "name": "Ectoplasma Cannon, Armoured Limbs"
                                 }
                             ]
-                        }
-                    ]
-                }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
                         }
                     ]
                 }
@@ -6604,35 +5409,6 @@
                         }
                     ]
                 }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -6668,35 +5444,6 @@
                         }
                     ]
                 }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -6729,35 +5476,6 @@
                                     "name": "2 Magma Cutters"
                                 }
                             ]
-                        }
-                    ]
-                }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
                         }
                     ]
                 }
@@ -6800,35 +5518,6 @@
                         }
                     ]
                 }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -6851,87 +5540,6 @@
                 {
                     "name": "Chaos Spawn"
                 }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.csm.unit.klos",
-            "type": "unit",
-            "rulesetId": "w40k.10e.csm",
-            "name": "Khorne Lord of Skulls",
-            "role": "TITANIC",
-            "models": [
-                {
-                    "name": "Khorne Lord of Skulls",
-                    "points": 450,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Gorestorm Cannon"
-                            },
-                            "options": [
-                                {
-                                    "name": "Gorestorm Cannon"
-                                },
-                                {
-                                    "name": "Daemongore Cannon"
-                                },
-                                {
-                                    "name": "Ichor Cannon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Hades Gatling Cannon"
-                            },
-                            "options": [
-                                {
-                                    "name": "Hades Gatling Cannon"
-                                },
-                                {
-                                    "name": "Skullhurler"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Great Cleaver of Khorne"
-                            }
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -6944,35 +5552,6 @@
                 {
                     "name": "Noctilith Crown",
                     "points": 125
-                }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
-                        }
-                    ]
                 }
             ]
         },
@@ -7093,35 +5672,6 @@
                         }
                     ]
                 }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -7202,35 +5752,6 @@
                             "selectedOption": {
                                 "name": "Chainsword"
                             }
-                        }
-                    ]
-                }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
                         }
                     ]
                 }
@@ -7494,35 +6015,6 @@
                                     "points": 15
                                 }
                             ]
-                        }
-                    ]
-                }
-            ],
-            "gearset": [
-                {
-                    "type": "dropdown",
-                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
-                    "selectedOption": {
-                        "name": ""
-                    },
-                    "options": [
-                        {
-                            "name": ""
-                        },
-                        {
-                            "name": "Chaos Undivided"
-                        },
-                        {
-                            "name": "Khorne"
-                        },
-                        {
-                            "name": "Tzeentch"
-                        },
-                        {
-                            "name": "Nurgle"
-                        },
-                        {
-                            "name": "Slaanesh"
                         }
                     ]
                 }
