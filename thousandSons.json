@@ -748,6 +748,12 @@
                     "points": 140,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Maulerfiend Fists"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": "Lasher Tendrils"
