@@ -420,6 +420,93 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.1stCompany",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fear Made Manifest",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Iron Resolve",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Rites of War",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "The Imperium's Sword",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.anvilSiegeForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Architect of War",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fleet Commander",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Indomitable Fury",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Stoic Defender",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.firestormAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Mantle",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Champion of Humanity",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Forged in Battle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "War-tempered Artifice",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.ba.dt.gladius",
                             "selectedOption": {
                                 "name": ""
@@ -443,6 +530,122 @@
                                 {
                                     "name": "Fire Discipline",
                                     "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.ironstormSpearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adept of the Omnissiah",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Master of Machine War",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Target Augury Web",
+                                    "points": 40
+                                },
+                                {
+                                    "name": "The Flesh is Weak",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.stormlanceTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Feinting Withdrawal",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fury of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Hunter's Instincts",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Portents of Wisdom",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.vanguardSpearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Execute and Redeploy",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ghostweave Cloak",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Shadow War Veteran",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "The Blade Driven Deep",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.sonsSanguinius",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Artisan of War",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Visage of Death",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Archangel's Shard",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Icon of the Angel",
+                                    "points": 10
                                 }
                             ]
                         }
