@@ -2704,32 +2704,6 @@
             ]
         },
         {
-            "id": "w40k.10e.nid.unit.barbedHierodule",
-            "type": "unit",
-            "rulesetId": "w40k.10e.nid",
-            "name": "Barbed Hierodule",
-            "role": "MONSTER",
-            "models": [
-                {
-                    "name": "Barbed Hierodule",
-                    "points": 340
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.nid.unit.scythedHierodule",
-            "type": "unit",
-            "rulesetId": "w40k.10e.nid",
-            "name": "Scythed Hierodule",
-            "role": "MONSTER",
-            "models": [
-                {
-                    "name": "Scythed Hierodule",
-                    "points": 330
-                }
-            ]
-        },
-        {
             "id": "w40k.10e.nid.unit.harridan",
             "type": "unit",
             "rulesetId": "w40k.10e.nid",
