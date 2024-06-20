@@ -529,7 +529,7 @@
                                 },
                                 {
                                     "name": "Castellan's Mark",
-                                    "points": 30
+                                    "points": 20
                                 },
                                 {
                                     "name": "From the Hall of Armouries",
@@ -667,7 +667,7 @@
                                 },
                                 {
                                     "name": "Castellan's Mark",
-                                    "points": 30
+                                    "points": 20
                                 },
                                 {
                                     "name": "From the Hall of Armouries",
@@ -902,7 +902,7 @@
                                 },
                                 {
                                     "name": "Castellan's Mark",
-                                    "points": 30
+                                    "points": 20
                                 },
                                 {
                                     "name": "From the Hall of Armouries",
@@ -1054,7 +1054,7 @@
                                 },
                                 {
                                     "name": "Castellan's Mark",
-                                    "points": 30
+                                    "points": 20
                                 },
                                 {
                                     "name": "From the Hall of Armouries",
@@ -1229,7 +1229,7 @@
                 {
                     "name": "Custodian Guard",
                     "amount": 5,
-                    "cost": 300
+                    "cost": 250
                 }
             ],
             "restrictions": [
@@ -1299,12 +1299,12 @@
                 {
                     "name": "Aquilon Custodian",
                     "amount": 6,
-                    "cost": 420
+                    "cost": 390
                 },
                 {
                     "name": "Aquilon Custodian",
                     "amount": 3,
-                    "cost": 210
+                    "cost": 195
                 }
             ],
             "restrictions": [
@@ -1411,12 +1411,12 @@
                 {
                     "name": "Agamatus Custodian",
                     "amount": 6,
-                    "cost": 480
+                    "cost": 450
                 },
                 {
                     "name": "Agamatus Custodian",
                     "amount": 3,
-                    "cost": 240
+                    "cost": 225
                 }
             ],
             "restrictions": [
@@ -1462,12 +1462,12 @@
                 {
                     "name": "Venatari Custodian",
                     "amount": 6,
-                    "cost": 400
+                    "cost": 330
                 },
                 {
                     "name": "Venatari Custodian",
                     "amount": 3,
-                    "cost": 200
+                    "cost": 165
                 }
             ],
             "restrictions": [
@@ -1509,7 +1509,7 @@
             "models": [
                 {
                     "name": "Pallas Grav-Attack",
-                    "points": 120
+                    "points": 105
                 }
             ]
         },
@@ -1522,7 +1522,7 @@
             "models": [
                 {
                     "name": "Telemon Heavy Dreadnought",
-                    "points": 235,
+                    "points": 215,
                     "gearset": [
                         {
                             "type": "dropdown",

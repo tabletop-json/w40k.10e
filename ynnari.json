@@ -347,12 +347,12 @@
                 {
                     "name": "Dark Reaper, Dark Reaper Exarch",
                     "amount": 10,
-                    "cost": 160
+                    "cost": 170
                 },
                 {
                     "name": "Dark Reaper, Dark Reaper Exarch",
                     "amount": 5,
-                    "cost": 80
+                    "cost": 85
                 }
             ],
             "restrictions": [
@@ -704,12 +704,12 @@
                 {
                     "name": "Fire Dragon, Fire Dragon Exarch",
                     "amount": 10,
-                    "cost": 170
+                    "cost": 180
                 },
                 {
                     "name": "Fire Dragon, Fire Dragon Exarch",
                     "amount": 5,
-                    "cost": 85
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -1174,12 +1174,12 @@
                 {
                     "name": "Skyweaver",
                     "amount": 4,
-                    "cost": 160
+                    "cost": 210
                 },
                 {
                     "name": "Skyweaver",
                     "amount": 2,
-                    "cost": 80
+                    "cost": 105
                 }
             ],
             "restrictions": [
@@ -1454,12 +1454,12 @@
                 {
                     "name": "Swooping Hawk, Swooping Hawk Exarch",
                     "amount": 10,
-                    "cost": 160
+                    "cost": 170
                 },
                 {
                     "name": "Swooping Hawk, Swooping Hawk Exarch",
                     "amount": 5,
-                    "cost": 80
+                    "cost": 85
                 }
             ],
             "restrictions": [
@@ -1738,7 +1738,7 @@
             "models": [
                 {
                     "name": "Voidweaver",
-                    "points": 125,
+                    "points": 115,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1767,7 +1767,7 @@
             "models": [
                 {
                     "name": "Vyper",
-                    "points": 85,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1960,12 +1960,12 @@
                 {
                     "name": "Warp Spider, Warp Spider Exarch",
                     "amount": 10,
-                    "cost": 230
+                    "cost": 250
                 },
                 {
                     "name": "Warp Spider, Warp Spider Exarch",
                     "amount": 5,
-                    "cost": 115
+                    "cost": 125
                 }
             ],
             "restrictions": [
@@ -2312,7 +2312,7 @@
             "models": [
                 {
                     "name": "Wraithlord",
-                    "points": 160,
+                    "points": 145,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2414,7 +2414,7 @@
             "models": [
                 {
                     "name": "Yvraine",
-                    "points": 100,
+                    "points": 125,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2918,12 +2918,12 @@
                 {
                     "name": "Shadow Spectre",
                     "amount": 10,
-                    "cost": 210
+                    "cost": 230
                 },
                 {
                     "name": "Shadow Spectre",
                     "amount": 5,
-                    "cost": 105
+                    "cost": 115
                 }
             ],
             "restrictions": [

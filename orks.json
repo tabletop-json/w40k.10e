@@ -1362,7 +1362,7 @@
             "models": [
                 {
                     "name": "Boss Snikrot",
-                    "points": 85,
+                    "points": 95,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2139,22 +2139,22 @@
                 {
                     "name": "Meganob",
                     "amount": 6,
-                    "cost": 180
+                    "cost": 240
                 },
                 {
                     "name": "Meganob",
                     "amount": 5,
-                    "cost": 150
+                    "cost": 200
                 },
                 {
                     "name": "Meganob",
                     "amount": 3,
-                    "cost": 90
+                    "cost": 120
                 },
                 {
                     "name": "Meganob",
                     "amount": 2,
-                    "cost": 60
+                    "cost": 80
                 }
             ],
             "restrictions": [
@@ -2620,7 +2620,7 @@
             "models": [
                 {
                     "name": "Painboss",
-                    "points": 60,
+                    "points": 70,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2830,7 +2830,7 @@
             "models": [
                 {
                     "name": "Painboy",
-                    "points": 70,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -3827,7 +3827,7 @@
             "models": [
                 {
                     "name": "Weirdboy",
-                    "points": 55,
+                    "points": 65,
                     "gearset": [
                         {
                             "type": "checkbox",

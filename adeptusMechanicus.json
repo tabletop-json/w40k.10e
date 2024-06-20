@@ -55,7 +55,7 @@
             "models": [
                 {
                     "name": "Archaeopter Fusilave",
-                    "points": 150,
+                    "points": 160,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -84,7 +84,7 @@
             "models": [
                 {
                     "name": "Archaeopter Stratoraptor",
-                    "points": 170,
+                    "points": 185,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -113,7 +113,7 @@
             "models": [
                 {
                     "name": "Archaeopter Transvector",
-                    "points": 140,
+                    "points": 150,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -165,12 +165,12 @@
                 {
                     "name": "Corpuscarii Electro-Priest",
                     "amount": 10,
-                    "cost": 120
+                    "cost": 140
                 },
                 {
                     "name": "Corpuscarii Electro-Priest",
                     "amount": 5,
-                    "cost": 60
+                    "cost": 70
                 }
             ],
             "restrictions": [
@@ -346,7 +346,7 @@
                                 },
                                 {
                                     "name": "Veiled Hunter",
-                                    "points": 20
+                                    "points": 10
                                 }
                             ]
                         }
@@ -364,12 +364,12 @@
                 {
                     "name": "Kastelan Robot",
                     "amount": 4,
-                    "cost": 360
+                    "cost": 380
                 },
                 {
                     "name": "Kastelan Robot",
                     "amount": 2,
-                    "cost": 180
+                    "cost": 190
                 }
             ],
             "restrictions": [
@@ -429,12 +429,12 @@
                 {
                     "name": "Fulgurite Electro-Priest",
                     "amount": 10,
-                    "cost": 120
+                    "cost": 150
                 },
                 {
                     "name": "Fulgurite Electro-Priest",
                     "amount": 5,
-                    "cost": 60
+                    "cost": 75
                 }
             ],
             "restrictions": [
@@ -461,17 +461,17 @@
                 {
                     "name": "Ironstrider Ballistarii",
                     "amount": 3,
-                    "cost": 150
+                    "cost": 210
                 },
                 {
                     "name": "Ironstrider Ballistarii",
                     "amount": 2,
-                    "cost": 100
+                    "cost": 140
                 },
                 {
                     "name": "Ironstrider Ballistarii",
                     "amount": 1,
-                    "cost": 50
+                    "cost": 70
                 }
             ],
             "restrictions": [
@@ -514,12 +514,12 @@
                 {
                     "name": "Kataphron Breacher",
                     "amount": 6,
-                    "cost": 290
+                    "cost": 320
                 },
                 {
                     "name": "Kataphron Breacher",
                     "amount": 3,
-                    "cost": 145
+                    "cost": 160
                 }
             ],
             "restrictions": [
@@ -637,7 +637,7 @@
             "models": [
                 {
                     "name": "Onager Dunecrawler",
-                    "points": 130,
+                    "points": 160,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -694,12 +694,12 @@
                 {
                     "name": "Pteraxii Skystalker, Pteraxii Skystalker Alpha",
                     "amount": 10,
-                    "cost": 130
+                    "cost": 150
                 },
                 {
                     "name": "Pteraxii Skystalker, Pteraxii Skystalker Alpha",
                     "amount": 5,
-                    "cost": 65
+                    "cost": 75
                 }
             ],
             "restrictions": [
@@ -846,12 +846,12 @@
                 {
                     "name": "Serberys Sulphurhound, Serberys Sulphurhound Alpha",
                     "amount": 6,
-                    "cost": 110
+                    "cost": 120
                 },
                 {
                     "name": "Serberys Sulphurhound, Serberys Sulphurhound Alpha",
                     "amount": 3,
-                    "cost": 55
+                    "cost": 60
                 }
             ],
             "restrictions": [
@@ -1051,12 +1051,12 @@
                 {
                     "name": "Sicarian Ruststalker, Sicarian Ruststalker Princeps",
                     "amount": 10,
-                    "cost": 120
+                    "cost": 150
                 },
                 {
                     "name": "Sicarian Ruststalker, Sicarian Ruststalker Princeps",
                     "amount": 5,
-                    "cost": 60
+                    "cost": 75
                 }
             ],
             "restrictions": [
@@ -1273,7 +1273,7 @@
                                 },
                                 {
                                     "name": "Veiled Hunter",
-                                    "points": 20
+                                    "points": 10
                                 }
                             ]
                         }
@@ -1291,7 +1291,7 @@
                 {
                     "name": "Skitarii Ranger, Skitarii Ranger Alpha",
                     "amount": 10,
-                    "cost": 80
+                    "cost": 85
                 }
             ],
             "restrictions": [
@@ -1386,7 +1386,7 @@
                 {
                     "name": "Skitarii Vanguard, Skitarii Vanguard Alpha",
                     "amount": 10,
-                    "cost": 80
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -1480,7 +1480,7 @@
             "models": [
                 {
                     "name": "Skorpius Disintegrator",
-                    "points": 170,
+                    "points": 175,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1521,7 +1521,7 @@
             "models": [
                 {
                     "name": "Skorpius Dunerider",
-                    "points": 80
+                    "points": 85
                 }
             ]
         },
@@ -1535,17 +1535,17 @@
                 {
                     "name": "Sydonian Dragoon",
                     "amount": 3,
-                    "cost": 135
+                    "cost": 150
                 },
                 {
                     "name": "Sydonian Dragoon",
                     "amount": 2,
-                    "cost": 90
+                    "cost": 100
                 },
                 {
                     "name": "Sydonian Dragoon",
                     "amount": 1,
-                    "cost": 45
+                    "cost": 55
                 }
             ],
             "restrictions": [
@@ -1572,17 +1572,17 @@
                 {
                     "name": "Sydonian Dragoon",
                     "amount": 3,
-                    "cost": 180
+                    "cost": 210
                 },
                 {
                     "name": "Sydonian Dragoon",
                     "amount": 2,
-                    "cost": 120
+                    "cost": 140
                 },
                 {
                     "name": "Sydonian Dragoon",
                     "amount": 1,
-                    "cost": 60
+                    "cost": 70
                 }
             ],
             "restrictions": [
@@ -1758,7 +1758,7 @@
                                 },
                                 {
                                     "name": "Veiled Hunter",
-                                    "points": 20
+                                    "points": 10
                                 }
                             ]
                         }
@@ -1953,7 +1953,7 @@
                                 },
                                 {
                                     "name": "Veiled Hunter",
-                                    "points": 20
+                                    "points": 10
                                 }
                             ]
                         }
@@ -1970,7 +1970,7 @@
             "models": [
                 {
                     "name": "Tech-Priest Enginseer",
-                    "points": 45,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2120,7 +2120,7 @@
                                 },
                                 {
                                     "name": "Veiled Hunter",
-                                    "points": 20
+                                    "points": 10
                                 }
                             ]
                         }
@@ -2137,7 +2137,7 @@
             "models": [
                 {
                     "name": "Tech-Priest Manipulus",
-                    "points": 55,
+                    "points": 65,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2301,7 +2301,7 @@
                                 },
                                 {
                                     "name": "Veiled Hunter",
-                                    "points": 20
+                                    "points": 10
                                 }
                             ]
                         }
@@ -2468,7 +2468,7 @@
                                 },
                                 {
                                     "name": "Veiled Hunter",
-                                    "points": 20
+                                    "points": 10
                                 }
                             ]
                         }

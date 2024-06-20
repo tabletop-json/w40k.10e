@@ -458,7 +458,7 @@
             "models": [
                 {
                     "name": "Exalted Sorcerer on Disc",
-                    "points": 115,
+                    "points": 105,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -780,7 +780,7 @@
             "models": [
                 {
                     "name": "Mutalith Vortex Beast",
-                    "points": 165
+                    "points": 150
                 }
             ]
         },
@@ -880,12 +880,12 @@
                 {
                     "name": "Scarab Occult Terminator, Scarab Occult Sorcerer",
                     "amount": 10,
-                    "cost": 400
+                    "cost": 380
                 },
                 {
                     "name": "Scarab Occult Terminator, Scarab Occult Sorcerer",
                     "amount": 5,
-                    "cost": 200
+                    "cost": 190
                 }
             ],
             "restrictions": [

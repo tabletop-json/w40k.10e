@@ -3870,12 +3870,12 @@
                 {
                     "name": "Legionary, Aspiring Champion",
                     "amount": 10,
-                    "cost": 160
+                    "cost": 180
                 },
                 {
                     "name": "Legionary, Aspiring Champion",
                     "amount": 5,
-                    "cost": 80
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -4489,12 +4489,12 @@
                 {
                     "name": "Mutant, Torment",
                     "amount": 16,
-                    "cost": 170
+                    "cost": 180
                 },
                 {
                     "name": "Mutant, Torment",
                     "amount": 8,
-                    "cost": 85
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -5400,7 +5400,7 @@
             "models": [
                 {
                     "name": "Venomcrawler",
-                    "points": 110,
+                    "points": 120,
                     "gearset": [
                         {
                             "type": "text",
@@ -5611,12 +5611,12 @@
                 {
                     "name": "Raptor, Raptor Champion",
                     "amount": 10,
-                    "cost": 170
+                    "cost": 180
                 },
                 {
                     "name": "Raptor, Raptor Champion",
                     "amount": 5,
-                    "cost": 85
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -5739,12 +5739,12 @@
                 {
                     "name": "Warp Talon, Warp Talon Champion",
                     "amount": 10,
-                    "cost": 220
+                    "cost": 270
                 },
                 {
                     "name": "Warp Talon, Warp Talon Champion",
                     "amount": 5,
-                    "cost": 110
+                    "cost": 135
                 }
             ],
             "restrictions": [
@@ -5825,7 +5825,7 @@
                 {
                     "name": "Havoc, Havoc Champion",
                     "amount": 5,
-                    "cost": 120
+                    "cost": 135
                 }
             ],
             "restrictions": [
@@ -6112,7 +6112,7 @@
             "models": [
                 {
                     "name": "Predator Annihilator",
-                    "points": 130,
+                    "points": 140,
                     "gearset": [
                         {
                             "type": "text",
@@ -6204,7 +6204,7 @@
             "models": [
                 {
                     "name": "Predator Destructor",
-                    "points": 130,
+                    "points": 140,
                     "gearset": [
                         {
                             "type": "text",
@@ -6295,7 +6295,7 @@
             "models": [
                 {
                     "name": "Vindicator",
-                    "points": 175,
+                    "points": 185,
                     "gearset": [
                         {
                             "type": "text",

@@ -8848,7 +8848,7 @@
             "models": [
                 {
                     "name": "Gladiator Reaper",
-                    "points": 150,
+                    "points": 160,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -8877,7 +8877,7 @@
             "models": [
                 {
                     "name": "Gladiator Valiant",
-                    "points": 150,
+                    "points": 160,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -8971,7 +8971,7 @@
             "models": [
                 {
                     "name": "Land Raider Crusader",
-                    "points": 230,
+                    "points": 220,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -9007,7 +9007,7 @@
             "models": [
                 {
                     "name": "Land Raider Redeemer",
-                    "points": 260,
+                    "points": 285,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -9043,7 +9043,7 @@
             "models": [
                 {
                     "name": "Repulsor",
-                    "points": 190,
+                    "points": 180,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -9363,7 +9363,7 @@
             "models": [
                 {
                     "name": "Stormraven Gunship",
-                    "points": 240,
+                    "points": 280,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -9544,7 +9544,7 @@
             "models": [
                 {
                     "name": "Watch Master",
-                    "points": 115,
+                    "points": 105,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -9790,15 +9790,15 @@
             ]
         },
         {
-            "id": "w40k.10e.dw.unit.watchMasterArtemis",
+            "id": "w40k.10e.dw.unit.watchCaptainArtemis",
             "type": "unit",
             "rulesetId": "w40k.10e.dw",
-            "name": "Watch Master Artemis",
+            "name": "Watch Captain Artemis",
             "role": "INFANTRY",
             "models": [
                 {
-                    "name": "Watch Master Artemis",
-                    "points": 75,
+                    "name": "Watch Captain Artemis",
+                    "points": 65,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -9884,12 +9884,12 @@
                 {
                     "name": "Deathwatch Veteran, Watch Sergeant",
                     "amount": 10,
-                    "cost": 220
+                    "cost": 200
                 },
                 {
                     "name": "Deathwatch Veteran, Watch Sergeant",
                     "amount": 5,
-                    "cost": 110
+                    "cost": 100
                 }
             ],
             "restrictions": [

@@ -10,10 +10,38 @@
     },
     "detachments": [
         {
-            "id": "w40k.10e.gsc.dt.ascensionDay",
+            "id": "w40k.10e.gsc.dt.hostAscension",
             "type": "detachment",
             "rulesetId": "w40k.10e.gsc",
-            "name": "Ascension Day",
+            "name": "Host of Ascension",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.gsc.dt.xenocreedCongregation",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Xenocreed Congregation",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.gsc.dt.biosancticBroodsurge",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Biosanctic Broodsurge",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.gsc.dt.outlanderClaw",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Outlander Claw",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.gsc.dt.broodBrotherAuxilia",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Brood Brother Auxilia",
             "rule": ""
         }
     ],
@@ -28,12 +56,12 @@
                 {
                     "name": "Aberrant, Aberrant Hypermorph",
                     "amount": 10,
-                    "cost": 360
+                    "cost": 300
                 },
                 {
                     "name": "Aberrant, Aberrant Hypermorph",
                     "amount": 5,
-                    "cost": 180
+                    "cost": 150
                 }
             ],
             "restrictions": [
@@ -110,7 +138,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.gsc.dt.ascensionDay",
+                            "detachmentId": "w40k.10e.gsc.dt.hostAscension",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -123,15 +151,131 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Inscrutable Cunning",
-                                    "points": 30
+                                    "name": "A Chink in their Armour",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Meticulous Planner",
-                                    "points": 40
+                                    "name": "Our Time is Nigh",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Focus of Adoration",
+                                    "name": "Assassination Edict",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.xenocreedCongregation",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gene-sire's Reliquant",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Denunciator of Tyrants",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Deeds That Speak to the Masses",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Incendiary Inspiration",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.biosancticBroodsurge",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Predatory Instincts",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Biomorph Adaptation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mutagenic Regeneration",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Alien Majesty",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.outlanderClaw",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Serpentine Tactics",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Cartographic Data-Leech",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Starfall Shells",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Assault Commando",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.broodBrotherAuxilia",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Martial Espionage",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Adaptive Reprisal",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Hero Returned",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fire-point Commander",
                                     "points": 10
                                 }
                             ]
@@ -209,21 +353,97 @@
             ]
         },
         {
-            "id": "w40k.10e.gsc.unit.acolyteHybrids",
+            "id": "w40k.10e.gsc.unit.acolyteHybridsFlamers",
             "type": "unit",
             "rulesetId": "w40k.10e.gsc",
-            "name": "Acolyte Hybrids",
+            "name": "Acolyte Hybrids with Hand Flamers",
             "role": "BATTLELINE",
             "points": [
                 {
                     "name": "Acolyte Hybrid, Acolyte Leader",
                     "amount": 10,
-                    "cost": 170
+                    "cost": 150
                 },
                 {
                     "name": "Acolyte Hybrid, Acolyte Leader",
                     "amount": 5,
-                    "cost": 85
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Acolyte Hybrid",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Acolyte Leader",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Acolyte Hybrid",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Handflamer, Cult Claws and Knife"
+                            },
+                            "options": [
+                                {
+                                    "name": "Handflamer, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Cult Icon, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Demolition Charges, Cult Claws and Knife"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Acolyte Leader",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Handflamer, Cult Claws and Knife"
+                            },
+                            "options": [
+                                {
+                                    "name": "Handflamer, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Handflamer, Leader's Bio-Weapons"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.acolyteHybridsAutopistols",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Acolyte Hybrids with Autopistols",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Acolyte Hybrid, Acolyte Leader",
+                    "amount": 10,
+                    "cost": 140
+                },
+                {
+                    "name": "Acolyte Hybrid, Acolyte Leader",
+                    "amount": 5,
+                    "cost": 70
                 }
             ],
             "restrictions": [
@@ -254,13 +474,7 @@
                                     "name": "Autopistol, Cult Claws and Knife"
                                 },
                                 {
-                                    "name": "Handflamer, Cult Claws and Knife"
-                                },
-                                {
                                     "name": "Cult Icon, Cult Claws and Knife"
-                                },
-                                {
-                                    "name": "Demolition Charges, Cult Claws and Knife"
                                 },
                                 {
                                     "name": "Heavy Mining Tool"
@@ -282,10 +496,7 @@
                                     "name": "Autopistol, Cult Claws and Knife"
                                 },
                                 {
-                                    "name": "Handflamer, Cult Claws and Knife"
-                                },
-                                {
-                                    "name": "Leader's Cult Weapons"
+                                    "name": "Handflamer, Leader's Bio-Weapons"
                                 }
                             ]
                         }
@@ -302,7 +513,7 @@
             "models": [
                 {
                     "name": "Acolyte Iconward",
-                    "points": 50,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -314,7 +525,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.gsc.dt.ascensionDay",
+                            "detachmentId": "w40k.10e.gsc.dt.hostAscension",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -327,15 +538,131 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Inscrutable Cunning",
-                                    "points": 30
+                                    "name": "A Chink in their Armour",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Meticulous Planner",
-                                    "points": 40
+                                    "name": "Our Time is Nigh",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Focus of Adoration",
+                                    "name": "Assassination Edict",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.xenocreedCongregation",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gene-sire's Reliquant",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Denunciator of Tyrants",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Deeds That Speak to the Masses",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Incendiary Inspiration",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.biosancticBroodsurge",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Predatory Instincts",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Biomorph Adaptation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mutagenic Regeneration",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Alien Majesty",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.outlanderClaw",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Serpentine Tactics",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Cartographic Data-Leech",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Starfall Shells",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Assault Commando",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.broodBrotherAuxilia",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Martial Espionage",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Adaptive Reprisal",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Hero Returned",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fire-point Commander",
                                     "points": 10
                                 }
                             ]
@@ -474,7 +801,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.gsc.dt.ascensionDay",
+                            "detachmentId": "w40k.10e.gsc.dt.hostAscension",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -487,15 +814,131 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Inscrutable Cunning",
-                                    "points": 30
+                                    "name": "A Chink in their Armour",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Meticulous Planner",
-                                    "points": 40
+                                    "name": "Our Time is Nigh",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Focus of Adoration",
+                                    "name": "Assassination Edict",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.xenocreedCongregation",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gene-sire's Reliquant",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Denunciator of Tyrants",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Deeds That Speak to the Masses",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Incendiary Inspiration",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.biosancticBroodsurge",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Predatory Instincts",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Biomorph Adaptation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mutagenic Regeneration",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Alien Majesty",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.outlanderClaw",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Serpentine Tactics",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Cartographic Data-Leech",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Starfall Shells",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Assault Commando",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.broodBrotherAuxilia",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Martial Espionage",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Adaptive Reprisal",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Hero Returned",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fire-point Commander",
                                     "points": 10
                                 }
                             ]
@@ -525,7 +968,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.gsc.dt.ascensionDay",
+                            "detachmentId": "w40k.10e.gsc.dt.hostAscension",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -538,15 +981,131 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Inscrutable Cunning",
-                                    "points": 30
+                                    "name": "A Chink in their Armour",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Meticulous Planner",
-                                    "points": 40
+                                    "name": "Our Time is Nigh",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Focus of Adoration",
+                                    "name": "Assassination Edict",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.xenocreedCongregation",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gene-sire's Reliquant",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Denunciator of Tyrants",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Deeds That Speak to the Masses",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Incendiary Inspiration",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.biosancticBroodsurge",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Predatory Instincts",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Biomorph Adaptation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mutagenic Regeneration",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Alien Majesty",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.outlanderClaw",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Serpentine Tactics",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Cartographic Data-Leech",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Starfall Shells",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Assault Commando",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.broodBrotherAuxilia",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Martial Espionage",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Adaptive Reprisal",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Hero Returned",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fire-point Commander",
                                     "points": 10
                                 }
                             ]
@@ -564,7 +1123,7 @@
             "models": [
                 {
                     "name": "Goliath Rockgrinder",
-                    "points": 130,
+                    "points": 120,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -596,7 +1155,7 @@
             "models": [
                 {
                     "name": "Goliath Truck",
-                    "points": 90
+                    "points": 85
                 }
             ]
         },
@@ -697,7 +1256,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.gsc.dt.ascensionDay",
+                            "detachmentId": "w40k.10e.gsc.dt.hostAscension",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -710,15 +1269,131 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Inscrutable Cunning",
-                                    "points": 30
+                                    "name": "A Chink in their Armour",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Meticulous Planner",
-                                    "points": 40
+                                    "name": "Our Time is Nigh",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Focus of Adoration",
+                                    "name": "Assassination Edict",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.xenocreedCongregation",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gene-sire's Reliquant",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Denunciator of Tyrants",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Deeds That Speak to the Masses",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Incendiary Inspiration",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.biosancticBroodsurge",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Predatory Instincts",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Biomorph Adaptation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mutagenic Regeneration",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Alien Majesty",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.outlanderClaw",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Serpentine Tactics",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Cartographic Data-Leech",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Starfall Shells",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Assault Commando",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.broodBrotherAuxilia",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Martial Espionage",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Adaptive Reprisal",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Hero Returned",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fire-point Commander",
                                     "points": 10
                                 }
                             ]
@@ -736,7 +1411,7 @@
             "models": [
                 {
                     "name": "Kelermorph",
-                    "points": 55,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -748,7 +1423,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.gsc.dt.ascensionDay",
+                            "detachmentId": "w40k.10e.gsc.dt.hostAscension",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -761,15 +1436,131 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Inscrutable Cunning",
-                                    "points": 30
+                                    "name": "A Chink in their Armour",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Meticulous Planner",
-                                    "points": 40
+                                    "name": "Our Time is Nigh",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Focus of Adoration",
+                                    "name": "Assassination Edict",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.xenocreedCongregation",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gene-sire's Reliquant",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Denunciator of Tyrants",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Deeds That Speak to the Masses",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Incendiary Inspiration",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.biosancticBroodsurge",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Predatory Instincts",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Biomorph Adaptation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mutagenic Regeneration",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Alien Majesty",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.outlanderClaw",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Serpentine Tactics",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Cartographic Data-Leech",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Starfall Shells",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Assault Commando",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.broodBrotherAuxilia",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Martial Espionage",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Adaptive Reprisal",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Hero Returned",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fire-point Commander",
                                     "points": 10
                                 }
                             ]
@@ -799,7 +1590,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.gsc.dt.ascensionDay",
+                            "detachmentId": "w40k.10e.gsc.dt.hostAscension",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -812,15 +1603,131 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Inscrutable Cunning",
-                                    "points": 30
+                                    "name": "A Chink in their Armour",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Meticulous Planner",
-                                    "points": 40
+                                    "name": "Our Time is Nigh",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Focus of Adoration",
+                                    "name": "Assassination Edict",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.xenocreedCongregation",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gene-sire's Reliquant",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Denunciator of Tyrants",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Deeds That Speak to the Masses",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Incendiary Inspiration",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.biosancticBroodsurge",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Predatory Instincts",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Biomorph Adaptation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mutagenic Regeneration",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Alien Majesty",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.outlanderClaw",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Serpentine Tactics",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Cartographic Data-Leech",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Starfall Shells",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Assault Commando",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.broodBrotherAuxilia",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Martial Espionage",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Adaptive Reprisal",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Hero Returned",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fire-point Commander",
                                     "points": 10
                                 }
                             ]
@@ -850,7 +1757,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.gsc.dt.ascensionDay",
+                            "detachmentId": "w40k.10e.gsc.dt.hostAscension",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -863,15 +1770,131 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Inscrutable Cunning",
-                                    "points": 30
+                                    "name": "A Chink in their Armour",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Meticulous Planner",
-                                    "points": 40
+                                    "name": "Our Time is Nigh",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Focus of Adoration",
+                                    "name": "Assassination Edict",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.xenocreedCongregation",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gene-sire's Reliquant",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Denunciator of Tyrants",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Deeds That Speak to the Masses",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Incendiary Inspiration",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.biosancticBroodsurge",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Predatory Instincts",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Biomorph Adaptation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mutagenic Regeneration",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Alien Majesty",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.outlanderClaw",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Serpentine Tactics",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Cartographic Data-Leech",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Starfall Shells",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Assault Commando",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.broodBrotherAuxilia",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Martial Espionage",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Adaptive Reprisal",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Hero Returned",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fire-point Commander",
                                     "points": 10
                                 }
                             ]
@@ -889,13 +1912,13 @@
             "points": [
                 {
                     "name": "Neophyte Hybrid, Neophyte Leader",
-                    "amount": 10,
-                    "cost": 180
+                    "amount": 20,
+                    "cost": 140
                 },
                 {
                     "name": "Neophyte Hybrid, Neophyte Leader",
-                    "amount": 5,
-                    "cost": 90
+                    "amount": 10,
+                    "cost": 70
                 }
             ],
             "restrictions": [
@@ -1001,7 +2024,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.gsc.dt.ascensionDay",
+                            "detachmentId": "w40k.10e.gsc.dt.hostAscension",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1014,15 +2037,131 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Inscrutable Cunning",
-                                    "points": 30
+                                    "name": "A Chink in their Armour",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Meticulous Planner",
-                                    "points": 40
+                                    "name": "Our Time is Nigh",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Focus of Adoration",
+                                    "name": "Assassination Edict",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.xenocreedCongregation",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gene-sire's Reliquant",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Denunciator of Tyrants",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Deeds That Speak to the Masses",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Incendiary Inspiration",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.biosancticBroodsurge",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Predatory Instincts",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Biomorph Adaptation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mutagenic Regeneration",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Alien Majesty",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.outlanderClaw",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Serpentine Tactics",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Cartographic Data-Leech",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Starfall Shells",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Assault Commando",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.broodBrotherAuxilia",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Martial Espionage",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Adaptive Reprisal",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Hero Returned",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fire-point Commander",
                                     "points": 10
                                 }
                             ]
@@ -1052,7 +2191,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.gsc.dt.ascensionDay",
+                            "detachmentId": "w40k.10e.gsc.dt.hostAscension",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1065,15 +2204,131 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Inscrutable Cunning",
-                                    "points": 30
+                                    "name": "A Chink in their Armour",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Meticulous Planner",
-                                    "points": 40
+                                    "name": "Our Time is Nigh",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Focus of Adoration",
+                                    "name": "Assassination Edict",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.xenocreedCongregation",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gene-sire's Reliquant",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Denunciator of Tyrants",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Deeds That Speak to the Masses",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Incendiary Inspiration",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.biosancticBroodsurge",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Predatory Instincts",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Biomorph Adaptation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mutagenic Regeneration",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Alien Majesty",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.outlanderClaw",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Serpentine Tactics",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Cartographic Data-Leech",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Starfall Shells",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Assault Commando",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.broodBrotherAuxilia",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Martial Espionage",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Adaptive Reprisal",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Hero Returned",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fire-point Commander",
                                     "points": 10
                                 }
                             ]
@@ -1103,7 +2358,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.gsc.dt.ascensionDay",
+                            "detachmentId": "w40k.10e.gsc.dt.hostAscension",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1116,15 +2371,131 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Inscrutable Cunning",
-                                    "points": 30
+                                    "name": "A Chink in their Armour",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Meticulous Planner",
-                                    "points": 40
+                                    "name": "Our Time is Nigh",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Focus of Adoration",
+                                    "name": "Assassination Edict",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.xenocreedCongregation",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gene-sire's Reliquant",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Denunciator of Tyrants",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Deeds That Speak to the Masses",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Incendiary Inspiration",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.biosancticBroodsurge",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Predatory Instincts",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Biomorph Adaptation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mutagenic Regeneration",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Alien Majesty",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.outlanderClaw",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Serpentine Tactics",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Cartographic Data-Leech",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Starfall Shells",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Assault Commando",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.broodBrotherAuxilia",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Martial Espionage",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Adaptive Reprisal",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Hero Returned",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fire-point Commander",
                                     "points": 10
                                 }
                             ]
@@ -1186,7 +2557,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.gsc.dt.ascensionDay",
+                            "detachmentId": "w40k.10e.gsc.dt.hostAscension",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1199,15 +2570,131 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Inscrutable Cunning",
-                                    "points": 30
+                                    "name": "A Chink in their Armour",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Meticulous Planner",
-                                    "points": 40
+                                    "name": "Our Time is Nigh",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Focus of Adoration",
+                                    "name": "Assassination Edict",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.xenocreedCongregation",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gene-sire's Reliquant",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Denunciator of Tyrants",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Deeds That Speak to the Masses",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Incendiary Inspiration",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.biosancticBroodsurge",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Predatory Instincts",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Biomorph Adaptation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mutagenic Regeneration",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Alien Majesty",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.outlanderClaw",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Serpentine Tactics",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Cartographic Data-Leech",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Starfall Shells",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Assault Commando",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.broodBrotherAuxilia",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Martial Espionage",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Adaptive Reprisal",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Hero Returned",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fire-point Commander",
                                     "points": 10
                                 }
                             ]
@@ -1251,7 +2738,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.gsc.dt.ascensionDay",
+                            "detachmentId": "w40k.10e.gsc.dt.hostAscension",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1264,15 +2751,298 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Inscrutable Cunning",
-                                    "points": 30
+                                    "name": "A Chink in their Armour",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Meticulous Planner",
-                                    "points": 40
+                                    "name": "Our Time is Nigh",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Focus of Adoration",
+                                    "name": "Assassination Edict",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.xenocreedCongregation",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gene-sire's Reliquant",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Denunciator of Tyrants",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Deeds That Speak to the Masses",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Incendiary Inspiration",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.biosancticBroodsurge",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Predatory Instincts",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Biomorph Adaptation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mutagenic Regeneration",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Alien Majesty",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.outlanderClaw",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Serpentine Tactics",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Cartographic Data-Leech",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Starfall Shells",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Assault Commando",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.broodBrotherAuxilia",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Martial Espionage",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Adaptive Reprisal",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Hero Returned",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fire-point Commander",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.benefictus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Benefictus",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Benefictus",
+                    "points": 80,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.hostAscension",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prowling Agitant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "A Chink in their Armour",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Our Time is Nigh",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Assassination Edict",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.xenocreedCongregation",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gene-sire's Reliquant",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Denunciator of Tyrants",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Deeds That Speak to the Masses",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Incendiary Inspiration",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.biosancticBroodsurge",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Predatory Instincts",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Biomorph Adaptation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mutagenic Regeneration",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Alien Majesty",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.outlanderClaw",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Serpentine Tactics",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Cartographic Data-Leech",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Starfall Shells",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Assault Commando",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.broodBrotherAuxilia",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Martial Espionage",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Adaptive Reprisal",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Hero Returned",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fire-point Commander",
                                     "points": 10
                                 }
                             ]
