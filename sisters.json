@@ -15,6 +15,27 @@
             "rulesetId": "w40k.10e.sis",
             "name": "Hallowed Martyrs",
             "rule": ""
+        },
+        {
+            "id": "w40k.10e.sis.dt.penitentHost",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Penitent Host",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.sis.dt.bringersOfFlame",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Bringers of Flame",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.sis.dt.armyOfFaith",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Army of Faith",
+            "rule": ""
         }
     ],
     "units": [
@@ -27,7 +48,7 @@
             "models": [
                 {
                     "name": "Morvenn Vahl",
-                    "points": 145,
+                    "points": 160,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -122,6 +143,93 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.armyOfFaith",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blade of Saint Ellynor",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Divine Aspect",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Litanies of Faith",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Triptych of the Macharian Crusade",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.penitentHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Catechism of Divine Penitence",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Psalm of Righteous Judgement",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Refrain of Enduring Faith",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Verse of Holy Piety",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.bringersOfFlame",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fire and Fury",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Iron Surplice of Saint Istalela",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Manual of Saint Griselda",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Righteous Rage",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.sis.dt.hallowedMartyrs",
                             "selectedOption": {
                                 "name": ""
@@ -131,20 +239,175 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Saintly Example",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Blade of Saint Ellynor",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Litanies of Faith",
+                                    "name": "Chaplet of Sacrifice",
                                     "points": 25
                                 },
                                 {
                                     "name": "Mantle of Ophelia",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Saintly Example",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Through Suffering, Strength",
+                                    "points": 25
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.jumpCanoness",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Canoness with Jump Pack",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Canoness with Jump Pack",
+                    "points": 75,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Blessed Halberd"
+                            },
+                            "options": [
+                                {
+                                    "name": "Blessed Halberd"
+                                },
+                                {
+                                    "name": "Holy Eviscerator"
+                                },
+                                {
+                                    "name": "Power Weapon, Ministorum Hand Flamer"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.armyOfFaith",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blade of Saint Ellynor",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Divine Aspect",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Litanies of Faith",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Triptych of the Macharian Crusade",
                                     "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.penitentHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Catechism of Divine Penitence",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Psalm of Righteous Judgement",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Refrain of Enduring Faith",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Verse of Holy Piety",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.bringersOfFlame",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fire and Fury",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Iron Surplice of Saint Istalela",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Manual of Saint Griselda",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Righteous Rage",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.hallowedMartyrs",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chaplet of Sacrifice",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mantle of Ophelia",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Saintly Example",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Through Suffering, Strength",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -187,6 +450,93 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.armyOfFaith",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blade of Saint Ellynor",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Divine Aspect",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Litanies of Faith",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Triptych of the Macharian Crusade",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.penitentHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Catechism of Divine Penitence",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Psalm of Righteous Judgement",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Refrain of Enduring Faith",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Verse of Holy Piety",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.bringersOfFlame",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fire and Fury",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Iron Surplice of Saint Istalela",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Manual of Saint Griselda",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Righteous Rage",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.sis.dt.hallowedMartyrs",
                             "selectedOption": {
                                 "name": ""
@@ -196,20 +546,20 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Saintly Example",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Blade of Saint Ellynor",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Litanies of Faith",
+                                    "name": "Chaplet of Sacrifice",
                                     "points": 25
                                 },
                                 {
                                     "name": "Mantle of Ophelia",
-                                    "points": 30
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Saintly Example",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Through Suffering, Strength",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -240,15 +590,15 @@
             ]
         },
         {
-            "id": "w40k.10e.sis.unit.missionary",
+            "id": "w40k.10e.sis.unit.ministorumPriest",
             "type": "unit",
             "rulesetId": "w40k.10e.sis",
-            "name": "Missionary",
+            "name": "Ministorum Priest",
             "role": "CHARACTER",
             "models": [
                 {
-                    "name": "Missionary",
-                    "points": 30,
+                    "name": "Ministorum Priest",
+                    "points": 50,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -260,17 +610,101 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Power Weapon"
+                                "name": "Zealot's Vindicator"
                             },
                             "options": [
                                 {
-                                    "name": "Power Weapon"
+                                    "name": "Zealot's Vindicator"
                                 },
                                 {
-                                    "name": "Autogun, Chainsword"
+                                    "name": "Holy Pistol, Power Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.armyOfFaith",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
                                 },
                                 {
-                                    "name": "Ministorum Shotgun, Chainsword"
+                                    "name": "Blade of Saint Ellynor",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Divine Aspect",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Litanies of Faith",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Triptych of the Macharian Crusade",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.penitentHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Catechism of Divine Penitence",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Psalm of Righteous Judgement",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Refrain of Enduring Faith",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Verse of Holy Piety",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.bringersOfFlame",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fire and Fury",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Iron Surplice of Saint Istalela",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Manual of Saint Griselda",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Righteous Rage",
+                                    "points": 30
                                 }
                             ]
                         },
@@ -286,20 +720,20 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Saintly Example",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Blade of Saint Ellynor",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Litanies of Faith",
+                                    "name": "Chaplet of Sacrifice",
                                     "points": 25
                                 },
                                 {
                                     "name": "Mantle of Ophelia",
-                                    "points": 30
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Saintly Example",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Through Suffering, Strength",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -317,7 +751,7 @@
                 {
                     "name": "Saint Celestine, Geminae Superior",
                     "amount": 3,
-                    "cost": 135
+                    "cost": 160
                 }
             ],
             "models": [
@@ -350,7 +784,7 @@
             "models": [
                 {
                     "name": "Triumph of Saint Katherine",
-                    "points": 140,
+                    "points": 190,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -373,7 +807,7 @@
                 {
                     "name": "Ephrael Stern, Kyganil of the Bloody Tears",
                     "amount": 2,
-                    "cost": 70
+                    "cost": 85
                 }
             ],
             "models": [
@@ -413,7 +847,7 @@
                 {
                     "name": "Battle Sister, Sister Superior",
                     "amount": 10,
-                    "cost": 100
+                    "cost": 115
                 }
             ],
             "restrictions": [
@@ -534,7 +968,7 @@
                 {
                     "name": "Sisters Novitiate, Novitiate Superior",
                     "amount": 10,
-                    "cost": 85
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -614,7 +1048,7 @@
                 {
                     "name": "Aestred Thurga, Agathae Dolan",
                     "amount": 2,
-                    "cost": 55
+                    "cost": 85
                 }
             ],
             "models": [
@@ -653,7 +1087,7 @@
             "models": [
                 {
                     "name": "Imagifier",
-                    "points": 35,
+                    "points": 65,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -661,6 +1095,93 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.armyOfFaith",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blade of Saint Ellynor",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Divine Aspect",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Litanies of Faith",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Triptych of the Macharian Crusade",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.penitentHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Catechism of Divine Penitence",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Psalm of Righteous Judgement",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Refrain of Enduring Faith",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Verse of Holy Piety",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.bringersOfFlame",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fire and Fury",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Iron Surplice of Saint Istalela",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Manual of Saint Griselda",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Righteous Rage",
+                                    "points": 30
+                                }
+                            ]
                         },
                         {
                             "type": "dropdown",
@@ -674,20 +1195,20 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Saintly Example",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Blade of Saint Ellynor",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Litanies of Faith",
+                                    "name": "Chaplet of Sacrifice",
                                     "points": 25
                                 },
                                 {
                                     "name": "Mantle of Ophelia",
-                                    "points": 30
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Saintly Example",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Through Suffering, Strength",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -716,7 +1237,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.sis.dt.hallowedMartyrs",
+                            "detachmentId": "w40k.10e.sis.dt.armyOfFaith",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -725,56 +1246,78 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Saintly Example",
-                                    "points": 10
+                                    "name": "Blade of Saint Ellynor",
+                                    "points": 15
                                 },
                                 {
-                                    "name": "Blade of Saint Ellynor",
+                                    "name": "Divine Aspect",
                                     "points": 25
                                 },
                                 {
                                     "name": "Litanies of Faith",
-                                    "points": 25
+                                    "points": 10
                                 },
                                 {
-                                    "name": "Mantle of Ophelia",
+                                    "name": "Triptych of the Macharian Crusade",
                                     "points": 30
                                 }
                             ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.sis.unit.preacher",
-            "type": "unit",
-            "rulesetId": "w40k.10e.sis",
-            "name": "Preacher",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Preacher",
-                    "points": 40,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
                         },
                         {
                             "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.penitentHost",
                             "selectedOption": {
-                                "name": "Bolt Pistol"
+                                "name": ""
                             },
                             "options": [
                                 {
-                                    "name": "Bolt Pistol"
+                                    "name": ""
                                 },
                                 {
-                                    "name": "Plasma Pistol"
+                                    "name": "Catechism of Divine Penitence",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Psalm of Righteous Judgement",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Refrain of Enduring Faith",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Verse of Holy Piety",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.bringersOfFlame",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fire and Fury",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Iron Surplice of Saint Istalela",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Manual of Saint Griselda",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Righteous Rage",
+                                    "points": 30
                                 }
                             ]
                         },
@@ -790,20 +1333,20 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Saintly Example",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Blade of Saint Ellynor",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Litanies of Faith",
+                                    "name": "Chaplet of Sacrifice",
                                     "points": 25
                                 },
                                 {
                                     "name": "Mantle of Ophelia",
-                                    "points": 30
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Saintly Example",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Through Suffering, Strength",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -821,12 +1364,12 @@
                 {
                     "name": "Celestian Sacresant, Sacresant Superior",
                     "amount": 10,
-                    "cost": 120
+                    "cost": 150
                 },
                 {
                     "name": "Celestian Sacresant, Sacresant Superior",
                     "amount": 5,
-                    "cost": 60
+                    "cost": 75
                 }
             ],
             "restrictions": [
@@ -922,7 +1465,7 @@
             "models": [
                 {
                     "name": "Hospitaler",
-                    "points": 35,
+                    "points": 50,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -930,6 +1473,93 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.armyOfFaith",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blade of Saint Ellynor",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Divine Aspect",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Litanies of Faith",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Triptych of the Macharian Crusade",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.penitentHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Catechism of Divine Penitence",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Psalm of Righteous Judgement",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Refrain of Enduring Faith",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Verse of Holy Piety",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.bringersOfFlame",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fire and Fury",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Iron Surplice of Saint Istalela",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Manual of Saint Griselda",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Righteous Rage",
+                                    "points": 30
+                                }
+                            ]
                         },
                         {
                             "type": "dropdown",
@@ -943,20 +1573,20 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Saintly Example",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Blade of Saint Ellynor",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Litanies of Faith",
+                                    "name": "Chaplet of Sacrifice",
                                     "points": 25
                                 },
                                 {
                                     "name": "Mantle of Ophelia",
-                                    "points": 30
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Saintly Example",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Through Suffering, Strength",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -985,6 +1615,93 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.armyOfFaith",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blade of Saint Ellynor",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Divine Aspect",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Litanies of Faith",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Triptych of the Macharian Crusade",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.penitentHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Catechism of Divine Penitence",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Psalm of Righteous Judgement",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Refrain of Enduring Faith",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Verse of Holy Piety",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.bringersOfFlame",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fire and Fury",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Iron Surplice of Saint Istalela",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Manual of Saint Griselda",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Righteous Rage",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.sis.dt.hallowedMartyrs",
                             "selectedOption": {
                                 "name": ""
@@ -994,20 +1711,20 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Saintly Example",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Blade of Saint Ellynor",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Litanies of Faith",
+                                    "name": "Chaplet of Sacrifice",
                                     "points": 25
                                 },
                                 {
                                     "name": "Mantle of Ophelia",
-                                    "points": 30
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Saintly Example",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Through Suffering, Strength",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -1025,7 +1742,7 @@
                 {
                     "name": "Paragon, Paragon Superior",
                     "amount": 3,
-                    "cost": 170
+                    "cost": 210
                 }
             ],
             "restrictions": [
@@ -1155,12 +1872,12 @@
                 {
                     "name": "Sister Repentia, Repentia Superior",
                     "amount": 10,
-                    "cost": 110
+                    "cost": 180
                 },
                 {
                     "name": "Sister Repentia, Repentia Superior",
                     "amount": 5,
-                    "cost": 55
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -1187,80 +1904,6 @@
             ]
         },
         {
-            "id": "w40k.10e.sis.unit.crusaders",
-            "type": "unit",
-            "rulesetId": "w40k.10e.sis",
-            "name": "Crusaders",
-            "role": "INFANTRY",
-            "points": [
-                {
-                    "name": "Crusader",
-                    "amount": 6,
-                    "cost": 75
-                },
-                {
-                    "name": "Crusader",
-                    "amount": 4,
-                    "cost": 50
-                },
-                {
-                    "name": "Crusader",
-                    "amount": 2,
-                    "cost": 35
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Crusader",
-                    "min": 2,
-                    "max": 6
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Crusader"
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.sis.unit.deathCultAssassins",
-            "type": "unit",
-            "rulesetId": "w40k.10e.sis",
-            "name": "Death Cult Assassins",
-            "role": "INFANTRY",
-            "points": [
-                {
-                    "name": "Death Cult Assassin",
-                    "amount": 6,
-                    "cost": 105
-                },
-                {
-                    "name": "Death Cult Assassin",
-                    "amount": 4,
-                    "cost": 70
-                },
-                {
-                    "name": "Death Cult Assassin",
-                    "amount": 2,
-                    "cost": 45
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Death Cult Assassin",
-                    "min": 2,
-                    "max": 6
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Death Cult Assassin"
-                }
-            ]
-        },
-        {
             "id": "w40k.10e.sis.unit.dominionSquad",
             "type": "unit",
             "rulesetId": "w40k.10e.sis",
@@ -1270,7 +1913,7 @@
                 {
                     "name": "Dominion, Dominion Superior",
                     "amount": 10,
-                    "cost": 110
+                    "cost": 115
                 }
             ],
             "restrictions": [
@@ -1379,12 +2022,12 @@
                 {
                     "name": "Seraphim, Seraphim Superior",
                     "amount": 10,
-                    "cost": 140
+                    "cost": 170
                 },
                 {
                     "name": "Seraphim, Seraphim Superior",
                     "amount": 5,
-                    "cost": 70
+                    "cost": 85
                 }
             ],
             "restrictions": [
@@ -1467,12 +2110,12 @@
                 {
                     "name": "Zephyrim, Zephyrim Superior",
                     "amount": 10,
-                    "cost": 120
+                    "cost": 180
                 },
                 {
                     "name": "Zephyrim, Zephyrim Superior",
                     "amount": 5,
-                    "cost": 60
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -1551,7 +2194,7 @@
                 {
                     "name": "Retributor, Retributor Superior",
                     "amount": 5,
-                    "cost": 105
+                    "cost": 125
                 }
             ],
             "restrictions": [
@@ -1654,12 +2297,12 @@
                 {
                     "name": "Mortifier",
                     "amount": 2,
-                    "cost": 110
+                    "cost": 140
                 },
                 {
                     "name": "Mortifier",
                     "amount": 1,
-                    "cost": 55
+                    "cost": 70
                 }
             ],
             "restrictions": [
@@ -1729,12 +2372,12 @@
                 {
                     "name": "Penitent Engine",
                     "amount": 2,
-                    "cost": 110
+                    "cost": 150
                 },
                 {
                     "name": "Penitent Engine",
                     "amount": 1,
-                    "cost": 55
+                    "cost": 75
                 }
             ],
             "restrictions": [
@@ -1779,7 +2422,7 @@
             "models": [
                 {
                     "name": "Exorcist",
-                    "points": 180,
+                    "points": 190,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1815,7 +2458,7 @@
             "models": [
                 {
                     "name": "Castigator",
-                    "points": 140,
+                    "points": 150,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1920,12 +2563,12 @@
                 {
                     "name": "Arco-Flagellant",
                     "amount": 10,
-                    "cost": 160
+                    "cost": 150
                 },
                 {
                     "name": "Arco-Flagellant",
                     "amount": 3,
-                    "cost": 50
+                    "cost": 45
                 }
             ],
             "restrictions": [

@@ -1992,7 +1992,7 @@
                 {
                     "name": "Kasrkin Trooper, Kasrkin Sergeant",
                     "amount": 10,
-                    "cost": 120
+                    "cost": 110
                 }
             ],
             "restrictions": [
@@ -2695,17 +2695,17 @@
                 {
                     "name": "Armoured Sentinel",
                     "amount": 3,
-                    "cost": 210
+                    "cost": 195
                 },
                 {
                     "name": "Armoured Sentinel",
                     "amount": 2,
-                    "cost": 140
+                    "cost": 130
                 },
                 {
                     "name": "Armoured Sentinel",
                     "amount": 1,
-                    "cost": 70
+                    "cost": 65
                 }
             ],
             "restrictions": [
@@ -2829,7 +2829,7 @@
             "models": [
                 {
                     "name": "Rogal Dorn Battle Tank",
-                    "points": 260,
+                    "points": 240,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2965,7 +2965,7 @@
                 {
                     "name": "Ordnance Team",
                     "amount": 2,
-                    "cost": 120
+                    "cost": 110
                 }
             ],
             "models": [
@@ -3619,7 +3619,7 @@
             "models": [
                 {
                     "name": "Basilisk",
-                    "points": 150,
+                    "points": 140,
                     "gearset": [
                         {
                             "type": "text",
@@ -3703,7 +3703,7 @@
             "models": [
                 {
                     "name": "Manticore",
-                    "points": 190,
+                    "points": 175,
                     "gearset": [
                         {
                             "type": "text",
@@ -3787,7 +3787,7 @@
             "models": [
                 {
                     "name": "deathstrike",
-                    "points": 160,
+                    "points": 145,
                     "gearset": [
                         {
                             "type": "text",

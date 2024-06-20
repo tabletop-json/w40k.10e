@@ -222,7 +222,7 @@
                                 },
                                 {
                                     "name": "Neuronode",
-                                    "points": 30
+                                    "points": 20
                                 },
                                 {
                                     "name": "Hunting Grounds",
@@ -455,7 +455,7 @@
                                 },
                                 {
                                     "name": "Neuronode",
-                                    "points": 30
+                                    "points": 20
                                 },
                                 {
                                     "name": "Hunting Grounds",
@@ -673,7 +673,7 @@
                                 },
                                 {
                                     "name": "Neuronode",
-                                    "points": 30
+                                    "points": 20
                                 },
                                 {
                                     "name": "Hunting Grounds",
@@ -869,7 +869,7 @@
                                 },
                                 {
                                     "name": "Neuronode",
-                                    "points": 30
+                                    "points": 20
                                 },
                                 {
                                     "name": "Hunting Grounds",
@@ -919,7 +919,7 @@
             "models": [
                 {
                     "name": "Tervigon",
-                    "points": 190,
+                    "points": 175,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1079,7 +1079,7 @@
                                 },
                                 {
                                     "name": "Neuronode",
-                                    "points": 30
+                                    "points": 20
                                 },
                                 {
                                     "name": "Hunting Grounds",
@@ -1617,7 +1617,7 @@
                                 },
                                 {
                                     "name": "Neuronode",
-                                    "points": 30
+                                    "points": 20
                                 },
                                 {
                                     "name": "Hunting Grounds",
@@ -1992,7 +1992,7 @@
                 {
                     "name": "Ripper Swarm",
                     "amount": 3,
-                    "cost": 60
+                    "cost": 50
                 },
                 {
                     "name": "Ripper Swarm",
@@ -2002,7 +2002,7 @@
                 {
                     "name": "Ripper Swarm",
                     "amount": 1,
-                    "cost": 20
+                    "cost": 25
                 }
             ],
             "restrictions": [
@@ -2183,7 +2183,7 @@
                                 },
                                 {
                                     "name": "Neuronode",
-                                    "points": 30
+                                    "points": 20
                                 },
                                 {
                                     "name": "Hunting Grounds",
@@ -2260,12 +2260,12 @@
                 {
                     "name": "Mucolid Spore",
                     "amount": 2,
-                    "cost": 100
+                    "cost": 60
                 },
                 {
                     "name": "Mucolid Spore",
                     "amount": 1,
-                    "cost": 50
+                    "cost": 30
                 }
             ],
             "restrictions": [
@@ -2337,17 +2337,17 @@
                 {
                     "name": "Biovore",
                     "amount": 3,
-                    "cost": 225
-                },
-                {
-                    "name": "Biovore",
-                    "amount": 2,
                     "cost": 150
                 },
                 {
                     "name": "Biovore",
+                    "amount": 2,
+                    "cost": 100
+                },
+                {
+                    "name": "Biovore",
                     "amount": 1,
-                    "cost": 75
+                    "cost": 50
                 }
             ],
             "restrictions": [
@@ -2699,7 +2699,7 @@
             "models": [
                 {
                     "name": "Neurolictor",
-                    "points": 80
+                    "points": 90
                 }
             ]
         },

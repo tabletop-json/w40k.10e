@@ -850,7 +850,7 @@
             "models": [
                 {
                     "name": "Noxious Blightbringer",
-                    "points": 50,
+                    "points": 45,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -901,7 +901,7 @@
             "models": [
                 {
                     "name": "Foul Blightspawn",
-                    "points": 50,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -952,7 +952,7 @@
             "models": [
                 {
                     "name": "Biologus Putrifier",
-                    "points": 50,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1054,7 +1054,7 @@
             "models": [
                 {
                     "name": "Plague Surgeon",
-                    "points": 65,
+                    "points": 50,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1106,12 +1106,12 @@
                 {
                     "name": "Blightlord Terminator, Blightlord Champion",
                     "amount": 10,
-                    "cost": 330
+                    "cost": 310
                 },
                 {
                     "name": "Blightlord Terminator, Blightlord Champion",
                     "amount": 5,
-                    "cost": 165
+                    "cost": 155
                 }
             ],
             "restrictions": [
@@ -1350,17 +1350,17 @@
                 {
                     "name": "Myphitic Blight-hauler",
                     "amount": 3,
-                    "cost": 300
+                    "cost": 270
                 },
                 {
                     "name": "Myphitic Blight-hauler",
                     "amount": 2,
-                    "cost": 200
+                    "cost": 180
                 },
                 {
                     "name": "Myphitic Blight-hauler",
                     "amount": 1,
-                    "cost": 100
+                    "cost": 90
                 }
             ],
             "restrictions": [

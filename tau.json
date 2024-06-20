@@ -88,7 +88,7 @@
             "models": [
                 {
                     "name": "Commander in Enforcer Battlesuit",
-                    "points": 90,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -427,7 +427,7 @@
             "models": [
                 {
                     "name": "Commander in Coldstar Battlesuit",
-                    "points": 110,
+                    "points": 95,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1735,7 +1735,7 @@
                 {
                     "name": "Fire Warrior, Fire Warrior Shas'ui",
                     "amount": 10,
-                    "cost": 80
+                    "cost": 75
                 }
             ],
             "restrictions": [
@@ -2077,7 +2077,7 @@
                 {
                     "name": "Crisis Fireknife Shas'ui, Crisis Fireknife Shas'vre",
                     "amount": 3,
-                    "cost": 150
+                    "cost": 130
                 }
             ],
             "restrictions": [
@@ -2253,7 +2253,7 @@
                 {
                     "name": "Crisis Starscythe Shas'ui, Crisis Starscythe Shas'vre",
                     "amount": 3,
-                    "cost": 130
+                    "cost": 110
                 }
             ],
             "restrictions": [
@@ -2429,7 +2429,7 @@
                 {
                     "name": "Crisis Sunforge Shas'ui, Crisis Sunforge Shas'vre",
                     "amount": 3,
-                    "cost": 170
+                    "cost": 150
                 }
             ],
             "restrictions": [
@@ -3174,17 +3174,17 @@
                 {
                     "name": "Broadside Shas'ui, Broadside Shas'vre",
                     "amount": 3,
-                    "cost": 330
+                    "cost": 300
                 },
                 {
                     "name": "Broadside Shas'ui, Broadside Shas'vre",
                     "amount": 2,
-                    "cost": 220
+                    "cost": 200
                 },
                 {
                     "name": "Broadside Shas'vre",
                     "amount": 1,
-                    "cost": 110
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -3498,7 +3498,7 @@
             "models": [
                 {
                     "name": "Hammerhead Gunship",
-                    "points": 130,
+                    "points": 145,
                     "gearset": [
                         {
                             "type": "dropdown",

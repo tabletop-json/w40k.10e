@@ -52,7 +52,7 @@
             "models": [
                 {
                     "name": "Bloodthirster",
-                    "points": 320,
+                    "points": 305,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -391,7 +391,7 @@
             "models": [
                 {
                     "name": "Skull Cannon",
-                    "points": 105
+                    "points": 95
                 }
             ]
         },
@@ -510,7 +510,7 @@
             "models": [
                 {
                     "name": "Fateskimmer",
-                    "points": 105,
+                    "points": 95,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1072,12 +1072,12 @@
                 {
                     "name": "Nurgling Swarm",
                     "amount": 9,
-                    "cost": 120
+                    "cost": 105
                 },
                 {
                     "name": "Nurgling Swarm",
                     "amount": 6,
-                    "cost": 80
+                    "cost": 70
                 },
                 {
                     "name": "Nurgling Swarm",
@@ -1141,12 +1141,12 @@
                 {
                     "name": "Plague Drone, Plaguebringer",
                     "amount": 6,
-                    "cost": 240
+                    "cost": 220
                 },
                 {
                     "name": "Plague Drone, Plaguebringer",
                     "amount": 3,
-                    "cost": 120
+                    "cost": 110
                 }
             ],
             "restrictions": [
@@ -1457,7 +1457,7 @@
                 {
                     "name": "Daemonette, Alluress",
                     "amount": 10,
-                    "cost": 110
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -1509,12 +1509,12 @@
                 {
                     "name": "Fiend, Blissbringer",
                     "amount": 6,
-                    "cost": 240
+                    "cost": 210
                 },
                 {
                     "name": "Fiend, Blissbringer",
                     "amount": 3,
-                    "cost": 120
+                    "cost": 105
                 }
             ],
             "restrictions": [
@@ -1683,7 +1683,7 @@
             "models": [
                 {
                     "name": "Be'lakor",
-                    "points": 350,
+                    "points": 325,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1705,7 +1705,7 @@
             "models": [
                 {
                     "name": "Soul Grinder",
-                    "points": 190,
+                    "points": 180,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1757,7 +1757,7 @@
             "models": [
                 {
                     "name": "Daemon Prince",
-                    "points": 200,
+                    "points": 190,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1831,7 +1831,7 @@
             "models": [
                 {
                     "name": "Daemon Prince with Wings",
-                    "points": 195,
+                    "points": 180,
                     "gearset": [
                         {
                             "type": "checkbox",
