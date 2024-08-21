@@ -241,7 +241,7 @@
             "models": [
                 {
                     "name": "Eversor Assassin",
-                    "points": 120
+                    "points": 110
                 }
             ]
         },
@@ -366,7 +366,7 @@
                 {
                     "name": "Brotherhood Terminator, Terminator Justicar",
                     "amount": 5,
-                    "cost": 210
+                    "cost": 190
                 }
             ],
             "restrictions": [
@@ -748,7 +748,7 @@
             "models": [
                 {
                     "name": "Inquisitor Coteaz",
-                    "points": 95,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -770,7 +770,7 @@
             "models": [
                 {
                     "name": "Inquisitor Kyria Draxus",
-                    "points": 95,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -815,12 +815,12 @@
                 {
                     "name": "Inquisitorial Agent, Gun Servitor",
                     "amount": 12,
-                    "cost": 120
+                    "cost": 100
                 },
                 {
                     "name": "Inquisitorial Agent, Gun Servitor",
                     "amount": 6,
-                    "cost": 60
+                    "cost": 50
                 }
             ],
             "restrictions": [
@@ -1135,7 +1135,7 @@
             "models": [
                 {
                     "name": "Navigator",
-                    "points": 75,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1274,7 +1274,7 @@
                 {
                     "name": "Rogue Trader, Death Cult Assassin, Lectro-Maester, Rejuvenat Adept",
                     "amount": 4,
-                    "cost": 105
+                    "cost": 75
                 }
             ],
             "models": [
@@ -1426,7 +1426,7 @@
             "models": [
                 {
                     "name": "Immolator",
-                    "points": 115,
+                    "points": 100,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1466,7 +1466,7 @@
                 {
                     "name": "Battle Sister, Sister Superior",
                     "amount": 10,
-                    "cost": 115
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -1725,7 +1725,7 @@
             "models": [
                 {
                     "name": "Vindicare Assassin",
-                    "points": 150
+                    "points": 110
                 }
             ]
         },
@@ -1739,7 +1739,7 @@
                 {
                     "name": "Canid, Voidsman, Voidmaster",
                     "amount": 6,
-                    "cost": 70
+                    "cost": 50
                 }
             ],
             "restrictions": [
@@ -1791,122 +1791,6 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.agt.dt.daemonHunters",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Daemon Slayer",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Formidable Resolve",
-                                    "points": 5
-                                },
-                                {
-                                    "name": "Gift of the Prescient",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Grimoire of True Names",
-                                    "points": 10
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.agt.dt.imperialisFleet",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Clandestine Operation",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Combat Landers",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Digital Weapons",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Fleetmaster",
-                                    "points": 20
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.agt.dt.purgationForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Ignis Judicium",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Liber Heresius",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "No Escape",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Witch Hunter",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.agt.dt.alienHunters",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Amulet of Auto-chastisement",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Beacon Angelis",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Blackweave Shroud",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Universal Anathema",
-                                    "points": 10
-                                }
-                            ]
                         }
                     ]
                 }
