@@ -1,7 +1,7 @@
 {
     "id": "w40k.10e",
-    "version": "0.7.5",
-    "updateNotes": "02/07/2024 Codex: Imperial Agents points",
+    "version": "0.8.0",
+    "updateNotes": "02/07/2024 Codex: Imperial Agents and Allies",
     "name": "Warhammer 40,000: 10th Edition",
     "enabled": true,
     "path": "https://raw.githubusercontent.com/tabletop-json/w40k.10e/develop/",
@@ -28,7 +28,7 @@
             "enabled": true,
             "endpoint": "imperialKnights.json",
             "allies": [
-                "w40k.10e.agt",
+                "w40k.10e.agtAllies",
                 "w40k.10e.tit"
             ]
         },
@@ -91,7 +91,7 @@
             "enabled": true,
             "endpoint": "custodes.json",
             "allies": [
-                "w40k.10e.agt",
+                "w40k.10e.agtAllies",
                 "w40k.10e.ik",
                 "w40k.10e.tit"
             ]
@@ -114,7 +114,7 @@
             "enabled": true,
             "endpoint": "greyKnights.json",
             "allies": [
-                "w40k.10e.agt",
+                "w40k.10e.agtAllies",
                 "w40k.10e.ik",
                 "w40k.10e.tit"
             ]
@@ -179,7 +179,7 @@
             "enabled": true,
             "endpoint": "astraMilitarum.json",
             "allies": [
-                "w40k.10e.agt",
+                "w40k.10e.agtAllies",
                 "w40k.10e.ik",
                 "w40k.10e.tit"
             ]
@@ -193,7 +193,7 @@
             "enabled": true,
             "endpoint": "adeptusMechanicus.json",
             "allies": [
-                "w40k.10e.agt",
+                "w40k.10e.agtAllies",
                 "w40k.10e.ik",
                 "w40k.10e.tit"
             ]
@@ -207,7 +207,7 @@
             "enabled": true,
             "endpoint": "spaceMarines.json",
             "allies": [
-                "w40k.10e.agt",
+                "w40k.10e.agtAllies",
                 "w40k.10e.ik",
                 "w40k.10e.tit"
             ]
@@ -221,7 +221,7 @@
             "enabled": true,
             "endpoint": "blackTemplars.json",
             "allies": [
-                "w40k.10e.agt",
+                "w40k.10e.agtAllies",
                 "w40k.10e.ik",
                 "w40k.10e.tit"
             ]
@@ -235,7 +235,7 @@
             "enabled": true,
             "endpoint": "bloodAngels.json",
             "allies": [
-                "w40k.10e.agt",
+                "w40k.10e.agtAllies",
                 "w40k.10e.ik",
                 "w40k.10e.tit"
             ]
@@ -249,7 +249,7 @@
             "enabled": true,
             "endpoint": "darkAngels.json",
             "allies": [
-                "w40k.10e.agt",
+                "w40k.10e.agtAllies",
                 "w40k.10e.ik",
                 "w40k.10e.tit"
             ]
@@ -263,7 +263,7 @@
             "enabled": true,
             "endpoint": "imperialFists.json",
             "allies": [
-                "w40k.10e.agt",
+                "w40k.10e.agtAllies",
                 "w40k.10e.ik",
                 "w40k.10e.tit"
             ]
@@ -277,7 +277,7 @@
             "enabled": true,
             "endpoint": "ironHands.json",
             "allies": [
-                "w40k.10e.agt",
+                "w40k.10e.agtAllies",
                 "w40k.10e.ik",
                 "w40k.10e.tit"
             ]
@@ -291,7 +291,7 @@
             "enabled": true,
             "endpoint": "ravenGuard.json",
             "allies": [
-                "w40k.10e.agt",
+                "w40k.10e.agtAllies",
                 "w40k.10e.ik",
                 "w40k.10e.tit"
             ]
@@ -305,7 +305,7 @@
             "enabled": true,
             "endpoint": "salamanders.json",
             "allies": [
-                "w40k.10e.agt",
+                "w40k.10e.agtAllies",
                 "w40k.10e.ik",
                 "w40k.10e.tit"
             ]
@@ -319,7 +319,7 @@
             "enabled": true,
             "endpoint": "spaceWolves.json",
             "allies": [
-                "w40k.10e.agt",
+                "w40k.10e.agtAllies",
                 "w40k.10e.ik",
                 "w40k.10e.tit"
             ]
@@ -333,7 +333,7 @@
             "enabled": true,
             "endpoint": "ultramarines.json",
             "allies": [
-                "w40k.10e.agt",
+                "w40k.10e.agtAllies",
                 "w40k.10e.ik",
                 "w40k.10e.tit"
             ]
@@ -347,7 +347,7 @@
             "enabled": true,
             "endpoint": "whiteScars.json",
             "allies": [
-                "w40k.10e.agt",
+                "w40k.10e.agtAllies",
                 "w40k.10e.ik",
                 "w40k.10e.tit"
             ]
@@ -361,7 +361,7 @@
             "enabled": true,
             "endpoint": "titans.json",
             "allies": [
-                "w40k.10e.agt",
+                "w40k.10e.agtAllies",
                 "w40k.10e.ik"
             ]
         },
@@ -374,7 +374,7 @@
             "enabled": true,
             "endpoint": "sisters.json",
             "allies": [
-                "w40k.10e.agt",
+                "w40k.10e.agtAllies",
                 "w40k.10e.ik",
                 "w40k.10e.tit"
             ]
