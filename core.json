@@ -1,7 +1,7 @@
 {
     "id": "w40k.10e",
-    "version": "0.7.3",
-    "updateNotes": "02/07/2024 Sisters enhancements fixes",
+    "version": "0.7.4",
+    "updateNotes": "02/07/2024 Codex: Imperial Agents",
     "name": "Warhammer 40,000: 10th Edition",
     "enabled": true,
     "path": "https://raw.githubusercontent.com/tabletop-json/w40k.10e/master/",
@@ -255,20 +255,6 @@
             ]
         },
         {
-            "id": "w40k.10e.dw.config",
-            "type": "config",
-            "rulesetId": "w40k.10e.dw",
-            "name": "Deathwatch",
-            "keyword": "DEATHWATCH",
-            "enabled": true,
-            "endpoint": "deathwatch.json",
-            "allies": [
-                "w40k.10e.agt",
-                "w40k.10e.ik",
-                "w40k.10e.tit"
-            ]
-        },
-        {
             "id": "w40k.10e.if.config",
             "type": "config",
             "rulesetId": "w40k.10e.if",
@@ -452,8 +438,16 @@
             "type": "config",
             "rulesetId": "w40k.10e.agt",
             "name": "Agents of the Imperium",
-            "enabled": false,
+            "enabled": true,
             "endpoint": "agentsImperium.json"
+        },
+        {
+            "id": "w40k.10e.agtAllies.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.agtAllies",
+            "name": "Agents of the Imperium",
+            "enabled": false,
+            "endpoint": "agentsImperiumAllies.json"
         }
     ]
 }

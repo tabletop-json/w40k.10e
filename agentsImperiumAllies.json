@@ -1,48 +1,17 @@
 {
     "config": {
-        "id": "w40k.10e.agt.config",
+        "id": "w40k.10e.agtAllies.config",
         "type": "config",
-        "rulesetId": "w40k.10e.agt",
+        "rulesetId": "w40k.10e.agtAllies",
         "name": "Agents of the Imperium",
-        "keyword": "AGENTS OF THE IMPERIUM",
-        "enabled": true,
-        "endpoint": "agentsImperium.json"
+        "enabled": false,
+        "endpoint": "agentsImperiumAllies.json"
     },
-    "detachments": [
-        {
-            "id": "w40k.10e.agt.dt.daemonHunters",
-            "type": "detachment",
-            "rulesetId": "w40k.10e.agt",
-            "name": "Daemon Hunters",
-            "rule": ""
-        },
-        {
-            "id": "w40k.10e.agt.dt.imperialisFleet",
-            "type": "detachment",
-            "rulesetId": "w40k.10e.agt",
-            "name": "Imperialis Fleet",
-            "rule": ""
-        },
-        {
-            "id": "w40k.10e.agt.dt.purgationForce",
-            "type": "detachment",
-            "rulesetId": "w40k.10e.agt",
-            "name": "Purgation Force",
-            "rule": ""
-        },
-        {
-            "id": "w40k.10e.agt.dt.alienHunters",
-            "type": "detachment",
-            "rulesetId": "w40k.10e.agt",
-            "name": "Alien Hunters",
-            "rule": ""
-        }
-    ],
     "units": [
         {
-            "id": "w40k.10e.agt.unit.callidus",
+            "id": "w40k.10e.agtAllies.unit.callidus",
             "type": "unit",
-            "rulesetId": "w40k.10e.agt",
+            "rulesetId": "w40k.10e.agtAllies",
             "name": "Callidus Assassin",
             "role": "CHARACTER",
             "models": [
@@ -53,9 +22,9 @@
             ]
         },
         {
-            "id": "w40k.10e.agt.unit.corvusBlackstar",
+            "id": "w40k.10e.agtAllies.unit.corvusBlackstar",
             "type": "unit",
-            "rulesetId": "w40k.10e.agt",
+            "rulesetId": "w40k.10e.agtAllies",
             "name": "Corvus Blackstar",
             "role": "VEHICLE",
             "models": [
@@ -120,9 +89,9 @@
             ]
         },
         {
-            "id": "w40k.10e.agt.unit.culexus",
+            "id": "w40k.10e.agtAllies.unit.culexus",
             "type": "unit",
-            "rulesetId": "w40k.10e.agt",
+            "rulesetId": "w40k.10e.agtAllies",
             "name": "Culexus Assassin",
             "role": "CHARACTER",
             "models": [
@@ -133,9 +102,9 @@
             ]
         },
         {
-            "id": "w40k.10e.agt.unit.deathwatchKillTeam",
+            "id": "w40k.10e.agtAllies.unit.deathwatchKillTeam",
             "type": "unit",
-            "rulesetId": "w40k.10e.agt",
+            "rulesetId": "w40k.10e.agtAllies",
             "name": "Deathwatch Kill Team",
             "role": "BATTLELINE",
             "points": [
@@ -233,9 +202,9 @@
             ]
         },
         {
-            "id": "w40k.10e.agt.unit.eversor",
+            "id": "w40k.10e.agtAllies.unit.eversor",
             "type": "unit",
-            "rulesetId": "w40k.10e.agt",
+            "rulesetId": "w40k.10e.agtAllies",
             "name": "Eversor Assassin",
             "role": "CHARACTER",
             "models": [
@@ -246,9 +215,9 @@
             ]
         },
         {
-            "id": "w40k.10e.agt.unit.exactionSquad",
+            "id": "w40k.10e.agtAllies.unit.exactionSquad",
             "type": "unit",
-            "rulesetId": "w40k.10e.agt",
+            "rulesetId": "w40k.10e.agtAllies",
             "name": "Exaction Squad",
             "role": "INFANTRY",
             "points": [
@@ -357,9 +326,9 @@
             ]
         },
         {
-            "id": "w40k.10e.agt.unit.greyKnightsTerminatorSquad",
+            "id": "w40k.10e.agtAllies.unit.greyKnightsTerminatorSquad",
             "type": "unit",
-            "rulesetId": "w40k.10e.agt",
+            "rulesetId": "w40k.10e.agtAllies",
             "name": "Grey Knights Terminator Squad",
             "role": "BATTLELINE",
             "points": [
@@ -445,9 +414,9 @@
             ]
         },
         {
-            "id": "w40k.10e.agt.unit.navyBreachers",
+            "id": "w40k.10e.agtAllies.unit.navyBreachers",
             "type": "unit",
-            "rulesetId": "w40k.10e.agt",
+            "rulesetId": "w40k.10e.agtAllies",
             "name": "Imperial Navy Breachers",
             "role": "INFANTRY",
             "points": [
@@ -538,9 +507,9 @@
             ]
         },
         {
-            "id": "w40k.10e.agt.unit.imperialRhino",
+            "id": "w40k.10e.agtAllies.unit.imperialRhino",
             "type": "unit",
-            "rulesetId": "w40k.10e.agt",
+            "rulesetId": "w40k.10e.agtAllies",
             "name": "Imperial Rhino",
             "role": "VEHICLE",
             "models": [
@@ -560,9 +529,9 @@
             ]
         },
         {
-            "id": "w40k.10e.agt.unit.inquisitor",
+            "id": "w40k.10e.agtAllies.unit.inquisitor",
             "type": "unit",
-            "rulesetId": "w40k.10e.agt",
+            "rulesetId": "w40k.10e.agtAllies",
             "name": "Inquisitor",
             "role": "CHARACTER",
             "models": [
@@ -618,131 +587,15 @@
                                     "name": "Force Weapon"
                                 }
                             ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.agt.dt.daemonHunters",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Daemon Slayer",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Formidable Resolve",
-                                    "points": 5
-                                },
-                                {
-                                    "name": "Gift of the Prescient",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Grimoire of True Names",
-                                    "points": 10
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.agt.dt.imperialisFleet",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Clandestine Operation",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Combat Landers",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Digital Weapons",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Fleetmaster",
-                                    "points": 20
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.agt.dt.purgationForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Ignis Judicium",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Liber Heresius",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "No Escape",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Witch Hunter",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.agt.dt.alienHunters",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Amulet of Auto-chastisement",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Beacon Angelis",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Blackweave Shroud",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Universal Anathema",
-                                    "points": 10
-                                }
-                            ]
                         }
                     ]
                 }
             ]
         },
         {
-            "id": "w40k.10e.agt.unit.inquisitorCoteaz",
+            "id": "w40k.10e.agtAllies.unit.inquisitorCoteaz",
             "type": "unit",
-            "rulesetId": "w40k.10e.agt",
+            "rulesetId": "w40k.10e.agtAllies",
             "name": "Inquisitor Coteaz",
             "role": "CHARACTER",
             "models": [
@@ -762,9 +615,9 @@
             ]
         },
         {
-            "id": "w40k.10e.agt.unit.inquisitorKyriaDraxus",
+            "id": "w40k.10e.agtAllies.unit.inquisitorKyriaDraxus",
             "type": "unit",
-            "rulesetId": "w40k.10e.agt",
+            "rulesetId": "w40k.10e.agtAllies",
             "name": "Inquisitor Kyria Draxus",
             "role": "CHARACTER",
             "models": [
@@ -784,9 +637,9 @@
             ]
         },
         {
-            "id": "w40k.10e.agt.unit.inquisitorGreyfax",
+            "id": "w40k.10e.agtAllies.unit.inquisitorGreyfax",
             "type": "unit",
-            "rulesetId": "w40k.10e.agt",
+            "rulesetId": "w40k.10e.agtAllies",
             "name": "Inquisitor Greyfax",
             "role": "CHARACTER",
             "models": [
@@ -806,9 +659,9 @@
             ]
         },
         {
-            "id": "w40k.10e.agt.unit.inquisitorialAgents",
+            "id": "w40k.10e.agtAllies.unit.inquisitorialAgents",
             "type": "unit",
-            "rulesetId": "w40k.10e.agt",
+            "rulesetId": "w40k.10e.agtAllies",
             "name": "Inquisitorial Agents",
             "role": "BATTLELINE",
             "points": [
@@ -905,9 +758,9 @@
             ]
         },
         {
-            "id": "w40k.10e.agt.unit.inquisitorialChimera",
+            "id": "w40k.10e.agtAllies.unit.inquisitorialChimera",
             "type": "unit",
-            "rulesetId": "w40k.10e.agt",
+            "rulesetId": "w40k.10e.agtAllies",
             "name": "Inquisitorial Chimera",
             "role": "VEHICLE",
             "models": [
@@ -975,9 +828,9 @@
             ]
         },
         {
-            "id": "w40k.10e.agt.unit.ministorumPriest",
+            "id": "w40k.10e.agtAllies.unit.ministorumPriest",
             "type": "unit",
-            "rulesetId": "w40k.10e.agt",
+            "rulesetId": "w40k.10e.agtAllies",
             "name": "Ministorum Priest",
             "role": "CHARACTER",
             "models": [
@@ -1005,131 +858,15 @@
                                     "name": "Holy Pistol, Power Weapon"
                                 }
                             ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.agt.dt.daemonHunters",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Daemon Slayer",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Formidable Resolve",
-                                    "points": 5
-                                },
-                                {
-                                    "name": "Gift of the Prescient",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Grimoire of True Names",
-                                    "points": 10
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.agt.dt.imperialisFleet",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Clandestine Operation",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Combat Landers",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Digital Weapons",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Fleetmaster",
-                                    "points": 20
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.agt.dt.purgationForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Ignis Judicium",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Liber Heresius",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "No Escape",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Witch Hunter",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.agt.dt.alienHunters",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Amulet of Auto-chastisement",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Beacon Angelis",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Blackweave Shroud",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Universal Anathema",
-                                    "points": 10
-                                }
-                            ]
                         }
                     ]
                 }
             ]
         },
         {
-            "id": "w40k.10e.agt.unit.navigator",
+            "id": "w40k.10e.agtAllies.unit.navigator",
             "type": "unit",
-            "rulesetId": "w40k.10e.agt",
+            "rulesetId": "w40k.10e.agtAllies",
             "name": "Navigator",
             "role": "CHARACTER",
             "models": [
@@ -1143,131 +880,15 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.agt.dt.daemonHunters",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Daemon Slayer",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Formidable Resolve",
-                                    "points": 5
-                                },
-                                {
-                                    "name": "Gift of the Prescient",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Grimoire of True Names",
-                                    "points": 10
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.agt.dt.imperialisFleet",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Clandestine Operation",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Combat Landers",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Digital Weapons",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Fleetmaster",
-                                    "points": 20
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.agt.dt.purgationForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Ignis Judicium",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Liber Heresius",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "No Escape",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Witch Hunter",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.agt.dt.alienHunters",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Amulet of Auto-chastisement",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Beacon Angelis",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Blackweave Shroud",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Universal Anathema",
-                                    "points": 10
-                                }
-                            ]
                         }
                     ]
                 }
             ]
         },
         {
-            "id": "w40k.10e.agt.unit.rogueTraderEntourage",
+            "id": "w40k.10e.agtAllies.unit.rogueTraderEntourage",
             "type": "unit",
-            "rulesetId": "w40k.10e.agt",
+            "rulesetId": "w40k.10e.agtAllies",
             "name": "Rogue Trader Entourage",
             "role": "CHARACTER",
             "points": [
@@ -1287,122 +908,6 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.agt.dt.daemonHunters",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Daemon Slayer",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Formidable Resolve",
-                                    "points": 5
-                                },
-                                {
-                                    "name": "Gift of the Prescient",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Grimoire of True Names",
-                                    "points": 10
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.agt.dt.imperialisFleet",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Clandestine Operation",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Combat Landers",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Digital Weapons",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Fleetmaster",
-                                    "points": 20
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.agt.dt.purgationForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Ignis Judicium",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Liber Heresius",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "No Escape",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Witch Hunter",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.agt.dt.alienHunters",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Amulet of Auto-chastisement",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Beacon Angelis",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Blackweave Shroud",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Universal Anathema",
-                                    "points": 10
-                                }
-                            ]
                         }
                     ]
                 },
@@ -1418,9 +923,9 @@
             ]
         },
         {
-            "id": "w40k.10e.agt.unit.immolator",
+            "id": "w40k.10e.agtAllies.unit.immolator",
             "type": "unit",
-            "rulesetId": "w40k.10e.agt",
+            "rulesetId": "w40k.10e.agtAllies",
             "name": "Immolator",
             "role": "VEHICLE",
             "models": [
@@ -1457,9 +962,9 @@
             ]
         },
         {
-            "id": "w40k.10e.agt.unit.sistersBattleSquad",
+            "id": "w40k.10e.agtAllies.unit.sistersBattleSquad",
             "type": "unit",
-            "rulesetId": "w40k.10e.agt",
+            "rulesetId": "w40k.10e.agtAllies",
             "name": "Sisters of Battle Squad",
             "role": "BATTLELINE",
             "points": [
@@ -1578,9 +1083,9 @@
             ]
         },
         {
-            "id": "w40k.10e.agt.unit.subductorSquad",
+            "id": "w40k.10e.agtAllies.unit.subductorSquad",
             "type": "unit",
-            "rulesetId": "w40k.10e.agt",
+            "rulesetId": "w40k.10e.agtAllies",
             "name": "Subductor Squad",
             "role": "INFANTRY",
             "points": [
@@ -1632,9 +1137,9 @@
             ]
         },
         {
-            "id": "w40k.10e.agt.unit.vigilantSquad",
+            "id": "w40k.10e.agtAllies.unit.vigilantSquad",
             "type": "unit",
-            "rulesetId": "w40k.10e.agt",
+            "rulesetId": "w40k.10e.agtAllies",
             "name": "Vigilant Squad",
             "role": "BATTLELINE",
             "points": [
@@ -1717,9 +1222,9 @@
             ]
         },
         {
-            "id": "w40k.10e.agt.unit.vindicare",
+            "id": "w40k.10e.agtAllies.unit.vindicare",
             "type": "unit",
-            "rulesetId": "w40k.10e.agt",
+            "rulesetId": "w40k.10e.agtAllies",
             "name": "Vindicare Assassin",
             "role": "CHARACTER",
             "models": [
@@ -1730,9 +1235,9 @@
             ]
         },
         {
-            "id": "w40k.10e.agt.unit.voidsmenAtArms",
+            "id": "w40k.10e.agtAllies.unit.voidsmenAtArms",
             "type": "unit",
-            "rulesetId": "w40k.10e.agt",
+            "rulesetId": "w40k.10e.agtAllies",
             "name": "Voidsmen-at-Arms",
             "role": "BATTLELINE",
             "points": [
@@ -1775,9 +1280,9 @@
             ]
         },
         {
-            "id": "w40k.10e.agt.unit.watchCaptainArtemis",
+            "id": "w40k.10e.agtAllies.unit.watchCaptainArtemis",
             "type": "unit",
-            "rulesetId": "w40k.10e.agt",
+            "rulesetId": "w40k.10e.agtAllies",
             "name": "Watch Captain Artemis",
             "role": "INFANTRY",
             "models": [
@@ -1791,131 +1296,15 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.agt.dt.daemonHunters",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Daemon Slayer",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Formidable Resolve",
-                                    "points": 5
-                                },
-                                {
-                                    "name": "Gift of the Prescient",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Grimoire of True Names",
-                                    "points": 10
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.agt.dt.imperialisFleet",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Clandestine Operation",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Combat Landers",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Digital Weapons",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Fleetmaster",
-                                    "points": 20
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.agt.dt.purgationForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Ignis Judicium",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Liber Heresius",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "No Escape",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Witch Hunter",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.agt.dt.alienHunters",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Amulet of Auto-chastisement",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Beacon Angelis",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Blackweave Shroud",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Universal Anathema",
-                                    "points": 10
-                                }
-                            ]
                         }
                     ]
                 }
             ]
         },
         {
-            "id": "w40k.10e.agt.unit.watchMaster",
+            "id": "w40k.10e.agtAllies.unit.watchMaster",
             "type": "unit",
-            "rulesetId": "w40k.10e.agt",
+            "rulesetId": "w40k.10e.agtAllies",
             "name": "Watch Master",
             "role": "CHARACTER",
             "models": [
@@ -1929,122 +1318,6 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.agt.dt.daemonHunters",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Daemon Slayer",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Formidable Resolve",
-                                    "points": 5
-                                },
-                                {
-                                    "name": "Gift of the Prescient",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Grimoire of True Names",
-                                    "points": 10
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.agt.dt.imperialisFleet",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Clandestine Operation",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Combat Landers",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Digital Weapons",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Fleetmaster",
-                                    "points": 20
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.agt.dt.purgationForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Ignis Judicium",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Liber Heresius",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "No Escape",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Witch Hunter",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.agt.dt.alienHunters",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Amulet of Auto-chastisement",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Beacon Angelis",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Blackweave Shroud",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Universal Anathema",
-                                    "points": 10
-                                }
-                            ]
                         }
                     ]
                 }
