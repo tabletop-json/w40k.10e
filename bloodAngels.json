@@ -52,10 +52,24 @@
             "name": "Vanguard Spearhead"
         },
         {
-            "id": "w40k.10e.ba.dt.sonsSanguinius",
+            "id": "w40k.10e.ba.dt.liberatorAssaultGroup",
             "type": "detachment",
             "rulesetId": "w40k.10e.ba",
-            "name": "Sons of Sanguinius",
+            "name": "Liberator Assault Group",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.ba.dt.angelicHost",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.ba",
+            "name": "The Angelic Host",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.ba.dt.lostBrethren",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.ba",
+            "name": "The Lost Brethren",
             "rule": ""
         }
     ],
@@ -228,7 +242,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -274,7 +288,7 @@
                                 },
                                 {
                                     "name": "Feinting Withdrawal",
-                                    "points": 20
+                                    "points": 10
                                 },
                                 {
                                     "name": "Fury of the Storm",
@@ -282,7 +296,7 @@
                                 },
                                 {
                                     "name": "Hunter's Instincts",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Portents of Wisdom",
@@ -322,7 +336,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.sonsSanguinius",
+                            "detachmentId": "w40k.10e.ba.dt.liberatorAssaultGroup",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -331,19 +345,77 @@
                                     "name": ""
                                 },
                                 {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Icon of the Angel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rage-fuelled Warrior",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Speed of the Primarch",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archangel's Shard",
+                                    "points": 15
+                                },
+                                {
                                     "name": "Artisan of War",
                                     "points": 20
                                 },
                                 {
-                                    "name": "Visage of Death",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Archangel's Shard",
+                                    "name": "Gleaming Pinions",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Icon of the Angel",
+                                    "name": "Visage of Death",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.lostBrethren",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blood Shard",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinius' Grace",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "To Slay the Warmaster",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Vengeful Onslaught",
                                     "points": 10
                                 }
                             ]
@@ -529,7 +601,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -575,7 +647,7 @@
                                 },
                                 {
                                     "name": "Feinting Withdrawal",
-                                    "points": 20
+                                    "points": 10
                                 },
                                 {
                                     "name": "Fury of the Storm",
@@ -583,7 +655,7 @@
                                 },
                                 {
                                     "name": "Hunter's Instincts",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Portents of Wisdom",
@@ -623,7 +695,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.sonsSanguinius",
+                            "detachmentId": "w40k.10e.ba.dt.liberatorAssaultGroup",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -632,19 +704,77 @@
                                     "name": ""
                                 },
                                 {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Icon of the Angel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rage-fuelled Warrior",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Speed of the Primarch",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archangel's Shard",
+                                    "points": 15
+                                },
+                                {
                                     "name": "Artisan of War",
                                     "points": 20
                                 },
                                 {
-                                    "name": "Visage of Death",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Archangel's Shard",
+                                    "name": "Gleaming Pinions",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Icon of the Angel",
+                                    "name": "Visage of Death",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.lostBrethren",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blood Shard",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinius' Grace",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "To Slay the Warmaster",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Vengeful Onslaught",
                                     "points": 10
                                 }
                             ]
@@ -803,7 +933,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -849,7 +979,7 @@
                                 },
                                 {
                                     "name": "Feinting Withdrawal",
-                                    "points": 20
+                                    "points": 10
                                 },
                                 {
                                     "name": "Fury of the Storm",
@@ -857,7 +987,7 @@
                                 },
                                 {
                                     "name": "Hunter's Instincts",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Portents of Wisdom",
@@ -897,7 +1027,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.sonsSanguinius",
+                            "detachmentId": "w40k.10e.ba.dt.liberatorAssaultGroup",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -906,19 +1036,77 @@
                                     "name": ""
                                 },
                                 {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Icon of the Angel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rage-fuelled Warrior",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Speed of the Primarch",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archangel's Shard",
+                                    "points": 15
+                                },
+                                {
                                     "name": "Artisan of War",
                                     "points": 20
                                 },
                                 {
-                                    "name": "Visage of Death",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Archangel's Shard",
+                                    "name": "Gleaming Pinions",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Icon of the Angel",
+                                    "name": "Visage of Death",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.lostBrethren",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blood Shard",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinius' Grace",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "To Slay the Warmaster",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Vengeful Onslaught",
                                     "points": 10
                                 }
                             ]
@@ -936,7 +1124,7 @@
             "models": [
                 {
                     "name": "Captain in Phobos Armour",
-                    "points": 80,
+                    "points": 70,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1057,7 +1245,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -1103,7 +1291,7 @@
                                 },
                                 {
                                     "name": "Feinting Withdrawal",
-                                    "points": 20
+                                    "points": 10
                                 },
                                 {
                                     "name": "Fury of the Storm",
@@ -1111,7 +1299,7 @@
                                 },
                                 {
                                     "name": "Hunter's Instincts",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Portents of Wisdom",
@@ -1151,7 +1339,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.sonsSanguinius",
+                            "detachmentId": "w40k.10e.ba.dt.liberatorAssaultGroup",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1160,19 +1348,77 @@
                                     "name": ""
                                 },
                                 {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Icon of the Angel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rage-fuelled Warrior",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Speed of the Primarch",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archangel's Shard",
+                                    "points": 15
+                                },
+                                {
                                     "name": "Artisan of War",
                                     "points": 20
                                 },
                                 {
-                                    "name": "Visage of Death",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Archangel's Shard",
+                                    "name": "Gleaming Pinions",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Icon of the Angel",
+                                    "name": "Visage of Death",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.lostBrethren",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blood Shard",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinius' Grace",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "To Slay the Warmaster",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Vengeful Onslaught",
                                     "points": 10
                                 }
                             ]
@@ -1339,7 +1585,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -1385,7 +1631,7 @@
                                 },
                                 {
                                     "name": "Feinting Withdrawal",
-                                    "points": 20
+                                    "points": 10
                                 },
                                 {
                                     "name": "Fury of the Storm",
@@ -1393,7 +1639,7 @@
                                 },
                                 {
                                     "name": "Hunter's Instincts",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Portents of Wisdom",
@@ -1433,7 +1679,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.sonsSanguinius",
+                            "detachmentId": "w40k.10e.ba.dt.liberatorAssaultGroup",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1442,19 +1688,77 @@
                                     "name": ""
                                 },
                                 {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Icon of the Angel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rage-fuelled Warrior",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Speed of the Primarch",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archangel's Shard",
+                                    "points": 15
+                                },
+                                {
                                     "name": "Artisan of War",
                                     "points": 20
                                 },
                                 {
-                                    "name": "Visage of Death",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Archangel's Shard",
+                                    "name": "Gleaming Pinions",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Icon of the Angel",
+                                    "name": "Visage of Death",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.lostBrethren",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blood Shard",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinius' Grace",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "To Slay the Warmaster",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Vengeful Onslaught",
                                     "points": 10
                                 }
                             ]
@@ -1593,7 +1897,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -1639,7 +1943,7 @@
                                 },
                                 {
                                     "name": "Feinting Withdrawal",
-                                    "points": 20
+                                    "points": 10
                                 },
                                 {
                                     "name": "Fury of the Storm",
@@ -1647,7 +1951,7 @@
                                 },
                                 {
                                     "name": "Hunter's Instincts",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Portents of Wisdom",
@@ -1687,7 +1991,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.sonsSanguinius",
+                            "detachmentId": "w40k.10e.ba.dt.liberatorAssaultGroup",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1696,19 +2000,77 @@
                                     "name": ""
                                 },
                                 {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Icon of the Angel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rage-fuelled Warrior",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Speed of the Primarch",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archangel's Shard",
+                                    "points": 15
+                                },
+                                {
                                     "name": "Artisan of War",
                                     "points": 20
                                 },
                                 {
-                                    "name": "Visage of Death",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Archangel's Shard",
+                                    "name": "Gleaming Pinions",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Icon of the Angel",
+                                    "name": "Visage of Death",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.lostBrethren",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blood Shard",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinius' Grace",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "To Slay the Warmaster",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Vengeful Onslaught",
                                     "points": 10
                                 }
                             ]
@@ -1847,7 +2209,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -1893,7 +2255,7 @@
                                 },
                                 {
                                     "name": "Feinting Withdrawal",
-                                    "points": 20
+                                    "points": 10
                                 },
                                 {
                                     "name": "Fury of the Storm",
@@ -1901,7 +2263,7 @@
                                 },
                                 {
                                     "name": "Hunter's Instincts",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Portents of Wisdom",
@@ -1941,7 +2303,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.sonsSanguinius",
+                            "detachmentId": "w40k.10e.ba.dt.liberatorAssaultGroup",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1950,19 +2312,77 @@
                                     "name": ""
                                 },
                                 {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Icon of the Angel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rage-fuelled Warrior",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Speed of the Primarch",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archangel's Shard",
+                                    "points": 15
+                                },
+                                {
                                     "name": "Artisan of War",
                                     "points": 20
                                 },
                                 {
-                                    "name": "Visage of Death",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Archangel's Shard",
+                                    "name": "Gleaming Pinions",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Icon of the Angel",
+                                    "name": "Visage of Death",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.lostBrethren",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blood Shard",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinius' Grace",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "To Slay the Warmaster",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Vengeful Onslaught",
                                     "points": 10
                                 }
                             ]
@@ -2168,7 +2588,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -2214,7 +2634,7 @@
                                 },
                                 {
                                     "name": "Feinting Withdrawal",
-                                    "points": 20
+                                    "points": 10
                                 },
                                 {
                                     "name": "Fury of the Storm",
@@ -2222,7 +2642,7 @@
                                 },
                                 {
                                     "name": "Hunter's Instincts",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Portents of Wisdom",
@@ -2262,7 +2682,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.sonsSanguinius",
+                            "detachmentId": "w40k.10e.ba.dt.liberatorAssaultGroup",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -2271,19 +2691,77 @@
                                     "name": ""
                                 },
                                 {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Icon of the Angel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rage-fuelled Warrior",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Speed of the Primarch",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archangel's Shard",
+                                    "points": 15
+                                },
+                                {
                                     "name": "Artisan of War",
                                     "points": 20
                                 },
                                 {
-                                    "name": "Visage of Death",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Archangel's Shard",
+                                    "name": "Gleaming Pinions",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Icon of the Angel",
+                                    "name": "Visage of Death",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.lostBrethren",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blood Shard",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinius' Grace",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "To Slay the Warmaster",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Vengeful Onslaught",
                                     "points": 10
                                 }
                             ]
@@ -2422,7 +2900,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -2468,7 +2946,7 @@
                                 },
                                 {
                                     "name": "Feinting Withdrawal",
-                                    "points": 20
+                                    "points": 10
                                 },
                                 {
                                     "name": "Fury of the Storm",
@@ -2476,7 +2954,7 @@
                                 },
                                 {
                                     "name": "Hunter's Instincts",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Portents of Wisdom",
@@ -2516,7 +2994,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.sonsSanguinius",
+                            "detachmentId": "w40k.10e.ba.dt.liberatorAssaultGroup",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -2525,19 +3003,77 @@
                                     "name": ""
                                 },
                                 {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Icon of the Angel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rage-fuelled Warrior",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Speed of the Primarch",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archangel's Shard",
+                                    "points": 15
+                                },
+                                {
                                     "name": "Artisan of War",
                                     "points": 20
                                 },
                                 {
-                                    "name": "Visage of Death",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Archangel's Shard",
+                                    "name": "Gleaming Pinions",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Icon of the Angel",
+                                    "name": "Visage of Death",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.lostBrethren",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blood Shard",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinius' Grace",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "To Slay the Warmaster",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Vengeful Onslaught",
                                     "points": 10
                                 }
                             ]
@@ -2693,7 +3229,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -2739,7 +3275,7 @@
                                 },
                                 {
                                     "name": "Feinting Withdrawal",
-                                    "points": 20
+                                    "points": 10
                                 },
                                 {
                                     "name": "Fury of the Storm",
@@ -2747,7 +3283,7 @@
                                 },
                                 {
                                     "name": "Hunter's Instincts",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Portents of Wisdom",
@@ -2787,7 +3323,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.sonsSanguinius",
+                            "detachmentId": "w40k.10e.ba.dt.liberatorAssaultGroup",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -2796,19 +3332,77 @@
                                     "name": ""
                                 },
                                 {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Icon of the Angel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rage-fuelled Warrior",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Speed of the Primarch",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archangel's Shard",
+                                    "points": 15
+                                },
+                                {
                                     "name": "Artisan of War",
                                     "points": 20
                                 },
                                 {
-                                    "name": "Visage of Death",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Archangel's Shard",
+                                    "name": "Gleaming Pinions",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Icon of the Angel",
+                                    "name": "Visage of Death",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.lostBrethren",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blood Shard",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinius' Grace",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "To Slay the Warmaster",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Vengeful Onslaught",
                                     "points": 10
                                 }
                             ]
@@ -2947,7 +3541,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -2993,7 +3587,7 @@
                                 },
                                 {
                                     "name": "Feinting Withdrawal",
-                                    "points": 20
+                                    "points": 10
                                 },
                                 {
                                     "name": "Fury of the Storm",
@@ -3001,7 +3595,7 @@
                                 },
                                 {
                                     "name": "Hunter's Instincts",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Portents of Wisdom",
@@ -3041,7 +3635,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.sonsSanguinius",
+                            "detachmentId": "w40k.10e.ba.dt.liberatorAssaultGroup",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -3050,19 +3644,77 @@
                                     "name": ""
                                 },
                                 {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Icon of the Angel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rage-fuelled Warrior",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Speed of the Primarch",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archangel's Shard",
+                                    "points": 15
+                                },
+                                {
                                     "name": "Artisan of War",
                                     "points": 20
                                 },
                                 {
-                                    "name": "Visage of Death",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Archangel's Shard",
+                                    "name": "Gleaming Pinions",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Icon of the Angel",
+                                    "name": "Visage of Death",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.lostBrethren",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blood Shard",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinius' Grace",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "To Slay the Warmaster",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Vengeful Onslaught",
                                     "points": 10
                                 }
                             ]
@@ -3215,7 +3867,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -3261,7 +3913,7 @@
                                 },
                                 {
                                     "name": "Feinting Withdrawal",
-                                    "points": 20
+                                    "points": 10
                                 },
                                 {
                                     "name": "Fury of the Storm",
@@ -3269,7 +3921,7 @@
                                 },
                                 {
                                     "name": "Hunter's Instincts",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Portents of Wisdom",
@@ -3309,7 +3961,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.sonsSanguinius",
+                            "detachmentId": "w40k.10e.ba.dt.liberatorAssaultGroup",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -3318,19 +3970,77 @@
                                     "name": ""
                                 },
                                 {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Icon of the Angel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rage-fuelled Warrior",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Speed of the Primarch",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archangel's Shard",
+                                    "points": 15
+                                },
+                                {
                                     "name": "Artisan of War",
                                     "points": 20
                                 },
                                 {
-                                    "name": "Visage of Death",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Archangel's Shard",
+                                    "name": "Gleaming Pinions",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Icon of the Angel",
+                                    "name": "Visage of Death",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.lostBrethren",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blood Shard",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinius' Grace",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "To Slay the Warmaster",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Vengeful Onslaught",
                                     "points": 10
                                 }
                             ]
@@ -3469,7 +4179,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -3515,7 +4225,7 @@
                                 },
                                 {
                                     "name": "Feinting Withdrawal",
-                                    "points": 20
+                                    "points": 10
                                 },
                                 {
                                     "name": "Fury of the Storm",
@@ -3523,7 +4233,7 @@
                                 },
                                 {
                                     "name": "Hunter's Instincts",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Portents of Wisdom",
@@ -3563,7 +4273,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.sonsSanguinius",
+                            "detachmentId": "w40k.10e.ba.dt.liberatorAssaultGroup",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -3572,19 +4282,77 @@
                                     "name": ""
                                 },
                                 {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Icon of the Angel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rage-fuelled Warrior",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Speed of the Primarch",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archangel's Shard",
+                                    "points": 15
+                                },
+                                {
                                     "name": "Artisan of War",
                                     "points": 20
                                 },
                                 {
-                                    "name": "Visage of Death",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Archangel's Shard",
+                                    "name": "Gleaming Pinions",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Icon of the Angel",
+                                    "name": "Visage of Death",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.lostBrethren",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blood Shard",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinius' Grace",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "To Slay the Warmaster",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Vengeful Onslaught",
                                     "points": 10
                                 }
                             ]
@@ -3723,7 +4491,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -3769,7 +4537,7 @@
                                 },
                                 {
                                     "name": "Feinting Withdrawal",
-                                    "points": 20
+                                    "points": 10
                                 },
                                 {
                                     "name": "Fury of the Storm",
@@ -3777,7 +4545,7 @@
                                 },
                                 {
                                     "name": "Hunter's Instincts",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Portents of Wisdom",
@@ -3817,7 +4585,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.sonsSanguinius",
+                            "detachmentId": "w40k.10e.ba.dt.liberatorAssaultGroup",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -3826,19 +4594,77 @@
                                     "name": ""
                                 },
                                 {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Icon of the Angel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rage-fuelled Warrior",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Speed of the Primarch",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archangel's Shard",
+                                    "points": 15
+                                },
+                                {
                                     "name": "Artisan of War",
                                     "points": 20
                                 },
                                 {
-                                    "name": "Visage of Death",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Archangel's Shard",
+                                    "name": "Gleaming Pinions",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Icon of the Angel",
+                                    "name": "Visage of Death",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.lostBrethren",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blood Shard",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinius' Grace",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "To Slay the Warmaster",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Vengeful Onslaught",
                                     "points": 10
                                 }
                             ]
@@ -4012,7 +4838,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -4058,7 +4884,7 @@
                                 },
                                 {
                                     "name": "Feinting Withdrawal",
-                                    "points": 20
+                                    "points": 10
                                 },
                                 {
                                     "name": "Fury of the Storm",
@@ -4066,7 +4892,7 @@
                                 },
                                 {
                                     "name": "Hunter's Instincts",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Portents of Wisdom",
@@ -4106,7 +4932,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.sonsSanguinius",
+                            "detachmentId": "w40k.10e.ba.dt.liberatorAssaultGroup",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -4115,19 +4941,77 @@
                                     "name": ""
                                 },
                                 {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Icon of the Angel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rage-fuelled Warrior",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Speed of the Primarch",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archangel's Shard",
+                                    "points": 15
+                                },
+                                {
                                     "name": "Artisan of War",
                                     "points": 20
                                 },
                                 {
-                                    "name": "Visage of Death",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Archangel's Shard",
+                                    "name": "Gleaming Pinions",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Icon of the Angel",
+                                    "name": "Visage of Death",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.lostBrethren",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blood Shard",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinius' Grace",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "To Slay the Warmaster",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Vengeful Onslaught",
                                     "points": 10
                                 }
                             ]
@@ -4266,7 +5150,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -4312,7 +5196,7 @@
                                 },
                                 {
                                     "name": "Feinting Withdrawal",
-                                    "points": 20
+                                    "points": 10
                                 },
                                 {
                                     "name": "Fury of the Storm",
@@ -4320,7 +5204,7 @@
                                 },
                                 {
                                     "name": "Hunter's Instincts",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Portents of Wisdom",
@@ -4360,7 +5244,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.sonsSanguinius",
+                            "detachmentId": "w40k.10e.ba.dt.liberatorAssaultGroup",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -4369,19 +5253,77 @@
                                     "name": ""
                                 },
                                 {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Icon of the Angel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rage-fuelled Warrior",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Speed of the Primarch",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archangel's Shard",
+                                    "points": 15
+                                },
+                                {
                                     "name": "Artisan of War",
                                     "points": 20
                                 },
                                 {
-                                    "name": "Visage of Death",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Archangel's Shard",
+                                    "name": "Gleaming Pinions",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Icon of the Angel",
+                                    "name": "Visage of Death",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.lostBrethren",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blood Shard",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinius' Grace",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "To Slay the Warmaster",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Vengeful Onslaught",
                                     "points": 10
                                 }
                             ]
@@ -4624,7 +5566,7 @@
                 {
                     "name": "Assault Intercessor with Jump Pack, Assault Intercessor Sergeant with Jump Pack",
                     "amount": 5,
-                    "cost": 80
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -4832,7 +5774,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -4878,7 +5820,7 @@
                                 },
                                 {
                                     "name": "Feinting Withdrawal",
-                                    "points": 20
+                                    "points": 10
                                 },
                                 {
                                     "name": "Fury of the Storm",
@@ -4886,7 +5828,7 @@
                                 },
                                 {
                                     "name": "Hunter's Instincts",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Portents of Wisdom",
@@ -4926,7 +5868,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.sonsSanguinius",
+                            "detachmentId": "w40k.10e.ba.dt.liberatorAssaultGroup",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -4935,19 +5877,77 @@
                                     "name": ""
                                 },
                                 {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Icon of the Angel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rage-fuelled Warrior",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Speed of the Primarch",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archangel's Shard",
+                                    "points": 15
+                                },
+                                {
                                     "name": "Artisan of War",
                                     "points": 20
                                 },
                                 {
-                                    "name": "Visage of Death",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Archangel's Shard",
+                                    "name": "Gleaming Pinions",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Icon of the Angel",
+                                    "name": "Visage of Death",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.lostBrethren",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blood Shard",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinius' Grace",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "To Slay the Warmaster",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Vengeful Onslaught",
                                     "points": 10
                                 }
                             ]
@@ -4966,12 +5966,12 @@
                 {
                     "name": "Heavy Intercessor, Heavy Intercessor Sergeant",
                     "amount": 10,
-                    "cost": 200
+                    "cost": 190
                 },
                 {
                     "name": "Heavy Intercessor, Heavy Intercessor Sergeant",
                     "amount": 5,
-                    "cost": 100
+                    "cost": 95
                 }
             ],
             "restrictions": [
@@ -5148,7 +6148,7 @@
                 }
             ],
             "blueprints": [
-                                {
+                {
                     "name": "Tactical Marine",
                     "gearset": [
                         {
@@ -5511,7 +6511,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -5557,7 +6557,7 @@
                                 },
                                 {
                                     "name": "Feinting Withdrawal",
-                                    "points": 20
+                                    "points": 10
                                 },
                                 {
                                     "name": "Fury of the Storm",
@@ -5565,7 +6565,7 @@
                                 },
                                 {
                                     "name": "Hunter's Instincts",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Portents of Wisdom",
@@ -5605,7 +6605,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.sonsSanguinius",
+                            "detachmentId": "w40k.10e.ba.dt.liberatorAssaultGroup",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -5614,19 +6614,77 @@
                                     "name": ""
                                 },
                                 {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Icon of the Angel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rage-fuelled Warrior",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Speed of the Primarch",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archangel's Shard",
+                                    "points": 15
+                                },
+                                {
                                     "name": "Artisan of War",
                                     "points": 20
                                 },
                                 {
-                                    "name": "Visage of Death",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Archangel's Shard",
+                                    "name": "Gleaming Pinions",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Icon of the Angel",
+                                    "name": "Visage of Death",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.lostBrethren",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blood Shard",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinius' Grace",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "To Slay the Warmaster",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Vengeful Onslaught",
                                     "points": 10
                                 }
                             ]
@@ -5639,12 +6697,12 @@
             "id": "w40k.10e.ba.unit.apothecaryBiologus",
             "type": "unit",
             "rulesetId": "w40k.10e.ba",
-            "name": "Apothecary Biologus",
+            "name": "Apothecary Biologis",
             "role": "CHARACTER",
             "models": [
                 {
-                    "name": "Apothecary Biologus",
-                    "points": 55,
+                    "name": "Apothecary Biologis",
+                    "points": 70,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -5765,7 +6823,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -5811,7 +6869,7 @@
                                 },
                                 {
                                     "name": "Feinting Withdrawal",
-                                    "points": 20
+                                    "points": 10
                                 },
                                 {
                                     "name": "Fury of the Storm",
@@ -5819,7 +6877,7 @@
                                 },
                                 {
                                     "name": "Hunter's Instincts",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Portents of Wisdom",
@@ -5859,7 +6917,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.sonsSanguinius",
+                            "detachmentId": "w40k.10e.ba.dt.liberatorAssaultGroup",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -5868,19 +6926,77 @@
                                     "name": ""
                                 },
                                 {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Icon of the Angel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rage-fuelled Warrior",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Speed of the Primarch",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archangel's Shard",
+                                    "points": 15
+                                },
+                                {
                                     "name": "Artisan of War",
                                     "points": 20
                                 },
                                 {
-                                    "name": "Visage of Death",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Archangel's Shard",
+                                    "name": "Gleaming Pinions",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Icon of the Angel",
+                                    "name": "Visage of Death",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.lostBrethren",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blood Shard",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinius' Grace",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "To Slay the Warmaster",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Vengeful Onslaught",
                                     "points": 10
                                 }
                             ]
@@ -6033,7 +7149,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -6079,7 +7195,7 @@
                                 },
                                 {
                                     "name": "Feinting Withdrawal",
-                                    "points": 20
+                                    "points": 10
                                 },
                                 {
                                     "name": "Fury of the Storm",
@@ -6087,7 +7203,7 @@
                                 },
                                 {
                                     "name": "Hunter's Instincts",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Portents of Wisdom",
@@ -6127,7 +7243,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.sonsSanguinius",
+                            "detachmentId": "w40k.10e.ba.dt.liberatorAssaultGroup",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -6136,19 +7252,77 @@
                                     "name": ""
                                 },
                                 {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Icon of the Angel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rage-fuelled Warrior",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Speed of the Primarch",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archangel's Shard",
+                                    "points": 15
+                                },
+                                {
                                     "name": "Artisan of War",
                                     "points": 20
                                 },
                                 {
-                                    "name": "Visage of Death",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Archangel's Shard",
+                                    "name": "Gleaming Pinions",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Icon of the Angel",
+                                    "name": "Visage of Death",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.lostBrethren",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blood Shard",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinius' Grace",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "To Slay the Warmaster",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Vengeful Onslaught",
                                     "points": 10
                                 }
                             ]
@@ -6287,7 +7461,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -6333,7 +7507,7 @@
                                 },
                                 {
                                     "name": "Feinting Withdrawal",
-                                    "points": 20
+                                    "points": 10
                                 },
                                 {
                                     "name": "Fury of the Storm",
@@ -6341,7 +7515,7 @@
                                 },
                                 {
                                     "name": "Hunter's Instincts",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Portents of Wisdom",
@@ -6381,7 +7555,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.sonsSanguinius",
+                            "detachmentId": "w40k.10e.ba.dt.liberatorAssaultGroup",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -6390,19 +7564,77 @@
                                     "name": ""
                                 },
                                 {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Icon of the Angel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rage-fuelled Warrior",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Speed of the Primarch",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archangel's Shard",
+                                    "points": 15
+                                },
+                                {
                                     "name": "Artisan of War",
                                     "points": 20
                                 },
                                 {
-                                    "name": "Visage of Death",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Archangel's Shard",
+                                    "name": "Gleaming Pinions",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Icon of the Angel",
+                                    "name": "Visage of Death",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.lostBrethren",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blood Shard",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinius' Grace",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "To Slay the Warmaster",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Vengeful Onslaught",
                                     "points": 10
                                 }
                             ]
@@ -6570,7 +7802,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -6616,7 +7848,7 @@
                                 },
                                 {
                                     "name": "Feinting Withdrawal",
-                                    "points": 20
+                                    "points": 10
                                 },
                                 {
                                     "name": "Fury of the Storm",
@@ -6624,7 +7856,7 @@
                                 },
                                 {
                                     "name": "Hunter's Instincts",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Portents of Wisdom",
@@ -6664,7 +7896,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.sonsSanguinius",
+                            "detachmentId": "w40k.10e.ba.dt.liberatorAssaultGroup",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -6673,19 +7905,77 @@
                                     "name": ""
                                 },
                                 {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Icon of the Angel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rage-fuelled Warrior",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Speed of the Primarch",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archangel's Shard",
+                                    "points": 15
+                                },
+                                {
                                     "name": "Artisan of War",
                                     "points": 20
                                 },
                                 {
-                                    "name": "Visage of Death",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Archangel's Shard",
+                                    "name": "Gleaming Pinions",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Icon of the Angel",
+                                    "name": "Visage of Death",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.lostBrethren",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blood Shard",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinius' Grace",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "To Slay the Warmaster",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Vengeful Onslaught",
                                     "points": 10
                                 }
                             ]
@@ -6764,12 +8054,12 @@
                 {
                     "name": "Vanguard Veteran with Jump Pack, Vanguard Veteran Sergeant with Jump Pack",
                     "amount": 10,
-                    "cost": 210
+                    "cost": 220
                 },
                 {
                     "name": "Vanguard Veteran with Jump Pack, Vanguard Veteran Sergeant with Jump Pack",
                     "amount": 5,
-                    "cost": 105
+                    "cost": 110
                 }
             ],
             "restrictions": [
@@ -7078,7 +8368,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -7124,7 +8414,7 @@
                                 },
                                 {
                                     "name": "Feinting Withdrawal",
-                                    "points": 20
+                                    "points": 10
                                 },
                                 {
                                     "name": "Fury of the Storm",
@@ -7132,7 +8422,7 @@
                                 },
                                 {
                                     "name": "Hunter's Instincts",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Portents of Wisdom",
@@ -7172,7 +8462,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.sonsSanguinius",
+                            "detachmentId": "w40k.10e.ba.dt.liberatorAssaultGroup",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -7181,19 +8471,77 @@
                                     "name": ""
                                 },
                                 {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Icon of the Angel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rage-fuelled Warrior",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Speed of the Primarch",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archangel's Shard",
+                                    "points": 15
+                                },
+                                {
                                     "name": "Artisan of War",
                                     "points": 20
                                 },
                                 {
-                                    "name": "Visage of Death",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Archangel's Shard",
+                                    "name": "Gleaming Pinions",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Icon of the Angel",
+                                    "name": "Visage of Death",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.lostBrethren",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blood Shard",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinius' Grace",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "To Slay the Warmaster",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Vengeful Onslaught",
                                     "points": 10
                                 }
                             ]
@@ -7257,12 +8605,12 @@
                 {
                     "name": "Reiver, Reiver Sergeant",
                     "amount": 10,
-                    "cost": 170
+                    "cost": 150
                 },
                 {
                     "name": "Reiver, Reiver Sergeant",
                     "amount": 5,
-                    "cost": 85
+                    "cost": 75
                 }
             ],
             "restrictions": [
@@ -7424,12 +8772,12 @@
                 {
                     "name": "Assault Terminator, Assault Terminator Sergeant",
                     "amount": 10,
-                    "cost": 370
+                    "cost": 360
                 },
                 {
                     "name": "Assault Terminator, Assault Terminator Sergeant",
                     "amount": 5,
-                    "cost": 185
+                    "cost": 180
                 }
             ],
             "restrictions": [
@@ -7497,12 +8845,12 @@
                 {
                     "name": "Terminator, Terminator Sergeant",
                     "amount": 10,
-                    "cost": 350
+                    "cost": 340
                 },
                 {
                     "name": "Terminator, Terminator Sergeant",
                     "amount": 5,
-                    "cost": 175
+                    "cost": 170
                 }
             ],
             "restrictions": [
@@ -7803,7 +9151,7 @@
             "models": [
                 {
                     "name": "Invictor Warsuit",
-                    "points": 140,
+                    "points": 125,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -7991,7 +9339,7 @@
             "models": [
                 {
                     "name": "Ballistus Dreadnought",
-                    "points": 140
+                    "points": 130
                 }
             ]
         },
@@ -8036,7 +9384,7 @@
             "blueprints": [
                 {
                     "name": "Invader ATV",
-                    "points": 70,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -8071,7 +9419,7 @@
             "models": [
                 {
                     "name": "Invader ATV",
-                    "points": 70,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -8101,7 +9449,7 @@
                 {
                     "name": "Suppressor, Suppressor Sergeant",
                     "amount": 3,
-                    "cost": 85
+                    "cost": 75
                 }
             ],
             "models": [
@@ -8198,7 +9546,7 @@
             "models": [
                 {
                     "name": "Stormspeeder Hailstrike",
-                    "points": 130
+                    "points": 115
                 }
             ]
         },
@@ -8211,7 +9559,7 @@
             "models": [
                 {
                     "name": "Stormspeeder Thunderstrike",
-                    "points": 160
+                    "points": 150
                 }
             ]
         },
@@ -8224,7 +9572,7 @@
             "models": [
                 {
                     "name": "Stormspeeder Hammerstrike",
-                    "points": 150
+                    "points": 125
                 }
             ]
         },
@@ -8366,12 +9714,12 @@
                 {
                     "name": "Eradicator, Eradicator Sergeant",
                     "amount": 6,
-                    "cost": 190
+                    "cost": 200
                 },
                 {
                     "name": "Eradicator, Eradicator Sergeant",
                     "amount": 3,
-                    "cost": 95
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -9582,7 +10930,7 @@
             "models": [
                 {
                     "name": "Astorath",
-                    "points": 85,
+                    "points": 105,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -9604,7 +10952,7 @@
             "models": [
                 {
                     "name": "Baal Predator",
-                    "points": 125,
+                    "points": 135,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -9656,50 +11004,6 @@
             ]
         },
         {
-            "id": "w40k.10e.ba.unit.brotherCorbulo",
-            "type": "unit",
-            "rulesetId": "w40k.10e.ba",
-            "name": "Brother Corbulo",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Brother Corbulo",
-                    "points": 75,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.ba.unit.captainTycho",
-            "type": "unit",
-            "rulesetId": "w40k.10e.ba",
-            "name": "Captain Tycho",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Captain Tycho",
-                    "points": 75,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "id": "w40k.10e.ba.unit.mephiston",
             "type": "unit",
             "rulesetId": "w40k.10e.ba",
@@ -9708,7 +11012,7 @@
             "models": [
                 {
                     "name": "Chief Librarian Mephiston",
-                    "points": 100,
+                    "points": 125,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -9730,7 +11034,7 @@
             "models": [
                 {
                     "name": "Commander Dante",
-                    "points": 120,
+                    "points": 130,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -9752,16 +11056,16 @@
             "models": [
                 {
                     "name": "Death Company Dreadnought",
-                    "points": 145,
+                    "points": 180,
                     "gearset": [
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Furioso Fists"
+                                "name": "Blood Fists, Blood Fist Bolt Rifles"
                             },
                             "options": [
                                 {
-                                    "name": "Furioso Fists"
+                                    "name": "Blood Fists, Blood Fist Bolt Rifles"
                                 },
                                 {
                                     "name": "Blood Talons"
@@ -9771,37 +11075,16 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Meltagun"
+                                "name": "Twin Heavy Bolter"
                             },
                             "options": [
                                 {
-                                    "name": "Meltagun"
+                                    "name": "Twin Heavy Bolter"
                                 },
                                 {
-                                    "name": "Heavy Flamer"
+                                    "name": "Twin Multi Melta"
                                 }
                             ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Storm Bolter"
-                            },
-                            "options": [
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Heavy Flamer"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Magna-grapple"
-                            },
-                            "selected": false
                         }
                     ]
                 }
@@ -9901,12 +11184,12 @@
                 {
                     "name": "Death Company Marine",
                     "amount": 10,
-                    "cost": 250
+                    "cost": 180
                 },
                 {
                     "name": "Death Company Marine",
                     "amount": 5,
-                    "cost": 125
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -9924,17 +11207,97 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Boltgun"
+                                "name": "Heavy Bolt Pistol"
                             },
                             "options": [
                                 {
                                     "name": ""
                                 },
                                 {
-                                    "name": "Boltgun"
+                                    "name": "Heavy Bolt Pistol"
                                 },
                                 {
-                                    "name": "Bolt Pistol"
+                                    "name": "Hand Flamer"
+                                },
+                                {
+                                    "name": "Inferno Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Astartes Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Eviscerator"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                },
+                                {
+                                    "name": "Power Weapon"
+                                },
+                                {
+                                    "name": "Thunder Hammer"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ba.unit.deathCompanyMarinesWithBoltRifles",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ba",
+            "name": "Death Company Marines with Bolt Rifles",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Death Company Marine",
+                    "amount": 10,
+                    "cost": 180
+                },
+                {
+                    "name": "Death Company Marine",
+                    "amount": 5,
+                    "cost": 90
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Death Company Marine",
+                    "min": 5,
+                    "max": 10
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Death Company Marine",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Rifle"
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bolt Rifle"
                                 },
                                 {
                                     "name": "Hand Flamer"
@@ -9960,6 +11323,9 @@
                                     "name": "Close Combat Weapon"
                                 },
                                 {
+                                    "name": "Eviscerator"
+                                },
+                                {
                                     "name": "Astartes Chainsword"
                                 },
                                 {
@@ -9967,13 +11333,16 @@
                                 },
                                 {
                                     "name": "Power Weapon"
+                                },
+                                {
+                                    "name": "Thunder Hammer"
                                 }
                             ]
                         },
                         {
                             "type": "checkbox",
                             "selectedOption": {
-                                "name": "Thunder Hammer"
+                                "name": "Astartes Grenade Launcher"
                             },
                             "selected": false
                         }
@@ -9991,12 +11360,12 @@
                 {
                     "name": "Death Company Marine with Jump Pack",
                     "amount": 10,
-                    "cost": 280
+                    "cost": 240
                 },
                 {
                     "name": "Death Company Marine with Jump Pack",
                     "amount": 5,
-                    "cost": 140
+                    "cost": 130
                 }
             ],
             "restrictions": [
@@ -10014,17 +11383,14 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Boltgun"
+                                "name": "Heavy Bolt Pistol"
                             },
                             "options": [
                                 {
                                     "name": ""
                                 },
                                 {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": "Bolt Pistol"
+                                    "name": "Heavy Bolt Pistol"
                                 },
                                 {
                                     "name": "Hand Flamer"
@@ -10040,17 +11406,17 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Close Combat Weapon"
+                                "name": "Astartes Chainsword"
                             },
                             "options": [
                                 {
                                     "name": ""
                                 },
                                 {
-                                    "name": "Close Combat Weapon"
+                                    "name": "Astartes Chainsword"
                                 },
                                 {
-                                    "name": "Astartes Chainsword"
+                                    "name": "Eviscerator"
                                 },
                                 {
                                     "name": "Power Fist"
@@ -10059,102 +11425,6 @@
                                     "name": "Power Weapon"
                                 }
                             ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Thunder Hammer"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.ba.unit.furiosoDreadnought",
-            "type": "unit",
-            "rulesetId": "w40k.10e.ba",
-            "name": "Furioso Dreadnought",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Furioso Dreadnought",
-                    "points": 150,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Heavy Frag Cannon, Furioso Fist"
-                            },
-                            "options": [
-                                {
-                                    "name": "Heavy Frag Cannon, Furioso Fist"
-                                },
-                                {
-                                    "name": "Blood Talons, Meltagun"
-                                },
-                                {
-                                    "name": "Twin Furioso Fist, Meltagun"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Meltagun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Meltagun"
-                                },
-                                {
-                                    "name": "Heavy Flamer"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Storm Bolter"
-                            },
-                            "options": [
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Heavy Flamer"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Magna-grapple"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.ba.unit.gabrielSeth",
-            "type": "unit",
-            "rulesetId": "w40k.10e.ba",
-            "name": "Gabriel Seth",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Gabriel Seth",
-                    "points": 90,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
                         }
                     ]
                 }
@@ -10169,7 +11439,7 @@
             "models": [
                 {
                     "name": "Lemartes",
-                    "points": 120,
+                    "points": 110,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -10177,38 +11447,6 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.ba.unit.librarianDreadnought",
-            "type": "unit",
-            "rulesetId": "w40k.10e.ba",
-            "name": "Librarian Dreadnought",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Librarian Dreadnought",
-                    "points": 170,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Storm Bolter"
-                            },
-                            "options": [
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Heavy Flamer"
-                                },
-                                {
-                                    "name": "Meltagun"
-                                }
-                            ]
                         }
                     ]
                 }
@@ -10223,21 +11461,21 @@
             "points": [
                 {
                     "name": "Sanguinary Guard",
-                    "amount": 10,
-                    "cost": 310
+                    "amount": 6,
+                    "cost": 270
                 },
                 {
                     "name": "Sanguinary Guard",
-                    "amount": 5,
-                    "cost": 155
+                    "amount": 3,
+                    "cost": 135
                 }
             ],
             "restrictions": [
                 {
                     "type": "model",
                     "name": "Sanguinary Guard",
-                    "min": 5,
-                    "max": 10
+                    "min": 3,
+                    "max": 6
                 }
             ],
             "blueprints": [
@@ -10255,9 +11493,6 @@
                                 },
                                 {
                                     "name": "Inferno Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
                                 }
                             ]
                         },
@@ -10271,7 +11506,7 @@
                                     "name": "Encarmine Blade"
                                 },
                                 {
-                                    "name": "Power Fist"
+                                    "name": "Encarmine Spear"
                                 }
                             ]
                         },
@@ -10416,7 +11651,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -10462,7 +11697,7 @@
                                 },
                                 {
                                     "name": "Feinting Withdrawal",
-                                    "points": 20
+                                    "points": 10
                                 },
                                 {
                                     "name": "Fury of the Storm",
@@ -10470,7 +11705,7 @@
                                 },
                                 {
                                     "name": "Hunter's Instincts",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Portents of Wisdom",
@@ -10510,7 +11745,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.sonsSanguinius",
+                            "detachmentId": "w40k.10e.ba.dt.liberatorAssaultGroup",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -10519,19 +11754,77 @@
                                     "name": ""
                                 },
                                 {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Icon of the Angel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rage-fuelled Warrior",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Speed of the Primarch",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archangel's Shard",
+                                    "points": 15
+                                },
+                                {
                                     "name": "Artisan of War",
                                     "points": 20
                                 },
                                 {
-                                    "name": "Visage of Death",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Archangel's Shard",
+                                    "name": "Gleaming Pinions",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Icon of the Angel",
+                                    "name": "Visage of Death",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.lostBrethren",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blood Shard",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinius' Grace",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "To Slay the Warmaster",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Vengeful Onslaught",
                                     "points": 10
                                 }
                             ]
@@ -10563,37 +11856,15 @@
             ]
         },
         {
-            "id": "w40k.10e.ba.unit.tychoLost",
+            "id": "w40k.10e.sm.unit.bloodAngelsCaptain",
             "type": "unit",
-            "rulesetId": "w40k.10e.ba",
-            "name": "Tycho the Lost",
+            "rulesetId": "w40k.10e.sm",
+            "name": "Blood Angels Captain",
             "role": "CHARACTER",
             "models": [
                 {
-                    "name": "Tycho the Lost",
-                    "points": 90,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.ba.unit.sanguinaryPriestJumpPack",
-            "type": "unit",
-            "rulesetId": "w40k.10e.ba",
-            "name": "Sanguinary Priest with Jump Pack",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Sanguinary Priest with Jump Pack",
-                    "points": 100,
+                    "name": "Blood Angels Captain",
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -10604,8 +11875,39 @@
                         },
                         {
                             "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Bolt Pistol"
+                                },
+                                {
+                                    "name": "Inferno Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Master-crafted Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Master-crafted Chainsword"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                },
+                                {
+                                    "name": "Relic Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.1stCompany",
+                            "detachmentId": "w40k.10e.sm.dt.1stCompany",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -10634,7 +11936,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.anvilSiegeForce",
+                            "detachmentId": "w40k.10e.sm.dt.anvilSiegeForce",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -10663,7 +11965,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.firestormAssaultForce",
+                            "detachmentId": "w40k.10e.sm.dt.firestormAssaultForce",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -10692,7 +11994,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.gladius",
+                            "detachmentId": "w40k.10e.sm.dt.gladius",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -10714,14 +12016,14 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.ironstormSpearhead",
+                            "detachmentId": "w40k.10e.sm.dt.ironstormSpearhead",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -10750,7 +12052,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.stormlanceTaskForce",
+                            "detachmentId": "w40k.10e.sm.dt.stormlanceTaskForce",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -10760,7 +12062,7 @@
                                 },
                                 {
                                     "name": "Feinting Withdrawal",
-                                    "points": 20
+                                    "points": 10
                                 },
                                 {
                                     "name": "Fury of the Storm",
@@ -10768,7 +12070,7 @@
                                 },
                                 {
                                     "name": "Hunter's Instincts",
-                                    "points": 10
+                                    "points": 25
                                 },
                                 {
                                     "name": "Portents of Wisdom",
@@ -10779,7 +12081,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.vanguardSpearhead",
+                            "detachmentId": "w40k.10e.sm.dt.vanguardSpearhead",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -10808,7 +12110,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ba.dt.sonsSanguinius",
+                            "detachmentId": "w40k.10e.ba.dt.liberatorAssaultGroup",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -10817,19 +12119,766 @@
                                     "name": ""
                                 },
                                 {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Icon of the Angel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rage-fuelled Warrior",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Speed of the Primarch",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archangel's Shard",
+                                    "points": 15
+                                },
+                                {
                                     "name": "Artisan of War",
                                     "points": 20
                                 },
                                 {
-                                    "name": "Visage of Death",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Archangel's Shard",
+                                    "name": "Gleaming Pinions",
                                     "points": 25
                                 },
                                 {
+                                    "name": "Visage of Death",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.lostBrethren",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blood Shard",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinius' Grace",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "To Slay the Warmaster",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Vengeful Onslaught",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sm.unit.deathCompanyCaptain",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sm",
+            "name": "Death Company Captain",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Death Company Captain",
+                    "points": 70,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Bolt Pistol"
+                                },
+                                {
+                                    "name": "Inferno Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Master-crafted Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Master-crafted Chainsword"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                },
+                                {
+                                    "name": "Relic Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.1stCompany",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fear Made Manifest",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Iron Resolve",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Rites of War",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "The Imperium's Sword",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.anvilSiegeForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Architect of War",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fleet Commander",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Indomitable Fury",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Stoic Defender",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.firestormAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Mantle",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Champion of Humanity",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Forged in Battle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "War-tempered Artifice",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.gladius",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Artificer Armour",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "The Honour Vehement",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Adept of the Codex",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fire Discipline",
+                                    "points": 40
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.ironstormSpearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adept of the Omnissiah",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Master of Machine War",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Target Augury Web",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "The Flesh is Weak",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.stormlanceTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Feinting Withdrawal",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Fury of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Hunter's Instincts",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Portents of Wisdom",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.vanguardSpearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Execute and Redeploy",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ghostweave Cloak",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Shadow War Veteran",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "The Blade Driven Deep",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.liberatorAssaultGroup",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
                                     "name": "Icon of the Angel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rage-fuelled Warrior",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Speed of the Primarch",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archangel's Shard",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Artisan of War",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Gleaming Pinions",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Visage of Death",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.lostBrethren",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blood Shard",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinius' Grace",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "To Slay the Warmaster",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Vengeful Onslaught",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sm.unit.deathCompanyCaptainWithJumpPack",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sm",
+            "name": "Death Company Captain with Jump Pack",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Death Company Captain with Jump Pack",
+                    "points": 85,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                },
+                                {
+                                    "name": "Hand Flamer"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Astartes Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                },
+                                {
+                                    "name": "Relic Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.1stCompany",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fear Made Manifest",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Iron Resolve",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Rites of War",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "The Imperium's Sword",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.anvilSiegeForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Architect of War",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fleet Commander",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Indomitable Fury",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Stoic Defender",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.firestormAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Mantle",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Champion of Humanity",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Forged in Battle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "War-tempered Artifice",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.gladius",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Artificer Armour",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "The Honour Vehement",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Adept of the Codex",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fire Discipline",
+                                    "points": 40
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.ironstormSpearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adept of the Omnissiah",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Master of Machine War",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Target Augury Web",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "The Flesh is Weak",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.stormlanceTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Feinting Withdrawal",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Fury of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Hunter's Instincts",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Portents of Wisdom",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.vanguardSpearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Execute and Redeploy",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ghostweave Cloak",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Shadow War Veteran",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "The Blade Driven Deep",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.liberatorAssaultGroup",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Icon of the Angel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rage-fuelled Warrior",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Speed of the Primarch",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archangel's Shard",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Artisan of War",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Gleaming Pinions",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Visage of Death",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.lostBrethren",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blood Shard",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinius' Grace",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "To Slay the Warmaster",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Vengeful Onslaught",
                                     "points": 10
                                 }
                             ]

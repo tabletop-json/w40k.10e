@@ -219,12 +219,12 @@
                 {
                     "name": "Vertus Praetor",
                     "amount": 3,
-                    "cost": 225
+                    "cost": 210
                 },
                 {
                     "name": "Vertus Praetor",
                     "amount": 2,
-                    "cost": 150
+                    "cost": 140
                 }
             ],
             "restrictions": [
@@ -1108,7 +1108,7 @@
             "models": [
                 {
                     "name": "Trajan Valoris",
-                    "points": 150,
+                    "points": 140,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1152,7 +1152,7 @@
             "models": [
                 {
                     "name": "Venerable Contemptor Dreadnought",
-                    "points": 170,
+                    "points": 160,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1363,7 +1363,7 @@
             "models": [
                 {
                     "name": "Contemptor-Achillus Dreadnought",
-                    "points": 165,
+                    "points": 155,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1651,7 +1651,7 @@
             "models": [
                 {
                     "name": "Contemptor-Galatus Dreadnought",
-                    "points": 175,
+                    "points": 165,
                     "gearset": [
                         {
                             "type": "text",

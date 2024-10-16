@@ -31,7 +31,7 @@
             "models": [
                 {
                     "name": "Ahriman",
-                    "points": 130,
+                    "points": 140,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -53,7 +53,7 @@
             "models": [
                 {
                     "name": "Ahriman",
-                    "points": 140,
+                    "points": 150,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -383,7 +383,7 @@
             "models": [
                 {
                     "name": "Exalted Sorcerer",
-                    "points": 100,
+                    "points": 110,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -458,7 +458,7 @@
             "models": [
                 {
                     "name": "Exalted Sorcerer on Disc",
-                    "points": 105,
+                    "points": 115,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -533,7 +533,7 @@
             "models": [
                 {
                     "name": "Forgefiend",
-                    "points": 135,
+                    "points": 145,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -672,7 +672,7 @@
             "models": [
                 {
                     "name": "Infernal Master",
-                    "points": 90,
+                    "points": 105,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -723,7 +723,7 @@
             "models": [
                 {
                     "name": "Magnus the Red",
-                    "points": 440,
+                    "points": 465,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -780,7 +780,7 @@
             "models": [
                 {
                     "name": "Mutalith Vortex Beast",
-                    "points": 150
+                    "points": 160
                 }
             ]
         },
@@ -794,12 +794,12 @@
                 {
                     "name": "Rubric Marine, Aspiring Sorcerer",
                     "amount": 10,
-                    "cost": 210
+                    "cost": 200
                 },
                 {
                     "name": "Rubric Marine, Aspiring Sorcerer",
                     "amount": 5,
-                    "cost": 105
+                    "cost": 110
                 }
             ],
             "restrictions": [
@@ -962,7 +962,7 @@
             "models": [
                 {
                     "name": "Sorcerer",
-                    "points": 95,
+                    "points": 105,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1269,7 +1269,7 @@
                 {
                     "name": "Tzaangor Enlightened, Aviarch",
                     "amount": 3,
-                    "cost": 45
+                    "cost": 50
                 }
             ],
             "restrictions": [

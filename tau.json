@@ -66,7 +66,7 @@
             "models": [
                 {
                     "name": "Commander Farsight",
-                    "points": 105,
+                    "points": 95,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -947,7 +947,7 @@
             "models": [
                 {
                     "name": "Kroot Flesh Shaper",
-                    "points": 55,
+                    "points": 45,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1237,7 +1237,7 @@
             "models": [
                 {
                     "name": "Kroot Trail Shaper",
-                    "points": 65,
+                    "points": 55,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1375,7 +1375,7 @@
             "models": [
                 {
                     "name": "Kroot War Shaper",
-                    "points": 60,
+                    "points": 50,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1919,12 +1919,12 @@
                 {
                     "name": "Kroot Carnivore, Long-quill",
                     "amount": 20,
-                    "cost": 150
+                    "cost": 130
                 },
                 {
                     "name": "Kroot Carnivore, Long-quill",
                     "amount": 10,
-                    "cost": 75
+                    "cost": 65
                 }
             ],
             "restrictions": [
@@ -1992,17 +1992,17 @@
                 {
                     "name": "Krootox Rider",
                     "amount": 3,
-                    "cost": 105
+                    "cost": 90
                 },
                 {
                     "name": "Krootox Rider",
                     "amount": 2,
-                    "cost": 70
+                    "cost": 60
                 },
                 {
                     "name": "Krootox Rider",
                     "amount": 1,
-                    "cost": 35
+                    "cost": 30
                 }
             ],
             "restrictions": [
@@ -2045,12 +2045,12 @@
                 {
                     "name": "Krootox Rampager",
                     "amount": 6,
-                    "cost": 220
+                    "cost": 190
                 },
                 {
                     "name": "Krootox Rampager",
                     "amount": 3,
-                    "cost": 110
+                    "cost": 95
                 }
             ],
             "restrictions": [
@@ -3041,17 +3041,17 @@
                 {
                     "name": "Piranha",
                     "amount": 3,
-                    "cost": 165
+                    "cost": 180
                 },
                 {
                     "name": "Piranha",
                     "amount": 2,
-                    "cost": 110
+                    "cost": 120
                 },
                 {
                     "name": "Piranha",
                     "amount": 1,
-                    "cost": 55
+                    "cost": 60
                 }
             ],
             "restrictions": [
@@ -3435,7 +3435,7 @@
             "models": [
                 {
                     "name": "Riptide Battlesuit",
-                    "points": 180,
+                    "points": 190,
                     "gearset": [
                         {
                             "type": "dropdown",
