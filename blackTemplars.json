@@ -7742,7 +7742,15 @@
                     ]
                 },
                 {
-                    "name": "Eradicator Sergeant"
+                    "name": "Eradicator Sergeant",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Melta Rifle"
+                            }
+                        }
+                    ]
                 }
             ]
         },

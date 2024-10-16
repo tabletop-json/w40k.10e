@@ -1681,11 +1681,208 @@
             "type": "unit",
             "rulesetId": "w40k.10e.ork",
             "name": "Deffkilla Wartrike",
-            "role": "MOUNTED",
+            "role": "CHARACTER",
             "models": [
                 {
                     "name": "Deffkilla Wartrike",
-                    "points": 80
+                    "points": 80,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Wrench"
+                            },
+                            "options": [
+                                {
+                                    "name": "Wrench"
+                                },
+                                {
+                                    "name": "Killsaw"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.bullyBoyz",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Big Gob",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Da Biggest Boss",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "'Eadstompa",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Tellyporta",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.daBigHunt",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Glory Hog",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Proper Killy",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skrag Every Stash!",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Surly as a Squiggoth",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.dreadMob",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gitfinder Googlez",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Press it Fasta!",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Smoky Gubbinz",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Supa-glowy Fing",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.greenTide",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bloodthirsty Belligerence",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Brutal but Kunnin'",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Ferocious Show Off",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Raucous Warcaller",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.kultSpeed",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fasta Than Yooz",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Speed Makes Right",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Squig-hide Tyres",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Wazblasta",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.warHorde",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Follow Me Ladz",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Headwoppa's Killchoppa",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Kunnin' but Brutal",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Super-Cybork Body",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -3284,8 +3481,14 @@
                 {
                     "type": "model",
                     "name": "Warbiker",
-                    "min": 3,
-                    "max": 6
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "type": "model",
+                    "name": "Boss Nob on Warbike",
+                    "min": 1,
+                    "max": 1
                 }
             ],
             "blueprints": [

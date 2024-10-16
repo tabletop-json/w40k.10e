@@ -3960,6 +3960,20 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
+                                "name": "2x Burst Cannons"
+                            },
+                            "options": [
+                                {
+                                    "name": "2x Burst Cannons"
+                                },
+                                {
+                                    "name": "2x Cyclic Ion Blasters"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
                                 "name": "Transport Bay"
                             },
                             "options": [

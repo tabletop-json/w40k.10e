@@ -2375,6 +2375,29 @@
                                     "name": "Starcannon"
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shuriken Cannon"
+                                },
+                                {
+                                    "name": "Aeldari Missile Launcher"
+                                },
+                                {
+                                    "name": "Bright Lance"
+                                },
+                                {
+                                    "name": "Scatter Laser"
+                                },
+                                {
+                                    "name": "Starcannon"
+                                }
+                            ]
                         }
                     ]
                 }
