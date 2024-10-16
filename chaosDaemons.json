@@ -187,7 +187,7 @@
             "models": [
                 {
                     "name": "Rendmaster on Bloodthrone",
-                    "points": 150,
+                    "points": 165,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1109,12 +1109,12 @@
                 {
                     "name": "Beast of Nurgle",
                     "amount": 2,
-                    "cost": 140
+                    "cost": 130
                 },
                 {
                     "name": "Beast of Nurgle",
                     "amount": 1,
-                    "cost": 70
+                    "cost": 65
                 }
             ],
             "restrictions": [
@@ -1210,7 +1210,7 @@
             "models": [
                 {
                     "name": "Shalaxi Helbane",
-                    "points": 450,
+                    "points": 425,
                     "gearset": [
                         {
                             "type": "checkbox",

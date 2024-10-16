@@ -384,12 +384,12 @@
                 {
                     "name": "Corsair Voidreaver, Voidreaver Felarch",
                     "amount": 10,
-                    "cost": 140
+                    "cost": 120
                 },
                 {
                     "name": "Corsair Voidreaver, Voidreaver Felarch",
                     "amount": 5,
-                    "cost": 70
+                    "cost": 60
                 }
             ],
             "restrictions": [
@@ -485,12 +485,12 @@
                 {
                     "name": "Corsair Voidscarred, Voidreaver Felarch, Shade Runner, Soul Weaver, Way Seeker",
                     "amount": 10,
-                    "cost": 180
+                    "cost": 160
                 },
                 {
                     "name": "Corsair Voidscarred, Voidreaver Felarch, Shade Runner, Soul Weaver, Way Seeker",
                     "amount": 5,
-                    "cost": 90
+                    "cost": 80
                 }
             ],
             "restrictions": [
@@ -909,7 +909,7 @@
             "models": [
                 {
                     "name": "Falcon",
-                    "points": 140,
+                    "points": 130,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1151,7 +1151,7 @@
             "models": [
                 {
                     "name": "Fire Prism",
-                    "points": 180,
+                    "points": 170,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1562,12 +1562,12 @@
                 {
                     "name": "Shining Spear, Shining Spear Exarch",
                     "amount": 6,
-                    "cost": 200
+                    "cost": 180
                 },
                 {
                     "name": "Shining Spear, Shining Spear Exarch",
                     "amount": 3,
-                    "cost": 100
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -2375,6 +2375,29 @@
                                     "name": "Starcannon"
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shuriken Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shuriken Cannon"
+                                },
+                                {
+                                    "name": "Aeldari Missile Launcher"
+                                },
+                                {
+                                    "name": "Bright Lance"
+                                },
+                                {
+                                    "name": "Scatter Laser"
+                                },
+                                {
+                                    "name": "Starcannon"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2569,7 +2592,7 @@
             "models": [
                 {
                     "name": "Wave Serpent",
-                    "points": 120,
+                    "points": 110,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2696,7 +2719,7 @@
                 {
                     "name": "Wraithblade",
                     "amount": 5,
-                    "cost": 170
+                    "cost": 160
                 }
             ],
             "restrictions": [
@@ -2744,7 +2767,7 @@
                 {
                     "name": "Wraithguard",
                     "amount": 5,
-                    "cost": 190
+                    "cost": 180
                 }
             ],
             "restrictions": [
@@ -2786,7 +2809,7 @@
             "models": [
                 {
                     "name": "Wraithknight",
-                    "points": 510,
+                    "points": 495,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2997,12 +3020,12 @@
                 {
                     "name": "Warlock Skyrunner",
                     "amount": 3,
-                    "cost": 150
+                    "cost": 135
                 },
                 {
                     "name": "Warlock Skyrunner",
                     "amount": 2,
-                    "cost": 100
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -3045,12 +3068,12 @@
                 {
                     "name": "Warlock",
                     "amount": 4,
-                    "cost": 120
+                    "cost": 110
                 },
                 {
                     "name": "Warlock",
                     "amount": 2,
-                    "cost": 60
+                    "cost": 55
                 }
             ],
             "restrictions": [

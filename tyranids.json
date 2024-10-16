@@ -56,7 +56,7 @@
             "models": [
                 {
                     "name": "Winged Hive Tyrant",
-                    "points": 210,
+                    "points": 200,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1129,7 +1129,7 @@
             "models": [
                 {
                     "name": "Old One Eye",
-                    "points": 140,
+                    "points": 150,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1667,7 +1667,7 @@
             "models": [
                 {
                     "name": "Lictor",
-                    "points": 55
+                    "points": 60
                 }
             ]
         },
@@ -1726,7 +1726,7 @@
                 {
                     "name": "Pyrovore",
                     "amount": 1,
-                    "cost": 35
+                    "cost": 40
                 }
             ],
             "restrictions": [
@@ -1798,12 +1798,12 @@
                 {
                     "name": "Von Ryan's Leaper",
                     "amount": 6,
-                    "cost": 150
+                    "cost": 140
                 },
                 {
                     "name": "Von Ryan's Leaper",
                     "amount": 3,
-                    "cost": 75
+                    "cost": 70
                 }
             ],
             "restrictions": [
@@ -2374,12 +2374,12 @@
                 {
                     "name": "Carnifex",
                     "amount": 2,
-                    "cost": 250
+                    "cost": 230
                 },
                 {
                     "name": "Carnifex",
                     "amount": 1,
-                    "cost": 125
+                    "cost": 115
                 }
             ],
             "restrictions": [

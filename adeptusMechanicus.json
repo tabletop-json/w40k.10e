@@ -165,12 +165,12 @@
                 {
                     "name": "Corpuscarii Electro-Priest",
                     "amount": 10,
-                    "cost": 140
+                    "cost": 130
                 },
                 {
                     "name": "Corpuscarii Electro-Priest",
                     "amount": 5,
-                    "cost": 70
+                    "cost": 65
                 }
             ],
             "restrictions": [
@@ -429,12 +429,12 @@
                 {
                     "name": "Fulgurite Electro-Priest",
                     "amount": 10,
-                    "cost": 150
+                    "cost": 140
                 },
                 {
                     "name": "Fulgurite Electro-Priest",
                     "amount": 5,
-                    "cost": 75
+                    "cost": 70
                 }
             ],
             "restrictions": [
@@ -461,17 +461,17 @@
                 {
                     "name": "Ironstrider Ballistarii",
                     "amount": 3,
-                    "cost": 210
+                    "cost": 225
                 },
                 {
                     "name": "Ironstrider Ballistarii",
                     "amount": 2,
-                    "cost": 140
+                    "cost": 150
                 },
                 {
                     "name": "Ironstrider Ballistarii",
                     "amount": 1,
-                    "cost": 70
+                    "cost": 75
                 }
             ],
             "restrictions": [
@@ -637,7 +637,7 @@
             "models": [
                 {
                     "name": "Onager Dunecrawler",
-                    "points": 160,
+                    "points": 155,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -694,12 +694,12 @@
                 {
                     "name": "Pteraxii Skystalker, Pteraxii Skystalker Alpha",
                     "amount": 10,
-                    "cost": 150
+                    "cost": 140
                 },
                 {
                     "name": "Pteraxii Skystalker, Pteraxii Skystalker Alpha",
                     "amount": 5,
-                    "cost": 75
+                    "cost": 70
                 }
             ],
             "restrictions": [
@@ -735,12 +735,12 @@
                 {
                     "name": "Pteraxii Sterylizor, Pteraxii Sterylizor Alpha",
                     "amount": 10,
-                    "cost": 130
+                    "cost": 160
                 },
                 {
                     "name": "Pteraxii Sterylizor, Pteraxii Sterylizor Alpha",
                     "amount": 5,
-                    "cost": 65
+                    "cost": 80
                 }
             ],
             "restrictions": [
@@ -846,12 +846,12 @@
                 {
                     "name": "Serberys Sulphurhound, Serberys Sulphurhound Alpha",
                     "amount": 6,
-                    "cost": 120
+                    "cost": 110
                 },
                 {
                     "name": "Serberys Sulphurhound, Serberys Sulphurhound Alpha",
                     "amount": 3,
-                    "cost": 60
+                    "cost": 55
                 }
             ],
             "restrictions": [
@@ -1386,7 +1386,7 @@
                 {
                     "name": "Skitarii Vanguard, Skitarii Vanguard Alpha",
                     "amount": 10,
-                    "cost": 90
+                    "cost": 95
                 }
             ],
             "restrictions": [
@@ -1608,7 +1608,7 @@
             "models": [
                 {
                     "name": "Sydonian Skatros",
-                    "points": 60,
+                    "points": 50,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1775,7 +1775,7 @@
             "models": [
                 {
                     "name": "Tech-Priest Dominus",
-                    "points": 75,
+                    "points": 70,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1970,7 +1970,7 @@
             "models": [
                 {
                     "name": "Tech-Priest Enginseer",
-                    "points": 60,
+                    "points": 55,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2137,7 +2137,7 @@
             "models": [
                 {
                     "name": "Tech-Priest Manipulus",
-                    "points": 65,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "checkbox",

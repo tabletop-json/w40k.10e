@@ -952,7 +952,7 @@
             "models": [
                 {
                     "name": "Biologus Putrifier",
-                    "points": 60,
+                    "points": 50,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1197,12 +1197,12 @@
                 {
                     "name": "Deathshroud Terminator, Deathshroud Champion",
                     "amount": 6,
-                    "cost": 240
+                    "cost": 220
                 },
                 {
                     "name": "Deathshroud Terminator, Deathshroud Champion",
                     "amount": 3,
-                    "cost": 120
+                    "cost": 110
                 }
             ],
             "restrictions": [
@@ -1760,7 +1760,7 @@
             "models": [
                 {
                     "name": "Mortarion",
-                    "points": 325,
+                    "points": 300,
                     "gearset": [
                         {
                             "type": "checkbox",

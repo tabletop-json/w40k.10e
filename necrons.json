@@ -246,7 +246,7 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Arisen Tryant",
+                                    "name": "Arisen Tyrant",
                                     "points": 25
                                 },
                                 {
@@ -413,7 +413,7 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Arisen Tryant",
+                                    "name": "Arisen Tyrant",
                                     "points": 25
                                 },
                                 {
@@ -611,7 +611,7 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Arisen Tryant",
+                                    "name": "Arisen Tyrant",
                                     "points": 25
                                 },
                                 {
@@ -670,7 +670,7 @@
             "models": [
                 {
                     "name": "Catacomb Command Barge",
-                    "points": 130,
+                    "points": 120,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -813,7 +813,7 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Arisen Tryant",
+                                    "name": "Arisen Tyrant",
                                     "points": 25
                                 },
                                 {
@@ -997,7 +997,7 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Arisen Tryant",
+                                    "name": "Arisen Tyrant",
                                     "points": 25
                                 },
                                 {
@@ -1164,7 +1164,7 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Arisen Tryant",
+                                    "name": "Arisen Tyrant",
                                     "points": 25
                                 },
                                 {
@@ -1331,7 +1331,7 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Arisen Tryant",
+                                    "name": "Arisen Tyrant",
                                     "points": 25
                                 },
                                 {
@@ -1498,7 +1498,7 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Arisen Tryant",
+                                    "name": "Arisen Tyrant",
                                     "points": 25
                                 },
                                 {
@@ -1665,7 +1665,7 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Arisen Tryant",
+                                    "name": "Arisen Tyrant",
                                     "points": 25
                                 },
                                 {
@@ -1832,7 +1832,7 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Arisen Tryant",
+                                    "name": "Arisen Tyrant",
                                     "points": 25
                                 },
                                 {
@@ -2108,7 +2108,7 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Arisen Tryant",
+                                    "name": "Arisen Tyrant",
                                     "points": 25
                                 },
                                 {
@@ -2216,12 +2216,12 @@
                 {
                     "name": "Deathmark",
                     "amount": 10,
-                    "cost": 120
+                    "cost": 130
                 },
                 {
                     "name": "Deathmark",
                     "amount": 5,
-                    "cost": 60
+                    "cost": 65
                 }
             ],
             "restrictions": [
@@ -2342,7 +2342,7 @@
             "models": [
                 {
                     "name": "Triarch Stalker",
-                    "points": 125,
+                    "points": 110,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2514,7 +2514,7 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Arisen Tryant",
+                                    "name": "Arisen Tyrant",
                                     "points": 25
                                 },
                                 {
@@ -2777,12 +2777,12 @@
                 {
                     "name": "Triarch Praetorian",
                     "amount": 10,
-                    "cost": 240
+                    "cost": 200
                 },
                 {
                     "name": "Triarch Praetorian",
                     "amount": 5,
-                    "cost": 120
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -2889,7 +2889,7 @@
             "models": [
                 {
                     "name": "Annihilation Barge",
-                    "points": 115,
+                    "points": 105,
                     "gearset": [
                         {
                             "type": "text",
@@ -2924,7 +2924,7 @@
             "models": [
                 {
                     "name": "Doomsday Ark",
-                    "points": 200
+                    "points": 190
                 }
             ]
         },
@@ -2953,7 +2953,7 @@
                 {
                     "name": "Lokhust Destroyer",
                     "amount": 1,
-                    "cost": 30
+                    "cost": 35
                 }
             ],
             "restrictions": [
@@ -2980,17 +2980,17 @@
                 {
                     "name": "Lokhust Heavy Destroyer",
                     "amount": 3,
-                    "cost": 150
+                    "cost": 165
                 },
                 {
                     "name": "Lokhust Heavy Destroyer",
                     "amount": 2,
-                    "cost": 100
+                    "cost": 110
                 },
                 {
                     "name": "Lokhust Heavy Destroyer",
                     "amount": 1,
-                    "cost": 50
+                    "cost": 55
                 }
             ],
             "restrictions": [
@@ -3084,7 +3084,7 @@
             "models": [
                 {
                     "name": "Obelisk",
-                    "points": 325
+                    "points": 300
                 }
             ]
         },
@@ -3097,7 +3097,7 @@
             "models": [
                 {
                     "name": "Tesseract Vault",
-                    "points": 400
+                    "points": 425
                 }
             ]
         },
@@ -3110,7 +3110,7 @@
             "models": [
                 {
                     "name": "Monolith",
-                    "points": 375,
+                    "points": 400,
                     "gearset": [
                         {
                             "type": "dropdown",

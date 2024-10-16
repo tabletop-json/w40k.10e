@@ -159,7 +159,7 @@
             "models": [
                 {
                     "name": "Tank Commander",
-                    "points": 205,
+                    "points": 225,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2371,12 +2371,12 @@
                 {
                     "name": "Ogryn, Ogryn Bone 'ead",
                     "amount": 6,
-                    "cost": 130
+                    "cost": 120
                 },
                 {
                     "name": "Ogryn, Ogryn Bone 'ead",
                     "amount": 3,
-                    "cost": 65
+                    "cost": 60
                 }
             ],
             "restrictions": [
@@ -2412,12 +2412,12 @@
                 {
                     "name": "Bullgryn, Bullgryn Bone 'ead",
                     "amount": 6,
-                    "cost": 180
+                    "cost": 220
                 },
                 {
                     "name": "Bullgryn, Bullgryn Bone 'ead",
                     "amount": 3,
-                    "cost": 90
+                    "cost": 110
                 }
             ],
             "restrictions": [
@@ -2616,17 +2616,17 @@
                 {
                     "name": "Scout Sentinel",
                     "amount": 3,
-                    "cost": 180
+                    "cost": 165
                 },
                 {
                     "name": "Scout Sentinel",
                     "amount": 2,
-                    "cost": 120
+                    "cost": 110
                 },
                 {
                     "name": "Scout Sentinel",
                     "amount": 1,
-                    "cost": 60
+                    "cost": 55
                 }
             ],
             "restrictions": [
@@ -2913,7 +2913,7 @@
                 {
                     "name": "Heavy Weapons Team",
                     "amount": 3,
-                    "cost": 60
+                    "cost": 50
                 }
             ],
             "restrictions": [
@@ -2965,7 +2965,7 @@
                 {
                     "name": "Ordnance Team",
                     "amount": 2,
-                    "cost": 110
+                    "cost": 100
                 }
             ],
             "models": [

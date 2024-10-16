@@ -34,7 +34,7 @@
             "models": [
                 {
                     "name": "Archon",
-                    "points": 75,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -128,7 +128,7 @@
             "models": [
                 {
                     "name": "Beastmaster",
-                    "points": 105,
+                    "points": 120,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -227,7 +227,7 @@
                 {
                     "name": "Lhamaean, Medusae, Sslyth, Ur-ghul",
                     "amount": 4,
-                    "cost": 85
+                    "cost": 95
                 }
             ],
             "models": [
@@ -295,7 +295,7 @@
             "models": [
                 {
                     "name": "Drazhar",
-                    "points": 75,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -439,12 +439,12 @@
                 {
                     "name": "Hellion, Helliarch",
                     "amount": 10,
-                    "cost": 170
+                    "cost": 150
                 },
                 {
                     "name": "Hellion, Helliarch",
                     "amount": 5,
-                    "cost": 85
+                    "cost": 75
                 }
             ],
             "restrictions": [
@@ -511,12 +511,12 @@
                 {
                     "name": "Incubi, Klaivex",
                     "amount": 10,
-                    "cost": 150
+                    "cost": 170
                 },
                 {
                     "name": "Incubi, Klaivex",
                     "amount": 5,
-                    "cost": 75
+                    "cost": 85
                 }
             ],
             "restrictions": [
@@ -682,7 +682,7 @@
             "models": [
                 {
                     "name": "Lelith Hesperax",
-                    "points": 85,
+                    "points": 95,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -710,7 +710,7 @@
                 {
                     "name": "Mandrake, Nightfiend",
                     "amount": 5,
-                    "cost": 65
+                    "cost": 70
                 }
             ],
             "restrictions": [
@@ -881,12 +881,12 @@
                 {
                     "name": "Reaver, Arena Champion",
                     "amount": 6,
-                    "cost": 140
+                    "cost": 120
                 },
                 {
                     "name": "Reaver, Arena Champion",
                     "amount": 3,
-                    "cost": 70
+                    "cost": 65
                 }
             ],
             "restrictions": [
@@ -1655,12 +1655,12 @@
                 {
                     "name": "Corsair Voidscarred, Voidreaver Felarch, Shade Runner, Soul Weaver, Way Seeker",
                     "amount": 10,
-                    "cost": 180
+                    "cost": 160
                 },
                 {
                     "name": "Corsair Voidscarred, Voidreaver Felarch, Shade Runner, Soul Weaver, Way Seeker",
                     "amount": 5,
-                    "cost": 90
+                    "cost": 80
                 }
             ],
             "restrictions": [

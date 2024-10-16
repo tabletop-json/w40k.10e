@@ -81,7 +81,7 @@
             "models": [
                 {
                     "name": "Abaddon the Despoiler",
-                    "points": 295,
+                    "points": 280,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2303,7 +2303,7 @@
             "models": [
                 {
                     "name": "Sorcerer in Terminator Armour",
-                    "points": 90,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2619,7 +2619,7 @@
             "models": [
                 {
                     "name": "Lord Discordant on Helstalker",
-                    "points": 190,
+                    "points": 175,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -3547,7 +3547,7 @@
                 {
                     "name": "Cult Demagogue, Mindwitch, Iconarch, Blessed Blade",
                     "amount": 5,
-                    "cost": 65
+                    "cost": 80
                 }
             ],
             "models": [
@@ -3870,7 +3870,7 @@
                 {
                     "name": "Legionary, Aspiring Champion",
                     "amount": 10,
-                    "cost": 180
+                    "cost": 170
                 },
                 {
                     "name": "Legionary, Aspiring Champion",
@@ -4489,7 +4489,7 @@
                 {
                     "name": "Mutant, Torment",
                     "amount": 16,
-                    "cost": 180
+                    "cost": 195
                 },
                 {
                     "name": "Mutant, Torment",
@@ -4559,12 +4559,12 @@
                 {
                     "name": "Terminator, Terminator Champion",
                     "amount": 10,
-                    "cost": 370
+                    "cost": 360
                 },
                 {
                     "name": "Terminator, Terminator Champion",
                     "amount": 5,
-                    "cost": 185
+                    "cost": 180
                 }
             ],
             "restrictions": [
@@ -5016,12 +5016,12 @@
                 {
                     "name": "Possessed, Possessed Champion",
                     "amount": 10,
-                    "cost": 250
+                    "cost": 240
                 },
                 {
                     "name": "Possessed, Possessed Champion",
                     "amount": 5,
-                    "cost": 125
+                    "cost": 120
                 }
             ],
             "restrictions": [
@@ -5611,7 +5611,7 @@
                 {
                     "name": "Raptor, Raptor Champion",
                     "amount": 10,
-                    "cost": 180
+                    "cost": 170
                 },
                 {
                     "name": "Raptor, Raptor Champion",
@@ -5744,7 +5744,7 @@
                 {
                     "name": "Warp Talon, Warp Talon Champion",
                     "amount": 5,
-                    "cost": 135
+                    "cost": 125
                 }
             ],
             "restrictions": [
@@ -5825,7 +5825,7 @@
                 {
                     "name": "Havoc, Havoc Champion",
                     "amount": 5,
-                    "cost": 135
+                    "cost": 125
                 }
             ],
             "restrictions": [
@@ -5963,7 +5963,7 @@
                 {
                     "name": "Obliterator",
                     "amount": 2,
-                    "cost": 170
+                    "cost": 160
                 }
             ],
             "restrictions": [
@@ -6112,7 +6112,7 @@
             "models": [
                 {
                     "name": "Predator Annihilator",
-                    "points": 140,
+                    "points": 130,
                     "gearset": [
                         {
                             "type": "text",
@@ -6985,7 +6985,7 @@
             "models": [
                 {
                     "name": "Vashtorr the Arkifane",
-                    "points": 190,
+                    "points": 175,
                     "gearset": [
                         {
                             "type": "checkbox",
