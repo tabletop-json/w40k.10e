@@ -85,7 +85,7 @@
                         {
                             "type": "text",
                             "selectedOption": {
-                                "name": "Heavy Power Weapon"
+                                "name": "Aberrant Weapons"
                             }
                         }
                     ]
@@ -94,23 +94,9 @@
                     "name": "Aberrant Hypermorph",
                     "gearset": [
                         {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Heavy Power Weapon"
-                            },
-                            "options": [
-                                {
-                                    "name": "Heavy Power Weapon"
-                                },
-                                {
-                                    "name": "Heavy Improvised Weapon"
-                                }
-                            ]
-                        },
-                        {
                             "type": "text",
                             "selectedOption": {
-                                "name": "Hypermorph Tail"
+                                "name": "Aberrant Weapons"
                             }
                         }
                     ]
