@@ -6212,6 +6212,126 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": "w40k.10e.am.unit.tempestusAquilons",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Tempestus Aquilons",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Tempestus Aquilon, Tempestor Aquilon",
+                    "amount": 10,
+                    "cost": 90
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Tempestus Aquilon",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Tempestor Aquilon",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Tempestus Aquilon",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Hot-Shot Lascarbine"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hot-Shot Lascarbine"
+                                },
+                                {
+                                    "name": "Melta Carbine"
+                                },
+                                {
+                                    "name": "Plasma Carbine"
+                                },
+                                {
+                                    "name": "2x Hot-Shot Laspistols"
+                                },
+                                {
+                                    "name": "Hot-Shot Long-Las"
+                                },
+                                {
+                                    "name": "Hot-shot Laspistol"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Tempestor Aquilon",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Hot-Shot Lascarbine"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hot-Shot Lascarbine"
+                                },
+                                {
+                                    "name": "Chainsword"
+                                },
+                                {
+                                    "name": "Power Weapon"
+                                },
+                                {
+                                    "name": "Hot-Shot Laspistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Hot-shot Laspistol"
+                                },
+                                {
+                                    "name": "Bolt Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Sentry Flamer"
+                            },
+                            "options": [
+                                {
+                                    "name": "Sentry Flamer"
+                                },
+                                {
+                                    "name": "Sentry Hot-Shot Volley Gun"
+                                },
+                                {
+                                    "name": "Sentry Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

@@ -3110,25 +3110,66 @@
             "points": [
                 {
                     "name": "Vespid Stingwing, Vespid Strain Leader",
+                    "amount": 10,
+                    "cost": 130
+                },
+                {
+                    "name": "Vespid Stingwing, Vespid Strain Leader",
                     "amount": 5,
                     "cost": 65
                 }
             ],
-            "models": [
+            "restrictions": [
                 {
-                    "name": "Vespid Stingwing"
+                    "type": "model",
+                    "name": "Vespid Stingwing",
+                    "min": 4,
+                    "max": 9
                 },
                 {
-                    "name": "Vespid Stingwing"
+                    "type": "model",
+                    "name": "Vespid Strain Leader",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Vespid Stingwing",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Neutron Blaster"
+                            },
+                            "options": [
+                                {
+                                    "name": "Neutron Blaster"
+                                },
+                                {
+                                    "name": "T'au Flamer"
+                                },
+                                {
+                                    "name": "Neutron Grenade Launcher"
+                                },
+                                {
+                                    "name": "Neutron Rail Rifle"
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
-                    "name": "Vespid Stingwing"
-                },
-                {
-                    "name": "Vespid Stingwing"
-                },
-                {
-                    "name": "Vespid Strain Leader"
+                    "name": "Vespid Strain Leader",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Oversight Drone"
+                            },
+                            "selected": false
+                        }
+                    ]
                 }
             ]
         },
