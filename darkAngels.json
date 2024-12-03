@@ -68,6 +68,12 @@
             "type": "detachment",
             "rulesetId": "w40k.10e.da",
             "name": "Unforgiven Task Force"
+        },
+        {
+            "id": "w40k.10e.da.dt.lionsBladeTaskForce",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.da",
+            "name": "Lion's Blade Task Force"
         }
     ],
     "units": [
@@ -416,6 +422,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.lionsBladeTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calibanite Armaments",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of the Hunt",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Stalwart Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fulgus Magna",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -686,6 +721,122 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.companyHunters",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Master of Manoeuvre",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Master-crafted Weapon",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Mounted Strategist",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Recon Hunter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.innerCircleTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Deathwing",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Deathwing Assault",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eye of the Unseen",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Singular Will",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.unforgivenTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Pennant of Remembrance",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Shroud of Heroes",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Stubborn Tenacity",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Weapons of the First Legion",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.lionsBladeTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calibanite Armaments",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of the Hunt",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Stalwart Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fulgus Magna",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -1020,6 +1171,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.lionsBladeTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calibanite Armaments",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of the Hunt",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Stalwart Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fulgus Magna",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1330,6 +1510,35 @@
                                 {
                                     "name": "Weapons of the First Legion",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.lionsBladeTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calibanite Armaments",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of the Hunt",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Stalwart Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fulgus Magna",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -1672,6 +1881,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.lionsBladeTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calibanite Armaments",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of the Hunt",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Stalwart Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fulgus Magna",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1984,6 +2222,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.lionsBladeTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calibanite Armaments",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of the Hunt",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Stalwart Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fulgus Magna",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2294,6 +2561,35 @@
                                 {
                                     "name": "Weapons of the First Legion",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.lionsBladeTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calibanite Armaments",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of the Hunt",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Stalwart Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fulgus Magna",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -2675,6 +2971,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.lionsBladeTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calibanite Armaments",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of the Hunt",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Stalwart Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fulgus Magna",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2985,6 +3310,35 @@
                                 {
                                     "name": "Weapons of the First Legion",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.lionsBladeTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calibanite Armaments",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of the Hunt",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Stalwart Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fulgus Magna",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -3316,6 +3670,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.lionsBladeTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calibanite Armaments",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of the Hunt",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Stalwart Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fulgus Magna",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3626,6 +4009,35 @@
                                 {
                                     "name": "Weapons of the First Legion",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.lionsBladeTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calibanite Armaments",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of the Hunt",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Stalwart Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fulgus Magna",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -3954,6 +4366,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.lionsBladeTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calibanite Armaments",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of the Hunt",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Stalwart Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fulgus Magna",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -4266,6 +4707,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.lionsBladeTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calibanite Armaments",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of the Hunt",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Stalwart Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fulgus Magna",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -4576,6 +5046,35 @@
                                 {
                                     "name": "Weapons of the First Legion",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.lionsBladeTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calibanite Armaments",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of the Hunt",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Stalwart Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fulgus Magna",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -4925,6 +5424,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.lionsBladeTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calibanite Armaments",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of the Hunt",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Stalwart Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fulgus Magna",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -5235,6 +5763,35 @@
                                 {
                                     "name": "Weapons of the First Legion",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.lionsBladeTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calibanite Armaments",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of the Hunt",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Stalwart Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fulgus Magna",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -5859,6 +6416,35 @@
                                 {
                                     "name": "Weapons of the First Legion",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.lionsBladeTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calibanite Armaments",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of the Hunt",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Stalwart Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fulgus Magna",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -6598,6 +7184,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.lionsBladeTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calibanite Armaments",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of the Hunt",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Stalwart Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fulgus Magna",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -6908,6 +7523,35 @@
                                 {
                                     "name": "Weapons of the First Legion",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.lionsBladeTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calibanite Armaments",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of the Hunt",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Stalwart Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fulgus Magna",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -7236,6 +7880,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.lionsBladeTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calibanite Armaments",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of the Hunt",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Stalwart Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fulgus Magna",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -7546,6 +8219,35 @@
                                 {
                                     "name": "Weapons of the First Legion",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.lionsBladeTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calibanite Armaments",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of the Hunt",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Stalwart Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fulgus Magna",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -7887,6 +8589,35 @@
                                 {
                                     "name": "Weapons of the First Legion",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.lionsBladeTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calibanite Armaments",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of the Hunt",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Stalwart Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fulgus Magna",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -8453,6 +9184,35 @@
                                 {
                                     "name": "Weapons of the First Legion",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.lionsBladeTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calibanite Armaments",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of the Hunt",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Stalwart Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fulgus Magna",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -11248,6 +12008,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.lionsBladeTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calibanite Armaments",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of the Hunt",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Stalwart Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fulgus Magna",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -11648,6 +12437,35 @@
                                 {
                                     "name": "Weapons of the First Legion",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.da.dt.lionsBladeTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calibanite Armaments",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of the Hunt",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Stalwart Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fulgus Magna",
+                                    "points": 20
                                 }
                             ]
                         }

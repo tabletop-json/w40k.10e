@@ -44,6 +44,12 @@
             "type": "detachment",
             "rulesetId": "w40k.10e.nid",
             "name": "Synaptic Nexus"
+        },
+        {
+            "id": "w40k.10e.nid.dt.warriorBioformOnslaught",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Warrior Bioform Onslaught"
         }
     ],
     "units": [
@@ -256,6 +262,35 @@
                                 {
                                     "name": "Dirgeheart of Kharis",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nid.dt.warriorBioformOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Synaptic Tyrant",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Ocular Adaptation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Sensory Assimilation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Elevated Might",
+                                    "points": 30
                                 }
                             ]
                         }
@@ -491,6 +526,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nid.dt.warriorBioformOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Synaptic Tyrant",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Ocular Adaptation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Sensory Assimilation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Elevated Might",
+                                    "points": 30
+                                }
+                            ]
                         }
                     ]
                 }
@@ -709,6 +773,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nid.dt.warriorBioformOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Synaptic Tyrant",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Ocular Adaptation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Sensory Assimilation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Elevated Might",
+                                    "points": 30
+                                }
+                            ]
                         }
                     ]
                 }
@@ -903,6 +996,35 @@
                                 {
                                     "name": "Dirgeheart of Kharis",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nid.dt.warriorBioformOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Synaptic Tyrant",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Ocular Adaptation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Sensory Assimilation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Elevated Might",
+                                    "points": 30
                                 }
                             ]
                         }
@@ -1113,6 +1235,35 @@
                                 {
                                     "name": "Dirgeheart of Kharis",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nid.dt.warriorBioformOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Synaptic Tyrant",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Ocular Adaptation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Sensory Assimilation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Elevated Might",
+                                    "points": 30
                                 }
                             ]
                         }
@@ -1651,6 +1802,35 @@
                                 {
                                     "name": "Dirgeheart of Kharis",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nid.dt.warriorBioformOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Synaptic Tyrant",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Ocular Adaptation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Sensory Assimilation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Elevated Might",
+                                    "points": 30
                                 }
                             ]
                         }
@@ -2217,6 +2397,35 @@
                                 {
                                     "name": "Dirgeheart of Kharis",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nid.dt.warriorBioformOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Synaptic Tyrant",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Ocular Adaptation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Sensory Assimilation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Elevated Might",
+                                    "points": 30
                                 }
                             ]
                         }
