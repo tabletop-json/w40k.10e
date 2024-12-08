@@ -43,6 +43,13 @@
             "rulesetId": "w40k.10e.adm",
             "name": "Skitarii Hunter Cohort",
             "rule": ""
+        },
+        {
+            "id": "w40k.10e.adm.dt.haloscreedBattleClade",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Haloscreed Battle Clade",
+            "rule": ""
         }
     ],
     "units": [
@@ -346,6 +353,56 @@
                                 },
                                 {
                                     "name": "Veiled Hunter",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.haloscreedBattleClade",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Transoracular Dyad Wafers",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Cognitive Reinforcement",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Sanctified Ordnance",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Inloaded Lethality",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.haloscreedBattleClade",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Transoracular Dyad Wafers",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Sanctified Ordnance",
                                     "points": 10
                                 }
                             ]
@@ -1276,6 +1333,27 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.haloscreedBattleClade",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Cognitive Reinforcement",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Sanctified Ordnance",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1761,6 +1839,27 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.haloscreedBattleClade",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Cognitive Reinforcement",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Sanctified Ordnance",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1956,6 +2055,31 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.haloscreedBattleClade",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Cognitive Reinforcement",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Sanctified Ordnance",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Inloaded Lethality",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2120,6 +2244,27 @@
                                 },
                                 {
                                     "name": "Veiled Hunter",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.haloscreedBattleClade",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Cognitive Reinforcement",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Sanctified Ordnance",
                                     "points": 10
                                 }
                             ]
@@ -2304,6 +2449,31 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.haloscreedBattleClade",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Cognitive Reinforcement",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Sanctified Ordnance",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Inloaded Lethality",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2468,6 +2638,27 @@
                                 },
                                 {
                                     "name": "Veiled Hunter",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.adm.dt.haloscreedBattleClade",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Cognitive Reinforcement",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Sanctified Ordnance",
                                     "points": 10
                                 }
                             ]

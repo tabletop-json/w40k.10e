@@ -36,6 +36,13 @@
             "rulesetId": "w40k.10e.cst",
             "name": "Talons of the Emperor",
             "rule": ""
+        },
+        {
+            "id": "w40k.10e.cst.dt.solarSpearhead",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Solar Spearhead",
+            "rule": ""
         }
     ],
     "units": [
@@ -569,6 +576,31 @@
                                     "points": 30
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.cst.dt.solarSpearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Talisman",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Augury Uplink",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Kataphraktoi",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -592,7 +624,7 @@
                             },
                             "selected": false
                         },
-{
+                        {
                             "type": "dropdown",
                             "color": "green",
                             "detachmentId": "w40k.10e.cst.dt.auricChampions",
@@ -705,6 +737,31 @@
                                 {
                                     "name": "Radiant Mantle",
                                     "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.cst.dt.solarSpearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Talisman",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Augury Uplink",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Kataphraktoi",
+                                    "points": 10
                                 }
                             ]
                         }
@@ -827,7 +884,7 @@
                                 }
                             ]
                         },
-{
+                        {
                             "type": "dropdown",
                             "color": "green",
                             "detachmentId": "w40k.10e.cst.dt.auricChampions",
@@ -940,6 +997,31 @@
                                 {
                                     "name": "Radiant Mantle",
                                     "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.cst.dt.solarSpearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Talisman",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Augury Uplink",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Kataphraktoi",
+                                    "points": 10
                                 }
                             ]
                         }
@@ -979,7 +1061,7 @@
                                 }
                             ]
                         },
-{
+                        {
                             "type": "dropdown",
                             "color": "green",
                             "detachmentId": "w40k.10e.cst.dt.auricChampions",
@@ -1092,6 +1174,31 @@
                                 {
                                     "name": "Radiant Mantle",
                                     "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.cst.dt.solarSpearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Talisman",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Augury Uplink",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Kataphraktoi",
+                                    "points": 10
                                 }
                             ]
                         }
@@ -1173,6 +1280,31 @@
                             "selectedOption": {
                                 "name": "Contemptor Combat Weapon"
                             }
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.cst.dt.solarSpearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Talisman",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Augury Uplink",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Honoured Fallen (Aura)",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1396,6 +1528,31 @@
                             "selectedOption": {
                                 "name": "Achillus Dreadspear"
                             }
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.cst.dt.solarSpearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Talisman",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Augury Uplink",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Honoured Fallen (Aura)",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1563,6 +1720,31 @@
                             "selectedOption": {
                                 "name": "Spiculus Bolt Launcher"
                             }
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.cst.dt.solarSpearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Talisman",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Augury Uplink",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Honoured Fallen (Aura)",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1658,6 +1840,31 @@
                             "selectedOption": {
                                 "name": "Galatus Warblade"
                             }
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.cst.dt.solarSpearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Talisman",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Augury Uplink",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Honoured Fallen (Aura)",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }

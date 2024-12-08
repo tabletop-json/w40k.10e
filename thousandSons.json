@@ -19,6 +19,13 @@
             "rulesetId": "w40k.10e.tsons",
             "name": "Cult of Magic",
             "rule": ""
+        },
+        {
+            "id": "w40k.10e.tsons.dt.hexwarpThrallband",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Hexwarp Thrallband",
+            "rule": ""
         }
     ],
     "units": [
@@ -444,6 +451,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.hexwarpThrallband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Arcane Might",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Empowered Manifestation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Empyric Onslaught",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Noctilith Mantle",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -517,6 +553,35 @@
                                 {
                                     "name": "Arcane Vortex",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.hexwarpThrallband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Arcane Might",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Empowered Manifestation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Empyric Onslaught",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Noctilith Mantle",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -707,6 +772,35 @@
                                 {
                                     "name": "Arcane Vortex",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.hexwarpThrallband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Arcane Might",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Empowered Manifestation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Empyric Onslaught",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Noctilith Mantle",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -1016,6 +1110,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.hexwarpThrallband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Arcane Might",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Empowered Manifestation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Empyric Onslaught",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Noctilith Mantle",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1082,6 +1205,35 @@
                                 {
                                     "name": "Arcane Vortex",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.hexwarpThrallband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Arcane Might",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Empowered Manifestation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Empyric Onslaught",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Noctilith Mantle",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -1198,6 +1350,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.hexwarpThrallband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Arcane Might",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Empowered Manifestation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Empyric Onslaught",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Noctilith Mantle",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1247,6 +1428,35 @@
                                 {
                                     "name": "Arcane Vortex",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.hexwarpThrallband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Arcane Might",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Empowered Manifestation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Empyric Onslaught",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Noctilith Mantle",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -1377,6 +1587,35 @@
                                 {
                                     "name": "Arcane Vortex",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.hexwarpThrallband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Arcane Might",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Empowered Manifestation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Empyric Onslaught",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Noctilith Mantle",
+                                    "points": 15
                                 }
                             ]
                         }
