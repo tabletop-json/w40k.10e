@@ -87,35 +87,6 @@
                                     "points": 25
                                 }
                             ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.dg.dt.flyblownHost",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Droning Chorus",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Insectile Murmuration",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Rejuvenating Swarm",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Plagueveil",
-                                    "points": 25
-                                }
-                            ]
                         }
                     ]
                 }
@@ -176,35 +147,6 @@
                                 },
                                 {
                                     "name": "Shamblerot",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.dg.dt.flyblownHost",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Droning Chorus",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Insectile Murmuration",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Rejuvenating Swarm",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Plagueveil",
                                     "points": 25
                                 }
                             ]

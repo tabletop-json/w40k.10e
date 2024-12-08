@@ -36,6 +36,13 @@
             "rulesetId": "w40k.10e.agt",
             "name": "Alien Hunters",
             "rule": ""
+        },
+        {
+            "id": "w40k.10e.agt.dt.veiledBladeEliminationForce",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.agt",
+            "name": "Veiled Blade Elimination Force",
+            "rule": ""
         }
     ],
     "units": [
@@ -48,7 +55,7 @@
             "models": [
                 {
                     "name": "Callidus Assassin",
-                    "points": 100
+                    "points": 140
                 }
             ]
         },
@@ -128,7 +135,7 @@
             "models": [
                 {
                     "name": "Culexus Assassin",
-                    "points": 100
+                    "points": 140
                 }
             ]
         },
@@ -241,7 +248,7 @@
             "models": [
                 {
                     "name": "Eversor Assassin",
-                    "points": 110
+                    "points": 145
                 }
             ]
         },
@@ -1725,7 +1732,7 @@
             "models": [
                 {
                     "name": "Vindicare Assassin",
-                    "points": 110
+                    "points": 155
                 }
             ]
         },

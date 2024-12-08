@@ -38,6 +38,12 @@
             "type": "detachment",
             "rulesetId": "w40k.10e.nec",
             "name": "Obeisance Phalanx"
+        },
+        {
+            "id": "w40k.10e.nec.dt.starshatterArsenal",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Starshatter Arsenal"
         }
     ],
     "units": [
@@ -291,6 +297,31 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.starshatterArsenal",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Miniaturised Nebuloscope",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Demanding Leader",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Chrono-Impedance Fields",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -456,6 +487,31 @@
                                 {
                                     "name": "Warrior Noble",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.starshatterArsenal",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Miniaturised Nebuloscope",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Demanding Leader",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Chrono-Impedance Fields",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -654,6 +710,31 @@
                                 {
                                     "name": "Warrior Noble",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.starshatterArsenal",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Miniaturised Nebuloscope",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Demanding Leader",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Chrono-Impedance Fields",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -858,6 +939,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.starshatterArsenal",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dread Majesty (Aura)",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Miniaturised Nebuloscope",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Demanding Leader",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Chrono-Impedance Fields",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1042,6 +1152,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.starshatterArsenal",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dread Majesty (Aura)",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Miniaturised Nebuloscope",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Demanding Leader",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Chrono-Impedance Fields",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1207,6 +1346,35 @@
                                 {
                                     "name": "Warrior Noble",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.starshatterArsenal",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dread Majesty (Aura)",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Miniaturised Nebuloscope",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Demanding Leader",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Chrono-Impedance Fields",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -1376,6 +1544,31 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.starshatterArsenal",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Miniaturised Nebuloscope",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Demanding Leader",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Chrono-Impedance Fields",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1541,6 +1734,31 @@
                                 {
                                     "name": "Warrior Noble",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.starshatterArsenal",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Miniaturised Nebuloscope",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Demanding Leader",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Chrono-Impedance Fields",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -1710,6 +1928,31 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.starshatterArsenal",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Miniaturised Nebuloscope",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Demanding Leader",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Chrono-Impedance Fields",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1875,6 +2118,31 @@
                                 {
                                     "name": "Warrior Noble",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.starshatterArsenal",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Miniaturised Nebuloscope",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Demanding Leader",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Chrono-Impedance Fields",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -2151,6 +2419,31 @@
                                 {
                                     "name": "Warrior Noble",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.starshatterArsenal",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Miniaturised Nebuloscope",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Demanding Leader",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Chrono-Impedance Fields",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -2557,6 +2850,31 @@
                                 {
                                     "name": "Warrior Noble",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.starshatterArsenal",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Miniaturised Nebuloscope",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Demanding Leader",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Chrono-Impedance Fields",
+                                    "points": 25
                                 }
                             ]
                         }
