@@ -1,0 +1,321 @@
+{
+    "config": {
+        "id": "w40k.10e.forgeworldAllies.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.forgeworldAllies",
+        "name": "Forgeworld",
+        "enabled": false,
+        "endpoint": "forgeworldAllies.json"
+    },
+    "units": [
+        {
+            "id": "w40k.10e.adm.unit.techpriestDominus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Tech-Priest Dominus",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Tech-Priest Dominus",
+                    "points": 70,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Macrostubber"
+                            },
+                            "options": [
+                                {
+                                    "name": "Macrostubber"
+                                },
+                                {
+                                    "name": "Phosphor Serpenta"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Volkite Blaster"
+                            },
+                            "options": [
+                                {
+                                    "name": "Volkite Blaster"
+                                },
+                                {
+                                    "name": "Eradication Ray"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorForgepact",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Magos Questoris",
+                                    "points": 35
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.techpriestManipulus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Tech-Priest Manipulus",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Tech-Priest Manipulus",
+                    "points": 60,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Magnarail Lance"
+                            },
+                            "options": [
+                                {
+                                    "name": "Magnarail Lance"
+                                },
+                                {
+                                    "name": "Transonic Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorForgepact",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Magos Questoris",
+                                    "points": 35
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.skitariiMarshal",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Skitarii Marshal",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Skitarii Marshal",
+                    "points": 35
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.skitariiRangers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Skitarii Rangers",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Skitarii Ranger, Skitarii Ranger Alpha",
+                    "amount": 10,
+                    "cost": 85
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Skitarii Ranger",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Skitarii Ranger Alpha",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Skitarii Ranger",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Galvanic Rifle"
+                            },
+                            "options": [
+                                {
+                                    "name": "Galvanic Rifle"
+                                },
+                                {
+                                    "name": "Arc Rifle"
+                                },
+                                {
+                                    "name": "Plasma Caliver"
+                                },
+                                {
+                                    "name": "Transuranic Arquebus"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Enhanced Data-tether"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Omnispex"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Skitarii Ranger Alpha",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Galvanic Rifle"
+                            },
+                            "options": [
+                                {
+                                    "name": "Galvanic Rifle"
+                                },
+                                {
+                                    "name": "Archeotech Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Alpha Combat Weapon"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.adm.unit.skitariiVanguard",
+            "type": "unit",
+            "rulesetId": "w40k.10e.adm",
+            "name": "Skitarii Vanguard",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Skitarii Vanguard, Skitarii Vanguard Alpha",
+                    "amount": 10,
+                    "cost": 95
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Skitarii Vanguard",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Skitarii Vanguard Alpha",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Skitarii Vanguard",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Radium Carbine"
+                            },
+                            "options": [
+                                {
+                                    "name": "Radium Carbine"
+                                },
+                                {
+                                    "name": "Arc Rifle"
+                                },
+                                {
+                                    "name": "Plasma Caliver"
+                                },
+                                {
+                                    "name": "Transuranic Arquebus"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Enhanced Data-tether"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Omnispex"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Skitarii Vanguard Alpha",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Radium Carbine"
+                            },
+                            "options": [
+                                {
+                                    "name": "Radium Carbine"
+                                },
+                                {
+                                    "name": "Archeotech Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Alpha Combat Weapon"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

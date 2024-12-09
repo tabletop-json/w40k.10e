@@ -17,6 +17,12 @@
             "type": "detachment",
             "rulesetId": "w40k.10e.ck",
             "name": "Traitoris Lance"
+        },
+        {
+            "id": "w40k.10e.ck.dt.iconoclastFiefdom",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.ck",
+            "name": "Iconoclast Fiefdom"
         }
     ],
     "units": [
@@ -141,6 +147,35 @@
                                 {
                                     "name": "Panoply of the Cursed Knights",
                                     "points": 40
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.iconoclastFiefdom",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Profane Altar",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Pave the Way",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Tyrant's Banner",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Diabolical Resilience",
+                                    "points": 35
                                 }
                             ]
                         }
@@ -391,6 +426,35 @@
                                     "points": 40
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.iconoclastFiefdom",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Profane Altar",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Pave the Way",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Tyrant's Banner",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Diabolical Resilience",
+                                    "points": 35
+                                }
+                            ]
                         }
                     ]
                 }
@@ -462,6 +526,35 @@
                                     "points": 40
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.iconoclastFiefdom",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Profane Altar",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Pave the Way",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Tyrant's Banner",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Diabolical Resilience",
+                                    "points": 35
+                                }
+                            ]
                         }
                     ]
                 }
@@ -523,6 +616,35 @@
                                 {
                                     "name": "Panoply of the Cursed Knights",
                                     "points": 40
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.iconoclastFiefdom",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Profane Altar",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Pave the Way",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Tyrant's Banner",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Diabolical Resilience",
+                                    "points": 35
                                 }
                             ]
                         }
@@ -592,6 +714,35 @@
                                 {
                                     "name": "Panoply of the Cursed Knights",
                                     "points": 40
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.iconoclastFiefdom",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Profane Altar",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Pave the Way",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Tyrant's Banner",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Diabolical Resilience",
+                                    "points": 35
                                 }
                             ]
                         }
@@ -677,6 +828,35 @@
                                 {
                                     "name": "Panoply of the Cursed Knights",
                                     "points": 40
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.iconoclastFiefdom",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Profane Altar",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Pave the Way",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Tyrant's Banner",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Diabolical Resilience",
+                                    "points": 35
                                 }
                             ]
                         }
@@ -821,6 +1001,35 @@
                                     "points": 40
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.iconoclastFiefdom",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Profane Altar",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Pave the Way",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Tyrant's Banner",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Diabolical Resilience",
+                                    "points": 35
+                                }
+                            ]
                         }
                     ]
                 }
@@ -882,6 +1091,35 @@
                                 {
                                     "name": "Panoply of the Cursed Knights",
                                     "points": 40
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.iconoclastFiefdom",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Profane Altar",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Pave the Way",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Tyrant's Banner",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Diabolical Resilience",
+                                    "points": 35
                                 }
                             ]
                         }
@@ -953,6 +1191,35 @@
                                     "points": 40
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.iconoclastFiefdom",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Profane Altar",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Pave the Way",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Tyrant's Banner",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Diabolical Resilience",
+                                    "points": 35
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1014,6 +1281,35 @@
                                 {
                                     "name": "Panoply of the Cursed Knights",
                                     "points": 40
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.iconoclastFiefdom",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Profane Altar",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Pave the Way",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Tyrant's Banner",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Diabolical Resilience",
+                                    "points": 35
                                 }
                             ]
                         }
@@ -1093,6 +1389,35 @@
                                     "points": 40
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.iconoclastFiefdom",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Profane Altar",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Pave the Way",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Tyrant's Banner",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Diabolical Resilience",
+                                    "points": 35
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1168,6 +1493,35 @@
                                 {
                                     "name": "Panoply of the Cursed Knights",
                                     "points": 40
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.iconoclastFiefdom",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Profane Altar",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Pave the Way",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Tyrant's Banner",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Diabolical Resilience",
+                                    "points": 35
                                 }
                             ]
                         }
