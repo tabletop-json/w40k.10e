@@ -1,7 +1,7 @@
 {
     "id": "w40k.10e",
-    "version": "0.10.1",
-    "updateNotes": "03/12/2024 Dataslate: 8th day of xmas",
+    "version": "0.10.2",
+    "updateNotes": "09/12/2024 Dataslate: 9th day of xmas",
     "name": "Warhammer 40,000: 10th Edition",
     "enabled": true,
     "path": "https://raw.githubusercontent.com/tabletop-json/w40k.10e/develop/",
@@ -16,6 +16,7 @@
             "endpoint": "chaosKnights.json",
             "allies": [
                 "w40k.10e.dmns",
+                "w40k.10e.damned",
                 "w40k.10e.tit"
             ]
         },
@@ -29,6 +30,7 @@
             "endpoint": "imperialKnights.json",
             "allies": [
                 "w40k.10e.agtAllies",
+                "w40k.10e.forgeworld",
                 "w40k.10e.tit"
             ]
         },
@@ -448,6 +450,22 @@
             "name": "Agents of the Imperium",
             "enabled": false,
             "endpoint": "agentsImperiumAllies.json"
+        },
+        {
+            "id": "w40k.10e.damnedAllies.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.damnedAllies",
+            "name": "Damned",
+            "enabled": false,
+            "endpoint": "damnedAllies.json"
+        },
+        {
+            "id": "w40k.10e.forgeworldAllies.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.forgeworldAllies",
+            "name": "Forgeworld",
+            "enabled": false,
+            "endpoint": "forgeworldAllies.json"
         }
     ]
 }

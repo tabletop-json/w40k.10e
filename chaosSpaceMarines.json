@@ -3855,6 +3855,267 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.chaosCult",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Amulet of Tainted Vigour",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Cultist's Brand",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Incendiary Goad",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Warped Foresight",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.deceptors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Cursed Fang",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Falsehood",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Shroud of Obfuscation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Soul Link",
+                                    "points": 5
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.dreadTalons",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eater of Dread",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Night's Shroud",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Warp-fuelled Thrusters",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Willbreaker",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.fellhammerSiegeHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bastion Plate",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Iron Artifice",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Ironbound Enmity",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Warp Tracer",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eye of Tzeentch",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Intoxicating Elixir",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbs of Unlife",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Talisman of Burning Blood",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.renegadeRaiders",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Despot's Claim",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Dread Reaver",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mark of the Hound",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Tyrant's Lash",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.soulforgedWarpack",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Forge's Blessing",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Invigorated Mechatendrils",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Tempting Addendum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Soul Harvester",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.veteransLongWar",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eager for Vengeance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Eye of Abaddon",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mark of Legend",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warmaster's Gift",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
+                    "selectedOption": {
+                        "name": ""
+                    },
+                    "options": [
+                        {
+                            "name": ""
+                        },
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
                         }
                     ]
                 }

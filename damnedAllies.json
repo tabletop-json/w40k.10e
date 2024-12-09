@@ -1,0 +1,384 @@
+{
+    "config": {
+        "id": "w40k.10e.damnedAllies.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.damnedAllies",
+        "name": "Damned",
+        "enabled": false,
+        "endpoint": "damnedAllies.json"
+    },
+    "units": [
+        {
+            "id": "w40k.10e.csm.unit.cultistMob",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Cultist Mob",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Cultist, Cultist Champion",
+                    "amount": 20,
+                    "cost": 100
+                },
+                {
+                    "name": "Cultist, Cultist Champion",
+                    "amount": 10,
+                    "cost": 50
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Cultist",
+                    "min": 9,
+                    "max": 19
+                },
+                {
+                    "type": "model",
+                    "name": "Cultist Champion",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Cultist",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Autopistol, Brutal Assault Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autopistol, Brutal Assault Weapon"
+                                },
+                                {
+                                    "name": "Cultist Firearm, Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Flamer, Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Heavy Stubber, Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Cultist Grenade Launcher, Close Combat Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cultist Champion",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Autopistol, Brutal Assault Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autopistol, Brutal Assault Weapon"
+                                },
+                                {
+                                    "name": "Bolt Pistol, Brutal Assault Weapon"
+                                },
+                                {
+                                    "name": "Cultist Firearm, Close Combat Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.accursedCultists",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Accursed Cultists",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Mutant, Torment",
+                    "amount": 16,
+                    "cost": 195
+                },
+                {
+                    "name": "Mutant, Torment",
+                    "amount": 8,
+                    "cost": 90
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Mutant",
+                    "min": 5,
+                    "max": 10
+                },
+                {
+                    "type": "model",
+                    "name": "Torment",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Mutant"
+                },
+                {
+                    "name": "Torment"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.darkCommune",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Dark Commune",
+            "role": "CHARACTER",
+            "points": [
+                {
+                    "name": "Cult Demagogue, Mindwitch, Iconarch, Blessed Blade",
+                    "amount": 5,
+                    "cost": 80
+                }
+            ],
+            "models": [
+                {
+                    "name": "Cult Demagogue",
+                },
+                {
+                    "name": "Mindwitch"
+                },
+                {
+                    "name": "Iconarch"
+                },
+                {
+                    "name": "Blessed Blade"
+                },
+                {
+                    "name": "Blessed Blade"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.cultistFirebrand",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Cultist Firebrand",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Cultist Firebrand",
+                    "points": 45
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.fellgorBeastmen",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Fellgor Beastmen",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Fellgor Beastman, Fellgor Champion",
+                    "amount": 10,
+                    "cost": 85
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Fellgor Beastman",
+                    "min": 9,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Fellgor Champion",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Fellgor Beastman",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Close Combat Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Great Weapon"
+                                },
+                                {
+                                    "name": "Corrupted Stave"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Autopistol"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Fellgor Champion",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Chainsword"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.traitorEnforcer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Traitor Enforcer",
+            "role": "CHARACTER",
+            "points": [
+                {
+                    "name": "Traitor Ogryn, Traitor Enforcer",
+                    "amount": 2,
+                    "cost": 65
+                }
+            ],
+            "models": [
+                {
+                    "name": "Traitor Ogryn"
+                },
+                {
+                    "name": "Traitor Enforcer"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.traitorGuardsmen",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Traitor Guardsmen Squad",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Traitor Guardsman, Traitor Sergeant",
+                    "amount": 10,
+                    "cost": 70
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Traitor Guardsman",
+                    "min": 9,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Traitor Sergeant",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Traitor Guardsman",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Lasgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Lasgun"
+                                },
+                                {
+                                    "name": "Cultist Grenade Launcher"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plasma Gun"
+                                },
+                                {
+                                    "name": "Cultist Sniper Rifle"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Traitor Sergeant",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Corrupted Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Corrupted Pistol"
+                                },
+                                {
+                                    "name": "Boltgun"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Close Combat Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Chainsword"
+                                },
+                                {
+                                    "name": "Power Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -14,6 +14,12 @@
             "type": "detachment",
             "rulesetId": "w40k.10e.ck",
             "name": "Noble Lance"
+        },
+        {
+            "id": "w40k.10e.ik.dt.questorForgepact",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.ck",
+            "name": "Questor Forgepact"
         }
     ],
     "units": [
@@ -197,6 +203,31 @@
                                     "points": 40
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorForgepact",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Omnissian Champion",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Knight of the Opus Machina",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Vocifer Magnificat (Aura)",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -306,6 +337,31 @@
                                     "points": 40
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorForgepact",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Omnissian Champion",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Knight of the Opus Machina",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Vocifer Magnificat (Aura)",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -405,6 +461,31 @@
                                 {
                                     "name": "Unyielding Paragon",
                                     "points": 40
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorForgepact",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Omnissian Champion",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Knight of the Opus Machina",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Vocifer Magnificat (Aura)",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -508,6 +589,31 @@
                                 {
                                     "name": "Unyielding Paragon",
                                     "points": 40
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorForgepact",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Omnissian Champion",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Knight of the Opus Machina",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Vocifer Magnificat (Aura)",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -625,6 +731,31 @@
                                     "points": 40
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorForgepact",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Omnissian Champion",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Knight of the Opus Machina",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Vocifer Magnificat (Aura)",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -737,6 +868,31 @@
                                     "points": 40
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorForgepact",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Omnissian Champion",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Knight of the Opus Machina",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Vocifer Magnificat (Aura)",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -824,6 +980,31 @@
                                     "points": 40
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorForgepact",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Omnissian Champion",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Knight of the Opus Machina",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Vocifer Magnificat (Aura)",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -903,6 +1084,31 @@
                                 {
                                     "name": "Unyielding Paragon",
                                     "points": 40
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorForgepact",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Omnissian Champion",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Knight of the Opus Machina",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Vocifer Magnificat (Aura)",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -1073,6 +1279,31 @@
                                     "points": 40
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorForgepact",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Omnissian Champion",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Knight of the Opus Machina",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Vocifer Magnificat (Aura)",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1138,6 +1369,31 @@
                                 {
                                     "name": "Unyielding Paragon",
                                     "points": 40
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorForgepact",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Omnissian Champion",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Knight of the Opus Machina",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Vocifer Magnificat (Aura)",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -1213,6 +1469,31 @@
                                     "points": 40
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorForgepact",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Omnissian Champion",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Knight of the Opus Machina",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Vocifer Magnificat (Aura)",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1278,6 +1559,31 @@
                                 {
                                     "name": "Unyielding Paragon",
                                     "points": 40
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorForgepact",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Omnissian Champion",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Knight of the Opus Machina",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Vocifer Magnificat (Aura)",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -1361,6 +1667,31 @@
                                     "points": 40
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorForgepact",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Omnissian Champion",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Knight of the Opus Machina",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Vocifer Magnificat (Aura)",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1440,6 +1771,31 @@
                                 {
                                     "name": "Unyielding Paragon",
                                     "points": 40
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorForgepact",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Omnissian Champion",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Knight of the Opus Machina",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Vocifer Magnificat (Aura)",
+                                    "points": 15
                                 }
                             ]
                         }
