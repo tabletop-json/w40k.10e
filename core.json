@@ -1,6 +1,6 @@
 {
     "id": "w40k.10e",
-    "version": "0.10.2",
+    "version": "0.10.3",
     "updateNotes": "09/12/2024 Dataslate: 9th day of xmas",
     "name": "Warhammer 40,000: 10th Edition",
     "enabled": true,
@@ -16,7 +16,7 @@
             "endpoint": "chaosKnights.json",
             "allies": [
                 "w40k.10e.dmns",
-                "w40k.10e.damned",
+                "w40k.10e.damnedAllies",
                 "w40k.10e.tit"
             ]
         },
@@ -30,7 +30,7 @@
             "endpoint": "imperialKnights.json",
             "allies": [
                 "w40k.10e.agtAllies",
-                "w40k.10e.forgeworld",
+                "w40k.10e.forgeworldAllies",
                 "w40k.10e.tit"
             ]
         },
