@@ -1262,6 +1262,13 @@
                     "points": 160,
                     "gearset": [
                         {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": "Multi-melta"
@@ -1498,6 +1505,13 @@
                     "points": 155,
                     "gearset": [
                         {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": "Lastrum Storm Bolter, Lastrum Storm Bolter"
@@ -1682,6 +1696,13 @@
                     "points": 215,
                     "gearset": [
                         {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": "Iliastus Accelerator Culverin"
@@ -1835,6 +1856,13 @@
                     "name": "Contemptor-Galatus Dreadnought",
                     "points": 165,
                     "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
                         {
                             "type": "text",
                             "selectedOption": {
