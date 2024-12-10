@@ -15,6 +15,13 @@
             "rulesetId": "w40k.10e.gk",
             "name": "Teleport Strike Force",
             "rule": ""
+        },
+        {
+            "id": "w40k.10e.gk.dt.warpbaneTaskForce",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Warpbane Task Force",
+            "rule": ""
         }
     ],
     "units": [
@@ -128,6 +135,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.warpbaneTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Mandulian Reliquary",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Radiant Champion",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Phial of the Abyss",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Paragon of Sanctity",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -228,6 +264,27 @@
                                 {
                                     "name": "Inescapable Wrath",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.warpbaneTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Mandulian Reliquary",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Paragon of Sanctity",
+                                    "points": 10
                                 }
                             ]
                         }
@@ -345,6 +402,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.warpbaneTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Mandulian Reliquary",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Radiant Champion",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Phial of the Abyss",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Paragon of Sanctity",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -394,6 +480,35 @@
                                 {
                                     "name": "Inescapable Wrath",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.warpbaneTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Mandulian Reliquary",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Radiant Champion",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Phial of the Abyss",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Paragon of Sanctity",
+                                    "points": 10
                                 }
                             ]
                         }
@@ -464,6 +579,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.warpbaneTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Mandulian Reliquary",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Radiant Champion",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Phial of the Abyss",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Paragon of Sanctity",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -529,6 +673,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.warpbaneTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Mandulian Reliquary",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Radiant Champion",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Phial of the Abyss",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Paragon of Sanctity",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -578,6 +751,35 @@
                                 {
                                     "name": "Inescapable Wrath",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.warpbaneTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Mandulian Reliquary",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Radiant Champion",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Phial of the Abyss",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Paragon of Sanctity",
+                                    "points": 10
                                 }
                             ]
                         }
