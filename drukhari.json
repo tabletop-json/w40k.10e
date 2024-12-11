@@ -318,7 +318,7 @@
                 {
                     "name": "Grotesque",
                     "amount": 6,
-                    "cost": 160
+                    "cost": 170
                 },
                 {
                     "name": "Grotesque",
@@ -1006,7 +1006,7 @@
                 {
                     "name": "Scourge, Solarite",
                     "amount": 5,
-                    "cost": 120
+                    "cost": 130
                 }
             ],
             "restrictions": [
@@ -1334,7 +1334,7 @@
             "models": [
                 {
                     "name": "Voidraven Bomber",
-                    "points": 215,
+                    "points": 235,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1371,12 +1371,12 @@
                 {
                     "name": "Wrack, Acothyst",
                     "amount": 10,
-                    "cost": 120
+                    "cost": 110
                 },
                 {
                     "name": "Wrack, Acothyst",
                     "amount": 5,
-                    "cost": 60
+                    "cost": 55
                 }
             ],
             "restrictions": [

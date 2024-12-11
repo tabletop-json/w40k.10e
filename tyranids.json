@@ -1520,12 +1520,12 @@
                 {
                     "name": "Tyrant Guard",
                     "amount": 6,
-                    "cost": 170
+                    "cost": 160
                 },
                 {
                     "name": "Tyrant Guard",
                     "amount": 3,
-                    "cost": 85
+                    "cost": 80
                 }
             ],
             "restrictions": [
@@ -2383,7 +2383,7 @@
             "models": [
                 {
                     "name": "Trygon",
-                    "points": 170
+                    "points": 150
                 }
             ]
         },
@@ -2810,7 +2810,7 @@
             "models": [
                 {
                     "name": "Norn Emissary",
-                    "points": 275
+                    "points": 260
                 }
             ]
         },
@@ -2823,7 +2823,7 @@
             "models": [
                 {
                     "name": "Norn Assimilator",
-                    "points": 290
+                    "points": 275
                 }
             ]
         },

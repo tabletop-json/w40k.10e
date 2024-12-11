@@ -144,7 +144,7 @@
             "models": [
                 {
                     "name": "Royal Warden",
-                    "points": 40,
+                    "points": 50,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1967,7 +1967,7 @@
             "models": [
                 {
                     "name": "Plasmancer",
-                    "points": 65,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2165,7 +2165,7 @@
                 {
                     "name": "Necron Warrior",
                     "amount": 10,
-                    "cost": 100
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -2213,7 +2213,7 @@
                 {
                     "name": "Immortal",
                     "amount": 5,
-                    "cost": 75
+                    "cost": 70
                 }
             ],
             "restrictions": [
@@ -2268,7 +2268,7 @@
             "models": [
                 {
                     "name": "Hexmark Destroyer",
-                    "points": 70,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2680,7 +2680,7 @@
             "models": [
                 {
                     "name": "C'tan Shard of the Nightbringer",
-                    "points": 295
+                    "points": 305
                 }
             ]
         },
@@ -2693,7 +2693,7 @@
             "models": [
                 {
                     "name": "C'tan Shard of the Void Dragon",
-                    "points": 290
+                    "points": 300
                 }
             ]
         },
@@ -2706,7 +2706,7 @@
             "models": [
                 {
                     "name": "Transcendant C'tan",
-                    "points": 285,
+                    "points": 295,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2979,12 +2979,12 @@
                 {
                     "name": "Ophydian Destroyer",
                     "amount": 6,
-                    "cost": 180
+                    "cost": 160
                 },
                 {
                     "name": "Ophydian Destroyer",
                     "amount": 3,
-                    "cost": 90
+                    "cost": 80
                 }
             ],
             "restrictions": [
@@ -3143,12 +3143,12 @@
                 {
                     "name": "Canoptek Wraith",
                     "amount": 6,
-                    "cost": 250
+                    "cost": 230
                 },
                 {
                     "name": "Canoptek Wraith",
                     "amount": 3,
-                    "cost": 125
+                    "cost": 115
                 }
             ],
             "restrictions": [
@@ -3363,7 +3363,7 @@
             "models": [
                 {
                     "name": "Ghost Ark",
-                    "points": 125
+                    "points": 115
                 }
             ]
         },
