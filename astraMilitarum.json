@@ -27,7 +27,7 @@
             "models": [
                 {
                     "name": "Lord Solar Leontus",
-                    "points": 125,
+                    "points": 150,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1020,7 +1020,7 @@
                 {
                     "name": "Ibram Gaunt, Tanith Ghost",
                     "amount": 6,
-                    "cost": 100
+                    "cost": 110
                 }
             ],
             "models": [
@@ -1705,7 +1705,7 @@
                 {
                     "name": "Shock Trooper, Shock Trooper Sergeant",
                     "amount": 10,
-                    "cost": 60
+                    "cost": 65
                 }
             ],
             "restrictions": [
@@ -1907,12 +1907,12 @@
                 {
                     "name": "Jungle Fighter, Jungle Fighter Sergeant",
                     "amount": 20,
-                    "cost": 110
+                    "cost": 120
                 },
                 {
                     "name": "Jungle Fighter, Jungle Fighter Sergeant",
                     "amount": 10,
-                    "cost": 55
+                    "cost": 65
                 }
             ],
             "restrictions": [
@@ -2371,7 +2371,7 @@
                 {
                     "name": "Ogryn, Ogryn Bone 'ead",
                     "amount": 6,
-                    "cost": 120
+                    "cost": 130
                 },
                 {
                     "name": "Ogryn, Ogryn Bone 'ead",
@@ -2773,7 +2773,7 @@
             "models": [
                 {
                     "name": "Hellhound",
-                    "points": 115,
+                    "points": 125,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -3829,7 +3829,7 @@
             "models": [
                 {
                     "name": "Chimera",
-                    "points": 70,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -4699,12 +4699,12 @@
                 {
                     "name": "Tempestus Scion, Tempestor",
                     "amount": 10,
-                    "cost": 100
+                    "cost": 120
                 },
                 {
                     "name": "Tempestus Scion, Tempestor",
                     "amount": 5,
-                    "cost": 50
+                    "cost": 60
                 }
             ],
             "restrictions": [
@@ -6223,7 +6223,7 @@
                 {
                     "name": "Tempestus Aquilon, Tempestor Aquilon",
                     "amount": 10,
-                    "cost": 90
+                    "cost": 110
                 }
             ],
             "restrictions": [

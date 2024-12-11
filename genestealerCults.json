@@ -112,7 +112,7 @@
             "models": [
                 {
                     "name": "Abominant",
-                    "points": 75,
+                    "points": 95,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -280,12 +280,12 @@
                 {
                     "name": "Achilles Ridgerunner",
                     "amount": 2,
-                    "cost": 150
+                    "cost": 170
                 },
                 {
                     "name": "Achilles Ridgerunner",
                     "amount": 1,
-                    "cost": 75
+                    "cost": 85
                 }
             ],
             "restrictions": [

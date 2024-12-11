@@ -226,12 +226,12 @@
                 {
                     "name": "Vertus Praetor",
                     "amount": 3,
-                    "cost": 210
+                    "cost": 225
                 },
                 {
                     "name": "Vertus Praetor",
                     "amount": 2,
-                    "cost": 140
+                    "cost": 150
                 }
             ],
             "restrictions": [
@@ -1038,7 +1038,7 @@
             "models": [
                 {
                     "name": "Shield-captain on Dawneagle Jetbike",
-                    "points": 140,
+                    "points": 160,
                     "gearset": [
                         {
                             "type": "checkbox",
