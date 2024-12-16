@@ -18,6 +18,34 @@
             "rulesetId": "w40k.10e.dmns",
             "name": "The Shadow of Chaos",
             "rule": ""
+        },
+        {
+            "id": "w40k.10e.dmns.dt.plagueLegion",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Plague Legion",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.dmns.dt.scintillatingLegion",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Scintillating Legion",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.dmns.dt.bloodLegion",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Blood Legion",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.dmns.dt.legionExcess",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Legion of Excess",
+            "rule": ""
         }
     ],
     "units": [
@@ -87,6 +115,35 @@
                                 "points": 20
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.bloodLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Slaughterthirst (Aura)",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Fury's Cage",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Brazenmaw",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Gateway Unto Damnation",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -141,6 +198,27 @@
                                 "points": 20
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.bloodLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Slaughterthirst (Aura)",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Brazenmaw",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -173,6 +251,27 @@
                                 "points": 20
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.bloodLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Slaughterthirst (Aura)",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Brazenmaw",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -205,6 +304,27 @@
                                 "points": 20
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.bloodLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Slaughterthirst (Aura)",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Brazenmaw",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -474,6 +594,35 @@
                                 "points": 25
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.scintillatingLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Inescapable Eye",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Infernal Puppeteer",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Neverblade",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Improbable Shield (Aura)",
+                                    "points": 30
+                                }
+                            ]
                         }
                     ]
                 }
@@ -528,6 +677,27 @@
                                 "points": 25
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.scintillatingLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Inescapable Eye",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Improbable Shield (Aura)",
+                                    "points": 30
+                                }
+                            ]
                         }
                     ]
                 }
@@ -560,6 +730,27 @@
                                 "points": 25
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.scintillatingLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Inescapable Eye",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Improbable Shield (Aura)",
+                                    "points": 30
+                                }
+                            ]
                         }
                     ]
                 }
@@ -614,6 +805,27 @@
                                 "points": 25
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.scintillatingLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Inescapable Eye",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Improbable Shield (Aura)",
+                                    "points": 30
+                                }
+                            ]
                         }
                     ]
                 }
@@ -865,6 +1077,35 @@
                                 "points": 30
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.plagueLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Cankerblight (Aura)",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Maggot Maws",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Droning Shroud (Aura)",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Font of Spores (Aura)",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -897,6 +1138,27 @@
                                 "points": 30
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.plagueLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Cankerblight (Aura)",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Maggot Maws",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -929,6 +1191,27 @@
                                 "points": 30
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.plagueLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Cankerblight (Aura)",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Maggot Maws",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -983,6 +1266,27 @@
                                 "points": 30
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.plagueLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Cankerblight (Aura)",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Maggot Maws",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1270,6 +1574,35 @@
                                 "points": 15
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.legionExcess",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "False Majesty (Aura)",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Dreaming Crown (Aura)",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Avatar of Perfection",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Soul Glutton",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1302,6 +1635,27 @@
                                 "points": 15
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.legionExcess",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "False Majesty (Aura)",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Dreaming Crown (Aura)",
+                                    "points": 30
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1378,6 +1732,27 @@
                                 "points": 15
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.legionExcess",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "False Majesty (Aura)",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Dreaming Crown (Aura)",
+                                    "points": 30
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1410,6 +1785,27 @@
                                 "points": 15
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.legionExcess",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "False Majesty (Aura)",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Dreaming Crown (Aura)",
+                                    "points": 30
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1442,6 +1838,27 @@
                                 "points": 15
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.legionExcess",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "False Majesty (Aura)",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Dreaming Crown (Aura)",
+                                    "points": 30
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1817,6 +2234,122 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.bloodLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Slaughterthirst (Aura)",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Fury's Cage",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Brazenmaw",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Gateway Unto Damnation",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.plagueLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Cankerblight (Aura)",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Maggot Maws",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Droning Shroud (Aura)",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Font of Spores (Aura)",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.scintillatingLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Inescapable Eye",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Infernal Puppeteer",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Neverblade",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Improbable Shield (Aura)",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.legionExcess",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "False Majesty (Aura)",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Dreaming Crown (Aura)",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Avatar of Perfection",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Soul Glutton",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1889,6 +2422,122 @@
                                 {
                                     "name": "Soulstealer",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.bloodLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Slaughterthirst (Aura)",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Fury's Cage",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Brazenmaw",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Gateway Unto Damnation",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.plagueLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Cankerblight (Aura)",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Maggot Maws",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Droning Shroud (Aura)",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Font of Spores (Aura)",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.scintillatingLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Inescapable Eye",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Infernal Puppeteer",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Neverblade",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Improbable Shield (Aura)",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.legionExcess",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "False Majesty (Aura)",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Dreaming Crown (Aura)",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Avatar of Perfection",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Soul Glutton",
+                                    "points": 10
                                 }
                             ]
                         }

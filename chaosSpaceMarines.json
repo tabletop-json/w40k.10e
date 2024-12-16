@@ -69,6 +69,13 @@
             "rulesetId": "w40k.10e.csm",
             "name": "Pactbound Zealots",
             "rule": ""
+        },
+        {
+            "id": "w40k.10e.csm.dt.creationsBile",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Creations of Bile",
+            "rule": ""
         }
     ],
     "units": [
@@ -399,6 +406,23 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.creationsBile",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Surgical Precision",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -692,6 +716,23 @@
                                 {
                                     "name": "Warmaster's Gift",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.creationsBile",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Surgical Precision",
+                                    "points": 10
                                 }
                             ]
                         }
@@ -1033,6 +1074,31 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.creationsBile",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Surgical Precision",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Helm of All-Seeing",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Prime Test Subject",
+                                    "points": 35
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1347,6 +1413,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.creationsBile",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Surgical Precision",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Living Carapace",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Helm of All-Seeing",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Prime Test Subject",
+                                    "points": 35
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1651,6 +1746,35 @@
                                 {
                                     "name": "Warmaster's Gift",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.creationsBile",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Surgical Precision",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Living Carapace",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Helm of All-Seeing",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Prime Test Subject",
+                                    "points": 35
                                 }
                             ]
                         }
@@ -1965,6 +2089,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.creationsBile",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Surgical Precision",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Living Carapace",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Helm of All-Seeing",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Prime Test Subject",
+                                    "points": 35
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2258,6 +2411,31 @@
                                 {
                                     "name": "Warmaster's Gift",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.creationsBile",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Surgical Precision",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Helm of All-Seeing",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Prime Test Subject",
+                                    "points": 35
                                 }
                             ]
                         }
@@ -2574,6 +2752,31 @@
                                 {
                                     "name": "Warmaster's Gift",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.creationsBile",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Surgical Precision",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Helm of All-Seeing",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Prime Test Subject",
+                                    "points": 35
                                 }
                             ]
                         }
@@ -2899,6 +3102,23 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.creationsBile",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Surgical Precision",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3214,6 +3434,31 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.creationsBile",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Surgical Precision",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Helm of All-Seeing",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Prime Test Subject",
+                                    "points": 35
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3501,6 +3746,31 @@
                                 {
                                     "name": "Warmaster's Gift",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.creationsBile",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Surgical Precision",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Helm of All-Seeing",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Prime Test Subject",
+                                    "points": 35
                                 }
                             ]
                         }
@@ -5231,6 +5501,31 @@
                                 {
                                     "name": "Warmaster's Gift",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.creationsBile",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Surgical Precision",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Helm of All-Seeing",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Prime Test Subject",
+                                    "points": 35
                                 }
                             ]
                         }
