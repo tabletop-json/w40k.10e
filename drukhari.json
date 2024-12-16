@@ -22,6 +22,13 @@
             "rulesetId": "w40k.10e.duk",
             "name": "Skysplinter Assault",
             "rule": ""
+        },
+        {
+            "id": "w40k.10e.duk.dt.reapersWager",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Reaper's Wager",
+            "rule": ""
         }
     ],
     "units": [
@@ -114,6 +121,35 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.duk.dt.reaperswager",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archraider",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Webway Walker",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Reaper's Cowl",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Conductor of Torment",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -191,6 +227,31 @@
                                 },
                                 {
                                     "name": "Spiteful Raider",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.duk.dt.reaperswager",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archraider",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Webway Walker",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Conductor of Torment",
                                     "points": 10
                                 }
                             ]
@@ -421,6 +482,31 @@
                                 },
                                 {
                                     "name": "Spiteful Raider",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.duk.dt.reaperswager",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archraider",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Webway Walker",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Conductor of Torment",
                                     "points": 10
                                 }
                             ]
@@ -1181,6 +1267,31 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.duk.dt.reaperswager",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archraider",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Webway Walker",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Conductor of Torment",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1845,7 +1956,34 @@
             "models": [
                 {
                     "name": "Death Jester",
-                    "points": 90
+                    "points": 90,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.duk.dt.reaperswager",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archraider",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Webway Walker",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Reaper's Cowl",
+                                    "points": 25
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -1858,7 +1996,34 @@
             "models": [
                 {
                     "name": "Shadowseer",
-                    "points": 60
+                    "points": 60,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.duk.dt.reaperswager",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archraider",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Webway Walker",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Reaper's Cowl",
+                                    "points": 25
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -2109,6 +2274,31 @@
                                 },
                                 {
                                     "name": "Harlequin's Special Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.duk.dt.reaperswager",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archraider",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Webway Walker",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Reaper's Cowl",
+                                    "points": 25
                                 }
                             ]
                         }

@@ -44,6 +44,12 @@
             "type": "detachment",
             "rulesetId": "w40k.10e.ork",
             "name": "War Horde"
+        },
+        {
+            "id": "w40k.10e.ork.dt.taktikalBrigade",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.ork",
+            "name": "Taktikal Brigade"
         }
     ],
     "units": [
@@ -402,6 +408,31 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.taktikalBrigade",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Skwad Leader",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mork's Kunnin'",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Gob Boomer",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -615,6 +646,31 @@
                                 {
                                     "name": "Super-Cybork Body",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.taktikalBrigade",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Skwad Leader",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mork's Kunnin'",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Gob Boomer",
+                                    "points": 10
                                 }
                             ]
                         }
@@ -860,6 +916,31 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.taktikalBrigade",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Mek Kaptin",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Mork's Kunnin'",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Gob Boomer",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1084,6 +1165,31 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.taktikalBrigade",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Mek Kaptin",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Mork's Kunnin'",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Gob Boomer",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1285,6 +1391,31 @@
                                 {
                                     "name": "Super-Cybork Body",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.taktikalBrigade",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Mek Kaptin",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Mork's Kunnin'",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Gob Boomer",
+                                    "points": 10
                                 }
                             ]
                         }
@@ -1879,6 +2010,31 @@
                                 {
                                     "name": "Super-Cybork Body",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.taktikalBrigade",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Skwad Leader",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mork's Kunnin'",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Gob Boomer",
+                                    "points": 10
                                 }
                             ]
                         }
@@ -2614,6 +2770,27 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.taktikalBrigade",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Mork's Kunnin'",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Gob Boomer",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3013,6 +3190,23 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.taktikalBrigade",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Mork's Kunnin'",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3220,6 +3414,23 @@
                                 },
                                 {
                                     "name": "Super-Cybork Body",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.taktikalBrigade",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Mork's Kunnin'",
                                     "points": 15
                                 }
                             ]
@@ -3777,6 +3988,31 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.taktikalBrigade",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Skwad Leader",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mork's Kunnin'",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Gob Boomer",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3971,6 +4207,31 @@
                                 {
                                     "name": "Super-Cybork Body",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.taktikalBrigade",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Skwad Leader",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mork's Kunnin'",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Gob Boomer",
+                                    "points": 10
                                 }
                             ]
                         }
@@ -4212,6 +4473,23 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.taktikalBrigade",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Mork's Kunnin'",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -4405,6 +4683,23 @@
                                 },
                                 {
                                     "name": "Super-Cybork Body",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.taktikalBrigade",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Mork's Kunnin'",
                                     "points": 15
                                 }
                             ]

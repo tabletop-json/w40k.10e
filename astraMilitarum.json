@@ -15,6 +15,13 @@
             "rulesetId": "w40k.10e.am",
             "name": "Combined Regiment",
             "rule": ""
+        },
+        {
+            "id": "w40k.10e.am.dt.bridgeheadStrike",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.am",
+            "name": "Bridgehead Strike",
+            "rule": ""
         }
     ],
     "units": [
@@ -143,6 +150,23 @@
                                 {
                                     "name": "Kurov's Aquila",
                                     "points": 40
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.bridgeheadStrike",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Advance Augury",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -728,6 +752,23 @@
                                     "points": 40
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.bridgeheadStrike",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Advance Augury",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -930,6 +971,23 @@
                                 {
                                     "name": "Kurov's Aquila",
                                     "points": 40
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.bridgeheadStrike",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Advance Augury",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -2354,6 +2412,23 @@
                                 {
                                     "name": "Kurov's Aquila",
                                     "points": 40
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.bridgeheadStrike",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Advance Augury",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -4684,6 +4759,35 @@
                                     "points": 40
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.bridgeheadStrike",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bombast-Class Vox-Array",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Priority-Drop Beacon",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Shroud Projector",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Advance Augury",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -4911,6 +5015,23 @@
                                 {
                                     "name": "Kurov's Aquila",
                                     "points": 40
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.bridgeheadStrike",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Advance Augury",
+                                    "points": 15
                                 }
                             ]
                         }

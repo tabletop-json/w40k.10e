@@ -14,6 +14,12 @@
             "type": "detachment",
             "rulesetId": "w40k.10e.aeld",
             "name": "Battle Host"
+        },
+        {
+            "id": "w40k.10e.aeld.dt.armouredWarhost",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Armoured Warhost"
         }
     ],
     "units": [
@@ -142,6 +148,27 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.armouredWarhost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Harmonisation Matrix",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Guileful Strategist",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -250,6 +277,27 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.armouredWarhost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Harmonisation Matrix",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Guileful Strategist",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -322,6 +370,27 @@
                                 },
                                 {
                                     "name": "Fate's Messenger",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.armouredWarhost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Harmonisation Matrix",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Guileful Strategist",
                                     "points": 15
                                 }
                             ]
@@ -804,6 +873,27 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.armouredWarhost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Harmonisation Matrix",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Guileful Strategist",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1012,6 +1102,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.armouredWarhost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Guiding Presence",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Harmonisation Matrix",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spirit Stone of Raelyth",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Guileful Strategist",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1074,6 +1193,35 @@
                                 },
                                 {
                                     "name": "Fate's Messenger",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.armouredWarhost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Guiding Presence",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Harmonisation Matrix",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spirit Stone of Raelyth",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Guileful Strategist",
                                     "points": 15
                                 }
                             ]
@@ -1547,6 +1695,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.armouredWarhost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Guiding Presence",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Harmonisation Matrix",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spirit Stone of Raelyth",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Guileful Strategist",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1783,6 +1960,35 @@
                                 },
                                 {
                                     "name": "Fate's Messenger",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.armouredWarhost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Guiding Presence",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Harmonisation Matrix",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spirit Stone of Raelyth",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Guileful Strategist",
                                     "points": 15
                                 }
                             ]
@@ -2270,6 +2476,27 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.armouredWarhost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Harmonisation Matrix",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Guileful Strategist",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2463,6 +2690,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.armouredWarhost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Guiding Presence",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Harmonisation Matrix",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spirit Stone of Raelyth",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Guileful Strategist",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2525,6 +2781,35 @@
                                 },
                                 {
                                     "name": "Fate's Messenger",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.armouredWarhost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Guiding Presence",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Harmonisation Matrix",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spirit Stone of Raelyth",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Guileful Strategist",
                                     "points": 15
                                 }
                             ]
