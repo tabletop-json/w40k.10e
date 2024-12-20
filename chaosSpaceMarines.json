@@ -8083,6 +8083,152 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.nemesisClaw",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Nemesis Claw",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Legionary, Visionary",
+                    "amount": 10,
+                    "cost": 190
+                },
+                {
+                    "name": "Legionary, Visionary",
+                    "amount": 5,
+                    "cost": 110
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Legionary",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Visionary",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Legionary",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Boltgun"
+                                },
+                                {
+                                    "name": "Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Heavy Bolter"
+                                },
+                                {
+                                    "name": "Missile Launcher"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plasma Gun"
+                                },
+                                {
+                                    "name": "Accursed Weapon"
+                                },
+                                {
+                                    "name": "Nostraman Chainglaive"
+                                },
+                                {
+                                    "name": "Paired Accursed Weapons"
+                                },
+                                {
+                                    "name": "Voice Eater, Astartes Chainsword"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Visionary",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Nostraman Chainblade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Nostraman Chainblade"
+                                },
+                                {
+                                    "name": "Accursed Weapon"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
+                    "selectedOption": {
+                        "name": ""
+                    },
+                    "options": [
+                        {
+                            "name": ""
+                        },
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
