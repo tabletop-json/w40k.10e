@@ -1,0 +1,383 @@
+{
+    "config": {
+        "id": "w40k.10e.tyranidAllies.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.tyranidAllies",
+        "name": "Tyranids",
+        "keyword": "TYRANIDS",
+        "enabled": false,
+        "endpoint": "tyranidAllies.json"
+    },
+    "units": [
+        {
+            "id": "w40k.10e.tyranidAllies.unit.wingedHiveTyrant",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tyranidAllies",
+            "name": "Winged Hive Tyrant",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Winged Hive Tyrant",
+                    "points": 200,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Monstrous Boneword, Lash Whip"
+                            },
+                            "options": [
+                                {
+                                    "name": "Monstrous Boneword, Lash Whip"
+                                },
+                                {
+                                    "name": "Heavy Venom Cannon"
+                                },
+                                {
+                                    "name": "Stranglethorn Cannon"
+                                },
+                                {
+                                    "name": "Monstrous Scything Talons"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tyranidAllies.dt.finalDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Synaptic Auger",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Vanguard Tyrant",
+                                    "points": 25
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tyranidAllies.unit.wingedTyranidPrime",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tyranidAllies",
+            "name": "Winged Tyranid Prime",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Winged Tyranid Prime",
+                    "points": 65,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tyranidAllies.dt.finalDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Synaptic Auger",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tyranidAllies.unit.tyranidWarriorsMelee",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tyranidAllies",
+            "name": "Tyranid Warriors with Melee Bio-Weapons",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Tyranid Warrior, Tyranid Prime",
+                    "amount": 6,
+                    "cost": 150
+                },
+                {
+                    "name": "Tyranid Warrior, Tyranid Prime",
+                    "amount": 3,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Tyranid Warrior",
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "type": "model",
+                    "name": "Tyranid Prime",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Tyranid Warrior"
+                },
+                {
+                    "name": "Tyranid Prime"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tyranidAllies.unit.hormagaunts",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tyranidAllies",
+            "name": "Hormagaunts",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Hormagaunt",
+                    "amount": 20,
+                    "cost": 130
+                },
+                {
+                    "name": "Hormagaunt",
+                    "amount": 10,
+                    "cost": 65
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Hormagaunt",
+                    "min": 10,
+                    "max": 20
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Hormagaunt"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tyranidAllies.unit.gargoyles",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tyranidAllies",
+            "name": "Gargoyles",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Gargoyle",
+                    "amount": 20,
+                    "cost": 170
+                },
+                {
+                    "name": "Gargoyle",
+                    "amount": 10,
+                    "cost": 85
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Gargoyle",
+                    "min": 10,
+                    "max": 20
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Gargoyle"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tyranidAllies.unit.lictor",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tyranidAllies",
+            "name": "Lictor",
+            "role": "INFANTRY",
+            "models": [
+                {
+                    "name": "Lictor",
+                    "points": 60
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tyranidAllies.unit.deathleaper",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tyranidAllies",
+            "name": "Deathleaper",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Deathleaper",
+                    "points": 80
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tyranidAllies.unit.vonRyansLeapers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tyranidAllies",
+            "name": "Von Ryan's Leapers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Von Ryan's Leaper",
+                    "amount": 6,
+                    "cost": 140
+                },
+                {
+                    "name": "Von Ryan's Leaper",
+                    "amount": 3,
+                    "cost": 70
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Von Ryan's Leaper",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Von Ryan's Leaper"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tyranidAllies.unit.raveners",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tyranidAllies",
+            "name": "Raveners",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Ravener",
+                    "amount": 6,
+                    "cost": 150
+                },
+                {
+                    "name": "Ravener",
+                    "amount": 3,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Ravener",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Ravener",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Armored Thorax"
+                            },
+                            "options": [
+                                {
+                                    "name": "Armored Thorax"
+                                },
+                                {
+                                    "name": "Thoracic Bio-weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tyranidAllies.unit.parasiteMortrex",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tyranidAllies",
+            "name": "Parasite of Mortrex",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Parasite of Mortrex",
+                    "points": 80,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tyranidAllies.dt.finalDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Synaptic Auger",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tyranidAllies.unit.mawloc",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tyranidAllies",
+            "name": "Mawloc",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Mawloc",
+                    "points": 145
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tyranidAllies.unit.trygon",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tyranidAllies",
+            "name": "Trygon",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Trygon",
+                    "points": 150
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tyranidAllies.unit.neurolictor",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tyranidAllies",
+            "name": "Neurolictor",
+            "role": "INFANTRY",
+            "models": [
+                {
+                    "name": "Neurolictor",
+                    "points": 90
+                }
+            ]
+        }
+    ]
+}

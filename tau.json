@@ -32,6 +32,12 @@
             "type": "detachment",
             "rulesetId": "w40k.10e.tau",
             "name": "Retaliation Cadre"
+        },
+        {
+            "id": "w40k.10e.tau.dt.auxiliaryCadre",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Auxiliary Cadre"
         }
     ],
     "units": [
@@ -413,6 +419,27 @@
                                     "points": 20
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.auxiliaryCadre",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Admired Leader",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Transponder Lock Module",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -755,6 +782,27 @@
                                     "points": 20
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.auxiliaryCadre",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Admired Leader",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Transponder Lock Module",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -933,6 +981,23 @@
                                     "points": 20
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.auxiliaryCadre",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Admired Leader",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1069,6 +1134,27 @@
                                 {
                                     "name": "Starflare Ignition System",
                                     "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.auxiliaryCadre",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Student of Kauyon",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fanatical Convert",
+                                    "points": 10
                                 }
                             ]
                         }
@@ -1223,6 +1309,23 @@
                                     "points": 20
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.auxiliaryCadre",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fanatical Convert",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1359,6 +1462,27 @@
                                 {
                                     "name": "Starflare Ignition System",
                                     "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.auxiliaryCadre",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Student of Kauyon",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fanatical Convert",
+                                    "points": 10
                                 }
                             ]
                         }
@@ -1511,6 +1635,27 @@
                                 {
                                     "name": "Starflare Ignition System",
                                     "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.auxiliaryCadre",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Student of Kauyon",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fanatical Convert",
+                                    "points": 10
                                 }
                             ]
                         }
@@ -1695,6 +1840,23 @@
                                 },
                                 {
                                     "name": "Starflare Ignition System",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.auxiliaryCadre",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Admired Leader",
                                     "points": 20
                                 }
                             ]
@@ -2849,6 +3011,23 @@
                                 },
                                 {
                                     "name": "Starflare Ignition System",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.auxiliaryCadre",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Admired Leader",
                                     "points": 20
                                 }
                             ]
