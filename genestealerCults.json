@@ -6,7 +6,10 @@
         "name": "Genestealer Cults",
         "keyword": "GENESTEALER CULTS",
         "enabled": true,
-        "endpoint": "genestealerCults.json"
+        "endpoint": "genestealerCults.json",
+        "allies": [
+            "w40k.10e.tyranidAllies"
+        ]
     },
     "detachments": [
         {
