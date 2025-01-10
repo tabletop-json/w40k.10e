@@ -36,6 +36,13 @@
             "rulesetId": "w40k.10e.sis",
             "name": "Army of Faith",
             "rule": ""
+        },
+        {
+            "id": "w40k.10e.sis.dt.championsOfFaith",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Champions of Faith",
+            "rule": ""
         }
     ],
     "units": [
@@ -255,6 +262,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.championsOfFaith",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Triptych of Judgement",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mark of Devotion",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eyes of the Oracle",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Sanctified Amulet",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -410,6 +446,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.championsOfFaith",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Triptych of Judgement",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mark of Devotion",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eyes of the Oracle",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Sanctified Amulet",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -559,6 +624,35 @@
                                 },
                                 {
                                     "name": "Through Suffering, Strength",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.championsOfFaith",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Triptych of Judgement",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mark of Devotion",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eyes of the Oracle",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Sanctified Amulet",
                                     "points": 25
                                 }
                             ]
@@ -733,6 +827,35 @@
                                 },
                                 {
                                     "name": "Through Suffering, Strength",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.championsOfFaith",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Triptych of Judgement",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mark of Devotion",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eyes of the Oracle",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Sanctified Amulet",
                                     "points": 25
                                 }
                             ]
@@ -1211,6 +1334,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.championsOfFaith",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Triptych of Judgement",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mark of Devotion",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eyes of the Oracle",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Sanctified Amulet",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1346,6 +1498,35 @@
                                 },
                                 {
                                     "name": "Through Suffering, Strength",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.championsOfFaith",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Triptych of Judgement",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mark of Devotion",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eyes of the Oracle",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Sanctified Amulet",
                                     "points": 25
                                 }
                             ]
@@ -1589,6 +1770,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.championsOfFaith",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Triptych of Judgement",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mark of Devotion",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eyes of the Oracle",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Sanctified Amulet",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1724,6 +1934,35 @@
                                 },
                                 {
                                     "name": "Through Suffering, Strength",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sis.dt.championsOfFaith",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Triptych of Judgement",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mark of Devotion",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Eyes of the Oracle",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Sanctified Amulet",
                                     "points": 25
                                 }
                             ]

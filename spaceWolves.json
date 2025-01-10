@@ -56,6 +56,12 @@
             "type": "detachment",
             "rulesetId": "w40k.10e.sw",
             "name": "Champions of Russ"
+        },
+        {
+            "id": "w40k.10e.sw.dt.championsFenris",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.sw",
+            "name": "Champions of Fenris"
         }
     ],
     "units": [
@@ -344,6 +350,27 @@
                                 {
                                     "name": "Frost Weapon",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -718,6 +745,27 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -970,6 +1018,27 @@
                                 {
                                     "name": "Frost Weapon",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -1254,6 +1323,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Foes' Fate",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fangrune Pendant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1508,6 +1606,27 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1760,6 +1879,27 @@
                                 {
                                     "name": "Frost Weapon",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -2083,6 +2223,27 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2335,6 +2496,27 @@
                                 {
                                     "name": "Frost Weapon",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -2608,6 +2790,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Foes' Fate",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fangrune Pendant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2860,6 +3071,27 @@
                                 {
                                     "name": "Frost Weapon",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -3130,6 +3362,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Foes' Fate",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fangrune Pendant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3384,6 +3645,23 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3636,6 +3914,27 @@
                                 {
                                     "name": "Frost Weapon",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -3927,6 +4226,27 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -4179,6 +4499,27 @@
                                 {
                                     "name": "Frost Weapon",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -4745,6 +5086,27 @@
                                 {
                                     "name": "Frost Weapon",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -5426,6 +5788,27 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -5678,6 +6061,27 @@
                                 {
                                     "name": "Frost Weapon",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -5948,6 +6352,27 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -6200,6 +6625,27 @@
                                 {
                                     "name": "Frost Weapon",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -6483,6 +6929,35 @@
                                 {
                                     "name": "Frost Weapon",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Foes' Fate",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fangrune Pendant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -6991,6 +7466,27 @@
                                 {
                                     "name": "Frost Weapon",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -9923,6 +10419,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Foes' Fate",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fangrune Pendant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -10245,6 +10770,23 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -10565,6 +11107,23 @@
                                 {
                                     "name": "Frost Weapon",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -12040,6 +12599,27 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -12383,6 +12963,27 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -12717,6 +13318,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Foes' Fate",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fangrune Pendant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -12969,6 +13599,27 @@
                                 {
                                     "name": "Frost Weapon",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
                                 }
                             ]
                         }

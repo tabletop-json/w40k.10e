@@ -71,6 +71,13 @@
             "rulesetId": "w40k.10e.ba",
             "name": "The Lost Brethren",
             "rule": ""
+        },
+        {
+            "id": "w40k.10e.ba.dt.angelicInheritors",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.ba",
+            "name": "Angelic Inheritors",
+            "rule": ""
         }
     ],
     "units": [
@@ -417,6 +424,35 @@
                                 {
                                     "name": "Vengeful Onslaught",
                                     "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicInheritors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prescient Flash",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Troubling Visions",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Blazing Icon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ordained Sacrifice",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -778,6 +814,35 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicInheritors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prescient Flash",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Troubling Visions",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Blazing Icon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ordained Sacrifice",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1110,6 +1175,35 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicInheritors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prescient Flash",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Troubling Visions",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Blazing Icon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ordained Sacrifice",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1420,6 +1514,35 @@
                                 {
                                     "name": "Vengeful Onslaught",
                                     "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicInheritors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prescient Flash",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Troubling Visions",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Blazing Icon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ordained Sacrifice",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -1762,6 +1885,35 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicInheritors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prescient Flash",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Troubling Visions",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Blazing Icon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ordained Sacrifice",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2074,6 +2226,35 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicInheritors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prescient Flash",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Troubling Visions",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Blazing Icon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ordained Sacrifice",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2384,6 +2565,35 @@
                                 {
                                     "name": "Vengeful Onslaught",
                                     "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicInheritors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prescient Flash",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Troubling Visions",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Blazing Icon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ordained Sacrifice",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -2765,6 +2975,35 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicInheritors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prescient Flash",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Troubling Visions",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Blazing Icon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ordained Sacrifice",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3075,6 +3314,35 @@
                                 {
                                     "name": "Vengeful Onslaught",
                                     "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicInheritors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prescient Flash",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Troubling Visions",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Blazing Icon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ordained Sacrifice",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -3406,6 +3674,35 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicInheritors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prescient Flash",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Troubling Visions",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Blazing Icon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ordained Sacrifice",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3716,6 +4013,35 @@
                                 {
                                     "name": "Vengeful Onslaught",
                                     "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicInheritors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prescient Flash",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Troubling Visions",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Blazing Icon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ordained Sacrifice",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -4044,6 +4370,35 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicInheritors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prescient Flash",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Troubling Visions",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Blazing Icon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ordained Sacrifice",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -4356,6 +4711,31 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicInheritors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prescient Flash",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Troubling Visions",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Ordained Sacrifice",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -4666,6 +5046,35 @@
                                 {
                                     "name": "Vengeful Onslaught",
                                     "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicInheritors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prescient Flash",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Troubling Visions",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Blazing Icon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ordained Sacrifice",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -5015,6 +5424,35 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicInheritors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prescient Flash",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Troubling Visions",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Blazing Icon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ordained Sacrifice",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -5325,6 +5763,35 @@
                                 {
                                     "name": "Vengeful Onslaught",
                                     "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicInheritors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prescient Flash",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Troubling Visions",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Blazing Icon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ordained Sacrifice",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -5949,6 +6416,35 @@
                                 {
                                     "name": "Vengeful Onslaught",
                                     "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicInheritors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prescient Flash",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Troubling Visions",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Blazing Icon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ordained Sacrifice",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -6688,6 +7184,35 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicInheritors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prescient Flash",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Troubling Visions",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Blazing Icon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ordained Sacrifice",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -6998,6 +7523,35 @@
                                 {
                                     "name": "Vengeful Onslaught",
                                     "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicInheritors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prescient Flash",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Troubling Visions",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Blazing Icon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ordained Sacrifice",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -7326,6 +7880,35 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicInheritors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prescient Flash",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Troubling Visions",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Blazing Icon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ordained Sacrifice",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -7636,6 +8219,35 @@
                                 {
                                     "name": "Vengeful Onslaught",
                                     "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicInheritors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prescient Flash",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Troubling Visions",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Blazing Icon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ordained Sacrifice",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -7977,6 +8589,35 @@
                                 {
                                     "name": "Vengeful Onslaught",
                                     "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicInheritors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prescient Flash",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Troubling Visions",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Blazing Icon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ordained Sacrifice",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -8543,6 +9184,35 @@
                                 {
                                     "name": "Vengeful Onslaught",
                                     "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicInheritors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prescient Flash",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Troubling Visions",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Blazing Icon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ordained Sacrifice",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -11828,6 +12498,35 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicInheritors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prescient Flash",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Troubling Visions",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Blazing Icon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ordained Sacrifice",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -12193,6 +12892,35 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicInheritors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prescient Flash",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Troubling Visions",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Blazing Icon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ordained Sacrifice",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -12534,6 +13262,35 @@
                                 {
                                     "name": "Vengeful Onslaught",
                                     "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicInheritors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prescient Flash",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Troubling Visions",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Blazing Icon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ordained Sacrifice",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -12880,6 +13637,35 @@
                                 {
                                     "name": "Vengeful Onslaught",
                                     "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.angelicInheritors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prescient Flash",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Troubling Visions",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Blazing Icon",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ordained Sacrifice",
+                                    "points": 25
                                 }
                             ]
                         }

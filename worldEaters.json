@@ -19,6 +19,13 @@
             "rulesetId": "w40k.10e.we",
             "name": "Berzerker Warband",
             "rule": ""
+        },
+        {
+            "id": "w40k.10e.we.dt.vesselsOfWrath",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.we",
+            "name": "Vessels of Wrath",
+            "rule": ""
         }
     ],
     "units": [
@@ -146,6 +153,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.we.dt.vesselsOfWrath",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archslaughterer",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Vox-Diabolus",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Avenger's Crown",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Gateway to Glory",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -207,6 +243,35 @@
                                 {
                                     "name": "Helm of Brazen Ire",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.we.dt.vesselsOfWrath",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archslaughterer",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Vox-Diabolus",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Avenger's Crown",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Gateway to Glory",
+                                    "points": 10
                                 }
                             ]
                         }
@@ -278,6 +343,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.we.dt.vesselsOfWrath",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archslaughterer",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Vox-Diabolus",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Avenger's Crown",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Gateway to Glory",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -339,6 +433,31 @@
                                 {
                                     "name": "Helm of Brazen Ire",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.we.dt.vesselsOfWrath",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archslaughterer",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Vox-Diabolus",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Avenger's Crown",
+                                    "points": 15
                                 }
                             ]
                         }

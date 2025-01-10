@@ -1,7 +1,7 @@
 {
     "id": "w40k.10e",
-    "version": "0.10.8",
-    "updateNotes": "20/12/2024: Nemesis Claw added",
+    "version": "0.10.9",
+    "updateNotes": "10/01/2025: Rest of Grotmas Detachments",
     "name": "Warhammer 40,000: 10th Edition",
     "enabled": true,
     "path": "https://raw.githubusercontent.com/tabletop-json/w40k.10e/master/",
@@ -105,7 +105,10 @@
             "name": "Genestealer Cults",
             "keyword": "GENESTEALER CULTS",
             "enabled": true,
-            "endpoint": "genestealerCults.json"
+            "endpoint": "genestealerCults.json",
+            "allies": [
+                "w40k.10e.tyranidAllies.json"
+            ]
         },
         {
             "id": "w40k.10e.gk.config",
@@ -466,6 +469,14 @@
             "name": "Forgeworld",
             "enabled": false,
             "endpoint": "forgeworldAllies.json"
+        },
+        {
+            "id": "w40k.10e.tyranidAllies.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.tyranidAllies",
+            "name": "Vanguard Invaders",
+            "enabled": false,
+            "endpoint": "tyranidAllies.json"
         }
     ]
 }

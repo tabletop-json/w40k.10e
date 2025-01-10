@@ -43,6 +43,13 @@
             "rulesetId": "w40k.10e.gsc",
             "name": "Brood Brother Auxilia",
             "rule": ""
+        },
+        {
+            "id": "w40k.10e.gsc.dt.finalDay",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Final Day",
+            "rule": ""
         }
     ],
     "units": [
@@ -263,6 +270,27 @@
                                 {
                                     "name": "Fire-point Commander",
                                     "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.finalDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Enraptured Damnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Inhuman Integration",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -652,6 +680,27 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.finalDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Enraptured Damnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Inhuman Integration",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -928,6 +977,27 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.finalDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Enraptured Damnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Inhuman Integration",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1093,6 +1163,27 @@
                                 {
                                     "name": "Fire-point Commander",
                                     "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.finalDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Enraptured Damnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Inhuman Integration",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -1383,6 +1474,27 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.finalDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Enraptured Damnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Inhuman Integration",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1548,6 +1660,27 @@
                                 {
                                     "name": "Fire-point Commander",
                                     "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.finalDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Enraptured Damnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Inhuman Integration",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -1717,6 +1850,27 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.finalDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Enraptured Damnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Inhuman Integration",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1882,6 +2036,27 @@
                                 {
                                     "name": "Fire-point Commander",
                                     "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.finalDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Enraptured Damnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Inhuman Integration",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -2151,6 +2326,27 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.finalDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Enraptured Damnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Inhuman Integration",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2318,6 +2514,27 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.finalDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Enraptured Damnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Inhuman Integration",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2483,6 +2700,27 @@
                                 {
                                     "name": "Fire-point Commander",
                                     "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.finalDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Enraptured Damnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Inhuman Integration",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -2684,6 +2922,27 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.finalDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Enraptured Damnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Inhuman Integration",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2865,6 +3124,27 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.finalDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Enraptured Damnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Inhuman Integration",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3030,6 +3310,27 @@
                                 {
                                     "name": "Fire-point Commander",
                                     "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gsc.dt.finalDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Enraptured Damnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Inhuman Integration",
+                                    "points": 20
                                 }
                             ]
                         }
