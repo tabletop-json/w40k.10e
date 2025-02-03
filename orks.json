@@ -3621,16 +3621,16 @@
             "points": [
                 {
                     "name": "Tankbusta, Boss Nob",
-                    "amount": 5,
-                    "cost": 90
+                    "amount": 6,
+                    "cost": 120
                 }
             ],
             "restrictions": [
                 {
                     "type": "model",
                     "name": "Tankbusta",
-                    "min": 4,
-                    "max": 4
+                    "min": 5,
+                    "max": 5
                 },
                 {
                     "type": "model",
@@ -3641,10 +3641,134 @@
             ],
             "blueprints": [
                 {
-                    "name": "Tankbusta"
+                    "name": "Tankbusta",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Pulsa Rokkit"
+                                },
+                                {
+                                    "name": "Rokkit Launcha"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Rokkit Launcha"
+                            }
+                        }
+                    ]
                 },
                 {
-                    "name": "Boss Nob"
+                    "name": "Boss Nob",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Rokkit Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Rokkit Pistol"
+                                },
+                                {
+                                    "name": "Smash Hammer"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Rokkit Pistol"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ork.unit.breakaBoyz",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ork",
+            "name": "Breaka Boyz",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Breaka Boy, Boss Nob",
+                    "amount": 6,
+                    "cost": 140
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Breaka Boy",
+                    "min": 5,
+                    "max": 5
+                },
+                {
+                    "type": "model",
+                    "name": "Boss Nob",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Breaka Boy",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Smash Hammer"
+                            },
+                            "options": [
+                                {
+                                    "name": "Smash Hammer"
+                                },
+                                {
+                                    "name": "Knucklebustas"
+                                },
+                                {
+                                    "name": "Tankhammer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Boss Nob",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Smash Hammer"
+                            },
+                            "options": [
+                                {
+                                    "name": "Smash Hammer"
+                                },
+                                {
+                                    "name": "Rokkit Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Rokkit Pistol"
+                            }
+                        }
+                    ]
                 }
             ]
         },

@@ -10,10 +10,38 @@
     },
     "detachments": [
         {
-            "id": "w40k.10e.am.dt.combinedRegiment",
+            "id": "w40k.10e.am.dt.combinedArms",
             "type": "detachment",
             "rulesetId": "w40k.10e.am",
-            "name": "Combined Regiment",
+            "name": "Combined Arms",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.am.dt.siegeRegiment",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.am",
+            "name": "Siege Regiment",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.am.dt.mechanisedAssault",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.am",
+            "name": "Mechanised Assault",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.am.dt.reconElement",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.am",
+            "name": "Recon Element",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.am.dt.hammerEmperor",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.am",
+            "name": "Hammer of the Emperor",
             "rule": ""
         },
         {
@@ -48,15 +76,15 @@
             ]
         },
         {
-            "id": "w40k.10e.am.unit.ursulaCreed",
+            "id": "w40k.10e.am.unit.dreir",
             "type": "unit",
             "rulesetId": "w40k.10e.am",
-            "name": "Ursula Creed",
+            "name": "Lord Marshal Dreir",
             "role": "CHARACTER",
             "models": [
                 {
-                    "name": "Ursula Creed",
-                    "points": 55,
+                    "name": "Lord Marshal Dreir",
+                    "points": 100,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -70,7 +98,29 @@
             ]
         },
         {
-            "id": "w40k.10e.am.unit.cadiaCastellan",
+            "id": "w40k.10e.am.unit.ursulaCreed",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Ursula Creed",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Ursula Creed",
+                    "points": 65,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.am.unit.cadianCastellan",
             "type": "unit",
             "rulesetId": "w40k.10e.am",
             "name": "Cadian Castellan",
@@ -78,7 +128,7 @@
             "models": [
                 {
                     "name": "Cadian Castellan",
-                    "points": 45,
+                    "points": 55,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -127,7 +177,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.am.dt.combinedRegiment",
+                            "detachmentId": "w40k.10e.am.dt.combinedArms",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -148,8 +198,91 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Kurov's Aquila",
-                                    "points": 40
+                                    "name": "Reactive Command",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.siegeRegiment",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eager Advance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Flash Grenades",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Legacy Sidearm",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Stalwart's Honours",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.mechanisedAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bold Leadership",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Smoke Grenades",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Vanguard Honours",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.reconElement",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Guerrilla Honours",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scare Gas Grenades",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Survival Gear",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Tripwires",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -178,12 +311,12 @@
             "id": "w40k.10e.am.unit.tankCommander",
             "type": "unit",
             "rulesetId": "w40k.10e.am",
-            "name": "Tank Commander",
+            "name": "Leman Russ Commander",
             "role": "CHARACTER",
             "models": [
                 {
-                    "name": "Tank Commander",
-                    "points": 225,
+                    "name": "Leman Russ Commander",
+                    "points": 235,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -288,7 +421,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.am.dt.combinedRegiment",
+                            "detachmentId": "w40k.10e.am.dt.combinedArms",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -309,8 +442,71 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Kurov's Aquila",
-                                    "points": 40
+                                    "name": "Reactive Command",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.siegeRegiment",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Stalwart's Honours",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.hammerEmperor",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calm Under Fire",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Indomitable Steed",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Regimental Banner",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veteran Crew",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.reconElement",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Guerrilla Honours",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -319,20 +515,190 @@
             ]
         },
         {
-            "id": "w40k.10e.am.unit.platoonCommandSquad",
+            "id": "w40k.10e.am.unit.rogalDornCommander",
             "type": "unit",
             "rulesetId": "w40k.10e.am",
-            "name": "Platoon Command Squad",
+            "name": "Rogal Dorn Commander",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Rogal Dorn Commander",
+                    "points": 240,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Battle Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Battle Cannon"
+                                },
+                                {
+                                    "name": "Oppressor Cannon, Co-axial Autocannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Castigator Gatling Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Castigator Gatling Cannon"
+                                },
+                                {
+                                    "name": "Pulveriser Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Heavy Stubber"
+                            }
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "2x Meltaguns"
+                                },
+                                {
+                                    "name": "2x Heavy Stubbers"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "2x Heavy Bolters"
+                                },
+                                {
+                                    "name": "2x Multi-meltas"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.combinedArms",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Death Mask of Ollanius",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Drill Commander",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Grand Strategist",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Reactive Command",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.siegeRegiment",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Stalwart's Honours",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.hammerEmperor",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calm Under Fire",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Indomitable Steed",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Regimental Banner",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veteran Crew",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.reconElement",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Guerrilla Honours",
+                                    "points": 25
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.am.unit.catachanCommandSquad",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Catachan Command Squad",
             "role": "CHARACTER",
             "points": [
                 {
-                    "name": "Veteran Guardsman, Platoon Commander",
+                    "name": "Veteran Guardsman, Catachan Commander",
                     "amount": 5,
-                    "cost": 60
-                },
-                {
-                    "name": "Veteran Guardsman, Veteran Heavy Weapons Team, Platoon Commander",
-                    "amount": 4,
                     "cost": 60
                 }
             ],
@@ -340,108 +706,14 @@
                 {
                     "type": "model",
                     "name": "Veteran Guardsman",
-                    "min": 2,
+                    "min": 4,
                     "max": 4
                 },
                 {
                     "type": "model",
-                    "name": "Platoon Commander",
+                    "name": "Catachan Commander",
                     "min": 1,
                     "max": 1
-                },
-                {
-                    "type": "model",
-                    "name": "Veteran Heavy Weapons Team",
-                    "min": 0,
-                    "max": 1
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Veteran Guardsman",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Lasgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Lasgun"
-                                },
-                                {
-                                    "name": "Flamer"
-                                },
-                                {
-                                    "name": "Grenade Launcher"
-                                },
-                                {
-                                    "name": "Heavy Flamer"
-                                },
-                                {
-                                    "name": "Meltagun"
-                                },
-                                {
-                                    "name": "Plasma Gun"
-                                },
-                                {
-                                    "name": "Sniper Rifle"
-                                },
-                                {
-                                    "name": "Chainsword"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Master Vox"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Medi-pack"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Regimental Standard"
-                            },
-                            "selected": false
-                        }
-                    ]
-                },
-                {
-                    "name": "Veteran Heavy Weapons Team",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Heavy Bolter"
-                            },
-                            "options": [
-                                {
-                                    "name": "Heavy Bolter"
-                                },
-                                {
-                                    "name": "Autocannon"
-                                },
-                                {
-                                    "name": "Lascannon"
-                                },
-                                {
-                                    "name": "Missile Launcher"
-                                },
-                                {
-                                    "name": "Mortar"
-                                }
-                            ]
-                        }
-                    ]
                 }
             ],
             "models": [
@@ -474,28 +746,93 @@
                                 },
                                 {
                                     "name": "Sniper Rifle"
-                                },
-                                {
-                                    "name": "Chainsword"
                                 }
                             ]
                         },
                         {
-                            "type": "checkbox",
+                            "type": "text",
                             "selectedOption": {
                                 "name": "Master Vox"
                             },
                             "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Veteran Guardsman",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Lasgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Lasgun"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Heavy Flamer"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plasma Gun"
+                                },
+                                {
+                                    "name": "Sniper Rifle"
+                                }
+                            ]
                         },
                         {
-                            "type": "checkbox",
+                            "type": "text",
                             "selectedOption": {
                                 "name": "Medi-pack"
                             },
                             "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Veteran Guardsman",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Lasgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Lasgun"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Heavy Flamer"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plasma Gun"
+                                },
+                                {
+                                    "name": "Sniper Rifle"
+                                }
+                            ]
                         },
                         {
-                            "type": "checkbox",
+                            "type": "text",
                             "selectedOption": {
                                 "name": "Regimental Standard"
                             },
@@ -532,153 +869,13 @@
                                 },
                                 {
                                     "name": "Sniper Rifle"
-                                },
-                                {
-                                    "name": "Chainsword"
                                 }
                             ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Master Vox"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Medi-pack"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Regimental Standard"
-                            },
-                            "selected": false
                         }
                     ]
                 },
                 {
-                    "name": "Veteran Guardsman",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Lasgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Lasgun"
-                                },
-                                {
-                                    "name": "Flamer"
-                                },
-                                {
-                                    "name": "Grenade Launcher"
-                                },
-                                {
-                                    "name": "Heavy Flamer"
-                                },
-                                {
-                                    "name": "Meltagun"
-                                },
-                                {
-                                    "name": "Plasma Gun"
-                                },
-                                {
-                                    "name": "Sniper Rifle"
-                                },
-                                {
-                                    "name": "Chainsword"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Master Vox"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Medi-pack"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Regimental Standard"
-                            },
-                            "selected": false
-                        }
-                    ]
-                },
-                {
-                    "name": "Veteran Guardsman",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Lasgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Lasgun"
-                                },
-                                {
-                                    "name": "Flamer"
-                                },
-                                {
-                                    "name": "Grenade Launcher"
-                                },
-                                {
-                                    "name": "Heavy Flamer"
-                                },
-                                {
-                                    "name": "Meltagun"
-                                },
-                                {
-                                    "name": "Plasma Gun"
-                                },
-                                {
-                                    "name": "Sniper Rifle"
-                                },
-                                {
-                                    "name": "Chainsword"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Master Vox"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Medi-pack"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Regimental Standard"
-                            },
-                            "selected": false
-                        }
-                    ]
-                },
-                {
-                    "name": "Platoon Commander",
+                    "name": "Catachan Commander",
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -700,9 +897,6 @@
                                     "name": "Bolt Pistol"
                                 },
                                 {
-                                    "name": "Boltgun"
-                                },
-                                {
                                     "name": "Plasma Pistol"
                                 }
                             ]
@@ -717,6 +911,12 @@
                                     "name": ""
                                 },
                                 {
+                                    "name": "Boltgun"
+                                },
+                                {
+                                    "name": "Chainsword"
+                                },
+                                {
                                     "name": "Power Fist"
                                 },
                                 {
@@ -727,7 +927,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.am.dt.combinedRegiment",
+                            "detachmentId": "w40k.10e.am.dt.combinedArms",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -748,8 +948,92 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Kurov's Aquila",
-                                    "points": 40
+                                    "name": "Reactive Command",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.siegeRegiment",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eager Advance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Flash Grenades",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Legacy Sidearm",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Stalwart's Honours",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.mechanisedAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bold Leadership",
+                                    "points": 25
+                                },
+
+                                {
+                                    "name": "Smoke Grenades",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Vanguard Honours",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.reconElement",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Guerrilla Honours",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scare Gas Grenades",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Survival Gear",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Tripwires",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -948,7 +1232,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.am.dt.combinedRegiment",
+                            "detachmentId": "w40k.10e.am.dt.combinedArms",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -969,8 +1253,92 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Kurov's Aquila",
-                                    "points": 40
+                                    "name": "Reactive Command",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.siegeRegiment",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eager Advance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Flash Grenades",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Legacy Sidearm",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Stalwart's Honours",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.mechanisedAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bold Leadership",
+                                    "points": 25
+                                },
+
+                                {
+                                    "name": "Smoke Grenades",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Vanguard Honours",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.reconElement",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Guerrilla Honours",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scare Gas Grenades",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Survival Gear",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Tripwires",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -996,15 +1364,150 @@
             ]
         },
         {
-            "id": "w40k.10e.am.unit.ironHandStraken",
+            "id": "w40k.10e.am.unit.kriegCommandSquad",
             "type": "unit",
             "rulesetId": "w40k.10e.am",
-            "name": "Iron Hand Straken",
+            "name": "Krieg Command Squad",
             "role": "CHARACTER",
+            "points": [
+                {
+                    "name": "Veteran Guardsman, Lord Commissar",
+                    "amount": 6,
+                    "cost": 65
+                }
+            ],
             "models": [
                 {
-                    "name": "Iron Hand Straken",
-                    "points": 55,
+                    "name": "Veteran Guardsman",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Lasgun"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Regimental Standard"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Veteran Guardsman",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Lasgun"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Master Vox"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Veteran Guardsman",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Laspistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Laspistol"
+                                },
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Alchemyk Counteragents, Servo-Scribes"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Veteran Guardsman",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Laspistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Laspistol"
+                                },
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Chainsword"
+                                },
+                                {
+                                    "name": "Trench Club"
+                                },
+                                {
+                                    "name": "Power Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Veteran Guardsman",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Boltgun"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Plasma Gun"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Lord Commissar",
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1012,6 +1515,164 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Laspistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Laspistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Power Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Power Fist"
+                                },
+                                {
+                                    "name": "Power Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.combinedArms",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Death Mask of Ollanius",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Drill Commander",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Grand Strategist",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Reactive Command",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.siegeRegiment",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eager Advance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Flash Grenades",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Legacy Sidearm",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Stalwart's Honours",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.mechanisedAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bold Leadership",
+                                    "points": 25
+                                },
+
+                                {
+                                    "name": "Smoke Grenades",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Vanguard Honours",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.reconElement",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Guerrilla Honours",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scare Gas Grenades",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Survival Gear",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Tripwires",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.bridgeheadStrike",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Advance Augury",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1038,7 +1699,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.am.dt.combinedRegiment",
+                            "detachmentId": "w40k.10e.am.dt.reconElement",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1047,20 +1708,16 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Death Mask of Ollanius",
-                                    "points": 10
+                                    "name": "Scare Gas Grenades",
+                                    "points": 5
                                 },
                                 {
-                                    "name": "Drill Commander",
+                                    "name": "Survival Gear",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Tripwires",
                                     "points": 20
-                                },
-                                {
-                                    "name": "Grand Strategist",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Kurov's Aquila",
-                                    "points": 40
                                 }
                             ]
                         }
@@ -1108,31 +1765,6 @@
                 },
                 {
                     "name": "Tanith Ghost"
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.am.unit.regimentalAttaches",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Regimental Attaches",
-            "role": "CHARACTER",
-            "points": [
-                {
-                    "name": "Master of Ordnance, Officer of the Fleet, Astropath",
-                    "amount": 3,
-                    "cost": 40
-                }
-            ],
-            "models": [
-                {
-                    "name": "Master of Ordnance"
-                },
-                {
-                    "name": "Officer of the Fleet"
-                },
-                {
-                    "name": "Astropath"
                 }
             ]
         },
@@ -1195,556 +1827,6 @@
                 {
                     "name": "Nork Deddog",
                     "points": 60
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.am.unit.infantrySquad",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Infantry Squad",
-            "role": "BATTLELINE",
-            "points": [
-                {
-                    "name": "Guardsman, Sergeant",
-                    "amount": 20,
-                    "cost": 120
-                },
-                {
-                    "name": "Guardsman, Heavy Weapons Team, Sergeant",
-                    "amount": 19,
-                    "cost": 120
-                },
-                {
-                    "name": "Guardsman, Heavy Weapons Team, Sergeant",
-                    "amount": 18,
-                    "cost": 120
-                },
-                {
-                    "name": "Guardsman, Sergeant",
-                    "amount": 10,
-                    "cost": 60
-                },
-                {
-                    "name": "Guardsman, Heavy Weapons Team, Sergeant",
-                    "amount": 9,
-                    "cost": 60
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Guardsman",
-                    "min": 7,
-                    "max": 18
-                },
-                {
-                    "type": "model",
-                    "name": "Sergeant",
-                    "min": 1,
-                    "max": 1
-                },
-                {
-                    "type": "model",
-                    "name": "Heavy Weapons Team",
-                    "min": 0,
-                    "max": 2
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Guardsman",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Lasgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Lasgun"
-                                },
-                                {
-                                    "name": "Flamer"
-                                },
-                                {
-                                    "name": "Grenade Launcher"
-                                },
-                                {
-                                    "name": "Meltagun"
-                                },
-                                {
-                                    "name": "Plasma Gun"
-                                },
-                                {
-                                    "name": "Sniper Rifle"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Vox Caster"
-                            },
-                            "selected": false
-                        }
-                    ]
-                },
-                {
-                    "name": "Heavy Weapons Team",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Heavy Bolter"
-                            },
-                            "options": [
-                                {
-                                    "name": "Heavy Bolter"
-                                },
-                                {
-                                    "name": "Autocannon"
-                                },
-                                {
-                                    "name": "Lascannon"
-                                },
-                                {
-                                    "name": "Missile Launcher"
-                                },
-                                {
-                                    "name": "Mortar"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Sergeant",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Laspistol"
-                            },
-                            "options": [
-                                {
-                                    "name": "Laspistol"
-                                },
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Close Combat Weapon"
-                            },
-                            "options": [
-                                {
-                                    "name": "Close Combat Weapon"
-                                },
-                                {
-                                    "name": "Chainsword"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "models": [
-                {
-                    "name": "Guardsman",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Lasgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Lasgun"
-                                },
-                                {
-                                    "name": "Flamer"
-                                },
-                                {
-                                    "name": "Grenade Launcher"
-                                },
-                                {
-                                    "name": "Meltagun"
-                                },
-                                {
-                                    "name": "Plasma Gun"
-                                },
-                                {
-                                    "name": "Sniper Rifle"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Vox Caster"
-                            },
-                            "selected": false
-                        }
-                    ]
-                },
-                {
-                    "name": "Guardsman",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Lasgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Lasgun"
-                                },
-                                {
-                                    "name": "Flamer"
-                                },
-                                {
-                                    "name": "Grenade Launcher"
-                                },
-                                {
-                                    "name": "Meltagun"
-                                },
-                                {
-                                    "name": "Plasma Gun"
-                                },
-                                {
-                                    "name": "Sniper Rifle"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Vox Caster"
-                            },
-                            "selected": false
-                        }
-                    ]
-                },
-                {
-                    "name": "Guardsman",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Lasgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Lasgun"
-                                },
-                                {
-                                    "name": "Flamer"
-                                },
-                                {
-                                    "name": "Grenade Launcher"
-                                },
-                                {
-                                    "name": "Meltagun"
-                                },
-                                {
-                                    "name": "Plasma Gun"
-                                },
-                                {
-                                    "name": "Sniper Rifle"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Vox Caster"
-                            },
-                            "selected": false
-                        }
-                    ]
-                },
-                {
-                    "name": "Guardsman",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Lasgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Lasgun"
-                                },
-                                {
-                                    "name": "Flamer"
-                                },
-                                {
-                                    "name": "Grenade Launcher"
-                                },
-                                {
-                                    "name": "Meltagun"
-                                },
-                                {
-                                    "name": "Plasma Gun"
-                                },
-                                {
-                                    "name": "Sniper Rifle"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Vox Caster"
-                            },
-                            "selected": false
-                        }
-                    ]
-                },
-                {
-                    "name": "Guardsman",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Lasgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Lasgun"
-                                },
-                                {
-                                    "name": "Flamer"
-                                },
-                                {
-                                    "name": "Grenade Launcher"
-                                },
-                                {
-                                    "name": "Meltagun"
-                                },
-                                {
-                                    "name": "Plasma Gun"
-                                },
-                                {
-                                    "name": "Sniper Rifle"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Vox Caster"
-                            },
-                            "selected": false
-                        }
-                    ]
-                },
-                {
-                    "name": "Guardsman",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Lasgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Lasgun"
-                                },
-                                {
-                                    "name": "Flamer"
-                                },
-                                {
-                                    "name": "Grenade Launcher"
-                                },
-                                {
-                                    "name": "Meltagun"
-                                },
-                                {
-                                    "name": "Plasma Gun"
-                                },
-                                {
-                                    "name": "Sniper Rifle"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Vox Caster"
-                            },
-                            "selected": false
-                        }
-                    ]
-                },
-                {
-                    "name": "Guardsman",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Lasgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Lasgun"
-                                },
-                                {
-                                    "name": "Flamer"
-                                },
-                                {
-                                    "name": "Grenade Launcher"
-                                },
-                                {
-                                    "name": "Meltagun"
-                                },
-                                {
-                                    "name": "Plasma Gun"
-                                },
-                                {
-                                    "name": "Sniper Rifle"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Vox Caster"
-                            },
-                            "selected": false
-                        }
-                    ]
-                },
-                {
-                    "name": "Guardsman",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Lasgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Lasgun"
-                                },
-                                {
-                                    "name": "Flamer"
-                                },
-                                {
-                                    "name": "Grenade Launcher"
-                                },
-                                {
-                                    "name": "Meltagun"
-                                },
-                                {
-                                    "name": "Plasma Gun"
-                                },
-                                {
-                                    "name": "Sniper Rifle"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Vox Caster"
-                            },
-                            "selected": false
-                        }
-                    ]
-                },
-                {
-                    "name": "Guardsman",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Lasgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Lasgun"
-                                },
-                                {
-                                    "name": "Flamer"
-                                },
-                                {
-                                    "name": "Grenade Launcher"
-                                },
-                                {
-                                    "name": "Meltagun"
-                                },
-                                {
-                                    "name": "Plasma Gun"
-                                },
-                                {
-                                    "name": "Sniper Rifle"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Vox Caster"
-                            },
-                            "selected": false
-                        }
-                    ]
-                },
-                {
-                    "name": "Sergeant",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Laspistol"
-                            },
-                            "options": [
-                                {
-                                    "name": "Laspistol"
-                                },
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Close Combat Weapon"
-                            },
-                            "options": [
-                                {
-                                    "name": "Close Combat Weapon"
-                                },
-                                {
-                                    "name": "Chainsword"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                }
-                            ]
-                        }
-                    ]
                 }
             ]
         },
@@ -1892,10 +1974,10 @@
                                     "name": "Grenade Launcher"
                                 },
                                 {
-                                    "name": "Meltagun"
+                                    "name": "Long-las"
                                 },
                                 {
-                                    "name": "Sniper Rifle"
+                                    "name": "Meltagun"
                                 },
                                 {
                                     "name": "Plasma Gun"
@@ -1930,9 +2012,6 @@
                                     "name": "Bolt Pistol"
                                 },
                                 {
-                                    "name": "Boltgun"
-                                },
-                                {
                                     "name": "Plasma Pistol"
                                 }
                             ]
@@ -1945,6 +2024,9 @@
                             "options": [
                                 {
                                     "name": "Chainsword"
+                                },
+                                {
+                                    "name": "Close Combat Weapon"
                                 },
                                 {
                                     "name": "Power Weapon"
@@ -2036,7 +2118,7 @@
             "models": [
                 {
                     "name": "Sly Marbo",
-                    "points": 65
+                    "points": 55
                 }
             ]
         },
@@ -2151,10 +2233,10 @@
             ]
         },
         {
-            "id": "w40k.10e.am.unit.regimentalPreacher",
+            "id": "w40k.10e.am.unit.ministorumPriest",
             "type": "unit",
             "rulesetId": "w40k.10e.am",
-            "name": "Regimental Preacher",
+            "name": "Ministorum Priest",
             "role": "CHARACTER",
             "models": [
                 {
@@ -2171,24 +2253,21 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Power Weapon"
+                                "name": "Zealot's Vindicator"
                             },
                             "options": [
                                 {
-                                    "name": "Power Weapon"
+                                    "name": "Zealot's Vindicator"
                                 },
                                 {
-                                    "name": "Autogun, Chainsword"
-                                },
-                                {
-                                    "name": "Preacher Shotgun, Chainsword"
+                                    "name": "Holy Pistol, Power Weapon"
                                 }
                             ]
                         },
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.am.dt.combinedRegiment",
+                            "detachmentId": "w40k.10e.am.dt.reconElement",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -2197,20 +2276,16 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Death Mask of Ollanius",
-                                    "points": 10
+                                    "name": "Scare Gas Grenades",
+                                    "points": 5
                                 },
                                 {
-                                    "name": "Drill Commander",
+                                    "name": "Survival Gear",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Tripwires",
                                     "points": 20
-                                },
-                                {
-                                    "name": "Grand Strategist",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Kurov's Aquila",
-                                    "points": 40
                                 }
                             ]
                         }
@@ -2219,36 +2294,14 @@
             ]
         },
         {
-            "id": "w40k.10e.am.unit.sergeantHarker",
+            "id": "w40k.10e.am.unit.techpriestEnginseer",
             "type": "unit",
             "rulesetId": "w40k.10e.am",
-            "name": "Sergeant Harker",
+            "name": "Tech-Priest Enginseer",
             "role": "CHARACTER",
             "models": [
                 {
-                    "name": "Sergeant Harker",
-                    "points": 40,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.am.unit.regimentalEnginseer",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Regimental Enginseer",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Regimental Enginseer",
+                    "name": "Tech-Priest Enginseer",
                     "points": 45,
                     "gearset": [
                         {
@@ -2261,7 +2314,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.am.dt.combinedRegiment",
+                            "detachmentId": "w40k.10e.am.dt.mechanisedAssault",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -2270,69 +2323,33 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Death Mask of Ollanius",
+                                    "name": "Sacred Unguents",
                                     "points": 10
-                                },
-                                {
-                                    "name": "Drill Commander",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Grand Strategist",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Kurov's Aquila",
-                                    "points": 40
                                 }
                             ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.am.unit.munitorumServitors",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Munitorum Servitors",
-            "role": "INFANTRY",
-            "points": [
-                {
-                    "name": "Munitorum Servitor",
-                    "amount": 4,
-                    "cost": 35
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Munitorum Servitor",
-                    "min": 4,
-                    "max": 4
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Munitorum Servitor",
-                    "gearset": [
+                        },
                         {
                             "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.reconElement",
                             "selectedOption": {
-                                "name": "Servitor Servo-arm"
+                                "name": ""
                             },
                             "options": [
                                 {
-                                    "name": "Servitor Servo-arm"
+                                    "name": ""
                                 },
                                 {
-                                    "name": "Heavy Bolter"
+                                    "name": "Scare Gas Grenades",
+                                    "points": 5
                                 },
                                 {
-                                    "name": "Multi-melta"
+                                    "name": "Survival Gear",
+                                    "points": 5
                                 },
                                 {
-                                    "name": "Plasma Cannon"
+                                    "name": "Tripwires",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -2389,7 +2406,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.am.dt.combinedRegiment",
+                            "detachmentId": "w40k.10e.am.dt.combinedArms",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -2410,8 +2427,92 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Kurov's Aquila",
-                                    "points": 40
+                                    "name": "Reactive Command",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.siegeRegiment",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eager Advance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Flash Grenades",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Legacy Sidearm",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Stalwart's Honours",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.mechanisedAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bold Leadership",
+                                    "points": 25
+                                },
+
+                                {
+                                    "name": "Smoke Grenades",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Vanguard Honours",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.reconElement",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Guerrilla Honours",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scare Gas Grenades",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Survival Gear",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Tripwires",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -2579,33 +2680,56 @@
             ]
         },
         {
-            "id": "w40k.10e.am.unit.ratlingSnipers",
+            "id": "w40k.10e.am.unit.ratlings",
             "type": "unit",
             "rulesetId": "w40k.10e.am",
-            "name": "Ratling Snipers",
+            "name": "Ratlings",
             "role": "INFANTRY",
             "points": [
                 {
-                    "name": "Ratling Sniper",
+                    "name": "Ratling",
+                    "amount": 10,
+                    "cost": 100
+                },
+                {
+                    "name": "Ratling",
                     "amount": 5,
                     "cost": 60
                 }
             ],
-            "models": [
+            "blueprints": [
                 {
-                    "name": "Ratling Sniper"
-                },
-                {
-                    "name": "Ratling Sniper"
-                },
-                {
-                    "name": "Ratling Sniper"
-                },
-                {
-                    "name": "Ratling Sniper"
-                },
-                {
-                    "name": "Ratling Sniper"
+                    "name": "Ratling",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Sniper Rifle"
+                            },
+                            "options": [
+                                {
+                                    "name": "Sniper Rifle"
+                                },
+                                {
+                                    "name": "Tankstopper Rifle"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Demolition Gear"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Ratling Battlemutt"
+                            },
+                            "selected": false
+                        }
+                    ]
                 }
             ]
         },
@@ -2690,11 +2814,6 @@
             "points": [
                 {
                     "name": "Scout Sentinel",
-                    "amount": 3,
-                    "cost": 165
-                },
-                {
-                    "name": "Scout Sentinel",
                     "amount": 2,
                     "cost": 110
                 },
@@ -2767,11 +2886,6 @@
             "name": "Armoured Sentinels",
             "role": "VEHICLE",
             "points": [
-                {
-                    "name": "Armoured Sentinel",
-                    "amount": 3,
-                    "cost": 195
-                },
                 {
                     "name": "Armoured Sentinel",
                     "amount": 2,
@@ -2979,10 +3093,10 @@
             ]
         },
         {
-            "id": "w40k.10e.am.unit.heavyWeaponsSquad",
+            "id": "w40k.10e.am.unit.cadianHeavyWeaponsSquad",
             "type": "unit",
             "rulesetId": "w40k.10e.am",
-            "name": "Heavy Weapons Squad",
+            "name": "Cadian Heavy Weapons Squad",
             "role": "INFANTRY",
             "points": [
                 {
@@ -3023,6 +3137,145 @@
                                 },
                                 {
                                     "name": "Mortar"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.am.unit.catachanHeavyWeaponsSquad",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Catachan Heavy Weapons Squad",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Heavy Weapons Team",
+                    "amount": 3,
+                    "cost": 50
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Heavy Weapons Team",
+                    "min": 3,
+                    "max": 3
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Heavy Weapons Team",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Bolter"
+                                },
+                                {
+                                    "name": "Autocannon"
+                                },
+                                {
+                                    "name": "Lascannon"
+                                },
+                                {
+                                    "name": "Missile Launcher"
+                                },
+                                {
+                                    "name": "Mortar"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.am.unit.kriegHeavyWeaponsSquad",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Krieg Heavy Weapons Squad",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Heavy Weapons Team",
+                    "amount": 3,
+                    "cost": 50
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Heavy Weapons Team",
+                    "min": 3,
+                    "max": 3
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Heavy Weapons Team",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Lascannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Lascannon"
+                                },
+                                {
+                                    "name": "Krieg Heavy Flamer"
+                                },
+                                {
+                                    "name": "Twin Krieg Heavy Stubber"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.am.unit.artilleryTeam",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Artillery Team",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Artillery Team",
+                    "amount": 1,
+                    "cost": 95
+                }
+            ],
+            "models": [
+                {
+                    "name": "Ordnance Team",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Mortar"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Mortar"
+                                },
+                                {
+                                    "name": "Siege Cannon"
+                                },
+                                {
+                                    "name": "Heavy Quad Launcher"
+                                },
+                                {
+                                    "name": "Multiple Rocket Launcher"
                                 }
                             ]
                         }
@@ -3099,7 +3352,7 @@
             "models": [
                 {
                     "name": "Leman Russ Battle Tank",
-                    "points": 170,
+                    "points": 175,
                     "gearset": [
                         {
                             "type": "text",
@@ -3184,7 +3437,7 @@
             "models": [
                 {
                     "name": "Leman Russ Demolisher",
-                    "points": 200,
+                    "points": 190,
                     "gearset": [
                         {
                             "type": "text",
@@ -3524,7 +3777,7 @@
             "models": [
                 {
                     "name": "Leman Russ Exterminator",
-                    "points": 170,
+                    "points": 180,
                     "gearset": [
                         {
                             "type": "text",
@@ -3609,7 +3862,7 @@
             "models": [
                 {
                     "name": "Leman Russ Eradicator",
-                    "points": 150,
+                    "points": 170,
                     "gearset": [
                         {
                             "type": "text",
@@ -3736,7 +3989,7 @@
             "models": [
                 {
                     "name": "Hydra",
-                    "points": 85,
+                    "points": 95,
                     "gearset": [
                         {
                             "type": "text",
@@ -3778,7 +4031,7 @@
             "models": [
                 {
                     "name": "Manticore",
-                    "points": 175,
+                    "points": 165,
                     "gearset": [
                         {
                             "type": "text",
@@ -4555,7 +4808,7 @@
                 {
                     "name": "Tempestus Scion, Tempestor Prime",
                     "amount": 5,
-                    "cost": 70
+                    "cost": 75
                 }
             ],
             "models": [
@@ -4734,7 +4987,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.am.dt.combinedRegiment",
+                            "detachmentId": "w40k.10e.am.dt.combinedArms",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -4755,8 +5008,92 @@
                                     "points": 15
                                 },
                                 {
-                                    "name": "Kurov's Aquila",
-                                    "points": 40
+                                    "name": "Reactive Command",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.siegeRegiment",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eager Advance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Flash Grenades",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Legacy Sidearm",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Stalwart's Honours",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.mechanisedAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bold Leadership",
+                                    "points": 25
+                                },
+
+                                {
+                                    "name": "Smoke Grenades",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Vanguard Honours",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.am.dt.reconElement",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Guerrilla Honours",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scare Gas Grenades",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Survival Gear",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Tripwires",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -4803,12 +5140,12 @@
                 {
                     "name": "Tempestus Scion, Tempestor",
                     "amount": 10,
-                    "cost": 120
+                    "cost": 130
                 },
                 {
                     "name": "Tempestus Scion, Tempestor",
                     "amount": 5,
-                    "cost": 60
+                    "cost": 65
                 }
             ],
             "restrictions": [
@@ -4902,6 +5239,108 @@
             ]
         },
         {
+            "id": "w40k.10e.am.unit.kriegEngineers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Krieg Combat Engineers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Combat Engineer, Krieg Engineer Watchmaster",
+                    "amount": 10,
+                    "cost": 130
+                },
+                {
+                    "name": "Combat Engineer, Krieg Engineer Watchmaster",
+                    "amount": 5,
+                    "cost": 65
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Combat Engineer",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Krieg Engineer Watchmaster",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Combat Engineer",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Autopistol, Trench Club"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autopistol, Trench Club"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Autopistol, Remote Mine"
+                                },
+                                {
+                                    "name": "Combat Shotgun"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Krieg Engineer Watchmaster",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Autopistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autopistol"
+                                },
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Hand Flamer"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Trench Club"
+                            },
+                            "options": [
+                                {
+                                    "name": "Trench Club"
+                                },
+                                {
+                                    "name": "Chainsword"
+                                },
+                                {
+                                    "name": "Power Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "w40k.10e.am.unit.Tauroxprime",
             "type": "unit",
             "rulesetId": "w40k.10e.am",
@@ -4955,95 +5394,10 @@
             ]
         },
         {
-            "id": "w40k.10e.am.unit.deathKorpsMarshal",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Death Korps Marshal",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Death Korps Marshal",
-                    "points": 60,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Laspistol"
-                            },
-                            "options": [
-                                {
-                                    "name": "Laspistol"
-                                },
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.am.dt.combinedRegiment",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Death Mask of Ollanius",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Drill Commander",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Grand Strategist",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Kurov's Aquila",
-                                    "points": 40
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.am.dt.bridgeheadStrike",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Advance Augury",
-                                    "points": 15
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "id": "w40k.10e.am.unit.deathRiderSquadron",
             "type": "unit",
             "rulesetId": "w40k.10e.am",
-            "name": "Death Rider Squadron",
+            "name": "Death Riders",
             "role": "MOUNTED",
             "points": [
                 {
@@ -5076,159 +5430,7 @@
                     "name": "Death Rider"
                 },
                 {
-                    "name": "Ridemaster",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Laspistol"
-                            },
-                            "options": [
-                                {
-                                    "name": "Laspistol"
-                                },
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.am.unit.deathRiderSquadronCommander",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Death Rider Squadron Commander",
-            "role": "MOUNTED",
-            "models": [
-                {
-                    "name": "Death Rider Squadron Commander",
-                    "points": 60,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Laspistol"
-                            },
-                            "options": [
-                                {
-                                    "name": "Laspistol"
-                                },
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.am.dt.combinedRegiment",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Death Mask of Ollanius",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Drill Commander",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Grand Strategist",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Kurov's Aquila",
-                                    "points": 40
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.am.unit.Carnodon",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Carnodon",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Carnodon",
-                    "points": 160,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Carnodon Twin Autocannon"
-                            },
-                            "options": [
-                                {
-                                    "name": "Carnodon Twin Autocannon"
-                                },
-                                {
-                                    "name": "Carnodon Twin Multi-laser"
-                                },
-                                {
-                                    "name": "Volkite Culverin"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "2x Autocannon"
-                            },
-                            "options": [
-                                {
-                                    "name": "2x Autocannon"
-                                },
-                                {
-                                    "name": "2x Heavy Bolter"
-                                },
-                                {
-                                    "name": "2x Heavy Flamer"
-                                },
-                                {
-                                    "name": "2x Lascannon"
-                                },
-                                {
-                                    "name": "2x Militarum Multi-laser"
-                                },
-                                {
-                                    "name": "2x Volkite Caliver"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Hunter-killer Missile"
-                            },
-                            "selected": false
-                        }
-                    ]
+                    "name": "Ridemaster"
                 }
             ]
         },
@@ -5246,781 +5448,6 @@
             ]
         },
         {
-            "id": "w40k.10e.am.unit.malcador",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Malcador",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Malcador",
-                    "points": 250,
-                    "gearset": [
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Malcador Battle Cannon"
-                            }
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "2x Autocannon"
-                            },
-                            "options": [
-                                {
-                                    "name": "2x Autocannon"
-                                },
-                                {
-                                    "name": "2x Heavy Bolter"
-                                },
-                                {
-                                    "name": "2x Lascannon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Heavy Bolter"
-                            },
-                            "options": [
-                                {
-                                    "name": "Heavy Bolter"
-                                },
-                                {
-                                    "name": "Autocannon"
-                                },
-                                {
-                                    "name": "Lascannon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Hunter-killer Missile"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Heavy Stubber"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.am.unit.malcadorAnnihilator",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Malcador Annihilator",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Malcador Annihilator",
-                    "points": 270,
-                    "gearset": [
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Demolisher Cannon"
-                            }
-                        },
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Malcador Twin Lascannon"
-                            }
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "2x Heavy Bolter"
-                            },
-                            "options": [
-                                {
-                                    "name": "2x Autocannon"
-                                },
-                                {
-                                    "name": "2x Heavy Bolter"
-                                },
-                                {
-                                    "name": "2x Lascannon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Hunter-killer Missile"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Heavy Stubber"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.am.unit.malcadorDefender",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Malcador Defender",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Malcador Defender",
-                    "points": 310,
-                    "gearset": [
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Demolisher Cannon"
-                            }
-                        },
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "5x Heavy Bolter"
-                            }
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "2x Heavy Bolter"
-                            },
-                            "options": [
-                                {
-                                    "name": "2x Autocannon"
-                                },
-                                {
-                                    "name": "2x Heavy Bolter"
-                                },
-                                {
-                                    "name": "2x Lascannon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Hunter-killer Missile"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Heavy Stubber"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.am.unit.malcadorInfernus",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Malcador Infernus",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Malcador Infernus",
-                    "points": 235,
-                    "gearset": [
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Inferno Gun"
-                            }
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "2x Heavy Stubber"
-                            },
-                            "options": [
-                                {
-                                    "name": "2x Heavy Stubber"
-                                },
-                                {
-                                    "name": "2x Autocannon"
-                                },
-                                {
-                                    "name": "2x Heavy Bolter"
-                                },
-                                {
-                                    "name": "2x Heavy Flamer"
-                                },
-                                {
-                                    "name": "2x Lascannon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Hunter-killer Missile"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Heavy Stubber"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.am.unit.earthshakerCarriageBattery",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Earthshaker Carriage Battery",
-            "role": "INFANTRY",
-            "models": [
-                {
-                    "name": "Earthshaker Carriage Battery",
-                    "points": 120
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.am.unit.medusaCarriageBattery",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Medusa Carriage Battery",
-            "role": "INFANTRY",
-            "models": [
-                {
-                    "name": "Medusa Carriage Battery",
-                    "points": 125
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.am.unit.stormblade",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Stormblade",
-            "role": "TITANIC",
-            "models": [
-                {
-                    "name": "Stormblade",
-                    "points": 415,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "2x Twin Heavy Bolter"
-                            },
-                            "options": [
-                                {
-                                    "name": "2x Twin Heavy Bolter"
-                                },
-                                {
-                                    "name": "2x Twin Heavy Flamer"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "2x Lascannon, 2x Twin Heavy Flamer"
-                                },
-                                {
-                                    "name": "2x Lascannon, 2x Twin Heavy Bolter"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Hunter-killer Missile"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Heavy Stubber"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.am.unit.macharius",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Macharius",
-            "role": "TITANIC",
-            "models": [
-                {
-                    "name": "Macharius",
-                    "points": 310,
-                    "gearset": [
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Macharius Twin Battle Cannon"
-                            }
-                        },
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Twin Heavy Stubber"
-                            }
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "2x Heavy Stubber"
-                            },
-                            "options": [
-                                {
-                                    "name": "2x Heavy Stubber"
-                                },
-                                {
-                                    "name": "2x Heavy Bolter"
-                                },
-                                {
-                                    "name": "2x Heavy Flamer"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Hunter-killer Missile"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Heavy Stubber"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.am.unit.machariusVanquisher",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Macharius Vanquisher",
-            "role": "TITANIC",
-            "models": [
-                {
-                    "name": "Macharius Vanquisher",
-                    "points": 285,
-                    "gearset": [
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Macharius Twin Vanquisher Cannon"
-                            }
-                        },
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Twin Heavy Stubber"
-                            }
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "2x Heavy Stubber"
-                            },
-                            "options": [
-                                {
-                                    "name": "2x Heavy Stubber"
-                                },
-                                {
-                                    "name": "2x Heavy Bolter"
-                                },
-                                {
-                                    "name": "2x Heavy Flamer"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Hunter-killer Missile"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Heavy Stubber"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.am.unit.machariusVulcan",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Macharius Vulcan",
-            "role": "TITANIC",
-            "models": [
-                {
-                    "name": "Macharius Vulcan",
-                    "points": 310,
-                    "gearset": [
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Macharius Vulcan Mega-bolter"
-                            }
-                        },
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Twin Heavy Stubber"
-                            }
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "2x Heavy Stubber"
-                            },
-                            "options": [
-                                {
-                                    "name": "2x Heavy Stubber"
-                                },
-                                {
-                                    "name": "2x Heavy Bolter"
-                                },
-                                {
-                                    "name": "2x Heavy Flamer"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Hunter-killer Missile"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Heavy Stubber"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.am.unit.praetor",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Praetor",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Praetor",
-                    "points": 275,
-                    "gearset": [
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Praetor Launcher"
-                            }
-                        },
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "2x Heavy Bolter"
-                            }
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Heavy Stubber"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.am.unit.crassus",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Crassus",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Crassus",
-                    "points": 180,
-                    "gearset": [
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "4x Heavy Stubber"
-                            }
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Heavy Stubber"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.am.unit.colossus",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Colossus",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Colossus",
-                    "points": 160,
-                    "gearset": [
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Colossus Siege Mortar"
-                            }
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Hunter-killer Missile"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Heavy Stubber"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.am.unit.valdor",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Valdor",
-            "role": "TITANIC",
-            "models": [
-                {
-                    "name": "Valdor",
-                    "points": 285,
-                    "gearset": [
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Valdor Neutron Laser"
-                            }
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Autocannon"
-                            },
-                            "options": [
-                                {
-                                    "name": "Heavy Bolter"
-                                },
-                                {
-                                    "name": "Heavy Flamer"
-                                },
-                                {
-                                    "name": "Autocannon"
-                                },
-                                {
-                                    "name": "Lascannon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Hunter-killer Missile"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Heavy Stubber"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "id": "w40k.10e.am.unit.avengerStrikeFighter",
             "type": "unit",
             "rulesetId": "w40k.10e.am",
@@ -6030,307 +5457,6 @@
                 {
                     "name": "Avenger Strike Fighter",
                     "points": 130
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.am.unit.vossPatternLightning",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Voss-Pattern Lightning",
-            "role": "AIRCRAFT",
-            "models": [
-                {
-                    "name": "Voss-Pattern Lightning",
-                    "points": 130,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Lightning Hellstrike Rack"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.am.unit.thunderboltHeavyFighter",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Thunderbolt Heavy Fighter",
-            "role": "AIRCRAFT",
-            "models": [
-                {
-                    "name": "Thunderbolt Heavy Fighter",
-                    "points": 200,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Thunderbolt Hellstrike Rack"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.am.unit.vultureGunship",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Vulture Gunship",
-            "role": "AIRCRAFT",
-            "models": [
-                {
-                    "name": "Vulture Gunship",
-                    "points": 225,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "2x Multiple Rocket Pod, Vulture Hellstrike Rack"
-                            },
-                            "options": [
-                                {
-                                    "name": "2x Multiple Rocket Pod, Vulture Hellstrike Rack"
-                                },
-                                {
-                                    "name": "2x Vulture Gatling Cannon"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.am.unit.marauderBomber",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Marauder Bomber",
-            "role": "AIRCRAFT",
-            "models": [
-                {
-                    "name": "Marauder Bomber",
-                    "points": 345,
-                    "gearset": [
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "2x Heavy Bolter"
-                            }
-                        },
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "2x Lascannon"
-                            }
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Heavy Bombs"
-                            },
-                            "options": [
-                                {
-                                    "name": "Heavy Bombs"
-                                },
-                                {
-                                    "name": "Inferno Bombs"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.am.unit.marauderDestroyer",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Marauder Destroyer",
-            "role": "AIRCRAFT",
-            "models": [
-                {
-                    "name": "Marauder Destroyer",
-                    "points": 375,
-                    "gearset": [
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "2x Assault Cannon"
-                            }
-                        },
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "2x Heavy Bolter"
-                            }
-                        },
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Marauder Nose Autocannons"
-                            }
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Hellstrike Missile Rack"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.am.unit.tarantulaBattery",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Tarantula Battery",
-            "role": "VEHICLE",
-            "points": [
-                {
-                    "name": "Tarantula Battery",
-                    "amount": 3,
-                    "cost": 120
-                },
-                {
-                    "name": "Tarantula Battery",
-                    "amount": 2,
-                    "cost": 80
-                },
-                {
-                    "name": "Tarantula Battery",
-                    "amount": 1,
-                    "cost": 40
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Tarantula Battery",
-                    "min": 1,
-                    "max": 3
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Tarantula Battery",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Twin Heavy Bolter"
-                            },
-                            "options": [
-                                {
-                                    "name": "Twin Heavy Bolter"
-                                },
-                                {
-                                    "name": "Twin Lascannon"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.am.unit.rapierLaserDestroyerBattery",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Rapier Laser Destroyer Battery",
-            "role": "INFANTRY",
-            "points": [
-                {
-                    "name": "Rapier Laser Destroyer Battery",
-                    "amount": 3,
-                    "cost": 105
-                },
-                {
-                    "name": "Rapier Laser Destroyer Battery",
-                    "amount": 2,
-                    "cost": 70
-                },
-                {
-                    "name": "Rapier Laser Destroyer Battery",
-                    "amount": 1,
-                    "cost": 35
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Rapier Laser Destroyer Battery",
-                    "min": 1,
-                    "max": 3
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Rapier Laser Destroyer Battery"
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.am.unit.hadesBreachingDrill",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Hades Breaching Drill",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Hades Breaching Drill",
-                    "points": 110,
-                    "gearset": [
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Melta-cutter Drill"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.am.unit.trojanSupportVehicle",
-            "type": "unit",
-            "rulesetId": "w40k.10e.am",
-            "name": "Trojan Support Vehicle",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Trojan Support Vehicle",
-                    "points": 80,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Heavy Bolter"
-                            },
-                            "options": [
-                                {
-                                    "name": "Heavy Bolter"
-                                },
-                                {
-                                    "name": "Heavy Flamer"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Hunter-killer Missile"
-                            },
-                            "selected": false
-                        }
-                    ]
                 }
             ]
         },
