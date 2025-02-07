@@ -1,7 +1,7 @@
 {
     "id": "w40k.10e",
-    "version": "0.10.11",
-    "updateNotes": "03/02/2025: Orks and Guard",
+    "version": "0.10.12",
+    "updateNotes": "07/02/2025: Codex Aeldari",
     "name": "Warhammer 40,000: 10th Edition",
     "enabled": true,
     "path": "https://raw.githubusercontent.com/tabletop-json/w40k.10e/master/",
@@ -428,15 +428,6 @@
             "keyword": "AELDARI",
             "enabled": true,
             "endpoint": "aeldari.json"
-        },
-        {
-            "id": "w40k.10e.ynn.config",
-            "type": "config",
-            "rulesetId": "w40k.10e.ynn",
-            "name": "Aeldari (Ynnari)",
-            "keyword": "AELDARI",
-            "enabled": true,
-            "endpoint": "ynnari.json"
         },
         {
             "id": "w40k.10e.agt.config",

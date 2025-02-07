@@ -10,16 +10,58 @@
     },
     "detachments": [
         {
-            "id": "w40k.10e.aeld.dt.battleHost",
-            "type": "detachment",
-            "rulesetId": "w40k.10e.aeld",
-            "name": "Battle Host"
-        },
-        {
             "id": "w40k.10e.aeld.dt.armouredWarhost",
             "type": "detachment",
             "rulesetId": "w40k.10e.aeld",
             "name": "Armoured Warhost"
+        },
+        {
+            "id": "w40k.10e.aeld.dt.aspectHost",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Aspect Host"
+        },
+        {
+            "id": "w40k.10e.aeld.dt.devotedYnnead",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Devoted of Ynnead"
+        },
+        {
+            "id": "w40k.10e.aeld.dt.ghostsWebway",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Ghosts of the Webway"
+        },
+        {
+            "id": "w40k.10e.aeld.dt.guardianBattlehost",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Guardian Battlehost"
+        },
+        {
+            "id": "w40k.10e.aeld.dt.seerCouncil",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Seer Council"
+        },
+        {
+            "id": "w40k.10e.aeld.dt.spiritConclave",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Spirit Conclave"
+        },
+        {
+            "id": "w40k.10e.aeld.dt.warhost",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Warhost"
+        },
+        {
+            "id": "w40k.10e.aeld.dt.windriderHost",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Windrider Host"
         }
     ],
     "units": [
@@ -32,7 +74,7 @@
             "models": [
                 {
                     "name": "Asurmen",
-                    "points": 115,
+                    "points": 135,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -79,7 +121,7 @@
                                     "name": "Dragon Fusion Gun"
                                 },
                                 {
-                                    "name": "Fusion Pistol"
+                                    "name": "Dragon Fusion Pistol"
                                 },
                                 {
                                     "name": "Reaper Launcher"
@@ -105,52 +147,6 @@
                         },
                         {
                             "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Howling Banshee Mask"
-                                },
-                                {
-                                    "name": "Mandiblasters"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.aeld.dt.battleHost",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Phoenix Gem",
-                                    "points": 35
-                                },
-                                {
-                                    "name": "The Weeping Stones",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Reader of the Runes",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Fate's Messenger",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
                             "color": "green",
                             "detachmentId": "w40k.10e.aeld.dt.armouredWarhost",
                             "selectedOption": {
@@ -169,6 +165,89 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.aspectHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Aspect of Murder",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mantle of Wisdom",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Shimmerstone",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Strategic Savant",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.guardianBattlehost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Breath of Vaul",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Craftworld's Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Ethereal Pathway",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Protector of the Paths",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.warhost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Phoenix Gem",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Timeless Strategist",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -183,7 +262,7 @@
             "models": [
                 {
                     "name": "Autarch Wayleaper",
-                    "points": 115,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -208,7 +287,7 @@
                                     "name": "Dragon Fusion Gun"
                                 },
                                 {
-                                    "name": "Fusion Pistol"
+                                    "name": "Dragon Fusion Pistol"
                                 },
                                 {
                                     "name": "Reaper Launcher"
@@ -234,52 +313,6 @@
                         },
                         {
                             "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Howling Banshee Mask"
-                                },
-                                {
-                                    "name": "Mandiblasters"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.aeld.dt.battleHost",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Phoenix Gem",
-                                    "points": 35
-                                },
-                                {
-                                    "name": "The Weeping Stones",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Reader of the Runes",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Fate's Messenger",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
                             "color": "green",
                             "detachmentId": "w40k.10e.aeld.dt.armouredWarhost",
                             "selectedOption": {
@@ -298,57 +331,11 @@
                                     "points": 15
                                 }
                             ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.aeld.unit.autarchSkyrunner",
-            "type": "unit",
-            "rulesetId": "w40k.10e.aeld",
-            "name": "Autarch Skyrunner",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Autarch Skyrunner",
-                    "points": 90,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Laser Lance"
-                            },
-                            "options": [
-                                {
-                                    "name": "Laser Lance"
-                                },
-                                {
-                                    "name": "Dragon Fusion Gun"
-                                },
-                                {
-                                    "name": "Banshee Blade"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Howling Banshee Mask"
-                            },
-                            "selected": false
                         },
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.aeld.dt.battleHost",
+                            "detachmentId": "w40k.10e.aeld.dt.aspectHost",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -357,41 +344,101 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "The Phoenix Gem",
-                                    "points": 35
+                                    "name": "Aspect of Murder",
+                                    "points": 25
                                 },
                                 {
-                                    "name": "The Weeping Stones",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Reader of the Runes",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Fate's Messenger",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.aeld.dt.armouredWarhost",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Harmonisation Matrix",
+                                    "name": "Mantle of Wisdom",
                                     "points": 30
                                 },
                                 {
-                                    "name": "Guileful Strategist",
+                                    "name": "Shimmerstone",
                                     "points": 15
+                                },
+                                {
+                                    "name": "Strategic Savant",
+                                    "points": 15
+                                }
+                            ]
+                        },
+
+
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.guardianBattlehost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Breath of Vaul",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Craftworld's Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Ethereal Pathway",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Protector of the Paths",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.warhost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Phoenix Gem",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Timeless Strategist",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.windriderHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Echoes of Ulthanesh",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Firstdrawn Blade",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Mirage Field",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -408,7 +455,7 @@
             "models": [
                 {
                     "name": "Avatar of Khaine",
-                    "points": 335,
+                    "points": 300,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -430,7 +477,7 @@
             "models": [
                 {
                     "name": "Baharroth",
-                    "points": 125,
+                    "points": 115,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -774,12 +821,12 @@
                 {
                     "name": "Dark Reaper, Dark Reaper Exarch",
                     "amount": 10,
-                    "cost": 170
+                    "cost": 180
                 },
                 {
                     "name": "Dark Reaper, Dark Reaper Exarch",
                     "amount": 5,
-                    "cost": 85
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -813,7 +860,7 @@
                                     "name": "Reaper Launcher"
                                 },
                                 {
-                                    "name": "Aeldari Missile Launcher"
+                                    "name": "Missile Launcher"
                                 },
                                 {
                                     "name": "Shuriken Cannon"
@@ -848,35 +895,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.aeld.dt.battleHost",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Phoenix Gem",
-                                    "points": 35
-                                },
-                                {
-                                    "name": "The Weeping Stones",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Reader of the Runes",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Fate's Messenger",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.aeld.dt.armouredWarhost",
                             "selectedOption": {
                                 "name": ""
@@ -891,6 +909,82 @@
                                 },
                                 {
                                     "name": "Guileful Strategist",
+                                    "points": 15
+                                }
+                            ]
+                        },
+
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.ghostsWebway",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Mask of Secrets",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Murder's Jest",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.guardianBattlehost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Breath of Vaul",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Craftworld's Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Ethereal Pathway",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Protector of the Paths",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.warhost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Phoenix Gem",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Timeless Strategist",
                                     "points": 15
                                 }
                             ]
@@ -909,12 +1003,12 @@
                 {
                     "name": "Dire Avenger, Dire Avenger Exarch",
                     "amount": 10,
-                    "cost": 140
+                    "cost": 150
                 },
                 {
                     "name": "Dire Avenger, Dire Avenger Exarch",
                     "amount": 5,
-                    "cost": 70
+                    "cost": 75
                 }
             ],
             "restrictions": [
@@ -941,14 +1035,14 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Avenger Shuriken Catapult"
+                                "name": "Exarch Avenger Shuriken Catapult"
                             },
                             "options": [
                                 {
-                                    "name": "Avenger Shuriken Catapult"
+                                    "name": "Exarch Avenger Shuriken Catapult"
                                 },
                                 {
-                                    "name": "Avenger Shuriken Catapult, Avenger Shuriken Catapult"
+                                    "name": "Exarch Avenger Shuriken Catapult, Exarch Avenger Shuriken Catapult"
                                 },
                                 {
                                     "name": "Shuriken Pistol, Diresword"
@@ -1011,7 +1105,7 @@
                                     "name": "Scatter Laser"
                                 },
                                 {
-                                    "name": "Aeldari Missile Launcher"
+                                    "name": "Missile Launcher"
                                 },
                                 {
                                     "name": "Bright Lance"
@@ -1051,6 +1145,177 @@
             "models": [
                 {
                     "name": "Farseer",
+                    "points": 70,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Witchblade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Witchblade"
+                                },
+                                {
+                                    "name": "Singing Spear"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.armouredWarhost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Guiding Presence",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Harmonisation Matrix",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spirit Stone of Raelyth",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Guileful Strategist",
+                                    "points": 15
+                                }
+                            ]
+                        },
+
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.devotedYnnead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gaze of Ynnead",
+                                    "points": 15
+                                }
+                            ]
+                        },
+
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.guardianBattlehost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Breath of Vaul",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Craftworld's Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Ethereal Pathway",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Protector of the Paths",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.seerCouncil",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Lucid Eye",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Runes of Warding",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Stone of Eldritch Fury",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Torc of Morai-Heg",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.warhost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Phoenix Gem",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Psychic Destroyer",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Timeless Strategist",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.farseerSkyrunner",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Farseer Skyrunner",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Farseer Skyrunner",
                     "points": 80,
                     "gearset": [
                         {
@@ -1077,35 +1342,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.aeld.dt.battleHost",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Phoenix Gem",
-                                    "points": 35
-                                },
-                                {
-                                    "name": "The Weeping Stones",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Reader of the Runes",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Fate's Messenger",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.aeld.dt.armouredWarhost",
                             "selectedOption": {
                                 "name": ""
@@ -1131,47 +1367,11 @@
                                     "points": 15
                                 }
                             ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.aeld.unit.farseerSkyrunner",
-            "type": "unit",
-            "rulesetId": "w40k.10e.aeld",
-            "name": "Farseer Skyrunner",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Farseer Skyrunner",
-                    "points": 90,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Witchblade"
-                            },
-                            "options": [
-                                {
-                                    "name": "Witchblade"
-                                },
-                                {
-                                    "name": "Singing Spear"
-                                }
-                            ]
                         },
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.aeld.dt.battleHost",
+                            "detachmentId": "w40k.10e.aeld.dt.devotedYnnead",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1180,27 +1380,16 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "The Phoenix Gem",
-                                    "points": 35
-                                },
-                                {
-                                    "name": "The Weeping Stones",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Reader of the Runes",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Fate's Messenger",
+                                    "name": "Gaze of Ynnead",
                                     "points": 15
                                 }
                             ]
                         },
+
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.aeld.dt.armouredWarhost",
+                            "detachmentId": "w40k.10e.aeld.dt.guardianBattlehost",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1209,19 +1398,106 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Guiding Presence",
+                                    "name": "Breath of Vaul",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Craftworld's Champion",
                                     "points": 25
                                 },
                                 {
-                                    "name": "Harmonisation Matrix",
+                                    "name": "Ethereal Pathway",
                                     "points": 30
                                 },
                                 {
-                                    "name": "Spirit Stone of Raelyth",
+                                    "name": "Protector of the Paths",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.seerCouncil",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Lucid Eye",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Runes of Warding",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Stone of Eldritch Fury",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Torc of Morai-Heg",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.warhost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Phoenix Gem",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Psychic Destroyer",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Timeless Strategist",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.windriderHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Echoes of Ulthanesh",
                                     "points": 20
                                 },
                                 {
-                                    "name": "Guileful Strategist",
+                                    "name": "Firstdrawn Blade",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Mirage Field",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Seersight Strike",
                                     "points": 15
                                 }
                             ]
@@ -1240,12 +1516,12 @@
                 {
                     "name": "Fire Dragon, Fire Dragon Exarch",
                     "amount": 10,
-                    "cost": 180
+                    "cost": 200
                 },
                 {
                     "name": "Fire Dragon, Fire Dragon Exarch",
                     "amount": 5,
-                    "cost": 90
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -1272,14 +1548,17 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Fusion Gun"
+                                "name": "Exarch Dragon Fusion Gun"
                             },
                             "options": [
                                 {
-                                    "name": "Fusion Gun"
+                                    "name": "Exarch Dragon Fusion Gun"
                                 },
                                 {
                                     "name": "Dragon's Breath Flamer"
+                                },
+                                {
+                                    "name": "Dragon Fusion Pistol, Dragon Axe"
                                 },
                                 {
                                     "name": "Firepike"
@@ -1299,7 +1578,7 @@
             "models": [
                 {
                     "name": "Fire Prism",
-                    "points": 170,
+                    "points": 160,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1328,7 +1607,7 @@
             "models": [
                 {
                     "name": "Fuegan",
-                    "points": 130,
+                    "points": 120,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1385,7 +1664,7 @@
                                     "name": "Shuriken Cannon"
                                 },
                                 {
-                                    "name": "Aeldari Missile Launcher"
+                                    "name": "Missile Launcher"
                                 },
                                 {
                                     "name": "Bright Lance"
@@ -1425,12 +1704,12 @@
                 {
                     "name": "Howling Banshee, Howling Banshee Exarch",
                     "amount": 10,
-                    "cost": 140
+                    "cost": 180
                 },
                 {
                     "name": "Howling Banshee, Howling Banshee Exarch",
                     "amount": 5,
-                    "cost": 70
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -1479,28 +1758,6 @@
             ]
         },
         {
-            "id": "w40k.10e.aeld.unit.illicNightspear",
-            "type": "unit",
-            "rulesetId": "w40k.10e.aeld",
-            "name": "Illic Nightspear",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Illic Nightspear",
-                    "points": 70,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "id": "w40k.10e.aeld.unit.jainZar",
             "type": "unit",
             "rulesetId": "w40k.10e.aeld",
@@ -1509,7 +1766,7 @@
             "models": [
                 {
                     "name": "Jain Zar",
-                    "points": 90,
+                    "points": 105,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1523,15 +1780,15 @@
             ]
         },
         {
-            "id": "w40k.10e.aeld.unit.karandras",
+            "id": "w40k.10e.aeld.unit.lhykhis",
             "type": "unit",
             "rulesetId": "w40k.10e.aeld",
-            "name": "Karandras",
+            "name": "Lhykhis",
             "role": "CHARACTER",
             "models": [
                 {
-                    "name": "Karandras",
-                    "points": 90,
+                    "name": "Lhykhis",
+                    "points": 120,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1553,7 +1810,7 @@
             "models": [
                 {
                     "name": "Maugan Ra",
-                    "points": 115,
+                    "points": 100,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1575,7 +1832,7 @@
             "models": [
                 {
                     "name": "Night Spinner",
-                    "points": 210,
+                    "points": 190,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1590,28 +1847,6 @@
                                     "name": "Shuriken Cannon"
                                 }
                             ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.aeld.unit.princeYriel",
-            "type": "unit",
-            "rulesetId": "w40k.10e.aeld",
-            "name": "Prince Yriel",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Prince Yriel",
-                    "points": 100,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
                         }
                     ]
                 }
@@ -1670,35 +1905,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.aeld.dt.battleHost",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Phoenix Gem",
-                                    "points": 35
-                                },
-                                {
-                                    "name": "The Weeping Stones",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Reader of the Runes",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Fate's Messenger",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.aeld.dt.armouredWarhost",
                             "selectedOption": {
                                 "name": ""
@@ -1724,6 +1930,115 @@
                                     "points": 15
                                 }
                             ]
+                        },
+
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.ghostsWebway",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Mask of Secrets",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mistweave",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.guardianBattlehost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Breath of Vaul",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Craftworld's Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Ethereal Pathway",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Protector of the Paths",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.seerCouncil",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Lucid Eye",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Runes of Warding",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Stone of Eldritch Fury",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Torc of Morai-Heg",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.warhost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Phoenix Gem",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Psychic Destroyer",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Timeless Strategist",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1739,12 +2054,12 @@
                 {
                     "name": "Shining Spear, Shining Spear Exarch",
                     "amount": 6,
-                    "cost": 180
+                    "cost": 240
                 },
                 {
                     "name": "Shining Spear, Shining Spear Exarch",
                     "amount": 3,
-                    "cost": 90
+                    "cost": 120
                 }
             ],
             "restrictions": [
@@ -1771,11 +2086,11 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Laser Lance"
+                                "name": "Exarch's Laser Lance"
                             },
                             "options": [
                                 {
-                                    "name": "Laser Lance"
+                                    "name": "Exarch's Laser Lance"
                                 },
                                 {
                                     "name": "Paragon Sabre"
@@ -1852,12 +2167,12 @@
                 {
                     "name": "Skyweaver",
                     "amount": 4,
-                    "cost": 210
+                    "cost": 190
                 },
                 {
                     "name": "Skyweaver",
                     "amount": 2,
-                    "cost": 105
+                    "cost": 95
                 }
             ],
             "restrictions": [
@@ -1938,35 +2253,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.aeld.dt.battleHost",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Phoenix Gem",
-                                    "points": 35
-                                },
-                                {
-                                    "name": "The Weeping Stones",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Reader of the Runes",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Fate's Messenger",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.aeld.dt.armouredWarhost",
                             "selectedOption": {
                                 "name": ""
@@ -1989,6 +2275,123 @@
                                 },
                                 {
                                     "name": "Guileful Strategist",
+                                    "points": 15
+                                }
+                            ]
+                        },
+
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.guardianBattlehost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Breath of Vaul",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Craftworld's Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Ethereal Pathway",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Protector of the Paths",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.seerCouncil",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Lucid Eye",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Runes of Warding",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Stone of Eldritch Fury",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Torc of Morai-Heg",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.spiritConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Higher Duty",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Light of Clarity",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Rune of Mists",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Stave of Kurnous",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.warhost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Phoenix Gem",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Psychic Destroyer",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Timeless Strategist",
                                     "points": 15
                                 }
                             ]
@@ -2089,12 +2492,12 @@
                 {
                     "name": "Striking Scorpion, Striking Scorpion Exarch",
                     "amount": 10,
-                    "cost": 130
+                    "cost": 150
                 },
                 {
                     "name": "Striking Scorpion, Striking Scorpion Exarch",
                     "amount": 5,
-                    "cost": 65
+                    "cost": 75
                 }
             ],
             "restrictions": [
@@ -2131,7 +2534,10 @@
                                     "name": "Scorpion's Claw, Scorpion Chainsword"
                                 },
                                 {
-                                    "name": "Biting Blade"
+                                    "name": "Shuriken Pistol, Biting Blade"
+                                },
+                                {
+                                    "name": "Chainsabres"
                                 }
                             ]
                         }
@@ -2140,34 +2546,41 @@
             ]
         },
         {
-            "id": "w40k.10e.aeld.unit.supportWeapons",
+            "id": "w40k.10e.aeld.unit.dCannonPlatform",
             "type": "unit",
             "rulesetId": "w40k.10e.aeld",
-            "name": "Support Weapons",
-            "role": "VEHICLE",
+            "name": "D-Cannon Platform",
+            "role": "INFANTRY",
             "models": [
                 {
-                    "name": "Support Weapon",
-                    "points": 135,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Shadow Weaver"
-                            },
-                            "options": [
-                                {
-                                    "name": "Shadow Weaver"
-                                },
-                                {
-                                    "name": "D-cannon"
-                                },
-                                {
-                                    "name": "Vibro Cannon"
-                                }
-                            ]
-                        }
-                    ]
+                    "name": "D-Cannon Platform",
+                    "points": 125
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.shadowWeaverPlatform",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Shadow Weaver Platform",
+            "role": "INFANTRY",
+            "models": [
+                {
+                    "name": "Shadow Weaver Platform",
+                    "points": 75
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.vibroCannonPlatform",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Vibro Cannon Platform",
+            "role": "INFANTRY",
+            "models": [
+                {
+                    "name": "Vibro Cannon Platform",
+                    "points": 60
                 }
             ]
         },
@@ -2213,23 +2626,19 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Lasblaster"
+                                "name": "Exarch's Lasblaster"
                             },
                             "options": [
                                 {
-                                    "name": "Lasblaster"
+                                    "name": "Exarch's Lasblaster"
                                 },
                                 {
-                                    "name": "Hawk's Talon"
+                                    "name": "Sunpistol, Power Sword"
+                                },
+                                {
+                                    "name": "Scatter Laser"
                                 }
                             ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Aeldari Power Sword"
-                            },
-                            "selected": false
                         }
                     ]
                 }
@@ -2266,7 +2675,7 @@
             "models": [
                 {
                     "name": "The Yncarne",
-                    "points": 350,
+                    "points": 250,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2289,22 +2698,22 @@
                 {
                     "name": "Player, Lead Player",
                     "amount": 12,
-                    "cost": 180
+                    "cost": 205
                 },
                 {
                     "name": "Player, Lead Player",
                     "amount": 11,
-                    "cost": 165
+                    "cost": 190
                 },
                 {
                     "name": "Player, Lead Player",
                     "amount": 6,
-                    "cost": 90
+                    "cost": 100
                 },
                 {
                     "name": "Player, Lead Player",
                     "amount": 5,
-                    "cost": 75
+                    "cost": 85
                 }
             ],
             "restrictions": [
@@ -2408,7 +2817,7 @@
             "models": [
                 {
                     "name": "Troupe Master",
-                    "points": 55,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2451,35 +2860,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.aeld.dt.battleHost",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Phoenix Gem",
-                                    "points": 35
-                                },
-                                {
-                                    "name": "The Weeping Stones",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Reader of the Runes",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Fate's Messenger",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.aeld.dt.armouredWarhost",
                             "selectedOption": {
                                 "name": ""
@@ -2497,6 +2877,83 @@
                                     "points": 15
                                 }
                             ]
+                        },
+
+
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.ghostsWebway",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Cegorach's Coil",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mask of Secrets",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.guardianBattlehost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Breath of Vaul",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Craftworld's Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Ethereal Pathway",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Protector of the Paths",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.warhost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Phoenix Gem",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Timeless Strategist",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2511,7 +2968,7 @@
             "models": [
                 {
                     "name": "Voidweaver",
-                    "points": 115,
+                    "points": 125,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2537,10 +2994,29 @@
             "rulesetId": "w40k.10e.aeld",
             "name": "Vypers",
             "role": "VEHICLE",
-            "models": [
+            "points": [
                 {
                     "name": "Vyper",
-                    "points": 75,
+                    "amount": 2,
+                    "cost": 130
+                },
+                {
+                    "name": "Vyper",
+                    "amount": 1,
+                    "cost": 65
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Vyper",
+                    "min": 1,
+                    "max": 2
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Vyper",
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2552,7 +3028,7 @@
                                     "name": "Shuriken Cannon"
                                 },
                                 {
-                                    "name": "Aeldari Missile Launcher"
+                                    "name": "Missile Launcher"
                                 },
                                 {
                                     "name": "Bright Lance"
@@ -2575,10 +3051,29 @@
             "rulesetId": "w40k.10e.aeld",
             "name": "War Walkers",
             "role": "VEHICLE",
-            "models": [
+            "points": [
                 {
                     "name": "War Walker",
-                    "points": 110,
+                    "amount": 2,
+                    "cost": 190
+                },
+                {
+                    "name": "War Walker",
+                    "amount": 1,
+                    "cost": 95
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "War Walker",
+                    "min": 1,
+                    "max": 2
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "War Walker",
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2590,7 +3085,7 @@
                                     "name": "Shuriken Cannon"
                                 },
                                 {
-                                    "name": "Aeldari Missile Launcher"
+                                    "name": "Missile Launcher"
                                 },
                                 {
                                     "name": "Bright Lance"
@@ -2613,7 +3108,7 @@
                                     "name": "Shuriken Cannon"
                                 },
                                 {
-                                    "name": "Aeldari Missile Launcher"
+                                    "name": "Missile Launcher"
                                 },
                                 {
                                     "name": "Bright Lance"
@@ -2636,10 +3131,29 @@
             "rulesetId": "w40k.10e.aeld",
             "name": "Warlock Skyrunner",
             "role": "CHARACTER",
+            "points": [
+                {
+                    "name": "Warlock Skyrunner",
+                    "amount": 2,
+                    "cost": 90
+                },
+                {
+                    "name": "Warlock Skyrunner",
+                    "amount": 1,
+                    "cost": 45
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Warlock Skyrunner",
+                    "min": 1,
+                    "max": 2
+                }
+            ],
             "models": [
                 {
                     "name": "Warlock Skyrunner",
-                    "points": 55,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2659,35 +3173,6 @@
                                 },
                                 {
                                     "name": "Singing Spear"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.aeld.dt.battleHost",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Phoenix Gem",
-                                    "points": 35
-                                },
-                                {
-                                    "name": "The Weeping Stones",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Reader of the Runes",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Fate's Messenger",
-                                    "points": 15
                                 }
                             ]
                         },
@@ -2716,6 +3201,141 @@
                                 },
                                 {
                                     "name": "Guileful Strategist",
+                                    "points": 15
+                                }
+                            ]
+                        },
+
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.devotedYnnead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Storm of Whispers",
+                                    "points": 10
+                                }
+                            ]
+                        },
+
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.guardianBattlehost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Breath of Vaul",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Craftworld's Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Ethereal Pathway",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Protector of the Paths",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.seerCouncil",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Lucid Eye",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Runes of Warding",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Stone of Eldritch Fury",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Torc of Morai-Heg",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.warhost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Phoenix Gem",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Psychic Destroyer",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Timeless Strategist",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.windriderHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Echoes of Ulthanesh",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Firstdrawn Blade",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Mirage Field",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Seersight Strike",
                                     "points": 15
                                 }
                             ]
@@ -2759,35 +3379,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.aeld.dt.battleHost",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Phoenix Gem",
-                                    "points": 35
-                                },
-                                {
-                                    "name": "The Weeping Stones",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Reader of the Runes",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Fate's Messenger",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.aeld.dt.armouredWarhost",
                             "selectedOption": {
                                 "name": ""
@@ -2813,6 +3404,112 @@
                                     "points": 15
                                 }
                             ]
+                        },
+
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.devotedYnnead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Storm of Whispers",
+                                    "points": 10
+                                }
+                            ]
+                        },
+
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.guardianBattlehost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Breath of Vaul",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Craftworld's Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Ethereal Pathway",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Protector of the Paths",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.seerCouncil",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Lucid Eye",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Runes of Warding",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Stone of Eldritch Fury",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Torc of Morai-Heg",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.warhost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Phoenix Gem",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Psychic Destroyer",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Timeless Strategist",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2828,12 +3525,12 @@
                 {
                     "name": "Warp Spider, Warp Spider Exarch",
                     "amount": 10,
-                    "cost": 250
+                    "cost": 190
                 },
                 {
                     "name": "Warp Spider, Warp Spider Exarch",
                     "amount": 5,
-                    "cost": 125
+                    "cost": 95
                 }
             ],
             "restrictions": [
@@ -2858,11 +3555,24 @@
                     "name": "Warp Spider Exarch",
                     "gearset": [
                         {
-                            "type": "checkbox",
+                            "type": "dropdown",
                             "selectedOption": {
-                                "name": "Additional Death Spinner, Powerblades"
+                                "name": "Exarch Death Spinner"
                             },
-                            "selected": false
+                            "options": [
+                                {
+                                    "name": "Exarch Death Spinner"
+                                },
+                                {
+                                    "name": "Spinneret Rifle, Death Weavers"
+                                },
+                                {
+                                    "name": "Powerblades, Death Weavers"
+                                },
+                                {
+                                    "name": "Powerblade Array"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2877,7 +3587,7 @@
             "models": [
                 {
                     "name": "Wave Serpent",
-                    "points": 110,
+                    "points": 115,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2889,7 +3599,7 @@
                                     "name": "Twin Shuriken Cannon"
                                 },
                                 {
-                                    "name": "Twin Aeldari Missile Launcher"
+                                    "name": "Twin Missile Launcher"
                                 },
                                 {
                                     "name": "Twin Bright Lance"
@@ -2921,30 +3631,12 @@
             ]
         },
         {
-            "id": "w40k.10e.aeld.unit.webwayGate",
-            "type": "unit",
-            "rulesetId": "w40k.10e.aeld",
-            "name": "Webway Gate",
-            "role": "FORTIFICATION",
-            "models": [
-                {
-                    "name": "Webway Gate",
-                    "points": 220
-                }
-            ]
-        },
-        {
             "id": "w40k.10e.aeld.unit.windriders",
             "type": "unit",
             "rulesetId": "w40k.10e.aeld",
             "name": "Windriders",
             "role": "MOUNTED",
             "points": [
-                {
-                    "name": "Windrider",
-                    "amount": 9,
-                    "cost": 240
-                },
                 {
                     "name": "Windrider",
                     "amount": 6,
@@ -2961,7 +3653,7 @@
                     "type": "model",
                     "name": "Windrider",
                     "min": 3,
-                    "max": 9
+                    "max": 6
                 }
             ],
             "blueprints": [
@@ -2998,13 +3690,8 @@
             "points": [
                 {
                     "name": "Wraithblade",
-                    "amount": 10,
-                    "cost": 340
-                },
-                {
-                    "name": "Wraithblade",
                     "amount": 5,
-                    "cost": 160
+                    "cost": 170
                 }
             ],
             "restrictions": [
@@ -3012,7 +3699,7 @@
                     "type": "model",
                     "name": "Wraithblade",
                     "min": 5,
-                    "max": 10
+                    "max": 5
                 }
             ],
             "blueprints": [
@@ -3046,13 +3733,8 @@
             "points": [
                 {
                     "name": "Wraithguard",
-                    "amount": 10,
-                    "cost": 380
-                },
-                {
-                    "name": "Wraithguard",
                     "amount": 5,
-                    "cost": 180
+                    "cost": 170
                 }
             ],
             "restrictions": [
@@ -3060,7 +3742,7 @@
                     "type": "model",
                     "name": "Wraithguard",
                     "min": 5,
-                    "max": 10
+                    "max": 5
                 }
             ],
             "blueprints": [
@@ -3094,17 +3776,14 @@
             "models": [
                 {
                     "name": "Wraithknight",
-                    "points": 495,
+                    "points": 435,
                     "gearset": [
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Titanic Ghostglaive"
+                                "name": "Suncannon"
                             },
                             "options": [
-                                {
-                                    "name": "Titanic Ghostglaive"
-                                },
                                 {
                                     "name": "Heavy Wraithcannon"
                                 },
@@ -3112,6 +3791,81 @@
                                     "name": "Suncannon"
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Scattershield"
+                            },
+                            "options": [
+                                {
+                                    "name": "Scattershield"
+                                },
+                                {
+                                    "name": "Heavy Wraithcannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Scatter Laser"
+                                },
+                                {
+                                    "name": "Shuriken Cannon"
+                                },
+                                {
+                                    "name": "Starcannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Scatter Laser"
+                                },
+                                {
+                                    "name": "Shuriken Cannon"
+                                },
+                                {
+                                    "name": "Starcannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.wraithknightGhostglaive",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Wraithknight with Ghostglaive",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Wraithknight with Ghostglaive",
+                    "points": 420,
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Titanic Ghostglaive"
+                            }
                         },
                         {
                             "type": "dropdown",
@@ -3180,7 +3934,7 @@
             "models": [
                 {
                     "name": "Wraithlord",
-                    "points": 145,
+                    "points": 140,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -3227,7 +3981,7 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Aeldari Missile Launcher"
+                                    "name": "Missile Launcher"
                                 },
                                 {
                                     "name": "Bright Lance"
@@ -3253,7 +4007,7 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Aeldari Missile Launcher"
+                                    "name": "Missile Launcher"
                                 },
                                 {
                                     "name": "Bright Lance"
@@ -3282,7 +4036,7 @@
             "models": [
                 {
                     "name": "Yvraine",
-                    "points": 125,
+                    "points": 100,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -3290,54 +4044,6 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.aeld.unit.warlockSkyrunnerConclave",
-            "type": "unit",
-            "rulesetId": "w40k.10e.aeld",
-            "name": "Warlock Skyrunner Conclave",
-            "role": "MOUNTED",
-            "points": [
-                {
-                    "name": "Warlock Skyrunner",
-                    "amount": 3,
-                    "cost": 135
-                },
-                {
-                    "name": "Warlock Skyrunner",
-                    "amount": 2,
-                    "cost": 90
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Warlock Skyrunner",
-                    "min": 2,
-                    "max": 3
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Warlock Skyrunner",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Witchblade"
-                            },
-                            "options": [
-                                {
-                                    "name": "Witchblade"
-                                },
-                                {
-                                    "name": "Singing Spear"
-                                }
-                            ]
                         }
                     ]
                 }
@@ -3374,6 +4080,13 @@
                     "name": "Warlock",
                     "gearset": [
                         {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": "Witchblade"
@@ -3386,24 +4099,11 @@
                                     "name": "Singing Spear"
                                 }
                             ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.aeld.unit.wraithseer",
-            "type": "unit",
-            "rulesetId": "w40k.10e.aeld",
-            "name": "Wraithseer",
-            "role": "MONSTER",
-            "models": [
-                {
-                    "name": "Wraithseer",
-                    "points": 160,
-                    "gearset": [
+                        },
                         {
                             "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.armouredWarhost",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -3412,22 +4112,126 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Aeldari Missile Launcher"
+                                    "name": "Guiding Presence",
+                                    "points": 25
                                 },
                                 {
-                                    "name": "Bright Lance"
+                                    "name": "Harmonisation Matrix",
+                                    "points": 30
                                 },
                                 {
-                                    "name": "Scatter Laser"
+                                    "name": "Spirit Stone of Raelyth",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Shuriken Cannon"
+                                    "name": "Guileful Strategist",
+                                    "points": 15
+                                }
+                            ]
+                        },
+
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.devotedYnnead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
                                 },
                                 {
-                                    "name": "Starcannon"
+                                    "name": "Storm of Whispers",
+                                    "points": 10
+                                }
+                            ]
+                        },
+
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.guardianBattlehost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
                                 },
                                 {
-                                    "name": "Wraithseer D-cannon"
+                                    "name": "Breath of Vaul",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Craftworld's Champion",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Ethereal Pathway",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Protector of the Paths",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.seerCouncil",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Lucid Eye",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Runes of Warding",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Stone of Eldritch Fury",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Torc of Morai-Heg",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.warhost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Gift of Foresight",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Phoenix Gem",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Psychic Destroyer",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Timeless Strategist",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -3554,366 +4358,15 @@
             ]
         },
         {
-            "id": "w40k.10e.aeld.unit.cobra",
+            "id": "w40k.10e.aeld.unit.ynnariArchon",
             "type": "unit",
             "rulesetId": "w40k.10e.aeld",
-            "name": "Cobra",
-            "role": "TITANIC",
-            "models": [
-                {
-                    "name": "Cobra",
-                    "points": 415,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Shuriken Cannon"
-                            },
-                            "options": [
-                                {
-                                    "name": "Aeldari Missile Launcher"
-                                },
-                                {
-                                    "name": "Bright Lance"
-                                },
-                                {
-                                    "name": "Scatter Laser"
-                                },
-                                {
-                                    "name": "Shuriken Cannon"
-                                },
-                                {
-                                    "name": "Starcannon"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.aeld.unit.scorpion",
-            "type": "unit",
-            "rulesetId": "w40k.10e.aeld",
-            "name": "Scorpion",
-            "role": "TITANIC",
-            "models": [
-                {
-                    "name": "Scorpion",
-                    "points": 410,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Shuriken Cannon"
-                            },
-                            "options": [
-                                {
-                                    "name": "Aeldari Missile Launcher"
-                                },
-                                {
-                                    "name": "Bright Lance"
-                                },
-                                {
-                                    "name": "Scatter Laser"
-                                },
-                                {
-                                    "name": "Shuriken Cannon"
-                                },
-                                {
-                                    "name": "Starcannon"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.aeld.unit.nightwing",
-            "type": "unit",
-            "rulesetId": "w40k.10e.aeld",
-            "name": "Nightwing",
-            "role": "AIRCRAFT",
-            "models": [
-                {
-                    "name": "Nightwing",
-                    "points": 150
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.aeld.unit.warpHunter",
-            "type": "unit",
-            "rulesetId": "w40k.10e.aeld",
-            "name": "Warp Hunter",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Warp Hunter",
-                    "points": 145,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Twin Shuriken Catapult"
-                            },
-                            "options": [
-                                {
-                                    "name": "Twin Shuriken Catapult"
-                                },
-                                {
-                                    "name": "Shuriken Cannon"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.aeld.unit.lynx",
-            "type": "unit",
-            "rulesetId": "w40k.10e.aeld",
-            "name": "Lynx",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Lynx",
-                    "points": 180,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Shuriken Cannon"
-                            },
-                            "options": [
-                                {
-                                    "name": "Aeldari Missile Launcher"
-                                },
-                                {
-                                    "name": "Bright Lance"
-                                },
-                                {
-                                    "name": "Scatter Laser"
-                                },
-                                {
-                                    "name": "Shuriken Cannon"
-                                },
-                                {
-                                    "name": "Starcannon"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.aeld.unit.hornet",
-            "type": "unit",
-            "rulesetId": "w40k.10e.aeld",
-            "name": "Hornet",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Hornet",
-                    "points": 100,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Hornet Pulse Laser"
-                            },
-                            "options": [
-                                {
-                                    "name": "Hornet Pulse Laser"
-                                },
-                                {
-                                    "name": "Aeldari Missile Launcher"
-                                },
-                                {
-                                    "name": "Bright Lance"
-                                },
-                                {
-                                    "name": "Scatter Laser"
-                                },
-                                {
-                                    "name": "Shuriken Cannon"
-                                },
-                                {
-                                    "name": "Starcannon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Hornet Pulse Laser"
-                            },
-                            "options": [
-                                {
-                                    "name": "Hornet Pulse Laser"
-                                },
-                                {
-                                    "name": "Aeldari Missile Launcher"
-                                },
-                                {
-                                    "name": "Bright Lance"
-                                },
-                                {
-                                    "name": "Scatter Laser"
-                                },
-                                {
-                                    "name": "Shuriken Cannon"
-                                },
-                                {
-                                    "name": "Starcannon"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.aeld.unit.shadowSpectres",
-            "type": "unit",
-            "rulesetId": "w40k.10e.aeld",
-            "name": "Shadow Spectres",
-            "role": "INFANTRY",
-            "points": [
-                {
-                    "name": "Shadow Spectre",
-                    "amount": 10,
-                    "cost": 230
-                },
-                {
-                    "name": "Shadow Spectre",
-                    "amount": 5,
-                    "cost": 115
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Shadow Spectre",
-                    "min": 5,
-                    "max": 10
-                },
-                {
-                    "type": "model",
-                    "name": "Shadow Spectre Exarch",
-                    "min": 0,
-                    "max": 1
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Shadow Spectre"
-                },
-                {
-                    "name": "Shadow Spectre Exarch",
-                    "points": 30
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.aeld.unit.skathachWraithknight",
-            "type": "unit",
-            "rulesetId": "w40k.10e.aeld",
-            "name": "Skathach Wraithknight",
-            "role": "TITANIC",
-            "models": [
-                {
-                    "name": "Skathach Wraithknight",
-                    "points": 490,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Inferno Lance"
-                            },
-                            "options": [
-                                {
-                                    "name": "Inferno Lance"
-                                },
-                                {
-                                    "name": "Deathshroud Cannon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Scattershield"
-                            },
-                            "options": [
-                                {
-                                    "name": "Scattershield"
-                                },
-                                {
-                                    "name": "Inferno Lance"
-                                },
-                                {
-                                    "name": "Deathshroud Cannon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Scatter Laser"
-                                },
-                                {
-                                    "name": "Shuriken Cannon"
-                                },
-                                {
-                                    "name": "Starcannon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Scatter Laser"
-                                },
-                                {
-                                    "name": "Shuriken Cannon"
-                                },
-                                {
-                                    "name": "Starcannon"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.aeld.unit.irillyth",
-            "type": "unit",
-            "rulesetId": "w40k.10e.aeld",
-            "name": "Irillyth",
+            "name": "Ynnari Archon",
             "role": "CHARACTER",
             "models": [
                 {
-                    "name": "Irillyth",
-                    "points": 105,
+                    "name": "Ynnari Archon",
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -3921,6 +4374,515 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Splinter Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Splinter Pistol"
+                                },
+                                {
+                                    "name": "Blast Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.devotedYnnead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Borrowed Vigour",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.ynnariIncubi",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Ynnari Incubi",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Incubi, Klaivex",
+                    "amount": 10,
+                    "cost": 150
+                },
+                {
+                    "name": "Incubi, Klaivex",
+                    "amount": 5,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Incubi",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Klaivex",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Incubi",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Klaive"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Klaivex",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Klaive"
+                            },
+                            "options": [
+                                {
+                                    "name": "Klaive"
+                                },
+                                {
+                                    "name": "Demiklaives"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.ynnariKabalites",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Ynnari Kabalite Warriors",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Kabalite Warrior, Sybarite",
+                    "amount": 10,
+                    "cost": 110
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Kabalite Warrior",
+                    "min": 9,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Sybarite",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Kabalite Warrior",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Splinter Rifle"
+                            },
+                            "options": [
+                                {
+                                    "name": "Splinter Rifle"
+                                },
+                                {
+                                    "name": "Blaster"
+                                },
+                                {
+                                    "name": "Dark Lance"
+                                },
+                                {
+                                    "name": "Shredder"
+                                },
+                                {
+                                    "name": "Splinter Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Close Combat Weapon"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Sybarite",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Close Combat Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Sybarite Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Splinter Rifle"
+                            },
+                            "options": [
+                                {
+                                    "name": "Splinter Rifle"
+                                },
+                                {
+                                    "name": "Splinter Pistol"
+                                },
+                                {
+                                    "name": "Blast Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Phantasm Grenade Launcher"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.ynnariRaider",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Ynnari Raider",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Raider",
+                    "points": 80,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Dark Lance"
+                            },
+                            "options": [
+                                {
+                                    "name": "Dark Lance"
+                                },
+                                {
+                                    "name": "Disintegrator Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.ynnariReavers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Ynnari Reavers",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Reaver, Arena Champion",
+                    "amount": 6,
+                    "cost": 120
+                },
+                {
+                    "name": "Reaver, Arena Champion",
+                    "amount": 3,
+                    "cost": 65
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Reaver",
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "type": "model",
+                    "name": "Arena Champion",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Reaver",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Splinter Rifle"
+                            },
+                            "options": [
+                                {
+                                    "name": "Splinter Rifle"
+                                },
+                                {
+                                    "name": "Blaster"
+                                },
+                                {
+                                    "name": "Heat Lance"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Grav-talon"
+                                },
+                                {
+                                    "name": "Cluster Caltrops"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Arena Champion",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Splinter Rifle"
+                            },
+                            "options": [
+                                {
+                                    "name": "Splinter Rifle"
+                                },
+                                {
+                                    "name": "Blaster"
+                                },
+                                {
+                                    "name": "Heat Lance"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Grav-talon"
+                                },
+                                {
+                                    "name": "Cluster Caltrops"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Agoniser"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.ynnariSuccubus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Ynnari Succubus",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Succubus",
+                    "points": 45,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blast Pistol"
+                                },
+                                {
+                                    "name": "Splinter Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.devotedYnnead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Morbid Might",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.ynnariVenom",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Ynnari Venom",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Venom",
+                    "points": 70,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Splinter Rifle"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Splinter Rifle"
+                                },
+                                {
+                                    "name": "Splinter Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.aeld.unit.ynnariWyches",
+            "type": "unit",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Ynnari Wyches",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Wych, Hekatrix",
+                    "amount": 10,
+                    "cost": 90
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Wych",
+                    "min": 9,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Hekatrix",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Wych",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Splinter Pistol"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Hekatarii Blade"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Hekatrix",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Splinter Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Splinter Pistol"
+                                },
+                                {
+                                    "name": "Blast Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Hekatarii Blade"
+                            }
                         }
                     ]
                 }
