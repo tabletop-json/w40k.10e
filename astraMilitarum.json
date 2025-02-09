@@ -2697,6 +2697,14 @@
                     "cost": 60
                 }
             ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Ratling",
+                    "min": 5,
+                    "max": 10
+                }
+            ],
             "blueprints": [
                 {
                     "name": "Ratling",
