@@ -523,7 +523,7 @@
             "models": [
                 {
                     "name": "Rogal Dorn Commander",
-                    "points": 240,
+                    "points": 265,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -3259,7 +3259,7 @@
             "models": [
                 {
                     "name": "Artillery Team",
-                    "cost": 95,
+                    "points": 95,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -5250,12 +5250,12 @@
                 {
                     "name": "Combat Engineer, Krieg Engineer Watchmaster",
                     "amount": 10,
-                    "cost": 130
+                    "cost": 95
                 },
                 {
                     "name": "Combat Engineer, Krieg Engineer Watchmaster",
                     "amount": 5,
-                    "cost": 65
+                    "cost": 70
                 }
             ],
             "restrictions": [
