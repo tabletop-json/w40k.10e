@@ -2828,7 +2828,7 @@
                     "type": "model",
                     "name": "Scout Sentinel",
                     "min": 1,
-                    "max": 3
+                    "max": 2
                 }
             ],
             "blueprints": [
@@ -2902,7 +2902,7 @@
                     "type": "model",
                     "name": "Armoured Sentinel",
                     "min": 1,
-                    "max": 3
+                    "max": 2
                 }
             ],
             "blueprints": [
@@ -3206,7 +3206,7 @@
                 {
                     "name": "Heavy Weapons Team",
                     "amount": 3,
-                    "cost": 50
+                    "cost": 75
                 }
             ],
             "restrictions": [
@@ -3248,16 +3248,10 @@
             "rulesetId": "w40k.10e.am",
             "name": "Artillery Team",
             "role": "INFANTRY",
-            "points": [
-                {
-                    "name": "Artillery Team",
-                    "amount": 1,
-                    "cost": 95
-                }
-            ],
             "models": [
                 {
-                    "name": "Ordnance Team",
+                    "name": "Artillery Team",
+                    "cost": 95,
                     "gearset": [
                         {
                             "type": "dropdown",
