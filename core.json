@@ -1,7 +1,7 @@
 {
     "id": "w40k.10e",
-    "version": "0.11.0",
-    "updateNotes": "25/02/2025: Emperor's Children Groundwork",
+    "version": "0.11.1",
+    "updateNotes": "25/02/2025: EC Leaks, Titans removed",
     "name": "Warhammer 40,000: 10th Edition",
     "enabled": true,
     "path": "https://raw.githubusercontent.com/tabletop-json/w40k.10e/develop/",
@@ -16,8 +16,7 @@
             "endpoint": "chaosKnights.json",
             "allies": [
                 "w40k.10e.dmns",
-                "w40k.10e.damnedAllies",
-                "w40k.10e.tit"
+                "w40k.10e.damnedAllies"
             ]
         },
         {
@@ -30,8 +29,7 @@
             "endpoint": "imperialKnights.json",
             "allies": [
                 "w40k.10e.agtAllies",
-                "w40k.10e.forgeworldAllies",
-                "w40k.10e.tit"
+                "w40k.10e.forgeworldAllies"
             ]
         },
         {
@@ -44,8 +42,7 @@
             "endpoint": "worldEaters.json",
             "allies": [
                 "w40k.10e.dmns",
-                "w40k.10e.ck",
-                "w40k.10e.tit"
+                "w40k.10e.ck"
             ]
         },
         {
@@ -57,8 +54,7 @@
             "enabled": true,
             "endpoint": "chaosDaemons.json",
             "allies": [
-                "w40k.10e.ck",
-                "w40k.10e.tit"
+                "w40k.10e.ck"
             ]
         },
         {
@@ -71,8 +67,7 @@
             "endpoint": "thousandSons.json",
             "allies": [
                 "w40k.10e.dmns",
-                "w40k.10e.ck",
-                "w40k.10e.tit"
+                "w40k.10e.ck"
             ]
         },
         {
@@ -94,8 +89,7 @@
             "endpoint": "custodes.json",
             "allies": [
                 "w40k.10e.agtAllies",
-                "w40k.10e.ik",
-                "w40k.10e.tit"
+                "w40k.10e.ik"
             ]
         },
         {
@@ -120,8 +114,7 @@
             "endpoint": "greyKnights.json",
             "allies": [
                 "w40k.10e.agtAllies",
-                "w40k.10e.ik",
-                "w40k.10e.tit"
+                "w40k.10e.ik"
             ]
         },
         {
@@ -134,8 +127,7 @@
             "endpoint": "deathGuard.json",
             "allies": [
                 "w40k.10e.dmns",
-                "w40k.10e.ck",
-                "w40k.10e.tit"
+                "w40k.10e.ck"
             ]
         },
         {
@@ -148,8 +140,7 @@
             "endpoint": "chaosSpaceMarines.json",
             "allies": [
                 "w40k.10e.dmns",
-                "w40k.10e.ck",
-                "w40k.10e.tit"
+                "w40k.10e.ck"
             ]
         },
         {
@@ -161,8 +152,8 @@
             "enabled": true,
             "endpoint": "emperorsChildren.json",
             "allies": [
-                "w40k.10e.ck",
-                "w40k.10e.tit"
+                "w40k.10e.slaa",
+                "w40k.10e.ck"
             ]
         },
         {
@@ -184,8 +175,7 @@
             "endpoint": "astraMilitarum.json",
             "allies": [
                 "w40k.10e.agtAllies",
-                "w40k.10e.ik",
-                "w40k.10e.tit"
+                "w40k.10e.ik"
             ]
         },
         {
@@ -198,8 +188,7 @@
             "endpoint": "adeptusMechanicus.json",
             "allies": [
                 "w40k.10e.agtAllies",
-                "w40k.10e.ik",
-                "w40k.10e.tit"
+                "w40k.10e.ik"
             ]
         },
         {
@@ -212,8 +201,7 @@
             "endpoint": "spaceMarines.json",
             "allies": [
                 "w40k.10e.agtAllies",
-                "w40k.10e.ik",
-                "w40k.10e.tit"
+                "w40k.10e.ik"
             ]
         },
         {
@@ -226,8 +214,7 @@
             "endpoint": "blackTemplars.json",
             "allies": [
                 "w40k.10e.agtAllies",
-                "w40k.10e.ik",
-                "w40k.10e.tit"
+                "w40k.10e.ik"
             ]
         },
         {
@@ -240,8 +227,7 @@
             "endpoint": "bloodAngels.json",
             "allies": [
                 "w40k.10e.agtAllies",
-                "w40k.10e.ik",
-                "w40k.10e.tit"
+                "w40k.10e.ik"
             ]
         },
         {
@@ -254,8 +240,7 @@
             "endpoint": "darkAngels.json",
             "allies": [
                 "w40k.10e.agtAllies",
-                "w40k.10e.ik",
-                "w40k.10e.tit"
+                "w40k.10e.ik"
             ]
         },
         {
@@ -268,8 +253,7 @@
             "endpoint": "imperialFists.json",
             "allies": [
                 "w40k.10e.agtAllies",
-                "w40k.10e.ik",
-                "w40k.10e.tit"
+                "w40k.10e.ik"
             ]
         },
         {
@@ -282,8 +266,7 @@
             "endpoint": "ironHands.json",
             "allies": [
                 "w40k.10e.agtAllies",
-                "w40k.10e.ik",
-                "w40k.10e.tit"
+                "w40k.10e.ik"
             ]
         },
         {
@@ -296,8 +279,7 @@
             "endpoint": "ravenGuard.json",
             "allies": [
                 "w40k.10e.agtAllies",
-                "w40k.10e.ik",
-                "w40k.10e.tit"
+                "w40k.10e.ik"
             ]
         },
         {
@@ -310,8 +292,7 @@
             "endpoint": "salamanders.json",
             "allies": [
                 "w40k.10e.agtAllies",
-                "w40k.10e.ik",
-                "w40k.10e.tit"
+                "w40k.10e.ik"
             ]
         },
         {
@@ -324,8 +305,7 @@
             "endpoint": "spaceWolves.json",
             "allies": [
                 "w40k.10e.agtAllies",
-                "w40k.10e.ik",
-                "w40k.10e.tit"
+                "w40k.10e.ik"
             ]
         },
         {
@@ -338,8 +318,7 @@
             "endpoint": "ultramarines.json",
             "allies": [
                 "w40k.10e.agtAllies",
-                "w40k.10e.ik",
-                "w40k.10e.tit"
+                "w40k.10e.ik"
             ]
         },
         {
@@ -350,20 +329,6 @@
             "keyword": "WHITE SCARS",
             "enabled": true,
             "endpoint": "whiteScars.json",
-            "allies": [
-                "w40k.10e.agtAllies",
-                "w40k.10e.ik",
-                "w40k.10e.tit"
-            ]
-        },
-        {
-            "id": "w40k.10e.tit.config",
-            "type": "config",
-            "rulesetId": "w40k.10e.tit",
-            "name": "Titans",
-            "keyword": "ADEPTUS TITANICUS",
-            "enabled": true,
-            "endpoint": "titans.json",
             "allies": [
                 "w40k.10e.agtAllies",
                 "w40k.10e.ik"
@@ -379,8 +344,7 @@
             "endpoint": "sisters.json",
             "allies": [
                 "w40k.10e.agtAllies",
-                "w40k.10e.ik",
-                "w40k.10e.tit"
+                "w40k.10e.ik"
             ]
         },
         {
@@ -467,6 +431,14 @@
             "name": "Vanguard Invaders",
             "enabled": false,
             "endpoint": "tyranidAllies.json"
+        },
+        {
+            "id": "w40k.10e.slaa.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.slaa",
+            "name": "Slaanesh Daemons",
+            "enabled": false,
+            "endpoint": "slaaneshDaemons.json"
         }
     ]
 }
