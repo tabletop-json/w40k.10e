@@ -88,7 +88,7 @@
             "models": [
                 {
                     "name": "Lucius the Eternal",
-                    "points": 150,
+                    "points": 10,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -110,7 +110,7 @@
             "models": [
                 {
                     "name": "Lord Exultant",
-                    "points": 100,
+                    "points": 10,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -132,7 +132,7 @@
             "models": [
                 {
                     "name": "Lord Kakophonist",
-                    "points": 100,
+                    "points": 10,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -140,6 +140,26 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Screamer Pistol"
+                            }
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Power Sword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Power Sword"
+                                },
+                                {
+                                    "name": "Screamer Pistol"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -154,7 +174,7 @@
             "models": [
                 {
                     "name": "Sorcerer",
-                    "points": 80,
+                    "points": 10,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -176,7 +196,7 @@
             "models": [
                 {
                     "name": "Daemon Prince",
-                    "points": 160,
+                    "points": 10,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -209,19 +229,19 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "",
+                                    "name": "Steeped in Suffering",
                                     "points": 0
                                 },
                                 {
-                                    "name": "",
+                                    "name": "Intoxicating Musk",
                                     "points": 0
                                 },
                                 {
-                                    "name": "",
+                                    "name": "Tactical Perfection",
                                     "points": 0
                                 },
                                 {
-                                    "name": "",
+                                    "name": "Loathsome Dexterity",
                                     "points": 0
                                 }
                             ]
@@ -238,19 +258,19 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "",
+                                    "name": "Faultless Opportunist",
                                     "points": 0
                                 },
                                 {
-                                    "name": "",
+                                    "name": "Blinding Speed",
                                     "points": 0
                                 },
                                 {
-                                    "name": "",
+                                    "name": "Distortion",
                                     "points": 0
                                 },
                                 {
-                                    "name": "",
+                                    "name": "Rise to the Challenge",
                                     "points": 0
                                 }
                             ]
@@ -267,19 +287,19 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "",
+                                    "name": "Sublime Prescience",
                                     "points": 0
                                 },
                                 {
-                                    "name": "",
+                                    "name": "Spearhead Striker",
                                     "points": 0
                                 },
                                 {
-                                    "name": "",
+                                    "name": "Accomplished Tactician",
                                     "points": 0
                                 },
                                 {
-                                    "name": "",
+                                    "name": "Heretek Adept",
                                     "points": 0
                                 }
                             ]
@@ -296,19 +316,19 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "",
+                                    "name": "Empyric Suffusion",
                                     "points": 0
                                 },
                                 {
-                                    "name": "",
+                                    "name": "Dark Blessings",
                                     "points": 0
                                 },
                                 {
-                                    "name": "",
+                                    "name": "Possessed Blade",
                                     "points": 0
                                 },
                                 {
-                                    "name": "",
+                                    "name": "Warp Walker",
                                     "points": 0
                                 }
                             ]
@@ -325,19 +345,19 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "",
+                                    "name": "Pledge of Eternal Servitude",
                                     "points": 0
                                 },
                                 {
-                                    "name": "",
+                                    "name": "Pledge of Dark Glory",
                                     "points": 0
                                 },
                                 {
-                                    "name": "",
+                                    "name": "Pledge of Mortal Pain",
                                     "points": 0
                                 },
                                 {
-                                    "name": "",
+                                    "name": "Pledge of Unholy Fortune",
                                     "points": 0
                                 }
                             ]
@@ -354,19 +374,19 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "",
+                                    "name": "Eager to Prove",
                                     "points": 0
                                 },
                                 {
-                                    "name": "",
+                                    "name": "Repulsed by Weakness",
                                     "points": 0
                                 },
                                 {
-                                    "name": "",
+                                    "name": "Proud and Vainglorious",
                                     "points": 0
                                 },
                                 {
-                                    "name": "",
+                                    "name": "Slayer of Champions",
                                     "points": 0
                                 }
                             ]
@@ -384,7 +404,7 @@
             "models": [
                 {
                     "name": "Daemon Prince with Wings",
-                    "points": 180,
+                    "points": 10,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -417,36 +437,35 @@
             "role": "INFANTRY",
             "points": [
                 {
-                    "name": "Blade, Blade Champion",
+                    "name": "Flawless Blade",
                     "amount": 6,
-                    "cost": 300
+                    "cost": 20
                 },
                 {
-                    "name": "Blade, Blade Champion",
+                    "name": "Flawless Blade",
                     "amount": 3,
-                    "cost": 150
+                    "cost": 10
                 }
             ],
             "restrictions": [
                 {
                     "type": "model",
-                    "name": "Blade",
-                    "min": 2,
-                    "max": 5
-                },
-                {
-                    "type": "model",
-                    "name": "Blade Champion",
-                    "min": 1,
-                    "max": 1
+                    "name": "Flawless Blade",
+                    "min": 3,
+                    "max": 6
                 }
             ],
             "blueprints": [
                 {
-                    "name": "Blade"
-                },
-                {
-                    "name": "Blade Champion"
+                    "name": "Flawless Blade",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Blissblade"
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -460,7 +479,7 @@
                 {
                     "name": "Chaos Spawn",
                     "amount": 2,
-                    "cost": 70
+                    "cost": 10
                 }
             ],
             "models": [
@@ -482,12 +501,12 @@
                 {
                     "name": "Tormentor, Tormentor Champion",
                     "amount": 10,
-                    "cost": 170
+                    "cost": 20
                 },
                 {
                     "name": "Tormentor, Tormentor Champion",
                     "amount": 5,
-                    "cost": 90
+                    "cost": 10
                 }
             ],
             "restrictions": [
@@ -523,12 +542,12 @@
                 {
                     "name": "Infractor, Infractor Champion",
                     "amount": 10,
-                    "cost": 170
+                    "cost": 20
                 },
                 {
                     "name": "Infractor, Infractor Champion",
                     "amount": 5,
-                    "cost": 90
+                    "cost": 10
                 }
             ],
             "restrictions": [
@@ -564,12 +583,12 @@
                 {
                     "name": "Terminator, Terminator Champion",
                     "amount": 10,
-                    "cost": 360
+                    "cost": 20
                 },
                 {
                     "name": "Terminator, Terminator Champion",
                     "amount": 5,
-                    "cost": 180
+                    "cost": 10
                 }
             ],
             "restrictions": [
@@ -702,7 +721,7 @@
             "models": [
                 {
                     "name": "Land Raider",
-                    "points": 240,
+                    "points": 10,
                     "gearset": [
                         {
                             "type": "text",
@@ -749,39 +768,66 @@
             "type": "unit",
             "rulesetId": "w40k.10e.ec",
             "name": "Noise Marines",
-            "role": "BATTLELINE",
+            "role": "INFANTRY",
             "points": [
                 {
-                    "name": "Noise Marine, Noise Champion",
+                    "name": "Noise Marine, Disharmonist",
                     "amount": 6,
-                    "cost": 240
-                },
-                {
-                    "name": "Noise Marine, Noise Champion",
-                    "amount": 3,
-                    "cost": 120
+                    "cost": 10
                 }
             ],
             "restrictions": [
                 {
                     "type": "model",
                     "name": "Noise Marine",
-                    "min": 2,
+                    "min": 5,
                     "max": 5
                 },
                 {
                     "type": "model",
-                    "name": "Noise Champion",
+                    "name": "Disharmonist",
                     "min": 1,
                     "max": 1
                 }
             ],
             "blueprints": [
                 {
-                    "name": "Noise Marine"
+                    "name": "Noise Marine",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Sonic Blaster"
+                            },
+                            "options": [
+                                {
+                                    "name": "Sonic Blaster"
+                                },
+                                {
+                                    "name": "Blastmaster"
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
-                    "name": "Noise Champion"
+                    "name": "Disharmonist",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Sonic Blaster"
+                            },
+                            "options": [
+                                {
+                                    "name": "Sonic Blaster"
+                                },
+                                {
+                                    "name": "Screamer Pistol, Power Sword"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -794,7 +840,7 @@
             "models": [
                 {
                     "name": "Heldrake",
-                    "points": 200,
+                    "points": 10,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -829,7 +875,7 @@
             "models": [
                 {
                     "name": "Maulerfiend",
-                    "points": 130,
+                    "points": 10,
                     "gearset": [
                         {
                             "type": "text",
@@ -864,7 +910,7 @@
             "models": [
                 {
                     "name": "Rhino",
-                    "points": 75,
+                    "points": 10,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -891,220 +937,6 @@
                             "selected": false
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.ec.unit.shalaxi",
-            "type": "unit",
-            "rulesetId": "w40k.10e.ec",
-            "name": "Shalaxi Helbane",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Shalaxi Helbane",
-                    "points": 425,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.ec.unit.keeperOfSecrets",
-            "type": "unit",
-            "rulesetId": "w40k.10e.ec",
-            "name": "Keeper of Secrets",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Keeper of Secrets",
-                    "points": 290,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Living Whip"
-                                },
-                                {
-                                    "name": "Ritual Knife"
-                                },
-                                {
-                                    "name": "Shining Aegis"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.ec.unit.daemonettes",
-            "type": "unit",
-            "rulesetId": "w40k.10e.ec",
-            "name": "Daemonettes",
-            "role": "BATTLELINE",
-            "points": [
-                {
-                    "name": "Daemonette, Alluress",
-                    "amount": 10,
-                    "cost": 100
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Daemonette",
-                    "min": 9,
-                    "max": 9
-                },
-                {
-                    "type": "model",
-                    "name": "Alluress",
-                    "min": 1,
-                    "max": 1
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Daemonette",
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Daemonic Icon"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Instrument of Chaos"
-                            },
-                            "selected": false
-                        }
-                    ]
-                },
-                {
-                    "name": "Alluress"
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.ec.unit.fiends",
-            "type": "unit",
-            "rulesetId": "w40k.10e.ec",
-            "name": "Fiends",
-            "role": "BEAST",
-            "points": [
-                {
-                    "name": "Fiend, Blissbringer",
-                    "amount": 6,
-                    "cost": 210
-                },
-                {
-                    "name": "Fiend, Blissbringer",
-                    "amount": 3,
-                    "cost": 105
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Fiend",
-                    "min": 2,
-                    "max": 5
-                },
-                {
-                    "type": "model",
-                    "name": "Blissbringer",
-                    "min": 1,
-                    "max": 1
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Fiend"
-                },
-                {
-                    "name": "Blissbringer"
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.ec.unit.seekers",
-            "type": "unit",
-            "rulesetId": "w40k.10e.ec",
-            "name": "Seekers",
-            "role": "MOUNTED",
-            "points": [
-                {
-                    "name": "Seeker, Heartseeker",
-                    "amount": 10,
-                    "cost": 160
-                },
-                {
-                    "name": "Seeker, Heartseeker",
-                    "amount": 5,
-                    "cost": 80
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Seeker",
-                    "min": 4,
-                    "max": 9
-                },
-                {
-                    "type": "model",
-                    "name": "Heartseeker",
-                    "min": 1,
-                    "max": 1
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Seeker",
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Daemonic Icon"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Instrument of Chaos"
-                            },
-                            "selected": false
-                        }
-                    ]
-                },
-                {
-                    "name": "Heartseeker"
                 }
             ]
         }

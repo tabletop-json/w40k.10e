@@ -1,0 +1,226 @@
+{
+    "config": {
+        "id": "w40k.10e.slaa.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.slaa",
+        "name": "Slaanesh Daemons",
+        "enabled": false,
+        "endpoint": "slaaneshDaemons.json"
+    },
+    "units": [
+        {
+            "id": "w40k.10e.slaa.unit.shalaxi",
+            "type": "unit",
+            "rulesetId": "w40k.10e.slaa",
+            "name": "Shalaxi Helbane",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Shalaxi Helbane",
+                    "points": 425,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.slaa.unit.keeperOfSecrets",
+            "type": "unit",
+            "rulesetId": "w40k.10e.slaa",
+            "name": "Keeper of Secrets",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Keeper of Secrets",
+                    "points": 290,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Living Whip"
+                                },
+                                {
+                                    "name": "Ritual Knife"
+                                },
+                                {
+                                    "name": "Shining Aegis"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.slaa.unit.daemonettes",
+            "type": "unit",
+            "rulesetId": "w40k.10e.slaa",
+            "name": "Daemonettes",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Daemonette, Alluress",
+                    "amount": 10,
+                    "cost": 100
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Daemonette",
+                    "min": 9,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Alluress",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Daemonette",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Daemonic Icon"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Instrument of Chaos"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Alluress"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.slaa.unit.fiends",
+            "type": "unit",
+            "rulesetId": "w40k.10e.slaa",
+            "name": "Fiends",
+            "role": "BEAST",
+            "points": [
+                {
+                    "name": "Fiend, Blissbringer",
+                    "amount": 6,
+                    "cost": 210
+                },
+                {
+                    "name": "Fiend, Blissbringer",
+                    "amount": 3,
+                    "cost": 105
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Fiend",
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "type": "model",
+                    "name": "Blissbringer",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Fiend"
+                },
+                {
+                    "name": "Blissbringer"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.slaa.unit.seekers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.slaa",
+            "name": "Seekers",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Seeker, Heartseeker",
+                    "amount": 10,
+                    "cost": 160
+                },
+                {
+                    "name": "Seeker, Heartseeker",
+                    "amount": 5,
+                    "cost": 80
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Seeker",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Heartseeker",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Seeker",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Daemonic Icon"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Instrument of Chaos"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Heartseeker"
+                }
+            ]
+        }
+    ]
+}

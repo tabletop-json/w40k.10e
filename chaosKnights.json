@@ -8,7 +8,8 @@
         "enabled": true,
         "endpoint": "chaosKnights.json",
         "allies": [
-            "w40k.10e.dmns"
+            "w40k.10e.dmns",
+            "w40k.10e.damnedAllies"
         ]
     },
     "detachments": [
