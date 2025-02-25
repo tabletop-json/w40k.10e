@@ -1,7 +1,7 @@
 {
     "id": "w40k.10e",
-    "version": "0.10.16",
-    "updateNotes": "10/02/2025: Guard Points",
+    "version": "0.11.0",
+    "updateNotes": "25/02/2025: Emperor's Children Groundwork",
     "name": "Warhammer 40,000: 10th Edition",
     "enabled": true,
     "path": "https://raw.githubusercontent.com/tabletop-json/w40k.10e/master/",
@@ -161,7 +161,6 @@
             "enabled": true,
             "endpoint": "emperorsChildren.json",
             "allies": [
-                "w40k.10e.dmns",
                 "w40k.10e.ck",
                 "w40k.10e.tit"
             ]
