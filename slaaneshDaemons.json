@@ -67,6 +67,16 @@
                                     "name": "Shining Aegis"
                                 }
                             ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ec.dt.carnivalExcess",
+                            "selectedOption": {
+                                "name": "Warp Walker",
+                                "points": 0
+                            },
+                            "selected": false
                         }
                     ]
                 }
