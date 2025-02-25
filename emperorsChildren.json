@@ -118,104 +118,6 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.ec.unit.lordKakophonist",
-            "type": "unit",
-            "rulesetId": "w40k.10e.we",
-            "name": "Lord Kakophonist",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Lord Kakophonist",
-                    "points": 10,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Screamer Pistol"
-                            }
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Power Sword"
-                            },
-                            "options": [
-                                {
-                                    "name": "Power Sword"
-                                },
-                                {
-                                    "name": "Screamer Pistol"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.ec.unit.sorcerer",
-            "type": "unit",
-            "rulesetId": "w40k.10e.we",
-            "name": "Sorcerer",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Sorcerer",
-                    "points": 10,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.ec.unit.daemonPrince",
-            "type": "unit",
-            "rulesetId": "w40k.10e.ec",
-            "name": "Daemon Prince",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Daemon Prince",
-                    "points": 10,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Hellforged Weapons"
-                            }
-                        },
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Infernal Cannon"
-                            }
                         },
                         {
                             "type": "dropdown",
@@ -365,7 +267,590 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.csm.dt.slaaneshsChosen",
+                            "detachmentId": "w40k.10e.ec.dt.slaaneshsChosen",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eager to Prove",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Repulsed by Weakness",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Proud and Vainglorious",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Slayer of Champions",
+                                    "points": 0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ec.unit.lordKakophonist",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Lord Kakophonist",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Lord Kakophonist",
+                    "points": 10,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Screamer Pistol"
+                            }
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Power Sword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Power Sword"
+                                },
+                                {
+                                    "name": "Screamer Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ec.dt.mercurialHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Steeped in Suffering",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Intoxicating Musk",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Tactical Perfection",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Loathsome Dexterity",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ec.dt.peerlessBladesmen",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Faultless Opportunist",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Blinding Speed",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Distortion",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Rise to the Challenge",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ec.dt.rapidEvisceration",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Sublime Prescience",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Spearhead Striker",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Accomplished Tactician",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Heretek Adept",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ec.dt.carnivalExcess",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Empyric Suffusion",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Dark Blessings",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Possessed Blade",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Warp Walker",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ec.dt.coterieConceited",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Pledge of Eternal Servitude",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Pledge of Dark Glory",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Pledge of Mortal Pain",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Pledge of Unholy Fortune",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ec.dt.slaaneshsChosen",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eager to Prove",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Repulsed by Weakness",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Proud and Vainglorious",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Slayer of Champions",
+                                    "points": 0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ec.unit.sorcerer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Sorcerer",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Sorcerer",
+                    "points": 10,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ec.dt.mercurialHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Steeped in Suffering",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Intoxicating Musk",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Tactical Perfection",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Loathsome Dexterity",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ec.dt.peerlessBladesmen",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Faultless Opportunist",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Blinding Speed",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Distortion",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Rise to the Challenge",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ec.dt.rapidEvisceration",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Sublime Prescience",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Spearhead Striker",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Accomplished Tactician",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Heretek Adept",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ec.dt.carnivalExcess",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Empyric Suffusion",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Dark Blessings",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Possessed Blade",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Warp Walker",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ec.dt.coterieConceited",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Pledge of Eternal Servitude",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Pledge of Dark Glory",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Pledge of Mortal Pain",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Pledge of Unholy Fortune",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ec.dt.slaaneshsChosen",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eager to Prove",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Repulsed by Weakness",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Proud and Vainglorious",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Slayer of Champions",
+                                    "points": 0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ec.unit.daemonPrince",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ec",
+            "name": "Daemon Prince",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Daemon Prince",
+                    "points": 10,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Hellforged Weapons"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Infernal Cannon"
+                            }
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ec.dt.mercurialHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Steeped in Suffering",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Intoxicating Musk",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Tactical Perfection",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Loathsome Dexterity",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ec.dt.peerlessBladesmen",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Faultless Opportunist",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Blinding Speed",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Distortion",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ec.dt.carnivalExcess",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Empyric Suffusion",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Possessed Blade",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Warp Walker",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ec.dt.coterieConceited",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Pledge of Eternal Servitude",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Pledge of Dark Glory",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Pledge of Mortal Pain",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Pledge of Unholy Fortune",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ec.dt.slaaneshsChosen",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -424,6 +909,143 @@
                             "selectedOption": {
                                 "name": "Infernal Cannon"
                             }
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ec.dt.mercurialHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Steeped in Suffering",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Intoxicating Musk",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Tactical Perfection",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Loathsome Dexterity",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ec.dt.peerlessBladesmen",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Faultless Opportunist",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Blinding Speed",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Distortion",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ec.dt.carnivalExcess",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Empyric Suffusion",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Possessed Blade",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Warp Walker",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ec.dt.coterieConceited",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Pledge of Eternal Servitude",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Pledge of Dark Glory",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Pledge of Mortal Pain",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Pledge of Unholy Fortune",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ec.dt.slaaneshsChosen",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eager to Prove",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Repulsed by Weakness",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Proud and Vainglorious",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Slayer of Champions",
+                                    "points": 0
+                                }
+                            ]
                         }
                     ]
                 }
@@ -470,9 +1092,9 @@
             ]
         },
         {
-            "id": "w40k.10e.csm.unit.spawn",
+            "id": "w40k.10e.ec.unit.spawn",
             "type": "unit",
-            "rulesetId": "w40k.10e.csm",
+            "rulesetId": "w40k.10e.ec",
             "name": "Chaos Spawn",
             "role": "BEAST",
             "points": [
@@ -492,9 +1114,9 @@
             ]
         },
         {
-            "id": "w40k.10e.csm.unit.tormentors",
+            "id": "w40k.10e.ec.unit.tormentors",
             "type": "unit",
-            "rulesetId": "w40k.10e.csm",
+            "rulesetId": "w40k.10e.ec",
             "name": "Tormentors",
             "role": "BATTLELINE",
             "points": [
@@ -533,9 +1155,9 @@
             ]
         },
         {
-            "id": "w40k.10e.csm.unit.infractors",
+            "id": "w40k.10e.ec.unit.infractors",
             "type": "unit",
-            "rulesetId": "w40k.10e.csm",
+            "rulesetId": "w40k.10e.ec",
             "name": "Infractors",
             "role": "BATTLELINE",
             "points": [
