@@ -17,7 +17,7 @@
             "models": [
                 {
                     "name": "Shalaxi Helbane",
-                    "points": 390,
+                    "points": 380,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -39,7 +39,7 @@
             "models": [
                 {
                     "name": "Keeper of Secrets",
-                    "points": 300,
+                    "points": 280,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -92,7 +92,7 @@
                 {
                     "name": "Daemonette, Alluress",
                     "amount": 10,
-                    "cost": 120
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -144,12 +144,12 @@
                 {
                     "name": "Fiend, Blissbringer",
                     "amount": 6,
-                    "cost": 260
+                    "cost": 190
                 },
                 {
                     "name": "Fiend, Blissbringer",
                     "amount": 3,
-                    "cost": 130
+                    "cost": 95
                 }
             ],
             "restrictions": [
