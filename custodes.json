@@ -56,12 +56,12 @@
                 {
                     "name": "Custodian Guard",
                     "amount": 5,
-                    "cost": 225
+                    "cost": 215
                 },
                 {
                     "name": "Custodian Guard",
                     "amount": 4,
-                    "cost": 180
+                    "cost": 170
                 }
             ],
             "restrictions": [
@@ -110,12 +110,12 @@
                 {
                     "name": "Custodian Warden",
                     "amount": 5,
-                    "cost": 250
+                    "cost": 260
                 },
                 {
                     "name": "Custodian Warden",
                     "amount": 4,
-                    "cost": 200
+                    "cost": 210
                 }
             ],
             "restrictions": [
@@ -432,7 +432,7 @@
             "models": [
                 {
                     "name": "Shield-captain",
-                    "points": 140,
+                    "points": 130,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -594,7 +594,7 @@
                                 },
                                 {
                                     "name": "Augury Uplink",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Veteran of the Kataphraktoi",
@@ -615,7 +615,7 @@
             "models": [
                 {
                     "name": "Blade Champion",
-                    "points": 110,
+                    "points": 120,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -757,7 +757,7 @@
                                 },
                                 {
                                     "name": "Augury Uplink",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Veteran of the Kataphraktoi",
@@ -778,7 +778,7 @@
             "models": [
                 {
                     "name": "Aleya",
-                    "points": 75,
+                    "points": 65,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -822,7 +822,7 @@
             "models": [
                 {
                     "name": "Knight-centura",
-                    "points": 70,
+                    "points": 55,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -861,7 +861,7 @@
             "models": [
                 {
                     "name": "Shield-captain in Allarus Terminator Armour",
-                    "points": 140,
+                    "points": 130,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1017,7 +1017,7 @@
                                 },
                                 {
                                     "name": "Augury Uplink",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Veteran of the Kataphraktoi",
@@ -1038,7 +1038,7 @@
             "models": [
                 {
                     "name": "Shield-captain on Dawneagle Jetbike",
-                    "points": 160,
+                    "points": 150,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1194,7 +1194,7 @@
                                 },
                                 {
                                     "name": "Augury Uplink",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Veteran of the Kataphraktoi",
@@ -1259,7 +1259,7 @@
             "models": [
                 {
                     "name": "Venerable Contemptor Dreadnought",
-                    "points": 160,
+                    "points": 170,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1305,7 +1305,7 @@
                                 },
                                 {
                                     "name": "Augury Uplink",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Honoured Fallen (Aura)",
@@ -1560,7 +1560,7 @@
                                 },
                                 {
                                     "name": "Augury Uplink",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Honoured Fallen (Aura)",
@@ -1693,7 +1693,7 @@
             "models": [
                 {
                     "name": "Telemon Heavy Dreadnought",
-                    "points": 215,
+                    "points": 225,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1759,7 +1759,7 @@
                                 },
                                 {
                                     "name": "Augury Uplink",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Honoured Fallen (Aura)",
@@ -1886,7 +1886,7 @@
                                 },
                                 {
                                     "name": "Augury Uplink",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Honoured Fallen (Aura)",

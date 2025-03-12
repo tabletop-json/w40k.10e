@@ -3110,7 +3110,7 @@
                 {
                     "name": "Heavy Weapons Team",
                     "amount": 3,
-                    "cost": 50
+                    "cost": 65
                 }
             ],
             "restrictions": [
@@ -3162,7 +3162,7 @@
                 {
                     "name": "Heavy Weapons Team",
                     "amount": 3,
-                    "cost": 50
+                    "cost": 65
                 }
             ],
             "restrictions": [
@@ -3295,7 +3295,7 @@
                 {
                     "name": "Ordnance Team",
                     "amount": 2,
-                    "cost": 100
+                    "cost": 110
                 }
             ],
             "models": [
@@ -4810,7 +4810,7 @@
                 {
                     "name": "Tempestus Scion, Tempestor Prime",
                     "amount": 5,
-                    "cost": 75
+                    "cost": 85
                 }
             ],
             "models": [
@@ -5112,7 +5112,7 @@
                                 },
                                 {
                                     "name": "Bombast-Class Vox-Array",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Priority-Drop Beacon",
@@ -5142,12 +5142,12 @@
                 {
                     "name": "Tempestus Scion, Tempestor",
                     "amount": 10,
-                    "cost": 130
+                    "cost": 140
                 },
                 {
                     "name": "Tempestus Scion, Tempestor",
                     "amount": 5,
-                    "cost": 65
+                    "cost": 70
                 }
             ],
             "restrictions": [

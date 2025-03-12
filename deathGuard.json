@@ -1676,17 +1676,17 @@
                 {
                     "name": "Myphitic Blight-hauler",
                     "amount": 3,
-                    "cost": 270
+                    "cost": 255
                 },
                 {
                     "name": "Myphitic Blight-hauler",
                     "amount": 2,
-                    "cost": 180
+                    "cost": 170
                 },
                 {
                     "name": "Myphitic Blight-hauler",
                     "amount": 1,
-                    "cost": 90
+                    "cost": 85
                 }
             ],
             "restrictions": [
@@ -1844,7 +1844,7 @@
             "models": [
                 {
                     "name": "Predator Annihilator",
-                    "points": 130,
+                    "points": 135,
                     "gearset": [
                         {
                             "type": "text",
@@ -1907,7 +1907,7 @@
             "models": [
                 {
                     "name": "Predator Destructor",
-                    "points": 130,
+                    "points": 140,
                     "gearset": [
                         {
                             "type": "text",

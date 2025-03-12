@@ -55,7 +55,7 @@
             "models": [
                 {
                     "name": "Callidus Assassin",
-                    "points": 140
+                    "points": 100
                 }
             ]
         },
@@ -135,7 +135,7 @@
             "models": [
                 {
                     "name": "Culexus Assassin",
-                    "points": 140
+                    "points": 85
                 }
             ]
         },
@@ -248,7 +248,7 @@
             "models": [
                 {
                     "name": "Eversor Assassin",
-                    "points": 145
+                    "points": 110
                 }
             ]
         },
@@ -262,12 +262,7 @@
                 {
                     "name": "Cyber-Mastiff, Exaction Vigilant, Proctor-Exactant",
                     "amount": 11,
-                    "cost": 110
-                },
-                {
-                    "name": "Cyber-Mastiff, Exaction Vigilant, Proctor-Exactant",
-                    "amount": 10,
-                    "cost": 110
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -286,7 +281,7 @@
                 {
                     "type": "model",
                     "name": "Cyber-Mastiff",
-                    "min": 0,
+                    "min": 1,
                     "max": 1
                 }
             ],
@@ -461,7 +456,7 @@
                 {
                     "name": "Navis Armsman, Navis Sergeant-at-Arms",
                     "amount": 10,
-                    "cost": 105
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -1732,7 +1727,7 @@
             "models": [
                 {
                     "name": "Vindicare Assassin",
-                    "points": 155
+                    "points": 110
                 }
             ]
         },
