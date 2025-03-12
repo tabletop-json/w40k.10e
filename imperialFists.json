@@ -221,7 +221,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 40
+                                    "points": 25
                                 }
                             ]
                         },
@@ -493,7 +493,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 40
+                                    "points": 25
                                 }
                             ]
                         },
@@ -738,7 +738,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 40
+                                    "points": 25
                                 }
                             ]
                         },
@@ -963,7 +963,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 40
+                                    "points": 25
                                 }
                             ]
                         },
@@ -1216,7 +1216,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 40
+                                    "points": 25
                                 }
                             ]
                         },
@@ -1441,7 +1441,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 40
+                                    "points": 25
                                 }
                             ]
                         },
@@ -1666,7 +1666,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 40
+                                    "points": 25
                                 }
                             ]
                         },
@@ -1958,7 +1958,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 40
+                                    "points": 25
                                 }
                             ]
                         },
@@ -2183,7 +2183,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 40
+                                    "points": 25
                                 }
                             ]
                         },
@@ -2425,7 +2425,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 40
+                                    "points": 25
                                 }
                             ]
                         },
@@ -2650,7 +2650,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 40
+                                    "points": 25
                                 }
                             ]
                         },
@@ -2889,7 +2889,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 40
+                                    "points": 25
                                 }
                             ]
                         },
@@ -3114,7 +3114,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 40
+                                    "points": 25
                                 }
                             ]
                         },
@@ -3339,7 +3339,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 40
+                                    "points": 25
                                 }
                             ]
                         },
@@ -3599,7 +3599,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 40
+                                    "points": 25
                                 }
                             ]
                         },
@@ -3824,7 +3824,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 40
+                                    "points": 25
                                 }
                             ]
                         },
@@ -4361,7 +4361,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 40
+                                    "points": 25
                                 }
                             ]
                         },
@@ -5011,7 +5011,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 40
+                                    "points": 25
                                 }
                             ]
                         },
@@ -5236,7 +5236,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 40
+                                    "points": 25
                                 }
                             ]
                         },
@@ -5475,7 +5475,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 40
+                                    "points": 25
                                 }
                             ]
                         },
@@ -5700,7 +5700,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 40
+                                    "points": 25
                                 }
                             ]
                         },
@@ -5954,7 +5954,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 40
+                                    "points": 25
                                 }
                             ]
                         },
@@ -6059,12 +6059,12 @@
                 {
                     "name": "Bladeguard Veteran, Bladeguard Veteran Sergeant",
                     "amount": 6,
-                    "cost": 180
+                    "cost": 160
                 },
                 {
                     "name": "Bladeguard Veteran, Bladeguard Veteran Sergeant",
                     "amount": 3,
-                    "cost": 90
+                    "cost": 80
                 }
             ],
             "restrictions": [
@@ -6433,7 +6433,7 @@
                                 },
                                 {
                                     "name": "Fire Discipline",
-                                    "points": 40
+                                    "points": 25
                                 }
                             ]
                         },
@@ -6538,7 +6538,7 @@
                 {
                     "name": "Ancient, Company Champion, Company Veterans",
                     "amount": 4,
-                    "cost": 95
+                    "cost": 105
                 }
             ],
             "restrictions": [
@@ -7023,12 +7023,12 @@
                 {
                     "name": "Devastator Centurion, Devastator Centurion Sergeant",
                     "amount": 6,
-                    "cost": 370
+                    "cost": 330
                 },
                 {
                     "name": "Devastator Centurion, Devastator Centurion Sergeant",
                     "amount": 3,
-                    "cost": 185
+                    "cost": 165
                 }
             ],
             "restrictions": [
@@ -7317,7 +7317,7 @@
             "models": [
                 {
                     "name": "Ballistus Dreadnought",
-                    "points": 130
+                    "points": 140
                 }
             ]
         },
@@ -8048,7 +8048,7 @@
             "models": [
                 {
                     "name": "Whirlwind",
-                    "points": 180,
+                    "points": 190,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -8077,7 +8077,7 @@
             "models": [
                 {
                     "name": "Predator Destructor",
-                    "points": 130,
+                    "points": 140,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -8123,7 +8123,7 @@
             "models": [
                 {
                     "name": "Predator Annihilator",
-                    "points": 130,
+                    "points": 135,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -8270,7 +8270,7 @@
             "models": [
                 {
                     "name": "Vindicator",
-                    "points": 175,
+                    "points": 185,
                     "gearset": [
                         {
                             "type": "checkbox",

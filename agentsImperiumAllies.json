@@ -97,7 +97,7 @@
             "models": [
                 {
                     "name": "Culexus Assassin",
-                    "points": 100
+                    "points": 85
                 }
             ]
         },
@@ -224,12 +224,7 @@
                 {
                     "name": "Cyber-Mastiff, Exaction Vigilant, Proctor-Exactant",
                     "amount": 11,
-                    "cost": 110
-                },
-                {
-                    "name": "Cyber-Mastiff, Exaction Vigilant, Proctor-Exactant",
-                    "amount": 10,
-                    "cost": 110
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -248,7 +243,7 @@
                 {
                     "type": "model",
                     "name": "Cyber-Mastiff",
-                    "min": 0,
+                    "min": 1,
                     "max": 1
                 }
             ],
@@ -423,7 +418,7 @@
                 {
                     "name": "Navis Armsman, Navis Sergeant-at-Arms",
                     "amount": 10,
-                    "cost": 105
+                    "cost": 90
                 }
             ],
             "restrictions": [

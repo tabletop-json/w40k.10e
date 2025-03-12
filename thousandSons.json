@@ -121,7 +121,7 @@
             "models": [
                 {
                     "name": "Predator Annihilator",
-                    "points": 130,
+                    "points": 135,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -178,7 +178,7 @@
             "models": [
                 {
                     "name": "Predator Destructor",
-                    "points": 130,
+                    "points": 140,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -295,7 +295,7 @@
             "models": [
                 {
                     "name": "Vindicator",
-                    "points": 175,
+                    "points": 185,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -874,7 +874,7 @@
             "models": [
                 {
                     "name": "Mutalith Vortex Beast",
-                    "points": 160
+                    "points": 165
                 }
             ]
         },
@@ -974,12 +974,12 @@
                 {
                     "name": "Scarab Occult Terminator, Scarab Occult Sorcerer",
                     "amount": 10,
-                    "cost": 380
+                    "cost": 360
                 },
                 {
                     "name": "Scarab Occult Terminator, Scarab Occult Sorcerer",
                     "amount": 5,
-                    "cost": 190
+                    "cost": 180
                 }
             ],
             "restrictions": [
@@ -1153,7 +1153,7 @@
             "models": [
                 {
                     "name": "Sorcerer in Terminator Armour",
-                    "points": 115,
+                    "points": 105,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1251,7 +1251,7 @@
                 {
                     "name": "Cultist, Cultist Champion",
                     "amount": 20,
-                    "cost": 110
+                    "cost": 100
                 },
                 {
                     "name": "Cultist, Cultist Champion",
@@ -1474,7 +1474,7 @@
                 {
                     "name": "Tzaangor Enlightened, Aviarch",
                     "amount": 6,
-                    "cost": 90
+                    "cost": 80
                 },
                 {
                     "name": "Tzaangor Enlightened, Aviarch",
@@ -1633,7 +1633,7 @@
                 {
                     "name": "Tzaangor, Twistbray",
                     "amount": 20,
-                    "cost": 130
+                    "cost": 120
                 },
                 {
                     "name": "Tzaangor, Twistbray",
