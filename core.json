@@ -1,7 +1,7 @@
 {
     "id": "w40k.10e",
-    "version": "0.12.1",
-    "updateNotes": "12/03/2025: RIP Karanak",
+    "version": "0.12.2",
+    "updateNotes": "12/03/2025: Shadow Legion",
     "name": "Warhammer 40,000: 10th Edition",
     "enabled": true,
     "path": "https://raw.githubusercontent.com/tabletop-json/w40k.10e/develop/",
@@ -54,7 +54,8 @@
             "enabled": true,
             "endpoint": "chaosDaemons.json",
             "allies": [
-                "w40k.10e.ck"
+                "w40k.10e.ck",
+                "w40k.10e.slAllies"
             ]
         },
         {
@@ -439,6 +440,14 @@
             "name": "Slaanesh Daemons",
             "enabled": false,
             "endpoint": "slaaneshDaemons.json"
+        },
+        {
+            "id": "w40k.10e.slAllies.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.slAllies",
+            "name": "Shadow Legion",
+            "enabled": false,
+            "endpoint": "shadowLegionAllies.json"
         }
     ]
 }

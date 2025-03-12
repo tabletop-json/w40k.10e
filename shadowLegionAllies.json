@@ -1,0 +1,1749 @@
+{
+    "config": {
+        "id": "w40k.10e.slAllies.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.slAllies",
+        "name": "Shadow Legion",
+        "enabled": false,
+        "endpoint": "shadowLegionAllies.json"
+    },
+    "units": [
+        {
+            "id": "w40k.10e.slAllies.unit.masterOfPossession",
+            "type": "unit",
+            "rulesetId": "w40k.10e.slAllies",
+            "name": "Master of Possession",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Master of Possession",
+                    "points": 70,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Staff of Possession"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Rite of Possession"
+                            }
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.slAllies.dt.shadowLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Leaping Shadows",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fade to Darkness",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Malice Made Manifest",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mantle of Gloom",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.slAllies.unit.chaosLord",
+            "type": "unit",
+            "rulesetId": "w40k.10e.slAllies",
+            "name": "Chaos Lord",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Chaos Lord",
+                    "points": 90,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Daemon Hammer"
+                            },
+                            "options": [
+                                {
+                                    "name": "Daemon Hammer"
+                                },
+                                {
+                                    "name": "Accursed Weapon"
+                                },
+                                {
+                                    "name": "Astartes Chainsword"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Plasma Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Plasma Pistol"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.slAllies.dt.shadowLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Leaping Shadows",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fade to Darkness",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Malice Made Manifest",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mantle of Gloom",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.slAllies.unit.chaosLordJumpPack",
+            "type": "unit",
+            "rulesetId": "w40k.10e.slAllies",
+            "name": "Chaos Lord with Jump Pack",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Chaos Lord with Jump Pack",
+                    "points": 90,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Accursed Weapon, Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Accursed Weapon, Bolt Pistol"
+                                },
+                                {
+                                    "name": "Accursed Weapon, Plasma Pistol"
+                                },
+                                {
+                                    "name": "Power Fist, Bolt Pistol"
+                                },
+                                {
+                                    "name": "Power Fist, Plasma Pistol"
+                                },
+                                {
+                                    "name": "Twin Lightning Claws"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.slAllies.dt.shadowLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Leaping Shadows",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fade to Darkness",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Malice Made Manifest",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mantle of Gloom",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.slAllies.unit.chaosLordTerminatorArmour",
+            "type": "unit",
+            "rulesetId": "w40k.10e.slAllies",
+            "name": "Chaos Lord in Terminator Armour",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Chaos Lord in Terminator Armour",
+                    "points": 95,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Combi-bolter, Exalted Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Combi-bolter, Exalted Weapon"
+                                },
+                                {
+                                    "name": "Combi-weapon, Exalted Weapon"
+                                },
+                                {
+                                    "name": "Combi-bolter, Power Fist"
+                                },
+                                {
+                                    "name": "Combi-weapon, Power Fist"
+                                },
+                                {
+                                    "name": "Combi-bolter, Chainfist"
+                                },
+                                {
+                                    "name": "Combi-weapon, Chainfist"
+                                },
+                                {
+                                    "name": "Paired Accursed Weapons"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.slAllies.dt.shadowLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Leaping Shadows",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fade to Darkness",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Malice Made Manifest",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mantle of Gloom",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.slAllies.unit.sorcerer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.slAllies",
+            "name": "Sorcerer",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Sorcerer",
+                    "points": 60,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Force Weapon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Infernal Gaze"
+                            }
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.slAllies.dt.shadowLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Leaping Shadows",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fade to Darkness",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Malice Made Manifest",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mantle of Gloom",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.slAllies.unit.sorcererTerminatorArmour",
+            "type": "unit",
+            "rulesetId": "w40k.10e.slAllies",
+            "name": "Sorcerer in Terminator Armour",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Sorcerer in Terminator Armour",
+                    "points": 80,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Combi-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Force Weapon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Infernal Gaze"
+                            }
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Chaos Familiar"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.slAllies.dt.shadowLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Leaping Shadows",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fade to Darkness",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Malice Made Manifest",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mantle of Gloom",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.slAllies.unit.darkApostle",
+            "type": "unit",
+            "rulesetId": "w40k.10e.slAllies",
+            "name": "Dark Apostle",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Dark Apostle",
+                    "points": 75,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Accursed Crozius"
+                            }
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.slAllies.dt.shadowLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Leaping Shadows",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fade to Darkness",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Malice Made Manifest",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mantle of Gloom",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.slAllies.unit.darkCommune",
+            "type": "unit",
+            "rulesetId": "w40k.10e.slAllies",
+            "name": "Dark Commune",
+            "role": "CHARACTER",
+            "points": [
+                {
+                    "name": "Cult Demagogue, Mindwitch, Iconarch, Blessed Blade",
+                    "amount": 5,
+                    "cost": 80
+                }
+            ],
+            "models": [
+                {
+                    "name": "Cult Demagogue",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.slAllies.dt.shadowLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Leaping Shadows",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fade to Darkness",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Malice Made Manifest",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mantle of Gloom",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Mindwitch"
+                },
+                {
+                    "name": "Iconarch"
+                },
+                {
+                    "name": "Blessed Blade"
+                },
+                {
+                    "name": "Blessed Blade"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.slAllies.unit.cultistFirebrand",
+            "type": "unit",
+            "rulesetId": "w40k.10e.slAllies",
+            "name": "Cultist Firebrand",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Cultist Firebrand",
+                    "points": 45,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.slAllies.dt.shadowLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Leaping Shadows",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fade to Darkness",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Malice Made Manifest",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mantle of Gloom",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.slAllies.unit.legionaries",
+            "type": "unit",
+            "rulesetId": "w40k.10e.slAllies",
+            "name": "Legionaries",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Legionary, Aspiring Champion",
+                    "amount": 10,
+                    "cost": 170
+                },
+                {
+                    "name": "Legionary, Aspiring Champion",
+                    "amount": 5,
+                    "cost": 90
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Legionary",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Aspiring Champion",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Legionary",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Boltgun"
+                                },
+                                {
+                                    "name": "Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Heavy Melee Weapon"
+                                },
+                                {
+                                    "name": "Balefire Tome"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Havoc Autocannon"
+                                },
+                                {
+                                    "name": "Heavy Bolter"
+                                },
+                                {
+                                    "name": "Lascannon"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Missile Launcher"
+                                },
+                                {
+                                    "name": "Plasma Gun"
+                                },
+                                {
+                                    "name": "Reaper Chaincannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            }
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Chaos Icon"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Aspiring Champion",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Boltgun"
+                                },
+                                {
+                                    "name": "Plasma Pistol, Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Accursed Weapon"
+                                },
+                                {
+                                    "name": "Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Heavy Melee Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                },
+                                {
+                                    "name": "Accursed Weapon"
+                                },
+                                {
+                                    "name": "Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Heavy Melee Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Chaos Icon"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.slAllies.unit.cultistMob",
+            "type": "unit",
+            "rulesetId": "w40k.10e.slAllies",
+            "name": "Cultist Mob",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Cultist, Cultist Champion",
+                    "amount": 20,
+                    "cost": 100
+                },
+                {
+                    "name": "Cultist, Cultist Champion",
+                    "amount": 10,
+                    "cost": 50
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Cultist",
+                    "min": 9,
+                    "max": 19
+                },
+                {
+                    "type": "model",
+                    "name": "Cultist Champion",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Cultist",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Autopistol, Brutal Assault Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autopistol, Brutal Assault Weapon"
+                                },
+                                {
+                                    "name": "Cultist Firearm, Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Flamer, Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Heavy Stubber, Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Cultist Grenade Launcher, Close Combat Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cultist Champion",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Autopistol, Brutal Assault Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autopistol, Brutal Assault Weapon"
+                                },
+                                {
+                                    "name": "Bolt Pistol, Brutal Assault Weapon"
+                                },
+                                {
+                                    "name": "Cultist Firearm, Close Combat Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.slAllies.unit.accursedCultists",
+            "type": "unit",
+            "rulesetId": "w40k.10e.slAllies",
+            "name": "Accursed Cultists",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Mutant, Torment",
+                    "amount": 16,
+                    "cost": 195
+                },
+                {
+                    "name": "Mutant, Torment",
+                    "amount": 8,
+                    "cost": 90
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Mutant",
+                    "min": 5,
+                    "max": 10
+                },
+                {
+                    "type": "model",
+                    "name": "Torment",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Mutant"
+                },
+                {
+                    "name": "Torment"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.slAllies.unit.terminatorSquad",
+            "type": "unit",
+            "rulesetId": "w40k.10e.slAllies",
+            "name": "Terminator Squad",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Terminator, Terminator Champion",
+                    "amount": 10,
+                    "cost": 360
+                },
+                {
+                    "name": "Terminator, Terminator Champion",
+                    "amount": 5,
+                    "cost": 180
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Terminator",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Terminator Champion",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Terminator",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Combi-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                },
+                                {
+                                    "name": "Heavy Flamer"
+                                },
+                                {
+                                    "name": "Reaper Autocannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Accursed Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Accursed Weapon"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                },
+                                {
+                                    "name": "Chain Fist"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Paired Accursed Weapon"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Terminator Champion",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Combi-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Accursed Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Accursed Weapon"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                },
+                                {
+                                    "name": "Chain Fist"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Paired Accursed Weapon"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.slAllies.unit.possessed",
+            "type": "unit",
+            "rulesetId": "w40k.10e.slAllies",
+            "name": "Possessed",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Possessed, Possessed Champion",
+                    "amount": 10,
+                    "cost": 240
+                },
+                {
+                    "name": "Possessed, Possessed Champion",
+                    "amount": 5,
+                    "cost": 120
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Possessed",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Possessed Champion",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Possessed",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Chaos Icon"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Possessed Champion",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Chaos Icon"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.slAllies.unit.Chosen",
+            "type": "unit",
+            "rulesetId": "w40k.10e.slAllies",
+            "name": "Chosen",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Chosen, Chosen Champion",
+                    "amount": 10,
+                    "cost": 250
+                },
+                {
+                    "name": "Chosen, Chosen Champion",
+                    "amount": 5,
+                    "cost": 125
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Chosen",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Chosen Champion",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Chosen",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Boltgun, Accursed Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Boltgun, Accursed Weapon"
+                                },
+                                {
+                                    "name": "Combi-weapon, Accursed Weapon"
+                                },
+                                {
+                                    "name": "Paired Accursed Weapon"
+                                },
+                                {
+                                    "name": "Boltgun, Power Fist"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Chaos Icon"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Chosen Champion",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Boltgun, Accursed Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Boltgun, Accursed Weapon"
+                                },
+                                {
+                                    "name": "Combi-weapon, Accursed Weapon"
+                                },
+                                {
+                                    "name": "Paired Accursed Weapon"
+                                },
+                                {
+                                    "name": "Boltgun, Power Fist"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Chaos Icon"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.slAllies.unit.raptors",
+            "type": "unit",
+            "rulesetId": "w40k.10e.slAllies",
+            "name": "Raptors",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Raptor, Raptor Champion",
+                    "amount": 10,
+                    "cost": 170
+                },
+                {
+                    "name": "Raptor, Raptor Champion",
+                    "amount": 5,
+                    "cost": 90
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Raptor",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Raptor Champion",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Raptor",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol, Astartes Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol, Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Plasma Pistol, Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Flamer, Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Meltagun, Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Plasma Gun, Close Combat Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Raptor Champion",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Astartes Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Accursed Weapon"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.slAllies.unit.warpTalons",
+            "type": "unit",
+            "rulesetId": "w40k.10e.slAllies",
+            "name": "Warp Talons",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Warp Talon, Warp Talon Champion",
+                    "amount": 10,
+                    "cost": 270
+                },
+                {
+                    "name": "Warp Talon, Warp Talon Champion",
+                    "amount": 5,
+                    "cost": 125
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Warp Talon",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Warp Talon Champion",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Warp Talon",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Warp Claws"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Warp Talon Champion",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Warp Claws"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.slAllies.unit.havocs",
+            "type": "unit",
+            "rulesetId": "w40k.10e.slAllies",
+            "name": "Havocs",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Havoc, Havoc Champion",
+                    "amount": 5,
+                    "cost": 125
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Havoc",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Havoc Champion",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Havoc",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Havoc Autocannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Havoc Autocannon"
+                                },
+                                {
+                                    "name": "Havoc Heavy Bolter"
+                                },
+                                {
+                                    "name": "Havoc Lascannon"
+                                },
+                                {
+                                    "name": "Havoc Missile Launcher"
+                                },
+                                {
+                                    "name": "Havoc Reaper Chaincannon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Havoc Champion",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Flamer"
+                            },
+                            "options": [
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Boltgun"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plasma Gun"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                },
+                                {
+                                    "name": "Accursed Weapon"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Astartes Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Accursed Weapon"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.slAllies.unit.traitorGuardsmen",
+            "type": "unit",
+            "rulesetId": "w40k.10e.slAllies",
+            "name": "Traitor Guardsmen Squad",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Traitor Guardsman, Traitor Sergeant",
+                    "amount": 10,
+                    "cost": 70
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Traitor Guardsman",
+                    "min": 9,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Traitor Sergeant",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Traitor Guardsman",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Lasgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Lasgun"
+                                },
+                                {
+                                    "name": "Cultist Grenade Launcher"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plasma Gun"
+                                },
+                                {
+                                    "name": "Cultist Sniper Rifle"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Traitor Sergeant",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Corrupted Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Corrupted Pistol"
+                                },
+                                {
+                                    "name": "Boltgun"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Close Combat Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Chainsword"
+                                },
+                                {
+                                    "name": "Power Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.slAllies.unit.fellgorBeastmen",
+            "type": "unit",
+            "rulesetId": "w40k.10e.slAllies",
+            "name": "Fellgor Beastmen",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Fellgor Beastman, Fellgor Champion",
+                    "amount": 10,
+                    "cost": 85
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Fellgor Beastman",
+                    "min": 9,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Fellgor Champion",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Fellgor Beastman",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Close Combat Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Great Weapon"
+                                },
+                                {
+                                    "name": "Corrupted Stave"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Autopistol"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Fellgor Champion",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Chainsword"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.slAllies.unit.traitorEnforcer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.slAllies",
+            "name": "Traitor Enforcer",
+            "role": "CHARACTER",
+            "points": [
+                {
+                    "name": "Traitor Ogryn, Traitor Enforcer",
+                    "amount": 2,
+                    "cost": 65
+                }
+            ],
+            "models": [
+                {
+                    "name": "Traitor Ogryn"
+                },
+                {
+                    "name": "Traitor Enforcer",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.slAllies.dt.shadowLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Leaping Shadows",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fade to Darkness",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Malice Made Manifest",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mantle of Gloom",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
