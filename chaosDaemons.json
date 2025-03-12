@@ -331,28 +331,6 @@
             ]
         },
         {
-            "id": "w40k.10e.dmns.unit.karanak",
-            "type": "unit",
-            "rulesetId": "w40k.10e.dmns",
-            "name": "Karanak",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Karanak",
-                    "points": 65,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "id": "w40k.10e.dmns.unit.bloodletters",
             "type": "unit",
             "rulesetId": "w40k.10e.dmns",
@@ -1074,7 +1052,7 @@
                             "detachmentId": "w40k.10e.dmns.dt.theShadowOfChaos",
                             "selectedOption": {
                                 "name": "The Endless Gift",
-                                "points": 30
+                                "points": 45
                             },
                             "selected": false
                         },
@@ -1135,7 +1113,7 @@
                             "detachmentId": "w40k.10e.dmns.dt.theShadowOfChaos",
                             "selectedOption": {
                                 "name": "The Endless Gift",
-                                "points": 30
+                                "points": 45
                             },
                             "selected": false
                         },
@@ -1188,7 +1166,7 @@
                             "detachmentId": "w40k.10e.dmns.dt.theShadowOfChaos",
                             "selectedOption": {
                                 "name": "The Endless Gift",
-                                "points": 30
+                                "points": 45
                             },
                             "selected": false
                         },
@@ -1263,7 +1241,7 @@
                             "detachmentId": "w40k.10e.dmns.dt.theShadowOfChaos",
                             "selectedOption": {
                                 "name": "The Endless Gift",
-                                "points": 30
+                                "points": 45
                             },
                             "selected": false
                         },
@@ -1759,59 +1737,6 @@
             ]
         },
         {
-            "id": "w40k.10e.dmns.unit.tormentbringerOnExaltedSeekerChariot",
-            "type": "unit",
-            "rulesetId": "w40k.10e.dmns",
-            "name": "Tormentbringer on Exalted Seeker Chariot",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Tormentbringer on Exalted Seeker Chariot",
-                    "points": 140,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "checkbox",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.dmns.dt.theShadowOfChaos",
-                            "selectedOption": {
-                                "name": "Soulstealer",
-                                "points": 15
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.dmns.dt.legionExcess",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "False Majesty (Aura)",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Dreaming Crown (Aura)",
-                                    "points": 30
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "id": "w40k.10e.dmns.unit.tranceweaver",
             "type": "unit",
             "rulesetId": "w40k.10e.dmns",
@@ -2011,83 +1936,6 @@
                 },
                 {
                     "name": "Heartseeker"
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.dmns.unit.hellflayer",
-            "type": "unit",
-            "rulesetId": "w40k.10e.dmns",
-            "name": "Hellflayer",
-            "role": "MOUNTED",
-            "points": [
-                {
-                    "name": "Hellflayer",
-                    "amount": 2,
-                    "cost": 210
-                },
-                {
-                    "name": "Hellflayer",
-                    "amount": 1,
-                    "cost": 105
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Hellflayer",
-                    "min": 1,
-                    "max": 2
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Hellflayer"
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.dmns.unit.seekerChariot",
-            "type": "unit",
-            "rulesetId": "w40k.10e.dmns",
-            "name": "Seeker Chariot",
-            "role": "MOUNTED",
-            "points": [
-                {
-                    "name": "Seeker Chariot",
-                    "amount": 2,
-                    "cost": 130
-                },
-                {
-                    "name": "Seeker Chariot",
-                    "amount": 1,
-                    "cost": 65
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Seeker Chariot",
-                    "min": 1,
-                    "max": 2
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Seeker Chariot"
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.dmns.unit.exaltedSeekerChariot",
-            "type": "unit",
-            "rulesetId": "w40k.10e.dmns",
-            "name": "Exalted Seeker Chariot",
-            "role": "MOUNTED",
-            "models": [
-                {
-                    "name": "Exalted Seeker Chariot",
-                    "points": 115
                 }
             ]
         },
