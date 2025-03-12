@@ -43,6 +43,13 @@
             "rulesetId": "w40k.10e.cst",
             "name": "Solar Spearhead",
             "rule": ""
+        },
+        {
+            "id": "w40k.10e.cst.dt.lionsEmperor",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Lions of the Emperor",
+            "rule": ""
         }
     ],
     "units": [
@@ -601,6 +608,35 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.cst.dt.lionsEmperor",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Superior Creation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Praesidius",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Fierce Conqueror",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Admonimortis",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -762,6 +798,27 @@
                                 {
                                     "name": "Veteran of the Kataphraktoi",
                                     "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.cst.dt.lionsEmperor",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Superior Creation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Praesidius",
+                                    "points": 35
                                 }
                             ]
                         }
@@ -1024,6 +1081,35 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.cst.dt.lionsEmperor",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Superior Creation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Praesidius",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Fierce Conqueror",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Admonimortis",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1198,6 +1284,31 @@
                                 },
                                 {
                                     "name": "Veteran of the Kataphraktoi",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.cst.dt.lionsEmperor",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Praesidius",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Fierce Conqueror",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Admonimortis",
                                     "points": 10
                                 }
                             ]

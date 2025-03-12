@@ -50,6 +50,12 @@
             "type": "detachment",
             "rulesetId": "w40k.10e.ork",
             "name": "Taktikal Brigade"
+        },
+        {
+            "id": "w40k.10e.ork.dt.dakka",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.ork",
+            "name": "More Dakka!"
         }
     ],
     "units": [
@@ -433,6 +439,35 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.dakka",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Da Gobshot Thunderbuss",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Dead Shiny Shootas",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Targetin' Squigs",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zog Off and Eat Dakka!",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -670,6 +705,35 @@
                                 },
                                 {
                                     "name": "Gob Boomer",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.dakka",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Da Gobshot Thunderbuss",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Dead Shiny Shootas",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Targetin' Squigs",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zog Off and Eat Dakka!",
                                     "points": 10
                                 }
                             ]
@@ -941,6 +1005,35 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.dakka",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Da Gobshot Thunderbuss",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Dead Shiny Shootas",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Targetin' Squigs",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zog Off and Eat Dakka!",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1190,6 +1283,35 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.dakka",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Da Gobshot Thunderbuss",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Dead Shiny Shootas",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Targetin' Squigs",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zog Off and Eat Dakka!",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1415,6 +1537,35 @@
                                 },
                                 {
                                     "name": "Gob Boomer",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.dakka",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Da Gobshot Thunderbuss",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Dead Shiny Shootas",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Targetin' Squigs",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zog Off and Eat Dakka!",
                                     "points": 10
                                 }
                             ]
@@ -2034,6 +2185,35 @@
                                 },
                                 {
                                     "name": "Gob Boomer",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.dakka",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Da Gobshot Thunderbuss",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Dead Shiny Shootas",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Targetin' Squigs",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zog Off and Eat Dakka!",
                                     "points": 10
                                 }
                             ]
@@ -2791,6 +2971,35 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.dakka",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Da Gobshot Thunderbuss",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Dead Shiny Shootas",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Targetin' Squigs",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zog Off and Eat Dakka!",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3207,6 +3416,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.dakka",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Da Gobshot Thunderbuss",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Dead Shiny Shootas",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Targetin' Squigs",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zog Off and Eat Dakka!",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3432,6 +3670,35 @@
                                 {
                                     "name": "Mork's Kunnin'",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.dakka",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Da Gobshot Thunderbuss",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Dead Shiny Shootas",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Targetin' Squigs",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zog Off and Eat Dakka!",
+                                    "points": 10
                                 }
                             ]
                         }
@@ -4137,6 +4404,35 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.dakka",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Da Gobshot Thunderbuss",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Dead Shiny Shootas",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Targetin' Squigs",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zog Off and Eat Dakka!",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -4355,6 +4651,35 @@
                                 },
                                 {
                                     "name": "Gob Boomer",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.dakka",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Da Gobshot Thunderbuss",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Dead Shiny Shootas",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Targetin' Squigs",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zog Off and Eat Dakka!",
                                     "points": 10
                                 }
                             ]
@@ -4614,6 +4939,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.dakka",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Da Gobshot Thunderbuss",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Dead Shiny Shootas",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Targetin' Squigs",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zog Off and Eat Dakka!",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -4825,6 +5179,35 @@
                                 {
                                     "name": "Mork's Kunnin'",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ork.dt.dakka",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Da Gobshot Thunderbuss",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Dead Shiny Shootas",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Targetin' Squigs",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zog Off and Eat Dakka!",
+                                    "points": 10
                                 }
                             ]
                         }
