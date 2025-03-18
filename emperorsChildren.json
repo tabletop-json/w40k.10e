@@ -121,6 +121,40 @@
                         },
                         {
                             "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Plasma Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Plasma Pistol"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                },
+                                {
+                                    "name": "Rupture Lash"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Phoenix Power Spear"
+                            },
+                            "options": [
+                                {
+                                    "name": "Phoenix Power Spear"
+                                },
+                                {
+                                    "name": "Master-crafted Power Sword"
+                                },
+                                {
+                                    "name": "Screamer Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
                             "color": "green",
                             "detachmentId": "w40k.10e.ec.dt.mercurialHost",
                             "selectedOption": {
@@ -1147,10 +1181,66 @@
             ],
             "blueprints": [
                 {
-                    "name": "Tormentor"
+                    "name": "Tormentor",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Boltgun"
+                                },
+                                {
+                                    "name": "Plasma Gun"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Icon of Excess"
+                            },
+                            "selected": false
+                        }
+                    ]
                 },
                 {
-                    "name": "Tormentor Champion"
+                    "name": "Tormentor Champion",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Power Sword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Power Sword"
+                                },
+                                {
+                                    "name": "Rupture Lash"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -1188,10 +1278,49 @@
             ],
             "blueprints": [
                 {
-                    "name": "Infractor"
+                    "name": "Infractor",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Icon of Excess"
+                            },
+                            "selected": false
+                        }
+                    ]
                 },
                 {
-                    "name": "Infractor Champion"
+                    "name": "Infractor Champion",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Power Sword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Power Sword"
+                                },
+                                {
+                                    "name": "Rupture Lash"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
