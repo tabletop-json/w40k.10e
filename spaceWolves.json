@@ -46,10 +46,16 @@
             "name": "Stormlance Task Force"
         },
         {
-            "id": "w40k.10e.sw.dt.vanguardSpearhead",
+            "id": "w40k.10e.sm.dt.vanguardSpearhead",
             "type": "detachment",
-            "rulesetId": "w40k.10e.sw",
+            "rulesetId": "w40k.10e.sm",
             "name": "Vanguard Spearhead"
+        },
+        {
+            "id": "w40k.10e.sm.dt.librariusConclave",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.sm",
+            "name": "Librarius Conclave"
         },
         {
             "id": "w40k.10e.sw.dt.championsRuss",
@@ -2519,6 +2525,35 @@
                                     "points": 20
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.librariusConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Celerity",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Fusillade",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Obfuscation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Prescience",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2819,6 +2854,31 @@
                                     "points": 20
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.librariusConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Celerity",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Fusillade",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Obfuscation",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3092,6 +3152,35 @@
                                 {
                                     "name": "Longstrider",
                                     "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.librariusConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Celerity",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Fusillade",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Obfuscation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Prescience",
+                                    "points": 25
                                 }
                             ]
                         }

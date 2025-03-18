@@ -48,8 +48,14 @@
         {
             "id": "w40k.10e.if.dt.vanguardSpearhead",
             "type": "detachment",
-            "rulesetId": "w40k.10e.dw",
+            "rulesetId": "w40k.10e.if",
             "name": "Vanguard Spearhead"
+        },
+        {
+            "id": "w40k.10e.if.dt.librariusConclave",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.if",
+            "name": "Librarius Conclave"
         }
     ],
     "units": [
@@ -2273,6 +2279,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.if.dt.librariusConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Celerity",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Fusillade",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Obfuscation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Prescience",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2515,6 +2550,31 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.if.dt.librariusConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Celerity",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Fusillade",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Obfuscation",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2737,6 +2797,35 @@
                                 },
                                 {
                                     "name": "The Blade Driven Deep",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.if.dt.librariusConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Celerity",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Fusillade",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Obfuscation",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Prescience",
                                     "points": 25
                                 }
                             ]

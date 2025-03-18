@@ -38,6 +38,12 @@
             "type": "detachment",
             "rulesetId": "w40k.10e.tau",
             "name": "Auxiliary Cadre"
+        },
+        {
+            "id": "w40k.10e.tau.dt.experimentalPrototype",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.tau",
+            "name": "Experimental Prototype Cadre"
         }
     ],
     "units": [
@@ -440,6 +446,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.experimentalPrototype",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fusion Blades",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Plasma Accelerator Rifle",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Supernova Launcher",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thermoneutronic Projector",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -803,6 +838,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.experimentalPrototype",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fusion Blades",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Plasma Accelerator Rifle",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Supernova Launcher",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thermoneutronic Projector",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -998,6 +1062,35 @@
                                     "points": 20
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.experimentalPrototype",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fusion Blades",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Plasma Accelerator Rifle",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Supernova Launcher",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thermoneutronic Projector",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1155,6 +1248,35 @@
                                 {
                                     "name": "Fanatical Convert",
                                     "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.experimentalPrototype",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fusion Blades",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Plasma Accelerator Rifle",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Supernova Launcher",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thermoneutronic Projector",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -1326,6 +1448,35 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.experimentalPrototype",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fusion Blades",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Plasma Accelerator Rifle",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Supernova Launcher",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thermoneutronic Projector",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1483,6 +1634,35 @@
                                 {
                                     "name": "Fanatical Convert",
                                     "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.experimentalPrototype",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fusion Blades",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Plasma Accelerator Rifle",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Supernova Launcher",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thermoneutronic Projector",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -1656,6 +1836,35 @@
                                 {
                                     "name": "Fanatical Convert",
                                     "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.experimentalPrototype",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fusion Blades",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Plasma Accelerator Rifle",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Supernova Launcher",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thermoneutronic Projector",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -1857,6 +2066,35 @@
                                 },
                                 {
                                     "name": "Admired Leader",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.experimentalPrototype",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fusion Blades",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Plasma Accelerator Rifle",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Supernova Launcher",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thermoneutronic Projector",
                                     "points": 20
                                 }
                             ]
@@ -3028,6 +3266,35 @@
                                 },
                                 {
                                     "name": "Admired Leader",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tau.dt.experimentalPrototype",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fusion Blades",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Plasma Accelerator Rifle",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Supernova Launcher",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thermoneutronic Projector",
                                     "points": 20
                                 }
                             ]
