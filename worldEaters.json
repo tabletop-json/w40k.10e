@@ -682,6 +682,81 @@
             ]
         },
         {
+            "id": "w40k.10e.we.unit.goremongers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Goremongers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Goremonger, Blood Herald",
+                    "amount": 8,
+                    "cost": 85
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Goremonger",
+                    "min": 7,
+                    "max": 7
+                },
+                {
+                    "type": "model",
+                    "name": "Blood Herald",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Goremonger",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Chainblade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Chainblade"
+                                },
+                                {
+                                    "name": "Autopistol"
+                                },
+                                {
+                                    "name": "Blood Harpoon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Autopistol"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Blood Herald",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Chainblade"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Autopistol"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "w40k.10e.we.unit.terminators",
             "type": "unit",
             "rulesetId": "w40k.10e.we",
