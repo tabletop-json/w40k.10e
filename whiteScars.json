@@ -49,16 +49,12 @@
             "id": "w40k.10e.ws.dt.vanguardSpearhead",
             "type": "detachment",
             "rulesetId": "w40k.10e.ws",
-        {
-            "id": "w40k.10e.sm.dt.vanguardSpearhead",
-            "type": "detachment",
-            "rulesetId": "w40k.10e.sm",
             "name": "Vanguard Spearhead"
         },
         {
-            "id": "w40k.10e.sm.dt.librariusConclave",
+            "id": "w40k.10e.ws.dt.librariusConclave",
             "type": "detachment",
-            "rulesetId": "w40k.10e.sm",
+            "rulesetId": "w40k.10e.ws",
             "name": "Librarius Conclave"
         }
     ],
