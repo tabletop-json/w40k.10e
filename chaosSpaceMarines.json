@@ -5814,26 +5814,21 @@
             "role": "INFANTRY",
             "points": [
                 {
-                    "name": "Noise Marine, Noise Champion",
-                    "amount": 10,
-                    "cost": 170
-                },
-                {
-                    "name": "Noise Marine, Noise Champion",
-                    "amount": 5,
-                    "cost": 85
+                    "name": "Noise Marine, Disharmonist",
+                    "amount": 6,
+                    "cost": 135
                 }
             ],
             "restrictions": [
                 {
                     "type": "model",
                     "name": "Noise Marine",
-                    "min": 4,
-                    "max": 9
+                    "min": 5,
+                    "max": 5
                 },
                 {
                     "type": "model",
-                    "name": "Noise Champion",
+                    "name": "Disharmonist",
                     "min": 1,
                     "max": 1
                 }
@@ -5845,15 +5840,9 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Boltgun"
+                                "name": "Sonic Blaster"
                             },
                             "options": [
-                                {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
                                 {
                                     "name": "Sonic Blaster"
                                 },
@@ -5861,87 +5850,25 @@
                                     "name": "Blastmaster"
                                 }
                             ]
-                        },
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Bolt Pistol"
-                            }
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Chaos Icon"
-                            },
-                            "selected": false
                         }
                     ]
                 },
                 {
-                    "name": "Noise Champion",
+                    "name": "Disharmonist",
                     "gearset": [
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Bolt Pistol"
+                                "name": "Sonic Blaster"
                             },
                             "options": [
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Accursed Weapon"
-                                },
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Boltgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Accursed Weapon"
-                                },
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
                                 {
                                     "name": "Sonic Blaster"
+                                },
+                                {
+                                    "name": "Screamer Pistol, Power Sword"
                                 }
                             ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Doom Siren"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Chaos Icon"
-                            },
-                            "selected": false
                         }
                     ]
                 }
