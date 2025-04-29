@@ -8,7 +8,7 @@
         "enabled": true,
         "endpoint": "worldEaters.json",
         "allies": [
-            "w40k.10e.dmns",
+            "w40k.10e.khor",
             "w40k.10e.ck"
         ]
     },
@@ -26,6 +26,34 @@
             "rulesetId": "w40k.10e.we",
             "name": "Vessels of Wrath",
             "rule": ""
+        },
+        {
+            "id": "w40k.10e.we.dt.cultBlood",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.we",
+            "name": "Cult of Blood",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.we.dt.daemonkin",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.we",
+            "name": "Khorne Daemonkin",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.we.dt.slaughterband",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.we",
+            "name": "Possessed Slaughterband",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.we.dt.goretrack",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.we",
+            "name": "Goretrack Onslaught",
+            "rule": ""
         }
     ],
     "units": [
@@ -38,7 +66,7 @@
             "models": [
                 {
                     "name": "Angron",
-                    "points": 435,
+                    "points": 385,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -60,7 +88,7 @@
             "models": [
                 {
                     "name": "Kharn the Betrayer",
-                    "points": 100,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -82,7 +110,7 @@
             "models": [
                 {
                     "name": "Lord Invocatus",
-                    "points": 140,
+                    "points": 110,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -104,7 +132,7 @@
             "models": [
                 {
                     "name": "Daemon Prince",
-                    "points": 185,
+                    "points": 200,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -138,7 +166,7 @@
                                 },
                                 {
                                     "name": "Favoured of Khorne",
-                                    "points": 20
+                                    "points": 15
                                 },
                                 {
                                     "name": "Berzerker Glaive",
@@ -146,11 +174,11 @@
                                 },
                                 {
                                     "name": "Battle Lust",
-                                    "points": 15
+                                    "points": 10
                                 },
                                 {
                                     "name": "Helm of Brazen Ire",
-                                    "points": 25
+                                    "points": 20
                                 }
                             ]
                         },
@@ -180,6 +208,110 @@
                                 {
                                     "name": "Gateway to Glory",
                                     "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.we.dt.cultBlood",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chosen of the Blood God",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Brazen Form",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Strategic Slaughter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.we.dt.daemonkin",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Icon of War",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Blood-Forged Armour",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Blade of Endless Bloodshed",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.we.dt.slaughterband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Killing Clarity",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Frenzied Focus",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Violent Demise",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.we.dt.goretrack",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Murderous Onslaught",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Aggressive Deployment",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Unleash Hell",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Infernal Infusion",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -196,7 +328,7 @@
             "models": [
                 {
                     "name": "Daemon Prince with Wings",
-                    "points": 155,
+                    "points": 180,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -230,7 +362,7 @@
                                 },
                                 {
                                     "name": "Favoured of Khorne",
-                                    "points": 20
+                                    "points": 15
                                 },
                                 {
                                     "name": "Berzerker Glaive",
@@ -238,11 +370,11 @@
                                 },
                                 {
                                     "name": "Battle Lust",
-                                    "points": 15
+                                    "points": 10
                                 },
                                 {
                                     "name": "Helm of Brazen Ire",
-                                    "points": 25
+                                    "points": 20
                                 }
                             ]
                         },
@@ -274,6 +406,110 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.we.dt.cultBlood",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chosen of the Blood God",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Brazen Form",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Strategic Slaughter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.we.dt.daemonkin",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Icon of War",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Blood-Forged Armour",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Blade of Endless Bloodshed",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.we.dt.slaughterband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Killing Clarity",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Frenzied Focus",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Violent Demise",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.we.dt.goretrack",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Murderous Onslaught",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Aggressive Deployment",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Unleash Hell",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Infernal Infusion",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -288,7 +524,7 @@
             "models": [
                 {
                     "name": "Lord on Juggernaut",
-                    "points": 80,
+                    "points": 90,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -328,7 +564,7 @@
                                 },
                                 {
                                     "name": "Favoured of Khorne",
-                                    "points": 20
+                                    "points": 15
                                 },
                                 {
                                     "name": "Berzerker Glaive",
@@ -336,11 +572,11 @@
                                 },
                                 {
                                     "name": "Battle Lust",
-                                    "points": 15
+                                    "points": 10
                                 },
                                 {
                                     "name": "Helm of Brazen Ire",
-                                    "points": 25
+                                    "points": 20
                                 }
                             ]
                         },
@@ -372,6 +608,102 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.we.dt.cultBlood",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Strategic Slaughter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.we.dt.daemonkin",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Icon of War",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Blood-Forged Armour",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Disciple of Khorne",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Blade of Endless Bloodshed",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.we.dt.slaughterband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Frenzied Focus",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Violent Demise",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.we.dt.goretrack",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Murderous Onslaught",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Aggressive Deployment",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Unleash Hell",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Infernal Infusion",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -386,7 +718,7 @@
             "models": [
                 {
                     "name": "Master of Executions",
-                    "points": 110,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -420,7 +752,7 @@
                                 },
                                 {
                                     "name": "Favoured of Khorne",
-                                    "points": 20
+                                    "points": 15
                                 },
                                 {
                                     "name": "Berzerker Glaive",
@@ -428,11 +760,11 @@
                                 },
                                 {
                                     "name": "Battle Lust",
-                                    "points": 15
+                                    "points": 10
                                 },
                                 {
                                     "name": "Helm of Brazen Ire",
-                                    "points": 25
+                                    "points": 20
                                 }
                             ]
                         },
@@ -458,6 +790,290 @@
                                 {
                                     "name": "Avenger's Crown",
                                     "points": 15
+                                },
+                                {
+                                    "name": "Gateway to Glory",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.we.dt.cultBlood",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Butcher Lord",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Strategic Slaughter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.we.dt.daemonkin",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Icon of War",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Blood-Forged Armour",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Blade of Endless Bloodshed",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.we.dt.slaughterband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Frenzied Focus",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Violent Demise",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.we.dt.goretrack",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Murderous Onslaught",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Aggressive Deployment",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Unleash Hell",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Infernal Infusion",
+                                    "points": 25
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.we.unit.slaughterbound",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Slaughterbound",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Slaughterbound",
+                    "points": 85,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.we.dt.berzerkerWarband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Favoured of Khorne",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Berzerker Glaive",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Battle Lust",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Helm of Brazen Ire",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.we.dt.vesselsOfWrath",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Archslaughterer",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Vox-Diabolus",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Avenger's Crown",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Gateway to Glory",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.we.dt.cultBlood",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Butcher Lord",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Strategic Slaughter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.we.dt.daemonkin",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Icon of War",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Blood-Forged Armour",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Blade of Endless Bloodshed",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.we.dt.slaughterband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Malicious Vigour",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Killing Clarity",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Frenzied Focus",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Violent Demise",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.we.dt.goretrack",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Murderous Onslaught",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Aggressive Deployment",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Unleash Hell",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Infernal Infusion",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -474,21 +1090,21 @@
             "points": [
                 {
                     "name": "Khorne Berzerker, Khorne Berzerker Champion",
-                    "amount": 10,
-                    "cost": 180
+                    "amount": 20,
+                    "cost": 360
                 },
                 {
                     "name": "Khorne Berzerker, Khorne Berzerker Champion",
-                    "amount": 5,
-                    "cost": 90
+                    "amount": 10,
+                    "cost": 180
                 }
             ],
             "restrictions": [
                 {
                     "type": "model",
                     "name": "Khorne Berzerker",
-                    "min": 4,
-                    "max": 9
+                    "min": 9,
+                    "max": 20
                 },
                 {
                     "type": "model",
@@ -582,7 +1198,7 @@
                 {
                     "name": "Jakhal, Dishonoured, Jakhal Pack Leader",
                     "amount": 20,
-                    "cost": 130
+                    "cost": 140
                 },
                 {
                     "name": "Jakhal, Dishonoured, Jakhal Pack Leader",
@@ -766,12 +1382,12 @@
                 {
                     "name": "Terminator, Terminator Champion",
                     "amount": 10,
-                    "cost": 360
+                    "cost": 370
                 },
                 {
                     "name": "Terminator, Terminator Champion",
                     "amount": 5,
-                    "cost": 180
+                    "cost": 185
                 }
             ],
             "restrictions": [
@@ -905,12 +1521,12 @@
                 {
                     "name": "Eightbound, Eightbound Champion",
                     "amount": 6,
-                    "cost": 280
+                    "cost": 300
                 },
                 {
                     "name": "Eightbound, Eightbound Champion",
                     "amount": 3,
-                    "cost": 140
+                    "cost": 150
                 }
             ],
             "restrictions": [
@@ -970,12 +1586,12 @@
                 {
                     "name": "Exalted Eightbound, Exalted Eightbound Champion",
                     "amount": 6,
-                    "cost": 310
+                    "cost": 320
                 },
                 {
                     "name": "Exalted Eightbound, Exalted Eightbound Champion",
                     "amount": 3,
-                    "cost": 155
+                    "cost": 160
                 }
             ],
             "restrictions": [
@@ -1094,7 +1710,7 @@
             "models": [
                 {
                     "name": "Predator Annihilator",
-                    "points": 135,
+                    "points": 145,
                     "gearset": [
                         {
                             "type": "text",
@@ -1157,7 +1773,7 @@
             "models": [
                 {
                     "name": "Predator Destructor",
-                    "points": 140,
+                    "points": 145,
                     "gearset": [
                         {
                             "type": "text",
@@ -1219,7 +1835,7 @@
             "models": [
                 {
                     "name": "Defiler",
-                    "points": 190,
+                    "points": 180,
                     "gearset": [
                         {
                             "type": "text",
@@ -1297,7 +1913,7 @@
             "models": [
                 {
                     "name": "Forgefiend",
-                    "points": 145,
+                    "points": 150,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1340,7 +1956,7 @@
             "models": [
                 {
                     "name": "Helbrute",
-                    "points": 130,
+                    "points": 120,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1407,7 +2023,7 @@
             "models": [
                 {
                     "name": "Heldrake",
-                    "points": 210,
+                    "points": 200,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1442,7 +2058,7 @@
             "models": [
                 {
                     "name": "Maulerfiend",
-                    "points": 140,
+                    "points": 150,
                     "gearset": [
                         {
                             "type": "text",
@@ -1477,7 +2093,7 @@
             "models": [
                 {
                     "name": "Rhino",
-                    "points": 75,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1517,7 +2133,7 @@
                 {
                     "name": "Chaos Spawn",
                     "amount": 2,
-                    "cost": 70
+                    "cost": 80
                 }
             ],
             "models": [
@@ -1554,7 +2170,7 @@
             "models": [
                 {
                     "name": "Khorne Lord of Skulls",
-                    "points": 450,
+                    "points": 505,
                     "gearset": [
                         {
                             "type": "dropdown",

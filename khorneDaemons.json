@@ -1,0 +1,233 @@
+{
+    "config": {
+        "id": "w40k.10e.khor.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.khor",
+        "name": "Khorne Daemons",
+        "enabled": false,
+        "endpoint": "khorneDaemons.json"
+    },
+    "units": [
+        {
+            "id": "w40k.10e.dmns.unit.skarbrand",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Skarbrand",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Skarbrand",
+                    "points": 305,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.bloodthirster",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Bloodthirster",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Bloodthirster",
+                    "points": 305,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Great Axe of Khorne"
+                            },
+                            "options": [
+                                {
+                                    "name": "Great Axe of Khorne"
+                                },
+                                {
+                                    "name": "Axe of Khorne, Bloodflail"
+                                },
+                                {
+                                    "name": "Axe of Khorne, Lash of Khorne"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.khor.dt.daemonkin",
+                            "selectedOption": {
+                                "name": "Blood-forged Armour",
+                                "points": 20
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.bloodletters",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Bloodletters",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Bloodletter, Bloodreaper",
+                    "amount": 10,
+                    "cost": 90
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Bloodletter",
+                    "min": 9,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Bloodreaper",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Bloodletter",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Daemonic Icon"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Instrument of Chaos"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Bloodreaper"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.bloodcrushers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Bloodcrushers",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Bloodcrusher, Bloodhunter",
+                    "amount": 6,
+                    "cost": 220
+                },
+                {
+                    "name": "Bloodcrusher, Bloodhunter",
+                    "amount": 3,
+                    "cost": 110
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Bloodcrusher",
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "type": "model",
+                    "name": "Bloodhunter",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Bloodcrusher",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Daemonic Icon"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Instrument of Chaos"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Bloodhunter"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.fleshhounds",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Flesh Hounds",
+            "role": "BEAST",
+            "points": [
+                {
+                    "name": "Flesh Hound, Gore Hound",
+                    "amount": 10,
+                    "cost": 150
+                },
+                {
+                    "name": "Flesh Hound, Gore Hound",
+                    "amount": 5,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Flesh Hound",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Gore Hound",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Flesh Hound"
+                },
+                {
+                    "name": "Gore Hound"
+                }
+            ]
+        }
+    ]
+}
