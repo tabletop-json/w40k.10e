@@ -1,7 +1,7 @@
 {
     "id": "w40k.10e",
-    "version": "0.12.9",
-    "updateNotes": "13/04/2025: EC & Custodes Fixes",
+    "version": "0.12.10",
+    "updateNotes": "29/04/2025: DG & WE Codexes",
     "name": "Warhammer 40,000: 10th Edition",
     "enabled": true,
     "path": "https://raw.githubusercontent.com/tabletop-json/w40k.10e/develop/",
@@ -41,7 +41,7 @@
             "enabled": true,
             "endpoint": "worldEaters.json",
             "allies": [
-                "w40k.10e.dmns",
+                "w40k.10e.khor",
                 "w40k.10e.ck"
             ]
         },
@@ -127,7 +127,7 @@
             "enabled": true,
             "endpoint": "deathGuard.json",
             "allies": [
-                "w40k.10e.dmns",
+                "w40k.10e.nurg",
                 "w40k.10e.ck"
             ]
         },
@@ -448,6 +448,22 @@
             "name": "Shadow Legion",
             "enabled": false,
             "endpoint": "shadowLegionAllies.json"
+        },
+        {
+            "id": "w40k.10e.khor.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.khor",
+            "name": "Khorne Daemons",
+            "enabled": false,
+            "endpoint": "khorneDaemons.json"
+        },
+        {
+            "id": "w40k.10e.nurg.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.nurg",
+            "name": "Nurgle Daemons",
+            "enabled": false,
+            "endpoint": "nurgleDaemons.json"
         }
     ]
 }

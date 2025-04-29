@@ -8,16 +8,51 @@
         "enabled": true,
         "endpoint": "deathGuard.json",
         "allies": [
-            "w40k.10e.dmns",
+            "w40k.10e.nurg",
             "w40k.10e.ck"
         ]
     },
     "detachments": [
         {
-            "id": "w40k.10e.dg.dt.plagueCompany",
+            "id": "w40k.10e.dg.dt.virulentVectorium",
             "type": "detachment",
             "rulesetId": "w40k.10e.dg",
-            "name": "Plague Company",
+            "name": "Virulent Vectorium",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.dg.dt.mortarionHammer",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Mortarion's Hammer",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.dg.dt.championsContagion",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Champions of Contagion",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.dg.dt.tallyband",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Tallyband Summoners",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.dg.dt.shamblerot",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Shamblerot Vectorium",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.dg.dt.deathLordsChosen",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Death Lord's Chosen",
             "rule": ""
         },
         {
@@ -38,7 +73,7 @@
             "models": [
                 {
                     "name": "Daemon Prince",
-                    "points": 160,
+                    "points": 195,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -62,7 +97,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.dg.dt.plagueCompany",
+                            "detachmentId": "w40k.10e.dg.dt.virulentVectorium",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -71,19 +106,189 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Living Plague",
-                                    "points": 20
+                                    "name": "Daemon Weapon of Nurgle",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "The Droning (Aura)",
-                                    "points": 10
+                                    "name": "Furnace of Plagues",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "Deadly Pathogen",
+                                    "name": "Arch Contaminator",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Revolting Regeneration",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.mortarionHammer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eye of Affliction",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Bilemaw Blight",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Shriekworm Familiar",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Tendrilous Emissions",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.championsContagion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Final Ingredient",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Visions of Virulence",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Needle of Nurgle",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Cornucophagus",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.tallyband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Beckoning Blight",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Fell Harvester",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Tome of Bounteous Blessings",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.shamblerot",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Witherbone Pipes",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Lord of the Walking Pox",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Sorrowsyphon",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Talisman of Burgeoning",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.deathLordsChosen",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Face of Death",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Vile Vigour",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Warprot Talisman",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Helm of the Fly King",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.flyblownHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Droning Chorus",
                                     "points": 15
                                 },
                                 {
-                                    "name": "Shamblerot",
+                                    "name": "Insectile Murmuration",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rejuvenating Swarm",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Plagueveil",
                                     "points": 25
                                 }
                             ]
@@ -125,7 +330,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.dg.dt.plagueCompany",
+                            "detachmentId": "w40k.10e.dg.dt.virulentVectorium",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -134,19 +339,189 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Living Plague",
-                                    "points": 20
+                                    "name": "Daemon Weapon of Nurgle",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "The Droning (Aura)",
-                                    "points": 10
+                                    "name": "Furnace of Plagues",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "Deadly Pathogen",
+                                    "name": "Arch Contaminator",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Revolting Regeneration",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.mortarionHammer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eye of Affliction",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Bilemaw Blight",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Shriekworm Familiar",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Tendrilous Emissions",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.championsContagion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Final Ingredient",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Visions of Virulence",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Needle of Nurgle",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Cornucophagus",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.tallyband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Beckoning Blight",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Fell Harvester",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Tome of Bounteous Blessings",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.shamblerot",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Witherbone Pipes",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Lord of the Walking Pox",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Sorrowsyphon",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Talisman of Burgeoning",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.deathLordsChosen",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Face of Death",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Vile Vigour",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Warprot Talisman",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Helm of the Fly King",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.flyblownHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Droning Chorus",
                                     "points": 15
                                 },
                                 {
-                                    "name": "Shamblerot",
+                                    "name": "Insectile Murmuration",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rejuvenating Swarm",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Plagueveil",
                                     "points": 25
                                 }
                             ]
@@ -164,7 +539,7 @@
             "models": [
                 {
                     "name": "Typhus",
-                    "points": 80,
+                    "points": 90,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -172,263 +547,6 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.dg.unit.chaosLord",
-            "type": "unit",
-            "rulesetId": "w40k.10e.dg",
-            "name": "Chaos Lord",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Chaos Lord",
-                    "points": 65,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Plague Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Plague Bolt Pistol"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                },
-                                {
-                                    "name": "Plague Combi-bolter"
-                                },
-                                {
-                                    "name": "Plague Fist"
-                                },
-                                {
-                                    "name": "Plague-encrusted Exalted Weapon"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Astartes Chainsword"
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Plague Fist"
-                                },
-                                {
-                                    "name": "Plague-encrusted Exalted Weapon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Twin Lightning Claws"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.dg.dt.plagueCompany",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Living Plague",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "The Droning (Aura)",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Deadly Pathogen",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Shamblerot",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.dg.dt.flyblownHost",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Droning Chorus",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Insectile Murmuration",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Rejuvenating Swarm",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Plagueveil",
-                                    "points": 25
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.dg.unit.chaosLordTerminatorArmour",
-            "type": "unit",
-            "rulesetId": "w40k.10e.dg",
-            "name": "Chaos Lord in Terminator Armour",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Chaos Lord in Terminator Armour",
-                    "points": 85,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Plague Combi-bolter"
-                            },
-                            "options": [
-                                {
-                                    "name": "Plague Combi-bolter"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                },
-                                {
-                                    "name": "Plague-encrusted Exalted Weapon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Plague-encrusted Exalted Weapon"
-                            },
-                            "options": [
-                                {
-                                    "name": "Plague-encrusted Exalted Weapon"
-                                },
-                                {
-                                    "name": "Chain Fist"
-                                },
-                                {
-                                    "name": "Plague Fist"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Twin Lightning Claws"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.dg.dt.plagueCompany",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Living Plague",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "The Droning (Aura)",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Deadly Pathogen",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Shamblerot",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.dg.dt.flyblownHost",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Droning Chorus",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Insectile Murmuration",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Rejuvenating Swarm",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Plagueveil",
-                                    "points": 25
-                                }
-                            ]
                         }
                     ]
                 }
@@ -443,7 +561,7 @@
             "models": [
                 {
                     "name": "Lord of Virulence",
-                    "points": 80,
+                    "points": 90,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -455,7 +573,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.dg.dt.plagueCompany",
+                            "detachmentId": "w40k.10e.dg.dt.virulentVectorium",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -464,20 +582,382 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Living Plague",
-                                    "points": 20
+                                    "name": "Daemon Weapon of Nurgle",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "The Droning (Aura)",
-                                    "points": 10
+                                    "name": "Furnace of Plagues",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "Deadly Pathogen",
+                                    "name": "Arch Contaminator",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Revolting Regeneration",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.mortarionHammer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eye of Affliction",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Bilemaw Blight",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Shriekworm Familiar",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Tendrilous Emissions",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.championsContagion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Final Ingredient",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Visions of Virulence",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Needle of Nurgle",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Cornucophagus",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.tallyband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Beckoning Blight",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Fell Harvester",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Tome of Bounteous Blessings",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.shamblerot",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Witherbone Pipes",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Lord of the Walking Pox",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Sorrowsyphon",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Talisman of Burgeoning",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.deathLordsChosen",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Face of Death",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Vile Vigour",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Warprot Talisman",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Helm of the Fly King",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.flyblownHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Droning Chorus",
                                     "points": 15
                                 },
                                 {
-                                    "name": "Shamblerot",
+                                    "name": "Insectile Murmuration",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Rejuvenating Swarm",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Plagueveil",
                                     "points": 25
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.lordPoxes",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Lord of Poxes",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Lord of Poxes",
+                    "points": 75,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.virulentVectorium",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Daemon Weapon of Nurgle",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Furnace of Plagues",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Arch Contaminator",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Revolting Regeneration",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.mortarionHammer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eye of Affliction",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Bilemaw Blight",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Shriekworm Familiar",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Tendrilous Emissions",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.championsContagion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Final Ingredient",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Visions of Virulence",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Needle of Nurgle",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Cornucophagus",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.tallyband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Beckoning Blight",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Fell Harvester",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Tome of Bounteous Blessings",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.shamblerot",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Witherbone Pipes",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Lord of the Walking Pox",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Sorrowsyphon",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Talisman of Burgeoning",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.deathLordsChosen",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Face of Death",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Vile Vigour",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Warprot Talisman",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Helm of the Fly King",
+                                    "points": 0
                                 }
                             ]
                         },
@@ -523,7 +1003,7 @@
             "models": [
                 {
                     "name": "Lord of Contagion",
-                    "points": 80,
+                    "points": 110,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -535,7 +1015,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.dg.dt.plagueCompany",
+                            "detachmentId": "w40k.10e.dg.dt.virulentVectorium",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -544,27 +1024,27 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Living Plague",
-                                    "points": 20
+                                    "name": "Daemon Weapon of Nurgle",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "The Droning (Aura)",
-                                    "points": 10
+                                    "name": "Furnace of Plagues",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "Deadly Pathogen",
-                                    "points": 15
+                                    "name": "Arch Contaminator",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "Shamblerot",
-                                    "points": 25
+                                    "name": "Revolting Regeneration",
+                                    "points": 0
                                 }
                             ]
                         },
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.dg.dt.flyblownHost",
+                            "detachmentId": "w40k.10e.dg.dt.mortarionHammer",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -573,89 +1053,27 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Droning Chorus",
-                                    "points": 15
+                                    "name": "Eye of Affliction",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "Insectile Murmuration",
-                                    "points": 20
+                                    "name": "Bilemaw Blight",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "Rejuvenating Swarm",
-                                    "points": 10
+                                    "name": "Shriekworm Familiar",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "Plagueveil",
-                                    "points": 25
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.dg.unit.sorcererTerminatorArmour",
-            "type": "unit",
-            "rulesetId": "w40k.10e.dg",
-            "name": "Sorcerer in Terminator Armour",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Sorcerer in Terminator Armour",
-                    "points": 70,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Plague Combi-bolter"
-                            },
-                            "options": [
-                                {
-                                    "name": "Plague Combi-bolter"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                },
-                                {
-                                    "name": "Plague-encrusted Exalted Weapon"
-                                },
-                                {
-                                    "name": "Lightning Claw"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Plague-encrusted Exalted Weapon"
-                            },
-                            "options": [
-                                {
-                                    "name": "Plague-encrusted Exalted Weapon"
-                                },
-                                {
-                                    "name": "Chain Fist"
-                                },
-                                {
-                                    "name": "Plague Fist"
-                                },
-                                {
-                                    "name": "Lightning Claw"
+                                    "name": "Tendrilous Emissions",
+                                    "points": 0
                                 }
                             ]
                         },
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.dg.dt.plagueCompany",
+                            "detachmentId": "w40k.10e.dg.dt.championsContagion",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -664,20 +1082,103 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Living Plague",
-                                    "points": 20
+                                    "name": "Final Ingredient",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "The Droning (Aura)",
-                                    "points": 10
+                                    "name": "Visions of Virulence",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "Deadly Pathogen",
-                                    "points": 15
+                                    "name": "Needle of Nurgle",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "Shamblerot",
-                                    "points": 25
+                                    "name": "Cornucophagus",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.tallyband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Beckoning Blight",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Fell Harvester",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Tome of Bounteous Blessings",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.shamblerot",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Witherbone Pipes",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Lord of the Walking Pox",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Sorrowsyphon",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Talisman of Burgeoning",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.deathLordsChosen",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Face of Death",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Vile Vigour",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Warprot Talisman",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Helm of the Fly King",
+                                    "points": 0
                                 }
                             ]
                         },
@@ -723,7 +1224,7 @@
             "models": [
                 {
                     "name": "Malignant Plaguecaster",
-                    "points": 65,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -735,7 +1236,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.dg.dt.plagueCompany",
+                            "detachmentId": "w40k.10e.dg.dt.virulentVectorium",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -744,20 +1245,161 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Living Plague",
-                                    "points": 20
+                                    "name": "Daemon Weapon of Nurgle",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "The Droning (Aura)",
-                                    "points": 10
+                                    "name": "Furnace of Plagues",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "Deadly Pathogen",
-                                    "points": 15
+                                    "name": "Arch Contaminator",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "Shamblerot",
-                                    "points": 25
+                                    "name": "Revolting Regeneration",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.mortarionHammer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eye of Affliction",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Bilemaw Blight",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Shriekworm Familiar",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Tendrilous Emissions",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.championsContagion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Final Ingredient",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Visions of Virulence",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Needle of Nurgle",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Cornucophagus",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.tallyband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Beckoning Blight",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Fell Harvester",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Tome of Bounteous Blessings",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.shamblerot",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Witherbone Pipes",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Lord of the Walking Pox",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Sorrowsyphon",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Talisman of Burgeoning",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.deathLordsChosen",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Face of Death",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Vile Vigour",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Warprot Talisman",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Helm of the Fly King",
+                                    "points": 0
                                 }
                             ]
                         },
@@ -804,17 +1446,17 @@
                 {
                     "name": "Plague Marine, Plague Champion",
                     "amount": 10,
-                    "cost": 180
+                    "cost": 190
                 },
                 {
                     "name": "Plague Marine, Plague Champion",
                     "amount": 7,
-                    "cost": 125
+                    "cost": 130
                 },
                 {
                     "name": "Plague Marine, Plague Champion",
                     "amount": 5,
-                    "cost": 90
+                    "cost": 95
                 }
             ],
             "restrictions": [
@@ -920,77 +1562,6 @@
             ]
         },
         {
-            "id": "w40k.10e.dg.unit.cultists",
-            "type": "unit",
-            "rulesetId": "w40k.10e.dg",
-            "name": "Cultists",
-            "role": "INFANTRY",
-            "points": [
-                {
-                    "name": "Cultist, Cultist Champion",
-                    "amount": 20,
-                    "cost": 100
-                },
-                {
-                    "name": "Cultist, Cultist Champion",
-                    "amount": 10,
-                    "cost": 50
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Cultist",
-                    "min": 9,
-                    "max": 19
-                },
-                {
-                    "type": "model",
-                    "name": "Cultist Champion",
-                    "min": 1,
-                    "max": 1
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Cultist",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Cultist Firearm"
-                            },
-                            "options": [
-                                {
-                                    "name": "Cultist Firearm"
-                                },
-                                {
-                                    "name": "Flamer"
-                                },
-                                {
-                                    "name": "Heavy Stubber"
-                                },
-                                {
-                                    "name": "Grenade Launcher"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Cultist Champion",
-                    "gearset": [
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Cultist Firearm"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "id": "w40k.10e.dg.unit.poxwalkers",
             "type": "unit",
             "rulesetId": "w40k.10e.dg",
@@ -1000,12 +1571,12 @@
                 {
                     "name": "Poxwalker",
                     "amount": 20,
-                    "cost": 100
+                    "cost": 130
                 },
                 {
                     "name": "Poxwalker",
                     "amount": 10,
-                    "cost": 50
+                    "cost": 60
                 }
             ],
             "restrictions": [
@@ -1031,7 +1602,7 @@
             "models": [
                 {
                     "name": "Noxious Blightbringer",
-                    "points": 45,
+                    "points": 50,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1043,7 +1614,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.dg.dt.plagueCompany",
+                            "detachmentId": "w40k.10e.dg.dt.virulentVectorium",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1052,20 +1623,161 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Living Plague",
-                                    "points": 20
+                                    "name": "Daemon Weapon of Nurgle",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "The Droning (Aura)",
-                                    "points": 10
+                                    "name": "Furnace of Plagues",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "Deadly Pathogen",
-                                    "points": 15
+                                    "name": "Arch Contaminator",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "Shamblerot",
-                                    "points": 25
+                                    "name": "Revolting Regeneration",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.mortarionHammer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eye of Affliction",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Bilemaw Blight",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Shriekworm Familiar",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Tendrilous Emissions",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.championsContagion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Final Ingredient",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Visions of Virulence",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Needle of Nurgle",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Cornucophagus",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.tallyband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Beckoning Blight",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Fell Harvester",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Tome of Bounteous Blessings",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.shamblerot",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Witherbone Pipes",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Lord of the Walking Pox",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Sorrowsyphon",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Talisman of Burgeoning",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.deathLordsChosen",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Face of Death",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Vile Vigour",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Warprot Talisman",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Helm of the Fly King",
+                                    "points": 0
                                 }
                             ]
                         },
@@ -1123,7 +1835,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.dg.dt.plagueCompany",
+                            "detachmentId": "w40k.10e.dg.dt.virulentVectorium",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1132,20 +1844,161 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Living Plague",
-                                    "points": 20
+                                    "name": "Daemon Weapon of Nurgle",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "The Droning (Aura)",
-                                    "points": 10
+                                    "name": "Furnace of Plagues",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "Deadly Pathogen",
-                                    "points": 15
+                                    "name": "Arch Contaminator",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "Shamblerot",
-                                    "points": 25
+                                    "name": "Revolting Regeneration",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.mortarionHammer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eye of Affliction",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Bilemaw Blight",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Shriekworm Familiar",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Tendrilous Emissions",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.championsContagion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Final Ingredient",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Visions of Virulence",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Needle of Nurgle",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Cornucophagus",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.tallyband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Beckoning Blight",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Fell Harvester",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Tome of Bounteous Blessings",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.shamblerot",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Witherbone Pipes",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Lord of the Walking Pox",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Sorrowsyphon",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Talisman of Burgeoning",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.deathLordsChosen",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Face of Death",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Vile Vigour",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Warprot Talisman",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Helm of the Fly King",
+                                    "points": 0
                                 }
                             ]
                         },
@@ -1191,7 +2044,7 @@
             "models": [
                 {
                     "name": "Biologus Putrifier",
-                    "points": 50,
+                    "points": 45,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1203,7 +2056,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.dg.dt.plagueCompany",
+                            "detachmentId": "w40k.10e.dg.dt.virulentVectorium",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1212,20 +2065,161 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Living Plague",
-                                    "points": 20
+                                    "name": "Daemon Weapon of Nurgle",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "The Droning (Aura)",
-                                    "points": 10
+                                    "name": "Furnace of Plagues",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "Deadly Pathogen",
-                                    "points": 15
+                                    "name": "Arch Contaminator",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "Shamblerot",
-                                    "points": 25
+                                    "name": "Revolting Regeneration",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.mortarionHammer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eye of Affliction",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Bilemaw Blight",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Shriekworm Familiar",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Tendrilous Emissions",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.championsContagion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Final Ingredient",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Visions of Virulence",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Needle of Nurgle",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Cornucophagus",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.tallyband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Beckoning Blight",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Fell Harvester",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Tome of Bounteous Blessings",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.shamblerot",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Witherbone Pipes",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Lord of the Walking Pox",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Sorrowsyphon",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Talisman of Burgeoning",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.deathLordsChosen",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Face of Death",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Vile Vigour",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Warprot Talisman",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Helm of the Fly King",
+                                    "points": 0
                                 }
                             ]
                         },
@@ -1271,7 +2265,7 @@
             "models": [
                 {
                     "name": "Tallyman",
-                    "points": 45,
+                    "points": 40,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1283,7 +2277,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.dg.dt.plagueCompany",
+                            "detachmentId": "w40k.10e.dg.dt.virulentVectorium",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1292,20 +2286,161 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Living Plague",
-                                    "points": 20
+                                    "name": "Daemon Weapon of Nurgle",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "The Droning (Aura)",
-                                    "points": 10
+                                    "name": "Furnace of Plagues",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "Deadly Pathogen",
-                                    "points": 15
+                                    "name": "Arch Contaminator",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "Shamblerot",
-                                    "points": 25
+                                    "name": "Revolting Regeneration",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.mortarionHammer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eye of Affliction",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Bilemaw Blight",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Shriekworm Familiar",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Tendrilous Emissions",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.championsContagion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Final Ingredient",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Visions of Virulence",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Needle of Nurgle",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Cornucophagus",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.tallyband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Beckoning Blight",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Fell Harvester",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Tome of Bounteous Blessings",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.shamblerot",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Witherbone Pipes",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Lord of the Walking Pox",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Sorrowsyphon",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Talisman of Burgeoning",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.deathLordsChosen",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Face of Death",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Vile Vigour",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Warprot Talisman",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Helm of the Fly King",
+                                    "points": 0
                                 }
                             ]
                         },
@@ -1363,7 +2498,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.dg.dt.plagueCompany",
+                            "detachmentId": "w40k.10e.dg.dt.virulentVectorium",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1372,20 +2507,161 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Living Plague",
-                                    "points": 20
+                                    "name": "Daemon Weapon of Nurgle",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "The Droning (Aura)",
-                                    "points": 10
+                                    "name": "Furnace of Plagues",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "Deadly Pathogen",
-                                    "points": 15
+                                    "name": "Arch Contaminator",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "Shamblerot",
-                                    "points": 25
+                                    "name": "Revolting Regeneration",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.mortarionHammer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eye of Affliction",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Bilemaw Blight",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Shriekworm Familiar",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Tendrilous Emissions",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.championsContagion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Final Ingredient",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Visions of Virulence",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Needle of Nurgle",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Cornucophagus",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.tallyband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Beckoning Blight",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Fell Harvester",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Tome of Bounteous Blessings",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.shamblerot",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Witherbone Pipes",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Lord of the Walking Pox",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Sorrowsyphon",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Talisman of Burgeoning",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.deathLordsChosen",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Face of Death",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Vile Vigour",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Warprot Talisman",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Helm of the Fly King",
+                                    "points": 0
                                 }
                             ]
                         },
@@ -1432,19 +2708,24 @@
                 {
                     "name": "Blightlord Terminator, Blightlord Champion",
                     "amount": 10,
-                    "cost": 310
+                    "cost": 370
                 },
                 {
                     "name": "Blightlord Terminator, Blightlord Champion",
                     "amount": 5,
-                    "cost": 155
+                    "cost": 180
+                },
+                {
+                    "name": "Blightlord Terminator, Blightlord Champion",
+                    "amount": 3,
+                    "cost": 115
                 }
             ],
             "restrictions": [
                 {
                     "type": "model",
                     "name": "Blightlord Terminator",
-                    "min": 4,
+                    "min": 2,
                     "max": 9
                 },
                 {
@@ -1523,12 +2804,12 @@
                 {
                     "name": "Deathshroud Terminator, Deathshroud Champion",
                     "amount": 6,
-                    "cost": 220
+                    "cost": 300
                 },
                 {
                     "name": "Deathshroud Terminator, Deathshroud Champion",
                     "amount": 3,
-                    "cost": 110
+                    "cost": 140
                 }
             ],
             "restrictions": [
@@ -1586,7 +2867,7 @@
             "models": [
                 {
                     "name": "Helbrute",
-                    "points": 130,
+                    "points": 115,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1654,7 +2935,7 @@
                 {
                     "name": "Chaos Spawn",
                     "amount": 2,
-                    "cost": 70
+                    "cost": 80
                 }
             ],
             "models": [
@@ -1675,18 +2956,13 @@
             "points": [
                 {
                     "name": "Myphitic Blight-hauler",
-                    "amount": 3,
-                    "cost": 255
-                },
-                {
-                    "name": "Myphitic Blight-hauler",
                     "amount": 2,
-                    "cost": 170
+                    "cost": 180
                 },
                 {
                     "name": "Myphitic Blight-hauler",
                     "amount": 1,
-                    "cost": 85
+                    "cost": 80
                 }
             ],
             "restrictions": [
@@ -1694,7 +2970,7 @@
                     "type": "model",
                     "name": "Myphitic Blight-hauler",
                     "min": 1,
-                    "max": 3
+                    "max": 2
                 }
             ],
             "blueprints": [
@@ -1724,6 +3000,32 @@
                                     "name": "Fleshmower"
                                 },
                                 {
+                                    "name": "Plaguespitter, Plaguespitter"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.foetidBloatDroneBlight",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Foetid Bloat Drone with Heavy Blight Launcher",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Foetid Bloat Drone",
+                    "points": 100,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Blight Launcher"
+                            },
+                            "options": [
+                                {
                                     "name": "Heavy Blight Launcher"
                                 },
                                 {
@@ -1744,7 +3046,7 @@
             "models": [
                 {
                     "name": "Plagueburst Crawler",
-                    "points": 180,
+                    "points": 195,
                     "gearset": [
                         {
                             "type": "text",
@@ -1907,7 +3209,7 @@
             "models": [
                 {
                     "name": "Predator Destructor",
-                    "points": 140,
+                    "points": 145,
                     "gearset": [
                         {
                             "type": "text",
@@ -1969,7 +3271,7 @@
             "models": [
                 {
                     "name": "Rhino",
-                    "points": 75,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2008,7 +3310,7 @@
             "models": [
                 {
                     "name": "Defiler",
-                    "points": 190,
+                    "points": 165,
                     "gearset": [
                         {
                             "type": "text",
@@ -2086,7 +3388,7 @@
             "models": [
                 {
                     "name": "Mortarion",
-                    "points": 300,
+                    "points": 380,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2120,7 +3422,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.dg.dt.plagueCompany",
+                            "detachmentId": "w40k.10e.dg.dt.virulentVectorium",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -2129,20 +3431,161 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Living Plague",
-                                    "points": 20
+                                    "name": "Daemon Weapon of Nurgle",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "The Droning (Aura)",
-                                    "points": 10
+                                    "name": "Furnace of Plagues",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "Deadly Pathogen",
-                                    "points": 15
+                                    "name": "Arch Contaminator",
+                                    "points": 0
                                 },
                                 {
-                                    "name": "Shamblerot",
-                                    "points": 25
+                                    "name": "Revolting Regeneration",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.mortarionHammer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eye of Affliction",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Bilemaw Blight",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Shriekworm Familiar",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Tendrilous Emissions",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.championsContagion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Final Ingredient",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Visions of Virulence",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Needle of Nurgle",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Cornucophagus",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.tallyband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Beckoning Blight",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Fell Harvester",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Tome of Bounteous Blessings",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.shamblerot",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Witherbone Pipes",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Lord of the Walking Pox",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Sorrowsyphon",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Talisman of Burgeoning",
+                                    "points": 0
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dg.dt.deathLordsChosen",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Face of Death",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Vile Vigour",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Warprot Talisman",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Helm of the Fly King",
+                                    "points": 0
                                 }
                             ]
                         },
@@ -2188,7 +3631,7 @@
             "models": [
                 {
                     "name": "Miasmic Malignifier",
-                    "points": 115
+                    "points": 105
                 }
             ]
         }
