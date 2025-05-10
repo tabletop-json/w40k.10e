@@ -1134,11 +1134,11 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Berzerker Chainblade"
+                                "name": "Chainblade"
                             },
                             "options": [
                                 {
-                                    "name": "Berzerker Chainblade"
+                                    "name": "Chainblade"
                                 },
                                 {
                                     "name": "Khornate Eviscerator"
@@ -1174,7 +1174,7 @@
                         {
                             "type": "text",
                             "selectedOption": {
-                                "name": "Berzerker Chainblade"
+                                "name": "Chainblade"
                             }
                         },
                         {
@@ -1233,11 +1233,11 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Jakhal Chainblades"
+                                "name": "Chainblades"
                             },
                             "options": [
                                 {
-                                    "name": "Jakhal Chainblades"
+                                    "name": "Chainblades"
                                 },
                                 {
                                     "name": "Mauler Chainblade"
@@ -1265,14 +1265,14 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Dishonoured Chainblades"
+                                "name": "Paired Manglers"
                             },
                             "options": [
                                 {
-                                    "name": "Dishonoured Chainblades"
+                                    "name": "Paired Manglers"
                                 },
                                 {
-                                    "name": "Skullsmasher"
+                                    "name": "Skullsmasher and Mangler"
                                 }
                             ]
                         }
@@ -1545,34 +1545,10 @@
             ],
             "blueprints": [
                 {
-                    "name": "Eightbound",
-                    "gearset": [
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Eightbound Eviscerators"
-                            }
-                        }
-                    ]
+                    "name": "Eightbound"
                 },
                 {
-                    "name": "Eightbound Champion",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Lacerators"
-                            },
-                            "options": [
-                                {
-                                    "name": "Lacerators"
-                                },
-                                {
-                                    "name": "Heavy Chainglaive"
-                                }
-                            ]
-                        }
-                    ]
+                    "name": "Eightbound Champion"
                 }
             ]
         },
@@ -1610,43 +1586,10 @@
             ],
             "blueprints": [
                 {
-                    "name": "Exalted Eightbound",
-                    "gearset": [
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Eightbound Eviscerator"
-                            }
-                        },
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Eightbound Chainfist"
-                            }
-                        }
-                    ]
+                    "name": "Exalted Eightbound"
                 },
                 {
-                    "name": "Exalted Eightbound Champion",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Eightbound Eviscerator, Eightbound Chainfist"
-                            },
-                            "options": [
-                                {
-                                    "name": "Eightbound Eviscerator, Eightbound Chainfist"
-                                },
-                                {
-                                    "name": "Paired Eightbound Chainfists"
-                                },
-                                {
-                                    "name": "Heavy Chainglaive"
-                                }
-                            ]
-                        }
-                    ]
+                    "name": "Exalted Eightbound Champion"
                 }
             ]
         },
@@ -2096,6 +2039,12 @@
                     "points": 85,
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Combi-bolter"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
                                 "name": ""
@@ -2138,26 +2087,10 @@
             ],
             "models": [
                 {
-                    "name": "Chaos Spawn",
-                    "gearset": [
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Hideous Mutations"
-                            }
-                        }
-                    ]
+                    "name": "Chaos Spawn"
                 },
                 {
-                    "name": "Chaos Spawn",
-                    "gearset": [
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Hideous Mutations"
-                            }
-                        }
-                    ]
+                    "name": "Chaos Spawn"
                 }
             ]
         },
