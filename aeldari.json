@@ -96,7 +96,7 @@
             "models": [
                 {
                     "name": "Autarch",
-                    "points": 75,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1521,7 +1521,7 @@
                 {
                     "name": "Fire Dragon, Fire Dragon Exarch",
                     "amount": 5,
-                    "cost": 110
+                    "cost": 120
                 }
             ],
             "restrictions": [
@@ -1578,7 +1578,7 @@
             "models": [
                 {
                     "name": "Fire Prism",
-                    "points": 160,
+                    "points": 150,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1704,12 +1704,12 @@
                 {
                     "name": "Howling Banshee, Howling Banshee Exarch",
                     "amount": 10,
-                    "cost": 180
+                    "cost": 190
                 },
                 {
                     "name": "Howling Banshee, Howling Banshee Exarch",
                     "amount": 5,
-                    "cost": 90
+                    "cost": 95
                 }
             ],
             "restrictions": [
@@ -2054,12 +2054,12 @@
                 {
                     "name": "Shining Spear, Shining Spear Exarch",
                     "amount": 6,
-                    "cost": 240
+                    "cost": 220
                 },
                 {
                     "name": "Shining Spear, Shining Spear Exarch",
                     "amount": 3,
-                    "cost": 120
+                    "cost": 110
                 }
             ],
             "restrictions": [
@@ -2675,7 +2675,7 @@
             "models": [
                 {
                     "name": "The Yncarne",
-                    "points": 250,
+                    "points": 260,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -3055,12 +3055,12 @@
                 {
                     "name": "War Walker",
                     "amount": 2,
-                    "cost": 190
+                    "cost": 170
                 },
                 {
                     "name": "War Walker",
                     "amount": 1,
-                    "cost": 95
+                    "cost": 85
                 }
             ],
             "restrictions": [
@@ -4059,7 +4059,7 @@
                 {
                     "name": "Warlock",
                     "amount": 4,
-                    "cost": 110
+                    "cost": 130
                 },
                 {
                     "name": "Warlock",
@@ -4366,7 +4366,7 @@
             "models": [
                 {
                     "name": "Ynnari Archon",
-                    "points": 75,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -4420,12 +4420,12 @@
                 {
                     "name": "Incubi, Klaivex",
                     "amount": 10,
-                    "cost": 150
+                    "cost": 170
                 },
                 {
                     "name": "Incubi, Klaivex",
                     "amount": 5,
-                    "cost": 75
+                    "cost": 85
                 }
             ],
             "restrictions": [

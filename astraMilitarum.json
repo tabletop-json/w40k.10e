@@ -106,7 +106,7 @@
             "models": [
                 {
                     "name": "Ursula Creed",
-                    "points": 65,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1932,7 +1932,7 @@
                 {
                     "name": "Death Korps Trooper, Death Korps Watchmaster",
                     "amount": 20,
-                    "cost": 130
+                    "cost": 145
                 },
                 {
                     "name": "Death Korps Trooper, Death Korps Watchmaster",
@@ -2588,12 +2588,12 @@
                 {
                     "name": "Bullgryn, Bullgryn Bone 'ead",
                     "amount": 6,
-                    "cost": 220
+                    "cost": 200
                 },
                 {
                     "name": "Bullgryn, Bullgryn Bone 'ead",
                     "amount": 3,
-                    "cost": 110
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -3354,7 +3354,7 @@
             "models": [
                 {
                     "name": "Leman Russ Battle Tank",
-                    "points": 175,
+                    "points": 185,
                     "gearset": [
                         {
                             "type": "text",
@@ -4212,7 +4212,7 @@
             "models": [
                 {
                     "name": "Taurox",
-                    "points": 65,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "text",
@@ -5405,12 +5405,12 @@
                 {
                     "name": "Death Rider, Ridemaster",
                     "amount": 10,
-                    "cost": 140
+                    "cost": 120
                 },
                 {
                     "name": "Death Rider, Ridemaster",
                     "amount": 5,
-                    "cost": 70
+                    "cost": 60
                 }
             ],
             "restrictions": [
@@ -5472,7 +5472,7 @@
                 {
                     "name": "Tempestus Aquilon, Tempestor Aquilon",
                     "amount": 10,
-                    "cost": 110
+                    "cost": 100
                 }
             ],
             "restrictions": [

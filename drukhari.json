@@ -791,12 +791,12 @@
                 {
                     "name": "Mandrake, Nightfiend",
                     "amount": 10,
-                    "cost": 130
+                    "cost": 120
                 },
                 {
                     "name": "Mandrake, Nightfiend",
                     "amount": 5,
-                    "cost": 70
+                    "cost": 65
                 }
             ],
             "restrictions": [
@@ -831,7 +831,7 @@
             "models": [
                 {
                     "name": "Raider",
-                    "points": 80,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -860,7 +860,7 @@
             "models": [
                 {
                     "name": "Ravager",
-                    "points": 110,
+                    "points": 100,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1416,7 +1416,7 @@
             "models": [
                 {
                     "name": "Venom",
-                    "points": 70,
+                    "points": 65,
                     "gearset": [
                         {
                             "type": "dropdown",

@@ -100,7 +100,7 @@
             "models": [
                 {
                     "name": "Illuminor Szeras",
-                    "points": 175,
+                    "points": 165,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -195,7 +195,7 @@
                                 },
                                 {
                                     "name": "Enaegic Dermal Bond",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Nether-realm Casket",
@@ -336,7 +336,7 @@
             "models": [
                 {
                     "name": "Skorpekh Lord",
-                    "points": 80,
+                    "points": 90,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -387,7 +387,7 @@
                                 },
                                 {
                                     "name": "Enaegic Dermal Bond",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Nether-realm Casket",
@@ -610,7 +610,7 @@
                                 },
                                 {
                                     "name": "Enaegic Dermal Bond",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Nether-realm Casket",
@@ -837,7 +837,7 @@
                                 },
                                 {
                                     "name": "Enaegic Dermal Bond",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Nether-realm Casket",
@@ -1050,7 +1050,7 @@
                                 },
                                 {
                                     "name": "Enaegic Dermal Bond",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Nether-realm Casket",
@@ -1246,7 +1246,7 @@
                                 },
                                 {
                                     "name": "Enaegic Dermal Bond",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Nether-realm Casket",
@@ -1391,7 +1391,7 @@
             "models": [
                 {
                     "name": "Technomancer",
-                    "points": 85,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1442,7 +1442,7 @@
                                 },
                                 {
                                     "name": "Enaegic Dermal Bond",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Nether-realm Casket",
@@ -1634,7 +1634,7 @@
                                 },
                                 {
                                     "name": "Enaegic Dermal Bond",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Nether-realm Casket",
@@ -1826,7 +1826,7 @@
                                 },
                                 {
                                     "name": "Enaegic Dermal Bond",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Nether-realm Casket",
@@ -1967,7 +1967,7 @@
             "models": [
                 {
                     "name": "Plasmancer",
-                    "points": 60,
+                    "points": 55,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2018,7 +2018,7 @@
                                 },
                                 {
                                     "name": "Enaegic Dermal Bond",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Nether-realm Casket",
@@ -2319,7 +2319,7 @@
                                 },
                                 {
                                     "name": "Enaegic Dermal Bond",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Nether-realm Casket",
@@ -2509,12 +2509,12 @@
                 {
                     "name": "Deathmark",
                     "amount": 10,
-                    "cost": 130
+                    "cost": 120
                 },
                 {
                     "name": "Deathmark",
                     "amount": 5,
-                    "cost": 65
+                    "cost": 60
                 }
             ],
             "restrictions": [
@@ -2750,7 +2750,7 @@
                                 },
                                 {
                                     "name": "Enaegic Dermal Bond",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Nether-realm Casket",
@@ -3143,12 +3143,12 @@
                 {
                     "name": "Canoptek Wraith",
                     "amount": 6,
-                    "cost": 230
+                    "cost": 220
                 },
                 {
                     "name": "Canoptek Wraith",
                     "amount": 3,
-                    "cost": 115
+                    "cost": 110
                 }
             ],
             "restrictions": [
@@ -3271,7 +3271,7 @@
                 {
                     "name": "Lokhust Destroyer",
                     "amount": 1,
-                    "cost": 35
+                    "cost": 40
                 }
             ],
             "restrictions": [
@@ -3350,7 +3350,7 @@
             "models": [
                 {
                     "name": "Canoptek Doomstalker",
-                    "points": 145
+                    "points": 140
                 }
             ]
         },

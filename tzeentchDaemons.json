@@ -1,0 +1,247 @@
+{
+    "config": {
+        "id": "w40k.10e.tzee.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.tzee",
+        "name": "Tzeentch Daemons",
+        "enabled": false,
+        "endpoint": "tzeentchDaemons.json"
+    },
+    "units": [
+        {
+            "id": "w40k.10e.dmns.unit.kairos",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Kairos Fateweaver",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Kairos Fateweaver",
+                    "points": 270,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.lordOfChange",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Lord of Change",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Lord of Change",
+                    "points": 260,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Rod of Sorcery"
+                                },
+                                {
+                                    "name": "Baleful Sword"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.dmns.dt.daemonicIncursion",
+                            "selectedOption": {
+                                "name": "The Everstave",
+                                "points": 25
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.changehostDeceit",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Duplicitous Malediction",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Nethershriek Mind-Eater",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.blueHorrors",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Blue Horrors",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Blue Horror",
+                    "amount": 10,
+                    "cost": 90
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Blue Horror",
+                    "min": 10,
+                    "max": 10
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Blue Horror"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.pinkHorrors",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Pink Horrors",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Pink Horror",
+                    "amount": 10,
+                    "cost": 115
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Pink Horror",
+                    "min": 10,
+                    "max": 10
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Pink Horror",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Daemonic Icon"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Instrument of Chaos"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.flamers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Flamers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Flamer, Pyrocaster",
+                    "amount": 6,
+                    "cost": 130
+                },
+                {
+                    "name": "Flamer, Pyrocaster",
+                    "amount": 3,
+                    "cost": 65
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Flamer",
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "type": "model",
+                    "name": "Pyrocaster",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Flamer"
+                },
+                {
+                    "name": "Pyrocaster"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.screamers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "Screamers",
+            "role": "BEAST",
+            "points": [
+                {
+                    "name": "Screamer",
+                    "amount": 6,
+                    "cost": 160
+                },
+                {
+                    "name": "Screamer",
+                    "amount": 3,
+                    "cost": 80
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Screamer",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Screamer"
+                }
+            ]
+        }
+    ]
+}

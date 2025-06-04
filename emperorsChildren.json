@@ -66,7 +66,7 @@
             "models": [
                 {
                     "name": "Fulgrim",
-                    "points": 385,
+                    "points": 365,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -88,7 +88,7 @@
             "models": [
                 {
                     "name": "Lucius the Eternal",
-                    "points": 140,
+                    "points": 150,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -294,7 +294,7 @@
                                 },
                                 {
                                     "name": "Pledge of Unholy Fortune",
-                                    "points": 20
+                                    "points": 30
                                 }
                             ]
                         },
@@ -510,7 +510,7 @@
                                 },
                                 {
                                     "name": "Pledge of Unholy Fortune",
-                                    "points": 20
+                                    "points": 30
                                 }
                             ]
                         },
@@ -706,7 +706,7 @@
                                 },
                                 {
                                     "name": "Pledge of Unholy Fortune",
-                                    "points": 20
+                                    "points": 30
                                 }
                             ]
                         },
@@ -877,7 +877,7 @@
                                 },
                                 {
                                     "name": "Pledge of Unholy Fortune",
-                                    "points": 20
+                                    "points": 30
                                 }
                             ]
                         },
@@ -923,7 +923,7 @@
             "models": [
                 {
                     "name": "Daemon Prince with Wings",
-                    "points": 180,
+                    "points": 200,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1048,7 +1048,7 @@
                                 },
                                 {
                                     "name": "Pledge of Unholy Fortune",
-                                    "points": 20
+                                    "points": 30
                                 }
                             ]
                         },
@@ -1519,7 +1519,7 @@
                 {
                     "name": "Noise Marine, Disharmonist",
                     "amount": 6,
-                    "cost": 135
+                    "cost": 145
                 }
             ],
             "restrictions": [

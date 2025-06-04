@@ -331,7 +331,7 @@
             "models": [
                 {
                     "name": "Captain with Jump Pack",
-                    "points": 85,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -4555,12 +4555,12 @@
                 {
                     "name": "Heavy Intercessor, Heavy Intercessor Sergeant",
                     "amount": 10,
-                    "cost": 220
+                    "cost": 200
                 },
                 {
                     "name": "Heavy Intercessor, Heavy Intercessor Sergeant",
                     "amount": 5,
-                    "cost": 110
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -6208,12 +6208,12 @@
                 {
                     "name": "Vanguard Veteran with Jump Pack, Vanguard Veteran Sergeant with Jump Pack",
                     "amount": 10,
-                    "cost": 220
+                    "cost": 190
                 },
                 {
                     "name": "Vanguard Veteran with Jump Pack, Vanguard Veteran Sergeant with Jump Pack",
                     "amount": 5,
-                    "cost": 110
+                    "cost": 95
                 }
             ],
             "restrictions": [
@@ -6766,12 +6766,12 @@
                 {
                     "name": "Aggressor, Aggressor Sergeant",
                     "amount": 6,
-                    "cost": 240
+                    "cost": 220
                 },
                 {
                     "name": "Aggressor, Aggressor Sergeant",
                     "amount": 3,
-                    "cost": 120
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -7653,12 +7653,12 @@
                 {
                     "name": "Hellblaster, Hellblaster Sergeant",
                     "amount": 10,
-                    "cost": 230
+                    "cost": 220
                 },
                 {
                     "name": "Hellblaster, Hellblaster Sergeant",
                     "amount": 5,
-                    "cost": 115
+                    "cost": 110
                 }
             ],
             "restrictions": [
