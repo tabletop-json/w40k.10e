@@ -1326,7 +1326,7 @@
             "models": [
                 {
                     "name": "Big Mek with Shokk Attack Gun",
-                    "points": 75,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1631,7 +1631,7 @@
             "models": [
                 {
                     "name": "Boomdakka Snazzwagon",
-                    "points": 80
+                    "points": 70
                 }
             ]
         },
@@ -1667,7 +1667,7 @@
                 {
                     "name": "Boy, Boss Nob",
                     "amount": 20,
-                    "cost": 160
+                    "cost": 170
                 },
                 {
                     "name": "Boy, Boss Nob",
@@ -2232,12 +2232,12 @@
                 {
                     "name": "Deffkopta",
                     "amount": 6,
-                    "cost": 180
+                    "cost": 160
                 },
                 {
                     "name": "Deffkopta",
                     "amount": 3,
-                    "cost": 90
+                    "cost": 80
                 }
             ],
             "restrictions": [
@@ -2280,7 +2280,7 @@
                 {
                     "name": "Flash Git, Kaptin",
                     "amount": 10,
-                    "cost": 160
+                    "cost": 170
                 },
                 {
                     "name": "Flash Git, Kaptin",
@@ -2590,7 +2590,7 @@
             "models": [
                 {
                     "name": "Kustom Boosta-Blasta",
-                    "points": 75
+                    "points": 70
                 }
             ]
         },
@@ -2604,7 +2604,7 @@
                 {
                     "name": "Loota, Spanner",
                     "amount": 10,
-                    "cost": 100
+                    "cost": 115
                 },
                 {
                     "name": "Loota, Spanner",
@@ -2741,7 +2741,7 @@
             "models": [
                 {
                     "name": "Megatrakk Scrapjet",
-                    "points": 80
+                    "points": 75
                 }
             ]
         },
@@ -3715,7 +3715,7 @@
             "models": [
                 {
                     "name": "Rukkatrukk Squigbuggy",
-                    "points": 100
+                    "points": 95
                 }
             ]
         },
@@ -3728,7 +3728,7 @@
             "models": [
                 {
                     "name": "Shokkjump Dragsta",
-                    "points": 75
+                    "points": 70
                 }
             ]
         },
@@ -3742,12 +3742,12 @@
                 {
                     "name": "Squighog Boy, Nob on Smasha Squig",
                     "amount": 8,
-                    "cost": 320
+                    "cost": 300
                 },
                 {
                     "name": "Squighog Boy, Nob on Smasha Squig",
                     "amount": 4,
-                    "cost": 160
+                    "cost": 150
                 }
             ],
             "restrictions": [
@@ -3889,7 +3889,7 @@
                 {
                     "name": "Tankbusta, Boss Nob",
                     "amount": 6,
-                    "cost": 135
+                    "cost": 140
                 }
             ],
             "restrictions": [
@@ -4048,7 +4048,7 @@
             "models": [
                 {
                     "name": "Trukk",
-                    "points": 65,
+                    "points": 70,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -5224,7 +5224,7 @@
             "models": [
                 {
                     "name": "Zodgrod Wortsnagga",
-                    "points": 80,
+                    "points": 90,
                     "gearset": [
                         {
                             "type": "checkbox",

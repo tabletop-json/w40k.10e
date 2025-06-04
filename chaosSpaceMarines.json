@@ -76,6 +76,13 @@
             "rulesetId": "w40k.10e.csm",
             "name": "Creations of Bile",
             "rule": ""
+        },
+        {
+            "id": "w40k.10e.csm.dt.cabalChaos",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Cabal of Chaos",
+            "rule": ""
         }
     ],
     "units": [
@@ -423,6 +430,35 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.cabalChaos",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Touched by the Warp",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Eye of Z'desh",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mind Blade",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Infernal Avatar",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -735,6 +771,35 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.cabalChaos",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Touched by the Warp",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Eye of Z'desh",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mind Blade",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Infernal Avatar",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -822,7 +887,7 @@
             "models": [
                 {
                     "name": "Master of Possession",
-                    "points": 70,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1097,6 +1162,35 @@
                                 {
                                     "name": "Prime Test Subject",
                                     "points": 35
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.cabalChaos",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Touched by the Warp",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Eye of Z'desh",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mind Blade",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Infernal Avatar",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -1442,6 +1536,35 @@
                                     "points": 35
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.cabalChaos",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Touched by the Warp",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Eye of Z'desh",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mind Blade",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Infernal Avatar",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1485,7 +1608,7 @@
             "models": [
                 {
                     "name": "Chaos Lord with Jump Pack",
-                    "points": 90,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1775,6 +1898,35 @@
                                 {
                                     "name": "Prime Test Subject",
                                     "points": 35
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.cabalChaos",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Touched by the Warp",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Eye of Z'desh",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mind Blade",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Infernal Avatar",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -2118,6 +2270,35 @@
                                     "points": 35
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.cabalChaos",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Touched by the Warp",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Eye of Z'desh",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mind Blade",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Infernal Avatar",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2436,6 +2617,35 @@
                                 {
                                     "name": "Prime Test Subject",
                                     "points": 35
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.cabalChaos",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Touched by the Warp",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Eye of Z'desh",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mind Blade",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Infernal Avatar",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -2779,6 +2989,35 @@
                                     "points": 35
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.cabalChaos",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Touched by the Warp",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Eye of Z'desh",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mind Blade",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Infernal Avatar",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3117,6 +3356,35 @@
                                 {
                                     "name": "Surgical Precision",
                                     "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.cabalChaos",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Touched by the Warp",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Eye of Z'desh",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mind Blade",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Infernal Avatar",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -3459,6 +3727,35 @@
                                     "points": 35
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.cabalChaos",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Touched by the Warp",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Eye of Z'desh",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mind Blade",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Infernal Avatar",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3502,7 +3799,7 @@
             "models": [
                 {
                     "name": "Dark Apostle",
-                    "points": 75,
+                    "points": 65,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -3771,6 +4068,35 @@
                                 {
                                     "name": "Prime Test Subject",
                                     "points": 35
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.cabalChaos",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Touched by the Warp",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Eye of Z'desh",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mind Blade",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Infernal Avatar",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -4060,6 +4386,35 @@
                                 {
                                     "name": "Warmaster's Gift",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.cabalChaos",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Touched by the Warp",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Eye of Z'desh",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mind Blade",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Infernal Avatar",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -4357,6 +4712,35 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.cabalChaos",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Touched by the Warp",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Eye of Z'desh",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mind Blade",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Infernal Avatar",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -4588,17 +4972,17 @@
                 {
                     "name": "Plague Marine, Plague Champion",
                     "amount": 10,
-                    "cost": 180
+                    "cost": 190
                 },
                 {
                     "name": "Plague Marine, Plague Champion",
                     "amount": 7,
-                    "cost": 125
+                    "cost": 130
                 },
                 {
                     "name": "Plague Marine, Plague Champion",
                     "amount": 5,
-                    "cost": 90
+                    "cost": 95
                 }
             ],
             "restrictions": [
@@ -4713,12 +5097,12 @@
                 {
                     "name": "Rubric Marine, Aspiring Sorcerer",
                     "amount": 10,
-                    "cost": 200
+                    "cost": 190
                 },
                 {
                     "name": "Rubric Marine, Aspiring Sorcerer",
                     "amount": 5,
-                    "cost": 110
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -4798,21 +5182,21 @@
             "points": [
                 {
                     "name": "Khorne Berzerker, Khorne Berzerker Champion",
-                    "amount": 10,
-                    "cost": 180
+                    "amount": 20,
+                    "cost": 360
                 },
                 {
                     "name": "Khorne Berzerker, Khorne Berzerker Champion",
-                    "amount": 5,
-                    "cost": 90
+                    "amount": 10,
+                    "cost": 180
                 }
             ],
             "restrictions": [
                 {
                     "type": "model",
                     "name": "Khorne Berzerker",
-                    "min": 4,
-                    "max": 9
+                    "min": 9,
+                    "max": 19
                 },
                 {
                     "type": "model",
@@ -5528,6 +5912,35 @@
                                     "points": 35
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.cabalChaos",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Touched by the Warp",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Eye of Z'desh",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mind Blade",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Infernal Avatar",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -5816,7 +6229,7 @@
                 {
                     "name": "Noise Marine, Disharmonist",
                     "amount": 6,
-                    "cost": 135
+                    "cost": 145
                 }
             ],
             "restrictions": [
@@ -7617,7 +8030,7 @@
                 {
                     "name": "Fellgor Beastman, Fellgor Champion",
                     "amount": 10,
-                    "cost": 85
+                    "cost": 70
                 }
             ],
             "restrictions": [
@@ -7729,7 +8142,7 @@
                 {
                     "name": "Traitor Ogryn, Traitor Enforcer",
                     "amount": 2,
-                    "cost": 65
+                    "cost": 55
                 }
             ],
             "models": [
@@ -7975,6 +8388,35 @@
                                 {
                                     "name": "Warmaster's Gift",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.cabalChaos",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Touched by the Warp",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Eye of Z'desh",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mind Blade",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Infernal Avatar",
+                                    "points": 20
                                 }
                             ]
                         }

@@ -137,7 +137,7 @@
                                 },
                                 {
                                     "name": "Slaughterthirst (Aura)",
-                                    "points": 35
+                                    "points": 25
                                 },
                                 {
                                     "name": "Fury's Cage",
@@ -166,11 +166,11 @@
                                 },
                                 {
                                     "name": "Leaping Shadows",
-                                    "points": 15
+                                    "points": 25
                                 },
                                 {
                                     "name": "Fade to Darkness",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Malice Made Manifest",
@@ -249,7 +249,7 @@
                                 },
                                 {
                                     "name": "Slaughterthirst (Aura)",
-                                    "points": 35
+                                    "points": 25
                                 },
                                 {
                                     "name": "Brazenmaw",
@@ -270,11 +270,11 @@
                                 },
                                 {
                                     "name": "Leaping Shadows",
-                                    "points": 15
+                                    "points": 25
                                 },
                                 {
                                     "name": "Fade to Darkness",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Malice Made Manifest",
@@ -331,7 +331,7 @@
                                 },
                                 {
                                     "name": "Slaughterthirst (Aura)",
-                                    "points": 35
+                                    "points": 25
                                 },
                                 {
                                     "name": "Brazenmaw",
@@ -352,11 +352,11 @@
                                 },
                                 {
                                     "name": "Leaping Shadows",
-                                    "points": 15
+                                    "points": 25
                                 },
                                 {
                                     "name": "Fade to Darkness",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Malice Made Manifest",
@@ -413,7 +413,7 @@
                                 },
                                 {
                                     "name": "Slaughterthirst (Aura)",
-                                    "points": 35
+                                    "points": 25
                                 },
                                 {
                                     "name": "Brazenmaw",
@@ -434,11 +434,11 @@
                                 },
                                 {
                                     "name": "Leaping Shadows",
-                                    "points": 15
+                                    "points": 25
                                 },
                                 {
                                     "name": "Fade to Darkness",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Malice Made Manifest",
@@ -761,11 +761,11 @@
                                 },
                                 {
                                     "name": "Leaping Shadows",
-                                    "points": 15
+                                    "points": 25
                                 },
                                 {
                                     "name": "Fade to Darkness",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Malice Made Manifest",
@@ -865,11 +865,11 @@
                                 },
                                 {
                                     "name": "Leaping Shadows",
-                                    "points": 15
+                                    "points": 25
                                 },
                                 {
                                     "name": "Fade to Darkness",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Malice Made Manifest",
@@ -947,11 +947,11 @@
                                 },
                                 {
                                     "name": "Leaping Shadows",
-                                    "points": 15
+                                    "points": 25
                                 },
                                 {
                                     "name": "Fade to Darkness",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Malice Made Manifest",
@@ -1051,11 +1051,11 @@
                                 },
                                 {
                                     "name": "Leaping Shadows",
-                                    "points": 15
+                                    "points": 25
                                 },
                                 {
                                     "name": "Fade to Darkness",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Malice Made Manifest",
@@ -1360,11 +1360,11 @@
                                 },
                                 {
                                     "name": "Leaping Shadows",
-                                    "points": 15
+                                    "points": 25
                                 },
                                 {
                                     "name": "Fade to Darkness",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Malice Made Manifest",
@@ -1442,11 +1442,11 @@
                                 },
                                 {
                                     "name": "Leaping Shadows",
-                                    "points": 15
+                                    "points": 25
                                 },
                                 {
                                     "name": "Fade to Darkness",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Malice Made Manifest",
@@ -1524,11 +1524,11 @@
                                 },
                                 {
                                     "name": "Leaping Shadows",
-                                    "points": 15
+                                    "points": 25
                                 },
                                 {
                                     "name": "Fade to Darkness",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Malice Made Manifest",
@@ -1628,11 +1628,11 @@
                                 },
                                 {
                                     "name": "Leaping Shadows",
-                                    "points": 15
+                                    "points": 25
                                 },
                                 {
                                     "name": "Fade to Darkness",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Malice Made Manifest",
@@ -1731,18 +1731,13 @@
             "points": [
                 {
                     "name": "Nurgling Swarm",
-                    "amount": 9,
-                    "cost": 90
-                },
-                {
-                    "name": "Nurgling Swarm",
                     "amount": 6,
-                    "cost": 60
+                    "cost": 70
                 },
                 {
                     "name": "Nurgling Swarm",
                     "amount": 3,
-                    "cost": 35
+                    "cost": 40
                 }
             ],
             "restrictions": [
@@ -1973,11 +1968,11 @@
                                 },
                                 {
                                     "name": "Leaping Shadows",
-                                    "points": 15
+                                    "points": 25
                                 },
                                 {
                                     "name": "Fade to Darkness",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Malice Made Manifest",
@@ -2055,11 +2050,11 @@
                                 },
                                 {
                                     "name": "Leaping Shadows",
-                                    "points": 15
+                                    "points": 25
                                 },
                                 {
                                     "name": "Fade to Darkness",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Malice Made Manifest",
@@ -2181,11 +2176,11 @@
                                 },
                                 {
                                     "name": "Leaping Shadows",
-                                    "points": 15
+                                    "points": 25
                                 },
                                 {
                                     "name": "Fade to Darkness",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Malice Made Manifest",
@@ -2263,11 +2258,11 @@
                                 },
                                 {
                                     "name": "Leaping Shadows",
-                                    "points": 15
+                                    "points": 25
                                 },
                                 {
                                     "name": "Fade to Darkness",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Malice Made Manifest",
@@ -2377,11 +2372,11 @@
                                 },
                                 {
                                     "name": "Leaping Shadows",
-                                    "points": 15
+                                    "points": 25
                                 },
                                 {
                                     "name": "Fade to Darkness",
-                                    "points": 15
+                                    "points": 30
                                 },
                                 {
                                     "name": "Malice Made Manifest",
@@ -2704,7 +2699,7 @@
                                 },
                                 {
                                     "name": "Slaughterthirst (Aura)",
-                                    "points": 35
+                                    "points": 25
                                 },
                                 {
                                     "name": "Fury's Cage",
@@ -2894,7 +2889,7 @@
                                 },
                                 {
                                     "name": "Slaughterthirst (Aura)",
-                                    "points": 35
+                                    "points": 25
                                 },
                                 {
                                     "name": "Fury's Cage",

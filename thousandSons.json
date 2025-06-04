@@ -8,16 +8,44 @@
         "keyword": "THOUSAND SONS",
         "endpoint": "thousandSons.json",
         "allies": [
-            "w40k.10e.dmns",
+            "w40k.10e.tzee",
             "w40k.10e.ck"
         ]
     },
     "detachments": [
         {
-            "id": "w40k.10e.tsons.dt.cultOfMagic",
+            "id": "w40k.10e.tsons.dt.changehostDeceit",
             "type": "detachment",
             "rulesetId": "w40k.10e.tsons",
-            "name": "Cult of Magic",
+            "name": "Changehost of Deceit",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.tsons.dt.grandCoven",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Grand Coven",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.tsons.dt.rubricaePhalanx",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Rubricae Phalanx",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.tsons.dt.warpforgedCabal",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Warpforged Cabal",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.tsons.dt.warpmeldPact",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Warpmeld Pact",
             "rule": ""
         },
         {
@@ -38,29 +66,7 @@
             "models": [
                 {
                     "name": "Ahriman",
-                    "points": 140,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.tsons.unit.ahrimanDisc",
-            "type": "unit",
-            "rulesetId": "w40k.10e.tsons",
-            "name": "Ahriman on Disc",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Ahriman",
-                    "points": 150,
+                    "points": 100,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -121,7 +127,7 @@
             "models": [
                 {
                     "name": "Predator Annihilator",
-                    "points": 135,
+                    "points": 130,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -234,7 +240,7 @@
             "models": [
                 {
                     "name": "Rhino",
-                    "points": 75,
+                    "points": 90,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -334,7 +340,7 @@
             "models": [
                 {
                     "name": "Defiler",
-                    "points": 190,
+                    "points": 165,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -390,7 +396,7 @@
             "models": [
                 {
                     "name": "Exalted Sorcerer",
-                    "points": 110,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -426,7 +432,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.tsons.dt.cultOfMagic",
+                            "detachmentId": "w40k.10e.tsons.dt.changehostDeceit",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -435,20 +441,136 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Lord of Forbidden Lore",
-                                    "points": 35
+                                    "name": "Diabolic Savant",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Athenaean Scrolls",
+                                    "name": "Duplicitous Malediction",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Nethershriek Mind-eater",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Tome of True Names",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.grandCoven",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eldritch Vortex of E'taph",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Incandaeum",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of Forbidden Lore",
                                     "points": 20
                                 },
                                 {
                                     "name": "Umbralefic Crystal",
                                     "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.rubricaePhalanx",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
                                 },
                                 {
-                                    "name": "Arcane Vortex",
-                                    "points": 25
+                                    "name": "Arcane Thralls",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Lord of the Rubricae",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Risen Rubricae",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "The Stave Abominus",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.warpforgedCabal",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Biomechanical Mutation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Perplexing Cloak",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Warp Syphon",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Warp-cursed Runemaster",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.warpmeldPact",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bray Lord",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Diamond of Distortion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Flowing Flesh",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warpmeld Dagger",
+                                    "points": 10
                                 }
                             ]
                         },
@@ -494,7 +616,7 @@
             "models": [
                 {
                     "name": "Exalted Sorcerer on Disc",
-                    "points": 115,
+                    "points": 100,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -530,7 +652,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.tsons.dt.cultOfMagic",
+                            "detachmentId": "w40k.10e.tsons.dt.changehostDeceit",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -539,20 +661,136 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Lord of Forbidden Lore",
-                                    "points": 35
+                                    "name": "Diabolic Savant",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Athenaean Scrolls",
+                                    "name": "Duplicitous Malediction",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Nethershriek Mind-eater",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Tome of True Names",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.grandCoven",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eldritch Vortex of E'taph",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Incandaeum",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of Forbidden Lore",
                                     "points": 20
                                 },
                                 {
                                     "name": "Umbralefic Crystal",
                                     "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.rubricaePhalanx",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
                                 },
                                 {
-                                    "name": "Arcane Vortex",
-                                    "points": 25
+                                    "name": "Arcane Thralls",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Lord of the Rubricae",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Risen Rubricae",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "The Stave Abominus",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.warpforgedCabal",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Biomechanical Mutation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Perplexing Cloak",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Warp Syphon",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Warp-cursed Runemaster",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.warpmeldPact",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bray Lord",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Diamond of Distortion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Flowing Flesh",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warpmeld Dagger",
+                                    "points": 10
                                 }
                             ]
                         },
@@ -598,7 +836,7 @@
             "models": [
                 {
                     "name": "Forgefiend",
-                    "points": 145,
+                    "points": 140,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -641,7 +879,7 @@
             "models": [
                 {
                     "name": "Helbrute",
-                    "points": 130,
+                    "points": 110,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -708,7 +946,7 @@
             "models": [
                 {
                     "name": "Heldrake",
-                    "points": 195,
+                    "points": 215,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -737,7 +975,7 @@
             "models": [
                 {
                     "name": "Infernal Master",
-                    "points": 105,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -749,7 +987,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.tsons.dt.cultOfMagic",
+                            "detachmentId": "w40k.10e.tsons.dt.changehostDeceit",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -758,20 +996,136 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Lord of Forbidden Lore",
-                                    "points": 35
+                                    "name": "Diabolic Savant",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Athenaean Scrolls",
+                                    "name": "Duplicitous Malediction",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Nethershriek Mind-eater",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Tome of True Names",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.grandCoven",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eldritch Vortex of E'taph",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Incandaeum",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of Forbidden Lore",
                                     "points": 20
                                 },
                                 {
                                     "name": "Umbralefic Crystal",
                                     "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.rubricaePhalanx",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
                                 },
                                 {
-                                    "name": "Arcane Vortex",
-                                    "points": 25
+                                    "name": "Arcane Thralls",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Lord of the Rubricae",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Risen Rubricae",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "The Stave Abominus",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.warpforgedCabal",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Biomechanical Mutation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Perplexing Cloak",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Warp Syphon",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Warp-cursed Runemaster",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.warpmeldPact",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bray Lord",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Diamond of Distortion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Flowing Flesh",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warpmeld Dagger",
+                                    "points": 10
                                 }
                             ]
                         },
@@ -817,7 +1171,7 @@
             "models": [
                 {
                     "name": "Magnus the Red",
-                    "points": 465,
+                    "points": 420,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -839,7 +1193,7 @@
             "models": [
                 {
                     "name": "Maulerfiend",
-                    "points": 140,
+                    "points": 130,
                     "gearset": [
                         {
                             "type": "text",
@@ -874,7 +1228,7 @@
             "models": [
                 {
                     "name": "Mutalith Vortex Beast",
-                    "points": 165
+                    "points": 160
                 }
             ]
         },
@@ -888,12 +1242,12 @@
                 {
                     "name": "Rubric Marine, Aspiring Sorcerer",
                     "amount": 10,
-                    "cost": 200
+                    "cost": 190
                 },
                 {
                     "name": "Rubric Marine, Aspiring Sorcerer",
                     "amount": 5,
-                    "cost": 110
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -974,7 +1328,7 @@
                 {
                     "name": "Scarab Occult Terminator, Scarab Occult Sorcerer",
                     "amount": 10,
-                    "cost": 360
+                    "cost": 375
                 },
                 {
                     "name": "Scarab Occult Terminator, Scarab Occult Sorcerer",
@@ -1056,7 +1410,7 @@
             "models": [
                 {
                     "name": "Sorcerer",
-                    "points": 105,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1085,7 +1439,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.tsons.dt.cultOfMagic",
+                            "detachmentId": "w40k.10e.tsons.dt.changehostDeceit",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1094,20 +1448,136 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Lord of Forbidden Lore",
-                                    "points": 35
+                                    "name": "Diabolic Savant",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Athenaean Scrolls",
+                                    "name": "Duplicitous Malediction",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Nethershriek Mind-eater",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Tome of True Names",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.grandCoven",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eldritch Vortex of E'taph",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Incandaeum",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of Forbidden Lore",
                                     "points": 20
                                 },
                                 {
                                     "name": "Umbralefic Crystal",
                                     "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.rubricaePhalanx",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
                                 },
                                 {
-                                    "name": "Arcane Vortex",
-                                    "points": 25
+                                    "name": "Arcane Thralls",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Lord of the Rubricae",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Risen Rubricae",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "The Stave Abominus",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.warpforgedCabal",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Biomechanical Mutation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Perplexing Cloak",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Warp Syphon",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Warp-cursed Runemaster",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.warpmeldPact",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bray Lord",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Diamond of Distortion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Flowing Flesh",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warpmeld Dagger",
+                                    "points": 10
                                 }
                             ]
                         },
@@ -1153,7 +1623,7 @@
             "models": [
                 {
                     "name": "Sorcerer in Terminator Armour",
-                    "points": 105,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1182,7 +1652,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.tsons.dt.cultOfMagic",
+                            "detachmentId": "w40k.10e.tsons.dt.changehostDeceit",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1191,20 +1661,136 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Lord of Forbidden Lore",
-                                    "points": 35
+                                    "name": "Diabolic Savant",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Athenaean Scrolls",
+                                    "name": "Duplicitous Malediction",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Nethershriek Mind-eater",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Tome of True Names",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.grandCoven",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eldritch Vortex of E'taph",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Incandaeum",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of Forbidden Lore",
                                     "points": 20
                                 },
                                 {
                                     "name": "Umbralefic Crystal",
                                     "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.rubricaePhalanx",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
                                 },
                                 {
-                                    "name": "Arcane Vortex",
-                                    "points": 25
+                                    "name": "Arcane Thralls",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Lord of the Rubricae",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Risen Rubricae",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "The Stave Abominus",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.warpforgedCabal",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Biomechanical Mutation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Perplexing Cloak",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Warp Syphon",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Warp-cursed Runemaster",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.warpmeldPact",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bray Lord",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Diamond of Distortion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Flowing Flesh",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warpmeld Dagger",
+                                    "points": 10
                                 }
                             ]
                         },
@@ -1313,7 +1899,7 @@
             "models": [
                 {
                     "name": "Daemon Prince",
-                    "points": 170,
+                    "points": 180,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1325,7 +1911,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.tsons.dt.cultOfMagic",
+                            "detachmentId": "w40k.10e.tsons.dt.changehostDeceit",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1334,20 +1920,136 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Lord of Forbidden Lore",
-                                    "points": 35
+                                    "name": "Diabolic Savant",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Athenaean Scrolls",
+                                    "name": "Duplicitous Malediction",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Nethershriek Mind-eater",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Tome of True Names",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.grandCoven",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eldritch Vortex of E'taph",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Incandaeum",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of Forbidden Lore",
                                     "points": 20
                                 },
                                 {
                                     "name": "Umbralefic Crystal",
                                     "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.rubricaePhalanx",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
                                 },
                                 {
-                                    "name": "Arcane Vortex",
-                                    "points": 25
+                                    "name": "Arcane Thralls",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Lord of the Rubricae",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Risen Rubricae",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "The Stave Abominus",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.warpforgedCabal",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Biomechanical Mutation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Perplexing Cloak",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Warp Syphon",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Warp-cursed Runemaster",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.warpmeldPact",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bray Lord",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Diamond of Distortion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Flowing Flesh",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warpmeld Dagger",
+                                    "points": 10
                                 }
                             ]
                         },
@@ -1392,8 +2094,8 @@
             "role": "CHARACTER",
             "models": [
                 {
-                    "name": "Daemon Prince",
-                    "points": 180,
+                    "name": "Daemon Prince with Wings",
+                    "points": 170,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1405,7 +2107,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.tsons.dt.cultOfMagic",
+                            "detachmentId": "w40k.10e.tsons.dt.changehostDeceit",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1414,20 +2116,136 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Lord of Forbidden Lore",
-                                    "points": 35
+                                    "name": "Diabolic Savant",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Athenaean Scrolls",
+                                    "name": "Duplicitous Malediction",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Nethershriek Mind-eater",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Tome of True Names",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.grandCoven",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eldritch Vortex of E'taph",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Incandaeum",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of Forbidden Lore",
                                     "points": 20
                                 },
                                 {
                                     "name": "Umbralefic Crystal",
                                     "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.rubricaePhalanx",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
                                 },
                                 {
-                                    "name": "Arcane Vortex",
-                                    "points": 25
+                                    "name": "Arcane Thralls",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Lord of the Rubricae",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Risen Rubricae",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "The Stave Abominus",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.warpforgedCabal",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Biomechanical Mutation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Perplexing Cloak",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Warp Syphon",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Warp-cursed Runemaster",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.warpmeldPact",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bray Lord",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Diamond of Distortion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Flowing Flesh",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warpmeld Dagger",
+                                    "points": 10
                                 }
                             ]
                         },
@@ -1511,9 +2329,6 @@
                                 },
                                 {
                                     "name": "Autopistol, Chainsword"
-                                },
-                                {
-                                    "name": "Fatecaster Greatbow, Close Combat Weapon"
                                 }
                             ]
                         }
@@ -1533,13 +2348,51 @@
                                 },
                                 {
                                     "name": "Autopistol, Chainsword"
-                                },
-                                {
-                                    "name": "Fatecaster Greatbow, Close Combat Weapon"
                                 }
                             ]
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.tzaangorEnlightenedGreatbows",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Tzaangor Enlightened with Fatecaster Greatbows",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Tzaangor Enlightened, Aviarch",
+                    "amount": 6,
+                    "cost": 80
+                },
+                {
+                    "name": "Tzaangor Enlightened, Aviarch",
+                    "amount": 3,
+                    "cost": 50
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Tzaangor Enlightened",
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "type": "model",
+                    "name": "Aviarch",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Tzaangor Enlightened"
+                },
+                {
+                    "name": "Aviarch"
                 }
             ]
         },
@@ -1552,7 +2405,7 @@
             "models": [
                 {
                     "name": "Tzaangor Shaman",
-                    "points": 60,
+                    "points": 55,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1564,7 +2417,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.tsons.dt.cultOfMagic",
+                            "detachmentId": "w40k.10e.tsons.dt.changehostDeceit",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1573,20 +2426,136 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Lord of Forbidden Lore",
-                                    "points": 35
+                                    "name": "Diabolic Savant",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Athenaean Scrolls",
+                                    "name": "Duplicitous Malediction",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Nethershriek Mind-eater",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Tome of True Names",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.grandCoven",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eldritch Vortex of E'taph",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Incandaeum",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Lord of Forbidden Lore",
                                     "points": 20
                                 },
                                 {
                                     "name": "Umbralefic Crystal",
                                     "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.rubricaePhalanx",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
                                 },
                                 {
-                                    "name": "Arcane Vortex",
-                                    "points": 25
+                                    "name": "Arcane Thralls",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Lord of the Rubricae",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Risen Rubricae",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "The Stave Abominus",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.warpforgedCabal",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Biomechanical Mutation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Perplexing Cloak",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Warp Syphon",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Warp-cursed Runemaster",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tsons.dt.warpmeldPact",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bray Lord",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Diamond of Distortion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Flowing Flesh",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warpmeld Dagger",
+                                    "points": 10
                                 }
                             ]
                         },
@@ -1633,12 +2602,12 @@
                 {
                     "name": "Tzaangor, Twistbray",
                     "amount": 20,
-                    "cost": 120
+                    "cost": 160
                 },
                 {
                     "name": "Tzaangor, Twistbray",
                     "amount": 10,
-                    "cost": 65
+                    "cost": 70
                 }
             ],
             "restrictions": [
