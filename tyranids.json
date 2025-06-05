@@ -330,7 +330,7 @@
             "models": [
                 {
                     "name": "Hive Tyrant",
-                    "points": 225,
+                    "points": 195,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2262,6 +2262,54 @@
             ]
         },
         {
+            "id": "w40k.10e.nid.unit.raveners2",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nid",
+            "name": "Raveners",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Ravener",
+                    "amount": 6,
+                    "cost": 150
+                },
+                {
+                    "name": "Ravener",
+                    "amount": 3,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Ravener",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Ravener",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Armored Thorax"
+                            },
+                            "options": [
+                                {
+                                    "name": "Armored Thorax"
+                                },
+                                {
+                                    "name": "Thoracic Bio-weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "w40k.10e.nid.unit.ripperSwarms",
             "type": "unit",
             "rulesetId": "w40k.10e.nid",
@@ -2571,7 +2619,45 @@
             "models": [
                 {
                     "name": "Trygon",
-                    "points": 140
+                    "points": 140,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nid.dt.subterraneanAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Synaptic Strategy",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Tremor Senses",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Trygon Prime",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Vanguard Intellect",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
