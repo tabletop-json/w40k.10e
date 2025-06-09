@@ -14,10 +14,28 @@
     },
     "detachments": [
         {
-            "id": "w40k.10e.ck.dt.lance",
+            "id": "w40k.10e.ck.dt.traitorisLance",
             "type": "detachment",
             "rulesetId": "w40k.10e.ck",
             "name": "Traitoris Lance"
+        },
+        {
+            "id": "w40k.10e.ck.dt.infernalLance",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.ck",
+            "name": "Infernal Lance"
+        },
+        {
+            "id": "w40k.10e.ck.dt.lordsDread",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.ck",
+            "name": "Lords of Dread"
+        },
+        {
+            "id": "w40k.10e.ck.dt.houndpack",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.ck",
+            "name": "Houndpack Lance"
         },
         {
             "id": "w40k.10e.ck.dt.iconoclastFiefdom",
@@ -32,12 +50,19 @@
             "type": "unit",
             "rulesetId": "w40k.10e.ck",
             "name": "War Dog Executioner",
-            "role": "BATTLELINE",
+            "role": "VEHICLE",
             "models": [
                 {
                     "name": "War Dog Executioner",
                     "points": 130,
                     "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
                         {
                             "type": "text",
                             "selectedOption": {
@@ -57,6 +82,35 @@
                                     "name": "Daemonbreath Meltagun"
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.houndpack",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Preyslayer's Mantle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Final Howl (Aura)",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Loping Predator",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Panoply of the Cursed Knights",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -67,7 +121,7 @@
             "type": "unit",
             "rulesetId": "w40k.10e.ck",
             "name": "War Dog Stalker",
-            "role": "CHARACTER",
+            "role": "VEHICLE",
             "models": [
                 {
                     "name": "War Dog Stalker",
@@ -75,6 +129,7 @@
                     "gearset": [
                         {
                             "type": "checkbox",
+                            "detachmentId": "w40k.10e.ck.dt.houndpack",
                             "selectedOption": {
                                 "name": "WARLORD"
                             },
@@ -125,7 +180,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ck.dt.lance",
+                            "detachmentId": "w40k.10e.ck.dt.houndpack",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -134,49 +189,20 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Lord of Dread",
+                                    "name": "Preyslayer's Mantle",
                                     "points": 15
                                 },
                                 {
-                                    "name": "Aura of Terror",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "The Traitor's Mark",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Panoply of the Cursed Knights",
-                                    "points": 40
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.ck.dt.iconoclastFiefdom",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Profane Altar",
+                                    "name": "Final Howl (Aura)",
                                     "points": 20
                                 },
                                 {
-                                    "name": "Pave the Way",
+                                    "name": "Loping Predator",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Panoply of the Cursed Knights",
                                     "points": 15
-                                },
-                                {
-                                    "name": "Tyrant's Banner",
-                                    "points": 5
-                                },
-                                {
-                                    "name": "Diabolical Resilience",
-                                    "points": 35
                                 }
                             ]
                         }
@@ -189,12 +215,20 @@
             "type": "unit",
             "rulesetId": "w40k.10e.ck",
             "name": "War Dog Karnivore",
-            "role": "BATTLELINE",
+            "role": "VEHICLE",
             "models": [
                 {
                     "name": "War Dog Karnivore",
                     "points": 140,
                     "gearset": [
+                        {
+                            "type": "checkbox",
+                            "detachmentId": "w40k.10e.ck.dt.houndpack",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
                         {
                             "type": "text",
                             "selectedOption": {
@@ -220,6 +254,35 @@
                                     "name": "Havoc Multi-launcher"
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.houndpack",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Preyslayer's Mantle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Final Howl (Aura)",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Loping Predator",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Panoply of the Cursed Knights",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -230,12 +293,20 @@
             "type": "unit",
             "rulesetId": "w40k.10e.ck",
             "name": "War Dog Brigand",
-            "role": "BATTLELINE",
+            "role": "VEHICLE",
             "models": [
                 {
                     "name": "War Dog Brigand",
-                    "points": 165,
+                    "points": 140,
                     "gearset": [
+                        {
+                            "type": "checkbox",
+                            "detachmentId": "w40k.10e.ck.dt.houndpack",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
                         {
                             "type": "text",
                             "selectedOption": {
@@ -261,6 +332,35 @@
                                     "name": "Havoc Multi-launcher"
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.houndpack",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Preyslayer's Mantle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Final Howl (Aura)",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Loping Predator",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Panoply of the Cursed Knights",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -271,12 +371,20 @@
             "type": "unit",
             "rulesetId": "w40k.10e.ck",
             "name": "War Dog Huntsman",
-            "role": "BATTLELINE",
+            "role": "VEHICLE",
             "models": [
                 {
                     "name": "War Dog Huntsman",
                     "points": 140,
                     "gearset": [
+                        {
+                            "type": "checkbox",
+                            "detachmentId": "w40k.10e.ck.dt.houndpack",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
                         {
                             "type": "text",
                             "selectedOption": {
@@ -302,6 +410,35 @@
                                     "name": "Daemonbreath Meltagun"
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.houndpack",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Preyslayer's Mantle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Final Howl (Aura)",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Loping Predator",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Panoply of the Cursed Knights",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -316,7 +453,7 @@
             "models": [
                 {
                     "name": "Knight Despoiler",
-                    "points": 400,
+                    "points": 335,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -402,7 +539,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ck.dt.lance",
+                            "detachmentId": "w40k.10e.ck.dt.traitorisLance",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -411,20 +548,86 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Lord of Dread",
-                                    "points": 15
+                                    "name": "Nightmare's Master",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Aura of Terror",
+                                    "name": "Tyrant's Shadow",
                                     "points": 25
                                 },
                                 {
-                                    "name": "The Traitor's Mark",
+                                    "name": "Malevolent Heraldry",
                                     "points": 30
                                 },
                                 {
-                                    "name": "Panoply of the Cursed Knights",
-                                    "points": 40
+                                    "name": "Veil of Medrengard",
+                                    "points": 35
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.infernalLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Knight Diabolus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Blasphemous Engine",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Fleshmetal Fusion",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Bestial Aspect",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.lordsDread",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blade of Celerity",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Blessing of the Dark Master",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mirror of Fates",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Putrid Carapace",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Throne Mechanicum of Skulls",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Warp-borne Stalker",
+                                    "points": 10
                                 }
                             ]
                         },
@@ -470,7 +673,7 @@
             "models": [
                 {
                     "name": "Knight Desecrator",
-                    "points": 400,
+                    "points": 335,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -502,7 +705,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ck.dt.lance",
+                            "detachmentId": "w40k.10e.ck.dt.traitorisLance",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -511,20 +714,232 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Lord of Dread",
-                                    "points": 15
+                                    "name": "Nightmare's Master",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Aura of Terror",
+                                    "name": "Tyrant's Shadow",
                                     "points": 25
                                 },
                                 {
-                                    "name": "The Traitor's Mark",
+                                    "name": "Malevolent Heraldry",
                                     "points": 30
                                 },
                                 {
-                                    "name": "Panoply of the Cursed Knights",
-                                    "points": 40
+                                    "name": "Veil of Medrengard",
+                                    "points": 35
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.infernalLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Knight Diabolus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Blasphemous Engine",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Fleshmetal Fusion",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Bestial Aspect",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.lordsDread",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blade of Celerity",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Blessing of the Dark Master",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mirror of Fates",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Putrid Carapace",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Throne Mechanicum of Skulls",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Warp-borne Stalker",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.iconoclastFiefdom",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Profane Altar",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Pave the Way",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Tyrant's Banner",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Diabolical Resilience",
+                                    "points": 35
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ck.unit.ruinator",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "name": "Knight Ruinator",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Knight Ruinator",
+                    "points": 350,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.traitorisLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Nightmare's Master",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Tyrant's Shadow",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Malevolent Heraldry",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Veil of Medrengard",
+                                    "points": 35
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.infernalLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Knight Diabolus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Blasphemous Engine",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Fleshmetal Fusion",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Bestial Aspect",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.lordsDread",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blade of Celerity",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Blessing of the Dark Master",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mirror of Fates",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Putrid Carapace",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Throne Mechanicum of Skulls",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Warp-borne Stalker",
+                                    "points": 10
                                 }
                             ]
                         },
@@ -570,7 +985,7 @@
             "models": [
                 {
                     "name": "Knight Rampager",
-                    "points": 380,
+                    "points": 335,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -594,7 +1009,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ck.dt.lance",
+                            "detachmentId": "w40k.10e.ck.dt.traitorisLance",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -603,20 +1018,86 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Lord of Dread",
-                                    "points": 15
+                                    "name": "Nightmare's Master",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Aura of Terror",
+                                    "name": "Tyrant's Shadow",
                                     "points": 25
                                 },
                                 {
-                                    "name": "The Traitor's Mark",
+                                    "name": "Malevolent Heraldry",
                                     "points": 30
                                 },
                                 {
-                                    "name": "Panoply of the Cursed Knights",
-                                    "points": 40
+                                    "name": "Veil of Medrengard",
+                                    "points": 35
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.infernalLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Knight Diabolus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Blasphemous Engine",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Fleshmetal Fusion",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Bestial Aspect",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.lordsDread",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blade of Celerity",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Blessing of the Dark Master",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mirror of Fates",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Putrid Carapace",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Throne Mechanicum of Skulls",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Warp-borne Stalker",
+                                    "points": 10
                                 }
                             ]
                         },
@@ -662,7 +1143,7 @@
             "models": [
                 {
                     "name": "Knight Abominant",
-                    "points": 365,
+                    "points": 325,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -692,7 +1173,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ck.dt.lance",
+                            "detachmentId": "w40k.10e.ck.dt.traitorisLance",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -701,20 +1182,86 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Lord of Dread",
-                                    "points": 15
+                                    "name": "Nightmare's Master",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Aura of Terror",
+                                    "name": "Tyrant's Shadow",
                                     "points": 25
                                 },
                                 {
-                                    "name": "The Traitor's Mark",
+                                    "name": "Malevolent Heraldry",
                                     "points": 30
                                 },
                                 {
-                                    "name": "Panoply of the Cursed Knights",
-                                    "points": 40
+                                    "name": "Veil of Medrengard",
+                                    "points": 35
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.infernalLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Knight Diabolus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Blasphemous Engine",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Fleshmetal Fusion",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Bestial Aspect",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.lordsDread",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blade of Celerity",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Blessing of the Dark Master",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mirror of Fates",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Putrid Carapace",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Throne Mechanicum of Skulls",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Warp-borne Stalker",
+                                    "points": 10
                                 }
                             ]
                         },
@@ -760,7 +1307,7 @@
             "models": [
                 {
                     "name": "Knight Tyrant",
-                    "points": 480,
+                    "points": 395,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -806,7 +1353,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ck.dt.lance",
+                            "detachmentId": "w40k.10e.ck.dt.traitorisLance",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -815,20 +1362,86 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Lord of Dread",
-                                    "points": 15
+                                    "name": "Nightmare's Master",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Aura of Terror",
+                                    "name": "Tyrant's Shadow",
                                     "points": 25
                                 },
                                 {
-                                    "name": "The Traitor's Mark",
+                                    "name": "Malevolent Heraldry",
                                     "points": 30
                                 },
                                 {
-                                    "name": "Panoply of the Cursed Knights",
-                                    "points": 40
+                                    "name": "Veil of Medrengard",
+                                    "points": 35
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.infernalLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Knight Diabolus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Blasphemous Engine",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Fleshmetal Fusion",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Bestial Aspect",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.lordsDread",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blade of Celerity",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Blessing of the Dark Master",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mirror of Fates",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Putrid Carapace",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Throne Mechanicum of Skulls",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Warp-borne Stalker",
+                                    "points": 10
                                 }
                             ]
                         },
@@ -959,7 +1572,7 @@
             "models": [
                 {
                     "name": "Cerastus Knight Lancer",
-                    "points": 420,
+                    "points": 355,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -977,7 +1590,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ck.dt.lance",
+                            "detachmentId": "w40k.10e.ck.dt.traitorisLance",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -986,20 +1599,86 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Lord of Dread",
-                                    "points": 15
+                                    "name": "Nightmare's Master",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Aura of Terror",
+                                    "name": "Tyrant's Shadow",
                                     "points": 25
                                 },
                                 {
-                                    "name": "The Traitor's Mark",
+                                    "name": "Malevolent Heraldry",
                                     "points": 30
                                 },
                                 {
-                                    "name": "Panoply of the Cursed Knights",
-                                    "points": 40
+                                    "name": "Veil of Medrengard",
+                                    "points": 35
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.infernalLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Knight Diabolus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Blasphemous Engine",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Fleshmetal Fusion",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Bestial Aspect",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.lordsDread",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blade of Celerity",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Blessing of the Dark Master",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mirror of Fates",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Putrid Carapace",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Throne Mechanicum of Skulls",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Warp-borne Stalker",
+                                    "points": 10
                                 }
                             ]
                         },
@@ -1045,7 +1724,7 @@
             "models": [
                 {
                     "name": "Cerastus Knight Castigator",
-                    "points": 445,
+                    "points": 355,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1069,7 +1748,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ck.dt.lance",
+                            "detachmentId": "w40k.10e.ck.dt.traitorisLance",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1078,20 +1757,86 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Lord of Dread",
-                                    "points": 15
+                                    "name": "Nightmare's Master",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Aura of Terror",
+                                    "name": "Tyrant's Shadow",
                                     "points": 25
                                 },
                                 {
-                                    "name": "The Traitor's Mark",
+                                    "name": "Malevolent Heraldry",
                                     "points": 30
                                 },
                                 {
-                                    "name": "Panoply of the Cursed Knights",
-                                    "points": 40
+                                    "name": "Veil of Medrengard",
+                                    "points": 35
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.infernalLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Knight Diabolus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Blasphemous Engine",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Fleshmetal Fusion",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Bestial Aspect",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.lordsDread",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blade of Celerity",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Blessing of the Dark Master",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mirror of Fates",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Putrid Carapace",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Throne Mechanicum of Skulls",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Warp-borne Stalker",
+                                    "points": 10
                                 }
                             ]
                         },
@@ -1137,7 +1882,7 @@
             "models": [
                 {
                     "name": "Cerastus Knight Acheron",
-                    "points": 420,
+                    "points": 355,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1167,7 +1912,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ck.dt.lance",
+                            "detachmentId": "w40k.10e.ck.dt.traitorisLance",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1176,20 +1921,86 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Lord of Dread",
-                                    "points": 15
+                                    "name": "Nightmare's Master",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Aura of Terror",
+                                    "name": "Tyrant's Shadow",
                                     "points": 25
                                 },
                                 {
-                                    "name": "The Traitor's Mark",
+                                    "name": "Malevolent Heraldry",
                                     "points": 30
                                 },
                                 {
-                                    "name": "Panoply of the Cursed Knights",
-                                    "points": 40
+                                    "name": "Veil of Medrengard",
+                                    "points": 35
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.infernalLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Knight Diabolus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Blasphemous Engine",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Fleshmetal Fusion",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Bestial Aspect",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.lordsDread",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blade of Celerity",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Blessing of the Dark Master",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mirror of Fates",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Putrid Carapace",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Throne Mechanicum of Skulls",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Warp-borne Stalker",
+                                    "points": 10
                                 }
                             ]
                         },
@@ -1235,7 +2046,7 @@
             "models": [
                 {
                     "name": "Cerastus Knight Atrapos",
-                    "points": 420,
+                    "points": 355,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1259,7 +2070,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ck.dt.lance",
+                            "detachmentId": "w40k.10e.ck.dt.traitorisLance",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1268,20 +2079,86 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Lord of Dread",
-                                    "points": 15
+                                    "name": "Nightmare's Master",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Aura of Terror",
+                                    "name": "Tyrant's Shadow",
                                     "points": 25
                                 },
                                 {
-                                    "name": "The Traitor's Mark",
+                                    "name": "Malevolent Heraldry",
                                     "points": 30
                                 },
                                 {
-                                    "name": "Panoply of the Cursed Knights",
-                                    "points": 40
+                                    "name": "Veil of Medrengard",
+                                    "points": 35
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.infernalLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Knight Diabolus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Blasphemous Engine",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Fleshmetal Fusion",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Bestial Aspect",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.lordsDread",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blade of Celerity",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Blessing of the Dark Master",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mirror of Fates",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Putrid Carapace",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Throne Mechanicum of Skulls",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Warp-borne Stalker",
+                                    "points": 10
                                 }
                             ]
                         },
@@ -1327,7 +2204,7 @@
             "models": [
                 {
                     "name": "Questoris Knight Magaera",
-                    "points": 435,
+                    "points": 345,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1365,7 +2242,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ck.dt.lance",
+                            "detachmentId": "w40k.10e.ck.dt.traitorisLance",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1374,20 +2251,86 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Lord of Dread",
-                                    "points": 15
+                                    "name": "Nightmare's Master",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Aura of Terror",
+                                    "name": "Tyrant's Shadow",
                                     "points": 25
                                 },
                                 {
-                                    "name": "The Traitor's Mark",
+                                    "name": "Malevolent Heraldry",
                                     "points": 30
                                 },
                                 {
-                                    "name": "Panoply of the Cursed Knights",
-                                    "points": 40
+                                    "name": "Veil of Medrengard",
+                                    "points": 35
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.infernalLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Knight Diabolus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Blasphemous Engine",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Fleshmetal Fusion",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Bestial Aspect",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.lordsDread",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blade of Celerity",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Blessing of the Dark Master",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mirror of Fates",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Putrid Carapace",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Throne Mechanicum of Skulls",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Warp-borne Stalker",
+                                    "points": 10
                                 }
                             ]
                         },
@@ -1433,7 +2376,7 @@
             "models": [
                 {
                     "name": "Questoris Knight Styrix",
-                    "points": 430,
+                    "points": 345,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1471,7 +2414,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ck.dt.lance",
+                            "detachmentId": "w40k.10e.ck.dt.traitorisLance",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1480,20 +2423,86 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Lord of Dread",
-                                    "points": 15
+                                    "name": "Nightmare's Master",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Aura of Terror",
+                                    "name": "Tyrant's Shadow",
                                     "points": 25
                                 },
                                 {
-                                    "name": "The Traitor's Mark",
+                                    "name": "Malevolent Heraldry",
                                     "points": 30
                                 },
                                 {
-                                    "name": "Panoply of the Cursed Knights",
-                                    "points": 40
+                                    "name": "Veil of Medrengard",
+                                    "points": 35
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.infernalLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Knight Diabolus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Blasphemous Engine",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Fleshmetal Fusion",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Bestial Aspect",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.lordsDread",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blade of Celerity",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Blessing of the Dark Master",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mirror of Fates",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Putrid Carapace",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Throne Mechanicum of Skulls",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Warp-borne Stalker",
+                                    "points": 10
                                 }
                             ]
                         },
@@ -1535,11 +2544,11 @@
             "type": "unit",
             "rulesetId": "w40k.10e.ck",
             "name": "War Dog Moirax",
-            "role": "BATTLELINE",
+            "role": "VEHICLE",
             "models": [
                 {
                     "name": "War Dog Moirax",
-                    "points": 160,
+                    "points": 150,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1584,6 +2593,35 @@
                                 },
                                 {
                                     "name": "Volkite Veuglaire"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ck.dt.houndpack",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Preyslayer's Mantle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Final Howl (Aura)",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Loping Predator",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Panoply of the Cursed Knights",
+                                    "points": 15
                                 }
                             ]
                         }
