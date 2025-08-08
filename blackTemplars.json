@@ -58,10 +58,24 @@
             "name": "Librarius Conclave"
         },
         {
-            "id": "w40k.10e.bt.dt.righteousCrusaders",
+            "id": "w40k.10e.bt.dt.companionsVehemence",
             "type": "detachment",
             "rulesetId": "w40k.10e.bt",
-            "name": "Righteous Crusaders",
+            "name": "Companions of Vehemence",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.bt.dt.godhammerAssaultForce",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.bt",
+            "name": "Godhammer Assault Force",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.bt.dt.vindicationTaskForce",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.bt",
+            "name": "Vindication Task Force",
             "rule": ""
         },
         {
@@ -329,6 +343,93 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.companionsVehemence",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Incendiary Animus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Merciless Denunciation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Oathbound Exemplar",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zealous Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.godhammerAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Augury Servo-host",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Battle-psalm Precentor",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Sacred Slaughter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Paragon of Fury",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.vindicationTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Consecrating Aura",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Imperialis of the Eternal Crusade",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orb of the Emperor's Aegis",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warden of Honour",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -632,6 +733,93 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.companionsVehemence",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Incendiary Animus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Merciless Denunciation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Oathbound Exemplar",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zealous Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.godhammerAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Augury Servo-host",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Battle-psalm Precentor",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Sacred Slaughter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Paragon of Fury",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.vindicationTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Consecrating Aura",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Imperialis of the Eternal Crusade",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orb of the Emperor's Aegis",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warden of Honour",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.bt.dt.wrathfulProcession",
                             "selectedOption": {
                                 "name": ""
@@ -902,6 +1090,93 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.companionsVehemence",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Incendiary Animus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Merciless Denunciation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Oathbound Exemplar",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zealous Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.godhammerAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Augury Servo-host",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Battle-psalm Precentor",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Sacred Slaughter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Paragon of Fury",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.vindicationTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Consecrating Aura",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Imperialis of the Eternal Crusade",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orb of the Emperor's Aegis",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warden of Honour",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.bt.dt.wrathfulProcession",
                             "selectedOption": {
                                 "name": ""
@@ -1146,6 +1421,93 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.companionsVehemence",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Incendiary Animus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Merciless Denunciation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Oathbound Exemplar",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zealous Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.godhammerAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Augury Servo-host",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Battle-psalm Precentor",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Sacred Slaughter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Paragon of Fury",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.vindicationTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Consecrating Aura",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Imperialis of the Eternal Crusade",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orb of the Emperor's Aegis",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warden of Honour",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -1430,6 +1792,93 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.companionsVehemence",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Incendiary Animus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Merciless Denunciation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Oathbound Exemplar",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zealous Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.godhammerAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Augury Servo-host",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Battle-psalm Precentor",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Sacred Slaughter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Paragon of Fury",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.vindicationTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Consecrating Aura",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Imperialis of the Eternal Crusade",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orb of the Emperor's Aegis",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warden of Honour",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.bt.dt.wrathfulProcession",
                             "selectedOption": {
                                 "name": ""
@@ -1680,6 +2129,93 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.companionsVehemence",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Incendiary Animus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Merciless Denunciation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Oathbound Exemplar",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zealous Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.godhammerAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Augury Servo-host",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Battle-psalm Precentor",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Sacred Slaughter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Paragon of Fury",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.vindicationTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Consecrating Aura",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Imperialis of the Eternal Crusade",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orb of the Emperor's Aegis",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warden of Honour",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.bt.dt.wrathfulProcession",
                             "selectedOption": {
                                 "name": ""
@@ -1924,6 +2460,93 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.companionsVehemence",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Incendiary Animus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Merciless Denunciation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Oathbound Exemplar",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zealous Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.godhammerAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Augury Servo-host",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Battle-psalm Precentor",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Sacred Slaughter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Paragon of Fury",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.vindicationTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Consecrating Aura",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Imperialis of the Eternal Crusade",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orb of the Emperor's Aegis",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warden of Honour",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -2247,6 +2870,93 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.companionsVehemence",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Incendiary Animus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Merciless Denunciation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Oathbound Exemplar",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zealous Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.godhammerAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Augury Servo-host",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Battle-psalm Precentor",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Sacred Slaughter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Paragon of Fury",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.vindicationTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Consecrating Aura",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Imperialis of the Eternal Crusade",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orb of the Emperor's Aegis",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warden of Honour",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.bt.dt.wrathfulProcession",
                             "selectedOption": {
                                 "name": ""
@@ -2491,6 +3201,93 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.companionsVehemence",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Incendiary Animus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Merciless Denunciation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Oathbound Exemplar",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zealous Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.godhammerAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Augury Servo-host",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Battle-psalm Precentor",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Sacred Slaughter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Paragon of Fury",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.vindicationTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Consecrating Aura",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Imperialis of the Eternal Crusade",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orb of the Emperor's Aegis",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warden of Honour",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -2793,6 +3590,93 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.companionsVehemence",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Incendiary Animus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Merciless Denunciation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Oathbound Exemplar",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zealous Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.godhammerAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Augury Servo-host",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Battle-psalm Precentor",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Sacred Slaughter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Paragon of Fury",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.vindicationTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Consecrating Aura",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Imperialis of the Eternal Crusade",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orb of the Emperor's Aegis",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warden of Honour",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.bt.dt.wrathfulProcession",
                             "selectedOption": {
                                 "name": ""
@@ -3062,6 +3946,93 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.companionsVehemence",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Incendiary Animus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Merciless Denunciation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Oathbound Exemplar",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zealous Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.godhammerAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Augury Servo-host",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Battle-psalm Precentor",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Sacred Slaughter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Paragon of Fury",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.vindicationTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Consecrating Aura",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Imperialis of the Eternal Crusade",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orb of the Emperor's Aegis",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warden of Honour",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -3361,6 +4332,93 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.companionsVehemence",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Incendiary Animus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Merciless Denunciation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Oathbound Exemplar",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zealous Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.godhammerAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Augury Servo-host",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Battle-psalm Precentor",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Sacred Slaughter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Paragon of Fury",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.vindicationTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Consecrating Aura",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Imperialis of the Eternal Crusade",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orb of the Emperor's Aegis",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warden of Honour",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.bt.dt.wrathfulProcession",
                             "selectedOption": {
                                 "name": ""
@@ -3615,6 +4673,93 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.companionsVehemence",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Incendiary Animus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Merciless Denunciation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Oathbound Exemplar",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zealous Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.godhammerAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Augury Servo-host",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Battle-psalm Precentor",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Sacred Slaughter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Paragon of Fury",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.vindicationTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Consecrating Aura",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Imperialis of the Eternal Crusade",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orb of the Emperor's Aegis",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warden of Honour",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.bt.dt.wrathfulProcession",
                             "selectedOption": {
                                 "name": ""
@@ -3863,6 +5008,93 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.companionsVehemence",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Incendiary Animus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Merciless Denunciation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Oathbound Exemplar",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zealous Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.godhammerAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Augury Servo-host",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Battle-psalm Precentor",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Sacred Slaughter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Paragon of Fury",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.vindicationTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Consecrating Aura",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Imperialis of the Eternal Crusade",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orb of the Emperor's Aegis",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warden of Honour",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -4158,6 +5390,93 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.companionsVehemence",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Incendiary Animus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Merciless Denunciation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Oathbound Exemplar",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zealous Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.godhammerAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Augury Servo-host",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Battle-psalm Precentor",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Sacred Slaughter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Paragon of Fury",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.vindicationTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Consecrating Aura",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Imperialis of the Eternal Crusade",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orb of the Emperor's Aegis",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warden of Honour",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.bt.dt.wrathfulProcession",
                             "selectedOption": {
                                 "name": ""
@@ -4406,6 +5725,93 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.companionsVehemence",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Incendiary Animus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Merciless Denunciation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Oathbound Exemplar",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zealous Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.godhammerAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Augury Servo-host",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Battle-psalm Precentor",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Sacred Slaughter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Paragon of Fury",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.vindicationTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Consecrating Aura",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Imperialis of the Eternal Crusade",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orb of the Emperor's Aegis",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warden of Honour",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -4968,6 +6374,93 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.companionsVehemence",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Incendiary Animus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Merciless Denunciation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Oathbound Exemplar",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zealous Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.godhammerAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Augury Servo-host",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Battle-psalm Precentor",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Sacred Slaughter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Paragon of Fury",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.vindicationTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Consecrating Aura",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Imperialis of the Eternal Crusade",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orb of the Emperor's Aegis",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warden of Honour",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -5649,6 +7142,93 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.companionsVehemence",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Incendiary Animus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Merciless Denunciation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Oathbound Exemplar",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zealous Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.godhammerAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Augury Servo-host",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Battle-psalm Precentor",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Sacred Slaughter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Paragon of Fury",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.vindicationTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Consecrating Aura",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Imperialis of the Eternal Crusade",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orb of the Emperor's Aegis",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warden of Honour",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.bt.dt.wrathfulProcession",
                             "selectedOption": {
                                 "name": ""
@@ -5899,6 +7479,93 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.companionsVehemence",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Incendiary Animus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Merciless Denunciation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Oathbound Exemplar",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zealous Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.godhammerAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Augury Servo-host",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Battle-psalm Precentor",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Sacred Slaughter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Paragon of Fury",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.vindicationTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Consecrating Aura",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Imperialis of the Eternal Crusade",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orb of the Emperor's Aegis",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warden of Honour",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.bt.dt.wrathfulProcession",
                             "selectedOption": {
                                 "name": ""
@@ -5926,15 +7593,15 @@
             ]
         },
         {
-            "id": "w40k.10e.bt.unit.ancient",
+            "id": "w40k.10e.bt.unit.crusadeAncient",
             "type": "unit",
             "rulesetId": "w40k.10e.bt",
-            "name": "Ancient",
+            "name": "Crusade Ancient",
             "role": "CHARACTER",
             "models": [
                 {
-                    "name": "Ancient",
-                    "points": 50,
+                    "name": "Crusade Ancient",
+                    "points": 65,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -6157,6 +7824,93 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.companionsVehemence",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Incendiary Animus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Merciless Denunciation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Oathbound Exemplar",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zealous Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.godhammerAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Augury Servo-host",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Battle-psalm Precentor",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Sacred Slaughter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Paragon of Fury",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.vindicationTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Consecrating Aura",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Imperialis of the Eternal Crusade",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orb of the Emperor's Aegis",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warden of Honour",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -6407,6 +8161,93 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.companionsVehemence",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Incendiary Animus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Merciless Denunciation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Oathbound Exemplar",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zealous Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.godhammerAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Augury Servo-host",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Battle-psalm Precentor",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Sacred Slaughter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Paragon of Fury",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.vindicationTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Consecrating Aura",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Imperialis of the Eternal Crusade",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orb of the Emperor's Aegis",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warden of Honour",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -6692,6 +8533,93 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.companionsVehemence",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Incendiary Animus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Merciless Denunciation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Oathbound Exemplar",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zealous Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.godhammerAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Augury Servo-host",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Battle-psalm Precentor",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Sacred Slaughter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Paragon of Fury",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.vindicationTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Consecrating Aura",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Imperialis of the Eternal Crusade",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orb of the Emperor's Aegis",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warden of Honour",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.bt.dt.wrathfulProcession",
                             "selectedOption": {
                                 "name": ""
@@ -6885,12 +8813,12 @@
                 {
                     "name": "Sternguard Veteran, Sternguard Veteran Sergeant",
                     "amount": 10,
-                    "cost": 200
+                    "cost": 170
                 },
                 {
                     "name": "Sternguard Veteran, Sternguard Veteran Sergeant",
                     "amount": 5,
-                    "cost": 100
+                    "cost": 85
                 }
             ],
             "restrictions": [
@@ -7190,6 +9118,93 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.companionsVehemence",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Incendiary Animus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Merciless Denunciation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Oathbound Exemplar",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zealous Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.godhammerAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Augury Servo-host",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Battle-psalm Precentor",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Sacred Slaughter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Paragon of Fury",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.vindicationTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Consecrating Aura",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Imperialis of the Eternal Crusade",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orb of the Emperor's Aegis",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warden of Honour",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -7517,12 +9532,12 @@
                 {
                     "name": "Terminator, Terminator Sergeant",
                     "amount": 10,
-                    "cost": 340
+                    "cost": 330
                 },
                 {
                     "name": "Terminator, Terminator Sergeant",
                     "amount": 5,
-                    "cost": 170
+                    "cost": 175
                 }
             ],
             "restrictions": [
@@ -8855,107 +10870,6 @@
             ]
         },
         {
-            "id": "w40k.10e.bt.unit.gladiatorLancer",
-            "type": "unit",
-            "rulesetId": "w40k.10e.bt",
-            "name": "Gladiator Lancer",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Gladiator Lancer",
-                    "points": 160,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "2x Storm Bolter"
-                            },
-                            "options": [
-                                {
-                                    "name": "2x Storm Bolter"
-                                },
-                                {
-                                    "name": "2x Fragstorm Grenade Launcher"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Icarus Rocket Pod"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Ironhail Heavy Stubber"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.bt.unit.gladiatorReaper",
-            "type": "unit",
-            "rulesetId": "w40k.10e.bt",
-            "name": "Gladiator Reaper",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Gladiator Reaper",
-                    "points": 160,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Icarus Rocket Pod"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Ironhail Heavy Stubber"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.bt.unit.gladiatorValiant",
-            "type": "unit",
-            "rulesetId": "w40k.10e.bt",
-            "name": "Gladiator Valiant",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Gladiator Valiant",
-                    "points": 160,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Icarus Rocket Pod"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Ironhail Heavy Stubber"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "id": "w40k.10e.bt.unit.vindicator",
             "type": "unit",
             "rulesetId": "w40k.10e.bt",
@@ -9093,92 +11007,6 @@
             ]
         },
         {
-            "id": "w40k.10e.bt.unit.repulsor",
-            "type": "unit",
-            "rulesetId": "w40k.10e.bt",
-            "name": "Repulsor",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Repulsor",
-                    "points": 180,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Twin Heavy Bolter"
-                            },
-                            "options": [
-                                {
-                                    "name": "Twin Heavy Bolter"
-                                },
-                                {
-                                    "name": "Twin Lascannon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Heavy Onslaught Gatling Cannon"
-                            },
-                            "options": [
-                                {
-                                    "name": "Heavy Onslaught Gatling Cannon"
-                                },
-                                {
-                                    "name": "Las-talon"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.bt.unit.repulsorExecutioner",
-            "type": "unit",
-            "rulesetId": "w40k.10e.bt",
-            "name": "Repulsor Executioner",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Repulsor Executioner",
-                    "points": 220,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Macro Plasma Incinerator"
-                            },
-                            "options": [
-                                {
-                                    "name": "Macro Plasma Incinerator"
-                                },
-                                {
-                                    "name": "Heavy Laser Destroyer"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Icarus Rocket Pod"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Ironhail Heavy Stubber"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "id": "w40k.10e.bt.unit.rhino",
             "type": "unit",
             "rulesetId": "w40k.10e.bt",
@@ -9238,65 +11066,6 @@
                                 "name": "Ironhail Heavy Stubber"
                             },
                             "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.bt.unit.impulsor",
-            "type": "unit",
-            "rulesetId": "w40k.10e.bt",
-            "name": "Impulsor",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Impulsor",
-                    "points": 80,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "2x Storm Bolter"
-                            },
-                            "options": [
-                                {
-                                    "name": "2x Storm Bolter"
-                                },
-                                {
-                                    "name": "2x Fragstorm Grenade Launcher"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Ironhail Heavy Stubber"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Bellicatus Missile Array"
-                                },
-                                {
-                                    "name": "Ironhail Skytalon Array"
-                                },
-                                {
-                                    "name": "Orbital Comms Array"
-                                },
-                                {
-                                    "name": "Shield Dome"
-                                }
-                            ]
                         }
                     ]
                 }
@@ -9603,7 +11372,7 @@
                 {
                     "name": "Chaplain Grimaldus, Cenobyte Servitors",
                     "amount": 4,
-                    "cost": 120
+                    "cost": 110
                 }
             ],
             "models": [
@@ -9638,32 +11407,22 @@
             "role": "BATTLELINE",
             "points": [
                 {
-                    "name": "Sword Brother, Initiate",
-                    "amount": 5,
-                    "cost": 10
-                },
-                {
                     "name": "Sword Brother, Initiate, Neophyte",
                     "amount": 20,
-                    "cost": 20
+                    "cost": 310
                 },
                 {
                     "name": "Sword Brother, Initiate, Neophyte",
                     "amount": 10,
-                    "cost": 0
-                },
-                {
-                    "name": "Sword Brother, Initiate",
-                    "amount": 10,
-                    "cost": 0
+                    "cost": 150
                 }
             ],
             "restrictions": [
                 {
                     "type": "model",
                     "name": "Initiate",
-                    "min": 4,
-                    "max": 9
+                    "min": 5,
+                    "max": 11
                 },
                 {
                     "type": "model",
@@ -9674,14 +11433,13 @@
                 {
                     "type": "model",
                     "name": "Neophyte",
-                    "min": 0,
-                    "max": 10
+                    "min": 4,
+                    "max": 8
                 }
             ],
             "blueprints": [
                 {
                     "name": "Initiate",
-                    "points": 15,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -9740,7 +11498,6 @@
                 },
                 {
                     "name": "Neophyte",
-                    "points": 12,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -9763,352 +11520,6 @@
                 },
                 {
                     "name": "Sword Brother",
-                    "points": 15,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                },
-                                {
-                                    "name": "Grav-pistol"
-                                },
-                                {
-                                    "name": "Hand Flamer"
-                                },
-                                {
-                                    "name": "Inferno Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Boltgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                },
-                                {
-                                    "name": "Grav-pistol"
-                                },
-                                {
-                                    "name": "Hand Flamer"
-                                },
-                                {
-                                    "name": "Inferno Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Twin Lightning Claws"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ],
-            "models": [
-                {
-                    "name": "Initiate",
-                    "points": 15,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Boltgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Flamer"
-                                },
-                                {
-                                    "name": "Plasma Gun"
-                                },
-                                {
-                                    "name": "Meltagun"
-                                },
-                                {
-                                    "name": "Grav-gun"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Heavy Bolter"
-                                },
-                                {
-                                    "name": "Heavy Flamer"
-                                },
-                                {
-                                    "name": "Grav-cannon"
-                                },
-                                {
-                                    "name": "Lascannon"
-                                },
-                                {
-                                    "name": "Missile Launcher"
-                                },
-                                {
-                                    "name": "Multi-melta"
-                                },
-                                {
-                                    "name": "Plasma Cannon"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Initiate",
-                    "points": 15,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Boltgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Flamer"
-                                },
-                                {
-                                    "name": "Plasma Gun"
-                                },
-                                {
-                                    "name": "Meltagun"
-                                },
-                                {
-                                    "name": "Grav-gun"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Heavy Bolter"
-                                },
-                                {
-                                    "name": "Heavy Flamer"
-                                },
-                                {
-                                    "name": "Grav-cannon"
-                                },
-                                {
-                                    "name": "Lascannon"
-                                },
-                                {
-                                    "name": "Missile Launcher"
-                                },
-                                {
-                                    "name": "Multi-melta"
-                                },
-                                {
-                                    "name": "Plasma Cannon"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Initiate",
-                    "points": 15,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Boltgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Flamer"
-                                },
-                                {
-                                    "name": "Plasma Gun"
-                                },
-                                {
-                                    "name": "Meltagun"
-                                },
-                                {
-                                    "name": "Grav-gun"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Heavy Bolter"
-                                },
-                                {
-                                    "name": "Heavy Flamer"
-                                },
-                                {
-                                    "name": "Grav-cannon"
-                                },
-                                {
-                                    "name": "Lascannon"
-                                },
-                                {
-                                    "name": "Missile Launcher"
-                                },
-                                {
-                                    "name": "Multi-melta"
-                                },
-                                {
-                                    "name": "Plasma Cannon"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Initiate",
-                    "points": 15,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Boltgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Flamer"
-                                },
-                                {
-                                    "name": "Plasma Gun"
-                                },
-                                {
-                                    "name": "Meltagun"
-                                },
-                                {
-                                    "name": "Grav-gun"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Heavy Bolter"
-                                },
-                                {
-                                    "name": "Heavy Flamer"
-                                },
-                                {
-                                    "name": "Grav-cannon"
-                                },
-                                {
-                                    "name": "Lascannon"
-                                },
-                                {
-                                    "name": "Missile Launcher"
-                                },
-                                {
-                                    "name": "Multi-melta"
-                                },
-                                {
-                                    "name": "Plasma Cannon"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Sword Brother",
-                    "points": 15,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -10342,27 +11753,37 @@
             ]
         },
         {
-            "id": "w40k.10e.bt.unit.primarisSwordBrethren",
+            "id": "w40k.10e.bt.unit.swordBrethren",
             "type": "unit",
             "rulesetId": "w40k.10e.bt",
-            "name": "Primaris Sword Brethren",
+            "name": "Sword Brethren",
             "role": "INFANTRY",
             "points": [
                 {
-                    "name": "Primaris Sword Brother, Sword Brother Castellan",
+                    "name": "Sword Brother, Sword Brother Castellan",
                     "amount": 10,
-                    "cost": 270
+                    "cost": 260
                 },
                 {
-                    "name": "Primaris Sword Brother, Sword Brother Castellan",
+                    "name": "Sword Brother, Sword Brother Castellan",
+                    "amount": 9,
+                    "cost": 235
+                },
+                {
+                    "name": "Sword Brother, Sword Brother Castellan",
                     "amount": 5,
-                    "cost": 140
+                    "cost": 130
+                },
+                {
+                    "name": "Sword Brother, Sword Brother Castellan",
+                    "amount": 4,
+                    "cost": 105
                 }
             ],
             "restrictions": [
                 {
                     "type": "model",
-                    "name": "Primaris Sword Brother",
+                    "name": "Sword Brother",
                     "min": 4,
                     "max": 9
                 },
@@ -10375,7 +11796,7 @@
             ],
             "blueprints": [
                 {
-                    "name": "Primaris Sword Brother",
+                    "name": "Sword Brother",
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -10430,22 +11851,22 @@
                     "name": "Sword Brother Castellan",
                     "gearset": [
                         {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Heavy Bolt Pistol"
+                            }
+                        },
+                        {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Heavy Bolt Pistol, Astartes Chainsword"
+                                "name": "Astartes Chainsword"
                             },
                             "options": [
                                 {
-                                    "name": "Heavy Bolt Pistol, Astartes Chainsword"
+                                    "name": "Astartes Chainsword"
                                 },
                                 {
-                                    "name": "Combi-weapon, Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Combi-weapon, Master-crafted Power Weapon"
-                                },
-                                {
-                                    "name": "Heavy Bolt Pistol, Master-crafted Power Weapon"
+                                    "name": "Master-crafted Power Weapon"
                                 }
                             ]
                         }
@@ -10462,7 +11883,7 @@
             "models": [
                 {
                     "name": "The Emperor's Champion",
-                    "points": 75,
+                    "points": 90,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -10671,6 +12092,430 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.companionsVehemence",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Incendiary Animus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Merciless Denunciation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Oathbound Exemplar",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zealous Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.godhammerAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Augury Servo-host",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Battle-psalm Precentor",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Sacred Slaughter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Paragon of Fury",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.vindicationTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Consecrating Aura",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Imperialis of the Eternal Crusade",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orb of the Emperor's Aegis",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warden of Honour",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.wrathfulProcession",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Pyrebrand",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sacred Rage",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Taramond's Censer",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.bt.unit.execrator",
+            "type": "unit",
+            "rulesetId": "w40k.10e.bt",
+            "name": "Execrator",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Execrator",
+                    "points": 70,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.1stCompany",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fear Made Manifest",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Iron Resolve",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Rites of War",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "The Imperium's Sword",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.anvilSiegeForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Architect of War",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fleet Commander",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Indomitable Fury",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Stoic Defender",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.firestormAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Mantle",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Champion of Humanity",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Forged in Battle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "War-tempered Artifice",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.gladius",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Artificer Armour",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "The Honour Vehement",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Adept of the Codex",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fire Discipline",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.ironstormSpearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adept of the Omnissiah",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Master of Machine War",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Target Augury Web",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "The Flesh is Weak",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.stormlanceTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Feinting Withdrawal",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Fury of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Hunter's Instincts",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Portents of Wisdom",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.vanguardSpearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Execute and Redeploy",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ghostweave Cloak",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Shadow War Veteran",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "The Blade Driven Deep",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.companionsVehemence",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Incendiary Animus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Merciless Denunciation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Oathbound Exemplar",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zealous Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.godhammerAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Augury Servo-host",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Battle-psalm Precentor",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Sacred Slaughter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Paragon of Fury",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.vindicationTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Consecrating Aura",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Imperialis of the Eternal Crusade",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orb of the Emperor's Aegis",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warden of Honour",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -10955,6 +12800,93 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.companionsVehemence",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Incendiary Animus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Merciless Denunciation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Oathbound Exemplar",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zealous Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.godhammerAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Augury Servo-host",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Battle-psalm Precentor",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Sacred Slaughter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Paragon of Fury",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.vindicationTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Consecrating Aura",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Imperialis of the Eternal Crusade",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orb of the Emperor's Aegis",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warden of Honour",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.bt.dt.wrathfulProcession",
                             "selectedOption": {
                                 "name": ""
@@ -10990,7 +12922,7 @@
             "models": [
                 {
                     "name": "Marshal",
-                    "points": 75,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -11219,6 +13151,93 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.companionsVehemence",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Incendiary Animus",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Merciless Denunciation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Oathbound Exemplar",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Zealous Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.godhammerAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Augury Servo-host",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Battle-psalm Precentor",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Sacred Slaughter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Paragon of Fury",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.vindicationTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Consecrating Aura",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Imperialis of the Eternal Crusade",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orb of the Emperor's Aegis",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warden of Honour",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.bt.dt.wrathfulProcession",
                             "selectedOption": {
                                 "name": ""
@@ -11254,7 +13273,7 @@
             "models": [
                 {
                     "name": "Black Templars Gladiator Lancer",
-                    "points": 170,
+                    "points": 160,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -11346,7 +13365,7 @@
             "models": [
                 {
                     "name": "Black Templars Gladiator Valiant",
-                    "points": 170,
+                    "points": 160,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -11377,15 +13396,15 @@
             ]
         },
         {
-            "id": "w40k.10e.bt.unit.blackTemplarsImpulsor",
+            "id": "w40k.10e.bt.unit.impulsor",
             "type": "unit",
             "rulesetId": "w40k.10e.bt",
-            "name": "Black Templars Impulsor",
+            "name": "Impulsor",
             "role": "VEHICLE",
             "models": [
                 {
-                    "name": "Black Templars Impulsor",
-                    "points": 90,
+                    "name": "Impulsor",
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -11446,15 +13465,15 @@
             ]
         },
         {
-            "id": "w40k.10e.bt.unit.blackTemplarsRepulsor",
+            "id": "w40k.10e.bt.unit.repulsor",
             "type": "unit",
             "rulesetId": "w40k.10e.bt",
-            "name": "Black Templars Repulsor",
+            "name": "Repulsor",
             "role": "VEHICLE",
             "models": [
                 {
                     "name": "Repulsor",
-                    "points": 190,
+                    "points": 180,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -11504,7 +13523,7 @@
             "models": [
                 {
                     "name": "Repulsor Executioner",
-                    "points": 230,
+                    "points": 220,
                     "gearset": [
                         {
                             "type": "dropdown",
