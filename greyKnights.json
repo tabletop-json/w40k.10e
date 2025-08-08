@@ -10,10 +10,38 @@
     },
     "detachments": [
         {
-            "id": "w40k.10e.gk.dt.teleportStrikeForce",
+            "id": "w40k.10e.gk.dt.auguriumTaskForce",
             "type": "detachment",
             "rulesetId": "w40k.10e.gk",
-            "name": "Teleport Strike Force",
+            "name": "Augurium Task Force",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.gk.dt.banishers",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Banishers",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.gk.dt.brotherhoodStrike",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Brotherhood Strike",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.gk.dt.hallowedConclave",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Hallowed Conclave",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.gk.dt.sancticSpearhead",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.gk",
+            "name": "Sanctic Spearhead",
             "rule": ""
         },
         {
@@ -26,37 +54,15 @@
     ],
     "units": [
         {
-            "id": "w40k.10e.gk.unit.kaldorDraigo",
+            "id": "w40k.10e.gk.unit.grandMasterVoldus",
             "type": "unit",
             "rulesetId": "w40k.10e.gk",
-            "name": "Kaldor Draigo",
+            "name": "Grand Master Voldus",
             "role": "CHARACTER",
             "models": [
                 {
-                    "name": "Kaldor Draigo",
-                    "points": 125,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.gk.unit.grandmasterVoldus",
-            "type": "unit",
-            "rulesetId": "w40k.10e.gk",
-            "name": "Grandmaster Voldus",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Grandmaster Voldus",
-                    "points": 95,
+                    "name": "Grand Master Voldus",
+                    "points": 110,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -110,7 +116,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.gk.dt.teleportStrikeForce",
+                            "detachmentId": "w40k.10e.gk.dt.auguriumTaskForce",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -119,20 +125,136 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "First to the Fray",
-                                    "points": 35
+                                    "name": "A Foot in the Future",
+                                    "points": 15
                                 },
                                 {
-                                    "name": "Domina Liber Daemonica",
+                                    "name": "Doomseer's Amulet",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimoire of Conjunctions",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Shield of Prophecy",
                                     "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.banishers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Pyresoul",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Sigil of the Hunt",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "The Ephemeral Tome",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Sixty-sixth Seal",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.brotherhoodStrike",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Banishing Wave",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Blinding Aura",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Purity of Purpose",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Tome of Forbidden Ways",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.hallowedConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eye of the Augurium",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Inescapable Judgement",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Nemesis Rounds",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Santic Reaper",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.sancticSpearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Driven by Duty",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Quickening Foci",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Sigil of Exigence",
                                     "points": 30
                                 },
                                 {
-                                    "name": "Inescapable Wrath",
-                                    "points": 15
+                                    "name": "Spiritus Machina",
+                                    "points": 25
                                 }
                             ]
                         },
@@ -178,7 +300,7 @@
             "models": [
                 {
                     "name": "Grand Master in Nemesis Dreadknight",
-                    "points": 210,
+                    "points": 225,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -241,7 +363,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.gk.dt.teleportStrikeForce",
+                            "detachmentId": "w40k.10e.gk.dt.auguriumTaskForce",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -250,20 +372,136 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "First to the Fray",
-                                    "points": 35
+                                    "name": "A Foot in the Future",
+                                    "points": 15
                                 },
                                 {
-                                    "name": "Domina Liber Daemonica",
+                                    "name": "Doomseer's Amulet",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimoire of Conjunctions",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Shield of Prophecy",
                                     "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.banishers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Pyresoul",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Sigil of the Hunt",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "The Ephemeral Tome",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Sixty-sixth Seal",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.brotherhoodStrike",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Banishing Wave",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Blinding Aura",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Purity of Purpose",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Tome of Forbidden Ways",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.hallowedConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eye of the Augurium",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Inescapable Judgement",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Nemesis Rounds",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Santic Reaper",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.sancticSpearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Driven by Duty",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Quickening Foci",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Sigil of Exigence",
                                     "points": 30
                                 },
                                 {
-                                    "name": "Inescapable Wrath",
-                                    "points": 15
+                                    "name": "Spiritus Machina",
+                                    "points": 25
                                 }
                             ]
                         },
@@ -301,28 +539,6 @@
             "models": [
                 {
                     "name": "Castellan Crowe",
-                    "points": 90,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.gk.unit.stern",
-            "type": "unit",
-            "rulesetId": "w40k.10e.gk",
-            "name": "Brother-captain Stern",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Brother-captain Stern",
                     "points": 90,
                     "gearset": [
                         {
@@ -377,7 +593,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.gk.dt.teleportStrikeForce",
+                            "detachmentId": "w40k.10e.gk.dt.auguriumTaskForce",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -386,20 +602,136 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "First to the Fray",
-                                    "points": 35
+                                    "name": "A Foot in the Future",
+                                    "points": 15
                                 },
                                 {
-                                    "name": "Domina Liber Daemonica",
+                                    "name": "Doomseer's Amulet",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimoire of Conjunctions",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Shield of Prophecy",
                                     "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.banishers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Pyresoul",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Sigil of the Hunt",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "The Ephemeral Tome",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Sixty-sixth Seal",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.brotherhoodStrike",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Banishing Wave",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Blinding Aura",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Purity of Purpose",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Tome of Forbidden Ways",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.hallowedConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eye of the Augurium",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Inescapable Judgement",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Nemesis Rounds",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Santic Reaper",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.sancticSpearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Driven by Duty",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Quickening Foci",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Sigil of Exigence",
                                     "points": 30
                                 },
                                 {
-                                    "name": "Inescapable Wrath",
-                                    "points": 15
+                                    "name": "Spiritus Machina",
+                                    "points": 25
                                 }
                             ]
                         },
@@ -457,7 +789,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.gk.dt.teleportStrikeForce",
+                            "detachmentId": "w40k.10e.gk.dt.auguriumTaskForce",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -466,20 +798,136 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "First to the Fray",
-                                    "points": 35
+                                    "name": "A Foot in the Future",
+                                    "points": 15
                                 },
                                 {
-                                    "name": "Domina Liber Daemonica",
+                                    "name": "Doomseer's Amulet",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimoire of Conjunctions",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Shield of Prophecy",
                                     "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.banishers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Pyresoul",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Sigil of the Hunt",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "The Ephemeral Tome",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Sixty-sixth Seal",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.brotherhoodStrike",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Banishing Wave",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Blinding Aura",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Purity of Purpose",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Tome of Forbidden Ways",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.hallowedConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eye of the Augurium",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Inescapable Judgement",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Nemesis Rounds",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Santic Reaper",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.sancticSpearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Driven by Duty",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Quickening Foci",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Sigil of Exigence",
                                     "points": 30
                                 },
                                 {
-                                    "name": "Inescapable Wrath",
-                                    "points": 15
+                                    "name": "Spiritus Machina",
+                                    "points": 25
                                 }
                             ]
                         },
@@ -525,7 +973,7 @@
             "models": [
                 {
                     "name": "Brotherhood Librarian",
-                    "points": 120,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -554,7 +1002,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.gk.dt.teleportStrikeForce",
+                            "detachmentId": "w40k.10e.gk.dt.auguriumTaskForce",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -563,20 +1011,136 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "First to the Fray",
-                                    "points": 35
+                                    "name": "A Foot in the Future",
+                                    "points": 15
                                 },
                                 {
-                                    "name": "Domina Liber Daemonica",
+                                    "name": "Doomseer's Amulet",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimoire of Conjunctions",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Shield of Prophecy",
                                     "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.banishers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Pyresoul",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Sigil of the Hunt",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "The Ephemeral Tome",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Sixty-sixth Seal",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.brotherhoodStrike",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Banishing Wave",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Blinding Aura",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Purity of Purpose",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Tome of Forbidden Ways",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.hallowedConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eye of the Augurium",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Inescapable Judgement",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Nemesis Rounds",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Santic Reaper",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.sancticSpearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Driven by Duty",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Quickening Foci",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Sigil of Exigence",
                                     "points": 30
                                 },
                                 {
-                                    "name": "Inescapable Wrath",
-                                    "points": 15
+                                    "name": "Spiritus Machina",
+                                    "points": 25
                                 }
                             ]
                         },
@@ -648,7 +1212,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.gk.dt.teleportStrikeForce",
+                            "detachmentId": "w40k.10e.gk.dt.auguriumTaskForce",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -657,20 +1221,136 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "First to the Fray",
-                                    "points": 35
+                                    "name": "A Foot in the Future",
+                                    "points": 15
                                 },
                                 {
-                                    "name": "Domina Liber Daemonica",
+                                    "name": "Doomseer's Amulet",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimoire of Conjunctions",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Shield of Prophecy",
                                     "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.banishers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Pyresoul",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Sigil of the Hunt",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "The Ephemeral Tome",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Sixty-sixth Seal",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.brotherhoodStrike",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Banishing Wave",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Blinding Aura",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Purity of Purpose",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Tome of Forbidden Ways",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.hallowedConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eye of the Augurium",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Inescapable Judgement",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Nemesis Rounds",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Santic Reaper",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.sancticSpearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Driven by Duty",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Quickening Foci",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Sigil of Exigence",
                                     "points": 30
                                 },
                                 {
-                                    "name": "Inescapable Wrath",
-                                    "points": 15
+                                    "name": "Spiritus Machina",
+                                    "points": 25
                                 }
                             ]
                         },
@@ -716,7 +1396,7 @@
             "models": [
                 {
                     "name": "Brotherhood Chaplain",
-                    "points": 75,
+                    "points": 65,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -728,7 +1408,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.gk.dt.teleportStrikeForce",
+                            "detachmentId": "w40k.10e.gk.dt.auguriumTaskForce",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -737,20 +1417,136 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "First to the Fray",
-                                    "points": 35
+                                    "name": "A Foot in the Future",
+                                    "points": 15
                                 },
                                 {
-                                    "name": "Domina Liber Daemonica",
+                                    "name": "Doomseer's Amulet",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimoire of Conjunctions",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Shield of Prophecy",
                                     "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.banishers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Pyresoul",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Sigil of the Hunt",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "The Ephemeral Tome",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "The Sixty-sixth Seal",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.brotherhoodStrike",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Banishing Wave",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Blinding Aura",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Purity of Purpose",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Tome of Forbidden Ways",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.hallowedConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eye of the Augurium",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Inescapable Judgement",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Nemesis Rounds",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Santic Reaper",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.gk.dt.sancticSpearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Driven by Duty",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Quickening Foci",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Sigil of Exigence",
                                     "points": 30
                                 },
                                 {
-                                    "name": "Inescapable Wrath",
-                                    "points": 15
+                                    "name": "Spiritus Machina",
+                                    "points": 25
                                 }
                             ]
                         },
@@ -801,15 +1597,25 @@
                 },
                 {
                     "name": "Brotherhood Terminator, Terminator Justicar",
+                    "amount": 8,
+                    "cost": 320
+                },
+                {
+                    "name": "Brotherhood Terminator, Terminator Justicar",
                     "amount": 5,
                     "cost": 200
+                },
+                {
+                    "name": "Brotherhood Terminator, Terminator Justicar",
+                    "amount": 4,
+                    "cost": 160
                 }
             ],
             "restrictions": [
                 {
                     "type": "model",
                     "name": "Brotherhood Terminator",
-                    "min": 4,
+                    "min": 3,
                     "max": 9
                 },
                 {
@@ -963,19 +1769,29 @@
                 {
                     "name": "Paladin, Paragon",
                     "amount": 10,
-                    "cost": 430
+                    "cost": 450
+                },
+                {
+                    "name": "Paladin, Paragon",
+                    "amount": 8,
+                    "cost": 360
                 },
                 {
                     "name": "Paladin, Paragon",
                     "amount": 5,
-                    "cost": 215
+                    "cost": 225
+                },
+                {
+                    "name": "Paladin, Paragon",
+                    "amount": 4,
+                    "cost": 180
                 }
             ],
             "restrictions": [
                 {
                     "type": "model",
                     "name": "Paladin",
-                    "min": 4,
+                    "min": 3,
                     "max": 9
                 },
                 {
@@ -1121,55 +1937,6 @@
             ]
         },
         {
-            "id": "w40k.10e.gk.unit.servitors",
-            "type": "unit",
-            "rulesetId": "w40k.10e.gk",
-            "name": "Servitors",
-            "role": "INFANTRY",
-            "points": [
-                {
-                    "name": "Servitor",
-                    "amount": 4,
-                    "cost": 50
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Servitor",
-                    "min": 4,
-                    "max": 4
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Servitor",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Servitor's Servo-arm"
-                            },
-                            "options": [
-                                {
-                                    "name": "Servitor's Servo-arm"
-                                },
-                                {
-                                    "name": "Heavy Bolter, Servitor's Tools"
-                                },
-                                {
-                                    "name": "Multi-melta, Servitor's Tools"
-                                },
-                                {
-                                    "name": "Plasma Cannon, Servitor's Tools"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "id": "w40k.10e.gk.unit.venerableDreadnought",
             "type": "unit",
             "rulesetId": "w40k.10e.gk",
@@ -1178,7 +1945,7 @@
             "models": [
                 {
                     "name": "Venerable Dreadnought",
-                    "points": 155,
+                    "points": 140,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1231,12 +1998,12 @@
                 {
                     "name": "Interceptor, Interceptor Justicar",
                     "amount": 10,
-                    "cost": 250
+                    "cost": 260
                 },
                 {
                     "name": "Interceptor, Interceptor Justicar",
                     "amount": 5,
-                    "cost": 125
+                    "cost": 130
                 }
             ],
             "restrictions": [
@@ -1308,12 +2075,12 @@
                 {
                     "name": "Purgator, Purgator Justicar",
                     "amount": 10,
-                    "cost": 240
+                    "cost": 250
                 },
                 {
                     "name": "Purgator, Purgator Justicar",
                     "amount": 5,
-                    "cost": 120
+                    "cost": 125
                 }
             ],
             "restrictions": [
@@ -1594,7 +2361,7 @@
             "models": [
                 {
                     "name": "Rhino",
-                    "points": 75,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1805,42 +2572,6 @@
                             "type": "checkbox",
                             "selectedOption": {
                                 "name": "2x Hurricane Bolter"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.gk.unit.landRaiderBanisher",
-            "type": "unit",
-            "rulesetId": "w40k.10e.gk",
-            "name": "Land Raider Banisher",
-            "role": "VEHICLE",
-            "models": [
-                {
-                    "name": "Land Raider Banisher",
-                    "points": 255,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Hunter-killer Missile"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Multi-melta"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Storm Bolter"
                             },
                             "selected": false
                         }
