@@ -323,6 +323,12 @@
                                 },
                                 {
                                     "name": "Nemesis Greatsword"
+                                },
+                                {
+                                    "name": "Nemesis Flail"
+                                },
+                                {
+                                    "name": "Nemesis Mace"
                                 }
                             ]
                         },
@@ -340,6 +346,9 @@
                                 },
                                 {
                                     "name": "Heavy Psycannon"
+                                },
+                                {
+                                    "name": "Sublimator"
                                 }
                             ]
                         },
@@ -357,8 +366,18 @@
                                 },
                                 {
                                     "name": "Heavy Psycannon"
+                                },
+                                {
+                                    "name": "Sublimator"
                                 }
                             ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Fragstorm Grenade Launcher"
+                            },
+                            "selected": false
                         },
                         {
                             "type": "dropdown",
@@ -1591,22 +1610,22 @@
             "role": "BATTLELINE",
             "points": [
                 {
-                    "name": "Brotherhood Terminator, Terminator Justicar",
+                    "name": "Terminator, Justicar",
                     "amount": 10,
                     "cost": 400
                 },
                 {
-                    "name": "Brotherhood Terminator, Terminator Justicar",
+                    "name": "Terminator, Justicar",
                     "amount": 8,
                     "cost": 320
                 },
                 {
-                    "name": "Brotherhood Terminator, Terminator Justicar",
+                    "name": "Terminator, Justicar",
                     "amount": 5,
                     "cost": 200
                 },
                 {
-                    "name": "Brotherhood Terminator, Terminator Justicar",
+                    "name": "Terminator, Justicar",
                     "amount": 4,
                     "cost": 160
                 }
@@ -1614,20 +1633,20 @@
             "restrictions": [
                 {
                     "type": "model",
-                    "name": "Brotherhood Terminator",
+                    "name": "Terminator",
                     "min": 3,
                     "max": 9
                 },
                 {
                     "type": "model",
-                    "name": "Terminator Justicar",
+                    "name": "Justicar",
                     "min": 1,
                     "max": 1
                 }
             ],
             "blueprints": [
                 {
-                    "name": "Brotherhood Terminator",
+                    "name": "Terminator",
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1637,9 +1656,6 @@
                             "options": [
                                 {
                                     "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Storm Bolter, Ancient's Banner"
                                 },
                                 {
                                     "name": "Incinerator"
@@ -1656,6 +1672,13 @@
                             ]
                         },
                         {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Ancient's Banner"
+                            },
+                            "selected": false
+                        },
+                        {
                             "type": "text",
                             "selectedOption": {
                                 "name": "Nemesis Force Weapon"
@@ -1664,7 +1687,7 @@
                     ]
                 },
                 {
-                    "name": "Terminator Justicar",
+                    "name": "Justicar",
                     "gearset": [
                         {
                             "type": "text",
