@@ -7612,20 +7612,6 @@
                         },
                         {
                             "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Rifle, Close Combat Weapon"
-                            },
-                            "options": [
-                                {
-                                    "name": "Bolt Rifle, Close Combat Weapon"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
                             "color": "green",
                             "detachmentId": "w40k.10e.bt.dt.1stCompany",
                             "selectedOption": {
@@ -11760,22 +11746,22 @@
             "role": "INFANTRY",
             "points": [
                 {
-                    "name": "Sword Brother, Sword Brother Castellan",
+                    "name": "Sword Brother",
                     "amount": 10,
                     "cost": 260
                 },
                 {
-                    "name": "Sword Brother, Sword Brother Castellan",
+                    "name": "Sword Brother",
                     "amount": 9,
                     "cost": 235
                 },
                 {
-                    "name": "Sword Brother, Sword Brother Castellan",
+                    "name": "Sword Brother",
                     "amount": 5,
                     "cost": 130
                 },
                 {
-                    "name": "Sword Brother, Sword Brother Castellan",
+                    "name": "Sword Brother",
                     "amount": 4,
                     "cost": 105
                 }
@@ -11785,13 +11771,7 @@
                     "type": "model",
                     "name": "Sword Brother",
                     "min": 4,
-                    "max": 9
-                },
-                {
-                    "type": "model",
-                    "name": "Sword Brother Castellan",
-                    "min": 1,
-                    "max": 1
+                    "max": 10
                 }
             ],
             "blueprints": [
@@ -11831,7 +11811,7 @@
                                     "name": "Astartes Chainsword"
                                 },
                                 {
-                                    "name": "Power Weapon"
+                                    "name": "Master-crafted Power Weapon"
                                 },
                                 {
                                     "name": "Thunder Hammer"
@@ -11844,31 +11824,6 @@
                                 "name": "Twin Lightning Claws"
                             },
                             "selected": false
-                        }
-                    ]
-                },
-                {
-                    "name": "Sword Brother Castellan",
-                    "gearset": [
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Heavy Bolt Pistol"
-                            }
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Astartes Chainsword"
-                            },
-                            "options": [
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Master-crafted Power Weapon"
-                                }
-                            ]
                         }
                     ]
                 }
@@ -12228,6 +12183,23 @@
                                 "name": "WARLORD"
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Absolver Bolt Pistol, Crozius Arcanum"
+                            },
+                            "options": [
+                                {
+                                    "name": "Absolver Bolt Pistol, Crozius Arcanum"
+                                },
+                                {
+                                    "name": "Absolver Bolt Pistol, Master-crafted Power Weapon"
+                                },
+                                {
+                                    "name": "Pyre Pistol, Crozius Arcanum"
+                                }
+                            ]
                         },
                         {
                             "type": "dropdown",
@@ -13268,11 +13240,11 @@
             "id": "w40k.10e.bt.unit.blackTemplarsGladiatorLancer",
             "type": "unit",
             "rulesetId": "w40k.10e.bt",
-            "name": "Black Templars Gladiator Lancer",
+            "name": "Gladiator Lancer",
             "role": "VEHICLE",
             "models": [
                 {
-                    "name": "Black Templars Gladiator Lancer",
+                    "name": "Gladiator Lancer",
                     "points": 160,
                     "gearset": [
                         {
@@ -13321,11 +13293,11 @@
             "id": "w40k.10e.bt.unit.blackTemplarsGladiatorReaper",
             "type": "unit",
             "rulesetId": "w40k.10e.bt",
-            "name": "Black Templars Gladiator Reaper",
+            "name": "Gladiator Reaper",
             "role": "VEHICLE",
             "models": [
                 {
-                    "name": "Black Templars Gladiator Reaper",
+                    "name": "Gladiator Reaper",
                     "points": 170,
                     "gearset": [
                         {
@@ -13360,11 +13332,11 @@
             "id": "w40k.10e.bt.unit.blackTemplarsGladiatorValiant",
             "type": "unit",
             "rulesetId": "w40k.10e.bt",
-            "name": "Black Templars Gladiator Valiant",
+            "name": "Gladiator Valiant",
             "role": "VEHICLE",
             "models": [
                 {
-                    "name": "Black Templars Gladiator Valiant",
+                    "name": "Gladiator Valiant",
                     "points": 160,
                     "gearset": [
                         {
@@ -13518,7 +13490,7 @@
             "id": "w40k.10e.bt.unit.blackTemplarsRepulsorExecutioner",
             "type": "unit",
             "rulesetId": "w40k.10e.bt",
-            "name": "Black Templars Repulsor Executioner",
+            "name": "Repulsor Executioner",
             "role": "VEHICLE",
             "models": [
                 {
