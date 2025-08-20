@@ -148,7 +148,7 @@
                                 },
                                 {
                                     "name": "Tendrilous Emissions",
-                                    "points": 20
+                                    "points": 30
                                 }
                             ]
                         },
@@ -381,7 +381,7 @@
                                 },
                                 {
                                     "name": "Tendrilous Emissions",
-                                    "points": 20
+                                    "points": 30
                                 }
                             ]
                         },
@@ -539,7 +539,7 @@
             "models": [
                 {
                     "name": "Typhus",
-                    "points": 90,
+                    "points": 100,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -561,7 +561,7 @@
             "models": [
                 {
                     "name": "Lord of Virulence",
-                    "points": 90,
+                    "points": 100,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -624,7 +624,7 @@
                                 },
                                 {
                                     "name": "Tendrilous Emissions",
-                                    "points": 20
+                                    "points": 30
                                 }
                             ]
                         },
@@ -845,7 +845,7 @@
                                 },
                                 {
                                     "name": "Tendrilous Emissions",
-                                    "points": 20
+                                    "points": 30
                                 }
                             ]
                         },
@@ -1003,7 +1003,7 @@
             "models": [
                 {
                     "name": "Lord of Contagion",
-                    "points": 110,
+                    "points": 120,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1066,7 +1066,7 @@
                                 },
                                 {
                                     "name": "Tendrilous Emissions",
-                                    "points": 20
+                                    "points": 30
                                 }
                             ]
                         },
@@ -1287,7 +1287,7 @@
                                 },
                                 {
                                     "name": "Tendrilous Emissions",
-                                    "points": 20
+                                    "points": 30
                                 }
                             ]
                         },
@@ -1576,7 +1576,7 @@
                 {
                     "name": "Poxwalker",
                     "amount": 10,
-                    "cost": 60
+                    "cost": 65
                 }
             ],
             "restrictions": [
@@ -1665,7 +1665,7 @@
                                 },
                                 {
                                     "name": "Tendrilous Emissions",
-                                    "points": 20
+                                    "points": 30
                                 }
                             ]
                         },
@@ -1823,7 +1823,7 @@
             "models": [
                 {
                     "name": "Foul Blightspawn",
-                    "points": 60,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1886,7 +1886,7 @@
                                 },
                                 {
                                     "name": "Tendrilous Emissions",
-                                    "points": 20
+                                    "points": 30
                                 }
                             ]
                         },
@@ -2044,7 +2044,7 @@
             "models": [
                 {
                     "name": "Biologus Putrifier",
-                    "points": 45,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2107,7 +2107,7 @@
                                 },
                                 {
                                     "name": "Tendrilous Emissions",
-                                    "points": 20
+                                    "points": 30
                                 }
                             ]
                         },
@@ -2265,7 +2265,7 @@
             "models": [
                 {
                     "name": "Tallyman",
-                    "points": 40,
+                    "points": 50,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2328,7 +2328,7 @@
                                 },
                                 {
                                     "name": "Tendrilous Emissions",
-                                    "points": 20
+                                    "points": 30
                                 }
                             ]
                         },
@@ -2549,7 +2549,7 @@
                                 },
                                 {
                                     "name": "Tendrilous Emissions",
-                                    "points": 20
+                                    "points": 30
                                 }
                             ]
                         },
@@ -2804,12 +2804,12 @@
                 {
                     "name": "Deathshroud Terminator, Deathshroud Champion",
                     "amount": 6,
-                    "cost": 300
+                    "cost": 320
                 },
                 {
                     "name": "Deathshroud Terminator, Deathshroud Champion",
                     "amount": 3,
-                    "cost": 140
+                    "cost": 160
                 }
             ],
             "restrictions": [
@@ -2957,12 +2957,12 @@
                 {
                     "name": "Myphitic Blight-hauler",
                     "amount": 2,
-                    "cost": 180
+                    "cost": 200
                 },
                 {
                     "name": "Myphitic Blight-hauler",
                     "amount": 1,
-                    "cost": 90
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -2988,7 +2988,7 @@
             "models": [
                 {
                     "name": "Foetid Bloat Drone",
-                    "points": 90,
+                    "points": 100,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -3017,7 +3017,7 @@
             "models": [
                 {
                     "name": "Foetid Bloat Drone",
-                    "points": 100,
+                    "points": 120,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -3046,7 +3046,7 @@
             "models": [
                 {
                     "name": "Plagueburst Crawler",
-                    "points": 195,
+                    "points": 210,
                     "gearset": [
                         {
                             "type": "text",
@@ -3473,7 +3473,7 @@
                                 },
                                 {
                                     "name": "Tendrilous Emissions",
-                                    "points": 20
+                                    "points": 30
                                 }
                             ]
                         },
