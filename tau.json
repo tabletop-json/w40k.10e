@@ -78,7 +78,7 @@
             "models": [
                 {
                     "name": "Commander Farsight",
-                    "points": 95,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2477,7 +2477,7 @@
                 {
                     "name": "Crisis Fireknife Shas'ui, Crisis Fireknife Shas'vre",
                     "amount": 3,
-                    "cost": 130
+                    "cost": 120
                 }
             ],
             "restrictions": [
@@ -2829,7 +2829,7 @@
                 {
                     "name": "Crisis Sunforge Shas'ui, Crisis Sunforge Shas'vre",
                     "amount": 3,
-                    "cost": 150
+                    "cost": 140
                 }
             ],
             "restrictions": [
@@ -3128,7 +3128,7 @@
             "models": [
                 {
                     "name": "Firesight Marksman",
-                    "points": 70,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -3661,17 +3661,17 @@
                 {
                     "name": "Broadside Shas'ui, Broadside Shas'vre",
                     "amount": 3,
-                    "cost": 300
+                    "cost": 270
                 },
                 {
                     "name": "Broadside Shas'ui, Broadside Shas'vre",
                     "amount": 2,
-                    "cost": 200
+                    "cost": 170
                 },
                 {
                     "name": "Broadside Shas'vre",
                     "amount": 1,
-                    "cost": 100
+                    "cost": 80
                 }
             ],
             "restrictions": [

@@ -482,7 +482,7 @@
             "models": [
                 {
                     "name": "Beastboss",
-                    "points": 130,
+                    "points": 110,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1326,7 +1326,7 @@
             "models": [
                 {
                     "name": "Big Mek with Shokk Attack Gun",
-                    "points": 85,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1644,7 +1644,7 @@
             "models": [
                 {
                     "name": "Boss Snikrot",
-                    "points": 95,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2280,7 +2280,7 @@
                 {
                     "name": "Flash Git, Kaptin",
                     "amount": 10,
-                    "cost": 170
+                    "cost": 160
                 },
                 {
                     "name": "Flash Git, Kaptin",
@@ -2604,7 +2604,7 @@
                 {
                     "name": "Loota, Spanner",
                     "amount": 10,
-                    "cost": 115
+                    "cost": 100
                 },
                 {
                     "name": "Loota, Spanner",
@@ -2672,22 +2672,22 @@
                 {
                     "name": "Meganob",
                     "amount": 6,
-                    "cost": 210
+                    "cost": 190
                 },
                 {
                     "name": "Meganob",
                     "amount": 5,
-                    "cost": 175
+                    "cost": 160
                 },
                 {
                     "name": "Meganob",
                     "amount": 3,
-                    "cost": 105
+                    "cost": 95
                 },
                 {
                     "name": "Meganob",
                     "amount": 2,
-                    "cost": 70
+                    "cost": 65
                 }
             ],
             "restrictions": [
@@ -3086,7 +3086,7 @@
             "models": [
                 {
                     "name": "Mozrog Skragbad",
-                    "points": 165,
+                    "points": 145,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -4071,12 +4071,12 @@
                 {
                     "name": "Warbiker, Boss Nob on Warbike",
                     "amount": 6,
-                    "cost": 140
+                    "cost": 130
                 },
                 {
                     "name": "Warbiker, Boss Nob on Warbike",
                     "amount": 3,
-                    "cost": 70
+                    "cost": 65
                 }
             ],
             "restrictions": [
@@ -4447,7 +4447,7 @@
             "models": [
                 {
                     "name": "Warboss in Mega Armour",
-                    "points": 90,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",

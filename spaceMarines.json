@@ -4234,7 +4234,7 @@
                 {
                     "name": "Assault Intercessor with Jump Pack, Assault Intercessor Sergeant with Jump Pack",
                     "amount": 10,
-                    "cost": 160
+                    "cost": 170
                 },
                 {
                     "name": "Assault Intercessor with Jump Pack, Assault Intercessor Sergeant with Jump Pack",
@@ -6145,7 +6145,7 @@
                 {
                     "name": "Bladeguard Veteran, Bladeguard Veteran Sergeant",
                     "amount": 6,
-                    "cost": 160
+                    "cost": 170
                 },
                 {
                     "name": "Bladeguard Veteran, Bladeguard Veteran Sergeant",
@@ -6763,7 +6763,7 @@
                 {
                     "name": "Aggressor, Aggressor Sergeant",
                     "amount": 6,
-                    "cost": 220
+                    "cost": 200
                 },
                 {
                     "name": "Aggressor, Aggressor Sergeant",
@@ -7296,7 +7296,7 @@
             "models": [
                 {
                     "name": "Redemptor Dreadnought",
-                    "points": 210,
+                    "points": 195,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -7403,7 +7403,7 @@
             "models": [
                 {
                     "name": "Ballistus Dreadnought",
-                    "points": 140
+                    "points": 150
                 }
             ]
         },
@@ -8327,7 +8327,7 @@
             "models": [
                 {
                     "name": "Gladiator Valiant",
-                    "points": 160,
+                    "points": 150,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -8385,7 +8385,7 @@
             "models": [
                 {
                     "name": "Land Raider",
-                    "points": 240,
+                    "points": 220,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -8457,7 +8457,7 @@
             "models": [
                 {
                     "name": "Land Raider Redeemer",
-                    "points": 285,
+                    "points": 270,
                     "gearset": [
                         {
                             "type": "checkbox",

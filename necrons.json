@@ -3095,12 +3095,12 @@
                 {
                     "name": "Triarch Praetorian",
                     "amount": 10,
-                    "cost": 200
+                    "cost": 180
                 },
                 {
                     "name": "Triarch Praetorian",
                     "amount": 5,
-                    "cost": 100
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -3469,7 +3469,7 @@
             "models": [
                 {
                     "name": "The Silent King",
-                    "points": 420,
+                    "points": 400,
                     "gearset": [
                         {
                             "type": "checkbox",
