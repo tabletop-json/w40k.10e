@@ -39,7 +39,7 @@
             "models": [
                 {
                     "name": "Keeper of Secrets",
-                    "points": 280,
+                    "points": 270,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -185,12 +185,12 @@
                 {
                     "name": "Seeker, Heartseeker",
                     "amount": 10,
-                    "cost": 180
+                    "cost": 160
                 },
                 {
                     "name": "Seeker, Heartseeker",
                     "amount": 5,
-                    "cost": 90
+                    "cost": 80
                 }
             ],
             "restrictions": [

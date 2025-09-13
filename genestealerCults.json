@@ -122,7 +122,7 @@
             "models": [
                 {
                     "name": "Abominant",
-                    "points": 95,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -316,7 +316,7 @@
                 {
                     "name": "Achilles Ridgerunner",
                     "amount": 1,
-                    "cost": 85
+                    "cost": 95
                 }
             ],
             "restrictions": [
@@ -724,7 +724,7 @@
                 {
                     "name": "Atalan Jackal, Atalan Wolfquad",
                     "amount": 5,
-                    "cost": 75
+                    "cost": 85
                 }
             ],
             "restrictions": [
@@ -1249,12 +1249,12 @@
                 {
                     "name": "Hybrid Metamorph, Metamorph Leader",
                     "amount": 10,
-                    "cost": 160
+                    "cost": 140
                 },
                 {
                     "name": "Hybrid Metamorph, Metamorph Leader",
                     "amount": 5,
-                    "cost": 80
+                    "cost": 70
                 }
             ],
             "restrictions": [
@@ -2552,7 +2552,7 @@
             "models": [
                 {
                     "name": "Primus",
-                    "points": 80,
+                    "points": 70,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2741,7 +2741,7 @@
                 {
                     "name": "Purestrain Genestealer",
                     "amount": 10,
-                    "cost": 150
+                    "cost": 140
                 },
                 {
                     "name": "Purestrain Genestealer",

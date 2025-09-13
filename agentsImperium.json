@@ -149,7 +149,7 @@
                 {
                     "name": "Deathwatch Veteran, Watch Sergeant",
                     "amount": 10,
-                    "cost": 200
+                    "cost": 190
                 },
                 {
                     "name": "Deathwatch Veteran, Watch Sergeant",
@@ -1807,7 +1807,7 @@
             "models": [
                 {
                     "name": "Watch Master",
-                    "points": 105,
+                    "points": 95,
                     "gearset": [
                         {
                             "type": "checkbox",

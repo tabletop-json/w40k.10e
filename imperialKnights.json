@@ -10,16 +10,34 @@
     },
     "detachments": [
         {
-            "id": "w40k.10e.ik.dt.lance",
+            "id": "w40k.10e.ik.dt.wardenLance",
             "type": "detachment",
             "rulesetId": "w40k.10e.ck",
-            "name": "Noble Lance"
+            "name": "Gate Warden Lance"
         },
         {
             "id": "w40k.10e.ik.dt.questorForgepact",
             "type": "detachment",
             "rulesetId": "w40k.10e.ck",
             "name": "Questor Forgepact"
+        },
+        {
+            "id": "w40k.10e.ik.dt.questorisCompanions",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.ck",
+            "name": "Questoris Companions"
+        },
+        {
+            "id": "w40k.10e.ik.dt.spearhead",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.ck",
+            "name": "Spearhead-at-Arms"
+        },
+        {
+            "id": "w40k.10e.ik.dt.valourstrikeLance",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.ck",
+            "name": "Valourstrike Lance"
         }
     ],
     "units": [
@@ -174,7 +192,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ik.dt.lance",
+                            "detachmentId": "w40k.10e.ik.dt.wardenLance",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -183,24 +201,20 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Revered Knight",
+                                    "name": "Acquisitor-at-Arms",
                                     "points": 15
                                 },
                                 {
-                                    "name": "Mysterious Guardian",
-                                    "points": 25
+                                    "name": "Augury Halo",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Mythic Hero",
-                                    "points": 25
+                                    "name": "Purgation's  Hand",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Banner of Macharius Triumphant",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Unyielding Paragon",
-                                    "points": 40
+                                    "name": "Vengeful Tread",
+                                    "points": 15
                                 }
                             ]
                         },
@@ -226,6 +240,93 @@
                                 {
                                     "name": "Vocifer Magnificat (Aura)",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorisCompanions",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Crushing Condemnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Triumph",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Pennant of Silvered Fury",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Wyrmslayer Divination",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.spearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fables of Nightmare",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Martial Tuition",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mentor's Pride",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Tales of Heroism",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.valourstrikeLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bearer of the Evanescent Ion",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Bearer of the Iron Chalice",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Bearer of the Judicant's Helm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bearer of the Lancer's Sigil",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -308,7 +409,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ik.dt.lance",
+                            "detachmentId": "w40k.10e.ik.dt.wardenLance",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -317,24 +418,20 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Revered Knight",
+                                    "name": "Acquisitor-at-Arms",
                                     "points": 15
                                 },
                                 {
-                                    "name": "Mysterious Guardian",
-                                    "points": 25
+                                    "name": "Augury Halo",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Mythic Hero",
-                                    "points": 25
+                                    "name": "Purgation's  Hand",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Banner of Macharius Triumphant",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Unyielding Paragon",
-                                    "points": 40
+                                    "name": "Vengeful Tread",
+                                    "points": 15
                                 }
                             ]
                         },
@@ -360,6 +457,93 @@
                                 {
                                     "name": "Vocifer Magnificat (Aura)",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorisCompanions",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Crushing Condemnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Triumph",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Pennant of Silvered Fury",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Wyrmslayer Divination",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.spearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fables of Nightmare",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Martial Tuition",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mentor's Pride",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Tales of Heroism",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.valourstrikeLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bearer of the Evanescent Ion",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Bearer of the Iron Chalice",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Bearer of the Judicant's Helm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bearer of the Lancer's Sigil",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -434,7 +618,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ik.dt.lance",
+                            "detachmentId": "w40k.10e.ik.dt.wardenLance",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -443,24 +627,20 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Revered Knight",
+                                    "name": "Acquisitor-at-Arms",
                                     "points": 15
                                 },
                                 {
-                                    "name": "Mysterious Guardian",
-                                    "points": 25
+                                    "name": "Augury Halo",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Mythic Hero",
-                                    "points": 25
+                                    "name": "Purgation's  Hand",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Banner of Macharius Triumphant",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Unyielding Paragon",
-                                    "points": 40
+                                    "name": "Vengeful Tread",
+                                    "points": 15
                                 }
                             ]
                         },
@@ -486,6 +666,93 @@
                                 {
                                     "name": "Vocifer Magnificat (Aura)",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorisCompanions",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Crushing Condemnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Triumph",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Pennant of Silvered Fury",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Wyrmslayer Divination",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.spearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fables of Nightmare",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Martial Tuition",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mentor's Pride",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Tales of Heroism",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.valourstrikeLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bearer of the Evanescent Ion",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Bearer of the Iron Chalice",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Bearer of the Judicant's Helm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bearer of the Lancer's Sigil",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -562,7 +829,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ik.dt.lance",
+                            "detachmentId": "w40k.10e.ik.dt.wardenLance",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -571,24 +838,20 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Revered Knight",
+                                    "name": "Acquisitor-at-Arms",
                                     "points": 15
                                 },
                                 {
-                                    "name": "Mysterious Guardian",
-                                    "points": 25
+                                    "name": "Augury Halo",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Mythic Hero",
-                                    "points": 25
+                                    "name": "Purgation's  Hand",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Banner of Macharius Triumphant",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Unyielding Paragon",
-                                    "points": 40
+                                    "name": "Vengeful Tread",
+                                    "points": 15
                                 }
                             ]
                         },
@@ -614,6 +877,93 @@
                                 {
                                     "name": "Vocifer Magnificat (Aura)",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorisCompanions",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Crushing Condemnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Triumph",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Pennant of Silvered Fury",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Wyrmslayer Divination",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.spearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fables of Nightmare",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Martial Tuition",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mentor's Pride",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Tales of Heroism",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.valourstrikeLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bearer of the Evanescent Ion",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Bearer of the Iron Chalice",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Bearer of the Judicant's Helm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bearer of the Lancer's Sigil",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -702,7 +1052,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ik.dt.lance",
+                            "detachmentId": "w40k.10e.ik.dt.wardenLance",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -711,24 +1061,20 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Revered Knight",
+                                    "name": "Acquisitor-at-Arms",
                                     "points": 15
                                 },
                                 {
-                                    "name": "Mysterious Guardian",
-                                    "points": 25
+                                    "name": "Augury Halo",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Mythic Hero",
-                                    "points": 25
+                                    "name": "Purgation's  Hand",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Banner of Macharius Triumphant",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Unyielding Paragon",
-                                    "points": 40
+                                    "name": "Vengeful Tread",
+                                    "points": 15
                                 }
                             ]
                         },
@@ -754,6 +1100,280 @@
                                 {
                                     "name": "Vocifer Magnificat (Aura)",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorisCompanions",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Crushing Condemnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Triumph",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Pennant of Silvered Fury",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Wyrmslayer Divination",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.spearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fables of Nightmare",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Martial Tuition",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mentor's Pride",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Tales of Heroism",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.valourstrikeLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bearer of the Evanescent Ion",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Bearer of the Iron Chalice",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Bearer of the Judicant's Helm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bearer of the Lancer's Sigil",
+                                    "points": 25
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.defender",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "name": "Knight Defender",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Knight Defender",
+                    "points": 425,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Conversion Beam Obliterator"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Plasma Executor"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Phosphor Blaster"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Incendine Combustor"
+                            }
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.wardenLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Acquisitor-at-Arms",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Augury Halo",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Purgation's  Hand",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Vengeful Tread",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorForgepact",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Omnissian Champion",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Knight of the Opus Machina",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Vocifer Magnificat (Aura)",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorisCompanions",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Crushing Condemnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Triumph",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Pennant of Silvered Fury",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Wyrmslayer Divination",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.spearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fables of Nightmare",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Martial Tuition",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mentor's Pride",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Tales of Heroism",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.valourstrikeLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bearer of the Evanescent Ion",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Bearer of the Iron Chalice",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Bearer of the Judicant's Helm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bearer of the Lancer's Sigil",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -839,7 +1459,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ik.dt.lance",
+                            "detachmentId": "w40k.10e.ik.dt.wardenLance",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -848,24 +1468,20 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Revered Knight",
+                                    "name": "Acquisitor-at-Arms",
                                     "points": 15
                                 },
                                 {
-                                    "name": "Mysterious Guardian",
-                                    "points": 25
+                                    "name": "Augury Halo",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Mythic Hero",
-                                    "points": 25
+                                    "name": "Purgation's  Hand",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Banner of Macharius Triumphant",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Unyielding Paragon",
-                                    "points": 40
+                                    "name": "Vengeful Tread",
+                                    "points": 15
                                 }
                             ]
                         },
@@ -891,6 +1507,93 @@
                                 {
                                     "name": "Vocifer Magnificat (Aura)",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorisCompanions",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Crushing Condemnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Triumph",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Pennant of Silvered Fury",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Wyrmslayer Divination",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.spearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fables of Nightmare",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Martial Tuition",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mentor's Pride",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Tales of Heroism",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.valourstrikeLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bearer of the Evanescent Ion",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Bearer of the Iron Chalice",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Bearer of the Judicant's Helm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bearer of the Lancer's Sigil",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -951,7 +1654,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ik.dt.lance",
+                            "detachmentId": "w40k.10e.ik.dt.wardenLance",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -960,24 +1663,20 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Revered Knight",
+                                    "name": "Acquisitor-at-Arms",
                                     "points": 15
                                 },
                                 {
-                                    "name": "Mysterious Guardian",
-                                    "points": 25
+                                    "name": "Augury Halo",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Mythic Hero",
-                                    "points": 25
+                                    "name": "Purgation's  Hand",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Banner of Macharius Triumphant",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Unyielding Paragon",
-                                    "points": 40
+                                    "name": "Vengeful Tread",
+                                    "points": 15
                                 }
                             ]
                         },
@@ -1003,6 +1702,93 @@
                                 {
                                     "name": "Vocifer Magnificat (Aura)",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorisCompanions",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Crushing Condemnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Triumph",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Pennant of Silvered Fury",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Wyrmslayer Divination",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.spearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fables of Nightmare",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Martial Tuition",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mentor's Pride",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Tales of Heroism",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.valourstrikeLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bearer of the Evanescent Ion",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Bearer of the Iron Chalice",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Bearer of the Judicant's Helm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bearer of the Lancer's Sigil",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -1057,7 +1843,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ik.dt.lance",
+                            "detachmentId": "w40k.10e.ik.dt.wardenLance",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1066,24 +1852,20 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Revered Knight",
+                                    "name": "Acquisitor-at-Arms",
                                     "points": 15
                                 },
                                 {
-                                    "name": "Mysterious Guardian",
-                                    "points": 25
+                                    "name": "Augury Halo",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Mythic Hero",
-                                    "points": 25
+                                    "name": "Purgation's  Hand",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Banner of Macharius Triumphant",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Unyielding Paragon",
-                                    "points": 40
+                                    "name": "Vengeful Tread",
+                                    "points": 15
                                 }
                             ]
                         },
@@ -1109,6 +1891,93 @@
                                 {
                                     "name": "Vocifer Magnificat (Aura)",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorisCompanions",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Crushing Condemnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Triumph",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Pennant of Silvered Fury",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Wyrmslayer Divination",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.spearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fables of Nightmare",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Martial Tuition",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mentor's Pride",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Tales of Heroism",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.valourstrikeLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bearer of the Evanescent Ion",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Bearer of the Iron Chalice",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Bearer of the Judicant's Helm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bearer of the Lancer's Sigil",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -1250,7 +2119,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ik.dt.lance",
+                            "detachmentId": "w40k.10e.ik.dt.wardenLance",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1259,24 +2128,20 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Revered Knight",
+                                    "name": "Acquisitor-at-Arms",
                                     "points": 15
                                 },
                                 {
-                                    "name": "Mysterious Guardian",
-                                    "points": 25
+                                    "name": "Augury Halo",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Mythic Hero",
-                                    "points": 25
+                                    "name": "Purgation's  Hand",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Banner of Macharius Triumphant",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Unyielding Paragon",
-                                    "points": 40
+                                    "name": "Vengeful Tread",
+                                    "points": 15
                                 }
                             ]
                         },
@@ -1302,6 +2167,93 @@
                                 {
                                     "name": "Vocifer Magnificat (Aura)",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorisCompanions",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Crushing Condemnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Triumph",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Pennant of Silvered Fury",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Wyrmslayer Divination",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.spearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fables of Nightmare",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Martial Tuition",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mentor's Pride",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Tales of Heroism",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.valourstrikeLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bearer of the Evanescent Ion",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Bearer of the Iron Chalice",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Bearer of the Judicant's Helm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bearer of the Lancer's Sigil",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -1342,7 +2294,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ik.dt.lance",
+                            "detachmentId": "w40k.10e.ik.dt.wardenLance",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1351,24 +2303,20 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Revered Knight",
+                                    "name": "Acquisitor-at-Arms",
                                     "points": 15
                                 },
                                 {
-                                    "name": "Mysterious Guardian",
-                                    "points": 25
+                                    "name": "Augury Halo",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Mythic Hero",
-                                    "points": 25
+                                    "name": "Purgation's  Hand",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Banner of Macharius Triumphant",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Unyielding Paragon",
-                                    "points": 40
+                                    "name": "Vengeful Tread",
+                                    "points": 15
                                 }
                             ]
                         },
@@ -1394,6 +2342,93 @@
                                 {
                                     "name": "Vocifer Magnificat (Aura)",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorisCompanions",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Crushing Condemnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Triumph",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Pennant of Silvered Fury",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Wyrmslayer Divination",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.spearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fables of Nightmare",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Martial Tuition",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mentor's Pride",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Tales of Heroism",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.valourstrikeLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bearer of the Evanescent Ion",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Bearer of the Iron Chalice",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Bearer of the Judicant's Helm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bearer of the Lancer's Sigil",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -1440,7 +2475,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ik.dt.lance",
+                            "detachmentId": "w40k.10e.ik.dt.wardenLance",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1449,24 +2484,20 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Revered Knight",
+                                    "name": "Acquisitor-at-Arms",
                                     "points": 15
                                 },
                                 {
-                                    "name": "Mysterious Guardian",
-                                    "points": 25
+                                    "name": "Augury Halo",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Mythic Hero",
-                                    "points": 25
+                                    "name": "Purgation's  Hand",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Banner of Macharius Triumphant",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Unyielding Paragon",
-                                    "points": 40
+                                    "name": "Vengeful Tread",
+                                    "points": 15
                                 }
                             ]
                         },
@@ -1492,6 +2523,93 @@
                                 {
                                     "name": "Vocifer Magnificat (Aura)",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorisCompanions",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Crushing Condemnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Triumph",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Pennant of Silvered Fury",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Wyrmslayer Divination",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.spearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fables of Nightmare",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Martial Tuition",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mentor's Pride",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Tales of Heroism",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.valourstrikeLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bearer of the Evanescent Ion",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Bearer of the Iron Chalice",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Bearer of the Judicant's Helm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bearer of the Lancer's Sigil",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -1532,7 +2650,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ik.dt.lance",
+                            "detachmentId": "w40k.10e.ik.dt.wardenLance",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1541,24 +2659,20 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Revered Knight",
+                                    "name": "Acquisitor-at-Arms",
                                     "points": 15
                                 },
                                 {
-                                    "name": "Mysterious Guardian",
-                                    "points": 25
+                                    "name": "Augury Halo",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Mythic Hero",
-                                    "points": 25
+                                    "name": "Purgation's  Hand",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Banner of Macharius Triumphant",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Unyielding Paragon",
-                                    "points": 40
+                                    "name": "Vengeful Tread",
+                                    "points": 15
                                 }
                             ]
                         },
@@ -1584,6 +2698,93 @@
                                 {
                                     "name": "Vocifer Magnificat (Aura)",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorisCompanions",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Crushing Condemnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Triumph",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Pennant of Silvered Fury",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Wyrmslayer Divination",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.spearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fables of Nightmare",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Martial Tuition",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mentor's Pride",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Tales of Heroism",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.valourstrikeLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bearer of the Evanescent Ion",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Bearer of the Iron Chalice",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Bearer of the Judicant's Helm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bearer of the Lancer's Sigil",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -1638,7 +2839,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ik.dt.lance",
+                            "detachmentId": "w40k.10e.ik.dt.wardenLance",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1647,24 +2848,20 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Revered Knight",
+                                    "name": "Acquisitor-at-Arms",
                                     "points": 15
                                 },
                                 {
-                                    "name": "Mysterious Guardian",
-                                    "points": 25
+                                    "name": "Augury Halo",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Mythic Hero",
-                                    "points": 25
+                                    "name": "Purgation's  Hand",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Banner of Macharius Triumphant",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Unyielding Paragon",
-                                    "points": 40
+                                    "name": "Vengeful Tread",
+                                    "points": 15
                                 }
                             ]
                         },
@@ -1690,6 +2887,93 @@
                                 {
                                     "name": "Vocifer Magnificat (Aura)",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorisCompanions",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Crushing Condemnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Triumph",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Pennant of Silvered Fury",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Wyrmslayer Divination",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.spearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fables of Nightmare",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Martial Tuition",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mentor's Pride",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Tales of Heroism",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.valourstrikeLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bearer of the Evanescent Ion",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Bearer of the Iron Chalice",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Bearer of the Judicant's Helm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bearer of the Lancer's Sigil",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -1744,7 +3028,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.ik.dt.lance",
+                            "detachmentId": "w40k.10e.ik.dt.wardenLance",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -1753,24 +3037,20 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Revered Knight",
+                                    "name": "Acquisitor-at-Arms",
                                     "points": 15
                                 },
                                 {
-                                    "name": "Mysterious Guardian",
-                                    "points": 25
+                                    "name": "Augury Halo",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Mythic Hero",
-                                    "points": 25
+                                    "name": "Purgation's  Hand",
+                                    "points": 20
                                 },
                                 {
-                                    "name": "Banner of Macharius Triumphant",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Unyielding Paragon",
-                                    "points": 40
+                                    "name": "Vengeful Tread",
+                                    "points": 15
                                 }
                             ]
                         },
@@ -1796,6 +3076,93 @@
                                 {
                                     "name": "Vocifer Magnificat (Aura)",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.questorisCompanions",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Crushing Condemnation",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Herald of Triumph",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Pennant of Silvered Fury",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Wyrmslayer Divination",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.spearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fables of Nightmare",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Martial Tuition",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mentor's Pride",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Tales of Heroism",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ik.dt.valourstrikeLance",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bearer of the Evanescent Ion",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Bearer of the Iron Chalice",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Bearer of the Judicant's Helm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bearer of the Lancer's Sigil",
+                                    "points": 25
                                 }
                             ]
                         }

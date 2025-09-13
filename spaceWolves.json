@@ -4845,7 +4845,7 @@
                 {
                     "name": "Assault Intercessor with Jump Pack, Assault Intercessor Sergeant with Jump Pack",
                     "amount": 10,
-                    "cost": 160
+                    "cost": 170
                 },
                 {
                     "name": "Assault Intercessor with Jump Pack, Assault Intercessor Sergeant with Jump Pack",
@@ -7064,7 +7064,7 @@
                 {
                     "name": "Bladeguard Veteran, Bladeguard Veteran Sergeant",
                     "amount": 6,
-                    "cost": 160
+                    "cost": 170
                 },
                 {
                     "name": "Bladeguard Veteran, Bladeguard Veteran Sergeant",
@@ -7732,7 +7732,7 @@
                 {
                     "name": "Aggressor, Aggressor Sergeant",
                     "amount": 6,
-                    "cost": 220
+                    "cost": 200
                 },
                 {
                     "name": "Aggressor, Aggressor Sergeant",
@@ -8265,7 +8265,7 @@
             "models": [
                 {
                     "name": "Redemptor Dreadnought",
-                    "points": 210,
+                    "points": 195,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -8372,7 +8372,7 @@
             "models": [
                 {
                     "name": "Ballistus Dreadnought",
-                    "points": 140
+                    "points": 150
                 }
             ]
         },
@@ -9296,7 +9296,7 @@
             "models": [
                 {
                     "name": "Gladiator Valiant",
-                    "points": 160,
+                    "points": 150,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -9354,7 +9354,7 @@
             "models": [
                 {
                     "name": "Land Raider",
-                    "points": 240,
+                    "points": 220,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -9426,7 +9426,7 @@
             "models": [
                 {
                     "name": "Land Raider Redeemer",
-                    "points": 285,
+                    "points": 270,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -9963,29 +9963,7 @@
             "models": [
                 {
                     "name": "Logan Grimnar",
-                    "points": 115,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.sw.unit.loganGrimnarStormrider",
-            "type": "unit",
-            "rulesetId": "w40k.10e.sw",
-            "name": "Logan Grimnar on Stormrider",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Logan Grimnar on Stormrider",
-                    "points": 180,
+                    "points": 110,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -10029,7 +10007,7 @@
             "models": [
                 {
                     "name": "Bjorn the Fell-Handed",
-                    "points": 190,
+                    "points": 170,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -10074,7 +10052,7 @@
             "models": [
                 {
                     "name": "Arjac Rockfist",
-                    "points": 95,
+                    "points": 105,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -10118,7 +10096,7 @@
             "models": [
                 {
                     "name": "Ragnar Blackmane",
-                    "points": 90,
+                    "points": 100,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -10132,80 +10110,14 @@
             ]
         },
         {
-            "id": "w40k.10e.sw.unit.kromDragongaze",
+            "id": "w40k.10e.sw.unit.wolfGuardBattleLeader",
             "type": "unit",
             "rulesetId": "w40k.10e.sw",
-            "name": "Krom Dragongaze",
+            "name": "Wolf Guard Battle Leader",
             "role": "CHARACTER",
             "models": [
                 {
-                    "name": "Krom Dragongaze",
-                    "points": 65,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.sw.unit.haraldDeathwolf",
-            "type": "unit",
-            "rulesetId": "w40k.10e.sw",
-            "name": "Harald Deathwolf",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Harald Deathwolf",
-                    "points": 85,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.sw.unit.canisWolfborn",
-            "type": "unit",
-            "rulesetId": "w40k.10e.sw",
-            "name": "Canis Wolfborn",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Canis Wolfborn",
-                    "points": 75,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.sw.unit.wolfGuardBattleLeaderTerminatorArmour",
-            "type": "unit",
-            "rulesetId": "w40k.10e.sw",
-            "name": "Wolf Guard Battle Leader in Terminator Armour",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Wolf Guard Battle Leader in Terminator Armour",
+                    "name": "Wolf Guard Battle Leader",
                     "points": 75,
                     "gearset": [
                         {
@@ -10218,23 +10130,11 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Power Weapon"
+                                "name": "Master-crafted Power Weapon"
                             },
                             "options": [
                                 {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Chainfist"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Relic Shield, Close Combat Weapon"
+                                    "name": "Master-crafted Power Weapon"
                                 },
                                 {
                                     "name": "Thunder Hammer"
@@ -10244,38 +10144,22 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Storm Bolter"
+                                "name": "Storm Shield"
                             },
                             "options": [
                                 {
-                                    "name": ""
+                                    "name": "Storm Shield"
                                 },
                                 {
-                                    "name": "Storm Bolter"
+                                    "name": "Master-crafted Bolt Carbine"
                                 },
                                 {
-                                    "name": "Chainfist"
+                                    "name": "Master-crafted Heavy Bolt Pistol"
                                 },
                                 {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                },
-                                {
-                                    "name": "Combi-weapon"
+                                    "name": "Plasma Pistol"
                                 }
                             ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Twin Lightning Claws"
-                            },
-                            "selected": false
                         },
                         {
                             "type": "dropdown",
@@ -10543,684 +10427,6 @@
             ]
         },
         {
-            "id": "w40k.10e.sw.unit.wolfLordThunderwolf",
-            "type": "unit",
-            "rulesetId": "w40k.10e.sw",
-            "name": "Wolf Lord on Thunderwolf",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Wolf Lord on Thunderwolf",
-                    "points": 100,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Relic Weapon"
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Relic Weapon"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Relic Shield, Close Combat Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                },
-                                {
-                                    "name": "Master-crafted Boltgun"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Relic Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Twin Lightning Claws"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.1stCompany",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Fear Made Manifest",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Iron Resolve",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Rites of War",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "The Imperium's Sword",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.anvilSiegeForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Architect of War",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Fleet Commander",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Indomitable Fury",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Stoic Defender",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.firestormAssaultForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Adamantine Mantle",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Champion of Humanity",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Forged in Battle",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "War-tempered Artifice",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.gladius",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Artificer Armour",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "The Honour Vehement",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Adept of the Codex",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Fire Discipline",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.ironstormSpearhead",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Adept of the Omnissiah",
-                                    "points": 35
-                                },
-                                {
-                                    "name": "Master of Machine War",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Target Augury Web",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "The Flesh is Weak",
-                                    "points": 10
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.stormlanceTaskForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Feinting Withdrawal",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Fury of the Storm",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Hunter's Instincts",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Portents of Wisdom",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.vanguardSpearhead",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Execute and Redeploy",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Ghostweave Cloak",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Shadow War Veteran",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "The Blade Driven Deep",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Longstrider",
-                                    "points": 20
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.sw.unit.wolfGuardBattleLeaderThunderwolf",
-            "type": "unit",
-            "rulesetId": "w40k.10e.sw",
-            "name": "Wolf Guard Battle Leader on Thunderwolf",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Wolf Guard Battle Leader on Thunderwolf",
-                    "points": 80,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Relic Weapon"
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Relic Weapon"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Relic Shield, Close Combat Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                },
-                                {
-                                    "name": "Master-crafted Boltgun"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Relic Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Twin Lightning Claws"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.1stCompany",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Fear Made Manifest",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Iron Resolve",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Rites of War",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "The Imperium's Sword",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.anvilSiegeForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Architect of War",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Fleet Commander",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Indomitable Fury",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Stoic Defender",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.firestormAssaultForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Adamantine Mantle",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Champion of Humanity",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Forged in Battle",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "War-tempered Artifice",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.gladius",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Artificer Armour",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "The Honour Vehement",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Adept of the Codex",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Fire Discipline",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.ironstormSpearhead",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Adept of the Omnissiah",
-                                    "points": 35
-                                },
-                                {
-                                    "name": "Master of Machine War",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Target Augury Web",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "The Flesh is Weak",
-                                    "points": 10
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.stormlanceTaskForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Feinting Withdrawal",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Fury of the Storm",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Hunter's Instincts",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Portents of Wisdom",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.vanguardSpearhead",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Execute and Redeploy",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Ghostweave Cloak",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Shadow War Veteran",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "The Blade Driven Deep",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Longstrider",
-                                    "points": 20
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "id": "w40k.10e.sw.unit.bloodClaws",
             "type": "unit",
             "rulesetId": "w40k.10e.sw",
@@ -11229,13 +10435,13 @@
             "points": [
                 {
                     "name": "Blood Claw, Blood Claw Pack Leader",
-                    "amount": 15,
-                    "cost": 210
+                    "amount": 20,
+                    "cost": 285
                 },
                 {
                     "name": "Blood Claw, Blood Claw Pack Leader",
                     "amount": 10,
-                    "cost": 140
+                    "cost": 135
                 }
             ],
             "restrictions": [
@@ -11243,7 +10449,7 @@
                     "type": "model",
                     "name": "Blood Claw",
                     "min": 9,
-                    "max": 14
+                    "max": 19
                 },
                 {
                     "type": "model",
@@ -11329,19 +10535,14 @@
                 {
                     "name": "Grey Hunter, Grey Hunter Pack Leader",
                     "amount": 10,
-                    "cost": 170
-                },
-                {
-                    "name": "Grey Hunter, Grey Hunter Pack Leader",
-                    "amount": 5,
-                    "cost": 85
+                    "cost": 180
                 }
             ],
             "restrictions": [
                 {
                     "type": "model",
                     "name": "Grey Hunter",
-                    "min": 4,
+                    "min": 9,
                     "max": 9
                 },
                 {
@@ -11433,106 +10634,69 @@
             ]
         },
         {
-            "id": "w40k.10e.sw.unit.wolfGuard",
+            "id": "w40k.10e.sw.unit.wolfGuardHeadtakers",
             "type": "unit",
             "rulesetId": "w40k.10e.sw",
-            "name": "Wolf Guard",
+            "name": "Wolf Guard Headtakers",
             "role": "INFANTRY",
             "points": [
                 {
-                    "name": "Wolf Guard, Wolf Guard Pack Leader",
-                    "amount": 10,
+                    "name": "Wolf Guard Headtaker, Hunting Wolf",
+                    "amount": 12,
+                    "cost": 220
+                },
+                {
+                    "name": "Wolf Guard Headtaker",
+                    "amount": 6,
                     "cost": 170
                 },
                 {
-                    "name": "Wolf Guard, Wolf Guard Pack Leader",
-                    "amount": 5,
+                    "name": "Wolf Guard Headtaker, Hunting Wolf",
+                    "amount": 6,
+                    "cost": 110
+                },
+                {
+                    "name": "Wolf Guard Headtaker",
+                    "amount": 3,
                     "cost": 85
                 }
             ],
             "restrictions": [
                 {
                     "type": "model",
-                    "name": "Wolf Guard",
-                    "min": 4,
-                    "max": 9
+                    "name": "Wolf Guard Headtaker",
+                    "min": 3,
+                    "max": 6
                 },
                 {
                     "type": "model",
-                    "name": "Wolf Guard Pack Leader",
-                    "min": 1,
-                    "max": 1
+                    "name": "Hunting Wolf",
+                    "min": 0,
+                    "max": 6
                 }
             ],
             "blueprints": [
                 {
-                    "name": "Wolf Guard",
+                    "name": "Wolf Guard Headtaker",
                     "gearset": [
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Bolt Pistol"
+                                "name": "Master-crafted Power Weapon, Storm Shield"
                             },
                             "options": [
                                 {
-                                    "name": "Bolt Pistol"
+                                    "name": "Master-crafted Power Weapon, Storm Shield"
                                 },
                                 {
-                                    "name": "Combi-weapon"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Storm Shield"
+                                    "name": "Paired Master-crafted Power Weapon"
                                 }
                             ]
                         }
                     ]
                 },
                 {
-                    "name": "Wolf Guard Pack Leader",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Storm Shield"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.sw.unit.lukasTheTrickster",
-            "type": "unit",
-            "rulesetId": "w40k.10e.sw",
-            "name": "Lukas the Trickster",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Lukas the Trickster",
-                    "points": 50
+                    "name": "Hunting Wolf"
                 }
             ]
         },
@@ -11546,12 +10710,12 @@
                 {
                     "name": "Wolf Guard Terminator, Wolf Guard Terminator Pack Leader",
                     "amount": 10,
-                    "cost": 370
+                    "cost": 340
                 },
                 {
                     "name": "Wolf Guard Terminator, Wolf Guard Terminator Pack Leader",
                     "amount": 5,
-                    "cost": 185
+                    "cost": 170
                 }
             ],
             "restrictions": [
@@ -11575,82 +10739,19 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Power Fist"
+                                "name": "Storm Bolter, Master-crafted Power Weapon"
                             },
                             "options": [
                                 {
-                                    "name": ""
+                                    "name": "Storm Bolter, Master-crafted Power Weapon"
                                 },
                                 {
-                                    "name": "Storm Bolter"
+                                    "name": "Storm Shield, Master-crafted Power Weapon"
                                 },
                                 {
-                                    "name": "Combi-weapon"
-                                },
-                                {
-                                    "name": "Chainfist"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                },
-                                {
-                                    "name": "Storm Shield"
+                                    "name": "Assault Cannon, Power Fist"
                                 }
                             ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Storm Bolter"
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                },
-                                {
-                                    "name": "Chainfist"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                },
-                                {
-                                    "name": "Storm Shield"
-                                },
-                                {
-                                    "name": "Assault Cannon"
-                                },
-                                {
-                                    "name": "Heavy Flamer"
-                                },
-                                {
-                                    "name": "Storm Bolter, Cyclone Missile Launcher"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Twin Lightning Claws"
-                            },
-                            "selected": false
                         }
                     ]
                 },
@@ -11660,116 +10761,21 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Power Weapon"
+                                "name": "Storm Bolter, Master-crafted Power Weapon"
                             },
                             "options": [
                                 {
-                                    "name": ""
+                                    "name": "Storm Bolter, Master-crafted Power Weapon"
                                 },
                                 {
-                                    "name": "Storm Bolter"
+                                    "name": "Relic Greataxe"
                                 },
                                 {
-                                    "name": "Combi-weapon"
-                                },
-                                {
-                                    "name": "Chainfist"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                },
-                                {
-                                    "name": "Storm Shield"
+                                    "name": "Twin Lightning Claws"
                                 }
                             ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Storm Bolter"
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                },
-                                {
-                                    "name": "Chainfist"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                },
-                                {
-                                    "name": "Storm Shield"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Twin Lightning Claws"
-                            },
-                            "selected": false
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.sw.unit.houndsMorkai",
-            "type": "unit",
-            "rulesetId": "w40k.10e.sw",
-            "name": "Hounds of Morkai",
-            "role": "INFANTRY",
-            "points": [
-                {
-                    "name": "Hound of Morkai, Hound of Morkai Pack Leader",
-                    "amount": 10,
-                    "cost": 160
-                },
-                {
-                    "name": "Hound of Morkai, Hound of Morkai Pack Leader",
-                    "amount": 5,
-                    "cost": 80
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Hound of Morkai",
-                    "min": 4,
-                    "max": 9
-                },
-                {
-                    "type": "model",
-                    "name": "Hound of Morkai Pack Leader",
-                    "min": 1,
-                    "max": 1
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Hound of Morkai"
-                },
-                {
-                    "name": "Hound of Morkai Pack Leader"
                 }
             ]
         },
@@ -11781,82 +10787,59 @@
             "role": "INFANTRY",
             "points": [
                 {
-                    "name": "Wulfen, Wulfen Pack Leader",
+                    "name": "Wulfen",
                     "amount": 10,
-                    "cost": 190
+                    "cost": 170
                 },
                 {
-                    "name": "Wulfen, Wulfen Pack Leader",
+                    "name": "Wulfen",
                     "amount": 5,
-                    "cost": 95
+                    "cost": 85
                 }
             ],
             "restrictions": [
                 {
                     "type": "model",
                     "name": "Wulfen",
-                    "min": 4,
-                    "max": 9
-                },
-                {
-                    "type": "model",
-                    "name": "Wulfen Pack Leader",
-                    "min": 1,
-                    "max": 1
+                    "min": 5,
+                    "max": 10
                 }
             ],
             "blueprints": [
                 {
+                    "name": "Wulfen"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sw.unit.wulfenStormShields",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sw",
+            "name": "Wulfen with Storm Shields",
+            "role": "INFANTRY",
+            "points": [
+                {
                     "name": "Wulfen",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Wulfen Claws"
-                            },
-                            "options": [
-                                {
-                                    "name": "Wulfen Claws"
-                                },
-                                {
-                                    "name": "Wulfen Hammer, Storm Shield"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Stormfrag Auto-launcher"
-                            },
-                            "selected": false
-                        }
-                    ]
+                    "amount": 10,
+                    "cost": 170
                 },
                 {
-                    "name": "Wulfen Pack Leader",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Wulfen Claws"
-                            },
-                            "options": [
-                                {
-                                    "name": "Wulfen Claws"
-                                },
-                                {
-                                    "name": "Wulfen Hammer, Storm Shield"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Stormfrag Auto-launcher"
-                            },
-                            "selected": false
-                        }
-                    ]
+                    "name": "Wulfen",
+                    "amount": 5,
+                    "cost": 85
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Wulfen",
+                    "min": 5,
+                    "max": 10
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Wulfen"
                 }
             ]
         },
@@ -11869,7 +10852,7 @@
             "models": [
                 {
                     "name": "Wulfen Dreadnought",
-                    "points": 130,
+                    "points": 145,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -11921,7 +10904,7 @@
             "models": [
                 {
                     "name": "Murderfang",
-                    "points": 170
+                    "points": 160
                 }
             ]
         },
@@ -11935,12 +10918,12 @@
                 {
                     "name": "Thunderwolf Cavalry, Thunderwolf Cavalry Pack Leader",
                     "amount": 6,
-                    "cost": 240
+                    "cost": 230
                 },
                 {
                     "name": "Thunderwolf Cavalry, Thunderwolf Cavalry Pack Leader",
                     "amount": 3,
-                    "cost": 120
+                    "cost": 115
                 }
             ],
             "restrictions": [
@@ -12020,12 +11003,12 @@
                 {
                     "name": "Fenrisian Wolf",
                     "amount": 10,
-                    "cost": 60
+                    "cost": 80
                 },
                 {
                     "name": "Fenrisian Wolf",
                     "amount": 5,
-                    "cost": 30
+                    "cost": 40
                 }
             ],
             "restrictions": [
@@ -12039,1405 +11022,6 @@
             "blueprints": [
                 {
                     "name": "Fenrisian Wolf"
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.sw.unit.skyclaws",
-            "type": "unit",
-            "rulesetId": "w40k.10e.sw",
-            "name": "Skyclaws",
-            "role": "INFANTRY",
-            "points": [
-                {
-                    "name": "Skyclaw, Skyclaw Pack Leader",
-                    "amount": 15,
-                    "cost": 240
-                },
-                {
-                    "name": "Skyclaw, Skyclaw Pack Leader",
-                    "amount": 10,
-                    "cost": 165
-                },
-                {
-                    "name": "Skyclaw, Skyclaw Pack Leader",
-                    "amount": 5,
-                    "cost": 90
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Skyclaw",
-                    "min": 4,
-                    "max": 14
-                },
-                {
-                    "type": "model",
-                    "name": "Skyclaw Pack Leader",
-                    "min": 1,
-                    "max": 1
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Skyclaw",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol, Astartes Chainsword"
-                            },
-                            "options": [
-                                {
-                                    "name": "Bolt Pistol, Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Plasma Pistol, Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Flamer, Close Combat Weapon"
-                                },
-                                {
-                                    "name": "Grav-gun, Close Combat Weapon"
-                                },
-                                {
-                                    "name": "Meltagun, Close Combat Weapon"
-                                },
-                                {
-                                    "name": "Plasma Gun, Close Combat Weapon"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Skyclaw Pack Leader",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Astartes Chainsword"
-                            },
-                            "options": [
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.sw.unit.longFangs",
-            "type": "unit",
-            "rulesetId": "w40k.10e.sw",
-            "name": "Long Fangs",
-            "role": "INFANTRY",
-            "points": [
-                {
-                    "name": "Long Fang, Long Fang Pack Leader",
-                    "amount": 6,
-                    "cost": 145
-                },
-                {
-                    "name": "Long Fang, Long Fang Pack Leader",
-                    "amount": 5,
-                    "cost": 120
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Long Fang",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "type": "model",
-                    "name": "Long Fang Pack Leader",
-                    "min": 1,
-                    "max": 1
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Long Fang",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Boltgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": "Grav-cannon"
-                                },
-                                {
-                                    "name": "Heavy Bolter"
-                                },
-                                {
-                                    "name": "Heavy Flamer"
-                                },
-                                {
-                                    "name": "Lascannon"
-                                },
-                                {
-                                    "name": "Missile Launcher"
-                                },
-                                {
-                                    "name": "Multi-melta"
-                                },
-                                {
-                                    "name": "Plasma Cannon"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Long Fang Pack Leader",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Close Combat Weapon"
-                            },
-                            "options": [
-                                {
-                                    "name": "Close Combat Weapon"
-                                },
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Boltgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": "Flamer"
-                                },
-                                {
-                                    "name": "Grav-gun"
-                                },
-                                {
-                                    "name": "Meltagun"
-                                },
-                                {
-                                    "name": "Plasma Gun"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.sw.unit.stormfangGunship",
-            "type": "unit",
-            "rulesetId": "w40k.10e.sw",
-            "name": "Stormfang Gunship",
-            "role": "AIRCRAFT",
-            "models": [
-                {
-                    "name": "Stormfang Gunship",
-                    "points": 300,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Twin Stormstrike Missile Launcher"
-                            },
-                            "options": [
-                                {
-                                    "name": "Twin Stormstrike Missile Launcher"
-                                },
-                                {
-                                    "name": "Twin Lascannon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "2x Skyhammer Missile Launcher"
-                            },
-                            "options": [
-                                {
-                                    "name": "2x Skyhammer Missile Launcher"
-                                },
-                                {
-                                    "name": "2x Twin Multi-melta"
-                                },
-                                {
-                                    "name": "2x Twin Heavy Bolter"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.sw.unit.stormwolf",
-            "type": "unit",
-            "rulesetId": "w40k.10e.sw",
-            "name": "Stormwolf",
-            "role": "AIRCRAFT",
-            "models": [
-                {
-                    "name": "Stormwolf",
-                    "points": 250,
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "2x Skyhammer Missile Launcher"
-                            },
-                            "options": [
-                                {
-                                    "name": "2x Skyhammer Missile Launcher"
-                                },
-                                {
-                                    "name": "2x Twin Multi-melta"
-                                },
-                                {
-                                    "name": "2x Twin Heavy Bolter"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.sw.unit.wolfGuardPackLeader",
-            "type": "unit",
-            "rulesetId": "w40k.10e.sw",
-            "name": "Wolf Guard Pack Leader",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Wolf Guard Pack Leader",
-                    "points": 30,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                },
-                                {
-                                    "name": "Storm Shield"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Boltgun"
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                },
-                                {
-                                    "name": "Storm Shield"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Twin Lightning Claws"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.1stCompany",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Fear Made Manifest",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Iron Resolve",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Rites of War",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "The Imperium's Sword",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.anvilSiegeForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Architect of War",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Fleet Commander",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Indomitable Fury",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Stoic Defender",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.firestormAssaultForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Adamantine Mantle",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Champion of Humanity",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Forged in Battle",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "War-tempered Artifice",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.gladius",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Artificer Armour",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "The Honour Vehement",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Adept of the Codex",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Fire Discipline",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.ironstormSpearhead",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Adept of the Omnissiah",
-                                    "points": 35
-                                },
-                                {
-                                    "name": "Master of Machine War",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Target Augury Web",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "The Flesh is Weak",
-                                    "points": 10
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.stormlanceTaskForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Feinting Withdrawal",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Fury of the Storm",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Hunter's Instincts",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Portents of Wisdom",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.vanguardSpearhead",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Execute and Redeploy",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Ghostweave Cloak",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Shadow War Veteran",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "The Blade Driven Deep",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Wolves' Wisdom",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Longstrider",
-                                    "points": 20
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.sw.unit.wolfGuardPackLeaderJumpPack",
-            "type": "unit",
-            "rulesetId": "w40k.10e.sw",
-            "name": "Wolf Guard Pack Leader with Jump Pack",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Wolf Guard Pack Leader",
-                    "points": 35,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                },
-                                {
-                                    "name": "Storm Shield"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Boltgun"
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                },
-                                {
-                                    "name": "Storm Shield"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Twin Lightning Claws"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.1stCompany",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Fear Made Manifest",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Iron Resolve",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Rites of War",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "The Imperium's Sword",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.anvilSiegeForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Architect of War",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Fleet Commander",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Indomitable Fury",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Stoic Defender",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.firestormAssaultForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Adamantine Mantle",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Champion of Humanity",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Forged in Battle",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "War-tempered Artifice",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.gladius",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Artificer Armour",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "The Honour Vehement",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Adept of the Codex",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Fire Discipline",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.ironstormSpearhead",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Adept of the Omnissiah",
-                                    "points": 35
-                                },
-                                {
-                                    "name": "Master of Machine War",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Target Augury Web",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "The Flesh is Weak",
-                                    "points": 10
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.stormlanceTaskForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Feinting Withdrawal",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Fury of the Storm",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Hunter's Instincts",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Portents of Wisdom",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.vanguardSpearhead",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Execute and Redeploy",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Ghostweave Cloak",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Shadow War Veteran",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "The Blade Driven Deep",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Wolves' Wisdom",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Longstrider",
-                                    "points": 20
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.sw.unit.wolfGuardPackLeaderTerminatorArmour",
-            "type": "unit",
-            "rulesetId": "w40k.10e.sw",
-            "name": "Wolf Guard Pack Leader in Terminator Armour",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Wolf Guard Pack Leader in Terminator Armour",
-                    "points": 40,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Storm Bolter"
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Assault Cannon"
-                                },
-                                {
-                                    "name": "Heavy Flamer"
-                                },
-                                {
-                                    "name": "Cyclone Missile Launcher, Storm Bolter"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Chainfist"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                },
-                                {
-                                    "name": "Storm Shield"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Power Weapon"
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Assault Cannon"
-                                },
-                                {
-                                    "name": "Heavy Flamer"
-                                },
-                                {
-                                    "name": "Cyclone Missile Launcher, Storm Bolter"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Chainfist"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                },
-                                {
-                                    "name": "Storm Shield"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Twin Lightning Claws"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.1stCompany",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Fear Made Manifest",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Iron Resolve",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Rites of War",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "The Imperium's Sword",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.anvilSiegeForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Architect of War",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Fleet Commander",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Indomitable Fury",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Stoic Defender",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.firestormAssaultForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Adamantine Mantle",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Champion of Humanity",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Forged in Battle",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "War-tempered Artifice",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.gladius",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Artificer Armour",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "The Honour Vehement",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Adept of the Codex",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Fire Discipline",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.ironstormSpearhead",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Adept of the Omnissiah",
-                                    "points": 35
-                                },
-                                {
-                                    "name": "Master of Machine War",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Target Augury Web",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "The Flesh is Weak",
-                                    "points": 10
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.stormlanceTaskForce",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Feinting Withdrawal",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Fury of the Storm",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Hunter's Instincts",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Portents of Wisdom",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.vanguardSpearhead",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Execute and Redeploy",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Ghostweave Cloak",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Shadow War Veteran",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "The Blade Driven Deep",
-                                    "points": 25
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Wolves' Wisdom",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Foes' Fate",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Fangrune Pendant",
-                                    "points": 15
-                                },
-                                {
-                                    "name": "Longstrider",
-                                    "points": 20
-                                }
-                            ]
-                        }
-                    ]
                 }
             ]
         },
@@ -13717,211 +11301,275 @@
             ]
         },
         {
-            "id": "w40k.10e.sw.unit.cyberwolf",
+            "id": "w40k.10e.sw.unit.wolfPriest",
             "type": "unit",
             "rulesetId": "w40k.10e.sw",
-            "name": "Cyberwolf",
+            "name": "Wolf Priest",
             "role": "CHARACTER",
             "models": [
                 {
-                    "name": "Cyberwolf",
-                    "points": 20
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.sw.unit.wolfScouts",
-            "type": "unit",
-            "rulesetId": "w40k.10e.sw",
-            "name": "Wolf Scouts",
-            "role": "INFANTRY",
-            "points": [
-                {
-                    "name": "Wolf Scout, Wolf Scout Pack Leader",
-                    "amount": 10,
-                    "cost": 160
-                },
-                {
-                    "name": "Wolf Scout, Wolf Scout Pack Leader",
-                    "amount": 5,
-                    "cost": 80
-                }
-            ],
-            "restrictions": [
-                {
-                    "type": "model",
-                    "name": "Wolf Scout",
-                    "min": 4,
-                    "max": 9
-                },
-                {
-                    "type": "model",
-                    "name": "Wolf Scout Pack Leader",
-                    "min": 1,
-                    "max": 1
-                }
-            ],
-            "blueprints": [
-                {
-                    "name": "Wolf Scout",
+                    "name": "Wolf Priest",
+                    "points": 70,
                     "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Boltgun"
-                            },
-                            "options": [
-                                {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": "Astartes Shotgun"
-                                },
-                                {
-                                    "name": "Combat Knife"
-                                },
-                                {
-                                    "name": "Flamer"
-                                },
-                                {
-                                    "name": "Grav-gun"
-                                },
-                                {
-                                    "name": "Heavy Bolter"
-                                },
-                                {
-                                    "name": "Meltagun"
-                                },
-                                {
-                                    "name": "Missile Launcher"
-                                },
-                                {
-                                    "name": "Plasma Gun"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Wolf Scout Pack Leader",
-                    "gearset": [
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Bolt Pistol"
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                },
-                                {
-                                    "name": "Grav-pistol"
-                                },
-                                {
-                                    "name": "Hand Flamer"
-                                },
-                                {
-                                    "name": "Inferno Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Boltgun"
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Bolt Pistol"
-                                },
-                                {
-                                    "name": "Boltgun"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                },
-                                {
-                                    "name": "Grav-pistol"
-                                },
-                                {
-                                    "name": "Hand Flamer"
-                                },
-                                {
-                                    "name": "Inferno Pistol"
-                                },
-                                {
-                                    "name": "Plasma Pistol"
-                                },
-                                {
-                                    "name": "Storm Bolter"
-                                },
-                                {
-                                    "name": "Astartes Chainsword"
-                                },
-                                {
-                                    "name": "Power Fist"
-                                },
-                                {
-                                    "name": "Power Weapon"
-                                },
-                                {
-                                    "name": "Thunder Hammer"
-                                }
-                            ]
-                        },
                         {
                             "type": "checkbox",
                             "selectedOption": {
-                                "name": "Twin Lightning Claws"
+                                "name": "WARLORD"
                             },
                             "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.1stCompany",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fear Made Manifest",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Iron Resolve",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Rites of War",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "The Imperium's Sword",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.anvilSiegeForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Architect of War",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Fleet Commander",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Indomitable Fury",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Stoic Defender",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.firestormAssaultForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Mantle",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Champion of Humanity",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Forged in Battle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "War-tempered Artifice",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.gladius",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Artificer Armour",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "The Honour Vehement",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Adept of the Codex",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fire Discipline",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.ironstormSpearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adept of the Omnissiah",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Master of Machine War",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Target Augury Web",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "The Flesh is Weak",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.stormlanceTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Feinting Withdrawal",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Fury of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Hunter's Instincts",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Portents of Wisdom",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.vanguardSpearhead",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Execute and Redeploy",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Ghostweave Cloak",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Shadow War Veteran",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "The Blade Driven Deep",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "The Pelt of Balewolf",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Black Death",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Wolf Tail Talisman",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Frost Weapon",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.championsFenris",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Longstrider",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -13931,12 +11579,12 @@
             "id": "w40k.10e.sw.unit.spaceWolvesVenerableDreadnought",
             "type": "unit",
             "rulesetId": "w40k.10e.sw",
-            "name": "Space Wolves Venerable Dreadnought",
+            "name": "Venerable Dreadnought",
             "role": "VEHICLE",
             "models": [
                 {
-                    "name": "Assault Cannon",
-                    "points": 155,
+                    "name": "Venerable Dreadnought",
+                    "points": 140,
                     "gearset": [
                         {
                             "type": "dropdown",

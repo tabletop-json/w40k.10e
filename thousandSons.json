@@ -88,7 +88,7 @@
             "models": [
                 {
                     "name": "Land Raider",
-                    "points": 240,
+                    "points": 220,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -293,6 +293,54 @@
             ]
         },
         {
+            "id": "w40k.10e.tsons.unit.sekhetarRobots",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Sekhetar Robots",
+            "role": "VEHICLE",
+            "points": [
+                {
+                    "name": "Sekhetar Robot",
+                    "amount": 4,
+                    "cost": 160
+                },
+                {
+                    "name": "Sekhetar Robot",
+                    "amount": 2,
+                    "cost": 80
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Sekhetar Robot",
+                    "min": 2,
+                    "max": 4
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Sekhetar Robot",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Pyreflux Meltagun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Pyreflux Meltagun"
+                                },
+                                {
+                                    "name": "Warpflame Projector, Power Claw"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "w40k.10e.tsons.unit.vindicator",
             "type": "unit",
             "rulesetId": "w40k.10e.tsons",
@@ -471,7 +519,7 @@
                                 },
                                 {
                                     "name": "Eldritch Vortex of E'taph",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Incandaeum",
@@ -691,7 +739,7 @@
                                 },
                                 {
                                     "name": "Eldritch Vortex of E'taph",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Incandaeum",
@@ -975,7 +1023,7 @@
             "models": [
                 {
                     "name": "Infernal Master",
-                    "points": 85,
+                    "points": 95,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1026,7 +1074,7 @@
                                 },
                                 {
                                     "name": "Eldritch Vortex of E'taph",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Incandaeum",
@@ -1171,7 +1219,7 @@
             "models": [
                 {
                     "name": "Magnus the Red",
-                    "points": 420,
+                    "points": 435,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1228,7 +1276,7 @@
             "models": [
                 {
                     "name": "Mutalith Vortex Beast",
-                    "points": 160
+                    "points": 175
                 }
             ]
         },
@@ -1247,7 +1295,7 @@
                 {
                     "name": "Rubric Marine, Aspiring Sorcerer",
                     "amount": 5,
-                    "cost": 100
+                    "cost": 105
                 }
             ],
             "restrictions": [
@@ -1328,7 +1376,7 @@
                 {
                     "name": "Scarab Occult Terminator, Scarab Occult Sorcerer",
                     "amount": 10,
-                    "cost": 375
+                    "cost": 360
                 },
                 {
                     "name": "Scarab Occult Terminator, Scarab Occult Sorcerer",
@@ -1410,7 +1458,7 @@
             "models": [
                 {
                     "name": "Sorcerer",
-                    "points": 75,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1478,7 +1526,7 @@
                                 },
                                 {
                                     "name": "Eldritch Vortex of E'taph",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Incandaeum",
@@ -1691,7 +1739,7 @@
                                 },
                                 {
                                     "name": "Eldritch Vortex of E'taph",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Incandaeum",
@@ -1950,7 +1998,7 @@
                                 },
                                 {
                                     "name": "Eldritch Vortex of E'taph",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Incandaeum",
@@ -2146,7 +2194,7 @@
                                 },
                                 {
                                     "name": "Eldritch Vortex of E'taph",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Incandaeum",
@@ -2292,12 +2340,12 @@
                 {
                     "name": "Tzaangor Enlightened, Aviarch",
                     "amount": 6,
-                    "cost": 80
+                    "cost": 90
                 },
                 {
                     "name": "Tzaangor Enlightened, Aviarch",
                     "amount": 3,
-                    "cost": 50
+                    "cost": 55
                 }
             ],
             "restrictions": [
@@ -2365,12 +2413,12 @@
                 {
                     "name": "Tzaangor Enlightened, Aviarch",
                     "amount": 6,
-                    "cost": 80
+                    "cost": 110
                 },
                 {
                     "name": "Tzaangor Enlightened, Aviarch",
                     "amount": 3,
-                    "cost": 50
+                    "cost": 60
                 }
             ],
             "restrictions": [
@@ -2405,7 +2453,7 @@
             "models": [
                 {
                     "name": "Tzaangor Shaman",
-                    "points": 55,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2456,7 +2504,7 @@
                                 },
                                 {
                                     "name": "Eldritch Vortex of E'taph",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Incandaeum",

@@ -149,7 +149,7 @@
             "models": [
                 {
                     "name": "Belisarius Cawl",
-                    "points": 135,
+                    "points": 175,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -518,17 +518,17 @@
                 {
                     "name": "Ironstrider Ballistarii",
                     "amount": 3,
-                    "cost": 210
+                    "cost": 225
                 },
                 {
                     "name": "Ironstrider Ballistarii",
                     "amount": 2,
-                    "cost": 140
+                    "cost": 150
                 },
                 {
                     "name": "Ironstrider Ballistarii",
                     "amount": 1,
-                    "cost": 70
+                    "cost": 75
                 }
             ],
             "restrictions": [

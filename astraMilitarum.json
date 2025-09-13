@@ -62,7 +62,7 @@
             "models": [
                 {
                     "name": "Lord Solar Leontus",
-                    "points": 150,
+                    "points": 130,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -523,7 +523,7 @@
             "models": [
                 {
                     "name": "Rogal Dorn Commander",
-                    "points": 265,
+                    "points": 275,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1735,7 +1735,7 @@
                 {
                     "name": "Ibram Gaunt, Tanith Ghost",
                     "amount": 6,
-                    "cost": 110
+                    "cost": 100
                 }
             ],
             "models": [
@@ -3026,7 +3026,7 @@
             "models": [
                 {
                     "name": "Rogal Dorn Battle Tank",
-                    "points": 240,
+                    "points": 250,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -4303,7 +4303,7 @@
             "models": [
                 {
                     "name": "Baneblade",
-                    "points": 480,
+                    "points": 450,
                     "gearset": [
                         {
                             "type": "text",
@@ -4379,7 +4379,7 @@
             "models": [
                 {
                     "name": "Banehammer",
-                    "points": 450,
+                    "points": 420,
                     "gearset": [
                         {
                             "type": "text",
@@ -4437,7 +4437,7 @@
             "models": [
                 {
                     "name": "Banesword",
-                    "points": 480,
+                    "points": 450,
                     "gearset": [
                         {
                             "type": "text",
@@ -4495,7 +4495,7 @@
             "models": [
                 {
                     "name": "Doomhammer",
-                    "points": 455,
+                    "points": 415,
                     "gearset": [
                         {
                             "type": "text",
@@ -4553,7 +4553,7 @@
             "models": [
                 {
                     "name": "Hellhammer",
-                    "points": 450,
+                    "points": 420,
                     "gearset": [
                         {
                             "type": "text",
@@ -4629,7 +4629,7 @@
             "models": [
                 {
                     "name": "Shadowsword",
-                    "points": 440,
+                    "points": 410,
                     "gearset": [
                         {
                             "type": "text",
@@ -4687,7 +4687,7 @@
             "models": [
                 {
                     "name": "Stormlord",
-                    "points": 460,
+                    "points": 430,
                     "gearset": [
                         {
                             "type": "text",
@@ -4751,7 +4751,7 @@
             "models": [
                 {
                     "name": "Stormsword",
-                    "points": 495,
+                    "points": 465,
                     "gearset": [
                         {
                             "type": "text",
@@ -5255,7 +5255,7 @@
                 {
                     "name": "Combat Engineer, Krieg Engineer Watchmaster",
                     "amount": 5,
-                    "cost": 70
+                    "cost": 60
                 }
             ],
             "restrictions": [
