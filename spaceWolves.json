@@ -58,16 +58,28 @@
             "name": "Librarius Conclave"
         },
         {
-            "id": "w40k.10e.sw.dt.championsRuss",
-            "type": "detachment",
-            "rulesetId": "w40k.10e.sw",
-            "name": "Champions of Russ"
-        },
-        {
             "id": "w40k.10e.sw.dt.championsFenris",
             "type": "detachment",
             "rulesetId": "w40k.10e.sw",
             "name": "Champions of Fenris"
+        },
+        {
+            "id": "w40k.10e.sw.dt.beastslayer",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.sw",
+            "name": "Saga of the Beastslayer"
+        },
+        {
+            "id": "w40k.10e.sw.dt.bold",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.sw",
+            "name": "Saga of the Bold"
+        },
+        {
+            "id": "w40k.10e.sw.dt.hunter",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.sw",
+            "name": "Saga of the Hunter"
         }
     ],
     "units": [
@@ -185,6 +197,7 @@
                                 }
                             ]
                         },
+
                         {
                             "type": "dropdown",
                             "color": "green",
@@ -333,35 +346,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.sw.dt.championsFenris",
                             "selectedOption": {
                                 "name": ""
@@ -371,12 +355,107 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Wolves' Wisdom",
-                                    "points": 30
+                                    "name": "Fangrune Pendant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Foes Fate",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Longstrider",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.beastslayer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Elder's Guidance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Helm of the Beastslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Hunter's Guile",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf-touched",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.bold",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Braggart's Steel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hordeslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thunderwolf's Fortitude",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.hunter",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fenrisian Grit",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Feral Rage",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Swift Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf Master",
+                                    "points": 5
                                 }
                             ]
                         }
@@ -578,6 +657,7 @@
                                 }
                             ]
                         },
+
                         {
                             "type": "dropdown",
                             "color": "green",
@@ -726,35 +806,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.sw.dt.championsFenris",
                             "selectedOption": {
                                 "name": ""
@@ -764,12 +815,107 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Wolves' Wisdom",
-                                    "points": 30
+                                    "name": "Fangrune Pendant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Foes Fate",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Longstrider",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.beastslayer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Elder's Guidance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Helm of the Beastslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Hunter's Guile",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf-touched",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.bold",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Braggart's Steel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hordeslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thunderwolf's Fortitude",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.hunter",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fenrisian Grit",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Feral Rage",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Swift Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf Master",
+                                    "points": 5
                                 }
                             ]
                         }
@@ -853,6 +999,7 @@
                                 }
                             ]
                         },
+
                         {
                             "type": "dropdown",
                             "color": "green",
@@ -1001,35 +1148,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.sw.dt.championsFenris",
                             "selectedOption": {
                                 "name": ""
@@ -1039,12 +1157,107 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Wolves' Wisdom",
-                                    "points": 30
+                                    "name": "Fangrune Pendant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Foes Fate",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Longstrider",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.beastslayer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Elder's Guidance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Helm of the Beastslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Hunter's Guile",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf-touched",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.bold",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Braggart's Steel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hordeslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thunderwolf's Fortitude",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.hunter",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fenrisian Grit",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Feral Rage",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Swift Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf Master",
+                                    "points": 5
                                 }
                             ]
                         }
@@ -1156,6 +1369,7 @@
                                 }
                             ]
                         },
+
                         {
                             "type": "dropdown",
                             "color": "green",
@@ -1304,35 +1518,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.sw.dt.championsFenris",
                             "selectedOption": {
                                 "name": ""
@@ -1342,20 +1527,107 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Wolves' Wisdom",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Foes' Fate",
+                                    "name": "Fangrune Pendant",
                                     "points": 15
                                 },
                                 {
-                                    "name": "Fangrune Pendant",
+                                    "name": "Foes Fate",
                                     "points": 15
                                 },
                                 {
                                     "name": "Longstrider",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.beastslayer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Elder's Guidance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Helm of the Beastslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Hunter's Guile",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf-touched",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.bold",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Braggart's Steel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hordeslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thunderwolf's Fortitude",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.hunter",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fenrisian Grit",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Feral Rage",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Swift Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf Master",
+                                    "points": 5
                                 }
                             ]
                         }
@@ -1439,6 +1711,7 @@
                                 }
                             ]
                         },
+
                         {
                             "type": "dropdown",
                             "color": "green",
@@ -1587,35 +1860,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.sw.dt.championsFenris",
                             "selectedOption": {
                                 "name": ""
@@ -1625,12 +1869,107 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Wolves' Wisdom",
-                                    "points": 30
+                                    "name": "Fangrune Pendant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Foes Fate",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Longstrider",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.beastslayer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Elder's Guidance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Helm of the Beastslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Hunter's Guile",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf-touched",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.bold",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Braggart's Steel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hordeslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thunderwolf's Fortitude",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.hunter",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fenrisian Grit",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Feral Rage",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Swift Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf Master",
+                                    "points": 5
                                 }
                             ]
                         }
@@ -1714,6 +2053,7 @@
                                 }
                             ]
                         },
+
                         {
                             "type": "dropdown",
                             "color": "green",
@@ -1862,35 +2202,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.sw.dt.championsFenris",
                             "selectedOption": {
                                 "name": ""
@@ -1900,12 +2211,107 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Wolves' Wisdom",
-                                    "points": 30
+                                    "name": "Fangrune Pendant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Foes Fate",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Longstrider",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.beastslayer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Elder's Guidance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Helm of the Beastslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Hunter's Guile",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf-touched",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.bold",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Braggart's Steel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hordeslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thunderwolf's Fortitude",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.hunter",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fenrisian Grit",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Feral Rage",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Swift Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf Master",
+                                    "points": 5
                                 }
                             ]
                         }
@@ -2056,6 +2462,7 @@
                                 }
                             ]
                         },
+
                         {
                             "type": "dropdown",
                             "color": "green",
@@ -2204,35 +2611,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.sw.dt.championsFenris",
                             "selectedOption": {
                                 "name": ""
@@ -2242,12 +2620,107 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Wolves' Wisdom",
-                                    "points": 30
+                                    "name": "Fangrune Pendant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Foes Fate",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Longstrider",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.beastslayer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Elder's Guidance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Helm of the Beastslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Hunter's Guile",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf-touched",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.bold",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Braggart's Steel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hordeslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thunderwolf's Fortitude",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.hunter",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fenrisian Grit",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Feral Rage",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Swift Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf Master",
+                                    "points": 5
                                 }
                             ]
                         }
@@ -2331,6 +2804,7 @@
                                 }
                             ]
                         },
+
                         {
                             "type": "dropdown",
                             "color": "green",
@@ -2479,35 +2953,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.sw.dt.championsFenris",
                             "selectedOption": {
                                 "name": ""
@@ -2517,12 +2962,107 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Wolves' Wisdom",
-                                    "points": 30
+                                    "name": "Fangrune Pendant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Foes Fate",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Longstrider",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.beastslayer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Elder's Guidance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Helm of the Beastslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Hunter's Guile",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf-touched",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.bold",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Braggart's Steel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hordeslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thunderwolf's Fortitude",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.hunter",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fenrisian Grit",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Feral Rage",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Swift Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf Master",
+                                    "points": 5
                                 }
                             ]
                         },
@@ -2652,6 +3192,7 @@
                                 }
                             ]
                         },
+
                         {
                             "type": "dropdown",
                             "color": "green",
@@ -2800,35 +3341,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.sw.dt.championsFenris",
                             "selectedOption": {
                                 "name": ""
@@ -2838,20 +3350,107 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Wolves' Wisdom",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Foes' Fate",
+                                    "name": "Fangrune Pendant",
                                     "points": 15
                                 },
                                 {
-                                    "name": "Fangrune Pendant",
+                                    "name": "Foes Fate",
                                     "points": 15
                                 },
                                 {
                                     "name": "Longstrider",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.beastslayer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Elder's Guidance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Helm of the Beastslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Hunter's Guile",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf-touched",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.bold",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Braggart's Steel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hordeslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thunderwolf's Fortitude",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.hunter",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fenrisian Grit",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Feral Rage",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Swift Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf Master",
+                                    "points": 5
                                 }
                             ]
                         },
@@ -2960,6 +3559,7 @@
                                 }
                             ]
                         },
+
                         {
                             "type": "dropdown",
                             "color": "green",
@@ -3108,35 +3708,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.sw.dt.championsFenris",
                             "selectedOption": {
                                 "name": ""
@@ -3146,12 +3717,107 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Wolves' Wisdom",
-                                    "points": 30
+                                    "name": "Fangrune Pendant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Foes Fate",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Longstrider",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.beastslayer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Elder's Guidance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Helm of the Beastslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Hunter's Guile",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf-touched",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.bold",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Braggart's Steel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hordeslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thunderwolf's Fortitude",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.hunter",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fenrisian Grit",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Feral Rage",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Swift Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf Master",
+                                    "points": 5
                                 }
                             ]
                         },
@@ -3278,6 +3944,7 @@
                                 }
                             ]
                         },
+
                         {
                             "type": "dropdown",
                             "color": "green",
@@ -3426,35 +4093,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.sw.dt.championsFenris",
                             "selectedOption": {
                                 "name": ""
@@ -3464,20 +4102,107 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Wolves' Wisdom",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Foes' Fate",
+                                    "name": "Fangrune Pendant",
                                     "points": 15
                                 },
                                 {
-                                    "name": "Fangrune Pendant",
+                                    "name": "Foes Fate",
                                     "points": 15
                                 },
                                 {
                                     "name": "Longstrider",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.beastslayer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Elder's Guidance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Helm of the Beastslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Hunter's Guile",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf-touched",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.bold",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Braggart's Steel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hordeslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thunderwolf's Fortitude",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.hunter",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fenrisian Grit",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Feral Rage",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Swift Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf Master",
+                                    "points": 5
                                 }
                             ]
                         }
@@ -3561,6 +4286,7 @@
                                 }
                             ]
                         },
+
                         {
                             "type": "dropdown",
                             "color": "green",
@@ -3709,35 +4435,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.sw.dt.championsFenris",
                             "selectedOption": {
                                 "name": ""
@@ -3747,8 +4444,107 @@
                                     "name": ""
                                 },
                                 {
+                                    "name": "Fangrune Pendant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Foes Fate",
+                                    "points": 15
+                                },
+                                {
                                     "name": "Longstrider",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.beastslayer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Elder's Guidance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Helm of the Beastslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Hunter's Guile",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf-touched",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.bold",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Braggart's Steel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hordeslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thunderwolf's Fortitude",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.hunter",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fenrisian Grit",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Feral Rage",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Swift Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf Master",
+                                    "points": 5
                                 }
                             ]
                         }
@@ -3832,6 +4628,7 @@
                                 }
                             ]
                         },
+
                         {
                             "type": "dropdown",
                             "color": "green",
@@ -3980,35 +4777,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.sw.dt.championsFenris",
                             "selectedOption": {
                                 "name": ""
@@ -4018,12 +4786,107 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Wolves' Wisdom",
-                                    "points": 30
+                                    "name": "Fangrune Pendant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Foes Fate",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Longstrider",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.beastslayer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Elder's Guidance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Helm of the Beastslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Hunter's Guile",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf-touched",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.bold",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Braggart's Steel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hordeslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thunderwolf's Fortitude",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.hunter",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fenrisian Grit",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Feral Rage",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Swift Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf Master",
+                                    "points": 5
                                 }
                             ]
                         }
@@ -4142,6 +5005,7 @@
                                 }
                             ]
                         },
+
                         {
                             "type": "dropdown",
                             "color": "green",
@@ -4290,35 +5154,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.sw.dt.championsFenris",
                             "selectedOption": {
                                 "name": ""
@@ -4328,12 +5163,107 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Wolves' Wisdom",
-                                    "points": 30
+                                    "name": "Fangrune Pendant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Foes Fate",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Longstrider",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.beastslayer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Elder's Guidance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Helm of the Beastslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Hunter's Guile",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf-touched",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.bold",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Braggart's Steel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hordeslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thunderwolf's Fortitude",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.hunter",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fenrisian Grit",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Feral Rage",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Swift Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf Master",
+                                    "points": 5
                                 }
                             ]
                         }
@@ -4417,6 +5347,7 @@
                                 }
                             ]
                         },
+
                         {
                             "type": "dropdown",
                             "color": "green",
@@ -4565,35 +5496,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.sw.dt.championsFenris",
                             "selectedOption": {
                                 "name": ""
@@ -4603,12 +5505,107 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Wolves' Wisdom",
-                                    "points": 30
+                                    "name": "Fangrune Pendant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Foes Fate",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Longstrider",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.beastslayer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Elder's Guidance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Helm of the Beastslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Hunter's Guile",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf-touched",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.bold",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Braggart's Steel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hordeslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thunderwolf's Fortitude",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.hunter",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fenrisian Grit",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Feral Rage",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Swift Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf Master",
+                                    "points": 5
                                 }
                             ]
                         }
@@ -5004,6 +6001,7 @@
                                 }
                             ]
                         },
+
                         {
                             "type": "dropdown",
                             "color": "green",
@@ -5152,35 +6150,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.sw.dt.championsFenris",
                             "selectedOption": {
                                 "name": ""
@@ -5190,12 +6159,107 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Wolves' Wisdom",
-                                    "points": 30
+                                    "name": "Fangrune Pendant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Foes Fate",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Longstrider",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.beastslayer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Elder's Guidance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Helm of the Beastslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Hunter's Guile",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf-touched",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.bold",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Braggart's Steel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hordeslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thunderwolf's Fortitude",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.hunter",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fenrisian Grit",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Feral Rage",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Swift Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf Master",
+                                    "points": 5
                                 }
                             ]
                         }
@@ -5704,6 +6768,7 @@
                                 }
                             ]
                         },
+
                         {
                             "type": "dropdown",
                             "color": "green",
@@ -5852,35 +6917,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.sw.dt.championsFenris",
                             "selectedOption": {
                                 "name": ""
@@ -5890,12 +6926,107 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Wolves' Wisdom",
-                                    "points": 30
+                                    "name": "Fangrune Pendant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Foes Fate",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Longstrider",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.beastslayer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Elder's Guidance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Helm of the Beastslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Hunter's Guile",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf-touched",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.bold",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Braggart's Steel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hordeslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thunderwolf's Fortitude",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.hunter",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fenrisian Grit",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Feral Rage",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Swift Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf Master",
+                                    "points": 5
                                 }
                             ]
                         }
@@ -5979,6 +7110,7 @@
                                 }
                             ]
                         },
+
                         {
                             "type": "dropdown",
                             "color": "green",
@@ -6127,35 +7259,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.sw.dt.championsFenris",
                             "selectedOption": {
                                 "name": ""
@@ -6165,12 +7268,107 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Wolves' Wisdom",
-                                    "points": 30
+                                    "name": "Fangrune Pendant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Foes Fate",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Longstrider",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.beastslayer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Elder's Guidance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Helm of the Beastslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Hunter's Guile",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf-touched",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.bold",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Braggart's Steel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hordeslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thunderwolf's Fortitude",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.hunter",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fenrisian Grit",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Feral Rage",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Swift Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf Master",
+                                    "points": 5
                                 }
                             ]
                         }
@@ -6268,6 +7466,7 @@
                                 }
                             ]
                         },
+
                         {
                             "type": "dropdown",
                             "color": "green",
@@ -6416,35 +7615,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.sw.dt.championsFenris",
                             "selectedOption": {
                                 "name": ""
@@ -6454,12 +7624,107 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Wolves' Wisdom",
-                                    "points": 30
+                                    "name": "Fangrune Pendant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Foes Fate",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Longstrider",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.beastslayer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Elder's Guidance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Helm of the Beastslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Hunter's Guile",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf-touched",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.bold",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Braggart's Steel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hordeslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thunderwolf's Fortitude",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.hunter",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fenrisian Grit",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Feral Rage",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Swift Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf Master",
+                                    "points": 5
                                 }
                             ]
                         }
@@ -6543,6 +7808,7 @@
                                 }
                             ]
                         },
+
                         {
                             "type": "dropdown",
                             "color": "green",
@@ -6691,35 +7957,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.sw.dt.championsFenris",
                             "selectedOption": {
                                 "name": ""
@@ -6729,12 +7966,107 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Wolves' Wisdom",
-                                    "points": 30
+                                    "name": "Fangrune Pendant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Foes Fate",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Longstrider",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.beastslayer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Elder's Guidance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Helm of the Beastslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Hunter's Guile",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf-touched",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.bold",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Braggart's Steel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hordeslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thunderwolf's Fortitude",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.hunter",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fenrisian Grit",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Feral Rage",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Swift Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf Master",
+                                    "points": 5
                                 }
                             ]
                         }
@@ -6847,6 +8179,7 @@
                                 }
                             ]
                         },
+
                         {
                             "type": "dropdown",
                             "color": "green",
@@ -6995,35 +8328,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.sw.dt.championsFenris",
                             "selectedOption": {
                                 "name": ""
@@ -7033,20 +8337,107 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Wolves' Wisdom",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Foes' Fate",
+                                    "name": "Fangrune Pendant",
                                     "points": 15
                                 },
                                 {
-                                    "name": "Fangrune Pendant",
+                                    "name": "Foes Fate",
                                     "points": 15
                                 },
                                 {
                                     "name": "Longstrider",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.beastslayer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Elder's Guidance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Helm of the Beastslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Hunter's Guile",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf-touched",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.bold",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Braggart's Steel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hordeslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thunderwolf's Fortitude",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.hunter",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fenrisian Grit",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Feral Rage",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Swift Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf Master",
+                                    "points": 5
                                 }
                             ]
                         }
@@ -7384,6 +8775,7 @@
                                 }
                             ]
                         },
+
                         {
                             "type": "dropdown",
                             "color": "green",
@@ -7532,35 +8924,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.sw.dt.championsFenris",
                             "selectedOption": {
                                 "name": ""
@@ -7570,12 +8933,107 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Wolves' Wisdom",
-                                    "points": 30
+                                    "name": "Fangrune Pendant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Foes Fate",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Longstrider",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.beastslayer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Elder's Guidance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Helm of the Beastslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Hunter's Guile",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf-touched",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.bold",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Braggart's Steel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hordeslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thunderwolf's Fortitude",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.hunter",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fenrisian Grit",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Feral Rage",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Swift Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf Master",
+                                    "points": 5
                                 }
                             ]
                         }
@@ -10219,6 +11677,7 @@
                                 }
                             ]
                         },
+
                         {
                             "type": "dropdown",
                             "color": "green",
@@ -10367,35 +11826,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.sw.dt.championsFenris",
                             "selectedOption": {
                                 "name": ""
@@ -10405,20 +11835,107 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Wolves' Wisdom",
-                                    "points": 30
-                                },
-                                {
-                                    "name": "Foes' Fate",
+                                    "name": "Fangrune Pendant",
                                     "points": 15
                                 },
                                 {
-                                    "name": "Fangrune Pendant",
+                                    "name": "Foes Fate",
                                     "points": 15
                                 },
                                 {
                                     "name": "Longstrider",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.beastslayer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Elder's Guidance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Helm of the Beastslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Hunter's Guile",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf-touched",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.bold",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Braggart's Steel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hordeslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thunderwolf's Fortitude",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.hunter",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fenrisian Grit",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Feral Rage",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Swift Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf Master",
+                                    "points": 5
                                 }
                             ]
                         }
@@ -11101,6 +12618,7 @@
                                 }
                             ]
                         },
+
                         {
                             "type": "dropdown",
                             "color": "green",
@@ -11249,35 +12767,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.sw.dt.championsFenris",
                             "selectedOption": {
                                 "name": ""
@@ -11287,12 +12776,107 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Wolves' Wisdom",
-                                    "points": 30
+                                    "name": "Fangrune Pendant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Foes Fate",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Longstrider",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.beastslayer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Elder's Guidance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Helm of the Beastslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Hunter's Guile",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf-touched",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.bold",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Braggart's Steel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hordeslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thunderwolf's Fortitude",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.hunter",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fenrisian Grit",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Feral Rage",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Swift Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf Master",
+                                    "points": 5
                                 }
                             ]
                         }
@@ -11376,6 +12960,7 @@
                                 }
                             ]
                         },
+
                         {
                             "type": "dropdown",
                             "color": "green",
@@ -11524,35 +13109,6 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.sw.dt.championsRuss",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "The Pelt of Balewolf",
-                                    "points": 10
-                                },
-                                {
-                                    "name": "Black Death",
-                                    "points": 25
-                                },
-                                {
-                                    "name": "Wolf Tail Talisman",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "Frost Weapon",
-                                    "points": 15
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "color": "green",
                             "detachmentId": "w40k.10e.sw.dt.championsFenris",
                             "selectedOption": {
                                 "name": ""
@@ -11562,12 +13118,107 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Wolves' Wisdom",
-                                    "points": 30
+                                    "name": "Fangrune Pendant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Foes Fate",
+                                    "points": 15
                                 },
                                 {
                                     "name": "Longstrider",
                                     "points": 20
+                                },
+                                {
+                                    "name": "Wolves' Wisdom",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.beastslayer",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Elder's Guidance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Helm of the Beastslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Hunter's Guile",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf-touched",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.bold",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Braggart's Steel",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hordeslayer",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Thunderwolf's Fortitude",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.hunter",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Fenrisian Grit",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Feral Rage",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Swift Hunter",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Wolf Master",
+                                    "points": 5
                                 }
                             ]
                         }

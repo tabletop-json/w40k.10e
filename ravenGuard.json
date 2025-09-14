@@ -56,6 +56,12 @@
             "type": "detachment",
             "rulesetId": "w40k.10e.rg",
             "name": "Librarius Conclave"
+        },
+        {
+            "id": "w40k.10e.rg.dt.shadowmark",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.rg",
+            "name": "Shadowmark Talon"
         }
     ],
     "units": [
@@ -141,6 +147,35 @@
                                 {
                                     "name": "The Imperium's Sword",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.rg.dt.shadowmark",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blackwing Shroud",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Coronal Susurrant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Hunter's Instinct",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Umbral Raptor",
+                                    "points": 15
                                 }
                             ]
                         },
@@ -419,6 +454,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.rg.dt.shadowmark",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blackwing Shroud",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Coronal Susurrant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Hunter's Instinct",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Umbral Raptor",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.rg.dt.anvilSiegeForce",
                             "selectedOption": {
                                 "name": ""
@@ -664,6 +728,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.rg.dt.shadowmark",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blackwing Shroud",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Coronal Susurrant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Hunter's Instinct",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Umbral Raptor",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.rg.dt.anvilSiegeForce",
                             "selectedOption": {
                                 "name": ""
@@ -883,6 +976,35 @@
                                 {
                                     "name": "The Imperium's Sword",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.rg.dt.shadowmark",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blackwing Shroud",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Coronal Susurrant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Hunter's Instinct",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Umbral Raptor",
+                                    "points": 15
                                 }
                             ]
                         },
@@ -1142,6 +1264,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.rg.dt.shadowmark",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blackwing Shroud",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Coronal Susurrant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Hunter's Instinct",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Umbral Raptor",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.rg.dt.anvilSiegeForce",
                             "selectedOption": {
                                 "name": ""
@@ -1367,6 +1518,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.rg.dt.shadowmark",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blackwing Shroud",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Coronal Susurrant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Hunter's Instinct",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Umbral Raptor",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.rg.dt.anvilSiegeForce",
                             "selectedOption": {
                                 "name": ""
@@ -1586,6 +1766,35 @@
                                 {
                                     "name": "The Imperium's Sword",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.rg.dt.shadowmark",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blackwing Shroud",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Coronal Susurrant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Hunter's Instinct",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Umbral Raptor",
+                                    "points": 15
                                 }
                             ]
                         },
@@ -1884,6 +2093,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.rg.dt.shadowmark",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blackwing Shroud",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Coronal Susurrant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Hunter's Instinct",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Umbral Raptor",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.rg.dt.anvilSiegeForce",
                             "selectedOption": {
                                 "name": ""
@@ -2103,6 +2341,35 @@
                                 {
                                     "name": "The Imperium's Sword",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.rg.dt.shadowmark",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blackwing Shroud",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Coronal Susurrant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Hunter's Instinct",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Umbral Raptor",
+                                    "points": 15
                                 }
                             ]
                         },
@@ -2380,6 +2647,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.rg.dt.shadowmark",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blackwing Shroud",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Coronal Susurrant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Hunter's Instinct",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Umbral Raptor",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.rg.dt.anvilSiegeForce",
                             "selectedOption": {
                                 "name": ""
@@ -2628,6 +2924,35 @@
                                 {
                                     "name": "The Imperium's Sword",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.rg.dt.shadowmark",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blackwing Shroud",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Coronal Susurrant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Hunter's Instinct",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Umbral Raptor",
+                                    "points": 15
                                 }
                             ]
                         },
@@ -2892,10 +3217,38 @@
                                 {
                                     "name": "Rites of War",
                                     "points": 10
-                                },
-                                {
+                                },{
                                     "name": "The Imperium's Sword",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.rg.dt.shadowmark",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blackwing Shroud",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Coronal Susurrant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Hunter's Instinct",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Umbral Raptor",
+                                    "points": 15
                                 }
                             ]
                         },
@@ -3152,6 +3505,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.rg.dt.shadowmark",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blackwing Shroud",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Coronal Susurrant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Hunter's Instinct",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Umbral Raptor",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.rg.dt.anvilSiegeForce",
                             "selectedOption": {
                                 "name": ""
@@ -3400,6 +3782,35 @@
                                 {
                                     "name": "The Imperium's Sword",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.rg.dt.shadowmark",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blackwing Shroud",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Coronal Susurrant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Hunter's Instinct",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Umbral Raptor",
+                                    "points": 15
                                 }
                             ]
                         },
@@ -3666,6 +4077,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.rg.dt.shadowmark",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blackwing Shroud",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Coronal Susurrant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Hunter's Instinct",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Umbral Raptor",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.rg.dt.anvilSiegeForce",
                             "selectedOption": {
                                 "name": ""
@@ -3885,6 +4325,35 @@
                                 {
                                     "name": "The Imperium's Sword",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.rg.dt.shadowmark",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blackwing Shroud",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Coronal Susurrant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Hunter's Instinct",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Umbral Raptor",
+                                    "points": 15
                                 }
                             ]
                         },
@@ -4422,6 +4891,35 @@
                                 {
                                     "name": "The Imperium's Sword",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.rg.dt.shadowmark",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blackwing Shroud",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Coronal Susurrant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Hunter's Instinct",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Umbral Raptor",
+                                    "points": 15
                                 }
                             ]
                         },
@@ -5078,6 +5576,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.rg.dt.shadowmark",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blackwing Shroud",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Coronal Susurrant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Hunter's Instinct",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Umbral Raptor",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.rg.dt.anvilSiegeForce",
                             "selectedOption": {
                                 "name": ""
@@ -5297,6 +5824,35 @@
                                 {
                                     "name": "The Imperium's Sword",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.rg.dt.shadowmark",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blackwing Shroud",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Coronal Susurrant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Hunter's Instinct",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Umbral Raptor",
+                                    "points": 15
                                 }
                             ]
                         },
@@ -5542,6 +6098,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.rg.dt.shadowmark",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blackwing Shroud",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Coronal Susurrant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Hunter's Instinct",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Umbral Raptor",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.rg.dt.anvilSiegeForce",
                             "selectedOption": {
                                 "name": ""
@@ -5761,6 +6346,35 @@
                                 {
                                     "name": "The Imperium's Sword",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.rg.dt.shadowmark",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blackwing Shroud",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Coronal Susurrant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Hunter's Instinct",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Umbral Raptor",
+                                    "points": 15
                                 }
                             ]
                         },
@@ -6015,6 +6629,35 @@
                                 {
                                     "name": "The Imperium's Sword",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.rg.dt.shadowmark",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blackwing Shroud",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Coronal Susurrant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Hunter's Instinct",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Umbral Raptor",
+                                    "points": 15
                                 }
                             ]
                         },
@@ -6494,6 +7137,35 @@
                                 {
                                     "name": "The Imperium's Sword",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.rg.dt.shadowmark",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blackwing Shroud",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Coronal Susurrant",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Hunter's Instinct",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Umbral Raptor",
+                                    "points": 15
                                 }
                             ]
                         },
@@ -9056,6 +9728,28 @@
                 {
                     "name": "Kayvaan Shrike",
                     "points": 100,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.rg.unit.aethonShaan",
+            "type": "unit",
+            "rulesetId": "w40k.10e.rg",
+            "name": "Aethon Shaan",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Aethon Shaan",
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "checkbox",
