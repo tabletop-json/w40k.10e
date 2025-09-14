@@ -56,6 +56,12 @@
             "type": "detachment",
             "rulesetId": "w40k.10e.sal",
             "name": "Librarius Conclave"
+        },
+        {
+            "id": "w40k.10e.sal.dt.forgefathers",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.sal",
+            "name": "Forgefather's Seekers"
         }
     ],
     "units": [
@@ -195,6 +201,35 @@
                                 {
                                     "name": "Forged in Battle",
                                     "points": 15
+                                },
+                                {
+                                    "name": "War-tempered Artifice",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sal.dt.forgefathers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Mantle",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Forged in Battle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Immolator",
+                                    "points": 10
                                 },
                                 {
                                     "name": "War-tempered Artifice",
@@ -477,6 +512,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.sal.dt.forgefathers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Mantle",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Forged in Battle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Immolator",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "War-tempered Artifice",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.sal.dt.gladius",
                             "selectedOption": {
                                 "name": ""
@@ -722,6 +786,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.sal.dt.forgefathers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Mantle",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Forged in Battle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Immolator",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "War-tempered Artifice",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.sal.dt.gladius",
                             "selectedOption": {
                                 "name": ""
@@ -937,6 +1030,35 @@
                                 {
                                     "name": "Forged in Battle",
                                     "points": 15
+                                },
+                                {
+                                    "name": "War-tempered Artifice",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sal.dt.forgefathers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Mantle",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Forged in Battle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Immolator",
+                                    "points": 10
                                 },
                                 {
                                     "name": "War-tempered Artifice",
@@ -1200,6 +1322,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.sal.dt.forgefathers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Mantle",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Forged in Battle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Immolator",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "War-tempered Artifice",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.sal.dt.gladius",
                             "selectedOption": {
                                 "name": ""
@@ -1425,6 +1576,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.sal.dt.forgefathers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Mantle",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Forged in Battle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Immolator",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "War-tempered Artifice",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.sal.dt.gladius",
                             "selectedOption": {
                                 "name": ""
@@ -1640,6 +1820,35 @@
                                 {
                                     "name": "Forged in Battle",
                                     "points": 15
+                                },
+                                {
+                                    "name": "War-tempered Artifice",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sal.dt.forgefathers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Mantle",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Forged in Battle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Immolator",
+                                    "points": 10
                                 },
                                 {
                                     "name": "War-tempered Artifice",
@@ -1942,6 +2151,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.sal.dt.forgefathers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Mantle",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Forged in Battle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Immolator",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "War-tempered Artifice",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.sal.dt.gladius",
                             "selectedOption": {
                                 "name": ""
@@ -2157,6 +2395,35 @@
                                 {
                                     "name": "Forged in Battle",
                                     "points": 15
+                                },
+                                {
+                                    "name": "War-tempered Artifice",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sal.dt.forgefathers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Mantle",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Forged in Battle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Immolator",
+                                    "points": 10
                                 },
                                 {
                                     "name": "War-tempered Artifice",
@@ -2438,6 +2705,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.sal.dt.forgefathers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Mantle",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Forged in Battle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Immolator",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "War-tempered Artifice",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.sal.dt.gladius",
                             "selectedOption": {
                                 "name": ""
@@ -2678,6 +2974,35 @@
                                 {
                                     "name": "Forged in Battle",
                                     "points": 15
+                                },
+                                {
+                                    "name": "War-tempered Artifice",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sal.dt.forgefathers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Mantle",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Forged in Battle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Immolator",
+                                    "points": 10
                                 },
                                 {
                                     "name": "War-tempered Artifice",
@@ -2956,6 +3281,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.sal.dt.forgefathers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Mantle",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Forged in Battle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Immolator",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "War-tempered Artifice",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.sal.dt.gladius",
                             "selectedOption": {
                                 "name": ""
@@ -3181,6 +3535,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.sal.dt.forgefathers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Mantle",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Forged in Battle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Immolator",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "War-tempered Artifice",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.sal.dt.gladius",
                             "selectedOption": {
                                 "name": ""
@@ -3396,6 +3779,35 @@
                                 {
                                     "name": "Forged in Battle",
                                     "points": 15
+                                },
+                                {
+                                    "name": "War-tempered Artifice",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sal.dt.forgefathers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Mantle",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Forged in Battle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Immolator",
+                                    "points": 10
                                 },
                                 {
                                     "name": "War-tempered Artifice",
@@ -3666,6 +4078,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.sal.dt.forgefathers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Mantle",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Forged in Battle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Immolator",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "War-tempered Artifice",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.sal.dt.gladius",
                             "selectedOption": {
                                 "name": ""
@@ -3881,6 +4322,35 @@
                                 {
                                     "name": "Forged in Battle",
                                     "points": 15
+                                },
+                                {
+                                    "name": "War-tempered Artifice",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sal.dt.forgefathers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Mantle",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Forged in Battle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Immolator",
+                                    "points": 10
                                 },
                                 {
                                     "name": "War-tempered Artifice",
@@ -4418,6 +4888,35 @@
                                 {
                                     "name": "Forged in Battle",
                                     "points": 15
+                                },
+                                {
+                                    "name": "War-tempered Artifice",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sal.dt.forgefathers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Mantle",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Forged in Battle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Immolator",
+                                    "points": 10
                                 },
                                 {
                                     "name": "War-tempered Artifice",
@@ -5078,6 +5577,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.sal.dt.forgefathers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Mantle",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Forged in Battle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Immolator",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "War-tempered Artifice",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.sal.dt.gladius",
                             "selectedOption": {
                                 "name": ""
@@ -5293,6 +5821,35 @@
                                 {
                                     "name": "Forged in Battle",
                                     "points": 15
+                                },
+                                {
+                                    "name": "War-tempered Artifice",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sal.dt.forgefathers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Mantle",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Forged in Battle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Immolator",
+                                    "points": 10
                                 },
                                 {
                                     "name": "War-tempered Artifice",
@@ -5542,6 +6099,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.sal.dt.forgefathers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Mantle",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Forged in Battle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Immolator",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "War-tempered Artifice",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.sal.dt.gladius",
                             "selectedOption": {
                                 "name": ""
@@ -5757,6 +6343,35 @@
                                 {
                                     "name": "Forged in Battle",
                                     "points": 15
+                                },
+                                {
+                                    "name": "War-tempered Artifice",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sal.dt.forgefathers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Mantle",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Forged in Battle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Immolator",
+                                    "points": 10
                                 },
                                 {
                                     "name": "War-tempered Artifice",
@@ -6011,6 +6626,35 @@
                                 {
                                     "name": "Forged in Battle",
                                     "points": 15
+                                },
+                                {
+                                    "name": "War-tempered Artifice",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sal.dt.forgefathers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Mantle",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Forged in Battle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Immolator",
+                                    "points": 10
                                 },
                                 {
                                     "name": "War-tempered Artifice",
@@ -6490,6 +7134,35 @@
                                 {
                                     "name": "Forged in Battle",
                                     "points": 15
+                                },
+                                {
+                                    "name": "War-tempered Artifice",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sal.dt.forgefathers",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Adamantine Mantle",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Forged in Battle",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Immolator",
+                                    "points": 10
                                 },
                                 {
                                     "name": "War-tempered Artifice",

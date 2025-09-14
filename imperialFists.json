@@ -22,6 +22,12 @@
             "name": "Anvil Siege Force"
         },
         {
+            "id": "w40k.10e.if.dt.emperorsShield",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.if",
+            "name": "Emperor's Shield"
+        },
+        {
             "id": "w40k.10e.if.dt.firestormAssaultForce",
             "type": "detachment",
             "rulesetId": "w40k.10e.dw",
@@ -170,6 +176,35 @@
                                 {
                                     "name": "Stoic Defender",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.emperorsShield",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Feast",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Disciple of Rhetoricus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Indomitable Champion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Malodraxian Standard",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -448,6 +483,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.emperorsShield",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Feast",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Disciple of Rhetoricus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Indomitable Champion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Malodraxian Standard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.if.dt.firestormAssaultForce",
                             "selectedOption": {
                                 "name": ""
@@ -693,6 +757,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.emperorsShield",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Feast",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Disciple of Rhetoricus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Indomitable Champion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Malodraxian Standard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.if.dt.firestormAssaultForce",
                             "selectedOption": {
                                 "name": ""
@@ -912,6 +1005,35 @@
                                 {
                                     "name": "Stoic Defender",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.emperorsShield",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Feast",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Disciple of Rhetoricus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Indomitable Champion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Malodraxian Standard",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -1171,6 +1293,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.emperorsShield",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Feast",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Disciple of Rhetoricus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Indomitable Champion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Malodraxian Standard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.if.dt.firestormAssaultForce",
                             "selectedOption": {
                                 "name": ""
@@ -1396,6 +1547,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.emperorsShield",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Feast",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Disciple of Rhetoricus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Indomitable Champion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Malodraxian Standard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.if.dt.firestormAssaultForce",
                             "selectedOption": {
                                 "name": ""
@@ -1615,6 +1795,35 @@
                                 {
                                     "name": "Stoic Defender",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.emperorsShield",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Feast",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Disciple of Rhetoricus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Indomitable Champion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Malodraxian Standard",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -1913,6 +2122,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.emperorsShield",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Feast",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Disciple of Rhetoricus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Indomitable Champion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Malodraxian Standard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.if.dt.firestormAssaultForce",
                             "selectedOption": {
                                 "name": ""
@@ -2132,6 +2370,35 @@
                                 {
                                     "name": "Stoic Defender",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.emperorsShield",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Feast",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Disciple of Rhetoricus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Indomitable Champion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Malodraxian Standard",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -2409,6 +2676,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.emperorsShield",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Feast",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Disciple of Rhetoricus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Indomitable Champion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Malodraxian Standard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.if.dt.firestormAssaultForce",
                             "selectedOption": {
                                 "name": ""
@@ -2653,6 +2949,35 @@
                                 {
                                     "name": "Stoic Defender",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.emperorsShield",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Feast",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Disciple of Rhetoricus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Indomitable Champion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Malodraxian Standard",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -2927,6 +3252,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.emperorsShield",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Feast",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Disciple of Rhetoricus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Indomitable Champion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Malodraxian Standard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.if.dt.firestormAssaultForce",
                             "selectedOption": {
                                 "name": ""
@@ -3152,6 +3506,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.emperorsShield",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Feast",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Disciple of Rhetoricus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Indomitable Champion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Malodraxian Standard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.if.dt.firestormAssaultForce",
                             "selectedOption": {
                                 "name": ""
@@ -3371,6 +3754,35 @@
                                 {
                                     "name": "Stoic Defender",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.emperorsShield",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Feast",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Disciple of Rhetoricus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Indomitable Champion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Malodraxian Standard",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -3637,6 +4049,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.emperorsShield",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Feast",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Disciple of Rhetoricus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Indomitable Champion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Malodraxian Standard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.if.dt.firestormAssaultForce",
                             "selectedOption": {
                                 "name": ""
@@ -3856,6 +4297,35 @@
                                 {
                                     "name": "Stoic Defender",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.emperorsShield",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Feast",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Disciple of Rhetoricus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Indomitable Champion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Malodraxian Standard",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -4393,6 +4863,35 @@
                                 {
                                     "name": "Stoic Defender",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.emperorsShield",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Feast",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Disciple of Rhetoricus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Indomitable Champion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Malodraxian Standard",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -5049,6 +5548,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.emperorsShield",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Feast",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Disciple of Rhetoricus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Indomitable Champion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Malodraxian Standard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.if.dt.firestormAssaultForce",
                             "selectedOption": {
                                 "name": ""
@@ -5268,6 +5796,35 @@
                                 {
                                     "name": "Stoic Defender",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.emperorsShield",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Feast",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Disciple of Rhetoricus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Indomitable Champion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Malodraxian Standard",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -5513,6 +6070,35 @@
                         {
                             "type": "dropdown",
                             "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.emperorsShield",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Feast",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Disciple of Rhetoricus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Indomitable Champion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Malodraxian Standard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
                             "detachmentId": "w40k.10e.if.dt.firestormAssaultForce",
                             "selectedOption": {
                                 "name": ""
@@ -5732,6 +6318,35 @@
                                 {
                                     "name": "Stoic Defender",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.emperorsShield",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Feast",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Disciple of Rhetoricus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Indomitable Champion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Malodraxian Standard",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -5986,6 +6601,35 @@
                                 {
                                     "name": "Stoic Defender",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.emperorsShield",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Feast",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Disciple of Rhetoricus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Indomitable Champion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Malodraxian Standard",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -6465,6 +7109,35 @@
                                 {
                                     "name": "Stoic Defender",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.emperorsShield",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Champion of the Feast",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Disciple of Rhetoricus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Indomitable Champion",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Malodraxian Standard",
+                                    "points": 20
                                 }
                             ]
                         },

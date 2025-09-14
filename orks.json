@@ -128,24 +128,25 @@
                             ]
                         },
                         {
-                            "type": "dropdown",
+                            "type": "checkbox",
                             "selectedOption": {
-                                "name": ""
+                                "name": "'ard Case'"
                             },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "'ard Case'"
-                                },
-                                {
-                                    "name": "Grabbin' Claw"
-                                },
-                                {
-                                    "name": "Wreckin' Ball"
-                                }
-                            ]
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Grabbin' Claw"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Wreckin' Ball"
+                            },
+                            "selected": false
                         },
                         {
                             "type": "checkbox",
