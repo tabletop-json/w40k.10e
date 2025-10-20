@@ -1384,7 +1384,10 @@
                                     "name": "Autoch-pattern Bolter"
                                 },
                                 {
-                                    "name": "Ionblaster"
+                                    "name": "Ion Blaster"
+                                },
+                                {
+                                    "name": "Plasma Knife"
                                 },
                                 {
                                     "name": "HYLas Auto Rifle"
@@ -1400,9 +1403,6 @@
                                 },
                                 {
                                     "name": "Magna-rail Rifle"
-                                },
-                                {
-                                    "name": "Kin Melee Weapon"
                                 }
                             ]
                         },
@@ -1411,27 +1411,6 @@
                             "selectedOption": {
                                 "name": "Autoch-pattern Bolt Pistol"
                             }
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Medipac"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Comms Array"
-                            },
-                            "selected": false
-                        },
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "Pan Spectral Scanner"
-                            },
-                            "selected": false
                         }
                     ]
                 },
@@ -1448,29 +1427,19 @@
                                     "name": "Autoch-pattern Bolter"
                                 },
                                 {
-                                    "name": "Ionblaster"
+                                    "name": "Ion Blaster"
                                 },
                                 {
-                                    "name": "Kin Melee Weapon"
+                                    "name": "Theyn's Pistol"
                                 }
                             ]
                         },
                         {
-                            "type": "dropdown",
+                            "type": "checkbox",
                             "selectedOption": {
-                                "name": "Autoch-pattern Bolt Pistol"
+                                "name": "Theyn's Melee Weapon"
                             },
-                            "options": [
-                                {
-                                    "name": "Autoch-pattern Bolt Pistol"
-                                },
-                                {
-                                    "name": "Ion Pistol"
-                                },
-                                {
-                                    "name": "EtaCarn Plasma Pistol"
-                                }
-                            ]
+                            "selected": false
                         },
                         {
                             "type": "text",
