@@ -10,10 +10,17 @@
     },
     "detachments": [
         {
-            "id": "w40k.10e.vtn.dt.oathband",
+            "id": "w40k.10e.vtn.dt.brandfastOathband",
             "type": "detachment",
             "rulesetId": "w40k.10e.vtn",
-            "name": "Oathband",
+            "name": "Brandfast Oathband",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.vtn.dt.delveAssaultShift",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Delve Assault Shift",
             "rule": ""
         },
         {
@@ -21,6 +28,27 @@
             "type": "detachment",
             "rulesetId": "w40k.10e.vtn",
             "name": "Hearthband",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.vtn.dt.hearthfyreArsenal",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Hearthfyre Arsenal",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.vtn.dt.NeedgaardOathband",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Needgaard Oathband",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.vtn.dt.persecutionProspect",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Persecution Prospect",
             "rule": ""
         }
     ],
@@ -34,7 +62,29 @@
             "models": [
                 {
                     "name": "Uthar the Destined",
-                    "points": 80,
+                    "points": 95,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.unit.buri",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Buri Aegnirssen",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Buri Aegnirssen",
+                    "points": 110,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -110,7 +160,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.vtn.dt.oathband",
+                            "detachmentId": "w40k.10e.vtn.dt.brandfastOathband",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -119,20 +169,49 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Appraising Glare",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "A Long List",
+                                    "name": "Precursive Judgement",
                                     "points": 15
                                 },
                                 {
-                                    "name": "Grim Demeanour",
-                                    "points": 20
+                                    "name": "Signature Restoration",
+                                    "points": 5
                                 },
                                 {
-                                    "name": "Wayfarer's Grace",
+                                    "name": "Tactical Alchemy",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Trivarg Cyber Implant",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.delveAssaultShift",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Delverke Navigator",
                                     "points": 25
+                                },
+                                {
+                                    "name": "Multiwave System Jammer",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Piledriver",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Quake Supervisor",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -152,16 +231,495 @@
                                     "points": 25
                                 },
                                 {
-                                    "name": "Quake Multigenerator",
-                                    "points": 15
+                                    "name": "High Kahl",
+                                    "points": 30
                                 },
                                 {
                                     "name": "Ironskein",
                                     "points": 10
                                 },
                                 {
+                                    "name": "Quake Multigenerator",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.hearthfyreArsenal",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calculated Tenacity",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Farstrydr Node",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Graviton Vault",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Mantle of Elders",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.needgaardOathband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Ancestral Crest",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Dead Reckoning",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Iron Ambassador",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Oathbound Speculator",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.persecutionProspect",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eye for Weakness",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Nomad Strategist",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Surgical Saboteur",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Writ of Acquisition",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.unit.arkanystEvaluator",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Arkanyst Evalutor",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Arkanyst Evalutor",
+                    "points": 75,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.brandfastOathband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Precursive Judgement",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Signature Restoration",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Tactical Alchemy",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Trivarg Cyber Implant",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.delveAssaultShift",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Delverke Navigator",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Multiwave System Jammer",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Piledriver",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Quake Supervisor",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.hearthband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bastion Shield",
+                                    "points": 25
+                                },
+                                {
                                     "name": "High Kahl",
                                     "points": 30
+                                },
+                                {
+                                    "name": "Ironskein",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Quake Multigenerator",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.hearthfyreArsenal",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calculated Tenacity",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Farstrydr Node",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Graviton Vault",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Mantle of Elders",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.needgaardOathband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Ancestral Crest",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Dead Reckoning",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Iron Ambassador",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Oathbound Speculator",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.persecutionProspect",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eye for Weakness",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Nomad Strategist",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Surgical Saboteur",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Writ of Acquisition",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.unit.memnyrStrategist",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Memnyr Strategist",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Memnyr Strategist",
+                    "points": 45,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.brandfastOathband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Precursive Judgement",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Signature Restoration",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Tactical Alchemy",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Trivarg Cyber Implant",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.delveAssaultShift",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Delverke Navigator",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Multiwave System Jammer",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Piledriver",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Quake Supervisor",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.hearthband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bastion Shield",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "High Kahl",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Ironskein",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Quake Multigenerator",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.hearthfyreArsenal",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calculated Tenacity",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Farstrydr Node",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Graviton Vault",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Mantle of Elders",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.needgaardOathband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Ancestral Crest",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Dead Reckoning",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Iron Ambassador",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Oathbound Speculator",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.persecutionProspect",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eye for Weakness",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Nomad Strategist",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Surgical Saboteur",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Writ of Acquisition",
+                                    "points": 10
                                 }
                             ]
                         }
@@ -178,7 +736,7 @@
             "models": [
                 {
                     "name": "Einhyr Champion",
-                    "points": 60,
+                    "points": 70,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -218,7 +776,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.vtn.dt.oathband",
+                            "detachmentId": "w40k.10e.vtn.dt.brandfastOathband",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -227,20 +785,49 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Appraising Glare",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "A Long List",
+                                    "name": "Precursive Judgement",
                                     "points": 15
                                 },
                                 {
-                                    "name": "Grim Demeanour",
-                                    "points": 20
+                                    "name": "Signature Restoration",
+                                    "points": 5
                                 },
                                 {
-                                    "name": "Wayfarer's Grace",
+                                    "name": "Tactical Alchemy",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Trivarg Cyber Implant",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.delveAssaultShift",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Delverke Navigator",
                                     "points": 25
+                                },
+                                {
+                                    "name": "Multiwave System Jammer",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Piledriver",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Quake Supervisor",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -260,7 +847,102 @@
                                     "points": 25
                                 },
                                 {
+                                    "name": "High Kahl",
+                                    "points": 30
+                                },
+                                {
                                     "name": "Ironskein",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Quake Multigenerator",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.hearthfyreArsenal",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calculated Tenacity",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Farstrydr Node",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Graviton Vault",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Mantle of Elders",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.needgaardOathband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Ancestral Crest",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Dead Reckoning",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Iron Ambassador",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Oathbound Speculator",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.persecutionProspect",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eye for Weakness",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Nomad Strategist",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Surgical Saboteur",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Writ of Acquisition",
                                     "points": 10
                                 }
                             ]
@@ -290,7 +972,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.vtn.dt.oathband",
+                            "detachmentId": "w40k.10e.vtn.dt.brandfastOathband",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -299,20 +981,49 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Appraising Glare",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "A Long List",
+                                    "name": "Precursive Judgement",
                                     "points": 15
                                 },
                                 {
-                                    "name": "Grim Demeanour",
-                                    "points": 20
+                                    "name": "Signature Restoration",
+                                    "points": 5
                                 },
                                 {
-                                    "name": "Wayfarer's Grace",
+                                    "name": "Tactical Alchemy",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Trivarg Cyber Implant",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.delveAssaultShift",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Delverke Navigator",
                                     "points": 25
+                                },
+                                {
+                                    "name": "Multiwave System Jammer",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Piledriver",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Quake Supervisor",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -332,7 +1043,102 @@
                                     "points": 25
                                 },
                                 {
+                                    "name": "High Kahl",
+                                    "points": 30
+                                },
+                                {
                                     "name": "Ironskein",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Quake Multigenerator",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.hearthfyreArsenal",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calculated Tenacity",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Farstrydr Node",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Graviton Vault",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Mantle of Elders",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.needgaardOathband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Ancestral Crest",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Dead Reckoning",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Iron Ambassador",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Oathbound Speculator",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.persecutionProspect",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eye for Weakness",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Nomad Strategist",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Surgical Saboteur",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Writ of Acquisition",
                                     "points": 10
                                 }
                             ]
@@ -350,7 +1156,7 @@
             "models": [
                 {
                     "name": "Brokhyr Iron-master",
-                    "points": 65,
+                    "points": 75,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -362,7 +1168,7 @@
                         {
                             "type": "dropdown",
                             "color": "green",
-                            "detachmentId": "w40k.10e.vtn.dt.oathband",
+                            "detachmentId": "w40k.10e.vtn.dt.brandfastOathband",
                             "selectedOption": {
                                 "name": ""
                             },
@@ -371,20 +1177,49 @@
                                     "name": ""
                                 },
                                 {
-                                    "name": "Appraising Glare",
-                                    "points": 20
-                                },
-                                {
-                                    "name": "A Long List",
+                                    "name": "Precursive Judgement",
                                     "points": 15
                                 },
                                 {
-                                    "name": "Grim Demeanour",
-                                    "points": 20
+                                    "name": "Signature Restoration",
+                                    "points": 5
                                 },
                                 {
-                                    "name": "Wayfarer's Grace",
+                                    "name": "Tactical Alchemy",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Trivarg Cyber Implant",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.delveAssaultShift",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Delverke Navigator",
                                     "points": 25
+                                },
+                                {
+                                    "name": "Multiwave System Jammer",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Piledriver",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Quake Supervisor",
+                                    "points": 20
                                 }
                             ]
                         },
@@ -404,7 +1239,102 @@
                                     "points": 25
                                 },
                                 {
+                                    "name": "High Kahl",
+                                    "points": 30
+                                },
+                                {
                                     "name": "Ironskein",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Quake Multigenerator",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.hearthfyreArsenal",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Calculated Tenacity",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Farstrydr Node",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Graviton Vault",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Mantle of Elders",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.needgaardOathband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Ancestral Crest",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Dead Reckoning",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Iron Ambassador",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Oathbound Speculator",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.persecutionProspect",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eye for Weakness",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Nomad Strategist",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Surgical Saboteur",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Writ of Acquisition",
                                     "points": 10
                                 }
                             ]
@@ -562,12 +1492,12 @@
                 {
                     "name": "Hearthguard, Hesyr",
                     "amount": 10,
-                    "cost": 320
+                    "cost": 270
                 },
                 {
                     "name": "Hearthguard, Hesyr",
                     "amount": 5,
-                    "cost": 150
+                    "cost": 135
                 }
             ],
             "restrictions": [
@@ -729,6 +1659,49 @@
             ]
         },
         {
+            "id": "w40k.10e.vtn.unit.earthshakers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Cthonian Earthshakers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Cthonian Earthshaker",
+                    "amount": 2,
+                    "cost": 110
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Cthonian Earthshaker",
+                    "min": 2,
+                    "max": 2
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Cthonian Earthshaker",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Breacher Ordnance"
+                            },
+                            "options": [
+                                {
+                                    "name": "Breacher Ordnance"
+                                },
+                                {
+                                    "name": "Tremor Shells"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "w40k.10e.vtn.unit.pioneer",
             "type": "unit",
             "rulesetId": "w40k.10e.vtn",
@@ -738,12 +1711,12 @@
                 {
                     "name": "Hernkyn Pioneer",
                     "amount": 6,
-                    "cost": 180
+                    "cost": 160
                 },
                 {
                     "name": "Hernkyn Pioneer",
                     "amount": 3,
-                    "cost": 90
+                    "cost": 80
                 }
             ],
             "restrictions": [
@@ -809,7 +1782,7 @@
             "models": [
                 {
                     "name": "Sagitaur",
-                    "points": 115,
+                    "points": 95,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -833,6 +1806,101 @@
                             "selectedOption": {
                                 "name": "Twin Bolt Cannon"
                             }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.unit.kapricusCarrier",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Kapricus Carrier",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Kapricus Carrier",
+                    "points": 75,
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Magna-coil Autocannon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Magna-coil Autocannon"
+                            }
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Smoke Launcher"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.unit.kapricusDefender",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Kapricus Defenders",
+            "role": "VEHICLE",
+            "points": [
+                {
+                    "name": "Kapricus Defender",
+                    "amount": 2,
+                    "cost": 140
+                },
+                {
+                    "name": "Kapricus Defender",
+                    "amount": 1,
+                    "cost": 70
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Kapricus Defender",
+                    "min": 1,
+                    "max": 2
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Kapricus Defender",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Magna-coil Autocannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Magna-coil Autocannon"
+                                },
+                                {
+                                    "name": "HYLas Rotary Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Twin Magna-coil Autocannon"
+                            }
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Smoke Launcher"
+                            },
+                            "selected": false
                         }
                     ]
                 }
@@ -890,6 +1958,102 @@
             ]
         },
         {
+            "id": "w40k.10e.vtn.unit.steeljacksVolkanite",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Ironkin Steeljacks with Heavy Volkanite Disintegrator",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Ironkin Steeljack",
+                    "amount": 6,
+                    "cost": 180
+                },
+                {
+                    "name": "Ironkin Steeljack",
+                    "amount": 3,
+                    "cost": 90
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Ironkin Steeljack",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Ironkin Steeljack",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Volkanite Disintegrator"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Volkanite Disintegrator"
+                                },
+                                {
+                                    "name": "Auroch Pattern Bolter, Plasma Sword"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.unit.steeljacksMelee",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Ironkin Steeljacks with Melee Weapons",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Ironkin Steeljack",
+                    "amount": 6,
+                    "cost": 180
+                },
+                {
+                    "name": "Ironkin Steeljack",
+                    "amount": 3,
+                    "cost": 90
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Ironkin Steeljack",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Ironkin Steeljack",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Auroch Pattern Bolter, Plasma Sword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Auroch Pattern Bolter, Plasma Sword"
+                                },
+                                {
+                                    "name": "Auroch Pattern Bolter, Concussion Gauntlet"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "w40k.10e.vtn.unit.landFortress",
             "type": "unit",
             "rulesetId": "w40k.10e.vtn",
@@ -898,7 +2062,7 @@
             "models": [
                 {
                     "name": "Hekaton Land Fortress",
-                    "points": 225,
+                    "points": 240,
                     "gearset": [
                         {
                             "type": "dropdown",
