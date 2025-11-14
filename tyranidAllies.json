@@ -378,6 +378,68 @@
                     "points": 70
                 }
             ]
+        },
+        {
+            "id": "w40k.10e.tyranidAllies.unit.hyperadaptedRaveners",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tyranidAllies",
+            "name": "Hyperadapted Raveners",
+            "role": "CHARACTER",
+            "points": [
+                {
+                    "name": "Hyperadapted Raveners",
+                    "amount": 5,
+                    "cost": 165
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Ravener",
+                    "min": 4,
+                    "max": 4
+                },
+                {
+                    "type": "model",
+                    "name": "Ravener Prime",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Ravener"
+                },
+                {
+                    "name": "Ravener Prime",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.tyranidAllies.dt.finalDay",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Synaptic Auger",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

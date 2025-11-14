@@ -2948,21 +2948,16 @@
             "points": [
                 {
                     "name": "Stealth Shas'ui, Stealth Shas'vre",
-                    "amount": 6,
-                    "cost": 120
-                },
-                {
-                    "name": "Stealth Shas'ui, Stealth Shas'vre",
-                    "amount": 3,
-                    "cost": 80
+                    "amount": 5,
+                    "cost": 110
                 }
             ],
             "restrictions": [
                 {
                     "type": "model",
                     "name": "Stealth Shas'ui",
-                    "min": 2,
-                    "max": 5
+                    "min": 4,
+                    "max": 4
                 },
                 {
                     "type": "model",
@@ -2992,7 +2987,7 @@
                         {
                             "type": "checkbox",
                             "selectedOption": {
-                                "name": "Battlesuit Support System"
+                                "name": "Homing Beacon"
                             },
                             "selected": false
                         }
@@ -3018,7 +3013,7 @@
                         {
                             "type": "checkbox",
                             "selectedOption": {
-                                "name": "Battlesuit Support System"
+                                "name": "Pulse Pistol"
                             },
                             "selected": false
                         },

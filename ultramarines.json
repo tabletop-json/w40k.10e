@@ -9055,6 +9055,28 @@
             ]
         },
         {
+            "id": "w40k.10e.ult.unit.catoSicarius",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ult",
+            "name": "Cato Sicarius",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Cato Sicarius",
+                    "points": 120,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "w40k.10e.ult.unit.marneusCalgar",
             "type": "unit",
             "rulesetId": "w40k.10e.ult",
@@ -9085,6 +9107,34 @@
                 },
                 {
                     "name": "Victrix Honour Guard"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ult.unit.marneusCalgarAntilochus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ult",
+            "name": "Marneus Calgar in Antilochus",
+            "role": "CHARACTER",
+            "points": [
+                {
+                    "name": "Marneus Calgar",
+                    "amount": 1,
+                    "cost": 140
+                }
+            ],
+            "models": [
+                {
+                    "name": "Marneus Calgar",
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
                 }
             ]
         },
@@ -9129,6 +9179,56 @@
                             "selected": false
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ult.unit.victrixHonourGuard",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ult",
+            "name": "Victrix Honour Guard",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Victrix Honour Guard, Chapter Champion, Chapter Ancient",
+                    "amount": 6,
+                    "cost": 210
+                },
+                {
+                    "name": "Victrix Honour Guard, Chapter Champion, Chapter Ancient",
+                    "amount": 3,
+                    "cost": 130
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Victrix Honour Guard",
+                    "min": 1,
+                    "max": 6
+                },
+                {
+                    "type": "model",
+                    "name": "Chapter Champion",
+                    "min": 0,
+                    "max": 1
+                },                {
+                    "type": "model",
+                    "name": "Chapter Ancient",
+                    "min": 0,
+                    "max": 1
+                }
+
+            ],
+            "blueprints": [
+                {
+                    "name": "Victrix Honour Guard"
+                },
+                {
+                    "name": "Chapter Champion"
+                },
+                {
+                    "name": "Chapter Ancient"
                 }
             ]
         }
