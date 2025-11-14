@@ -9225,10 +9225,26 @@
                     "name": "Victrix Honour Guard"
                 },
                 {
-                    "name": "Chapter Champion"
+                    "name": "Chapter Champion",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Blades of Honour (Champion)"
+                            }
+                        }
+                    ]
                 },
                 {
-                    "name": "Chapter Ancient"
+                    "name": "Chapter Ancient",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Banner of Macragge (Ancient)"
+                            }
+                        }
+                    ]
                 }
             ]
         }
