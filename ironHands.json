@@ -56,6 +56,12 @@
             "type": "detachment",
             "rulesetId": "w40k.10e.ih",
             "name": "Librarius Conclave"
+        },
+        {
+            "id": "w40k.10e.ih.dt.hammerAvernii",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.ih",
+            "name": "Hammer of Avernii"
         }
     ],
     "units": [
@@ -315,6 +321,35 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ih.dt.hammerAvernii",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Iron Laurel",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Medusan Roar",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spiritus Ferrum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Steel Font",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -589,6 +624,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ih.dt.hammerAvernii",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Iron Laurel",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Medusan Roar",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spiritus Ferrum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Steel Font",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -834,6 +898,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ih.dt.hammerAvernii",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Iron Laurel",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Medusan Roar",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spiritus Ferrum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Steel Font",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1057,6 +1150,35 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ih.dt.hammerAvernii",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Iron Laurel",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Medusan Roar",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spiritus Ferrum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Steel Font",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -1312,6 +1434,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ih.dt.hammerAvernii",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Iron Laurel",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Medusan Roar",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spiritus Ferrum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Steel Font",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1537,6 +1688,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ih.dt.hammerAvernii",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Iron Laurel",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Medusan Roar",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spiritus Ferrum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Steel Font",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1760,6 +1940,35 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ih.dt.hammerAvernii",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Iron Laurel",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Medusan Roar",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spiritus Ferrum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Steel Font",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -2054,6 +2263,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ih.dt.hammerAvernii",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Iron Laurel",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Medusan Roar",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spiritus Ferrum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Steel Font",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2306,6 +2544,35 @@
                                 {
                                     "name": "Prescience",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ih.dt.hammerAvernii",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Iron Laurel",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Medusan Roar",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spiritus Ferrum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Steel Font",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -2575,6 +2842,35 @@
                                     "points": 20
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ih.dt.hammerAvernii",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Iron Laurel",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Medusan Roar",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spiritus Ferrum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Steel Font",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2829,6 +3125,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ih.dt.hammerAvernii",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Iron Laurel",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Medusan Roar",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spiritus Ferrum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Steel Font",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3068,6 +3393,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ih.dt.hammerAvernii",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Iron Laurel",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Medusan Roar",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spiritus Ferrum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Steel Font",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3293,6 +3647,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ih.dt.hammerAvernii",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Iron Laurel",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Medusan Roar",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spiritus Ferrum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Steel Font",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3516,6 +3899,35 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ih.dt.hammerAvernii",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Iron Laurel",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Medusan Roar",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spiritus Ferrum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Steel Font",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -3778,6 +4190,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ih.dt.hammerAvernii",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Iron Laurel",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Medusan Roar",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spiritus Ferrum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Steel Font",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -4001,6 +4442,35 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ih.dt.hammerAvernii",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Iron Laurel",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Medusan Roar",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spiritus Ferrum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Steel Font",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -4538,6 +5008,35 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ih.dt.hammerAvernii",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Iron Laurel",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Medusan Roar",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spiritus Ferrum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Steel Font",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -5190,6 +5689,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ih.dt.hammerAvernii",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Iron Laurel",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Medusan Roar",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spiritus Ferrum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Steel Font",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -5413,6 +5941,35 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ih.dt.hammerAvernii",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Iron Laurel",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Medusan Roar",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spiritus Ferrum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Steel Font",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -5654,6 +6211,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ih.dt.hammerAvernii",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Iron Laurel",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Medusan Roar",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spiritus Ferrum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Steel Font",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -5877,6 +6463,35 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ih.dt.hammerAvernii",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Iron Laurel",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Medusan Roar",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spiritus Ferrum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Steel Font",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -6131,6 +6746,35 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ih.dt.hammerAvernii",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Iron Laurel",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Medusan Roar",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spiritus Ferrum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Steel Font",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -6610,6 +7254,35 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ih.dt.hammerAvernii",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Iron Laurel",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Medusan Roar",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Spiritus Ferrum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Steel Font",
+                                    "points": 15
                                 }
                             ]
                         }

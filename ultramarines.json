@@ -56,6 +56,12 @@
             "type": "detachment",
             "rulesetId": "w40k.10e.ult",
             "name": "Librarius Conclave"
+        },
+        {
+            "id": "w40k.10e.ult.dt.bladeUltramar",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.ult",
+            "name": "Blade of Ultramar"
         }
     ],
     "units": [
@@ -314,6 +320,35 @@
                                 },
                                 {
                                     "name": "The Blade Driven Deep",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ult.dt.bladeUltramar",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Armour of Antoninus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Oath of Macragge",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Student of the Codex",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veteran of Behemoth",
                                     "points": 25
                                 }
                             ]
@@ -589,6 +624,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ult.dt.bladeUltramar",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Armour of Antoninus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Oath of Macragge",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Student of the Codex",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veteran of Behemoth",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -834,6 +898,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ult.dt.bladeUltramar",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Armour of Antoninus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Oath of Macragge",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Student of the Codex",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veteran of Behemoth",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1056,6 +1149,35 @@
                                 },
                                 {
                                     "name": "The Blade Driven Deep",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ult.dt.bladeUltramar",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Armour of Antoninus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Oath of Macragge",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Student of the Codex",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veteran of Behemoth",
                                     "points": 25
                                 }
                             ]
@@ -1312,6 +1434,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ult.dt.bladeUltramar",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Armour of Antoninus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Oath of Macragge",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Student of the Codex",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veteran of Behemoth",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1537,6 +1688,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ult.dt.bladeUltramar",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Armour of Antoninus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Oath of Macragge",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Student of the Codex",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veteran of Behemoth",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1759,6 +1939,35 @@
                                 },
                                 {
                                     "name": "The Blade Driven Deep",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ult.dt.bladeUltramar",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Armour of Antoninus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Oath of Macragge",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Student of the Codex",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veteran of Behemoth",
                                     "points": 25
                                 }
                             ]
@@ -2054,6 +2263,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ult.dt.bladeUltramar",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Armour of Antoninus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Oath of Macragge",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Student of the Codex",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veteran of Behemoth",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2305,6 +2543,35 @@
                                 },
                                 {
                                     "name": "Prescience",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ult.dt.bladeUltramar",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Armour of Antoninus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Oath of Macragge",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Student of the Codex",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veteran of Behemoth",
                                     "points": 25
                                 }
                             ]
@@ -2575,6 +2842,35 @@
                                     "points": 20
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ult.dt.bladeUltramar",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Armour of Antoninus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Oath of Macragge",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Student of the Codex",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veteran of Behemoth",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2829,6 +3125,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ult.dt.bladeUltramar",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Armour of Antoninus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Oath of Macragge",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Student of the Codex",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veteran of Behemoth",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3068,6 +3393,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ult.dt.bladeUltramar",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Armour of Antoninus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Oath of Macragge",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Student of the Codex",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veteran of Behemoth",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3293,6 +3647,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ult.dt.bladeUltramar",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Armour of Antoninus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Oath of Macragge",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Student of the Codex",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veteran of Behemoth",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3515,6 +3898,35 @@
                                 },
                                 {
                                     "name": "The Blade Driven Deep",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ult.dt.bladeUltramar",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Armour of Antoninus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Oath of Macragge",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Student of the Codex",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veteran of Behemoth",
                                     "points": 25
                                 }
                             ]
@@ -3778,6 +4190,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ult.dt.bladeUltramar",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Armour of Antoninus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Oath of Macragge",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Student of the Codex",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veteran of Behemoth",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -4000,6 +4441,35 @@
                                 },
                                 {
                                     "name": "The Blade Driven Deep",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ult.dt.bladeUltramar",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Armour of Antoninus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Oath of Macragge",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Student of the Codex",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veteran of Behemoth",
                                     "points": 25
                                 }
                             ]
@@ -4537,6 +5007,35 @@
                                 },
                                 {
                                     "name": "The Blade Driven Deep",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ult.dt.bladeUltramar",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Armour of Antoninus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Oath of Macragge",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Student of the Codex",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veteran of Behemoth",
                                     "points": 25
                                 }
                             ]
@@ -5190,6 +5689,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ult.dt.bladeUltramar",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Armour of Antoninus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Oath of Macragge",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Student of the Codex",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veteran of Behemoth",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -5412,6 +5940,35 @@
                                 },
                                 {
                                     "name": "The Blade Driven Deep",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ult.dt.bladeUltramar",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Armour of Antoninus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Oath of Macragge",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Student of the Codex",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veteran of Behemoth",
                                     "points": 25
                                 }
                             ]
@@ -5654,6 +6211,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ult.dt.bladeUltramar",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Armour of Antoninus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Oath of Macragge",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Student of the Codex",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veteran of Behemoth",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -5876,6 +6462,35 @@
                                 },
                                 {
                                     "name": "The Blade Driven Deep",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ult.dt.bladeUltramar",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Armour of Antoninus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Oath of Macragge",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Student of the Codex",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veteran of Behemoth",
                                     "points": 25
                                 }
                             ]
@@ -6130,6 +6745,35 @@
                                 },
                                 {
                                     "name": "The Blade Driven Deep",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ult.dt.bladeUltramar",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Armour of Antoninus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Oath of Macragge",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Student of the Codex",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veteran of Behemoth",
                                     "points": 25
                                 }
                             ]
@@ -6609,6 +7253,35 @@
                                 },
                                 {
                                     "name": "The Blade Driven Deep",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ult.dt.bladeUltramar",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Armour of Antoninus",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Oath of Macragge",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Student of the Codex",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Veteran of Behemoth",
                                     "points": 25
                                 }
                             ]
