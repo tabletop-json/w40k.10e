@@ -2103,14 +2103,14 @@
             ]
         },
         {
-            "id": "w40k.10e.vtn.unit.hearthkynYaegirs",
+            "id": "w40k.10e.vtn.unit.hernkynYaegirs",
             "type": "unit",
             "rulesetId": "w40k.10e.vtn",
-            "name": "Hearthkyn Yaegirs",
+            "name": "Hernkyn Yaegirs",
             "role": "INFANTRY",
             "points": [
                 {
-                    "name": "Hearthkyn Yaegir, Yaegir Theyn",
+                    "name": "Hernkyn Yaegir, Yaegir Theyn",
                     "amount": 10,
                     "cost": 90
                 }
@@ -2118,7 +2118,7 @@
             "restrictions": [
                 {
                     "type": "model",
-                    "name": "Hearthkyn Yaegir",
+                    "name": "Hernkyn Yaegir",
                     "min": 9,
                     "max": 9
                 },
@@ -2131,7 +2131,7 @@
             ],
             "blueprints": [
                 {
-                    "name": "Hearthkyn Yaegir",
+                    "name": "Hernkyn Yaegir",
                     "gearset": [
                         {
                             "type": "dropdown",

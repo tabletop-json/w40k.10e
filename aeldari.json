@@ -2626,9 +2626,12 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Exarch's Lasblaster"
+                                "name": "Hawk's Talon"
                             },
                             "options": [
+                                {
+                                    "name": "Hawk's Talon"
+                                },
                                 {
                                     "name": "Exarch's Lasblaster"
                                 },

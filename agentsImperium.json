@@ -240,6 +240,117 @@
             ]
         },
         {
+            "id": "w40k.10e.agt.unit.aquilaKillTeam",
+            "type": "unit",
+            "rulesetId": "w40k.10e.agt",
+            "name": "Aquila Kill Team",
+            "role": "BATTLELINE",
+            "points": [
+                {
+                    "name": "Deathwatch Veteran, Kill Team Sergeant, Gravis Veteran",
+                    "amount": 10,
+                    "cost": 200
+                },
+                {
+                    "name": "Deathwatch Veteran, Kill Team Sergeant, Gravis Veteran",
+                    "amount": 5,
+                    "cost": 100
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Deathwatch Veteran",
+                    "min": 3,
+                    "max": 7
+                },
+                {
+                    "type": "model",
+                    "name": "Gravis Veteran",
+                    "min": 1,
+                    "max": 2
+                },
+                {
+                    "type": "model",
+                    "name": "Watch Sergeant",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Deathwatch Veteran",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Stalker Bolt Rifle"
+                            },
+                            "options": [
+                                {
+                                    "name": "Stalker Bolt Rifle, Bolt Pistol"
+                                },
+                                {
+                                    "name": "Heavy Thunder Hammer, Bolt Pistol"
+                                },
+                                {
+                                    "name": "Deathwatch Marksman Bolt Carbine, Special Issue Bolt Pistol"
+                                },
+                                {
+                                    "name": "Deathwatch Thunder Hammer, Bolt Pistol"
+                                },
+                                {
+                                    "name": "Power Weapon, Astartes Shield, Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Incinerator, Bolt Pistol"
+                                },
+                                {
+                                    "name": "Combat Knife, Special Issue Bolt Pistol"
+                                },
+                                {
+                                    "name": "Xenophase Blade, Special Issue Bolt Pistol"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Gravis Veteran",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Infernus Heavy Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Infernus Heavy Bolter"
+                                },
+                                {
+                                    "name": "Frag Cannon"
+                                },
+                                {
+                                    "name": "Hellstorm Bolt Rifle, Astartes Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Watch Sergeant",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Plasma Pistol, Power Weapon"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "w40k.10e.agt.unit.eversor",
             "type": "unit",
             "rulesetId": "w40k.10e.agt",
