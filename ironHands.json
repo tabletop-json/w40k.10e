@@ -9682,6 +9682,28 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": "w40k.10e.ih.unit.caanokVar",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ih",
+            "name": "Caanok Var",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Caanok Var",
+                    "points": 100,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
