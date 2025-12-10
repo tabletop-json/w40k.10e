@@ -54,6 +54,13 @@
             "rulesetId": "w40k.10e.ec",
             "name": "Slaanesh's Chosen",
             "rule": ""
+        },
+        {
+            "id": "w40k.10e.ec.dt.courtPhoenician",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.ec",
+            "name": "Court of the Phoenician",
+            "rule": ""
         }
     ],
     "units": [
@@ -326,6 +333,31 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ec.dt.courtPhoenician",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Exalted Patron",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Soulstain Made Manifest",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Tears of the Phoenix",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -542,6 +574,27 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ec.dt.courtPhoenician",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Soulstain Made Manifest",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Tears of the Phoenix",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -738,6 +791,27 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ec.dt.courtPhoenician",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Soulstain Made Manifest",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Tears of the Phoenix",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -752,7 +826,7 @@
             "models": [
                 {
                     "name": "Daemon Prince",
-                    "points": 195,
+                    "points": 180,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -907,6 +981,31 @@
                                 {
                                     "name": "Slayer of Champions",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ec.dt.courtPhoenician",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Soulstain Made Manifest",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Spiritsilver",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Tears of the Phoenix",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -923,7 +1022,7 @@
             "models": [
                 {
                     "name": "Daemon Prince with Wings",
-                    "points": 200,
+                    "points": 215,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1078,6 +1177,31 @@
                                 {
                                     "name": "Slayer of Champions",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ec.dt.courtPhoenician",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Soulstain Made Manifest",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Spiritsilver",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Tears of the Phoenix",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -1135,7 +1259,7 @@
                 {
                     "name": "Chaos Spawn",
                     "amount": 2,
-                    "cost": 80
+                    "cost": 70
                 }
             ],
             "models": [
@@ -1334,7 +1458,7 @@
                 {
                     "name": "Terminator, Terminator Champion",
                     "amount": 5,
-                    "cost": 170
+                    "cost": 155
                 }
             ],
             "restrictions": [

@@ -149,7 +149,7 @@
             "models": [
                 {
                     "name": "Belisarius Cawl",
-                    "points": 175,
+                    "points": 210,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -518,17 +518,17 @@
                 {
                     "name": "Ironstrider Ballistarii",
                     "amount": 3,
-                    "cost": 225
+                    "cost": 255
                 },
                 {
                     "name": "Ironstrider Ballistarii",
                     "amount": 2,
-                    "cost": 150
+                    "cost": 170
                 },
                 {
                     "name": "Ironstrider Ballistarii",
                     "amount": 1,
-                    "cost": 75
+                    "cost": 85
                 }
             ],
             "restrictions": [
@@ -751,12 +751,12 @@
                 {
                     "name": "Pteraxii Skystalker, Pteraxii Skystalker Alpha",
                     "amount": 10,
-                    "cost": 140
+                    "cost": 150
                 },
                 {
                     "name": "Pteraxii Skystalker, Pteraxii Skystalker Alpha",
                     "amount": 5,
-                    "cost": 70
+                    "cost": 75
                 }
             ],
             "restrictions": [
@@ -1035,12 +1035,12 @@
                 {
                     "name": "Sicarian Infiltrator, Sicarian Infiltrator Princeps",
                     "amount": 10,
-                    "cost": 140
+                    "cost": 155
                 },
                 {
                     "name": "Sicarian Infiltrator, Sicarian Infiltrator Princeps",
                     "amount": 5,
-                    "cost": 70
+                    "cost": 75
                 }
             ],
             "restrictions": [
@@ -1108,12 +1108,12 @@
                 {
                     "name": "Sicarian Ruststalker, Sicarian Ruststalker Princeps",
                     "amount": 10,
-                    "cost": 150
+                    "cost": 165
                 },
                 {
                     "name": "Sicarian Ruststalker, Sicarian Ruststalker Princeps",
                     "amount": 5,
-                    "cost": 75
+                    "cost": 80
                 }
             ],
             "restrictions": [

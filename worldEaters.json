@@ -66,7 +66,7 @@
             "models": [
                 {
                     "name": "Angron",
-                    "points": 360,
+                    "points": 340,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -170,7 +170,7 @@
                                 },
                                 {
                                     "name": "Berzerker Glaive",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Battle Lust",
@@ -178,7 +178,7 @@
                                 },
                                 {
                                     "name": "Helm of Brazen Ire",
-                                    "points": 20
+                                    "points": 30
                                 }
                             ]
                         },
@@ -366,7 +366,7 @@
                                 },
                                 {
                                     "name": "Berzerker Glaive",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Battle Lust",
@@ -374,7 +374,7 @@
                                 },
                                 {
                                     "name": "Helm of Brazen Ire",
-                                    "points": 20
+                                    "points": 30
                                 }
                             ]
                         },
@@ -524,7 +524,7 @@
             "models": [
                 {
                     "name": "Lord on Juggernaut",
-                    "points": 90,
+                    "points": 105,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -568,7 +568,7 @@
                                 },
                                 {
                                     "name": "Berzerker Glaive",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Battle Lust",
@@ -576,7 +576,7 @@
                                 },
                                 {
                                     "name": "Helm of Brazen Ire",
-                                    "points": 20
+                                    "points": 30
                                 }
                             ]
                         },
@@ -756,7 +756,7 @@
                                 },
                                 {
                                     "name": "Berzerker Glaive",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Battle Lust",
@@ -764,7 +764,7 @@
                                 },
                                 {
                                     "name": "Helm of Brazen Ire",
-                                    "points": 20
+                                    "points": 30
                                 }
                             ]
                         },
@@ -906,7 +906,7 @@
             "models": [
                 {
                     "name": "Slaughterbound",
-                    "points": 85,
+                    "points": 100,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -932,7 +932,7 @@
                                 },
                                 {
                                     "name": "Berzerker Glaive",
-                                    "points": 25
+                                    "points": 35
                                 },
                                 {
                                     "name": "Battle Lust",
@@ -940,7 +940,7 @@
                                 },
                                 {
                                     "name": "Helm of Brazen Ire",
-                                    "points": 20
+                                    "points": 30
                                 }
                             ]
                         },
@@ -1307,7 +1307,7 @@
                 {
                     "name": "Goremonger, Blood Herald",
                     "amount": 8,
-                    "cost": 85
+                    "cost": 75
                 }
             ],
             "restrictions": [

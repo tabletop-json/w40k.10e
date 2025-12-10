@@ -80,6 +80,12 @@
             "type": "detachment",
             "rulesetId": "w40k.10e.sw",
             "name": "Saga of the Hunter"
+        },
+        {
+            "id": "w40k.10e.sw.dt.greatWolf",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.sw",
+            "name": "Saga of the Great Wolf"
         }
     ],
     "units": [
@@ -456,6 +462,35 @@
                                 {
                                     "name": "Wolf Master",
                                     "points": 5
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.greatWolf",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chariots of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimnar's Mark",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Howlmaw",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald's Foretelling",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -918,6 +953,35 @@
                                     "points": 5
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.greatWolf",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chariots of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimnar's Mark",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Howlmaw",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald's Foretelling",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1258,6 +1322,35 @@
                                 {
                                     "name": "Wolf Master",
                                     "points": 5
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.greatWolf",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chariots of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimnar's Mark",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Howlmaw",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald's Foretelling",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -1630,6 +1723,35 @@
                                     "points": 5
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.greatWolf",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chariots of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimnar's Mark",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Howlmaw",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald's Foretelling",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1970,6 +2092,35 @@
                                 {
                                     "name": "Wolf Master",
                                     "points": 5
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.greatWolf",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chariots of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimnar's Mark",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Howlmaw",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald's Foretelling",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -2314,6 +2465,35 @@
                                     "points": 5
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.greatWolf",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chariots of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimnar's Mark",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Howlmaw",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald's Foretelling",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2328,7 +2508,7 @@
             "models": [
                 {
                     "name": "Lieutenant",
-                    "points": 65,
+                    "points": 55,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2723,6 +2903,35 @@
                                     "points": 5
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.greatWolf",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chariots of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimnar's Mark",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Howlmaw",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald's Foretelling",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3091,6 +3300,35 @@
                                 },
                                 {
                                     "name": "Prescience",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.greatWolf",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chariots of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimnar's Mark",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Howlmaw",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald's Foretelling",
                                     "points": 25
                                 }
                             ]
@@ -3478,6 +3716,35 @@
                                     "points": 20
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.greatWolf",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chariots of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimnar's Mark",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Howlmaw",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald's Foretelling",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3849,6 +4116,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.greatWolf",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chariots of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimnar's Mark",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Howlmaw",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald's Foretelling",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -4205,6 +4501,35 @@
                                     "points": 5
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.greatWolf",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chariots of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimnar's Mark",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Howlmaw",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald's Foretelling",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -4547,6 +4872,35 @@
                                     "points": 5
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.greatWolf",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chariots of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimnar's Mark",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Howlmaw",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald's Foretelling",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -4887,6 +5241,35 @@
                                 {
                                     "name": "Wolf Master",
                                     "points": 5
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.greatWolf",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chariots of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimnar's Mark",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Howlmaw",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald's Foretelling",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -5266,6 +5649,35 @@
                                     "points": 5
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.greatWolf",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chariots of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimnar's Mark",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Howlmaw",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald's Foretelling",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -5606,6 +6018,35 @@
                                 {
                                     "name": "Wolf Master",
                                     "points": 5
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.greatWolf",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chariots of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimnar's Mark",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Howlmaw",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald's Foretelling",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -6260,6 +6701,35 @@
                                 {
                                     "name": "Wolf Master",
                                     "points": 5
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.greatWolf",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chariots of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimnar's Mark",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Howlmaw",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald's Foretelling",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -7029,6 +7499,35 @@
                                     "points": 5
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.greatWolf",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chariots of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimnar's Mark",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Howlmaw",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald's Foretelling",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -7369,6 +7868,35 @@
                                 {
                                     "name": "Wolf Master",
                                     "points": 5
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.greatWolf",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chariots of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimnar's Mark",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Howlmaw",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald's Foretelling",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -7727,6 +8255,35 @@
                                     "points": 5
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.greatWolf",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chariots of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimnar's Mark",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Howlmaw",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald's Foretelling",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -8067,6 +8624,35 @@
                                 {
                                     "name": "Wolf Master",
                                     "points": 5
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.greatWolf",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chariots of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimnar's Mark",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Howlmaw",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald's Foretelling",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -8440,6 +9026,35 @@
                                     "points": 5
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.greatWolf",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chariots of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimnar's Mark",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Howlmaw",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald's Foretelling",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -8515,12 +9130,12 @@
                 {
                     "name": "Vanguard Veteran with Jump Pack, Vanguard Veteran Sergeant with Jump Pack",
                     "amount": 10,
-                    "cost": 190
+                    "cost": 200
                 },
                 {
                     "name": "Vanguard Veteran with Jump Pack, Vanguard Veteran Sergeant with Jump Pack",
                     "amount": 5,
-                    "cost": 95
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -9036,6 +9651,35 @@
                                     "points": 5
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.greatWolf",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chariots of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimnar's Mark",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Howlmaw",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald's Foretelling",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -9190,12 +9834,12 @@
                 {
                     "name": "Aggressor, Aggressor Sergeant",
                     "amount": 6,
-                    "cost": 200
+                    "cost": 190
                 },
                 {
                     "name": "Aggressor, Aggressor Sergeant",
                     "amount": 3,
-                    "cost": 100
+                    "cost": 95
                 }
             ],
             "restrictions": [
@@ -9536,12 +10180,12 @@
                 {
                     "name": "Devastator Centurion, Devastator Centurion Sergeant",
                     "amount": 6,
-                    "cost": 330
+                    "cost": 350
                 },
                 {
                     "name": "Devastator Centurion, Devastator Centurion Sergeant",
                     "amount": 3,
-                    "cost": 165
+                    "cost": 175
                 }
             ],
             "restrictions": [
@@ -10050,7 +10694,7 @@
             "models": [
                 {
                     "name": "Stormspeeder Thunderstrike",
-                    "points": 150
+                    "points": 135
                 }
             ]
         },
@@ -10205,12 +10849,12 @@
                 {
                     "name": "Eradicator, Eradicator Sergeant",
                     "amount": 6,
-                    "cost": 200
+                    "cost": 180
                 },
                 {
                     "name": "Eradicator, Eradicator Sergeant",
                     "amount": 3,
-                    "cost": 100
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -11465,7 +12109,7 @@
             "models": [
                 {
                     "name": "Bjorn the Fell-Handed",
-                    "points": 170,
+                    "points": 160,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -11938,6 +12582,35 @@
                                     "points": 5
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.greatWolf",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chariots of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimnar's Mark",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Howlmaw",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald's Foretelling",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -12052,7 +12725,7 @@
                 {
                     "name": "Grey Hunter, Grey Hunter Pack Leader",
                     "amount": 10,
-                    "cost": 180
+                    "cost": 165
                 }
             ],
             "restrictions": [
@@ -12421,7 +13094,7 @@
             "models": [
                 {
                     "name": "Murderfang",
-                    "points": 160
+                    "points": 150
                 }
             ]
         },
@@ -12551,7 +13224,7 @@
             "models": [
                 {
                     "name": "Iron Priest",
-                    "points": 60,
+                    "points": 55,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -12877,6 +13550,35 @@
                                 {
                                     "name": "Wolf Master",
                                     "points": 5
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.greatWolf",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chariots of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimnar's Mark",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Howlmaw",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald's Foretelling",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -13221,6 +13923,35 @@
                                     "points": 5
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sw.dt.greatWolf",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Chariots of the Storm",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Grimnar's Mark",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Howlmaw",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Skjald's Foretelling",
+                                    "points": 25
+                                }
+                            ]
                         }
                     ]
                 }
@@ -13235,7 +13966,7 @@
             "models": [
                 {
                     "name": "Venerable Dreadnought",
-                    "points": 140,
+                    "points": 130,
                     "gearset": [
                         {
                             "type": "dropdown",

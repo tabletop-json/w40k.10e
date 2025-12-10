@@ -2785,12 +2785,12 @@
                 {
                     "name": "Carnifex",
                     "amount": 2,
-                    "cost": 230
+                    "cost": 180
                 },
                 {
                     "name": "Carnifex",
                     "amount": 1,
-                    "cost": 115
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -2878,7 +2878,7 @@
             "models": [
                 {
                     "name": "Screamer-Killer",
-                    "points": 135
+                    "points": 125
                 }
             ]
         },

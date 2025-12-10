@@ -41,7 +41,7 @@
             "models": [
                 {
                     "name": "Archon",
-                    "points": 85,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -316,12 +316,12 @@
                 {
                     "name": "Cronos",
                     "amount": 2,
-                    "cost": 85
+                    "cost": 110
                 },
                 {
                     "name": "Cronos",
                     "amount": 1,
-                    "cost": 50
+                    "cost": 55
                 }
             ],
             "restrictions": [
@@ -419,7 +419,7 @@
             "models": [
                 {
                     "name": "Haemonculus",
-                    "points": 60,
+                    "points": 70,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -525,12 +525,12 @@
                 {
                     "name": "Hellion, Helliarch",
                     "amount": 10,
-                    "cost": 150
+                    "cost": 170
                 },
                 {
                     "name": "Hellion, Helliarch",
                     "amount": 5,
-                    "cost": 75
+                    "cost": 85
                 }
             ],
             "restrictions": [
@@ -597,12 +597,12 @@
                 {
                     "name": "Incubi, Klaivex",
                     "amount": 10,
-                    "cost": 170
+                    "cost": 180
                 },
                 {
                     "name": "Incubi, Klaivex",
                     "amount": 5,
-                    "cost": 85
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -662,7 +662,7 @@
                 {
                     "name": "Kabalite Warrior, Sybarite",
                     "amount": 10,
-                    "cost": 100
+                    "cost": 115
                 }
             ],
             "restrictions": [
@@ -768,7 +768,7 @@
             "models": [
                 {
                     "name": "Lelith Hesperax",
-                    "points": 95,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -791,12 +791,12 @@
                 {
                     "name": "Mandrake, Nightfiend",
                     "amount": 10,
-                    "cost": 120
+                    "cost": 150
                 },
                 {
                     "name": "Mandrake, Nightfiend",
                     "amount": 5,
-                    "cost": 65
+                    "cost": 75
                 }
             ],
             "restrictions": [
@@ -831,7 +831,7 @@
             "models": [
                 {
                     "name": "Raider",
-                    "points": 75,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -860,7 +860,7 @@
             "models": [
                 {
                     "name": "Ravager",
-                    "points": 100,
+                    "points": 110,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -967,12 +967,12 @@
                 {
                     "name": "Reaver, Arena Champion",
                     "amount": 6,
-                    "cost": 120
+                    "cost": 140
                 },
                 {
                     "name": "Reaver, Arena Champion",
                     "amount": 3,
-                    "cost": 65
+                    "cost": 70
                 }
             ],
             "restrictions": [
@@ -1184,7 +1184,7 @@
             "models": [
                 {
                     "name": "Succubus",
-                    "points": 45,
+                    "points": 50,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1416,7 +1416,7 @@
             "models": [
                 {
                     "name": "Venom",
-                    "points": 65,
+                    "points": 70,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1445,7 +1445,7 @@
             "models": [
                 {
                     "name": "Voidraven Bomber",
-                    "points": 235,
+                    "points": 245,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1482,12 +1482,12 @@
                 {
                     "name": "Wrack, Acothyst",
                     "amount": 10,
-                    "cost": 110
+                    "cost": 130
                 },
                 {
                     "name": "Wrack, Acothyst",
                     "amount": 5,
-                    "cost": 55
+                    "cost": 65
                 }
             ],
             "restrictions": [
@@ -1573,7 +1573,7 @@
                 {
                     "name": "Wych, Hekatrix",
                     "amount": 10,
-                    "cost": 80
+                    "cost": 90
                 }
             ],
             "restrictions": [

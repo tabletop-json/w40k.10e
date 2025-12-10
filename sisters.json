@@ -55,7 +55,7 @@
             "models": [
                 {
                     "name": "Morvenn Vahl",
-                    "points": 170,
+                    "points": 185,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -77,7 +77,7 @@
             "models": [
                 {
                     "name": "Canoness",
-                    "points": 50,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1545,7 +1545,7 @@
                 {
                     "name": "Celestian Sacresant, Sacresant Superior",
                     "amount": 10,
-                    "cost": 130
+                    "cost": 140
                 },
                 {
                     "name": "Celestian Sacresant, Sacresant Superior",
@@ -1646,7 +1646,7 @@
             "models": [
                 {
                     "name": "Hospitaler",
-                    "points": 50,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2152,7 +2152,7 @@
                 {
                     "name": "Dominion, Dominion Superior",
                     "amount": 10,
-                    "cost": 115
+                    "cost": 120
                 }
             ],
             "restrictions": [
@@ -2433,7 +2433,7 @@
                 {
                     "name": "Retributor, Retributor Superior",
                     "amount": 5,
-                    "cost": 105
+                    "cost": 120
                 }
             ],
             "restrictions": [
@@ -2821,6 +2821,222 @@
             "blueprints": [
                 {
                     "name": "Arco-Flagellant"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.sis.unit.sanctifiers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sis",
+            "name": "Sanctifiers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Miraculist, Salvationist, Death Cult Assassin, Missionary, Sanctifier",
+                    "amount": 9,
+                    "cost": 110
+                }
+            ],
+            "models": [
+                {
+                    "name": "Miraculist",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Holy Fire"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Burning Hands"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Salvationist",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Salvationist Medkit"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Death Cult Assassin",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Death Cult Blades"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Missionary",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Sanctifier Melee Weapon"
+                            }
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Plasma Gun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Plasma Gun"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Holy Fire"
+                            },
+                            "selected": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Missionary",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Sanctifier Melee Weapon"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Ministorum Flamer"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Sanctifier",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Ministorum Hand Flamer"
+                            }
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Sanctifier Melee Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Sanctifier Melee Weapon"
+                                },
+                                {
+                                    "name": "Ministorum Hand Flamer"
+                                },
+                                {
+                                    "name": "Simulacrum Imperialis"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Sanctifier",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Ministorum Hand Flamer"
+                            }
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Sanctifier Melee Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Sanctifier Melee Weapon"
+                                },
+                                {
+                                    "name": "Ministorum Hand Flamer"
+                                },
+                                {
+                                    "name": "Simulacrum Imperialis"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Sanctifier",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Ministorum Hand Flamer"
+                            }
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Sanctifier Melee Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Sanctifier Melee Weapon"
+                                },
+                                {
+                                    "name": "Ministorum Hand Flamer"
+                                },
+                                {
+                                    "name": "Simulacrum Imperialis"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Sanctifier",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Ministorum Hand Flamer"
+                            }
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Sanctifier Melee Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Sanctifier Melee Weapon"
+                                },
+                                {
+                                    "name": "Ministorum Hand Flamer"
+                                },
+                                {
+                                    "name": "Simulacrum Imperialis"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         }

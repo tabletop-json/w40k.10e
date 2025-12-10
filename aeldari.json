@@ -62,6 +62,12 @@
             "type": "detachment",
             "rulesetId": "w40k.10e.aeld",
             "name": "Windrider Host"
+        },
+        {
+            "id": "w40k.10e.aeld.dt.serpentsBrood",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.aeld",
+            "name": "Serpent's Brood"
         }
     ],
     "units": [
@@ -988,6 +994,27 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.serpentsBrood",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Key of Ghosts",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Fanged Leer",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1071,7 +1098,7 @@
             "models": [
                 {
                     "name": "Eldrad Ulthran",
-                    "points": 110,
+                    "points": 120,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1516,7 +1543,7 @@
                 {
                     "name": "Fire Dragon, Fire Dragon Exarch",
                     "amount": 10,
-                    "cost": 220
+                    "cost": 240
                 },
                 {
                     "name": "Fire Dragon, Fire Dragon Exarch",
@@ -1766,7 +1793,7 @@
             "models": [
                 {
                     "name": "Jain Zar",
-                    "points": 105,
+                    "points": 120,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1788,7 +1815,7 @@
             "models": [
                 {
                     "name": "Lhykhis",
-                    "points": 120,
+                    "points": 135,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2037,6 +2064,27 @@
                                 {
                                     "name": "Timeless Strategist",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.serpentsBrood",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Key of Ghosts",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Shedskin Raiment",
+                                    "points": 25
                                 }
                             ]
                         }
@@ -2423,7 +2471,7 @@
                 {
                     "name": "Storm Guardian, Serpent's Scale Platform",
                     "amount": 11,
-                    "cost": 100
+                    "cost": 110
                 }
             ],
             "restrictions": [
@@ -2599,7 +2647,7 @@
                 {
                     "name": "Swooping Hawk, Swooping Hawk Exarch",
                     "amount": 5,
-                    "cost": 85
+                    "cost": 95
                 }
             ],
             "restrictions": [
@@ -2955,6 +3003,27 @@
                                 {
                                     "name": "Timeless Strategist",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.aeld.dt.serpentsBrood",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Key of Ghosts",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Weavers Wail",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -3533,7 +3602,7 @@
                 {
                     "name": "Warp Spider, Warp Spider Exarch",
                     "amount": 5,
-                    "cost": 95
+                    "cost": 105
                 }
             ],
             "restrictions": [
