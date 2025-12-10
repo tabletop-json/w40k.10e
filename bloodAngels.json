@@ -84,6 +84,13 @@
             "rulesetId": "w40k.10e.ba",
             "name": "Angelic Inheritors",
             "rule": ""
+        },
+        {
+            "id": "w40k.10e.ba.dt.rageCursedOnslaught",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.ba",
+            "name": "Rage-Cursed Onslaught",
+            "rule": ""
         }
     ],
     "units": [
@@ -459,6 +466,31 @@
                                 {
                                     "name": "Ordained Sacrifice",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.rageCursedOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Angel's Fang",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master of the Red Thirst",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinary Tear",
+                                    "points": 35
                                 }
                             ]
                         }
@@ -849,6 +881,31 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.rageCursedOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Angel's Fang",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master of the Red Thirst",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinary Tear",
+                                    "points": 35
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1210,6 +1267,31 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.rageCursedOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Angel's Fang",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master of the Red Thirst",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinary Tear",
+                                    "points": 35
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1549,6 +1631,31 @@
                                 {
                                     "name": "Ordained Sacrifice",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.rageCursedOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Angel's Fang",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master of the Red Thirst",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinary Tear",
+                                    "points": 35
                                 }
                             ]
                         }
@@ -1920,6 +2027,31 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.rageCursedOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Angel's Fang",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master of the Red Thirst",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinary Tear",
+                                    "points": 35
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2259,6 +2391,31 @@
                                 {
                                     "name": "Ordained Sacrifice",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.rageCursedOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Angel's Fang",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master of the Red Thirst",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinary Tear",
+                                    "points": 35
                                 }
                             ]
                         }
@@ -2602,6 +2759,31 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.rageCursedOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Angel's Fang",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master of the Red Thirst",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinary Tear",
+                                    "points": 35
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2616,7 +2798,7 @@
             "models": [
                 {
                     "name": "Lieutenant",
-                    "points": 65,
+                    "points": 55,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -3010,6 +3192,31 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.rageCursedOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Angel's Fang",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master of the Red Thirst",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinary Tear",
+                                    "points": 35
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3378,6 +3585,31 @@
                                 {
                                     "name": "Prescience",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.rageCursedOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Angel's Fang",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master of the Red Thirst",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinary Tear",
+                                    "points": 35
                                 }
                             ]
                         }
@@ -3763,6 +3995,31 @@
                                     "points": 20
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.rageCursedOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Angel's Fang",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master of the Red Thirst",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinary Tear",
+                                    "points": 35
+                                }
+                            ]
                         }
                     ]
                 }
@@ -4133,6 +4390,31 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.rageCursedOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Angel's Fang",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master of the Red Thirst",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinary Tear",
+                                    "points": 35
+                                }
+                            ]
                         }
                     ]
                 }
@@ -4488,6 +4770,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.rageCursedOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Angel's Fang",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master of the Red Thirst",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinary Tear",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Carmine Reliquary",
+                                    "points": 30
+                                }
+                            ]
                         }
                     ]
                 }
@@ -4823,6 +5134,35 @@
                                 {
                                     "name": "Ordained Sacrifice",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.rageCursedOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Angel's Fang",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master of the Red Thirst",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinary Tear",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Carmine Reliquary",
+                                    "points": 30
                                 }
                             ]
                         }
@@ -5164,6 +5504,35 @@
                                 {
                                     "name": "Ordained Sacrifice",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.rageCursedOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Angel's Fang",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master of the Red Thirst",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinary Tear",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Carmine Reliquary",
+                                    "points": 30
                                 }
                             ]
                         }
@@ -5542,6 +5911,35 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.rageCursedOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Angel's Fang",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master of the Red Thirst",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinary Tear",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Carmine Reliquary",
+                                    "points": 30
+                                }
+                            ]
                         }
                     ]
                 }
@@ -5881,6 +6279,31 @@
                                 {
                                     "name": "Ordained Sacrifice",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.rageCursedOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Angel's Fang",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master of the Red Thirst",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinary Tear",
+                                    "points": 35
                                 }
                             ]
                         }
@@ -6534,6 +6957,31 @@
                                 {
                                     "name": "Ordained Sacrifice",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.rageCursedOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Angel's Fang",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master of the Red Thirst",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinary Tear",
+                                    "points": 35
                                 }
                             ]
                         }
@@ -7302,6 +7750,31 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.rageCursedOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Angel's Fang",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master of the Red Thirst",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinary Tear",
+                                    "points": 35
+                                }
+                            ]
                         }
                     ]
                 }
@@ -7641,6 +8114,31 @@
                                 {
                                     "name": "Ordained Sacrifice",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.rageCursedOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Angel's Fang",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master of the Red Thirst",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinary Tear",
+                                    "points": 35
                                 }
                             ]
                         }
@@ -7998,6 +8496,31 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.rageCursedOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Angel's Fang",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master of the Red Thirst",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinary Tear",
+                                    "points": 35
+                                }
+                            ]
                         }
                     ]
                 }
@@ -8337,6 +8860,31 @@
                                 {
                                     "name": "Ordained Sacrifice",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.rageCursedOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Angel's Fang",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master of the Red Thirst",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinary Tear",
+                                    "points": 35
                                 }
                             ]
                         }
@@ -8709,6 +9257,31 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.rageCursedOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Angel's Fang",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master of the Red Thirst",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinary Tear",
+                                    "points": 35
+                                }
+                            ]
                         }
                     ]
                 }
@@ -8784,12 +9357,12 @@
                 {
                     "name": "Vanguard Veteran with Jump Pack, Vanguard Veteran Sergeant with Jump Pack",
                     "amount": 10,
-                    "cost": 190
+                    "cost": 200
                 },
                 {
                     "name": "Vanguard Veteran with Jump Pack, Vanguard Veteran Sergeant with Jump Pack",
                     "amount": 5,
-                    "cost": 95
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -9304,6 +9877,31 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.rageCursedOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Angel's Fang",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master of the Red Thirst",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinary Tear",
+                                    "points": 35
+                                }
+                            ]
                         }
                     ]
                 }
@@ -9458,12 +10056,12 @@
                 {
                     "name": "Aggressor, Aggressor Sergeant",
                     "amount": 6,
-                    "cost": 200
+                    "cost": 190
                 },
                 {
                     "name": "Aggressor, Aggressor Sergeant",
                     "amount": 3,
-                    "cost": 100
+                    "cost": 95
                 }
             ],
             "restrictions": [
@@ -9804,12 +10402,12 @@
                 {
                     "name": "Devastator Centurion, Devastator Centurion Sergeant",
                     "amount": 6,
-                    "cost": 330
+                    "cost": 350
                 },
                 {
                     "name": "Devastator Centurion, Devastator Centurion Sergeant",
                     "amount": 3,
-                    "cost": 165
+                    "cost": 175
                 }
             ],
             "restrictions": [
@@ -10318,7 +10916,7 @@
             "models": [
                 {
                     "name": "Stormspeeder Thunderstrike",
-                    "points": 150
+                    "points": 135
                 }
             ]
         },
@@ -10473,12 +11071,12 @@
                 {
                     "name": "Eradicator, Eradicator Sergeant",
                     "amount": 6,
-                    "cost": 200
+                    "cost": 180
                 },
                 {
                     "name": "Eradicator, Eradicator Sergeant",
                     "amount": 3,
-                    "cost": 100
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -12616,6 +13214,31 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.rageCursedOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Angel's Fang",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master of the Red Thirst",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinary Tear",
+                                    "points": 35
+                                }
+                            ]
                         }
                     ]
                 }
@@ -13010,6 +13633,31 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.rageCursedOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Angel's Fang",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master of the Red Thirst",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinary Tear",
+                                    "points": 35
+                                }
+                            ]
                         }
                     ]
                 }
@@ -13380,6 +14028,31 @@
                                 {
                                     "name": "Ordained Sacrifice",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.rageCursedOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Angel's Fang",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master of the Red Thirst",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinary Tear",
+                                    "points": 35
                                 }
                             ]
                         }
@@ -13755,6 +14428,31 @@
                                 {
                                     "name": "Ordained Sacrifice",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.ba.dt.rageCursedOnslaught",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Angel's Fang",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Master of the Red Thirst",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sanguinary Tear",
+                                    "points": 35
                                 }
                             ]
                         }

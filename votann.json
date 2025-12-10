@@ -84,7 +84,7 @@
             "models": [
                 {
                     "name": "Buri Aegnirssen",
-                    "points": 110,
+                    "points": 95,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -106,7 +106,7 @@
             "models": [
                 {
                     "name": "Kahl",
-                    "points": 70,
+                    "points": 65,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -182,7 +182,7 @@
                                 },
                                 {
                                     "name": "Trivarg Cyber Implant",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -344,7 +344,7 @@
             "models": [
                 {
                     "name": "Arkanyst Evalutor",
-                    "points": 75,
+                    "points": 65,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -378,7 +378,7 @@
                                 },
                                 {
                                     "name": "Trivarg Cyber Implant",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -574,7 +574,7 @@
                                 },
                                 {
                                     "name": "Trivarg Cyber Implant",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -798,7 +798,7 @@
                                 },
                                 {
                                     "name": "Trivarg Cyber Implant",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -994,7 +994,7 @@
                                 },
                                 {
                                     "name": "Trivarg Cyber Implant",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -1190,7 +1190,7 @@
                                 },
                                 {
                                     "name": "Trivarg Cyber Implant",
-                                    "points": 30
+                                    "points": 40
                                 }
                             ]
                         },
@@ -1751,7 +1751,7 @@
             "models": [
                 {
                     "name": "Sagitaur",
-                    "points": 95,
+                    "points": 90,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1936,12 +1936,12 @@
                 {
                     "name": "Ironkin Steeljack",
                     "amount": 6,
-                    "cost": 180
+                    "cost": 170
                 },
                 {
                     "name": "Ironkin Steeljack",
                     "amount": 3,
-                    "cost": 90
+                    "cost": 85
                 }
             ],
             "restrictions": [
@@ -1984,12 +1984,12 @@
                 {
                     "name": "Ironkin Steeljack",
                     "amount": 6,
-                    "cost": 180
+                    "cost": 170
                 },
                 {
                     "name": "Ironkin Steeljack",
                     "amount": 3,
-                    "cost": 90
+                    "cost": 85
                 }
             ],
             "restrictions": [

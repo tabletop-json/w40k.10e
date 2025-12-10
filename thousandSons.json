@@ -184,7 +184,7 @@
             "models": [
                 {
                     "name": "Predator Destructor",
-                    "points": 140,
+                    "points": 130,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -884,7 +884,7 @@
             "models": [
                 {
                     "name": "Forgefiend",
-                    "points": 140,
+                    "points": 130,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -1241,7 +1241,7 @@
             "models": [
                 {
                     "name": "Maulerfiend",
-                    "points": 130,
+                    "points": 120,
                     "gearset": [
                         {
                             "type": "text",
@@ -1276,7 +1276,7 @@
             "models": [
                 {
                     "name": "Mutalith Vortex Beast",
-                    "points": 175
+                    "points": 170
                 }
             ]
         },
@@ -1295,7 +1295,7 @@
                 {
                     "name": "Rubric Marine, Aspiring Sorcerer",
                     "amount": 5,
-                    "cost": 105
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -1458,7 +1458,7 @@
             "models": [
                 {
                     "name": "Sorcerer",
-                    "points": 85,
+                    "points": 80,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2345,7 +2345,7 @@
                 {
                     "name": "Tzaangor Enlightened, Aviarch",
                     "amount": 3,
-                    "cost": 55
+                    "cost": 45
                 }
             ],
             "restrictions": [
@@ -2418,7 +2418,7 @@
                 {
                     "name": "Tzaangor Enlightened, Aviarch",
                     "amount": 3,
-                    "cost": 60
+                    "cost": 55
                 }
             ],
             "restrictions": [

@@ -2588,7 +2588,7 @@
             "models": [
                 {
                     "name": "Lieutenant",
-                    "points": 65,
+                    "points": 55,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -7601,7 +7601,7 @@
             "models": [
                 {
                     "name": "Crusade Ancient",
-                    "points": 65,
+                    "points": 55,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -8702,12 +8702,12 @@
                 {
                     "name": "Vanguard Veteran with Jump Pack, Vanguard Veteran Sergeant with Jump Pack",
                     "amount": 10,
-                    "cost": 190
+                    "cost": 200
                 },
                 {
                     "name": "Vanguard Veteran with Jump Pack, Vanguard Veteran Sergeant with Jump Pack",
                     "amount": 5,
-                    "cost": 95
+                    "cost": 100
                 }
             ],
             "restrictions": [
@@ -9372,12 +9372,12 @@
                 {
                     "name": "Aggressor, Aggressor Sergeant",
                     "amount": 6,
-                    "cost": 200
+                    "cost": 190
                 },
                 {
                     "name": "Aggressor, Aggressor Sergeant",
                     "amount": 3,
-                    "cost": 100
+                    "cost": 95
                 }
             ],
             "restrictions": [
@@ -9718,12 +9718,12 @@
                 {
                     "name": "Devastator Centurion, Devastator Centurion Sergeant",
                     "amount": 6,
-                    "cost": 330
+                    "cost": 350
                 },
                 {
                     "name": "Devastator Centurion, Devastator Centurion Sergeant",
                     "amount": 3,
-                    "cost": 165
+                    "cost": 175
                 }
             ],
             "restrictions": [
@@ -10232,7 +10232,7 @@
             "models": [
                 {
                     "name": "Stormspeeder Thunderstrike",
-                    "points": 150
+                    "points": 135
                 }
             ]
         },
@@ -10387,12 +10387,12 @@
                 {
                     "name": "Eradicator, Eradicator Sergeant",
                     "amount": 6,
-                    "cost": 200
+                    "cost": 180
                 },
                 {
                     "name": "Eradicator, Eradicator Sergeant",
                     "amount": 3,
-                    "cost": 100
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -11838,7 +11838,7 @@
             "models": [
                 {
                     "name": "The Emperor's Champion",
-                    "points": 90,
+                    "points": 100,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -12175,7 +12175,7 @@
             "models": [
                 {
                     "name": "Execrator",
-                    "points": 70,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -12529,7 +12529,7 @@
             "models": [
                 {
                     "name": "Castellan",
-                    "points": 60,
+                    "points": 70,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -13495,7 +13495,7 @@
             "models": [
                 {
                     "name": "Repulsor Executioner",
-                    "points": 220,
+                    "points": 235,
                     "gearset": [
                         {
                             "type": "dropdown",

@@ -83,6 +83,13 @@
             "rulesetId": "w40k.10e.csm",
             "name": "Cabal of Chaos",
             "rule": ""
+        },
+        {
+            "id": "w40k.10e.csm.dt.nightmareHunt",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Nightmare Hunt",
+            "rule": ""
         }
     ],
     "units": [
@@ -459,6 +466,23 @@
                                     "points": 20
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.nightmareHunt",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Terrorglut Parasite",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -800,6 +824,23 @@
                                     "points": 20
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.nightmareHunt",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Terrorglut Parasite",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -843,7 +884,7 @@
             "models": [
                 {
                     "name": "Fabius Bile",
-                    "points": 85,
+                    "points": 100,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1190,6 +1231,23 @@
                                 },
                                 {
                                     "name": "Infernal Avatar",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.nightmareHunt",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Terrorglut Parasite",
                                     "points": 20
                                 }
                             ]
@@ -1565,6 +1623,27 @@
                                     "points": 20
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.nightmareHunt",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Greyveil Hex",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Terrorglut Parasite",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1929,6 +2008,35 @@
                                     "points": 20
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.nightmareHunt",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Greyveil Hex",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Sorrowscent Vulture",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Terrorglut Parasite",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Warp-fuelled Thrusters",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1972,7 +2080,7 @@
             "models": [
                 {
                     "name": "Chaos Lord in Terminator Armour",
-                    "points": 95,
+                    "points": 85,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -2296,6 +2404,27 @@
                                 },
                                 {
                                     "name": "Infernal Avatar",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.nightmareHunt",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Greyveil Hex",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Terrorglut Parasite",
                                     "points": 20
                                 }
                             ]
@@ -2645,6 +2774,23 @@
                                 },
                                 {
                                     "name": "Infernal Avatar",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.nightmareHunt",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Terrorglut Parasite",
                                     "points": 20
                                 }
                             ]
@@ -3018,6 +3164,23 @@
                                     "points": 20
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.nightmareHunt",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Terrorglut Parasite",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3384,6 +3547,23 @@
                                 },
                                 {
                                     "name": "Infernal Avatar",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.nightmareHunt",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Terrorglut Parasite",
                                     "points": 20
                                 }
                             ]
@@ -3756,6 +3936,23 @@
                                     "points": 20
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.nightmareHunt",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Terrorglut Parasite",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -4099,6 +4296,23 @@
                                     "points": 20
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.nightmareHunt",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Terrorglut Parasite",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -4414,6 +4628,23 @@
                                 },
                                 {
                                     "name": "Infernal Avatar",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.nightmareHunt",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Terrorglut Parasite",
                                     "points": 20
                                 }
                             ]
@@ -4738,6 +4969,23 @@
                                 },
                                 {
                                     "name": "Infernal Avatar",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.nightmareHunt",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Terrorglut Parasite",
                                     "points": 20
                                 }
                             ]
@@ -5938,6 +6186,23 @@
                                 },
                                 {
                                     "name": "Infernal Avatar",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.nightmareHunt",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Terrorglut Parasite",
                                     "points": 20
                                 }
                             ]
@@ -7372,7 +7637,7 @@
             "models": [
                 {
                     "name": "Forgefiend",
-                    "points": 180,
+                    "points": 170,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -8416,6 +8681,23 @@
                                 },
                                 {
                                     "name": "Infernal Avatar",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.nightmareHunt",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Terrorglut Parasite",
                                     "points": 20
                                 }
                             ]

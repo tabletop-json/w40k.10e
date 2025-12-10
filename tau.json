@@ -2135,7 +2135,7 @@
                 {
                     "name": "Fire Warrior, Fire Warrior Shas'ui",
                     "amount": 10,
-                    "cost": 75
+                    "cost": 70
                 }
             ],
             "restrictions": [
@@ -2238,7 +2238,7 @@
                 {
                     "name": "Breacher Fire Warrior, Breacher Fire Warrior Shas'ui",
                     "amount": 10,
-                    "cost": 100
+                    "cost": 90
                 }
             ],
             "restrictions": [
@@ -3800,7 +3800,7 @@
             "models": [
                 {
                     "name": "Riptide Battlesuit",
-                    "points": 190,
+                    "points": 200,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -3926,7 +3926,7 @@
             "models": [
                 {
                     "name": "Sky Ray Gunship",
-                    "points": 140,
+                    "points": 150,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -4111,7 +4111,7 @@
             "models": [
                 {
                     "name": "Stormsurge",
-                    "points": 400,
+                    "points": 360,
                     "gearset": [
                         {
                             "type": "dropdown",
