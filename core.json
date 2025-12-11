@@ -1,7 +1,7 @@
 {
     "id": "w40k.10e",
-    "version": "0.16.0",
-    "updateNotes": "10/12/2025: Dataslate",
+    "version": "0.16.1",
+    "updateNotes": "11/12/2025: Tsons bug",
     "name": "Warhammer 40,000: 10th Edition",
     "enabled": true,
     "path": "https://raw.githubusercontent.com/tabletop-json/w40k.10e/develop/",
@@ -464,6 +464,14 @@
             "name": "Nurgle Daemons",
             "enabled": false,
             "endpoint": "nurgleDaemons.json"
+        },
+        {
+            "id": "w40k.10e.tzee.config",
+            "type": "config",
+            "rulesetId": "w40k.10e.tzee",
+            "name": "Tzeentch Daemons",
+            "enabled": false,
+            "endpoint": "tzeentchDaemons.json"
         }
     ]
 }
