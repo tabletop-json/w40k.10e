@@ -44,9 +44,49 @@
             "type": "detachment",
             "rulesetId": "w40k.10e.nec",
             "name": "Starshatter Arsenal"
+        },
+        {
+            "id": "w40k.10e.nec.dt.crypticConclave",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Cryptek Conclave"
+        },
+        {
+            "id": "w40k.10e.nec.dt.cursedLegion",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Cursed Legion"
+        },
+        {
+            "id": "w40k.10e.nec.dt.pantheonWoe",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Panntheon of Woe"
         }
     ],
     "units": [
+        {
+            "id": "w40k.10e.nec.unit.nekrosorAmmentar",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Nekrosor Ammentar",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Nekrosor Ammentar",
+                    "points": 165,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
         {
             "id": "w40k.10e.nec.unit.imotekhStormlord",
             "type": "unit",
@@ -322,6 +362,64 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.cryptekConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Atomic Disintegrators",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Gauntlet of Compression",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Gravitic Bolas",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Quantum Abacus",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.cursedLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Cursed Circlet",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Destroyer Ankh",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mark of the Nekrosor",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Murdermind",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -512,6 +610,64 @@
                                 {
                                     "name": "Chrono-Impedance Fields",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.cryptekConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Atomic Disintegrators",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Gauntlet of Compression",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Gravitic Bolas",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Quantum Abacus",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.cursedLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Cursed Circlet",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Destroyer Ankh",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mark of the Nekrosor",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Murdermind",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -735,6 +891,64 @@
                                 {
                                     "name": "Chrono-Impedance Fields",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.cryptekConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Atomic Disintegrators",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Gauntlet of Compression",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Gravitic Bolas",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Quantum Abacus",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.cursedLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Cursed Circlet",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Destroyer Ankh",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mark of the Nekrosor",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Murdermind",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -968,6 +1182,64 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.cryptekConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Atomic Disintegrators",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Gauntlet of Compression",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Gravitic Bolas",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Quantum Abacus",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.cursedLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Cursed Circlet",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Destroyer Ankh",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mark of the Nekrosor",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Murdermind",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1181,6 +1453,64 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.cryptekConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Atomic Disintegrators",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Gauntlet of Compression",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Gravitic Bolas",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Quantum Abacus",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.cursedLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Cursed Circlet",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Destroyer Ankh",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mark of the Nekrosor",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Murdermind",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1377,6 +1707,64 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.cryptekConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Atomic Disintegrators",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Gauntlet of Compression",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Gravitic Bolas",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Quantum Abacus",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.cursedLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Cursed Circlet",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Destroyer Ankh",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mark of the Nekrosor",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Murdermind",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1567,6 +1955,64 @@
                                 {
                                     "name": "Chrono-Impedance Fields",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.cryptekConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Atomic Disintegrators",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Gauntlet of Compression",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Gravitic Bolas",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Quantum Abacus",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.cursedLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Cursed Circlet",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Destroyer Ankh",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mark of the Nekrosor",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Murdermind",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -1761,6 +2207,64 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.cryptekConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Atomic Disintegrators",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Gauntlet of Compression",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Gravitic Bolas",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Quantum Abacus",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.cursedLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Cursed Circlet",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Destroyer Ankh",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mark of the Nekrosor",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Murdermind",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1953,6 +2457,64 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.cryptekConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Atomic Disintegrators",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Gauntlet of Compression",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Gravitic Bolas",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Quantum Abacus",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.cursedLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Cursed Circlet",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Destroyer Ankh",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mark of the Nekrosor",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Murdermind",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2143,6 +2705,314 @@
                                 {
                                     "name": "Chrono-Impedance Fields",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.cryptekConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Atomic Disintegrators",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Gauntlet of Compression",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Gravitic Bolas",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Quantum Abacus",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.cursedLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Cursed Circlet",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Destroyer Ankh",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mark of the Nekrosor",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Murdermind",
+                                    "points": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.geomancer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Geomancer",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Geomancer",
+                    "points": 75,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.annihilationLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eldritch Nightmare",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eternal Madness",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Ingrained Superiority",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Souless Reaper",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.awakenedDynasty",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Enaegic Dermal Bond",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Nether-realm Casket",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Phasal Subjugator",
+                                    "points": 35
+                                },
+                                {
+                                    "name": "Veil of Darkness",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.canoptekCourt",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Autodivinator",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Dimensional Sanctum",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Hyperphasic Fulcrum",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Metalodermal Tesla Weave",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.hypercryptLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Arisen Tyrant",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Dimensional Overseer",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Hyperspatial Transfer Node",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Osteoclave Fulcrum",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.obeisancePhalanx",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eternal Conquerer",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Honourable Combatant",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Unflinching Will",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Warrior Noble",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.starshatterArsenal",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Miniaturised Nebuloscope",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Demanding Leader",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Chrono-Impedance Fields",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.cryptekConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Atomic Disintegrators",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Gauntlet of Compression",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Gravitic Bolas",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Quantum Abacus",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.cursedLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Cursed Circlet",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Destroyer Ankh",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mark of the Nekrosor",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Murdermind",
+                                    "points": 15
                                 }
                             ]
                         }
@@ -2446,6 +3316,64 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.cryptekConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Atomic Disintegrators",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Gauntlet of Compression",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Gravitic Bolas",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Quantum Abacus",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.cursedLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Cursed Circlet",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Destroyer Ankh",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mark of the Nekrosor",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Murdermind",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2586,6 +3514,60 @@
             ]
         },
         {
+            "id": "w40k.10e.nec.unit.tombCrawlers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Canoptek Tomb Crawlers",
+            "role": "BEAST",
+            "points": [
+                {
+                    "name": "Tomb Crawler",
+                    "amount": 2,
+                    "cost": 50
+                }
+            ],
+            "models": [
+                {
+                    "name": "Tomb Crawler",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Gauss Reaper"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Gauss Reaper"
+                                },
+                                {
+                                    "name": "Transdimensional Isolator"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Tomb Crawler",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Twin Gauss Reaper"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Gauss Reaper"
+                                },
+                                {
+                                    "name": "Transdimensional Isolator"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "w40k.10e.nec.unit.skorpekhDestroyers",
             "type": "unit",
             "rulesetId": "w40k.10e.nec",
@@ -2667,7 +3649,19 @@
             "models": [
                 {
                     "name": "C'tan Shard of the Deceiver",
-                    "points": 265
+                    "points": 285,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.pantheonWoe",
+                            "selectedOption": {
+                                "name": "Singularity Matrix",
+                                "points": 40
+                            },
+                            "selected": true
+                        }
+                    ]
                 }
             ]
         },
@@ -2680,7 +3674,19 @@
             "models": [
                 {
                     "name": "C'tan Shard of the Nightbringer",
-                    "points": 305
+                    "points": 315,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.pantheonWoe",
+                            "selectedOption": {
+                                "name": "Quantum Goad",
+                                "points": 30
+                            },
+                            "selected": true
+                        }
+                    ]
                 }
             ]
         },
@@ -2693,7 +3699,19 @@
             "models": [
                 {
                     "name": "C'tan Shard of the Void Dragon",
-                    "points": 300
+                    "points": 310,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.pantheonWoe",
+                            "selectedOption": {
+                                "name": "Animus Damper",
+                                "points": 20
+                            },
+                            "selected": true
+                        }
+                    ]
                 }
             ]
         },
@@ -2706,7 +3724,7 @@
             "models": [
                 {
                     "name": "Transcendant C'tan",
-                    "points": 295,
+                    "points": 305,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -2877,6 +3895,74 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.pantheonWoe",
+                            "selectedOption": {
+                                "name": "Reletavistic Tether",
+                                "points": 25
+                            },
+                            "selected": true
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.cryptekConclave",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Atomic Disintegrators",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Gauntlet of Compression",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Gravitic Bolas",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Quantum Abacus",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.nec.dt.cursedLegion",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Cursed Circlet",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Destroyer Ankh",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Mark of the Nekrosor",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Murdermind",
+                                    "points": 15
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3007,6 +4093,55 @@
                 },
                 {
                     "name": "Plasmacyte"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.nec.unit.canoptekMacrocytes",
+            "type": "unit",
+            "rulesetId": "w40k.10e.nec",
+            "name": "Canoptek Macrocytes",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Canoptek Macrocyte",
+                    "amount": 5,
+                    "cost": 85
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Canoptek Macrocyte",
+                    "min": 5,
+                    "max": 5
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Canoptek Macrocyte",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Gauss Scalpel"
+                            },
+                            "options": [
+                                {
+                                    "name": "Gauss Scalpel"
+                                },
+                                {
+                                    "name": "Tesla Caster"
+                                },
+                                {
+                                    "name": "Atomiser Beam, Nanoscarab Projector"
+                                },
+                                {
+                                    "name": "Accelerator Mandible"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
