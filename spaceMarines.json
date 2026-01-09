@@ -56,6 +56,24 @@
             "type": "detachment",
             "rulesetId": "w40k.10e.sm",
             "name": "Librarius Conclave"
+        },
+        {
+            "id": "w40k.10e.sm.dt.bastionTaskForce",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.sm",
+            "name": "Bastion Task Force"
+        },
+        {
+            "id": "w40k.10e.sm.dt.orbitalAssault",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.sm",
+            "name": "Orbital Assault Force"
+        },
+        {
+            "id": "w40k.10e.sm.dt.reclamationForce",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.sm",
+            "name": "Reclamation Force"
         }
     ],
     "units": [
@@ -315,6 +333,93 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.reclamationForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Avenging Avatar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Liberatum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scroll of Proclamation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Seals of Reconquest",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -589,6 +694,93 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.reclamationForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Avenging Avatar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Liberatum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scroll of Proclamation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Seals of Reconquest",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -834,6 +1026,93 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.reclamationForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Avenging Avatar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Liberatum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scroll of Proclamation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Seals of Reconquest",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1057,6 +1336,93 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.reclamationForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Avenging Avatar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Liberatum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scroll of Proclamation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Seals of Reconquest",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -1312,6 +1678,93 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.reclamationForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Avenging Avatar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Liberatum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scroll of Proclamation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Seals of Reconquest",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1537,6 +1990,93 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.reclamationForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Avenging Avatar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Liberatum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scroll of Proclamation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Seals of Reconquest",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1760,6 +2300,93 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.reclamationForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Avenging Avatar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Liberatum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scroll of Proclamation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Seals of Reconquest",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -2054,6 +2681,93 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.reclamationForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Avenging Avatar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Liberatum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scroll of Proclamation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Seals of Reconquest",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2306,6 +3020,93 @@
                                 {
                                     "name": "Prescience",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.reclamationForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Avenging Avatar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Liberatum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scroll of Proclamation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Seals of Reconquest",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -2575,6 +3376,93 @@
                                     "points": 20
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.reclamationForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Avenging Avatar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Liberatum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scroll of Proclamation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Seals of Reconquest",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2829,6 +3717,93 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.reclamationForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Avenging Avatar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Liberatum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scroll of Proclamation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Seals of Reconquest",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3068,6 +4043,93 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.reclamationForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Avenging Avatar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Liberatum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scroll of Proclamation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Seals of Reconquest",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3293,6 +4355,93 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.reclamationForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Avenging Avatar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Liberatum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scroll of Proclamation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Seals of Reconquest",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3516,6 +4665,93 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.reclamationForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Avenging Avatar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Liberatum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scroll of Proclamation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Seals of Reconquest",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -3778,6 +5014,93 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.reclamationForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Avenging Avatar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Liberatum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scroll of Proclamation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Seals of Reconquest",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -4001,6 +5324,93 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.reclamationForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Avenging Avatar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Liberatum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scroll of Proclamation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Seals of Reconquest",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -4535,6 +5945,93 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.reclamationForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Avenging Avatar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Liberatum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scroll of Proclamation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Seals of Reconquest",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -5187,6 +6684,93 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.reclamationForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Avenging Avatar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Liberatum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scroll of Proclamation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Seals of Reconquest",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -5410,6 +6994,93 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.reclamationForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Avenging Avatar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Liberatum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scroll of Proclamation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Seals of Reconquest",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -5651,6 +7322,93 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.reclamationForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Avenging Avatar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Liberatum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scroll of Proclamation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Seals of Reconquest",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -5874,6 +7632,93 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.reclamationForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Avenging Avatar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Liberatum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scroll of Proclamation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Seals of Reconquest",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -6128,6 +7973,93 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.reclamationForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Avenging Avatar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Liberatum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scroll of Proclamation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Seals of Reconquest",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -6607,6 +8539,93 @@
                                 {
                                     "name": "The Blade Driven Deep",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.sm.dt.reclamationForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Avenging Avatar",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Liberatum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Scroll of Proclamation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Seals of Reconquest",
+                                    "points": 20
                                 }
                             ]
                         }
