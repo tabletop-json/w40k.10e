@@ -84,6 +84,18 @@
             "rulesetId": "w40k.10e.bt",
             "name": "Wrathful Procession",
             "rule": ""
+        },
+        {
+            "id": "w40k.10e.bt.dt.bastionTaskForce",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.bt",
+            "name": "Bastion Task Force"
+        },
+        {
+            "id": "w40k.10e.bt.dt.orbitalAssault",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.bt",
+            "name": "Orbital Assault Force"
         }
     ],
     "units": [
@@ -455,6 +467,64 @@
                                 {
                                     "name": "Taramond's Censer",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -841,6 +911,64 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1198,6 +1326,64 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1533,6 +1719,64 @@
                                 {
                                     "name": "Taramond's Censer",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -1900,6 +2144,64 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2237,6 +2539,64 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2572,6 +2932,64 @@
                                 {
                                     "name": "Taramond's Censer",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -2978,6 +3396,64 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3342,6 +3818,64 @@
                                 {
                                     "name": "Prescience",
                                     "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -3723,6 +4257,64 @@
                                     "points": 20
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -4089,6 +4681,64 @@
                                     "points": 25
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -4444,6 +5094,64 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -4785,6 +5493,64 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -5124,6 +5890,64 @@
                                 {
                                     "name": "Benediction of Fury",
                                     "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -5502,6 +6326,64 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -5837,6 +6719,64 @@
                                 {
                                     "name": "Taramond's Censer",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -6486,6 +7426,64 @@
                                 {
                                     "name": "Taramond's Censer",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -7250,6 +8248,64 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -7585,6 +8641,64 @@
                                 {
                                     "name": "Taramond's Censer",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -7924,6 +9038,64 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -8259,6 +9431,64 @@
                                 {
                                     "name": "Taramond's Censer",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -8625,6 +9855,64 @@
                                 {
                                     "name": "Taramond's Censer",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -9216,6 +10504,64 @@
                                 {
                                     "name": "Taramond's Censer",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -12161,6 +13507,64 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -12513,6 +13917,64 @@
                                 {
                                     "name": "Taramond's Censer",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
                                 }
                             ]
                         }
@@ -12880,6 +14342,64 @@
                                     "points": 15
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
+                                }
+                            ]
                         }
                     ]
                 }
@@ -13229,6 +14749,64 @@
                                 {
                                     "name": "Taramond's Censer",
                                     "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dt.bastionTaskForce",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Blades of Valour",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Bombast Omnivox",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eye of the Primarch",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Hero of the Chapter",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.bt.dts.orbitalAssault",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dedicated Gunship",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Laurels of Thunder",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbital Uplink Reliquary",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Veteran of the Vanguard",
+                                    "points": 20
                                 }
                             ]
                         }
