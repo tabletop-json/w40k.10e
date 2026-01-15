@@ -1289,13 +1289,19 @@
                                     "name": "Plasma Pistol, Astartes Chainsword"
                                 },
                                 {
-                                    "name": "Flamer, Close Combat Weapon"
+                                    "name": "Bolt Pistol, Heavy Melee Weapon"
                                 },
                                 {
-                                    "name": "Meltagun, Close Combat Weapon"
+                                    "name": "Bolt Pistol, Mutations"
                                 },
                                 {
-                                    "name": "Plasma Gun, Close Combat Weapon"
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plasma Gun"
                                 }
                             ]
                         }
@@ -1331,7 +1337,7 @@
                                     "name": "Accursed Weapon"
                                 },
                                 {
-                                    "name": "Power Fist"
+                                    "name": "Heavy Melee Weapon"
                                 }
                             ]
                         }

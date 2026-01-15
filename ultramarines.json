@@ -11853,6 +11853,62 @@
             ]
         },
         {
+            "id": "w40k.10e.ult.unit.titus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ult",
+            "name": "Captain Titus",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Captain Titus",
+                    "points": 90,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ult.unit.wardensUltramar",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ult",
+            "name": "Wardens of Ultramar",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Ancient Gadriel, Veteran Sergeant Metaurus, Galus Silva, Aemelia Minervas, Dainal Kornelius, Lucia Vestha",
+                    "amount": 6,
+                    "cost": 90
+                }
+            ],
+            "models": [
+                {
+                    "name": "Ancient Gadriel"
+                },
+                {
+                    "name": "Veteran Sergeant Metaurus"
+                },
+                {
+                    "name": "Galus Silva"
+                },
+                {
+                    "name": "Aemelia Minervas"
+                },
+                {
+                    "name": "Dainal Kornelius"
+                },
+                {
+                    "name": "Lucia Vestha"
+                }
+            ]
+        },
+        {
             "id": "w40k.10e.ult.unit.robouteGuilliman",
             "type": "unit",
             "rulesetId": "w40k.10e.ult",
