@@ -90,6 +90,20 @@
             "rulesetId": "w40k.10e.csm",
             "name": "Nightmare Hunt",
             "rule": ""
+        },
+        {
+            "id": "w40k.10e.csm.dt.huronsMarauders",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Huron's Marauders",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.csm.dt.renegadeWarband",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Renegade Warband",
+            "rule": ""
         }
     ],
     "units": [
@@ -146,7 +160,7 @@
             "models": [
                 {
                     "name": "Huron Blackheart",
-                    "points": 80,
+                    "points": 120,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -481,6 +495,64 @@
                                 {
                                     "name": "Terrorglut Parasite",
                                     "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.huronsMarauders",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dread Reputation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Eager for Bloodshed",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Raid Leader",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Voice of the Tyrant",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.renegadeWarband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Empyric Symbiote",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eyes of the Hunter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fratricidal Trophies",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Weaponised Hatred",
+                                    "points": 60
                                 }
                             ]
                         }
@@ -839,6 +911,64 @@
                                 {
                                     "name": "Terrorglut Parasite",
                                     "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.huronsMarauders",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dread Reputation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Eager for Bloodshed",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Raid Leader",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Voice of the Tyrant",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.renegadeWarband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Empyric Symbiote",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eyes of the Hunter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fratricidal Trophies",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Weaponised Hatred",
+                                    "points": 60
                                 }
                             ]
                         }
@@ -1251,6 +1381,64 @@
                                     "points": 20
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.huronsMarauders",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dread Reputation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Eager for Bloodshed",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Raid Leader",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Voice of the Tyrant",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.renegadeWarband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Empyric Symbiote",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eyes of the Hunter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fratricidal Trophies",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Weaponised Hatred",
+                                    "points": 60
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1642,6 +1830,508 @@
                                 {
                                     "name": "Terrorglut Parasite",
                                     "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.huronsMarauders",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dread Reputation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Eager for Bloodshed",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Raid Leader",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Voice of the Tyrant",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.renegadeWarband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Empyric Symbiote",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eyes of the Hunter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fratricidal Trophies",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Weaponised Hatred",
+                                    "points": 60
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
+                    "selectedOption": {
+                        "name": ""
+                    },
+                    "options": [
+                        {
+                            "name": ""
+                        },
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.reaveCaptain",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Reave Captain",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Reave Captain",
+                    "points": 75,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Power Sword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Power Sword"
+                                },
+                                {
+                                    "name": "Power Maul"
+                                },
+                                {
+                                    "name": "Astartes Chainsword"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "Plasma Pistol"
+                            },
+                            "selected": false
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.chaosCult",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Amulet of Tainted Vigour",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Cultist's Brand",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Incendiary Goad",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Warped Foresight",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.deceptors",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Cursed Fang",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Falsehood",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Shroud of Obfuscation",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Soul Link",
+                                    "points": 5
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.dreadTalons",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eater of Dread",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Night's Shroud",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Warp-fuelled Thrusters",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Willbreaker",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.fellhammerSiegeHost",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Bastion Plate",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Iron Artifice",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Ironbound Enmity",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Warp Tracer",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eye of Tzeentch",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Intoxicating Elixir",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Orbs of Unlife",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Talisman of Burning Blood",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.renegadeRaiders",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Despot's Claim",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Dread Reaver",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mark of the Hound",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Tyrant's Lash",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.soulforgedWarpack",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Forge's Blessing",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Invigorated Mechatendrils",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Tempting Addendum",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Soul Harvester",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.veteransLongWar",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eager for Vengeance",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Eye of Abaddon",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mark of Legend",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Warmaster's Gift",
+                                    "points": 15
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.creationsBile",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Surgical Precision",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Living Carapace",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Helm of All-Seeing",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Prime Test Subject",
+                                    "points": 35
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.cabalChaos",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Touched by the Warp",
+                                    "points": 10
+                                },
+                                {
+                                    "name": "Eye of Z'desh",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Mind Blade",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Infernal Avatar",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.nightmareHunt",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Greyveil Hex",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Terrorglut Parasite",
+                                    "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.huronsMarauders",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dread Reputation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Eager for Bloodshed",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Raid Leader",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Voice of the Tyrant",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.renegadeWarband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Empyric Symbiote",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eyes of the Hunter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fratricidal Trophies",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Weaponised Hatred",
+                                    "points": 60
                                 }
                             ]
                         }
@@ -2037,6 +2727,64 @@
                                     "points": 20
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.huronsMarauders",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dread Reputation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Eager for Bloodshed",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Raid Leader",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Voice of the Tyrant",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.renegadeWarband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Empyric Symbiote",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eyes of the Hunter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fratricidal Trophies",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Weaponised Hatred",
+                                    "points": 60
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2428,6 +3176,64 @@
                                     "points": 20
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.huronsMarauders",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dread Reputation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Eager for Bloodshed",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Raid Leader",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Voice of the Tyrant",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.renegadeWarband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Empyric Symbiote",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eyes of the Hunter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fratricidal Trophies",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Weaponised Hatred",
+                                    "points": 60
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2792,6 +3598,64 @@
                                 {
                                     "name": "Terrorglut Parasite",
                                     "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.huronsMarauders",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dread Reputation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Eager for Bloodshed",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Raid Leader",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Voice of the Tyrant",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.renegadeWarband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Empyric Symbiote",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eyes of the Hunter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fratricidal Trophies",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Weaponised Hatred",
+                                    "points": 60
                                 }
                             ]
                         }
@@ -3181,6 +4045,64 @@
                                     "points": 20
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.huronsMarauders",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dread Reputation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Eager for Bloodshed",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Raid Leader",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Voice of the Tyrant",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.renegadeWarband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Empyric Symbiote",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eyes of the Hunter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fratricidal Trophies",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Weaponised Hatred",
+                                    "points": 60
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3565,6 +4487,64 @@
                                 {
                                     "name": "Terrorglut Parasite",
                                     "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.huronsMarauders",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dread Reputation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Eager for Bloodshed",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Raid Leader",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Voice of the Tyrant",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.renegadeWarband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Empyric Symbiote",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eyes of the Hunter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fratricidal Trophies",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Weaponised Hatred",
+                                    "points": 60
                                 }
                             ]
                         }
@@ -3953,6 +4933,64 @@
                                     "points": 20
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.huronsMarauders",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dread Reputation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Eager for Bloodshed",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Raid Leader",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Voice of the Tyrant",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.renegadeWarband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Empyric Symbiote",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eyes of the Hunter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fratricidal Trophies",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Weaponised Hatred",
+                                    "points": 60
+                                }
+                            ]
                         }
                     ]
                 }
@@ -4313,8 +5351,126 @@
                                     "points": 20
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.huronsMarauders",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dread Reputation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Eager for Bloodshed",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Raid Leader",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Voice of the Tyrant",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.renegadeWarband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Empyric Symbiote",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eyes of the Hunter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fratricidal Trophies",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Weaponised Hatred",
+                                    "points": 60
+                                }
+                            ]
                         }
                     ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
+                    "selectedOption": {
+                        "name": ""
+                    },
+                    "options": [
+                        {
+                            "name": ""
+                        },
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.mastersMaelstrom",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Masters of the Maelstrom",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Garreon the Corpsemaster, Garlon Souleater, Katar Garrix, Captain Sargotta, The Enforcer",
+                    "amount": 5,
+                    "cost": 115
+                }
+            ],
+            "models": [
+                {
+                    "name": "Garreon the Corpsemaster"
+                },
+                {
+                    "name": "Garlon Souleater"
+                },
+                {
+                    "name": "Katar Garrix"
+                },
+                {
+                    "name": "Captain Sargotta"
+                },
+                {
+                    "name": "The Enforcer"
                 }
             ],
             "gearset": [
@@ -4646,6 +5802,52 @@
                                 {
                                     "name": "Terrorglut Parasite",
                                     "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.huronsMarauders",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eager for Bloodshed",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.renegadeWarband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Empyric Symbiote",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eyes of the Hunter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fratricidal Trophies",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Weaponised Hatred",
+                                    "points": 60
                                 }
                             ]
                         }
@@ -4987,6 +6189,52 @@
                                 {
                                     "name": "Terrorglut Parasite",
                                     "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.huronsMarauders",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eager for Bloodshed",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.renegadeWarband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Empyric Symbiote",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eyes of the Hunter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fratricidal Trophies",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Weaponised Hatred",
+                                    "points": 60
                                 }
                             ]
                         }
@@ -6206,6 +7454,64 @@
                                     "points": 20
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.huronsMarauders",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Dread Reputation",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Eager for Bloodshed",
+                                    "points": 30
+                                },
+                                {
+                                    "name": "Raid Leader",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Voice of the Tyrant",
+                                    "points": 25
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.renegadeWarband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Empyric Symbiote",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eyes of the Hunter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fratricidal Trophies",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Weaponised Hatred",
+                                    "points": 60
+                                }
+                            ]
                         }
                     ]
                 }
@@ -6450,6 +7756,122 @@
                                 "name": "Chaos Icon"
                             },
                             "selected": false
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
+                    "selectedOption": {
+                        "name": ""
+                    },
+                    "options": [
+                        {
+                            "name": ""
+                        },
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.csm.unit.raiders",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Raiders",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Raider, Raider Champion",
+                    "amount": 10,
+                    "cost": 220
+                },
+                {
+                    "name": "Raider, Raider Champion",
+                    "amount": 5,
+                    "cost": 110
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Raider",
+                    "min": 4,
+                    "max": 9
+                },
+                {
+                    "type": "model",
+                    "name": "Raider Champion",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Raider",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Boltgun"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Reaver's Blade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Reaver's Blade"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Chosen Champion",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Hand Flamer"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -8705,6 +10127,52 @@
                                 {
                                     "name": "Terrorglut Parasite",
                                     "points": 20
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.huronsMarauders",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Eager for Bloodshed",
+                                    "points": 30
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.csm.dt.renegadeWarband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Empyric Symbiote",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Eyes of the Hunter",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Fratricidal Trophies",
+                                    "points": 5
+                                },
+                                {
+                                    "name": "Weaponised Hatred",
+                                    "points": 60
                                 }
                             ]
                         }
