@@ -50,6 +50,13 @@
             "rulesetId": "w40k.10e.vtn",
             "name": "Persecution Prospect",
             "rule": ""
+        },
+        {
+            "id": "w40k.10e.vtn.dt.mercenaryOathband",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Mercenary Oathband",
+            "rule": ""
         }
     ],
     "units": [
@@ -330,6 +337,35 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.mercenaryOathband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Asset Manipulator",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Etacarn SB9 Targeting Implant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mercenary Prospector",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Metaphysical Brokerage",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -526,6 +562,35 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.mercenaryOathband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Asset Manipulator",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Etacarn SB9 Targeting Implant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mercenary Prospector",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Metaphysical Brokerage",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -719,6 +784,35 @@
                                 },
                                 {
                                     "name": "Writ of Acquisition",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.mercenaryOathband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Asset Manipulator",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Etacarn SB9 Targeting Implant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mercenary Prospector",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Metaphysical Brokerage",
                                     "points": 10
                                 }
                             ]
@@ -946,6 +1040,35 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.mercenaryOathband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Asset Manipulator",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Etacarn SB9 Targeting Implant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mercenary Prospector",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Metaphysical Brokerage",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1142,6 +1265,35 @@
                                     "points": 10
                                 }
                             ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.mercenaryOathband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Asset Manipulator",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Etacarn SB9 Targeting Implant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mercenary Prospector",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Metaphysical Brokerage",
+                                    "points": 10
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1335,6 +1487,35 @@
                                 },
                                 {
                                     "name": "Writ of Acquisition",
+                                    "points": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "color": "green",
+                            "detachmentId": "w40k.10e.vtn.dt.mercenaryOathband",
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Asset Manipulator",
+                                    "points": 25
+                                },
+                                {
+                                    "name": "Etacarn SB9 Targeting Implant",
+                                    "points": 15
+                                },
+                                {
+                                    "name": "Mercenary Prospector",
+                                    "points": 20
+                                },
+                                {
+                                    "name": "Metaphysical Brokerage",
                                     "points": 10
                                 }
                             ]
