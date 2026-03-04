@@ -92,6 +92,28 @@
             ]
         },
         {
+            "id": "w40k.10e.tau.unit.twinLance",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tau",
+            "name": "The Twin Lance",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "The Twin Lance",
+                    "points": 160,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "w40k.10e.tau.unit.commanderEnforcerBattlesuit",
             "type": "unit",
             "rulesetId": "w40k.10e.tau",
