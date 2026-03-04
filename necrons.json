@@ -74,7 +74,7 @@
             "models": [
                 {
                     "name": "Nekrosor Ammentar",
-                    "points": 165,
+                    "points": 185,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -3649,7 +3649,7 @@
             "models": [
                 {
                     "name": "C'tan Shard of the Deceiver",
-                    "points": 285,
+                    "points": 295,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -3657,7 +3657,7 @@
                             "detachmentId": "w40k.10e.nec.dt.pantheonWoe",
                             "selectedOption": {
                                 "name": "Singularity Matrix",
-                                "points": 40
+                                "points": 55
                             },
                             "selected": true
                         }
@@ -3674,7 +3674,7 @@
             "models": [
                 {
                     "name": "C'tan Shard of the Nightbringer",
-                    "points": 315,
+                    "points": 325,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -3682,7 +3682,7 @@
                             "detachmentId": "w40k.10e.nec.dt.pantheonWoe",
                             "selectedOption": {
                                 "name": "Quantum Goad",
-                                "points": 30
+                                "points": 45
                             },
                             "selected": true
                         }
@@ -3699,7 +3699,7 @@
             "models": [
                 {
                     "name": "C'tan Shard of the Void Dragon",
-                    "points": 310,
+                    "points": 320,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -3707,7 +3707,7 @@
                             "detachmentId": "w40k.10e.nec.dt.pantheonWoe",
                             "selectedOption": {
                                 "name": "Animus Damper",
-                                "points": 20
+                                "points": 35
                             },
                             "selected": true
                         }
@@ -3724,7 +3724,7 @@
             "models": [
                 {
                     "name": "Transcendant C'tan",
-                    "points": 305,
+                    "points": 315,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -3902,7 +3902,7 @@
                             "detachmentId": "w40k.10e.nec.dt.pantheonWoe",
                             "selectedOption": {
                                 "name": "Reletavistic Tether",
-                                "points": 25
+                                "points": 40
                             },
                             "selected": true
                         },

@@ -80,7 +80,7 @@
             "models": [
                 {
                     "name": "Asurmen",
-                    "points": 125,
+                    "points": 135,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -3763,7 +3763,7 @@
                 {
                     "name": "Wraithblade",
                     "amount": 5,
-                    "cost": 160
+                    "cost": 150
                 }
             ],
             "restrictions": [
@@ -3806,7 +3806,7 @@
                 {
                     "name": "Wraithguard",
                     "amount": 5,
-                    "cost": 170
+                    "cost": 160
                 }
             ],
             "restrictions": [
@@ -4006,7 +4006,7 @@
             "models": [
                 {
                     "name": "Wraithlord",
-                    "points": 140,
+                    "points": 130,
                     "gearset": [
                         {
                             "type": "dropdown",

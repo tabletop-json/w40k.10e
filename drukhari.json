@@ -419,7 +419,7 @@
             "models": [
                 {
                     "name": "Haemonculus",
-                    "points": 70,
+                    "points": 60,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -1078,17 +1078,12 @@
             ]
         },
         {
-            "id": "w40k.10e.duk.unit.scourges",
+            "id": "w40k.10e.duk.unit.scourgesHeavyWeapons",
             "type": "unit",
             "rulesetId": "w40k.10e.duk",
             "name": "Scourges",
             "role": "INFANTRY",
             "points": [
-                {
-                    "name": "Scourge, Solarite",
-                    "amount": 10,
-                    "cost": 180
-                },
                 {
                     "name": "Scourge, Solarite",
                     "amount": 5,
@@ -1100,7 +1095,7 @@
                     "type": "model",
                     "name": "Scourge",
                     "min": 4,
-                    "max": 9
+                    "max": 4
                 },
                 {
                     "type": "model",
@@ -1116,11 +1111,11 @@
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Shardcarbine"
+                                "name": "Splinter Cannon"
                             },
                             "options": [
                                 {
-                                    "name": "Shardcarbine"
+                                    "name": "Splinter Cannon"
                                 },
                                 {
                                     "name": "Blaster"
@@ -1129,16 +1124,13 @@
                                     "name": "Dark Lance"
                                 },
                                 {
-                                    "name": "Drukhari Haywire Blaster"
+                                    "name": "Haywire Blaster"
                                 },
                                 {
                                     "name": "Heat Lance"
                                 },
                                 {
                                     "name": "Shredder"
-                                },
-                                {
-                                    "name": "Splinter Cannon"
                                 }
                             ]
                         }
@@ -1165,11 +1157,90 @@
                             ]
                         },
                         {
-                            "type": "checkbox",
+                            "type": "text",
                             "selectedOption": {
-                                "name": "Solarite Weapon"
+                                "name": "Power Weapon"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.duk.unit.scourgesShardcarbine",
+            "type": "unit",
+            "rulesetId": "w40k.10e.duk",
+            "name": "Scourges",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Scourge, Solarite",
+                    "amount": 5,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Scourge",
+                    "min": 4,
+                    "max": 4
+                },
+                {
+                    "type": "model",
+                    "name": "Solarite",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Scourge",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shardcarbine"
                             },
-                            "selected": false
+                            "options": [
+                                {
+                                    "name": "Shardcarbine"
+                                },
+                                {
+                                    "name": "Blaster"
+                                },
+                                {
+                                    "name": "Shredder"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Solarite",
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Shardcarbine"
+                            },
+                            "options": [
+                                {
+                                    "name": "Shardcarbine"
+                                },
+                                {
+                                    "name": "Splinter Pistol"
+                                },
+                                {
+                                    "name": "Blast Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Power Weapon"
+                            }
                         }
                     ]
                 }
@@ -1482,12 +1553,17 @@
                 {
                     "name": "Wrack, Acothyst",
                     "amount": 10,
-                    "cost": 130
+                    "cost": 120
+                },
+                {
+                    "name": "Wrack, Acothyst",
+                    "amount": 8,
+                    "cost": 100
                 },
                 {
                     "name": "Wrack, Acothyst",
                     "amount": 5,
-                    "cost": 65
+                    "cost": 60
                 }
             ],
             "restrictions": [
