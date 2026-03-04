@@ -83,6 +83,28 @@
             ]
         },
         {
+            "id": "w40k.10e.vtn.unit.berehkStornbrow",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Berehk Stornbrow",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Berehk Stornbrow",
+                    "points": 110,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "w40k.10e.vtn.unit.buri",
             "type": "unit",
             "rulesetId": "w40k.10e.vtn",
