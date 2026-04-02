@@ -152,6 +152,28 @@
             ]
         },
         {
+            "id": "w40k.10e.csm.unit.kravekMorne",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Kravek Morne",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Kravek Morne",
+                    "points": 120,
+                    "gearset": [
+                        {
+                            "type": "checkbox",
+                            "selectedOption": {
+                                "name": "WARLORD"
+                            },
+                            "selected": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "w40k.10e.csm.unit.huronBlackheart",
             "type": "unit",
             "rulesetId": "w40k.10e.csm",
@@ -8613,6 +8635,70 @@
             ]
         },
         {
+            "id": "w40k.10e.csm.unit.mutilators",
+            "type": "unit",
+            "rulesetId": "w40k.10e.csm",
+            "name": "Mutilators",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Mutilator",
+                    "amount": 3,
+                    "cost": 160
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Mutilator",
+                    "min": 3,
+                    "max": 3
+                }
+            ],
+            "blueprints": [
+                {
+                    "name": "Mutilator",
+                    "gearset": [
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Fleshmetal Weapons"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "gearset": [
+                {
+                    "type": "dropdown",
+                    "detachmentId": "w40k.10e.csm.dt.pactboundZealots",
+                    "selectedOption": {
+                        "name": ""
+                    },
+                    "options": [
+                        {
+                            "name": ""
+                        },
+                        {
+                            "name": "Chaos Undivided"
+                        },
+                        {
+                            "name": "Khorne"
+                        },
+                        {
+                            "name": "Tzeentch"
+                        },
+                        {
+                            "name": "Nurgle"
+                        },
+                        {
+                            "name": "Slaanesh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "w40k.10e.csm.unit.landRaider",
             "type": "unit",
             "rulesetId": "w40k.10e.csm",
@@ -8958,69 +9044,80 @@
             "models": [
                 {
                     "name": "Defiler",
-                    "points": 190,
+                    "points": 250,
                     "gearset": [
                         {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Hades Battle Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hades Battle Cannon"
+                                },
+                                {
+                                    "name": "Ectoplasma Decimator"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "2x Excruciator Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "2x Excruciator Cannon"
+                                },
+                                {
+                                    "name": "2x Magma Cutter"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Baleflamer"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Baleflamer"
+                                },
+                                {
+                                    "name": "Hades Lascannnon"
+                                },
+                                {
+                                    "name": "Heavy Reaper Autocannon"
+                                },
+                                {
+                                    "name": "Electroscourge"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Missile Launcher"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Missile Launcher"
+                                },
+                                {
+                                    "name": "Hades Lascannnon"
+                                },
+                                {
+                                    "name": "Heavy Reaper Autocannon"
+                                },
+                                {
+                                    "name": "Electroscourge"
+                                }
+                            ]
+                        },
+                        {
                             "type": "text",
                             "selectedOption": {
-                                "name": "Defiler Cannon"
-                            }
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Twin Heavy Flamer"
-                            },
-                            "options": [
-                                {
-                                    "name": "Twin Heavy Flamer"
-                                },
-                                {
-                                    "name": "Havoc Launcher"
-                                },
-                                {
-                                    "name": "Defiler Scourge"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Reaper Autocannon"
-                            },
-                            "options": [
-                                {
-                                    "name": "Reaper Autocannon"
-                                },
-                                {
-                                    "name": "Twin Heavy Bolter"
-                                },
-                                {
-                                    "name": "Twin Lascannon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Combi-bolter"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Defiler Claws"
+                                "name": "Shearing Claws"
                             }
                         }
                     ]

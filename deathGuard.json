@@ -3310,69 +3310,80 @@
             "models": [
                 {
                     "name": "Defiler",
-                    "points": 165,
+                    "points": 250,
                     "gearset": [
                         {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Hades Battle Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hades Battle Cannon"
+                                },
+                                {
+                                    "name": "Ectoplasma Decimator"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "2x Excruciator Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "2x Excruciator Cannon"
+                                },
+                                {
+                                    "name": "2x Magma Cutter"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Baleflamer"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Baleflamer"
+                                },
+                                {
+                                    "name": "Hades Lascannnon"
+                                },
+                                {
+                                    "name": "Heavy Reaper Autocannon"
+                                },
+                                {
+                                    "name": "Electroscourge"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Missile Launcher"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Missile Launcher"
+                                },
+                                {
+                                    "name": "Hades Lascannnon"
+                                },
+                                {
+                                    "name": "Heavy Reaper Autocannon"
+                                },
+                                {
+                                    "name": "Electroscourge"
+                                }
+                            ]
+                        },
+                        {
                             "type": "text",
                             "selectedOption": {
-                                "name": "Defiler Cannon"
-                            }
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Twin Heavy Flamer"
-                            },
-                            "options": [
-                                {
-                                    "name": "Twin Heavy Flamer"
-                                },
-                                {
-                                    "name": "Havoc Launcher"
-                                },
-                                {
-                                    "name": "Defiler Scourge"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": "Reaper Autocannon"
-                            },
-                            "options": [
-                                {
-                                    "name": "Reaper Autocannon"
-                                },
-                                {
-                                    "name": "Twin Plague Heavy Bolter"
-                                },
-                                {
-                                    "name": "Twin Lascannon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "dropdown",
-                            "selectedOption": {
-                                "name": ""
-                            },
-                            "options": [
-                                {
-                                    "name": ""
-                                },
-                                {
-                                    "name": "Plague Combi-bolter"
-                                },
-                                {
-                                    "name": "Combi-weapon"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "text",
-                            "selectedOption": {
-                                "name": "Defiler Claws"
+                                "name": "Shearing Claws"
                             }
                         }
                     ]
