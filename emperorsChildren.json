@@ -1809,6 +1809,95 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": "w40k.10e.ec.unit.defiler",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ec",
+            "name": "Defiler",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Defiler",
+                    "points": 250,
+                    "gearset": [
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Hades Battle Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hades Battle Cannon"
+                                },
+                                {
+                                    "name": "Ectoplasma Decimator"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "2x Excruciator Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "2x Excruciator Cannon"
+                                },
+                                {
+                                    "name": "2x Magma Cutter"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Baleflamer"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Baleflamer"
+                                },
+                                {
+                                    "name": "Hades Lascannnon"
+                                },
+                                {
+                                    "name": "Heavy Reaper Autocannon"
+                                },
+                                {
+                                    "name": "Electroscourge"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Missile Launcher"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Missile Launcher"
+                                },
+                                {
+                                    "name": "Hades Lascannnon"
+                                },
+                                {
+                                    "name": "Heavy Reaper Autocannon"
+                                },
+                                {
+                                    "name": "Electroscourge"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Shearing Claws"
+                            }
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

@@ -3649,7 +3649,7 @@
             "models": [
                 {
                     "name": "C'tan Shard of the Deceiver",
-                    "points": 295,
+                    "points": 310,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -3659,7 +3659,7 @@
                                 "name": "Singularity Matrix",
                                 "points": 55
                             },
-                            "selected": true
+                            "selected": false
                         }
                     ]
                 }
@@ -3674,7 +3674,7 @@
             "models": [
                 {
                     "name": "C'tan Shard of the Nightbringer",
-                    "points": 325,
+                    "points": 340,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -3684,7 +3684,7 @@
                                 "name": "Quantum Goad",
                                 "points": 45
                             },
-                            "selected": true
+                            "selected": false
                         }
                     ]
                 }
@@ -3699,7 +3699,7 @@
             "models": [
                 {
                     "name": "C'tan Shard of the Void Dragon",
-                    "points": 320,
+                    "points": 330,
                     "gearset": [
                         {
                             "type": "checkbox",
@@ -3709,7 +3709,7 @@
                                 "name": "Animus Damper",
                                 "points": 35
                             },
-                            "selected": true
+                            "selected": false
                         }
                     ]
                 }
@@ -3724,7 +3724,7 @@
             "models": [
                 {
                     "name": "Transcendant C'tan",
-                    "points": 315,
+                    "points": 325,
                     "gearset": [
                         {
                             "type": "dropdown",
@@ -3904,7 +3904,7 @@
                                 "name": "Reletavistic Tether",
                                 "points": 40
                             },
-                            "selected": true
+                            "selected": false
                         },
                         {
                             "type": "dropdown",

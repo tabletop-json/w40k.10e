@@ -388,48 +388,81 @@
             "models": [
                 {
                     "name": "Defiler",
-                    "points": 165,
+                    "points": 250,
                     "gearset": [
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Twin Heavy Flamer"
+                                "name": "Hades Battle Cannon"
                             },
                             "options": [
                                 {
-                                    "name": "Twin Heavy Flamer"
+                                    "name": "Hades Battle Cannon"
                                 },
                                 {
-                                    "name": "Havoc Launcher"
-                                },
-                                {
-                                    "name": "Defiler Scourge"
+                                    "name": "Ectoplasma Decimator"
                                 }
                             ]
                         },
                         {
                             "type": "dropdown",
                             "selectedOption": {
-                                "name": "Reaper Autocannon"
+                                "name": "2x Excruciator Cannon"
                             },
                             "options": [
                                 {
-                                    "name": "Reaper Autocannon"
+                                    "name": "2x Excruciator Cannon"
                                 },
                                 {
-                                    "name": "Twin Inferno Heavy Bolter"
-                                },
-                                {
-                                    "name": "Twin Lascannon"
+                                    "name": "2x Magma Cutter"
                                 }
                             ]
                         },
                         {
-                            "type": "checkbox",
+                            "type": "dropdown",
                             "selectedOption": {
-                                "name": "Inferno Combi-weapon"
+                                "name": "Heavy Baleflamer"
                             },
-                            "selected": false
+                            "options": [
+                                {
+                                    "name": "Heavy Baleflamer"
+                                },
+                                {
+                                    "name": "Hades Lascannnon"
+                                },
+                                {
+                                    "name": "Heavy Reaper Autocannon"
+                                },
+                                {
+                                    "name": "Electroscourge"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "dropdown",
+                            "selectedOption": {
+                                "name": "Heavy Missile Launcher"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Missile Launcher"
+                                },
+                                {
+                                    "name": "Hades Lascannnon"
+                                },
+                                {
+                                    "name": "Heavy Reaper Autocannon"
+                                },
+                                {
+                                    "name": "Electroscourge"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "selectedOption": {
+                                "name": "Shearing Claws"
+                            }
                         }
                     ]
                 }

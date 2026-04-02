@@ -11681,28 +11681,6 @@
             ]
         },
         {
-            "id": "w40k.10e.ult.unit.captainSicarius",
-            "type": "unit",
-            "rulesetId": "w40k.10e.ult",
-            "name": "Captain Sicarius",
-            "role": "CHARACTER",
-            "models": [
-                {
-                    "name": "Captain Sicarius",
-                    "points": 85,
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "id": "w40k.10e.ult.unit.chaplainCassius",
             "type": "unit",
             "rulesetId": "w40k.10e.ult",
@@ -11765,40 +11743,6 @@
                             "selected": false
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "id": "w40k.10e.ult.unit.marneusCalgar",
-            "type": "unit",
-            "rulesetId": "w40k.10e.ult",
-            "name": "Marneus Calgar",
-            "role": "CHARACTER",
-            "points": [
-                {
-                    "name": "Marneus Calgar, Victrix Honour Guard",
-                    "amount": 3,
-                    "cost": 200
-                }
-            ],
-            "models": [
-                {
-                    "name": "Marneus Calgar",
-                    "gearset": [
-                        {
-                            "type": "checkbox",
-                            "selectedOption": {
-                                "name": "WARLORD"
-                            },
-                            "selected": false
-                        }
-                    ]
-                },
-                {
-                    "name": "Victrix Honour Guard"
-                },
-                {
-                    "name": "Victrix Honour Guard"
                 }
             ]
         },
